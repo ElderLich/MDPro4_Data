@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Preserve original native Solo text bytes outside shipped locale folders.
+Data/locales/*/Solo[[:space:]]Gates/Master[[:space:]]Duel/IDS_*.txt -text -whitespace
