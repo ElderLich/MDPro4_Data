@@ -1,0 +1,579 @@
+{
+  "schemaVersion": 1,
+  "bots": {
+    "random:AI_LV1": {
+      "label": "Random Draft - Very Easy",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "random:AI_LV2": {
+      "label": "Random Draft - Easy",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "random:AI_LV3": {
+      "label": "Random Draft - Normal",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "random:AI_LV4": {
+      "label": "Random Draft - Classic",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "random:AI_WILD": {
+      "label": "Random Draft - Wild",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "random:AI_ANTI_META": {
+      "label": "Random Draft - Anti-Meta",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "custom:Lucky": {
+      "label": "Dovphin - Use your Deck",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:MokeyMokey": {
+      "label": "Mokey Mokey",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:MokeyMokeyKing": {
+      "label": "Mokey Mokey King",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Burn": {
+      "label": "Burn",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Frog": {
+      "label": "Frog",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Horus": {
+      "label": "Horus",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:ST1732": {
+      "label": "Cyberse",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Dragunity": {
+      "label": "Dragunity",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Level VIII": {
+      "label": "LV8",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Rank V": {
+      "label": "RANK5",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Zexal Weapons": {
+      "label": "Zexal Weapons",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Rainbow": {
+      "label": "Rainbow",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:TimeThief": {
+      "label": "Time Thief",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:PureWinds": {
+      "label": "Pure Winds",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Chaos408": {
+      "label": "Chaos (2004)",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:HeroBeat1103": {
+      "label": "HERO Beat (2011)",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Monarch506": {
+      "label": "Monarch (2007)",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Toadally Awesome": {
+      "label": "Toadally Awesome",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Blue-Eyes": {
+      "label": "Blue-Eyes",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:SkyStriker": {
+      "label": "Sky Striker Ace",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Orcust": {
+      "label": "Orcust",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Salamangreat": {
+      "label": "Salamangreat",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:LightswornShaddoldinosour": {
+      "label": "El Shaddoll",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:DarkMagician": {
+      "label": "Dark Magician",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:BlueEyesMaxDragon": {
+      "label": "Chaos-MAX",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Lightsworn": {
+      "label": "Lightsworn",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Voiceless": {
+      "label": "Voiceless Voice",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Zoodiac": {
+      "label": "Zoodiac",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Trickstar": {
+      "label": "Trickstar",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Altergeist": {
+      "label": "Altergeist",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Labrynth": {
+      "label": "Labrynth",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Yubel": {
+      "label": "Yubel",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:MalissOCG": {
+      "label": "OCG Maliss",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Maliss": {
+      "label": "MD Maliss",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Ryzeal": {
+      "label": "Ryzeal",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Dragun": {
+      "label": "Dragun",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Brave": {
+      "label": "Brave",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Witchcraft": {
+      "label": "Witchcraft",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Exosister": {
+      "label": "Exosister",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Swordsoul": {
+      "label": "Swordsoul",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Dogmatika": {
+      "label": "Dogmatika",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Albaz": {
+      "label": "Albaz",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Kashtira": {
+      "label": "Kashtira",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Zefra": {
+      "label": "Zefra",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:SuperheavySamurai": {
+      "label": "Superheavy Samurai",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Apophis": {
+      "label": "Apophis",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:BE2025": {
+      "label": "Blue-Eyes 2025",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:SacredBeast": {
+      "label": "Sacred Beasts",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Neko": {
+      "label": "Yummy",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Tearlaments": {
+      "label": "Tearlaments",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Archfiend": {
+      "label": "Archfiend",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Ashtra": {
+      "label": "Ashtra",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Enneacraft": {
+      "label": "Enneacraft",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Pumpking": {
+      "label": "Pumpking",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Rank8": {
+      "label": "Rank 8",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:ChaosRitual": {
+      "label": "Ritual of Light and Darkness",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Elfnote": {
+      "label": "Elfnote",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:RadiantTyphoon": {
+      "label": "Radiant Typhoon",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:TheCrimsonKing": {
+      "label": "The Crimson King",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:ThunderDragon": {
+      "label": "Thunder Dragon",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Yosenju": {
+      "label": "Yosenju",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Qliphort": {
+      "label": "Qliphort",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:FamiliarPossessed": {
+      "label": "Familiar-Possessed",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Phantasm": {
+      "label": "Phantasm",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:ChainBurn": {
+      "label": "Chain Burn",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:GrenMajuThunderBoarder": {
+      "label": "Gren Maju",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:RushDragonDragears": {
+      "label": "Rush Dragon Dragears",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:BusterBlader": {
+      "label": "Buster Blader",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:DinocarriageDynarmix": {
+      "label": "Dinocarriage Dynarmix",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:SaikyoBattleFlag": {
+      "label": "Saikyo Battle Flag",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Excutie": {
+      "label": "Excutie",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:ObsidianMagical": {
+      "label": "Obsidian Magical",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:TheLegend": {
+      "label": "The Legend",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:Mituzi": {
+      "label": "Mituzi",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:MathMech": {
+      "label": "MathMech",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    },
+    "deck:OldSchool": {
+      "label": "OldSchool",
+      "artwork": {
+        "type": "auto",
+        "value": 0
+      }
+    }
+  }
+}
