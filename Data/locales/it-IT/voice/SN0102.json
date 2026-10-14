@@ -25,7 +25,8 @@
       "card": [],
       "duelist": [
         101,
-        115
+        115,
+        158
       ],
       "text": "Jaden, in passato mi hai dimostrato di essere uno sfidante esemplare."
     },
@@ -1150,7 +1151,7 @@
     "V0102_13_00_01_0": {
       "face": 7,
       "frame": 1,
-      "cutin": 0,
+      "cutin": 1,
       "card": [
         6396
       ],
@@ -1170,7 +1171,7 @@
     "V0102_13_00_03_0": {
       "face": 7,
       "frame": 1,
-      "cutin": 0,
+      "cutin": 1,
       "card": [
         6568
       ],
@@ -1180,7 +1181,7 @@
     "V0102_13_00_04_0": {
       "face": 7,
       "frame": 1,
-      "cutin": 0,
+      "cutin": 1,
       "card": [
         6569
       ],
@@ -1248,7 +1249,7 @@
     "V0102_13_00_10_0": {
       "face": 7,
       "frame": 1,
-      "cutin": 1,
+      "cutin": 2,
       "card": [
         7403
       ],
@@ -1268,7 +1269,7 @@
     "V0102_13_00_12_0": {
       "face": 7,
       "frame": 1,
-      "cutin": 1,
+      "cutin": 2,
       "card": [
         8430
       ],
@@ -1278,7 +1279,7 @@
     "V0102_13_00_12_1": {
       "face": 7,
       "frame": 1,
-      "cutin": 1,
+      "cutin": 2,
       "card": [],
       "duelist": [],
       "text": "Ammira Cyber Eltanin!"
@@ -1376,7 +1377,7 @@
     "V0102_13_00_22_0": {
       "face": 7,
       "frame": 1,
-      "cutin": 0,
+      "cutin": 1,
       "card": [
         9041
       ],
@@ -1386,7 +1387,7 @@
     "V0102_13_00_22_1": {
       "face": 7,
       "frame": 1,
-      "cutin": 0,
+      "cutin": 1,
       "card": [],
       "duelist": [],
       "text": "Fatti avanti, Cyber Drago Finale Maligno!"
@@ -1394,7 +1395,7 @@
     "V0102_13_00_23_0": {
       "face": 7,
       "frame": 1,
-      "cutin": 0,
+      "cutin": 1,
       "card": [
         11764
       ],
@@ -1404,7 +1405,7 @@
     "V0102_13_00_24_0": {
       "face": 7,
       "frame": 1,
-      "cutin": 1,
+      "cutin": 2,
       "card": [
         11765
       ],
@@ -1444,7 +1445,7 @@
     "V0102_13_00_28_0": {
       "face": 7,
       "frame": 1,
-      "cutin": 0,
+      "cutin": 2,
       "card": [
         10870
       ],
@@ -2262,7 +2263,8 @@
       "card": [],
       "duelist": [
         101,
-        115
+        115,
+        158
       ],
       "text": "Jaden, sarai il migliore studente qui, a prescindere dai tuoi voti."
     },
@@ -2599,6 +2601,1238 @@
       "card": [],
       "duelist": [],
       "text": "Gaaah!"
+    },
+    "V0102_07_14_00_0": {
+      "face": 1,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Attivo un Effetto Pendulum!"
+    },
+    "V0102_07_15_00_0": {
+      "face": 1,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Attivo una Magia Rituale!"
+    },
+    "V0102_11_04_01_0": {
+      "face": 1,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Evocazione tramite Tributo!"
+    },
+    "V0102_11_05_01_0": {
+      "face": 1,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Evocazione tramite Fusione!"
+    },
+    "V0102_11_06_01_0": {
+      "face": 1,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Evocazione tramite Rituale!"
+    },
+    "V0102_11_07_01_0": {
+      "face": 1,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Synchro Evocazione!"
+    },
+    "V0102_11_08_01_0": {
+      "face": 1,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Evocazione Xyz!"
+    },
+    "V0102_11_09_01_0": {
+      "face": 1,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Evocazione Pendulum!"
+    },
+    "V0102_11_10_01_0": {
+      "face": 1,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Evocazione Link!"
+    },
+    "V0102_11_11_00_0": {
+      "face": 1,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Evoco Maximum un mostro!"
+    },
+    "V0102_11_11_01_0": {
+      "face": 1,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Evocazione Maximum!"
+    },
+    "V0102_11_12_00_0": {
+      "face": 1,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Evoco un mostro tramite Fusione!"
+    },
+    "V0102_11_12_01_0": {
+      "face": 1,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Evocazione tramite Fusione!"
+    },
+    "V0102_11_13_00_0": {
+      "face": 1,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Evoco un mostro tramite Fusione Contatto!"
+    },
+    "V0102_11_13_01_0": {
+      "face": 1,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Fusione Contatto!"
+    },
+    "V0102_11_14_00_0": {
+      "face": 1,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Evoco un mostro tramite Rituale!"
+    },
+    "V0102_11_14_01_0": {
+      "face": 1,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Evocazione tramite Rituale!"
+    },
+    "V0102_21_00_03_0": {
+      "face": 2,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Eh eh...\nPosso eliminarti quando voglio!"
+    },
+    "V0102_21_00_03_1": {
+      "face": 2,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Termino il mio turno!"
+    },
+    "V0102_21_00_04_0": {
+      "face": 1,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Così si conclude il mio turno!"
+    },
+    "V0102_21_00_05_0": {
+      "face": 3,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Grrr... Non perderò!"
+    },
+    "V0102_21_00_05_1": {
+      "face": 3,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Termino il mio turno!"
+    },
+    "V0102_36_00_00_0": {
+      "face": 7,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Soffia loro la vittoria sotto il naso!"
+    },
+    "V0102_36_00_01_0": {
+      "face": 1,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Fai tutto il necessario per assicurarmi di vincere!"
+    },
+    "V0102_36_00_02_0": {
+      "face": 3,
+      "frame": 0,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Grrr...\nNon posso accettare di perdere!"
+    },
+    "V0102_08_00_31_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        6782
+      ],
+      "duelist": [],
+      "text": "Si attiva l'effetto di Fusione Futura!"
+    },
+    "V0102_08_00_32_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        22721
+      ],
+      "duelist": [],
+      "text": "Attivo la Magia Continua, Nova Fusione Futura!"
+    },
+    "V0102_08_00_33_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        19233
+      ],
+      "duelist": [],
+      "text": "Attivo la mia Magia Continua!\nFusione Futura Sovraccarico!"
+    },
+    "V0102_08_00_34_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        19233
+      ],
+      "duelist": [],
+      "text": "Attivo l'effetto di Fusione Futura Sovraccarico!"
+    },
+    "V0102_08_00_35_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        4909
+      ],
+      "duelist": [],
+      "text": "La mia Magia Rapida Tifone Spaziale Mistico!"
+    },
+    "V0102_08_00_36_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        4844
+      ],
+      "duelist": [],
+      "text": "Attivo la mia Carta Magia!\nAnfora dell'Avidità!"
+    },
+    "V0102_08_00_37_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        4989
+      ],
+      "duelist": [],
+      "text": "Attivo la mia Trappola Continua!\nRichiamo del Posseduto!"
+    },
+    "V0102_08_00_38_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        6858
+      ],
+      "duelist": [],
+      "text": "Attivo l'effetto di Cyber Ombra Gardna!"
+    },
+    "V0102_08_00_39_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        7468
+      ],
+      "duelist": [],
+      "text": "Attivo l'effetto di Tecnologia Cibernetica Nascosta!"
+    },
+    "V0102_08_00_40_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        10869
+      ],
+      "duelist": [],
+      "text": "Attivo l'effetto di Cyber Network!"
+    },
+    "V0102_08_00_41_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        10869
+      ],
+      "duelist": [],
+      "text": "Cyber Network si attiva quando viene mandato al Cimitero!"
+    },
+    "V0102_08_00_42_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        16297
+      ],
+      "duelist": [],
+      "text": "Attivo la mia Magia Rapida!\nCyber Eterno!"
+    },
+    "V0102_08_00_43_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        8428
+      ],
+      "duelist": [],
+      "text": "Attivo la Carta Magia Cyber Emergenza!"
+    },
+    "V0102_08_00_44_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        8428
+      ],
+      "duelist": [],
+      "text": "Si attiva l'effetto di Cyber Emergenza!"
+    },
+    "V0102_08_00_44_1": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Aggiungo questa carta alla mia mano!"
+    },
+    "V0102_08_00_45_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13770
+      ],
+      "duelist": [],
+      "text": "Attivo la mia Carta Magia!\nCyber Riavviasistema!"
+    },
+    "V0102_08_00_46_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13849
+      ],
+      "duelist": [],
+      "text": "Attivo la Magia Rapida Fusione Cybercarico!"
+    },
+    "V0102_08_00_47_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        16301
+      ],
+      "duelist": [],
+      "text": "Attivo la mia Carta Magia!\nOrizzonte Cibernetico!"
+    },
+    "V0102_08_00_48_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13787
+      ],
+      "duelist": [],
+      "text": "Attivo la mia Carta Trappola!\nOveflow Cibernetico!"
+    },
+    "V0102_08_00_49_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13787
+      ],
+      "duelist": [],
+      "text": "Oveflow Cibernetico si attiva quando viene distrutta da un effetto!"
+    },
+    "V0102_08_00_50_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13851
+      ],
+      "duelist": [],
+      "text": "Attivo la mia Trappola!\nRivoluzione Cibernetica!"
+    },
+    "V0102_08_00_51_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13850
+      ],
+      "duelist": [],
+      "text": "Attivo la mia Magia Equipaggiamento!\nFiammata Super Stridente!"
+    },
+    "V0102_08_00_52_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13850
+      ],
+      "duelist": [],
+      "text": "Si attiva l'effetto di Fiammata Super Stridente!"
+    },
+    "V0102_08_00_53_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        17248
+      ],
+      "duelist": [],
+      "text": "Attivo la mia Carta Magia!\nEsplosione Finale Evolutiva!"
+    },
+    "V0102_08_00_54_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13183
+      ],
+      "duelist": [],
+      "text": "Attivo la mia Magia Terreno!\nInferno Cyberoscuro!"
+    },
+    "V0102_08_00_55_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13183
+      ],
+      "duelist": [],
+      "text": "Attivo l'effetto di Inferno Cyberoscuro!"
+    },
+    "V0102_08_00_56_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13183
+      ],
+      "duelist": [],
+      "text": "L'effetto di Inferno Cyberoscuro si attiva quando viene distrutto!"
+    },
+    "V0102_08_00_57_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        16298
+      ],
+      "duelist": [],
+      "text": "Attivo la mia Magia Continua!\nReame Cyberoscuro!"
+    },
+    "V0102_08_00_58_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        16298
+      ],
+      "duelist": [],
+      "text": "Attivo l'effetto di Reame Cyberoscuro!"
+    },
+    "V0102_08_00_59_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        16299
+      ],
+      "duelist": [],
+      "text": "Attivo la mia Trappola Continua!\nInvasione Cyberoscura!"
+    },
+    "V0102_08_00_60_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        16299
+      ],
+      "duelist": [],
+      "text": "Attivo l'effetto di Invasione Cyberoscura!"
+    },
+    "V0102_09_00_27_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        22720
+      ],
+      "duelist": [],
+      "text": "Ho Evocato Specialmente Cyber Drago, il Drago Mech Luminoso!"
+    },
+    "V0102_09_00_28_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        22720
+      ],
+      "duelist": [],
+      "text": "Attivo l'effetto di Cyber Drago, il Drago Mech Luminoso!"
+    },
+    "V0102_09_00_29_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        22719
+      ],
+      "duelist": [],
+      "text": "Ed ecco l'effetto di Drago Cyber Finale, il Drago Colpo Finale!"
+    },
+    "V0102_09_00_30_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        11764
+      ],
+      "duelist": [],
+      "text": "Ho Evocato tramite Fusione Drago Furia Chimeratech!"
+    },
+    "V0102_09_00_31_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        8430
+      ],
+      "duelist": [],
+      "text": "Evocando Specialmente Cyber Eltanin, si attiva il suo effetto!"
+    },
+    "V0102_09_00_31_1": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Assedio della Costellazione!"
+    },
+    "V0102_09_00_32_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13847
+      ],
+      "duelist": [],
+      "text": "Drago Cyber Eternità si attiva quando viene mandato al Cimitero!"
+    },
+    "V0102_09_00_33_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13847
+      ],
+      "duelist": [],
+      "text": "Bandisco Drago Cyber Eternità dal mio Cimitero!"
+    },
+    "V0102_09_00_34_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        21163
+      ],
+      "duelist": [],
+      "text": "Attivo l'effetto di Cyber Jormungardr dalla mia mano!"
+    },
+    "V0102_09_00_35_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        21163
+      ],
+      "duelist": [],
+      "text": "Attivo l'effetto di Cyber Jormungardr!"
+    },
+    "V0102_09_00_36_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13758
+      ],
+      "duelist": [],
+      "text": "Cyber Drago Sieger attiva il suo effetto!"
+    },
+    "V0102_09_00_37_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13722
+      ],
+      "duelist": [],
+      "text": "Si attiva l'effetto di Cyber Drago Vier dalla mia mano!"
+    },
+    "V0102_09_00_38_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        10866
+      ],
+      "duelist": [],
+      "text": "Bandisco Cyber Drago Nucleo dal Cimitero per usare il suo effetto!"
+    },
+    "V0102_09_00_39_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13723
+      ],
+      "duelist": [],
+      "text": "Cyber Drago Herz attiva il suo effetto!"
+    },
+    "V0102_09_00_40_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13723
+      ],
+      "duelist": [],
+      "text": "Cyber Drago Herz si attiva quando viene mandato al Cimitero!"
+    },
+    "V0102_09_00_41_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        14047
+      ],
+      "duelist": [],
+      "text": "Attivo l'effetto di Cyber Drago Nachster dalla mia mano!"
+    },
+    "V0102_09_00_42_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        14047
+      ],
+      "duelist": [],
+      "text": "Cyber Drago Nachster attiva il suo effetto!"
+    },
+    "V0102_09_00_43_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        7412
+      ],
+      "duelist": [],
+      "text": "Attivo l'effetto di Cybern Corazzato!"
+    },
+    "V0102_09_00_43_1": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Cannone del Giudizio!"
+    },
+    "V0102_09_00_44_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        16295
+      ],
+      "duelist": [],
+      "text": "Attivo l'effetto di Cybern Attaccamento!"
+    },
+    "V0102_09_00_45_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        16295
+      ],
+      "duelist": [],
+      "text": "Cybern Attaccamento si attiva quando viene mandato al Cimitero!"
+    },
+    "V0102_09_00_46_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13848
+      ],
+      "duelist": [],
+      "text": "Attivo l'effetto di Cyber Pharos!"
+    },
+    "V0102_09_00_47_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13848
+      ],
+      "duelist": [],
+      "text": "Bandisco Cyber Pharos dal Cimitero per usare il suo effetto!"
+    },
+    "V0102_09_00_48_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13182
+      ],
+      "duelist": [],
+      "text": "Drago Cyberoscurità attiva il suo effetto!"
+    },
+    "V0102_09_00_49_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        16300
+      ],
+      "duelist": [],
+      "text": "Attivo l'effetto di Drago Finale Cyberoscuro!"
+    },
+    "V0102_09_00_50_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        21164
+      ],
+      "duelist": [],
+      "text": "Attivo l'effetto di Wurm Cyberoscuro!"
+    },
+    "V0102_09_00_51_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        16296
+      ],
+      "duelist": [],
+      "text": "Attivo l'effetto di Chimera Cyberoscura!"
+    },
+    "V0102_09_00_52_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        16296
+      ],
+      "duelist": [],
+      "text": "Chimera Cyberoscura si attiva quando viene mandato al Cimitero!"
+    },
+    "V0102_09_00_53_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13181
+      ],
+      "duelist": [],
+      "text": "Attivo l'effetto di Artiglio Cyberoscuro dalla mia mano!"
+    },
+    "V0102_09_00_54_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13181
+      ],
+      "duelist": [],
+      "text": "L'effetto di Artiglio Cyberoscuro si attiva quando viene equipaggiata!"
+    },
+    "V0102_09_00_55_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13181
+      ],
+      "duelist": [],
+      "text": "Artiglio Cyberoscuro si attiva quando va al Cimitero!"
+    },
+    "V0102_09_00_56_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13180
+      ],
+      "duelist": [],
+      "text": "Attivo l'effetto di Cannone Cyberoscuro dalla mia mano!"
+    },
+    "V0102_09_00_57_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13180
+      ],
+      "duelist": [],
+      "text": "L'effetto di Cannone Cyberoscuro si attiva quando viene equipaggiata!"
+    },
+    "V0102_09_00_58_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13180
+      ],
+      "duelist": [],
+      "text": "Cannone Cyberoscuro si attiva quando va al Cimitero!"
+    },
+    "V0102_13_00_34_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 1,
+      "card": [
+        22720
+      ],
+      "duelist": [],
+      "text": "Vieni a me!\nCyber Drago, il Drago Mech Luminoso!"
+    },
+    "V0102_13_00_35_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 2,
+      "card": [
+        22719
+      ],
+      "duelist": [],
+      "text": "Vai!\nDrago Cyber Finale, il Drago Colpo Finale!"
+    },
+    "V0102_13_00_36_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 2,
+      "card": [
+        13358
+      ],
+      "duelist": [],
+      "text": "Vieni fuori!\nDrago Megaflotta Chimeratech"
+    },
+    "V0102_13_00_37_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 2,
+      "card": [
+        13847
+      ],
+      "duelist": [],
+      "text": "Scendi sul Terreno!\nDrago Cyber Eternità!"
+    },
+    "V0102_13_00_38_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 1,
+      "card": [
+        21163
+      ],
+      "duelist": [],
+      "text": "Sorgi, Cyber Jormungardr!"
+    },
+    "V0102_13_00_39_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 1,
+      "card": [
+        13758
+      ],
+      "duelist": [],
+      "text": "Mostrati!\nCyber Drago Sieger!"
+    },
+    "V0102_13_00_40_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13722
+      ],
+      "duelist": [],
+      "text": "Cyber Drago Vier!"
+    },
+    "V0102_13_00_41_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13723
+      ],
+      "duelist": [],
+      "text": "Cyber Drago Herz!"
+    },
+    "V0102_13_00_42_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        14047
+      ],
+      "duelist": [],
+      "text": "Cyber Drago Nachster!"
+    },
+    "V0102_13_00_43_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        16295
+      ],
+      "duelist": [],
+      "text": "Cybern Attaccamento!"
+    },
+    "V0102_13_00_44_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13848
+      ],
+      "duelist": [],
+      "text": "Cyber Pharos!"
+    },
+    "V0102_13_00_45_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 2,
+      "card": [
+        13182
+      ],
+      "duelist": [],
+      "text": "Vieni qui!\nDrago Cyberoscurità!"
+    },
+    "V0102_13_00_46_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 2,
+      "card": [
+        16300
+      ],
+      "duelist": [],
+      "text": "Concedici l'onore della tua presenza!\nDrago Finale Cyberoscuro!"
+    },
+    "V0102_13_00_47_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 1,
+      "card": [
+        21164
+      ],
+      "duelist": [],
+      "text": "Ecco Wurm Cyberoscuro!"
+    },
+    "V0102_13_00_48_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        16296
+      ],
+      "duelist": [],
+      "text": "Chimera Cyberoscura!"
+    },
+    "V0102_13_00_49_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13181
+      ],
+      "duelist": [],
+      "text": "Artiglio Cyberoscuro!"
+    },
+    "V0102_13_00_50_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13180
+      ],
+      "duelist": [],
+      "text": "Cannone Cyberoscuro!"
+    },
+    "V0102_19_00_38_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        22720
+      ],
+      "duelist": [],
+      "text": "Cyber Drago, il Drago Mech Luminoso!\nAttacca!"
+    },
+    "V0102_19_00_39_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        22719
+      ],
+      "duelist": [],
+      "text": "Drago Cyber Finale, il Drago Colpo Finale!\nAttacca!"
+    },
+    "V0102_19_00_40_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13358
+      ],
+      "duelist": [],
+      "text": "Drago Megaflotta Chimeratech!\nAttacca!"
+    },
+    "V0102_19_00_41_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13847
+      ],
+      "duelist": [],
+      "text": "Attacca, Drago Cyber Eternità!"
+    },
+    "V0102_19_00_42_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        21163
+      ],
+      "duelist": [],
+      "text": "Cyber Jormungardr!\nAttacca!"
+    },
+    "V0102_19_00_43_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13758
+      ],
+      "duelist": [],
+      "text": "Attacca, Cyber Drago Sieger!"
+    },
+    "V0102_19_00_44_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13722
+      ],
+      "duelist": [],
+      "text": "Attacca, Cyber Drago Vier!"
+    },
+    "V0102_19_00_45_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13723
+      ],
+      "duelist": [],
+      "text": "Cyber Drago Herz, attacca!"
+    },
+    "V0102_19_00_46_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        14047
+      ],
+      "duelist": [],
+      "text": "Cyber Drago Nachster!\nAttacca!"
+    },
+    "V0102_19_00_47_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        16295
+      ],
+      "duelist": [],
+      "text": "Cybern Attaccamento!\nAttacca!"
+    },
+    "V0102_19_00_48_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13848
+      ],
+      "duelist": [],
+      "text": "Cyber Pharos! Attacca!"
+    },
+    "V0102_19_00_49_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13182
+      ],
+      "duelist": [],
+      "text": "Attacca, Drago Cyberoscurità!"
+    },
+    "V0102_19_00_50_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        16300
+      ],
+      "duelist": [],
+      "text": "Drago Finale Cyberoscuro!\nAttacca!"
+    },
+    "V0102_19_00_51_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        21164
+      ],
+      "duelist": [],
+      "text": "Wurm Cyberoscuro! Attacca!"
+    },
+    "V0102_19_00_52_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        16296
+      ],
+      "duelist": [],
+      "text": "Attacca, Chimera Cyberoscura!"
+    },
+    "V0102_19_00_53_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13181
+      ],
+      "duelist": [],
+      "text": "Artiglio Cyberoscuro!\nAttacca!"
+    },
+    "V0102_19_00_54_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [
+        13180
+      ],
+      "duelist": [],
+      "text": "Cannone Cyberoscuro!\nAttacca!"
+    },
+    "V0102_48_00_00_0": {
+      "face": 1,
+      "frame": 1,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Resterò solo io!"
+    },
+    "V0102_48_01_00_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Preparati per l'azione!"
+    },
+    "V0102_51_00_00_0": {
+      "face": 1,
+      "frame": 1,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Zane Truesdale."
+    },
+    "V0102_51_01_00_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Via col Rush!"
+    },
+    "V0102_49_00_00_0": {
+      "face": 1,
+      "frame": 1,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Accetto la tua sfida!"
+    },
+    "V0102_49_01_00_0": {
+      "face": 7,
+      "frame": 1,
+      "cutin": 0,
+      "card": [],
+      "duelist": [],
+      "text": "Rush Duel Turbo!"
     }
   }
 }
