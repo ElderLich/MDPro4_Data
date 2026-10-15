@@ -1,0 +1,383 @@
+{
+  "name": "TheNextKingOfGames_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_arena",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "Left",
+      "image": "smile",
+      "text": "Spiel, Satz und Sieg! Damit habe ich den Test wohl bestanden, oder was?"
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "Right",
+      "image": "anger2",
+      "text": "Unmöglich! Dieser kleine Chaot hat mich doch tatsächlich geschlagen!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "smile",
+      "text": "Ich habe es an die Akademie geschafft! Ich bin drin! Ich bin drin!"
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_outsideacademy",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Mit dem Sieg über Dr. Crowler wurde Jaden an der Duell-Akademie aufgenommen. Am nächsten Tag versammelten sich alle für die Einführungsfeier in der Haupthalle."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "Willkommen, meine Schüler! Ich bin Kanzler Sheppard, der Schuldirektor hier. Und ihr seid die besten und talentiertesten jungen Duellanten der Welt!"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "smile",
+      "text": "Jetzt begebt euch bitte in die euch zugewiesenen Wohnheime. Ich denke, ihr werdet sie recht gemütlich finden … natürlich je nachdem, wie ihr eingestuft wurdet."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Nun, ich weiß nicht, wie es bei dir ist, Sy … aber es sieht so aus, als wäre mein Wohnheim Slifer Red."
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "RIGHT",
+      "image": "red_smile",
+      "text": "Wie cool! Meins auch!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "Hey, Bastion. Bist du auch in Red?"
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "Lasst uns doch mal sehen. Gelbe Ärmel, gelbe Knöpfe … Ich glaube nicht."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "surprise",
+      "text": "Oh, ich verstehe. Deswegen sind Sy und ich in Red."
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "",
+      "image": "neutral",
+      "text": "Bitte sag mir nicht, dass du das gerade erst herausgefunden hast?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anguish",
+      "text": "Na und? Schon mal dran gedacht, dass ich farbenblind sein könnte?"
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "",
+      "image": "",
+      "text": "Eh, nein. Habe ich tatsächlich nicht. Bist du farbenblind?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "smile",
+      "text": "Nein, hätt’ ich aber sein können! Wir sehen uns dann bei den Wohnheimen!"
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "",
+      "image": "",
+      "text": "Das bezweifle ich. Ihr geht in die falsche Richtung. Euer Wohnheim ist da drüben."
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_genericoutdoor",
+      "text": ""
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_surprise",
+      "text": "Das ist doch kein Wohnheim. Das ist eher ein Klohäuschen mit einer Terrasse."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "smile",
+      "text": "Ist das dein Ernst? Sieh dir die Aussicht an! Dieser Ort ist super!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "neutral",
+      "text": "Das hier ist unser Zimmer, Sy!"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_discouragement",
+      "text": "Ist schon irgendwie klein, oder?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "smile",
+      "text": "Hey, du bist ein kleiner Kerl! Also ich mag es. Das wird eine super Bude für unser erstes Jahr hier!"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_neutral",
+      "text": "Ist es nicht komisch, dass wir uns bei der Aufnahmeprüfung getroffen haben und jetzt Mitbewohner sind?"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_smile",
+      "text": "Glaubst du, wir waren in einem früheren Leben irgendwie miteinander verbunden, Jaden?"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_smile",
+      "text": "Weißt du, sowas wie, du warst ein ägyptischer Pharao und ich war der Wächter Seto?!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "bittersleep",
+      "text": "Nichts für ungut, aber das ist Blödsinn."
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_discouragement2",
+      "text": "Aber es könnte wahr sein!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "Vergiss es. Wir zwei sind einfach anders gestrickt!"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_discouragement",
+      "text": "Ja – aus unterschiedlichen Gründen. Du bist ein super Duellant und ich bin … was ist das Gegenteil von super? Unsuper."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "smile",
+      "text": "Sy, an deinem Selbstvertrauen müssen wir noch arbeiten. Aber lass uns vorher die Bude hier angehen! Mach mal die Vorhänge auf und lass frische Luft rein!"
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": "Hey! Die waren aus gutem Grund zu!"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_discouragement",
+      "text": "Oh, ’tschuldigung."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "Ja, wir haben dich gar nicht da oben auf dem Hochbett schlafen sehen."
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "anger",
+      "text": "Wer seid ihr und was macht ihr in meinem Zimmer?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "smile",
+      "text": "Oh, Entschuldigung. Mein Name ist Jaden Yuki."
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_smile",
+      "text": "Und ich bin Syrus. Wir sind deine neuen Mitbewohner."
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ihr seid also neu. Dann lasst mich euch mal erklären, wie die Dinge hier laufen."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "surprise",
+      "text": "Was für Dinge?"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_discouragement",
+      "text": "Sowas wie, wann das Elternwochenende ist?"
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "neutral",
+      "text": "Eher wie die ganze Sache mit den Farben funktioniert! Das ist wichtiger als alles andere."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "neutral",
+      "text": "Echt?"
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "",
+      "text": "Es gibt hier drei verschiedene Arten von Schülern. Die Blauen in Obelisk Blue, die Gelben in Ra Yellow und die Roten in Slifer Red."
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "",
+      "text": "Die Blauen sind die am höchsten eingestuften Schüler. Manche sind wegen ihrer Noten in Blue, andere über Beziehungen."
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "",
+      "text": "Die Gelben sind die zweithöchsten. Hauptsächlich jüngere Schüler mit viel Potential."
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "",
+      "text": "Und dann gibt es noch uns. Die Wunder aus Red."
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_smile",
+      "text": "Die Wunder … Das ist ein cooler Name!"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Wie in, es ist ein „Wunder“, dass Nieten wie wir es so weit geschafft haben!"
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Tut mir leid, aber wir sind der Bodensatz hier. Duell-Blindgänger."
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "professorbanner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Hallo Kinder. Mein Name ist Professor Banner. Ich bin nicht nur euer Direktor hier in Slifer Red, sondern ich unterrichte auch Alchemie an der Duell-Akademie."
+    },
+    {
+      "char": "professorbanner",
+      "pos": "",
+      "image": "",
+      "text": "Außerdem werdet ihr herausfinden, dass ich ein großartiger Koch bin. Weswegen all meine Schüler meine köstlichen Mahlzeiten als „angemessen“ bezeichnen! Also schnipp, schnapp, ab in die Kantine – Mittagessen!"
+    },
+    {
+      "char": "professorbanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "RIGHT",
+      "image": "red_neutral",
+      "text": ""
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "smile",
+      "text": "Oh … Ich bin übrigens Chumley."
+    }
+  ]
+}

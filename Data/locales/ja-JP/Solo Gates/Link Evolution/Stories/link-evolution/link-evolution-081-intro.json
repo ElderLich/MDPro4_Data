@@ -1,0 +1,257 @@
+{
+  "name": "TheMysteryDuelist_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_gamestore",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "デュエリストキングダムでペガサスを$R倒(たお)したにもかかわらず　$R千年(せんねん)パズルの$R中(なか)の$R意志(いし)が\nこれからの$R未来(みらい)を$R案(あん)じていることに　$R遊戯(ゆうぎ)は$R気(き)が$R付(つ)いた"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "CENTER",
+      "image": "",
+      "text": "オレはどこから$R来(き)たのか…　オレは$R一体(いったい)$R何者(なにもの)なんだ？"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEIN:CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "smile",
+      "text": "わからない　でも$R確(たし)かな$R事(こと)は$R君(きみ)はボクにとって$R大切(たいせつ)な$R存在(そんざい)だってこと"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEIN:CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "ありがとよ　$R相棒(あいぼう)"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEIN:CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "$R二人(ふたり)で$R見(み)つけよう　その$R答(こた)えを！"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "その$R日(ひ)　$R遊戯(ゆうぎ)と$R杏子(あんず)は$R遊戯(ゆうぎ)の$R未来(みらい)を$R占(うらな)うという　$R占(うらな)い$R師(し)と$R出会(であ)った　$R遊戯(ゆうぎ)は$R占(うらな)ってもらうことに\nした"
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "$R遊戯(ゆうぎ)？　なにやってんの？"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "この$R人(ひと)が　ボクの$R事(こと)$R占(うらな)ってくれるんだって"
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R占(うらな)い$R師(し)は　$R未来(みらい)を$R占(うらな)うために$R持(も)っているものを$R渡(わた)してほしいと$R言(い)ってきた　$R占(うらな)い$R師(し)に\n$R千年(せんねん)パズルを$R渡(わた)すように$R言(い)われ　$R遊戯(ゆうぎ)はしぶしぶそれを$R渡(わた)した"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R占(うらな)い$R師(し)が$R千年(せんねん)パズルを$R持(も)って$R逃(に)げたとき　$R遊戯(ゆうぎ)はそれが$R占(うらな)い$R師(し)の$R策略(さくりゃく)だったと$R気付(きづ)いた　\n$R占(うらな)い$R師(し)の$R逃(に)げた$R先(さき)には　$R矢印(やじるし)の$R目印(めじるし)が$R残(のこ)されていた　それは$R罠(わな)だったが　$R遊戯(ゆうぎ)は$R従(したが)うしか\nなかった"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "banditkeith",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R犯人(はんにん)に$R追(お)いついたとき　$R遊戯(ゆうぎ)は$R占(うらな)い$R師(し)が$R他(ほか)ならぬバンデット・キースであったことを$R知(し)った\nしかし　$R何(なに)かが$R違(ちが)った　$R何(なに)かが　または$R誰(だれ)かが　キースを$R通(とお)して$R話(はな)しているようだった"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "キース！　なぜここに？"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "",
+      "text": "$R確(たし)かにこの$R男(おとこ)はかつてバンデット・キースと$R呼(よ)ばれていた"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "お$R前(まえ)はだれだ？　ボクの$R千年(せんねん)パズルを$R返(かえ)すんだ！"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "",
+      "text": "$R返(かえ)してほしければ　オレとデュエルして$R勝(か)つんだな"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "",
+      "text": "$R武藤(むとう)$R遊戯(ゆうぎ)…　ペガサスを$R倒(たお)し　デュエリストキングダムを$R制(せい)した$R者(もの)には$R到底(とうてい)$R見(み)えないが\nその$R力(ちから)は$R千年(せんねん)パズルに$R秘(ひ)められたもう$R一人(ひとり)の$R遊戯(ゆうぎ)のものなのか…"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "",
+      "text": "$R千年(せんねん)パズルの$R中(なか)にいる$R何者(なにもの)かを$R追(お)いつめ　もう$R一人(ひとり)の$R遊戯(ゆうぎ)の$R正体(しょうたい)を$R探(さぐ)り$R出(だ)す…　\nそれこそがオレの$R目的(もくてき)"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "",
+      "text": "もし$R奴(やつ)がオレの$R思(おも)っている$R人物(じんぶつ)なら…"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R千年(せんねん)パズルは$R届(とど)かない$R場所(ばしょ)にあった　$R遊戯(ゆうぎ)は$R自(みずか)らの$R精神(せいしん)を$R使(つか)って　パズルの$R中(なか)の$R意志(いし)と\nつながろうとした"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEIN:LEFT",
+      "image": "surprise",
+      "text": "すまないがこのデュエル　オレは$R力(ちから)を$R貸(か)す$R事(こと)が$R出来(でき)ない"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEIN:LEFT",
+      "image": "surprise",
+      "text": "ボク$R一人(ひとり)で$R闘(たたか)わなきゃいけないのか…"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEIN:LEFT",
+      "image": "neutral",
+      "text": "$R相棒(あいぼう)　お$R前(まえ)なら$R出来(でき)るって$R信(しん)じてるぜ"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEIN:LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "anger",
+      "text": "さあ　どうする？"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "わかった！　$R必(かなら)ず$R千年(せんねん)パズルを$R取(と)り$R返(かえ)すよ！"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "smile",
+      "text": "デュエル$R開始(かいし)だ！"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": "デュエル！"
+    }
+  ]
+}

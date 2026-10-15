@@ -1,0 +1,227 @@
+{
+  "name": "ObeliskAssault_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_arcleaguechampionship",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "ジュニアユース$R選手権(せんしゅけん)は$R続(つづ)き　$R零児(れいじ)は$R柚子(ゆず)によく$R似(に)た$R少女(しょうじょ)と$R対峙(たいじ)していた"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "そう　$R君(きみ)はセレナ…　$R柊(ひいらぎ)$R柚子(ゆず)ではない"
+    },
+    {
+      "char": "celina",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "ヒイラギ　ユズ？"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R君(きみ)に$R良(よ)く$R似(に)た　この$R世界(せかい)の$R住人(じゅうにん)だ"
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "neutral",
+      "text": "お$R前(まえ)は…"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R赤馬(あかば)$R零児(れいじ)　$R赤馬(あかば)$R零王(れお)の…　$R息子(むすこ)だ　$R覚(おぼ)えていないか？　$R私(わたし)は$R以前(いぜん)　$R君(きみ)と$R会(あ)っている　\n$R融合次元(ゆうごうじげん)の…　アカデミアで"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "そこで$R君(きみ)は　$R赤馬(あかば)$R零王(れお)に$R最(もっと)も$R目(め)を$R掛(か)けられているデュエリストだった　その$R君(きみ)が$R我々(われわれ)の\n$R世界(せかい)に$R現(あらわ)れた…　$R何(なに)が$R目的(もくてき)だ？　$R赤馬(あかば)$R零王(れお)にその$R腕(うで)を$R見込(みこ)まれ　$R侵略(しんりゃく)の$R先兵(せんぺい)として$R送(おく)り\n$R込(こ)まれたか？"
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "anger",
+      "text": "$R赤馬(あかば)$R零王(れお)など$R関係(かんけい)ない！　$R私(わたし)は$R自分(じぶん)の$R意志(いし)でやって$R来(き)た　$R誰(だれ)の$R命令(めいれい)も$R受(う)けずに！！"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "ボクは…　いや　$R私(わたし)はこの$R三年間(さんねんかん)　$R赤馬(あかば)$R零王(れお)の$R野望(やぼう)を$R打(う)ち$R砕(くだ)くための$R準備(じゅんび)を$R整(ととの)えてきた"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "smile",
+      "text": "$R全(すべ)てはこの$R街(まち)を…　$R私達(わたしたち)が$R住(す)むこの$R世界(せかい)を$R守(まも)りたいがため　もし$R君(きみ)が$R今(いま)も$R赤馬(あかば)$R零王(れお)に\n$R反発心(はんぱつしん)を$R抱(いだ)いているのなら…　$R私(わたし)と$R組(く)む$R気(き)はないか？"
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "neutral",
+      "text": "くだらない　$R私(わたし)が$R来(き)たのは　ここにエクシーズの$R残党(ざんとう)がいると$R耳(みみ)にしたからだ"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R君(きみ)が$R赤馬(あかば)$R零王(れお)の$R命令(めいれい)でこの$R地(ち)に$R来(き)たのではないとしても…　$R私(わたし)と$R組(く)む$R気(き)がないのであれば　\n$R敵(てき)とみなす"
+    },
+    {
+      "char": "celina",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "ジュニアユース$R選手権(せんしゅけん)の$R一回戦(いっかいせん)は$R終(お)わり　$R次(つぎ)は「バトルロイヤル」で$R闘(たたか)うことになった"
+    },
+    {
+      "char": "nico",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "$R皆様(みなさま)　お$R待(ま)たせしました！　これよりジュニアユースを$R勝(か)ち$R上(あ)がった$R勇者(ゆうしゃ)たちによる\nバトルロイヤルを$R行(おこな)います！！"
+    },
+    {
+      "char": "nico",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "$R街中(まちなか)でのバトルロイヤルとは$R考(かんが)えたわね　$R零児(れいじ)さん"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "",
+      "text": "$R今(いま)すぐにも$R他次元(たじげん)からの$R侵略者(しんりゃくしゃ)が$R現(あらわ)れると$R正直(しょうじき)に$R公表(こうひょう)しては　$R戦争(せんそう)への$R心構(こころがま)えがない\n$R一般市民(いっぱんしみん)にパニックを$R引(ひ)き$R起(お)こしかねません"
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_paradisecity",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "ジュニアユース$R選手権(せんしゅけん)に$R参加(さんか)していたデニス・マックフィールドは　$R柚子(ゆず)にデュエルを$R申(もう)し\n$R込(こ)んだ"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "ボクはデニス　LDSの$R留学生(りゅうがくせい)で$R遊矢(ゆうや)の$R友達(ともだち)だよ　キミともデュエルして$R友達(ともだち)になりたいな　\n$R柊(ひいらぎ)$R柚子(ゆず)さん！"
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "$R私(わたし)の$R事(こと)　$R知(し)ってるの？"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "smile",
+      "text": "キミは$R遊勝塾(ゆうしょうじゅく)$R塾長(じゅくちょう)のお$R嬢(じょう)さんだろ？　ボクも$R榊(さかき)$R遊勝(ゆうしょう)のようなエンタメデュエリストを\n$R目指(めざ)しているんだ　そのためにもエンタメデュエルでこの$R大会(たいかい)を$R勝(か)ち$R抜(ぬ)いて…"
+    },
+    {
+      "char": "celina",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": "お$R前(まえ)が$R勝(か)ち$R抜(ぬ)くことは$R無(な)い！　この$R場(ば)で$R私(わたし)に$R倒(たお)されるからだ！"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R双子(ふたご)？　あの…　$R誰(だれ)？"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R私(わたし)とそっくり…　まさか　ルリ！？"
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R来(こ)い！　お$R前(まえ)がエクシーズの$R残党(ざんとう)だという$R事(こと)は$R分(わ)かっている！"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "surprise",
+      "text": "エクシーズの$R残党(ざんとう)！？"
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "anger",
+      "text": "$R白(しら)ばっくれても$R無駄(むだ)だ！　お$R前(まえ)から$R来(こ)ないなら$R私(わたし)から$R行(い)く！"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R彼女(かのじょ)は$R何(なに)か$R勘違(かんちが)いしているみたいだけど　こんな$R状況(じょうきょう)を$R受(う)け$R入(い)れるのもエンタメデュエル！　\nなぁんてね"
+    }
+  ]
+}

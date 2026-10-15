@@ -1,0 +1,209 @@
+{
+  "name": "ClashInTheColosseum_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_blimp",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "De plus en plus de duellistes succombèrent au pouvoir de Marek."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamibakura",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "millenniumring",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Marek se battit en duel contre Bakura pour l'Anneau du Millénium et gagna."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamibakura",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_wingeddragon_card",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Il était maintenant temps pour les demi-finales. Le premier match opposait Joey à Marek. Le pouvoir de Marek était si grand que Le Dragon Ailé de Râ envoya Joey à l'hôpital. Il semblait que rien ne pourrait arrêter le règne de terreur de Marek."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "La deuxième demi-finale allait déterminer qui allait affronter Marek."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "C'était Yugi contre Kaiba, se battant la première fois depuis leur bataille dans le Royaume des Duellistes."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Yugi, nous ne devons pas laisser la lutte de Joey interférer avec notre concentration. Rappelle-toi, afin de surmonter Marek, nous devons surmonter Kaiba."
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_blimp",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Eh bien, Yugi. Tu as donc décidé de te présenter après tout."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "Bien sûr. Manquer ce duel serait rater mon destin."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Épargne-moi ton discours."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "smile",
+      "text": "Alors, pourquoi ton troupeau de pauvres types ne se présente-t-il pas pour t'encourager? Sont-ils occupés à réveiller Wheeler de sa sieste?"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "anger",
+      "text": "Joey est en grave danger maintenant! Plus que tu ne pourrais jamais savoir!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "Wheeler n'aurait jamais dû être ici en premier lieu. Je l'avais averti de ne pas jouer avec les grands garçons et à mon avis, il a eu ce qu'il méritait. Une gifle au visage par Râ!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "Et si être attaqué par une carte Dieu Égyptien ne va pas inculquer une leçon à ce gamin, alors rien ne le fera!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Assez, Kaiba! Tu n'as aucune idée à quel point ce tournoi Duel Monsters est devenu dangereux! Le résultat de la finale de Battle City pourrait mettre tout le monde à risque!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Le seul risque, c'est toi! Car si je gagne, tu ne seras plus le numéro un!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "Kaiba, il ne s'agit pas toujours d'être le numéro un! Il s'agit de se battre en duel avec bravoure, honneur et respect! Mais surtout, en mettant les besoins des autres avant les vôtres! Et c'est quelque chose que Joey Wheeler a fait chaque jour durant sa vie."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "",
+      "text": "Yugi, jadis, les gladiateurs Romains se battaient pour leur destin afin de prouver qui était le plus fort."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "Maintenant, c'est à notre tour de voir lequel de nous mérite le titre du meilleur au monde!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "Tire donc ta première carte et que la bataille commence!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "Avec plaisir, Kaiba!"
+    }
+  ]
+}

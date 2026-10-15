@@ -1,0 +1,101 @@
+{
+  "name": "WD_YUGI_YamiYugi_Dartz_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_temple",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Tu as perdu, Dartz ! Ta quête commencée il y a 10 000 ans prend fin ici !"
+    },
+    {
+      "char": "dartz",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Impossible... Je suis si près du but ! Plus qu'une âme, et le Grand Léviathan s'élèvera depuis les profondeurs de la terre !"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "C'est trop tard ! Notre duel touche à sa fin. Maintenant, libère les âmes de nos amis et de tous ceux que tu retiens prisonniers !"
+    },
+    {
+      "char": "dartz",
+      "pos": "",
+      "image": "anger",
+      "text": "Grrrr !"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_temple",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "N'ayant pas réussi à s'emparer de l'âme de Yami Yugi, Dartz fusionne sa propre âme avec le Léviathan pour faire renaître le monstre."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Aidé par la lumière de ses amis, Yugi récupère ses cartes des Dieux Égyptiens et élimine Dartz et son Léviathan une bonne fois pour toute."
+    },
+    {
+      "char": "dartz",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Hé, regardez. On dirait que les Dieux s'en sont sortis."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "J'vous l'avais dit ! Ça veut dire que tous les prisonniers de Dartz sont libres !"
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "C'est vraiment fini ?"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEIN:LEFT",
+      "image": "",
+      "text": "Ouais ! On n'a plus rien à craindre."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "Mettons les voiles, les amis ! J'suis sûr que quelqu'un d'autre essaie de dominer l'monde chez nous !"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "CENTER",
+      "image": "smile",
+      "text": "Le pire, c'est qu'il a probablement raison !"
+    }
+  ]
+}

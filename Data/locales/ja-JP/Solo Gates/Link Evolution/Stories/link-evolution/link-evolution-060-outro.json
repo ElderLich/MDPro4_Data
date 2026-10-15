@@ -1,0 +1,53 @@
+{
+  "name": "DuelInterrupted_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_duelacademy",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R二人(ふたり)のデュエリストのトランスが$R始(はじ)まると　ユーゴの$R魂(たましい)がユーリの$R魂(たましい)と$R一(ひと)つになった"
+    },
+    {
+      "char": "yuri",
+      "pos": "CENTER",
+      "image": "",
+      "text": "さあ…　$R今(いま)こそ！"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "",
+      "text": "$R一(ひと)つに！"
+    },
+    {
+      "char": "yugo",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "smile",
+      "text": "ふふっ　やっと$R一(ひと)つになれたね　でもまだ$R半分(はんぶん)だ　ボクには$R分(わ)かる…　ボクと$R一(ひと)つにならなきゃ\nいけないやつが$R近(ちか)くにいる$R事(こと)が！"
+    }
+  ]
+}

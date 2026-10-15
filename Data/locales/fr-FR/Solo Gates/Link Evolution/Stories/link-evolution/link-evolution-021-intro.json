@@ -1,0 +1,347 @@
+{
+  "name": "TheEdgeOfEliminationPart1_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_citysquare",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Officier Trudge avait un petit problème pour lequel il avait besoin de l'aide de Yusei. Un étranger amnésique avait été retrouvé sur les côtes de la Nouvelle Domino City, et Trudge avait besoin de quelqu'un pour s'occuper de lui."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Malheureusement, l'homme qui s'appelait Bruno ne se montra pas pour rencontrer Yusei et ses amis. Il était plutôt en train de bricoler secrètement le Duel Runner de Jack."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bruno",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Voilà. C'est mieux."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Que diable pensez-vous être en train de faire à ma Duel Runner?"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "anger",
+      "text": "Je mange de petits insectes comme toi pour mon petit déjeuner!"
+    },
+    {
+      "char": "bruno",
+      "pos": "",
+      "image": "surprise",
+      "text": "AH!"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "anger",
+      "text": "Je t'interdis de jeter, ne serait-ce qu'un coup d'œil à mon Duel Runner!"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bruno",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Eh les mecs, que s'est-il passé !?"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "CENTER",
+      "image": "discouragement",
+      "text": "Nous sommes arrivés ici et nous avons trouvé ce rustre en train de bricoler le Duel Runner de Jack et d'essayer de le voler."
+    },
+    {
+      "char": "bruno",
+      "pos": "",
+      "image": "surprise",
+      "text": "Non, ce n'est pas vrai! J'ai vu ce fantastique Duel Runner et je l'ai tripoté un peu. Je ne pouvais pas m'en empêcher."
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "Hé les gars, voici Bruno."
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "C'est le parasite que tu voulais que nous adoptions?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "smile",
+      "text": "Ne t'inquiète pas. Nous allons nous en occuper maintenant."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bruno",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_yuseihome",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Plus tard au garage de Yusei."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": "Déballe vite, petit voyou! Qu'as-tu fait à ma Duel Runner?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Pourquoi penses-tu qu'il a fait quelque chose?"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "Le pouvoir stimulant de mon Duel Runner se recharge plus vite."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Ah bon?"
+    },
+    {
+      "char": "bruno",
+      "pos": "",
+      "image": "smile",
+      "text": "J'ai chargé la D-T-R et j'ai ajusté la façon dont ton CP calcule les logarithmes, c'est tout!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Bon, euh ... Je n'ai aucune idée de ce que tu viens de dire, mais il semble que tu as réussi à donner au Runner de Jack plus de \"tonus\", n'est-ce pas?"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Tu dois me montrer comment tu as fait cela."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Alors ton nom est Bruno, n'est-ce pas?"
+    },
+    {
+      "char": "bruno",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Je pense que c'est mon nom. Je ne sais pas si Officier Trudge te l'a dit, mais j'ai du mal à me souvenir de mon passé."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Alors, quelle est la dernière chose dont tu te souviens?"
+    },
+    {
+      "char": "bruno",
+      "pos": "",
+      "image": "",
+      "text": "Euh... De m'être réveillé sur la plage il y a quelques jours."
+    },
+    {
+      "char": "bruno",
+      "pos": "",
+      "image": "smile",
+      "text": "Je n'ai vraiment aucune idée de qui je suis, Yusei. Mais pour une raison quelconque, je ne me sens bien que lorsque je bricole avec les Duel Runners."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "smile",
+      "text": "Je vois."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "smile",
+      "text": "Écoute, Bruno. Si tu veux, tu peux crécher ici avec nous jusqu'à ce que tu y voies plus clair."
+    },
+    {
+      "char": "bruno",
+      "pos": "",
+      "image": "smile",
+      "text": "Ouais? Ça ne vous dérange pas?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Je dois créer ce nouveau modèle de moteur avant le Grand Prix et je pense que je peux réussir avec ton aide. Alors, qu'en dis-tu?"
+    },
+    {
+      "char": "bruno",
+      "pos": "",
+      "image": "smile",
+      "text": "Considère-moi comme une pièce de machines de plus qui va s'assurer que tout fonctionne bien!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bruno",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_arena",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Le World Racing Grand Prix était enfin sur le point de commencer et toutes les équipes se préparaient!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Le premier match était la Team 5D's de Yusei contre la Team Unicorn!"
+    },
+    {
+      "char": "andre",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "andre",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Team Unicorn prit une avance rapide quand leur premier duelliste André vainquit Jack et Akiza."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Team 5D's chancelait au bord de l'élimination et c'était à Yusei de battre tous les trois membres de la Team Unicorn!"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "name": "GoWithTheFlow_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "bg_vgs",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Ahora cargando las historias ZEXAL..."
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_school",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "La historia de Yuma Tsukumo comienza en un día como cualquier otro en la escuela secundaria local de la ciudad Heartland."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Allí es donde se encontró con su amigo Bronk luchando en un duelo con Tiburón, el matón de la escuela quien era también un poderoso duelista y un maestro de la Invocación Xyz."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bronkstone",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "¡AAAYYY!"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Gracias por el duelo. ¡Y por tu deck!"
+    },
+    {
+      "char": "bronkstone",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "¡No tan rápido!"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "anger",
+      "text": "¿Quién eres?"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Me llamo Yuma. Y soy un buen amigo de Bronk."
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "neutral",
+      "text": "Bronk y yo teníamos un acuerdo. Quien ganara se quedaba con el deck del otro duelista."
+    },
+    {
+      "char": "bronkstone",
+      "pos": "LEFT",
+      "image": "discouragement",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿En serio?"
+    },
+    {
+      "char": "bronkstone",
+      "pos": "LEFT",
+      "image": "discouragement",
+      "text": "Sí. ¡Pero no tenía otra opción! Me llamó gallina."
+    },
+    {
+      "char": "bronkstone",
+      "pos": "NONE",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "¡De acuerdo entonces! ¡Si vas a desafiar a mi amigo, te desafío yo a ti!"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "smile",
+      "text": "Si me ganas, te devuelvo este deck. Pero si gano yo, Yuma – tú me das el tuyo."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "NONE",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_school",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Y ese domingo, Yuma cumplió con su palabra y se enfrentó a Tiburón."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Espero que te hayas despedido, ¡porque todas tus cartas están a punto de ser mías!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Lo siento, pero lo único que vas a conseguir es una buena paliza"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "",
+      "text": "Cuando gane tu deck, lo voy a tirar a la basura. Entonces tal vez aprenderás una lección: ¡no buscar peleas que no puedes ganar!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "Ahí es donde te equivocas, Tiburón. Yo nunca voy a aprender esa lección. Voy a llegar muy alto porque cuando sientes la energía, ¡no hay vuelta atrás!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "duel_smile",
+      "text": "Y hablando de sentir la energía... ¡yo también la siento!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "zexal_kingskey",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "duel_neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Entonces, la cadena con una Llave de Oro que Yuma llevaba al cuello y que le habían regalado sus padres desaparecidos, liberó algo que cambiaría su vida para siempre."
+    },
+    {
+      "char": "astral",
+      "pos": "CENTER:FADEIN",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "A través de la llave, el valor de Yuma liberó a un ser de un reino desconocido. Un ser que sólo él podía ver y oír."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "zexal_kingskey",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "duel_surprise",
+      "text": "¿Quién eres tú?"
+    },
+    {
+      "char": "astral",
+      "pos": "RIGHT:FADEIN",
+      "image": "",
+      "text": "..."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "duel_sad",
+      "text": "¿Puedes hablar?"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "..."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "duel_anger",
+      "text": "¡Di algo ya!"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "Astral."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "duel_neutral",
+      "text": "¿Eh? ¿Qué es un Astral?"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "Mi nombre, creo recordar. Pero yo no recuerdo mucho de nada."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "duel_sad",
+      "text": "Oh, genial. ¿Por qué tengo que lidiar con esta linterna con patas justo antes de mi duelo más importante?"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "¿Duelo? Esa palabra me suena..."
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "anger",
+      "text": "Sí recuerdo cómo luchar en un duelo. ¡Fíjate!"
+    }
+  ]
+}

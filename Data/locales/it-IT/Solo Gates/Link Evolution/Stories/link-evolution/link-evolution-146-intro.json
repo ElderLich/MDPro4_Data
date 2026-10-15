@@ -1,0 +1,467 @@
+{
+  "name": "CounterOffensive_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_barian",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Nel frattempo, nel Mondo Bariano."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "dumon",
+      "pos": "LEFT",
+      "image": "barian_neutral",
+      "text": "Il nostro piano era di dare il potere agli umani in modo che questi potessero rubare i Numeri e distruggere il Mondo Astrale."
+    },
+    {
+      "char": "dumon",
+      "pos": "",
+      "image": "barian_neutral",
+      "text": "Purtroppo, Vetrix e Faker sono stati entrambi sconfitti dal potere di Zexal."
+    },
+    {
+      "char": "dumon",
+      "pos": "",
+      "image": "barian_neutral",
+      "text": "Pertanto noi dovremo distruggere il Mondo Astrale."
+    },
+    {
+      "char": "alito",
+      "pos": "CENTER",
+      "image": "barian_neutral",
+      "text": "Ma il Mondo Bariano ed il Mondo Astrale sono due mondi di meta-energia. Non possiamo attaccare direttamente."
+    },
+    {
+      "char": "girag",
+      "pos": "RIGHT",
+      "image": "barian_neutral",
+      "text": "Nel loro mondo, noi non possiamo apparire nella nostra forma naturale. Dobbiamo apparire come - bleh - esseri umani."
+    },
+    {
+      "char": "dumon",
+      "pos": "",
+      "image": "barian_win",
+      "text": "Non abbiamo scelta. Abbiamo bisogno dei Numeri."
+    },
+    {
+      "char": "dumon",
+      "pos": "",
+      "image": "barian_neutral",
+      "text": "Girag, vai tu."
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "barian_lose",
+      "text": "Io?"
+    },
+    {
+      "char": "dumon",
+      "pos": "",
+      "image": "barian_neutral",
+      "text": "Tu sei un guerriero Bariano coraggioso. So che puoi eseguire questo lavoro."
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "barian_neutral",
+      "text": "Sì. Io sono un guerriero coraggioso e forte!"
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "barian_neutral",
+      "text": "Prenderò ogni Numero. Non ti preoccupare, Dumon."
+    },
+    {
+      "char": "dumon",
+      "pos": "",
+      "image": "barian_neutral",
+      "text": "Conto su di te, Girag."
+    },
+    {
+      "char": "girag",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "dumon",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alito",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Intanto sulla Terra, Yuma incontra un nuovo studente."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rayshadows",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Wow! Io ti conosco! Sei Yuma, il campione del Carnevale Mondiale di Duelli."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "smile",
+      "text": "Cavoli sono contento di averti incontrato!"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "",
+      "text": "Mi chiamo Ray! Sono un tuo grande fan."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Mi piacerebbe rimanere e parlare di me, ma devo andare a scuola!"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "",
+      "text": "Non voglio farti ritardare! Ti porto in classe in orario. Andremo alla \"Maniera Ray!\" Il che significa scorciatoie a bizzeffe!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Come attraverso quella discarica con i cani randagi? AHHHH!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rayshadows",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_school",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Nel frattempo, Rio, la sorella di Shark finalmente si risvegliò dal coma e fece ritorno a scuola."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rio",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Reginald, ho pensato che avremmo camminato a scuola insieme!"
+    },
+    {
+      "char": "rio",
+      "pos": "",
+      "image": "anger",
+      "text": "Che c'è, sei troppo cool per essere visto con la tua sorellina?"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "smile",
+      "text": "Sono felice di vederti di nuovo in piedi, Rio!"
+    },
+    {
+      "char": "rio",
+      "pos": "",
+      "image": "smile",
+      "text": "È così bello incontrare delle facce amichevoli! Un grande inizio per il mio primo giorno scolastico."
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rio",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Poi i Bariani Alit e Girag apparvero nelle loro forme umane."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "La scuola diventò pericolosa quando Girag attaccò Yuma."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "anger",
+      "text": "Sono Girag, un guerriero Bariano. Tu sarai sconfitto, idiota!"
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alito",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Improvvisamente, Alit apparve e salvò Yuma."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Perché lo stai aiutando!?"
+    },
+    {
+      "char": "alito",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": "Sono affari miei!"
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "",
+      "text": "Sei un traditore!"
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "",
+      "text": "Abbiamo bisogno dei Numeri di quel ragazzino per salvare il nostro mondo!"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "anger",
+      "text": "Sì, sono consapevole di questo."
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "",
+      "text": "Ma voglio battere Yuma e Astral da solo! Non tu: io!"
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "anger",
+      "text": "GRRRRR!"
+    },
+    {
+      "char": "girag",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alito",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "Un momento. Se accetto, devo mettere i miei Numeri in palio giusto?"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "",
+      "text": "Naturalmente. Entrambi duelleremo per i Numeri e la nostra stessa sopravvivenza."
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "",
+      "text": "Sono disposto a rischiare tutto per duellare contro di voi. Batterò te e Astral!"
+    },
+    {
+      "char": "astral",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "Se sei così ansioso di combatterci, fatti avanti! Siamo pronti!"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "",
+      "text": "Ho attivato un Campo Sfera Bariano!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "zexal_bariansspherecube",
+      "text": ""
+    },
+    {
+      "char": "alito",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alito",
+      "pos": "RIGHT:FADEIN",
+      "image": "barian_neutral",
+      "text": "Duelliamo!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "zexal_bariansspherecube",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "zexal",
+      "pos": "LEFT:FADEIN",
+      "image": "",
+      "text": "Duelliamo!"
+    }
+  ]
+}

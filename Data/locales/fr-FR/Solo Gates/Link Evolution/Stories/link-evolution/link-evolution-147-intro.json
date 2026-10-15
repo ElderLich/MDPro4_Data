@@ -1,0 +1,119 @@
+{
+  "name": "DualDuel_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_night",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Girag se retrouva finalement au même endroit où se trouvait Alito."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "AH!"
+    },
+    {
+      "char": "alito",
+      "pos": "LEFT",
+      "image": "discouragement",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "",
+      "text": "Alito, tu es en mauvaise posture! Que s'est-il passé?"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "discouragement",
+      "text": "...attaqué..."
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "discouragement",
+      "text": "C'est Ray..."
+    },
+    {
+      "char": "alito",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "",
+      "text": "Alito, viens! Accroche-toi!"
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "anger",
+      "text": "Alito!"
+    },
+    {
+      "char": "girag",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alito",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Girag chercha alors à se venger contre Ray."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Tu vas payer pour avoir esquinté Alito, Ray."
+    },
+    {
+      "char": "rayshadows",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Qu'est-ce que tu racontes? Je ne ferais jamais de mal à quelqu'un!"
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "",
+      "text": "Ne prétends pas être stupide! Alito a dit que tu l'as attaqué, et c'est tout ce que j'ai besoin d'entendre!"
+    }
+  ]
+}

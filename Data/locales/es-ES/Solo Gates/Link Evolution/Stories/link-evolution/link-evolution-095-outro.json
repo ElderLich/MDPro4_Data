@@ -1,0 +1,101 @@
+{
+  "name": "WD_YUGI_YamiYugi_Dartz_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_temple",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "¡Has perdido, Dartz! Tu misión de diez mil años se ha acabado."
+    },
+    {
+      "char": "dartz",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Imposible... ¡Estoy a punto de conseguirlo! Todo lo que necesito es un alma más, ¡y el Gran Leviatán se alzará de las profundidades de la tierra!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Has llegado demasiado tarde. Nuestro duelo ha concluido. ¡Ahora libera las almas de mis amigos y de las otras personas que tienes prisioneras!"
+    },
+    {
+      "char": "dartz",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Grrrr!"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_temple",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Dartz no logró capturar el alma de Yami Yugi, pero le ofreció su propia alma al Leviatán para revivir a la bestia."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Gracias a la energía de sus amigos, Yugi recuperó sus cartas robadas de Dioses Egipcios y derrotó a Dartz y al Leviatán de una vez por todas."
+    },
+    {
+      "char": "dartz",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Mira. Creo que los dioses lo han conseguido."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "¡Te lo dije! ¡Eso quiere decir que han liberado a todos los prisioneros de Dartz!"
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "¿Se ha terminado todo de verdad?"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEIN:LEFT",
+      "image": "",
+      "text": "¡Sí! Ya estamos a salvo."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "¡Vámonos, compañeros! Seguro que nos encontramos con algún otro cerdo que intenta conquistar el mundo cuando regresemos a casa."
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "CENTER",
+      "image": "smile",
+      "text": "¿Sabes? Lo terrible es... ¡que seguramente tendrá razón!"
+    }
+  ]
+}

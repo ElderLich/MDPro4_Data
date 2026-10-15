@@ -1,0 +1,227 @@
+{
+  "name": "TheAwakeningOfEvil_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_blimp",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Während alle auf das nächste Duell warteten, ging Yugi in sein Zimmer zurück, um sich auszuruhen. Er wurde plötzlich von einem Mann überrascht, der ein Gewand und auch einen Turban trug."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Sein Name war Shadi, und er erklärte, dass er gekommen war, um Yugi Ratschläge für die Herausforderungen zu geben, die vor ihm lagen."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "shadi",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Ich bin der Wächter über die sieben Millenniumsgegenstände. Ich bin hier, weil ich wieder eine Störung in der mystischen Ausrichtung spürte."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_egyptiangodcards",
+      "text": ""
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "",
+      "text": "Alle sieben Gegenstände sind an Bord, ebenso die drei Ägyptischen Götterkarten. Das bedeutet, alle Objekte, die in der Lage sind, die Welt zu retten oder zu zerstören, sind genau hier."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "Wirklich?"
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "smile",
+      "text": "Die Sicherheit der Erde hängt von dir ab, Yugi. Beherzige meine Worte: Sollten die falschen Personen die Kontrolle über einen der Millenniumsgegenstände oder eine der Ägyptischen Götterkarten übernehmen, dann könnten die Folgen katastrophal sein. Es ist schon einmal fast passiert, als Pegasus Duel Monsters geschaffen hat."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "Tatsächlich? Aber wie?"
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Alles begann, als Maximillion Pegasus erstmals nach Ägypten kam. Er war auf der Suche nach einer Möglichkeit, sich wieder mit seiner verlorenen Liebe zu vereinen. Seine Suche führte ihn zu mir, und ich schenkte ihm das Millenniumsauge, denn er war dazu bestimmt, es zu besitzen."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "",
+      "text": "Kurz danach entdeckte er die Ursprünge der antiken ägyptischen Schattenspiele. Pegasus war von diesen Spielen besessen und beschloss, sein Leben ihrer Neuerschaffung zu widmen."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "",
+      "text": "Auf einer seiner frühen Forschungsreisen zu den antiken Pyramiden hatte Pegasus vor, die Steine mit den Darstellungen der Ägyptischen Göttermonster zu finden, von denen er gelesen hatte."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "",
+      "text": "Also führte ich Pegasus und sein Team von Archäologen zu einer unter dem Wüstensand verborgenen unterirdischen Kammer."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "",
+      "text": "Und nach einem stundenlangen Fußmarsch erreichten wir das Ziel unserer Reise."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "",
+      "text": "Pegasus betrat die schwach beleuchtete Kammer. Wie versprochen brachte ich ihn in die antike Ruhestätte der Ägyptischen Göttertafeln."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "",
+      "text": "Pegasus fand, was er suchte, ohne zu wissen, dass er im Begriff war, eine unvergleichliche verheerende Kraft zu entfesseln."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "anger",
+      "text": "Triumphierend kehrte Pegasus nach Amerika zurück, um seine Karten auf der Grundlage der Bilder zu entwerfen, die er auf den Steinen gefunden hatte. Er war dazu bestimmt, die Ägyptischen Göttermonster zu wecken … aber er war nicht dazu bestimmt, ihre mächtige Magie zu kontrollieren."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Obwohl Maximillion Pegasus die Prototypen der drei Ägyptischen Götterkarten fertigstellte, flog er sofort nach Ägypten, um sie im Grab neben den Original-Gravuren zu versiegeln und der Welt ihre absolute Macht zu ersparen."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "",
+      "text": "Und mit Ishizus Hilfe schloss Pegasus die Karten unter einem Siegel ein."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "Dann versuchte Marik, sie zu stehlen?"
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "sad",
+      "text": "Ja. Und wenn ihm alle drei in die Hand fallen sollten, wären die Folgen verheerend."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEIN:RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "anger",
+      "text": "Ich kann dir versichern, dass Marik nie alle drei Ägyptischen Götterkarten besitzen wird!"
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "shy",
+      "text": "Mein Pharao, es ist eine Ehre für mich, erneut in deiner Gegenwart zu sein. Ich weiß, dass du die Ordnung der Welt wiederherstellen und diesem Chaos ein Ende bereiten wirst, wie du es vor fünftausend Jahren schon einmal getan hast. Ich habe volles Vertrauen in dich."
+    },
+    {
+      "char": "shadi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "In diesem Moment wurde durchgesagt, dass alle Finalisten in die Haupthalle zurückkommen mussten, und Shadi verschwand."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "odion",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Im zweiten Duell trafen Marik und Joey aufeinander. Da Odion vorgab, Marik zu sein, stand Odion vor Joey, bereit für das Duell."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "Lass uns loslegen, Marik!"
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "anger",
+      "text": "Es ist Zeit für ein Duell … und Zeit, dich zu zerstören!"
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "",
+      "text": "Mach dich auf eine Niederlage gefasst!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "Nimm den Mund nicht so voll, Marik! Ich habe keine Angst vor dir!"
+    }
+  ]
+}

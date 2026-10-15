@@ -1,0 +1,41 @@
+{
+  "name": "ClashInTheColosseum_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_blimp",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Du hast verloren, Kaiba!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "Ich sagte doch, dein Hass und deine Lust auf Macht würden dich niemals zum Sieger machen!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEIN:LEFT",
+      "image": "neutral",
+      "text": "Ich habe es geschafft! Aber der schwerste Kampf steht mir noch bevor – wenn ich im Finale gegen Marik antreten muss!"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "name": "ATriosChallenge_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_arena",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Al derrotar a Dr. Faker, el Cañón del Campo de Esfera se destruyó."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Toda la estructura comenzó a derrumbarse, y Dr. Faker comenzó a caer en un pozo sin fondo."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "¡Papá! ¡Te tengo!"
+    },
+    {
+      "char": "drfaker",
+      "pos": "CENTER",
+      "image": "anguish",
+      "text": "¿Habéis venido por mí?"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Pero... no aguanto más..."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Agárrate de mi mano!"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Yuma?"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Por qué me estás ayudando, Yuma? Yo fui quien traicionó a tu padre."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "No me gusta lo que hiciste, pero también entiendo que pensabas que de esa manera ayudabas a tu hijo Hart."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "Si mi padre estuviera aquí, estoy seguro de que él también te ayudaría."
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "anguish",
+      "text": "Eres como tu padre. Pero no merezco ninguna misericordia. Mis acciones han sido verdaderamente imperdonables."
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "vetrix",
+      "pos": "RIGHT",
+      "image": "maskoff_neutral",
+      "text": "¡Faker! Aquellos a quienes les hiciste daño serán vengados."
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "anguish",
+      "text": "¡Por favor, Byron! Merezco la venganza que deseas llevar a cabo, pero Kite y Yuma son inocentes. ¡Que se vayan!"
+    },
+    {
+      "char": "vetrix",
+      "pos": "",
+      "image": "maskoff_smile",
+      "text": "¡Ahora os voy a enseñar mi gran poder!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡AHHH!"
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡AHHH!"
+    },
+    {
+      "char": "vetrix",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "drfaker",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "vetrix",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "En un destello de luz, Vetrix teletransportó a todos a un lugar seguro."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT:FADEIN",
+      "image": "surprise",
+      "text": "¿Qué ha pasado? ¡Ehhhh, lo hemos conseguido!"
+    },
+    {
+      "char": "drfaker",
+      "pos": "CENTER:FADEIN",
+      "image": "discouragement",
+      "text": "Byron, lo siento mucho."
+    },
+    {
+      "char": "vetrix",
+      "pos": "RIGHT:FADEIN",
+      "image": "maskoff_shy",
+      "text": "Adiós, amigo mío. Espero que tú y tus hijos encuentréis la paz."
+    },
+    {
+      "char": "vetrix",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Perdóname, Hart. Tengo mucho por lo que compensaros tanto a ti como a tu hermano."
+    },
+    {
+      "char": "harttenjo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": ""
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "",
+      "text": "Espero que con el tiempo, podamos ser una verdadera familia de nuevo."
+    }
+  ]
+}

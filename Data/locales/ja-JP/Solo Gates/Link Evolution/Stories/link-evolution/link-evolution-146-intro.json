@@ -1,0 +1,467 @@
+{
+  "name": "CounterOffensive_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_barian",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R一方(いっぽう)バリアン$R世界(せかい)では"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "dumon",
+      "pos": "LEFT",
+      "image": "barian_neutral",
+      "text": "$R人間(にんげん)に$R力(ちから)を$R与(あた)え　ナンバーズを$R奪(うば)い　アストラル$R世界(せかい)を$R殲滅(せんめつ)しようと$R考(かんが)えたが…"
+    },
+    {
+      "char": "dumon",
+      "pos": "",
+      "image": "barian_neutral",
+      "text": "トロンもフェイカーも$R敗(やぶ)れてしまった"
+    },
+    {
+      "char": "dumon",
+      "pos": "",
+      "image": "barian_neutral",
+      "text": "$R今度(こんど)は$R我(われ)らが$R直接(ちょくせつ)$R手(て)を$R下(くだ)す"
+    },
+    {
+      "char": "alito",
+      "pos": "CENTER",
+      "image": "barian_neutral",
+      "text": "バリアン$R世界(せかい)とアストラル$R世界(せかい)は　どっちも$R高次(こうじ)のエネルギー$R世界(せかい)…　$R互(たが)いに\n$R直接干渉(ちょくせつかんしょう)はできねえ　だからこそ$R人間(にんげん)を$R使(つか)ったんだろ"
+    },
+    {
+      "char": "girag",
+      "pos": "RIGHT",
+      "image": "barian_neutral",
+      "text": "それにあの$R世界(せかい)じゃ　オレ$R達(たち)は$R本来(ほんらい)の$R姿(すがた)じゃいられねえ　ナンバーズを$R直接(ちょくせつ)ぶんどれねえ\nじゃねえか"
+    },
+    {
+      "char": "dumon",
+      "pos": "",
+      "image": "barian_win",
+      "text": "それでもやるのだ　$R我々(われわれ)にはナンバーズが$R必要(ひつよう)なのだから"
+    },
+    {
+      "char": "dumon",
+      "pos": "",
+      "image": "barian_neutral",
+      "text": "ギラグ　$R君(きみ)が$R行(い)け"
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "barian_lose",
+      "text": "え　オレ？"
+    },
+    {
+      "char": "dumon",
+      "pos": "",
+      "image": "barian_neutral",
+      "text": "$R君(きみ)は$R勇敢(ゆうかん)なバリアンの$R戦士(せんし)だ　$R君(きみ)ならきっと…"
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "barian_neutral",
+      "text": "しょうがねえな"
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "barian_neutral",
+      "text": "$R一丁(いっちょう)ナンバーズを$R根(ね)こそぎ$R頂(いただ)いてくるぜ"
+    },
+    {
+      "char": "dumon",
+      "pos": "",
+      "image": "barian_neutral",
+      "text": "$R頼(たの)んだぞ　ギラグ"
+    },
+    {
+      "char": "girag",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "dumon",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alito",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R地球(ちきゅう)では　$R遊馬(ゆうま)と$R転校生(てんこうせい)が$R出会(であ)っていた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rayshadows",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "うわああッ！　$R九十九(つくも)$R遊馬(ゆうま)くん！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "smile",
+      "text": "あなた　WDCのチャンピオン　$R九十九(つくも)$R遊馬(ゆうま)くんじゃないですか！"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "",
+      "text": "ボク　$R遊馬(ゆうま)くんの$R大(だい)ファンなんです！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "neutral",
+      "text": "ああ　そう…　でへへ　って　$R喜(よろこ)んでる$R場合(ばあい)じゃねえ！　このままじゃ$R遅刻(ちこく)だ！"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "",
+      "text": "この$R街(まち)の$R宝(たから)　デュエルチャンピオンの$R遊馬(ゆうま)くんに　$R遅刻(ちこく)なんかさせませんよ！　こっちです　\nこっち！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "ちょ　ちょっと$R待(ま)てよ！　いくら$R遅刻(ちこく)しそうだからってこんなとこ$R通(とお)ったら…　うわあああああ！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rayshadows",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_school",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R一方(いっぽう)　シャークの$R妹(いもうと)　$R璃緒(りお)は$R昏睡(こんすい)$R状態(じょうたい)から$R目覚(めざ)め　$R学校(がっこう)へと$R戻(もど)ってきていた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rio",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "もぉ～　$R凌牙(りょうが)　$R一緒(いっしょ)に$R学校(がっこう)に$R行(い)くの$R楽(たの)しみにしてたのに"
+    },
+    {
+      "char": "rio",
+      "pos": "",
+      "image": "anger",
+      "text": "$R置(お)いてくなんて　ひどいゾ"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "smile",
+      "text": "ああ　あんたシャークの$R妹(いもうと)の！"
+    },
+    {
+      "char": "rio",
+      "pos": "",
+      "image": "smile",
+      "text": "$R今日(きょう)から$R通学(つうがく)する$R事(こと)になりましたの　$R兄(あに)の$R凌牙(りょうが)$R共々(ともども)　よろしくお$R願(ねが)い$R申(もう)し$R上(あ)げます"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rio",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "その$R時(とき)　アリトとギラグが$R人間(にんげん)の$R姿(すがた)で$R現(あらわ)れた　"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "ギラグが$R遊馬(ゆうま)を$R攻撃(こうげき)し　$R学校(がっこう)は$R危険(きけん)な$R場所(ばしょ)へと$R一変(いっぺん)した"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "anger",
+      "text": "オレの$R名(な)はギラグ！　バリアンの$R戦士(せんし)だ！　$R九十九(つくも)$R遊馬(ゆうま)　お$R前(まえ)を$R叩(たた)き$R潰(つぶ)す！"
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alito",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R突然(とつぜん)　アリトが$R現(あらわ)れ$R遊馬(ゆうま)を$R助(たす)けた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "て　てめえ…　アリトおおおッ！"
+    },
+    {
+      "char": "alito",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": "$R消(き)え$R失(う)せろ　ギラグ！"
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "",
+      "text": "$R忘(わす)れたのか　$R我(われ)らの$R使命(しめい)を！"
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "",
+      "text": "$R我(われ)らの$R世界(せかい)を$R救(すく)うため　ナンバーズが$R必要(ひつよう)だということを！"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "anger",
+      "text": "$R忘(わす)れてなどいない！　オレはバリアンだ！"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "",
+      "text": "だけど$R遊馬(ゆうま)はオレが$R認(みと)めた$R最強(さいきょう)のデュエリストだ　だから$R最高(さいこう)のデュエルで$R打(う)ち$R負(ま)かす　\nでなければナンバーズは$R決(けっ)して$R奪(うば)えない　オレはバリアンである$R前(まえ)に　デュエリストなんだよ！"
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "anger",
+      "text": "ぐっ…"
+    },
+    {
+      "char": "girag",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alito",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "$R待(ま)てよ　オレたちがバリアンのお$R前(まえ)と$R闘(たたか)うって$R事(こと)はだな…"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "",
+      "text": "ナンバーズを…　いや　お$R互(たが)いの$R存在(そんざい)を$R賭(か)けた$R闘(たたか)いとなる"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "",
+      "text": "オレはただ　お$R前(まえ)とデュエルがしたいだけだ　おもしれえデュエルをな"
+    },
+    {
+      "char": "astral",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "わかったよ…　やってやる"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "",
+      "text": "$R待(ま)ってたぞ　その$R言葉(ことば)！　バリアンズ・スフィア・フィールド$R展開(てんかい)！"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "zexal_bariansspherecube",
+      "text": ""
+    },
+    {
+      "char": "alito",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alito",
+      "pos": "RIGHT:FADEIN",
+      "image": "barian_neutral",
+      "text": "デュエルディスク　セット！"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "zexal_bariansspherecube",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "zexal",
+      "pos": "LEFT:FADEIN",
+      "image": "",
+      "text": "デュエル！"
+    }
+  ]
+}

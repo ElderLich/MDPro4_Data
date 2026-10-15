@@ -1,0 +1,113 @@
+{
+  "name": "DualDuel_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Ray, come fai ad avere una carta Bariana? Ma chi sei?"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Oh, lo scoprirai... eventualmente."
+    },
+    {
+      "char": "girag",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Aspetta, Ray! Devi ancora dirmi perché hai una Carta Bariana!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "Devi spiegarmelo!"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Faccio parte dell'Unità Bariana Anti Crimine."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Non ci credo! Sei un Bariano?!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "Così nel Mondo Bariano ci sono i buoni e i cattivi?"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "neutral",
+      "text": "Esatto, Yuma. Il Mondo Bariano non è malvagio, ma alcune persone non obbediscono alla legge."
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "",
+      "text": "Questa è la verità e ora che lo sai, cerchiamo di lavorare insieme."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "smile",
+      "text": "Veramente? Fantastico!"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "",
+      "text": "Per combattere adeguatamente i Bariani avrai bisogno di questa carta."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "zexal_limitedbariansforcecard",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Incredibile! È l'Alza-Rango-Magico Forza di Barian Limitata."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "zexal_limitedbariansforcecard",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rayshadows",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    }
+  ]
+}

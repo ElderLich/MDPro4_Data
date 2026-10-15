@@ -1,0 +1,59 @@
+{
+  "name": "BarianVengeance_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Nistro, alles in Ordnung!?"
+    },
+    {
+      "char": "nistro",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "Yuma, was ist hier los?"
+    },
+    {
+      "char": "nistro",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ich wünschte, du hättest mir gesagt, dass du es mit diesen Barianern aufnehmen willst, Yuma. Sag nur Bescheid, und ich lasse alles stehen und liegen, um dir zu helfen!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Nein, danke. Ich würde niemals zulassen, dass du deinen Traum aufgibst!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "smile",
+      "text": "Du sagtest, du willst allen deinen Fans Hoffnung geben. Du wirst sie doch nicht enttäuschen, oder?"
+    },
+    {
+      "char": "nistro",
+      "pos": "",
+      "image": "smile",
+      "text": "Natürlich nicht!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "zexal_lionheartcard",
+      "text": ""
+    },
+    {
+      "char": "nistro",
+      "pos": "",
+      "image": "",
+      "text": "Vielleicht solltest du diese Nummer-Karte auch behalten."
+    }
+  ]
+}

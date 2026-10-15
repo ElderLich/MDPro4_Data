@@ -1,0 +1,383 @@
+{
+  "name": "TheNextKingOfGames_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_arena",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "Left",
+      "image": "smile",
+      "text": "Bien joué! Donc je suppose que j'ai réussi le test, hein, Prof?"
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "Right",
+      "image": "anger2",
+      "text": "Impossible! Ce n'est pas possible que ce délinquant puisse me vaincre!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "smile",
+      "text": "J'ai réussi à entrer dans l'Academy! Je suis admis! Admis!"
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_outsideacademy",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "En battant le Docteur Crowler, Jaden fut autorisé à entrer à la Duel Academy. Le lendemain, ils se rassemblèrent tous dans le hall principal pour la cérémonie d'introduction."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "Bienvenue, mes élèves! Je suis Doyen Sheppard, directeur de l'établissement. Et vous êtes les meilleurs et les plus brillants jeunes duellistes au monde!"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "smile",
+      "text": "Maintenant veuillez vous installer dans vos dortoirs assignés. Je pense que vous les trouverez très confortables... en fonction de votre rang, bien sûr."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Eh bien, je ne sais pas pour toi, Sy... mais on dirait que je suis dans le dortoir Rouge Slifer."
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "RIGHT",
+      "image": "red_smile",
+      "text": "C'est super! Moi aussi!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "Hey, Bastien. Tu es aussi dans Rouge?"
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "Eh bien maintenant, voyons ici. Manches jaunes, boutons jaunes ... Je ne le pense pas."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "surprise",
+      "text": "Oh, je comprends. C'est pourquoi Sy et moi sommes dans Rouge."
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "",
+      "image": "neutral",
+      "text": "Je t'en prie ne me dis pas que tu viens juste de comprendre cela?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anguish",
+      "text": "Et alors? As-tu pensé que je pourrais être daltonien?"
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "",
+      "image": "",
+      "text": "Eh bien non. En fait, je n'y ai pas pensé. Tu es daltonien?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "smile",
+      "text": "Non, mais j'aurais pu l'être! A plus tard, près des dortoirs!"
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "",
+      "image": "",
+      "text": "J'en doute. Tu vas dans le mauvais sens. Ton dortoir est là-bas."
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_genericoutdoor",
+      "text": ""
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_surprise",
+      "text": "Ce n'est pas un dortoir. C'est une sorte de remise avec une terrasse."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "smile",
+      "text": "Tu plaisantes? Matez-moi la vue! Cet endroit est génial!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "neutral",
+      "text": "Voici notre chambre, Sy!"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_discouragement",
+      "text": "C'est un peu petit, non?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "smile",
+      "text": "Hé, tu es petit aussi! Quoi qu'il en soit, j'aime ça. C'est une belle piaule pour notre première année ici!"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_neutral",
+      "text": "C'est un peu bizarre qu'on se soit rencontrés durant les tests d'entrée et on est maintenant colocataires?"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_smile",
+      "text": "Tu penses que nous étions en quelque sorte connectés dans une vie antérieure, Jaden?"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_smile",
+      "text": "Tu sais, comme si tu étais un pharaon égyptien et j'étais le gardien Seto?!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "bittersleep",
+      "text": "Ne le prends pas mal, mais c'est juste bidon."
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_discouragement2",
+      "text": "Eh bien, cela pourrait être vrai!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "Laisse-tomber. Les moules ont dû être brisées après qu'on nous a créés tous les deux!"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_discouragement",
+      "text": "Oui-pour des raisons différentes. Car tu es un duelliste génial, et je suis ... quel est le contraire de génial? Ingénial."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "smile",
+      "text": "Sy, nous allons devoir travailler sur ta confiance en toi. Mais d'abord, nous allons nous concentrer sur cette piaule! Ouvre les rideaux et laisse entrer l'air frais!"
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": "Hé! Ils étaient fermés pour une bonne raison!"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_discouragement",
+      "text": "Oh, désolé."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "Ouais, nous n'avions pas vu que tu dormais là-haut sur ce lit superposé."
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "anger",
+      "text": "Qui êtes-vous et que faites-vous dans ma chambre?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "smile",
+      "text": "Oh, désolé. Mon nom est Jaden Yuki."
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_smile",
+      "text": "Et je suis Syrus. Nous sommes tes nouveaux colocataires."
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "neutral",
+      "text": "Vous êtes nouveaux, bien alors. Laissez-moi vous dire comment les choses fonctionnent par ici."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "surprise",
+      "text": "Quelles choses?"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_discouragement",
+      "text": "Du genre quand le week-end des parents aura lieu?"
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "neutral",
+      "text": "Plutôt la signification des couleurs! C'est plus important que tout."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ouais?"
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "",
+      "text": "Vous avez trois différents types d'étudiants ici. Les étudiants Bleu Obelisk, les étudiants Jaunes Râ et les étudiants Rouge Slifer."
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "",
+      "text": "Les Bleus sont les étudiants les mieux classés. Certains enfants sont Bleu à cause de leurs notes, et d'autres à cause de leurs connexions."
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "",
+      "text": "Les Jaunes sont au deuxième rang. Ce sont pour la plupart des étudiants plus jeunes avec beaucoup de potentiel."
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "",
+      "text": "Ensuite, c'est nous. Les merveilles Rouges."
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_smile",
+      "text": "Les merveilles .... C'est un nom cool!"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Je \"me demande\" plutôt comment des larbins comme nous sont parvenus aussi loin!"
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Désolé mais nous avons touché le fond ici. Des duellistes détraqués."
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "professorbanner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Bonjour les enfants. Mon nom est Professeur Banner. Je ne suis pas seulement votre directeur au Rouge Slifer, mais j'enseigne aussi l'alchimie à la Duel Academy."
+    },
+    {
+      "char": "professorbanner",
+      "pos": "",
+      "image": "",
+      "text": "Vous apprendrez également que je suis un extraordinaire cuisinier. Tous mes élèves disent que mes succulents repas sont \"décents\". Donc dépêchez-vous vers la cafétéria - C'est l'heure du déjeuner!"
+    },
+    {
+      "char": "professorbanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "RIGHT",
+      "image": "red_neutral",
+      "text": ""
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "smile",
+      "text": "Oh... A propos, je suis Charlie."
+    }
+  ]
+}

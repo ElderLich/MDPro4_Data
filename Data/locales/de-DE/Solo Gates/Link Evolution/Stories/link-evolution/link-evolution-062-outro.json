@@ -1,0 +1,311 @@
+{
+  "name": "ARayofHope_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_laboratory",
+      "text": ""
+    },
+    {
+      "char": "zarc",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Du hast gesagt, dass Yuya Sakaki dich inspiriert hat, als er die Pendelbeschwörung entdeckte, aber du liegst völlig falsch!"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Wie meinst du das?"
+    },
+    {
+      "char": "zarc",
+      "pos": "",
+      "image": "smile",
+      "text": "Yuya Sakaki hat nichts entdeckt. Ich war es, der die Pendelbeschwörung entdeckt hat, wenn du es unbedingt wissen willst!"
+    },
+    {
+      "char": "zarc",
+      "pos": "",
+      "image": "smile",
+      "text": "Als Ray mich besiegte, wusste ich, dass ich eine mächtigere Technik entdecken musste, um unsere Revanche zu gewinnen. Ich habe sie entdeckt!"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "zarc",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_duelacademy",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Inzwischen hörte Riley eine seltsame, aber vertraute Stimme."
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Hey, bist du es wirklich? Ray, richtig?"
+    },
+    {
+      "char": "rayakaba",
+      "pos": "RIGHT:FADEIN",
+      "image": "smile",
+      "text": ""
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "",
+      "image": "surprise",
+      "text": "Wie hast du Z-ARC mit nur vier Karten aufgehalten?"
+    },
+    {
+      "char": "rayakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Diese vier Karten enthielten die ganze Energie des Universums. Ich habe mit ihnen Z-ARC aufgehalten und auf die verschiedenen Dimensionen aufgeteilt."
+    },
+    {
+      "char": "rayakaba",
+      "pos": "",
+      "image": "surprise",
+      "text": "Aber Z-ARC aufzuhalten ist nicht das Gleiche, wie ihn für immer zu zerstören. Ich wusste, dass Z-ARC eines Tages wieder auferstehen würde – stärker als je zuvor. Und das ist auch passiert – mit der Macht des Pendels."
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Gehen wir! Wir müssen Z-ARC aufhalten, bevor es zu spät ist!"
+    },
+    {
+      "char": "rayakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_laboratory",
+      "text": ""
+    },
+    {
+      "char": "zarc",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Z-ARC bereitete den letzten Schlag gegen Declan vor."
+    },
+    {
+      "char": "zarc",
+      "pos": "",
+      "image": "",
+      "text": "Das hat Spaß gemacht, aber alles hat ein Ende."
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "Declan!"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "surprise",
+      "text": "Riley! Was glaubst du, was du da machst?!"
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ich bin nicht Riley."
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rayakaba",
+      "pos": "CENTER:FADEIN",
+      "image": "smile",
+      "text": "Ich bin es! Ray!"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "surprise",
+      "text": "Ray!?"
+    },
+    {
+      "char": "zarc",
+      "pos": "",
+      "image": "surprise",
+      "text": "Nein …!"
+    },
+    {
+      "char": "rayakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ich habe dich schon einmal aufgehalten! Und weißt du was, Z-ARC? Ich werde dich wieder aufhalten!"
+    },
+    {
+      "char": "rayakaba",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "CENTER:FADEIN",
+      "image": "smile",
+      "text": "Wie die Scheitelpunkte eines schwingenden Pendels muss es Gutes geben, wenn das Böse existiert."
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rayakaba",
+      "pos": "CENTER:FADEIN",
+      "image": "smile",
+      "text": "Wenn es also einen Z-ARC gibt, dann muss es auch einen Yuya geben! Befreie dich, Yuya!"
+    },
+    {
+      "char": "zarc",
+      "pos": "",
+      "image": "anger",
+      "text": "Sei still! Es gibt keinen Yuya!"
+    },
+    {
+      "char": "zarc",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "RIGHT:FADEIN",
+      "image": "surprise",
+      "text": "Zuzu?"
+    },
+    {
+      "char": "yuya",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "zarc",
+      "pos": "RIGHT:FADEIN",
+      "image": "surprise",
+      "text": "Ich warte seit Jahren auf meine Rache, und nichts wird mich davon abhalten, meinen ultimativen Sieg zu erringen!"
+    },
+    {
+      "char": "zarc",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "RIGHT:FADEIN",
+      "image": "anger",
+      "text": "Nein, Z-ARC! Das lasse ich nicht zu."
+    },
+    {
+      "char": "yuya",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "zarc",
+      "pos": "RIGHT:FADEIN",
+      "image": "anger",
+      "text": "Niemand wird je wieder lächeln!"
+    },
+    {
+      "char": "yusho",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Yuya! Wenn du auf Schwierigkeiten stößt, begrüße sie mit einem Lächeln. Es wird die Kraft geben, weiter voranzukommen!"
+    },
+    {
+      "char": "zarc",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "RIGHT:FADEIN",
+      "image": "neutral",
+      "text": "Ganz genau! Das ist deine Chance, Riley! Beende dieses Duell!"
+    },
+    {
+      "char": "yuya",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "zarc",
+      "pos": "RIGHT:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rayakaba",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "CENTER:FADEIN",
+      "image": "anger",
+      "text": "Ich werde Z-ARC für immer versiegeln!"
+    },
+    {
+      "char": "zarc",
+      "pos": "FADEOUT",
+      "image": "neutral",
+      "text": "Neeiiinnn!"
+    }
+  ]
+}

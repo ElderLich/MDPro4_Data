@@ -1,0 +1,101 @@
+{
+  "name": "WD_YUGI_YamiYugi_Dartz_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_temple",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "You lose, Dartz! Your 10,000-year quest is finally over!"
+    },
+    {
+      "char": "dartz",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "It can't be... I've come too close! All I need is one more powerful soul, and the great Leviathan will arise from the depths of the earth!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Too little too late! Our duel comes to an end. Now release the souls of my friends and everyone else you held captive!"
+    },
+    {
+      "char": "dartz",
+      "pos": "",
+      "image": "anger",
+      "text": "Grrrr!"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_temple",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Dartz failed to capture Yami Yugi's soul, but Dartz merged his own soul with his Leviathan to revive the beast instead."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Powered by the light of his friends, Yugi retrieved his stolen Egyptian God Cards and defeated Dartz and his Leviathan once and for all."
+    },
+    {
+      "char": "dartz",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Hey look. I guess the Gods did pull through."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Told ya! Dat means everyone Dartz captured is free!"
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Is it really all over?"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEIN:LEFT",
+      "image": "",
+      "text": "Yup! We're safe now."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "Let's hit da high road, folks! I'm sure there's someone else tryin’ ta take ova the world back home!"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "CENTER",
+      "image": "smile",
+      "text": "You know, the scary thing is, he's probably right!"
+    }
+  ]
+}

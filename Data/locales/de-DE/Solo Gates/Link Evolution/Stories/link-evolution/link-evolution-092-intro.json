@@ -1,0 +1,221 @@
+{
+  "name": "WD_YUGI_SetoKaiba_Alister_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_kaibacorp",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Als überall in der Stadt Monster auftauchten, gab die Öffentlichkeit Kaiba und der KaibaCorp die Schuld dafür."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Ich glaube, jemand will mich zum Narren halten. Ich habe zu hart gearbeitet, um den Ruf dieser Firma wiederherzustellen. Das muss aufhören."
+    },
+    {
+      "char": "mokubakaiba",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Seto! Schau dir unsere Datenbank an! Irgendjemand ist gerade dabei, sämtliche Aktien unserer Firma aufzukaufen!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "surprise",
+      "text": "Mokuba, du hast recht! Wenn diese Zahlen stimmen, wurde gerade fast die Hälfte von KaibaCorp von einer Person aufgekauft … und die kauft noch mehr! Aber wie ist das möglich?"
+    },
+    {
+      "char": "mokubakaiba",
+      "pos": "",
+      "image": "surprise",
+      "text": "Was machen wir jetzt?"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Wir müssen diese Person aufhalten. Wenn sie noch mehr Aktien kauft, kann sie die Kontrolle über die ganze Firma übernehmen. Warte! Es gibt nur eine Person, die zu so etwas fähig ist … Pegasus."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "mokubakaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Seto und Mokuba suchten das Königreich der Duellanten auf, um Pegasus zur Rede zu stellen."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_pegasuscastle",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Zeig dich, Pegasus!"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Ha ha ha ha ha! Dein Mangel an Geduld amüsiert mich immer wieder."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Und du bist nervig wie immer. Was führst du im Schilde, Pegasus?"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "",
+      "text": "Ich stehe in letzter Zeit etwas neben mir. Eigentlich …"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alister",
+      "pos": "FADEIN:RIGHT",
+      "image": "happy1",
+      "text": "Sogar buchstäblich!"
+    },
+    {
+      "char": "mokubakaiba",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Was ist hier los?"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "happy2",
+      "text": "Überraschung! Ich warte schon lange auf diesen Tag, Kaibalein!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Wer bist du?!"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "anger",
+      "text": "Ich heiße Alister, Kaibalein! Und jetzt duellieren wir uns! Diese Zauberkarte wird alles verändern! Ich aktiviere das Siegel von Orichalcos!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "surprise",
+      "text": "Was ist das?! Das musst du mir erklären! Jetzt!"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "",
+      "text": "Wir sind hier drin gefangen, bis das Duell vorbei ist. Sobald ich dich zermalmt habe, komme ich wieder raus. Du dagegen wirst natürlich nicht ganz so viel Glück haben, Kaibalein!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "surprise",
+      "text": "Was meinst du damit?"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "anger",
+      "text": "Wenn du verlierst, wird deine Seele für immer hier drin gefangen sein!"
+    },
+    {
+      "char": "mokubakaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "Lass meinen Bruder raus! Du hast ja keine Ahnung, mit wem du dich anlegst!"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "",
+      "text": "Und ob ich das weiß. Ich habe mich mit einem gierigen, kleinen Mistkerl angelegt, der genauso erbärmlich ist wie sein Vater."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "Was hast du gerade gesagt? Niemand, der mich mit meinem Stiefvater vergleicht, kommt ungeschoren davon! Er war eine niederträchtige Schlange!"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "",
+      "text": "Genau wie du."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Meine Familienangelegenheiten haben nicht das Geringste mit dir zu tun."
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "sad",
+      "text": "Falsch geraten. Und ob sie was mit mir zu tun haben."
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "shy",
+      "text": "Es war heute vor 7 Jahren. Ich werde den Tag nie vergessen. Die Tanks sind gekommen und haben meinen Bruder mitgenommen. Ich habe schnell herausgefunden, wer dahinter steckte …"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "anger",
+      "text": "Gozaburo Kaiba. Dein Vater hat mir das angetan. Jetzt stehst du an der Spitze seines bösen Imperiums, also ist es auch deine Schuld!"
+    }
+  ]
+}

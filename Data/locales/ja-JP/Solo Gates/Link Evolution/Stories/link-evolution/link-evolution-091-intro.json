@@ -1,0 +1,593 @@
+{
+  "name": "WD_JOEY_JoeyWheeler_MaiValentine_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_gamestore",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "マリクに$R勝利(しょうり)したことで　$R遊戯(ゆうぎ)は$R三幻神(さんげんしん)$R全(すべ)てを$R手(て)にしていた　しかし　それも$R束(つか)の$R間(ま)だった"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R世界中(せかいじゅう)で$R本物(ほんもの)のモンスターが$R現(あらわ)れパニック$R状態(じょうたい)が$R続(つづ)いていた　さらに　$R遊戯(ゆうぎ)の$R三幻神(さんげんしん)も$R謎(なぞ)の\n$R三人衆(さんにんしゅう)に$R盗(ぬす)まれてしまった"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "うわあああ！！"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "じーちゃん　しっかり！"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "sad",
+      "text": "$R遊戯(ゆうぎ)…　すまん"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "どうしたの　じーちゃん！？"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "sad",
+      "text": "$R神(かみ)の…　$R神(かみ)のカードを！"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "えっ　まさか！？"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT_BACK",
+      "image": "surprise",
+      "text": "$R盗(ぬす)まれたのか！？"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_gamestore",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R誰(だれ)に$R盗(ぬす)まれたのかわからず$R途方(とほう)に$R暮(く)れていた$R遊戯(ゆうぎ)たちのところへ　ビデオテープの$R入(はい)った\n$R小包(こづつみ)が$R届(とど)いた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "これは…　$R遊戯宛(ゆうぎあて)の$R小包(こづつみ)じゃ"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "えっ？"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "sad",
+      "text": "それが$R全部(ぜんぶ)$R英語(えいご)で$R書(か)いてあってわからんのじゃよ"
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT_FRONT",
+      "image": "surprise",
+      "text": "ええっと…　インダストリアル・イリュージョン$R社(しゃ)…"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT_FRONT",
+      "image": "surprise",
+      "text": "なんだと！？　インダストリアル・イリュージョン$R社(しゃ)って$R言(い)えばあのペガサスの$R会社(かいしゃ)だろ？"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "CENTER",
+      "image": "sad",
+      "text": "どうしよう　もう$R一人(ひとり)のボク…"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "CENTER:FADEIN",
+      "image": "",
+      "text": "もう$R持(も)ってはいないとはいえ　ペガサスは$R千年眼(ミレニアム・アイ)に$R選(えら)ばれたものだ　\nそしてデュエルモンスターズの$R生(う)みの$R親(おや)でもある"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "CENTER:FADEIN",
+      "image": "surprise",
+      "text": "もしかしたら$R今回(こんかい)の$R事(こと)に$R関係(かんけい)してるかもしれない"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "CENTER:FADEIN",
+      "image": "",
+      "text": "ああ　$R可能性(かのうせい)は$R高(たか)い　テープを$R観(み)よう"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_ind_illusions",
+      "text": ""
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "CENTER:FADEIN",
+      "image": "",
+      "text": "お$R久(ひさ)しぶりデース$R遊戯(ゆうぎ)ボーイ　モンスターが$R実体化(じったいか)して$R世界(せかい)$R中(じゅう)でパニックを$R起(お)こしている…　\nその$R事(こと)について$R遊戯(ゆうぎ)ボーイと$R会(あ)って$R話(はな)さなければならない$R事(こと)がありマース　ですが$R私(わたし)ここを\n$R離(はな)れることが$R出来(でき)ません　$R何者(なにもの)かが$R私(わたし)を$R見張(みは)っているのデース　アメリカまで$R来(き)てください！"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_gamestore",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "CENTER:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "なにっ？"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "$R一体(いったい)どういう$R事(こと)だ？"
+    },
+    {
+      "char": "teagardner",
+      "pos": "LEFT_FRONT",
+      "image": "sad",
+      "text": "$R遊戯(ゆうぎ)…　どうしよう"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R行(い)くしかない　$R他(ほか)に$R何(なに)も$R手(て)がかりはないんだ"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEIN:CENTER",
+      "image": "",
+      "text": "そうだね　$R行(い)こう　アメリカへ！"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT_FRONT",
+      "image": "",
+      "text": "そうだな　こうしてても$R仕方(しかた)ねえ　オレも$R一緒(いっしょ)に$R行(い)くぜ！"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT_BACK",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "LEFT_FRONT",
+      "image": "",
+      "text": "それならあたしも$R行(い)く！　$R二人(ふたり)だけじゃ$R心配(しんぱい)だしね！"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "RIGHT_BACK",
+      "image": "smile",
+      "text": "よっしゃ！　そうと$R決(き)まればさっそく$R準備(じゅんび)だ！"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "smile",
+      "text": "みんな！"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_temple",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R古代(こだい)の$R城(しろ)に$R戻(もど)った$R三人(さんにん)のカード$R泥棒(どろぼう)　ラフェール　アメルダ　ヴァロンは　$R主人(しゅじん)であるダーツと\n$R話(はな)していた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rafael",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "$R神(かみ)のカードはここに…"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_egyptiangodcards",
+      "text": ""
+    },
+    {
+      "char": "dartz",
+      "pos": "LEFT",
+      "image": "happy",
+      "text": "$R感(かん)じる　このカードに$R秘(ひ)められし$R強大(きょうだい)な$R力(ちから)を…　$R我(わ)が$R崇高(すうこう)なる$R神(かみ)よ！　$R今(いま)ここにささげたる\n$R三体(さんたい)の$R神(かみ)の$R血(ち)から$R力(ちから)を$R得(え)よ！　その$R大(おお)いなる$R力(ちから)を$R以(もっ)て$R彼(か)の$R地(ち)と$R我(わ)が$R地(ち)を$R繋(つな)ぐ$R扉(とびら)を$R開(ひら)け！"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "classic_egyptiangodcards",
+      "text": ""
+    },
+    {
+      "char": "dartz",
+      "pos": "",
+      "image": "anger",
+      "text": "$R我(われ)らが$R神(かみ)はまだ$R生(う)まれ$R落(お)ちたばかり　$R充分(じゅうぶん)な$R力(ちから)を$R蓄(たくわ)えるには$R生(い)け$R贄(にえ)が$R必要(ひつよう)"
+    },
+    {
+      "char": "rafael",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R今(いま)こそ　$R名(な)も$R無(な)きファラオの$R魂(たましい)を$R我(われ)らの$R神(かみ)に$R捧(ささ)げましょう！"
+    },
+    {
+      "char": "dartz",
+      "pos": "",
+      "image": "",
+      "text": "それだけでは$R足(た)りぬ！　$R我(われ)らの$R神(かみ)を$R完全(かんぜん)に$R復活(ふっかつ)させるにはより$R多(おお)くの$R強(つよ)きデュエリストの$R魂(たましい)が\n$R必要(ひつよう)だ"
+    },
+    {
+      "char": "alister",
+      "pos": "LEFT_FRONT",
+      "image": "neutral",
+      "text": "$R海馬(かいば)$R瀬人(せと)の$R魂(たましい)はお$R任(まか)せ$R下(くだ)さい"
+    },
+    {
+      "char": "valon",
+      "pos": "RIGHT_FRONT",
+      "image": "happy",
+      "text": "オレは$R城之内(じょうのうち)$R克也(かつや)を"
+    },
+    {
+      "char": "dartz",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R名(な)も$R無(な)きファラオは$R今(いま)　ペガサス・J・クロフォードの$R元(もと)に$R向(む)かっている"
+    },
+    {
+      "char": "rafael",
+      "pos": "",
+      "image": "surprise",
+      "text": "ペガサス！？"
+    },
+    {
+      "char": "dartz",
+      "pos": "",
+      "image": "anger",
+      "text": "そちらにはすでに$R手(て)を$R打(う)ってある　お$R前達(まえたち)も$R向(む)かうがいい"
+    },
+    {
+      "char": "dartz",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rafael",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alister",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "valon",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_ind_illusions",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "インダストリアル・イリュージョン$R社(しゃ)に$R到着(とうちゃく)した$R遊戯(ゆうぎ)たちを$R出迎(でむか)えたのは　ペガサスではなく　\n$R別(べつ)の$R見慣(みな)れた$R人物(じんぶつ)だった"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "$R誰(だれ)もいねえ　$R今日(きょう)は$R休(やす)みなのか？"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "…ここに$R入(はい)った$R瞬間(しゅんかん)から$R強烈(きょうれつ)な$R殺気(さっき)をひしひしと$R感(かん)じる"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "$R舞(まい)！　お$R前(まえ)もペガサスに$R呼(よ)ばれたのか？"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "LEFT:FRONT",
+      "image": "alternate_neutral",
+      "text": "ペガサスはもう$R居(い)ない"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "surprise",
+      "text": "えっ？"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_happy1",
+      "text": "ペガサスは$R私(わたし)が$R始末(しまつ)した"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_seal_pegasus",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT_FRONT",
+      "image": "anger",
+      "text": "ウソでしょ　$R舞(まい)さんがそんな$R事(こと)…"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "$R舞(まい)！　どういう$R事(こと)だよ！？"
+    },
+    {
+      "char": "valon",
+      "pos": "LEFT:FRONT",
+      "image": "",
+      "text": "$R孔雀(くじゃく)$R舞(まい)はどうしても$R自分(じぶん)の$R手(て)でお$R前達(まえたち)を$R始末(しまつ)したいんだとさ　$R舞(まい)…　お$R前(まえ)の$R獲物(えもの)は\nペガサスだけのはずだぜ　$R名(な)もなき$R王(おう)と$R城之内(じょうのうち)の$R魂(たましい)はオレ$R達(たち)のもんだ！"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_anger",
+      "text": "こいつらはあたしが$R相手(あいて)をする　あんた$R達(たち)は$R手出(てだ)しするんじゃないよ"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "sad",
+      "text": "なに$R言(い)ってんだよ　$R舞(まい)"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_neutral",
+      "text": "あんたたちがここから$R出(で)るにはデュエルであたしを$R倒(たお)すしかないのさ　$R城之内(じょうのうち)　まずは\nお$R前(まえ)からだ！"
+    },
+    {
+      "char": "valon",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_happy1",
+      "text": "あたしはもう$R昔(むかし)の$R孔雀(くじゃく)$R舞(まい)じゃない　あたしは$R生(う)まれ$R変(か)わったのよ！　オレイカルコスの$R力(ちから)を\n$R得(え)てね！"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "RIGHT_FRONT",
+      "image": "surprise",
+      "text": "これは…！！"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "surprise",
+      "text": "やめろ$R舞(まい)！　オレはお$R前(まえ)と$R闘(たたか)いたくねぇ！"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_neutral",
+      "text": "オレイカルコスの$R結界(けっかい)　あの$R結界(けっかい)から$R出(で)られるのはデュエルの$R勝者(しょうしゃ)のみ"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "classic_seal",
+      "text": ""
+    }
+  ]
+}

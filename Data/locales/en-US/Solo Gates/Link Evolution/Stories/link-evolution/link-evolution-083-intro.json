@@ -1,0 +1,191 @@
+{
+  "name": "TheMasterOfMagicians_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_obelisk_card",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "As the Battle City Tournament continued, Marik learned that the Egyptian God Card he was seeking had been played."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "LEFT",
+      "image": "dark_neutral",
+      "text": ""
+    },
+    {
+      "char": "odion",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_surprise",
+      "text": "Obelisk the Tormentor has been played?"
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "",
+      "text": "Yes. Moments ago in Battle City. And we’ve identified the card’s owner."
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "",
+      "text": "Seto Kaiba."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Of course."
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "",
+      "text": "How did you know, sir?"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "It's quite simple. My sister Ishizu conspires against me. She gave Kaiba that card to stop me. I should have known Ishizu is behind this whole tournament."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "She used her Millennium Necklace to foresee the events of Battle City. Ishizu knew if she gave Obelisk the Tormentor to Kaiba, he'd throw a tournament out of greed to obtain the other Egyptian God Cards."
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "",
+      "text": "Sir, shall I order a team of Rare Hunters to pay Kaiba a little visit?"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "No. Leave Kaiba to his games."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "First, I’ll need to weaken the Pharaoh."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_anger",
+      "text": "Dispatch Arkana to take down Yugi Muto!"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "odion",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Later in the Battle City tournament, a strange clown lured Yugi to a secret lair with dangerous contraptions."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "arkana",
+      "pos": "RIGHT",
+      "image": "win",
+      "text": "Welcome, Yugi Muto. I am the illusionist known as Arkana, and soon, your favorite card Dark Magician will be dueling for me!"
+    },
+    {
+      "char": "arkana",
+      "pos": "",
+      "image": "neutral",
+      "text": "Only a true master of illusion deserves to hold a Dark Magician. You will never understand its full potential."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "anger",
+      "text": "That is enough, Arkana!"
+    },
+    {
+      "char": "arkana",
+      "pos": "",
+      "image": "win",
+      "text": "I know it must be hard to think of your favorite card in another duelist’s deck. Well, I challenge you to a duel! The winner will take the loser’s Dark Magician!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "And I accept. You must know that when a duelist builds his deck, he chooses his favorites from many different types of cards."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "smile",
+      "text": "But sometimes, a card can choose a duelist! The two are connected, and the duelist can tap into the card’s true power."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Because each is bound by the heart of the cards...and Dark Magician has chosen me!"
+    },
+    {
+      "char": "arkana",
+      "pos": "",
+      "image": "win",
+      "text": "Enough! Let's shuffle our decks and let the show begin!"
+    }
+  ]
+}

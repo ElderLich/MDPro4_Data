@@ -1,0 +1,257 @@
+{
+  "name": "BattleCityBegins_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "¡Sí, Yugi! ¡Has ganado!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "Entrégame la carta Dragón de Ojos Rojos de Joey y tu Carta Localizadora.”"
+    },
+    {
+      "char": "seeker",
+      "pos": "RIGHT",
+      "image": "lose",
+      "text": "He perdido... He fallado... Perdóname, mi señor... ¡He dado lo mejor de mí! ¡No! ¡Por favor, no te enfades conmigo! ¡¡¡Ahhhhh!!!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "surprise",
+      "text": "Yugi, ¡ese loco ha perdido la cabeza!"
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "win",
+      "text": "¿Te acuerdas de mí, Faraón? La verdad, supongo que no. Estabas atrapado en el Puzle cuando me enfrenté al pequeño Yugi."
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "neutral",
+      "text": "Enhorabuena por derrotar a mi Cazador Raro, aunque era el duelista más débil de mi equipo. Mis otros secuaces van a resultar mucho más implacables."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "surprise",
+      "text": "Yugi, ¡¿qué pasa con esta banda de tarados!?"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "RIGHT",
+      "image": "dark_neutral",
+      "text": ""
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "",
+      "text": "Faraón, he esperado muchos años. Por fin, después de tanto tiempo, ¡te destruiré! No voy a consentir que mis otros Cazadores Raros fracasen como éste."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_anger",
+      "text": "Tengo poco tiempo para tanta estupidez, así que he tomado posesión de su cuerpo y su mente, y está atrapado en el Reino de las Sombras. ¡Está bajo mi control!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Cómo lo controlas?"
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "",
+      "text": "Cada uno de los Objetos Milenarios contiene su propia energía."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "millenniumrod",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_smile",
+      "text": "¡Así que el control mental es una tarea sencilla con mi Cetro Milenario! Permíteme que me presente. Acuérdate de mi nombre... ¡es Marik!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Marik! ¡¿Qué es lo que quieres de mí?!"
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "",
+      "text": "Quiero lo que me pertenece. ¡Y lo conseguiré usando la fuerza de las cartas de los Dioses Egipcios!"
+    },
+    {
+      "char": "seeker",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Los qué… Egipcios?"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Hace miles de años, tres poderosos monstros arrasaron con el antiguo Egipto. Esos Monstruosos Dioses Egipcios sembraron la destrucción por todo el mundo hasta que el Faraón los encerró para toda eternidad."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Pero cuando Pegasus creó el Duelo de Monstruos, resucitó a esas poderosas bestias en unas cartas. Con estos Dioses Egipcios, puedo destruirte y conseguir el poder que merezco."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "¡Jamás conseguirás el Puzle Milenario!"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_anger",
+      "text": "No lo has entendido. Busco algo más que el poder del Puzle. Quiero el poder del Faraón. ¡La ilimitada energía del mismísimo rey de Egipto! Con ella ¡nadie se interpondrá en mi camino!"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_smile",
+      "text": "¡Usaré su magia todopoderosa para conquistar y liderar el mundo! ¡Seré imparable! ¡El fin está cerca, faraón! El mundo es mío."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Todavía no, Marik! Empiezo a comprender por qué Ishizu me pidió que participase en Battle City. ¡Mi destino es interponerme en tu camino y en el de los poderes malignos que buscas! ¡Y lo haré!"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "¡Faraón, tienes los días contados! ¡Disfruta del juego mientras puedas porque tu reinado está llegando a su fin!"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Tío, que cosa tan rara. Ya sabía que este tipo era un cerdo, pero no me imaginaba que fuera la fachada de otro aún más asqueroso."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "Aquí tienes, Joey. Toma tu Dragón Negro de Ojos Rojos."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "smile",
+      "text": "Quédate con ella. No me pertenece, amigo. Te la has ganado con todas las de la ley. Además, los Cazadores Raros han acumulado un montón de cartas raras. Sus decks son súper potentes así que van a ser difíciles batir... ¡incluso para ti!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "Tú siempre me has apoyado, ¡así que ya es hora de que te ayude yo a ti, para variar! ¡Por eso quiero que te quedes con mi Dragón Negro de Ojos Rojos! Sé que te va a venir bien en algún momento."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "neutral",
+      "text": "Además, eso significa que habrá una parte de mí en tu deck. Estaría genial saber que te estoy ayudando a salvar al mundo."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "No te equivoques. Todavía estoy en el concurso porque sigo cumpliendo con el requisito de la carta rara."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "¡El Dragón Negro de Ojos Rojos no era la única carta rara en mi deck! Tu me diste otra carta rara have un tiempo cuando empecé a jugar Duelo de Monstruos. ¿Te acuerdas?"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡El Mago del Tiempo!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "smile",
+      "text": "Sí, me vino muy bien en el Reino de los Duelistas, ¡y sé que me va a salvar el cuello en el torneo de Battle City!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "¿Sabes? si lo piensas, los dos ponemos el corazón en las cartas. ¡Somos un equipo! Juntos, ¡no vamos a dejar que ningún duelista nos gane!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "¡Vamos a machacar tan fuerte a ese tal Marik y a su escuadrón de Cazadores Raros que no se van a enterar de donde vino el golpe! ¡Se van a arrepentir de haberse metido con nosotros!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Gracias, Joey. Voy a cuidar bien de tu Dragón Negro de Ojos Rojos"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "smile",
+      "text": "Eres un amigo de verdad, Joey. Y juntos, podremos vencer cualquier mal que se nos presente."
+    }
+  ]
+}

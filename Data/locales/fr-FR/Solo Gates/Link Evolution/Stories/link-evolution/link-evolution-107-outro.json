@@ -1,0 +1,65 @@
+{
+  "name": "RiseOfTheSacredBeasts_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_genericoutdoor2",
+      "text": ""
+    },
+    {
+      "char": "kagemaru",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Impossible! Les Bêtes Sacrées ne peuvent être vaincues!"
+    },
+    {
+      "char": "kagemaru",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kagemaru",
+      "pos": "FADEIN:RIGHT",
+      "image": "old_neutral",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Que diable … Ça va?"
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "old_discouragement",
+      "text": "C'est vrai. Je suis un vieil homme. Désirant simplement ce que chaque vieux homme désire ... être jeune à nouveau."
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "old_discouragement",
+      "text": "Exploiter la puissance de ces bêtes sacrées était le seul moyen que j'ai trouvé pour le faire."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "Ouais... et gouverner le monde entier."
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "old_discouragement",
+      "text": "Peux-tu pardonner à une vieille âme décrépite ?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "Ouais, je suppose... Mais c'est évident non, vieil homme? Voler le pouvoir de quelque chose ou de quelqu'un n'est pas la solution pour se sentir de nouveau en forme. Tu dois trouver ta force intérieure!"
+    }
+  ]
+}

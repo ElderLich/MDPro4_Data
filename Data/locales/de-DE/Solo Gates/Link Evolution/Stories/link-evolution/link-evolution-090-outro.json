@@ -1,0 +1,143 @@
+{
+  "name": "TheFinalFaceOff_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_blimp",
+      "text": ""
+    },
+    {
+      "char": "odion",
+      "pos": "BACK_LEFT",
+      "image": "",
+      "text": "Meister Marik."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "Bruder, bitte sag mir, dass es dir gut geht."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "RIGHT",
+      "image": "good_sad",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Marik, es ist vorbei! Deine böse Seite wurde für immer verbannt!"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_neutral",
+      "text": "Es ist endlich vorbei, mein Pharao."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ja, und die Finsternis wurde von deinem Herzen genommen."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "neutral",
+      "text": "Marik hat das Böse, das ihn so lange kontrollierte, überwältigt."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "smile",
+      "text": "Mein Pharao, ich danke dir. Du hast die Menschheit gerettet."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "WIR haben es geschafft. Ich hätte nie gesiegt, wenn ihr alle nicht gewesen wärt."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_neutral",
+      "text": "Pharao, sei versichert, dass jeder, der von meiner finsteren Seite ins Reich der Schatten verbannt wurde, zurückkehren wird."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "smile",
+      "text": "Danke."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_smile",
+      "text": "Jetzt habe ich noch eine Aufgabe zu erledigen, dann ist meine Grabwächter-Mission abgeschlossen."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_neutral",
+      "text": "Schaut euch das Geheimnis hinter der Macht des Pharao an, das auf meinem Rücken geschrieben steht. Diese Inschrift wurde in meiner Familie fünftausend Jahre lang von Generation zu Generation weitergegeben."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Uns wurde beigebracht, dass der antike Pharao, als er die Welt vor der Zerstörung bewahrte, sein eigenes Gedächtnis völlig auslöschte. Aber er wusste, dass er eines Tages zurückkehren und sein Gedächtnis wieder brauchen würde."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Also vertraute er einer Familie sein größtes Geheimnis an: den Schlüssel zu seinen Gedanken seiner Macht! Jetzt, wo du die drei Ägyptischen Götterkarten und das Millenniumspuzzle hast, musst du nur noch die Worte auf Mariks Rücken lesen. Du bist so nah dran."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_smile",
+      "text": "Wir sollten jetzt gehen, Pharao. Nimm den hier. Der Milleniumsstab gehört zu dir. So kann er keinen Schaden mehr anrichten."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "millenniumrod",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "Danke."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "millenniumrod",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_smile",
+      "text": "Und nimm auch den hier. Der Millenniumsring ist bei dir am sichersten."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "millenniumring",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Da Yugi jetzt alle Millenniumsgegenstände und die drei ägyptischen Götterkarten besaß, konnte er sicherstellen, dass die Schattenspiele nie wieder stattfinden würden!"
+    }
+  ]
+}

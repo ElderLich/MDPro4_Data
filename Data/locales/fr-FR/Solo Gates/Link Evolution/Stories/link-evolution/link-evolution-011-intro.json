@@ -1,0 +1,707 @@
+{
+  "name": "SupersensoryShakedown_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_satellite",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Peu après la fin de la Coupe Fortune, Yusei se retrouva dans un autre duel contre un homme qui prétendait être un \"Pactisant des Ténèbres\"."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Après que Yusei eut vaincu son ennemi, il tenta de l'interroger, mais celui-ci n'avait plus aucun souvenir de ce qui venait de se passer."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Le gars semblait être sous l'emprise d'une manipulation mentale. Cependant, ceci fut le moment où Yusei rencontra le journaliste Carly Carmine."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "RIGHT",
+      "image": "glasses_smile",
+      "text": "Salut! Je suis Carly Carmine et j'espérais que vous me diriez quel effet cela fait d'être le premier amateur à devenir le nouveau champion de Domino City?"
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "glasses_surprise",
+      "text": "Et que s'est-il passé ici avec ce mec bizarre portant un capuchon- Eh, tu entends des sirènes?"
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "glasses_discouragement",
+      "text": "Qui a appelé la Sécurité?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "On ferait mieux de partir d'ici avant qu'ils ne commencent à se poser des questions."
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "glasses_surprise",
+      "text": "E-et mon interview!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "On finira plus tard."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Plus tard, Yusei rencontra Rex Goodwin pour trouver des informations sur les Pactisants des Ténèbres."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Yusei, le moment est venu pour moi de te dire la vérité."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "5ds_signermark_yusei",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Et si nous commencions avec cette marque."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Ceci est la Marque du Dragon Cramoisi. Il appartient à ceux qui protègent notre monde des Ténèbres."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "5ds_signermark_yusei",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Ces Ténèbres sont dangereuses. Elles peuvent prendre différentes apparences, même celles de tes amis."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Mais vous saurez leurs identités, car ils auront la Marque des Ténèbres."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "“Marque des Ténèbres“? Tu veux parler des Pactisants des Ténèbres!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Tout comme tu as été choisi pour protéger la lumière, ils ont choisi de protéger les Ténèbres."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Ils ne reculeront devant rien pour vous anéantir. Pour augmenter leur force, ils absorbent les âmes humaines, même ceux des innocents."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Toi et tes amis devrez combiner vos forces et vaincre les Pactisants des Ténèbres."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Et si nous n'y arrivons pas? Que faire si jamais ils libéraient les Ténèbres?"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Si cela devait arriver, eh bien... Tu as déjà vu une vision de notre destinée."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Après avoir parlé avec Goodwin, Yusei fut envoyée à Satellite afin de rechercher les Pactisants des Ténèbres."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "C'est là qu'il rencontra un vieil ami."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "RIGHT",
+      "image": "laughter",
+      "text": "Eh, Yusei!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Quel plaisir de te voir, Crow!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Qu'est-ce que tu deviens?"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "laughter",
+      "text": "Tu me connais. Toujours en train de défendre la bonne cause. Voler les riches pour nourrir les pauvres, des trucs comme ça."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "",
+      "text": "Donc, il parait que tu es un grand champion maintenant."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ouais. Quelque chose comme ça."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Crow, pourquoi les rues sont-elles aussi désertes?"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ces poltrons effrayants viennent souvent par ici ces derniers temps."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Ils jacassent leurs enseignements farfelus, essayant d'enrôler des disciples."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Je ferais mieux d'examiner cela."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Bientôt, Crow et Yusei rencontrèrent un Pactisant des Ténèbres!"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "CENTER",
+      "image": "discouragement",
+      "text": ""
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "RIGHT",
+      "image": "dark_smile",
+      "text": "Yusei!"
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_smile",
+      "text": "Et son ami à la cervelle d'oiseau!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Kalin Kessler? Est-ce vraiment toi?! Je pensais que tu étais parti pour de bon!"
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Pas du tout, Yusei. Et pendant que j'étais parti, j'ai rencontré de nouveaux amis. Je crois que tu as déjà battu en duel un de mes associés."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Tu parles des Pactisants des Ténèbres? Tu es de leur côté?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "Mais tu étais notre ami auparavant!"
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_goodnightssleep",
+      "text": "\"Ton ami auparavant\", oui. Mais maintenant...ton ennemi!"
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_smile",
+      "text": "Prépare-toi maintenant pour le duel de ta vie!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "Il est un Pactisant des Ténèbres. Voici ce dont Goodwin parlait quand il a dit que les ténèbres pourraient prendre la forme d'un ami!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_smile",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_satellite",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anguish",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Durant leur duel, Kalin invoqua l'Esprit de la Terre Immortel Ccapac Apu, et la créature absorba des âmes humaines à travers l'arène."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Kalin utilisa ensuite ce monstre pour vaincre Yusei. Les amis de Yusei se précipitèrent immédiatement vers Yusei."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_citysquare",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Pendant ce temps, Luca et Lua discutaient de leur prochaine étape pour arrêter les Pactisants des Ténèbres."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Comme nous luttons contre le mal, ça signifie que nous sommes des super-héros. Et les super-héros sont censés se serrer les coudes."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "C'est le truc le plus important!"
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "Je pense que leur superpouvoir est le plus important ..."
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "",
+      "image": "smile",
+      "text": "Quoi qu'il en soit, tu as absolument raison, Lua. Restons ensemble ici dans cette belle maison confortable."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Et Akiza?"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "Elle peut être un Pactisant, mais cela ne signifie pas que nous pouvons lui faire confiance."
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "",
+      "text": "Elle fait partie de ce Mouvement Arcadia bizarre qui réunit tous les voyants."
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Leur principal objectif est de former des duellistes qui pourront infliger de sérieux dégâts."
+    },
+    {
+      "char": "luna",
+      "pos": "LEFT",
+      "image": "discouragement",
+      "text": "Mais Akiza ne voudrait jamais vraiment blesser les gens!"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "",
+      "text": "Qui sait. Je propose que nous nous en éloignions autant que possible."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Mais Yanagi avait convenu que nous autres héros devions nous serrer les coudes! Et si jamais elle avait besoin de notre aide?"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "anger",
+      "text": "Et si Yusei avait des ennuis et nous avions besoin du deck d'Akiza comme renfort?"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "Il y a à peu près un million de raisons pour lesquelles ce serait une bonne idée!"
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bolttanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Pendant ce temps Lua, Luca, Bolt et Tenzen se rendirent au siège du Mouvement Arcadia pour obtenir de l'aide d'Akiza."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sayer",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Vous voulez voir Akiza? Elle est terriblement occupée."
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "",
+      "text": "Qu'est ce qui est si incroyablement important pour que vous ayez fait tout ce chemin?"
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Elle a la Marque du Dragon. Cela signifie qu'elle est un super-héros!"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "Luca et moi sommes aussi des super-héros. Nous allons aider notre ami Yusei et combattre les Pactisants des Ténèbres et sauver toute la ville!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "neutral",
+      "text": "J'ai moi-même étudié de près des occurrences étranges ces derniers temps. J'aimerais vous aider."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "shy",
+      "text": "Oh vraiment?!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile1",
+      "text": "Mon Mouvement Arcadia représente tout ce qui est bien. Je vous promets que je ferai tout pour arrêter cette menace!"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "Très bien!"
+    },
+    {
+      "char": "luna",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Merci!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "neutral",
+      "text": "Maintenant, excusez-moi, je vais aller chercher Akiza."
+    },
+    {
+      "char": "sayer",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bolttanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Hélas, la visite était un piège tendu par Sayer. Son intention était de tester les talents de Lua pour savoir s'ils étaient semblables à ceux de Luca."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Où est Luca? Où suis-je? Pourquoi suis-je enchaîné avec ce machin sur ma tête?"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ce chapeau détecte des pouvoirs de voyance cachés, si tu en as bien sur."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Quoi de caché? Tu avais dit que tu allais chercher Akiza et nous aider à combattre les Pactisants des Ténèbres!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile2",
+      "text": "Je vais faire payer la société pour la façon dont les gens ont discriminé et maltraité les voyants à travers le temps!"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Que vas-tu faire de moi?! Me prendre mon cerveau ou quelque chose comme ça?!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile1",
+      "text": "Bien sûr que non. Tu es ici pour faire un test. Pour voir si tu as le pouvoir d'un duelliste voyant."
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile2",
+      "text": "Akiza était juste un avant-première. J'ai des dizaines d'autres duellistes voyants sous mon commandement!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile1",
+      "text": "Ces voyants peuvent faire des trucs fantastiques avec leur esprit."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Cela signifie-t-il qu'Akiza va t'aider à te venger? Mais elle est censée être une héroïne!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile2",
+      "text": "Une héroïne? Elle ne sait même pas ce que je fais vraiment ici! Maintenant, que dirais-tu de commencer le test!"
+    }
+  ]
+}

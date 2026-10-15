@@ -1,0 +1,173 @@
+{
+  "name": "ADuelWithDestiny_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_blimp",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R次(つぎ)のデュエルは$R舞(まい)vs$R真(しん)のマリクだった"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R舞(まい)は$R全力(ぜんりょく)を$R尽(つ)くしたが　マリクは$R強力(きょうりょく)すぎた　$R千年(せんねん)ロッドの$R力(ちから)を$R使(つか)い　マリクは$R舞(まい)の$R精神(せいしん)を$R闇(やみ)の\n$R世界(せかい)に$R閉(と)じ$R込(こ)めた"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_shadowrealm",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "Right",
+      "image": "",
+      "text": "$R罰(ばつ)ゲーム！"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_blimp",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "smile",
+      "text": "ここはお$R前(まえ)の$R中(なか)にある$R深層心理(しんそうしんり)の$R空間(くうかん)…"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "",
+      "text": "これから$R精神拷問(せいしんごうもん)によって$R死(し)の$R闇(やみ)に$R身(み)を$R沈(しず)めていくんだよ…"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R闇(やみ)の$R魔法(まほう)に$R捕(と)らわれ　$R遊戯(ゆうぎ)たちはどうすることもできなかった"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "None",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "None",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "Left",
+      "image": "",
+      "text": "$R敗者(はいしゃ)を$R運(はこ)び$R出(だ)し　そこを$R空(あ)けろ！"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R次(つぎ)のデュエルは$R海馬(かいば)$R瀬人(せと)vsイシズ・イシュタールだった　$R遊戯(ゆうぎ)と$R杏子(あんず)が$R博物館(はくぶつかん)で$R会(あ)った\n$R人物(じんぶつ)だ　$R彼女(かのじょ)が$R謎(なぞ)の$R八人目(はちにんめ)のデュエリストだった"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "",
+      "text": "$R何故(なぜ)…　$R貴様(きさま)が…"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "Right",
+      "image": "",
+      "text": "$R自(みずか)らの$R宿命(しゅくめい)に$R導(みちび)かれたまでです"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "",
+      "text": "フン　またくだらん$R戯言(たわごと)を"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "あの$R者(もの)は$R私(わたくし)の$R弟(おとうと)…　いえ　$R今(いま)は$R異(こと)なるもう$R一(ひと)つの$R心(こころ)に$R支配(しはい)される$R悲(かな)しみの$R器(うつわ)　$R我(わ)が$R弟(おとうと)\nマリクを$R救(すく)い$R出(だ)すために　$R私(わたくし)はこのデュエルを$R制(せい)します"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R弟(おとうと)だと！？"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "$R瀬人(せと)　この$R千年(せんねん)タウクには$R未来(みらい)を$R見通(みとお)す$R力(ちから)が$R秘(ひ)められています"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "anger",
+      "text": "あなたは$R私(わたくし)との$R闘(たたか)いで$R敗北(はいぼく)を$R迎(むか)える　その$R運命(うんめい)から$R逃(のが)れる$R事(こと)はできません"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "また$R例(れい)のオカルトグッズか！　$R貴様(きさま)らのくだらん$R冗談(じょうだん)は$R聞(き)き$R飽(あ)きたぞ！"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R私(わたくし)は$R自(みずか)ら$R勝(か)ち$R進(すす)み$R我(わ)が$R弟(おとうと)　マリクを$R支配(しはい)しようとするものと$R刺(さ)し$R違(ちが)えねばなりません"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R気(き)に$R入(い)らんな！　このオレをだしに$R使(つか)い　その$R上(うえ)　$R貴様(きさま)はオレに$R勝(か)つつもりでいる　あいつが\n$R貴様(きさま)にとってどんな$R存在(そんざい)かは$R知(し)らんが　オレはお$R前(まえ)を$R叩(たた)き$R潰(つぶ)す！"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "$R瀬人(せと)　すでに$R見(み)えています…　あなたの$R未来(みらい)が"
+    }
+  ]
+}

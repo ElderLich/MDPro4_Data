@@ -1,0 +1,101 @@
+{
+  "name": "RiseOfTheSacredBeasts_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_genericoutdoor2",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "El verdadero líder de los Jinetes de la Sombra se reveló como Kagemaru, el superintendente y fundador de la Academia de Duelos. Desafió a Jaden a un duelo, con la esperanza de utilizar sus Cartas Bestias Sagradas para apoderarse del mundo."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kagemaru",
+      "pos": "RIGHT",
+      "image": "old_smile",
+      "text": "¡Yo fui quien construyo esta escuela, y ahora he vuelto para recuperar mis Cartas de las Bestias Sagradas!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "¿Qué?"
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "old_smile",
+      "text": "Soy Kagemaru, ¡Maestro de los Juegos de Sombras! Fui yo quien primero encerró las cartas aquí. ¡Fui yo quien dio a Sheppard las siete llaves!"
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "old_smile",
+      "text": "Pero esas llaves no tienen ningún valor. Para abrir las Puertas de los Espíritus, se necesita el duelo de energía. La energía que ya has agotado tratando de proteger a esas llaves."
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "old_smile",
+      "text": "Por eso lo organicé todo, para que los mejores duelistas del mundo se reunieran aquí. Esperaba que año tras año, clase tras clase, apareciese un estudiante con suficiente espíritu de duelo para desbloquear el poder de las cartas."
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "old_smile",
+      "text": "Mis Jinetes de las Sombras vinieron con la misión de poneros a prueba, y sólo uno las superó. ¡Al fin, uno con el potencial como para  desbloquear las Bestias Sagradas y darme la fuerza para dominar el mundo!"
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "old_smile",
+      "text": "Mi rival será... ¡Jaden Yuki!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Disculpa? ¿Qué?"
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "old_smile",
+      "text": "¡Has demostrado ser el único duelista con el poder de abrir las Cartas de las Bestias Sagradas! Y si te niegas, ¡me encargaré de que esta isla y todo el mundo se hunda en las profundidades del océano!"
+    },
+    {
+      "char": "kagemaru",
+      "pos": "FADEOUT",
+      "image": "old_smile",
+      "text": ""
+    },
+    {
+      "char": "kagemaru",
+      "pos": "FADEIN:RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anger",
+      "text": "¡No puedes!"
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "smile",
+      "text": "Puedo hacer cualquier cosa con estas Cartas de las Bestias Sagradas. ¡Que comience este Juego de Sombras!"
+    }
+  ]
+}

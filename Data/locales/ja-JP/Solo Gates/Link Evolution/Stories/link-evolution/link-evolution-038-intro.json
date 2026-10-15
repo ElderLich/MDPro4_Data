@@ -1,0 +1,341 @@
+{
+  "name": "FusionFoes_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_paradisecity",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "masumi",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R柚子(ゆず)はかつてのライバル　$R真澄(ますみ)が$R謎(なぞ)の$R人物(じんぶつ)とデュエルしているところに$R出(で)くわした　$R柚子(ゆず)が\n$R助(たす)けようとすると　よく$R知(し)る$R人物(じんぶつ)が$R止(と)めに$R入(はい)った"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R真澄(ますみ)！"
+    },
+    {
+      "char": "masumi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "この$R先(さき)には$R行(い)かせるわけにいかない　オレの$R仲間(なかま)の$R戦(たたか)いを$R邪魔(じゃま)されたくない"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R仲間(なかま)って…　あの$R時(とき)の！？　まさか$R今(いま)も$R真澄(ますみ)と！？"
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "オレ$R達(たち)は$R仲間(なかま)を…　$R敵(てき)に$R囚(とら)われた$R大切(たいせつ)な$R仲間(なかま)を$R救(すく)おうとしている　LDSを$R狙(ねら)うのは　\nそのための$R手段(しゅだん)"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R囚(とら)われた$R仲間(なかま)…"
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R最初(さいしょ)は$R思(おも)った…　なぜ$R瑠璃(るり)がここにと…　だが$R君(きみ)は$R瑠璃(るり)じゃない！"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R囚(とら)われた$R大切(たいせつ)な$R仲間(なかま)ってルリ！？　$R教(おし)えて　ルリって$R誰(だれ)？"
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "オレの$R仲間(なかま)の…　シュンの$R妹(いもうと)だ"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "あなたは？　あなたの$R名前(なまえ)は…"
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "smile",
+      "text": "オレは…　ユート"
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "masumi",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "マルコ$R先生(せんせい)を$R襲(おそ)った$R犯人(はんにん)…　マルコ$R先生(せんせい)は$R私(わたし)の$R恩師(おんし)！"
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "あいつか…　フン　$R大(たい)した$R腕(うで)じゃなかったな　$R実戦経験(じっせんけいけん)の$R無(な)さが$R露骨(ろこつ)に$R表(あらわ)れた$R哀(あわ)れなほど\n$R薄(うす)っぺらな…"
+    },
+    {
+      "char": "masumi",
+      "pos": "",
+      "image": "neutral",
+      "text": "ターゲット$R捕捉(ほそく)！　$R北斗(ほくと)！　$R刃(やいば)！"
+    },
+    {
+      "char": "masumi",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "hokuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "yaiba",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R仲間(なかま)を$R呼(よ)んだか…　だが$R二人(ふたり)だけとは$R見(み)くびられたもんだな"
+    },
+    {
+      "char": "hokuto",
+      "pos": "NONE",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "yaiba",
+      "pos": "NONE",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "masumi",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_risefalconcard",
+      "text": ""
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "",
+      "image": "anger",
+      "text": "$RRR(レイド・ラプターズ)ーライズ・ファルコン！　$R全(すべ)ての$R敵(てき)を$R引(ひ)き$R裂(さ)け！　ブレイブクロー・レボリューション！"
+    },
+    {
+      "char": "masumi",
+      "pos": "NONE",
+      "image": "anger",
+      "text": "うわあぁぁぁぁーっ！"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "arcv_risefalconcard",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "しかし　$R黒咲(くろさき)の$R暴走(ぼうそう)を$R止(と)める$R一人(ひとり)の$R人物(じんぶつ)がいた"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "",
+      "image": "neutral",
+      "text": "…$R貴様(きさま)は？"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R赤馬(あかば)$R零児(れいじ)　レオ・コーポレーションの$R現社長(げんしゃちょう)だ"
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "",
+      "image": "anger",
+      "text": "$R貴様(きさま)が$R赤馬(あかば)$R零児(れいじ)…　$R赤馬(あかば)$R零王(れお)の$R息子(むすこ)か　$R瑠璃(るり)は$R今(いま)も$R敵(てき)に$R捕(と)らえられたままに$R違(ちが)いない　\nだが$R必(かなら)ず$R救(すく)い$R出(だ)す！　そのためには$R貴様(きさま)の$R身柄(みがら)が$R必要(ひつよう)なのだ！"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R私(わたし)は$R人質交換(ひとじちこうかん)の$R材料(ざいりょう)というわけか…　$R受(う)けてやってもいい　ただし$R条件(じょうけん)がある　その$R条件(じょうけん)を\n$R君(きみ)が$R呑(の)み　$R実行(じっこう)してくれたならば$R相手(あいて)になってやろう"
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_arcleaguechampionship",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R数日後(すうじつご)　ジュニアユース$R選手権(せんしゅけん)が$R始(はじ)まった！"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "$R遊矢(ゆうや)！　$R柚子(ゆず)！　$R素良(そら)！　$R遂(つい)にこの$R日(ひ)がきた！"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R我(わ)が$R遊勝塾(ゆうしょうじゅく)の$R塾生(じゅくせい)$R全員(ぜんいん)がジュニアユース$R大会(たいかい)に$R出場(しゅつじょう)できるとは…　オレはお$R前(まえ)たちを$R誇(ほこ)りに\n$R思(おも)うぞ！"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "さてと　オレの$R相手(あいて)は…　$R沢渡(さわたり)！　$R対戦日(たいせんび)は$R明日(あした)か"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "$R私(わたし)は$R今日(きょう)の$R午後(ごご)　$R相手(あいて)は…　$R真澄(ますみ)！？"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R素良(そら)は？"
+    },
+    {
+      "char": "sora",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "$R明日(あした)…　$R対戦相手(たいせんあいて)は　LDSだ　え～と　クロサキ…　シュン"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "sad",
+      "text": "クロサキ…　シュン…"
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sora",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "masumi",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "あら　ここにいたのね"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R真澄(ますみ)！"
+    },
+    {
+      "char": "masumi",
+      "pos": "",
+      "image": "smile",
+      "text": "$R再(ふたた)び$R私(わたし)に$R負(ま)ける$R準備(じゅんび)は$R出来(でき)たかしら？"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "anger",
+      "text": "もう　あんなことは$R繰(く)り$R返(かえ)さない！　このデュエルで　あの$R時(とき)とは$R違(ちが)う$R私(わたし)を$R見(み)せてあげる"
+    }
+  ]
+}

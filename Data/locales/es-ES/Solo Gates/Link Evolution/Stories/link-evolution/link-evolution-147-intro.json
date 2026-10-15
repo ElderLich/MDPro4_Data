@@ -1,0 +1,119 @@
+{
+  "name": "DualDuel_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_night",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Girag finalmente se dirigió al mismo lugar donde Alito se había transportado."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "¡AH!"
+    },
+    {
+      "char": "alito",
+      "pos": "LEFT",
+      "image": "discouragement",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "",
+      "text": "¡Alito, no pareces estar bien! ¿Qué te ha pasado?"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "discouragement",
+      "text": "... Atacado..."
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Es Ray..."
+    },
+    {
+      "char": "alito",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "",
+      "text": "¡Alito, vamos! ¡Resiste!"
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Alito!"
+    },
+    {
+      "char": "girag",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alito",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Girag entonces buscó vengarse contra Ray."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Vas a pagar por meterte con Alito, Ray."
+    },
+    {
+      "char": "rayshadows",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "¿De qué estás hablando? ¡Nunca le haría daño a nadie!"
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "",
+      "text": "¡No te hagas el tonto! ¡Alito dijo que lo atacaste, y eso es toda la prueba que necesito!"
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "name": "WD_JOEY_JoeyWheeler_Valon_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_sanfrancisco",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "valon",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Du hast es geschafft. Du hast gewonnen. Leb wohl."
+    },
+    {
+      "char": "maivalentine",
+      "pos": "RIGHT",
+      "image": "alternate_sad",
+      "text": "Es ist meine Schuld."
+    },
+    {
+      "char": "valon",
+      "pos": "",
+      "image": "",
+      "text": "Sei nicht albern, Mai. Ich habe meinen Untergang selbst verschuldet. Ich dachte, wenn ich gewinne, würdest du Joey Wheeler für immer vergessen. Aber jetzt verstehe ich, warum er dir so viel bedeutet. Der Typ hat Herz."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "valon",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_temple",
+      "text": ""
+    },
+    {
+      "char": "dartz",
+      "pos": "CENTER",
+      "image": "happy",
+      "text": "Sieh mal an, wen die Orichalcos da angeschleppt haben. Meinen ehemaligen Angestellten. Jetzt ist Frau Valentine an der Reihe, mir eine Seele zu schicken … oder ihre eigene aufzugeben. Ha ha ha ha ha!"
+    },
+    {
+      "char": "dartz",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_sanfrancisco",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "RIGHT",
+      "image": "alternate_sad",
+      "text": "Wie konnte er das nur tun? Valon hat mal gesagt, dass man jedes Duell für sich selbst kämpft. Und dann kämpft er gegen dich, um mich zu beschützen?"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_anger",
+      "text": "Wie armselig. Das hat er verdient."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Moment mal! Valon hat mich zwar genervt, aber niemand verdient es, dass ein machthungriger Psychopath ihm seine Seele wegnimmt und ihn dann gefangen hält. Ganz egal, wer es ist!"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_happy1",
+      "text": "Ha!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "neutral",
+      "text": "Weißt du was, Mai? Solange dieses Orichalcos-Ding deine Gedanken kontrolliert, kann ich dich nicht zur Vernunft bringen! Tatsächlich kann ich dich jetzt nur noch retten, indem ich mich mit dir duelliere!"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_anger",
+      "text": "Rette lieber dich selbst. Ich komme ohne deine Hilfe gut zurecht. Hast du es denn immer noch nicht gelernt? Wenn du mir in die Quere kommst, geht das für dich schmerzhaft aus!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "smile",
+      "text": "Ich verstehe jetzt alles, Mai. Du hast vergessen, worum es bei Duellen geht. Deshalb bin ich hier, um dich an das Herz der Karten zu erinnern!"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_anger",
+      "text": "Grrr! Wenn du glaubst, du kannst mir eine Lektion in Duel Monsters erteilen, verschwendest du deine Zeit!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_neutral",
+      "text": "Das Siegel von Orichalcos!"
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Da Joey von seinem letzten Duell mit Valon erschöpft war, konnte er das Duell mit Mai nicht beenden."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "Glückwunsch … Du gewinnst … Ich bin zu erschöpft … um es zu beenden …"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "RIGHT",
+      "image": "alternate_surprise",
+      "text": "Du irrst dich! Ich habe nie angegriffen, also hast du das Duell nicht verloren! Ich lasse nicht zu, dass die Orichalcos dich holen, Joey!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "sad",
+      "text": "Dafür ist es zu spät … Ich habe das Duell schon verloren, also gibt es keinen Weg zurück. Wenn schon einer von uns beiden seine Seele verlieren muss, bin ich froh, dass du es nicht bist, Mai."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_anger",
+      "text": "Joey! Neeeeiiiin!"
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Mai befreite sich von Dartz’ Einfluss, aber Joeys Seele wurde von den Orichalcos gefangen."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "RIGHT",
+      "image": "alternate_sad",
+      "text": "Wie konnte ich nur so egoistisch sein? Du bist der beste Freund, den ich je hatte, und wie habe ich es dir gedankt? Indem ich mich stattdessen einem Verrückten zuwende, der mir Macht versprochen hat."
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_anger",
+      "text": "Ich werde dafür sorgen, dass er den Tag bereut, an dem er Mai Valentine getroffen hat."
+    },
+    {
+      "char": "maivalentine",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Das kann doch nicht wahr sein!"
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Was ist passiert?"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Er hat das Duell verloren."
+    },
+    {
+      "char": "teagardner",
+      "pos": "",
+      "image": "sad",
+      "text": "Warte … Bedeutet das …?"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "sad",
+      "text": "Ja. Seine Seele gehört jetzt Dartz."
+    }
+  ]
+}

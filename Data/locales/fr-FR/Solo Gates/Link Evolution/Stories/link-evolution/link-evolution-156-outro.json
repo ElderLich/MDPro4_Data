@@ -1,0 +1,257 @@
+{
+  "name": "TheBattleOfThreeWorlds_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_barian",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "RIGHT",
+      "image": "lose",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Shark... Shark!"
+    },
+    {
+      "char": "nash",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "RIGHT:FADEIN",
+      "image": "discouragement",
+      "text": "Je suppose que mon long voyage s'achève ici."
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "smile",
+      "text": "Tu as ton avenir entier devant toi, Yuma."
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "smile",
+      "text": "J'aurais souhaité être là pour le voir."
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "smile",
+      "text": "Merci pour m'avoir appris à ressentir le flux."
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "smile",
+      "text": "Vous étiez de grands duellistes."
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "smile",
+      "text": "Mais vous êtes encore même de meilleurs amis."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Shark!"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "smile",
+      "text": "Adieu!"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Avec la perte tragique de Shark, Astral prit finalement possession de toutes les 100 Cartes Numéro."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Yuma, nous avons enfin atteint notre objectif qui était de rassembler toutes les 100 Cartes Numéro. Leurs énergies combinées me permettront d'avoir accès au Code Numéron, la source de toute la création dans l'univers."
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "Cela me donne le pouvoir de réécrire l'avenir et le passé."
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "Et j'utiliserais cela pour remplir ma mission finale."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Mais je pensais que nous avions terminé notre dernière mission."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "sad",
+      "text": "Attends, tu ne veux pas dire que ..."
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "Ma mission... Anéantir le Monde Barian."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Je pensais que tu en avais terminé avec ces sottises!"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "Non. Le Monde Barian est l'ennemi du Monde Astral. Il doit être anéanti."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "N'as-tu rien appris, Astral?"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "Tu n'as plus à te battre! Vos deux mondes peuvent cohabiter en paix!"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "anger",
+      "text": "La paix est peut-être ton objectif. Mais ce n'est pas le mien. Le mien reste la destruction du Monde Barian."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "Tu peux continuer à rêver car cela ne va pas se passer comme ça!"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "neutral",
+      "text": "Et comment envisages-tu de m'arrêter, Yuma? Oseras-tu me défier en duel?"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "Tu peux en être certain!"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "Tu dois comprendre la folie de cette entreprise. Comme je possède toutes les cartes Numéro, tu ne peux pas gagner."
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "Tu veux toujours faire un duel?"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Plus que jamais!"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "Très bien. Mais si je gagne, je vais faire plus que détruire le Monde Barian."
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "Je vais utiliser le Code Numéron pour effacer tous tes souvenirs. Ce sera comme si nous ne nous étions jamais rencontrés."
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "D'accord?"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "D'accord."
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "Bien. Nous nous battrons en duel ce soir dans la cour où nous nous sommes rencontrés."
+    }
+  ]
+}

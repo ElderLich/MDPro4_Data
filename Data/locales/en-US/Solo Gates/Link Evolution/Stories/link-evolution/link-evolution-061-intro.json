@@ -1,0 +1,449 @@
+{
+  "name": "TimetoReunite_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_duelacademy",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "celina",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "As for Zuzu, Celina captured and locked her in a cage."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Celina! What's gotten into you? You're supposed to be on my side!"
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "anger",
+      "text": "On your side? Get real! I'm working for the Professor now."
+    },
+    {
+      "char": "celina",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "sad",
+      "text": "Aaaah!"
+    },
+    {
+      "char": "celina",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Zuzu!"
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_laboratory",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "In Leo Akaba's chambers, Yusho confronted his old friend."
+    },
+    {
+      "char": "leoakaba",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "At long last, Yusho."
+    },
+    {
+      "char": "yusho",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Leo, how could you do this? How could the creator of the ARC system who brought smiles to so many faces now want to hurt people?"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Haven't you ever wondered why each of the four dimensions has a different summoning method? It's because all four dimensions used to exist as one… before they were separated."
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "smile",
+      "text": "When my ARC system finally made its public debut in this world, it caused a sensation!"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "But no one could foresee that my invention would lead to disaster."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "surprise",
+      "text": "Disaster?"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Unknowingly, I had unleashed a force I couldn't control. And the trouble all began with a duelist known as Z-ARC!"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "This duelist took great joy in crushing his opponents! And the more brutal the takedown, the more the crowd cheered!"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "anger",
+      "text": "And that's when I realized that with my ARC technology, I didn't create mere holograms! I created real-life monsters! As Z-ARC unleashed his fury on the world, so did his dragons!"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "If we couldn't defeat him, the least we could do was try and stop him. And stop him we did."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "neutral",
+      "text": "You were able to stop him? How?"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "smile",
+      "text": "Yuya!"
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Dad! I can't believe I finally found you! I really could use your help now, Dad. They kidnapped Zuzu!"
+    },
+    {
+      "char": "yusho",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Zuzu?! Leo… I don't know what your ultimate plan is, but kidnapping an innocent girl? Whatever you're up to, just put an end to it. For my sake. And for my son's sake."
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "No, Yusho. I'm afraid I cannot. And especially not for your son, or shall I say, your so-called son."
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "What exactly do you mean?"
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Zuzu! Celina! Rin! Lulu! What have you done with them?"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Though freed from their mind control, the four were trapped inside glass capsules."
+    },
+    {
+      "char": "celina",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "You got some nerve locking me up in here, Professor!"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Now now, Celina. You might not realize this, but I'm doing it for your own good."
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Since I created this problem, I created a solution. Four cards to defeat Z-ARC. However, my cards were stolen."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "surprise",
+      "text": "Stolen? But why? By who?"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "sad",
+      "text": "By someone I care more about than life itself. By Ray… my daughter."
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "surprise",
+      "text": "Daughter!?"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "sad",
+      "text": "Yes. Ray used the cards to fight against Z-ARC, but as a result, she split the dimensions into four. And she also split herself into four!"
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "What do you mean?"
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yusho",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rin",
+      "pos": "BACK_LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "lulu",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "smile",
+      "text": "You four are my daughter, Ray!"
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "celina",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "lulu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "That means Zuzu… is also Ray."
+    },
+    {
+      "char": "leoakaba",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "Exactly. So if I'm to bring my Ray back, then I must reunite the dimensions and these girls back into one!"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Bring her back?!"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "smile",
+      "text": "Correct. That is why I launched my ARC Area Project and the ARC-V Reactor!"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "I dispatched my students to the other dimensions with a single mission: turn people into cards."
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Reuniting all four dimensions requires energy. Life energies of the people I've sealed inside those cards!"
+    },
+    {
+      "char": "yusho",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "I don't believe it."
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Declan, you must join my side. And together, we must defeat Yuya!"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Defeat Yuya!?"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Similar to how Ray was split into four individuals, so was Z-ARC! The piece of Z-ARC from the Standard Dimension is Yuya!"
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "anger",
+      "text": "To make certain that Z-ARC can never resurrect again, we must eliminate him!"
+    },
+    {
+      "char": "yuto",
+      "pos": "LEFT:FADEIN",
+      "image": "surprise",
+      "text": "Are we really pieces of Z-ARC?"
+    },
+    {
+      "char": "yuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "Hey – you're wrong! I'm not evil! Because I duel to bring joy to the world! ...At least that's what I hope."
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "You do, Yuya. Because I was there and I've seen it with my own eyes."
+    },
+    {
+      "char": "leoakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Ah, here you are."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "It's… you!"
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "smile",
+      "text": "Where are your manners? I do have a name, you know. It's Yuri. And I'm here to absorb you, like I did your friend Yugo."
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Not a chance!"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Yuya! This is one duel you must absolutely win!"
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Let's do this!"
+    }
+  ]
+}

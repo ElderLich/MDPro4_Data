@@ -1,0 +1,119 @@
+{
+  "name": "AllDuelHandsonDeck_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_duelacademy",
+      "text": ""
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Non posso crederci... Ho fatto tutto quello che mi era possibile... Ho fatto del mio meglio, e nonostante questo non sono riuscito a vincere!"
+    },
+    {
+      "char": "yusho",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Dennis, non essere maleducato. La prima regola di un bravo intrattenitore è ringraziare il pubblico, soprattutto quando ti applaude."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "neutral",
+      "text": "Lo scopo di un vero duellante d'intrattenimento non è vincere il duello. Lo scopo di un vero duellante d'intrattenimento è conquistare il pubblico e farlo sorridere."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "smile",
+      "text": "Avanti, Dennis, schierati con noi."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "neutral",
+      "text": "Insieme ricostruiremo l'Accademia dei Duelli. Diffonderemo tra la gente il sorriso, invece della paura. Come dei veri duellanti d'intrattenimento."
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "sad",
+      "text": "Tutto il male che ho fatto, tutti gli amici che ho tradito... Quello non potrà mai essere cambiato."
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Dennis!"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "neutral",
+      "text": "Stai indietro! Ascolta, Kite. Io so dove si trova Lulu. E anche una ragazza che le somiglia molto, Rin."
+    },
+    {
+      "char": "alexisrhodesarcv",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Rin? Ma è la ragazza che sta cercando Yugo!"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ci sono due grandi torri all'Accademia dei Duelli, non puoi sbagliare. Rin è nella torre orientale, Lulu in quella occidentale."
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "neutral",
+      "text": "Se il Professore sapesse che ve l'ho detto, mi farebbe camminare su una fune senza rete!"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "smile",
+      "text": "La ringrazio moltissimo, Maestro. Mi auguro che lo spettacolo sia stato di suo gradimento."
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Dennis, no! Non farlo!"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "CENTER",
+      "image": "smile",
+      "text": "È giunto il momento del mio canto del cigno, del gran finale, dell'uscita di scena. In altre parole, è il momento di dirsi addio!"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_denniscard",
+      "text": ""
+    },
+    {
+      "char": "yusho",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "Dennis!"
+    }
+  ]
+}

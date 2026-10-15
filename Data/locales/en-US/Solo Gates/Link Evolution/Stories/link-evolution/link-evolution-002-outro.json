@@ -1,0 +1,149 @@
+{
+  "name": "ABlastFromThePast_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_arena",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Yusei and Jack's duel had summoned forth a massive, flaming dragon. Everyone seemed shocked, except for one man: Rex Goodwin, the head of Sector Security."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "Left",
+      "image": "notattoo_surprise",
+      "text": "What is that? Is that a dragon?"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "Right",
+      "image": "surprise",
+      "text": "What kind of trick is this, Yusei?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "notattoo_neutral",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "The mighty beast has emerged from its slumber."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "5ds_signermark_yusei",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "notattoo_anguish",
+      "text": "W-What's happening to my body? I've never seen this glowing mark on my arm before!"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "What? I'm not the only one with a mark?"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "5ds_signermark_yusei",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "5ds_signermark_jack",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "notattoo_surprise",
+      "text": "So you know what this is, Jack?"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "5ds_signermark_jack",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "neutral",
+      "text": "..."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "notattoo_neutral",
+      "text": "You do, don't you?"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "..."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "notattoo_anger",
+      "text": "Jack, say something! What’s going on?"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "You are in violation of Code 36-B, which states that no residents of Satellite may enter New Domino City. By order of the Social Maintenance Department, we are placing you under arrest. DO NOT try to run. We have you surrounded."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "notattoo_anguish",
+      "text": "Oh man, I got no escape. And even if I did manage to get away, I still don’t know what that mark on my arm was..."
+    }
+  ]
+}

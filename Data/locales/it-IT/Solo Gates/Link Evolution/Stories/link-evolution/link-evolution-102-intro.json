@@ -1,0 +1,365 @@
+{
+  "name": "DoomsdayDuel_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_arena",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Il Cancelliere Sheppard, l'amministratore capo dell'Accademia del Duellante, chiamò Jaden, Bastion, Alexis, Chazz, Dottor Crowler, il Professor Banner e Zane nel suo ufficio."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Il Cancelliere voleva avvertirli riguardo i Cavalieri delle Ombre e la potenza delle tre Carte Bestie Sacre."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Tre Carte \"che cosa\" Sacre?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Le Carte Bestie Sacre. Grazie al loro immenso potere e la loro forza colossale, sono nascoste da qualche parte qui nell'Accademia."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Questa Accademia è stata costruita in parte per proteggere Le Carte Bestie Sacre. Sono state sepolte sottoterra in profondità, i loro poteri sono stati sigillati."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "La leggenda dice che se queste carte vedranno la luce del giorno, accadranno cose terribili..."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Il nostro mondo non ci sarà più."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Non ci sarà più?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Quindi questo è il motivo per cui voi sette siete qui. Per proteggere queste tre carte dai malvagi."
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "zanetruesdale",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "I malvagi?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Esattamente. Sette duellanti conosciuti come i Cavalieri delle Ombre che bramano queste carte."
+    },
+    {
+      "char": "zanetruesdale",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "professorbanner",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Ho sentito parlare di questi Cavalieri delle Ombre. Non sono uno scherzo. Dovete stare attenti."
+    },
+    {
+      "char": "professorbanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Va bene, allora come possiamo proteggere queste carte?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Proteggendo i sette Cancelli degli Spiriti. Per raggiungere le carte, questi cancelli devono essere sbloccati."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "E per sbloccarli, bisogna acquisire le sette chiavi per i sette cancelli. Questo è l'unico modo per proteggere le carte. Proteggendo le chiavi."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "gx_spiritkeys",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Ed eccole qui. Una per ciascuno di voi, mi raccomando."
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "professorbanner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Figlioli, questa è una responsabilità importante. Anche per me."
+    },
+    {
+      "char": "professorbanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "",
+      "image": "anguish",
+      "text": "Noi teniamo le chiavi? Non ci faranno diventare dei bersagli?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "È vero. Con queste chiavi i Cavalieri delle Ombre vi cercheranno."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "gx_spiritkeys",
+      "text": ""
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "chazzprinceton",
+      "pos": "RIGHT",
+      "image": "black_amazed",
+      "text": "Uh, ci cercheranno? Per ELIMINARCI."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Solo in un duello."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "smile",
+      "text": "Fortunatamente per noi, le chiavi non possono essere semplicemente rubate. Un antico editto comanda che le chiavi debbano essere vinte in un duello. E così, ho chiamato i sette migliori duellanti per affrontare questa sfida e combattere per la nostra scuola!"
+    },
+    {
+      "char": "sheppard",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "chazzprinceton",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_shadowrealm",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Più tardi quella sera, Jaden e Alexis furono trasportati in un vulcano dove incontrarono il primo Cavaliere delle Ombre."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Dove siamo?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "In un sogno molto strano."
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "O un incubo!"
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Ahahah! Nessuno dei due!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "surprise",
+      "text": "Che cosa sta succedendo?"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "smile",
+      "text": "Non capite?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "bittersleep",
+      "text": "Imparo lentamente."
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "Chiamami Nightshroud! Sarò quello che ti prenderà la chiave che indossi intorno al collo!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "surprise",
+      "text": "Wow. Voi ragazzi non sprecate tempo!"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "Prenderò quella chiave adesso. E giusto per assicurarmi, ho portato qui i tuoi amici."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anguish",
+      "text": "Che vuoi dire?"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "anger",
+      "text": "Saluta Syrus e Chumley! Sembra che siano caduti dalla padella alla... lava incandescente! Tale è la natura di un Gioco delle Ombre, guardiano della chiave!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anger",
+      "text": "Un Gioco delle Ombre? Senti, duella con me! Ma lasciali andare!"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "Non ci pensare. Ho bisogno di loro per assicurarmi una partita rapida. Vedi quella sfera protettiva che li contiene? Diciamo che non è costruita per durare a lungo."
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "E c'è di più. È in gioco anche la vostra anima, che sarà sigillata in questa carta quando perderai. Naturalmente se io perdo, allora la mia anima sarà sigillata."
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ma ehi, dobbiamo essere onesti con noi stessi. Io perdere? Non c'è modo. Allora prepariamoci, che ne dici?"
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "CENTER",
+      "image": "anguish",
+      "text": "Non puoi accettare questo!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anguish",
+      "text": "Dillo a Syrus e Chumley! Stanno per diventare delle polpette in uno stufato di lava! Sono i miei amici e non ho intenzione di lasciare che questo accada a loro! O a noi!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anger",
+      "text": "Inoltre, questo non è il mio primo Gioco delle Ombre. Spero solo non farà male come gli altri!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anger",
+      "text": "Okay amico, vuoi duellare? Benissimo! Preparati!"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "name": "DualDuel_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_night",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Girag erreichte schließlich denselben Ort, an den Alito transportiert worden war."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "AH!"
+    },
+    {
+      "char": "alito",
+      "pos": "LEFT",
+      "image": "discouragement",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "",
+      "text": "Alito, du siehst ja schlimm aus! Was ist passiert?"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "discouragement",
+      "text": "… angegriffen …"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Es ist Ray …"
+    },
+    {
+      "char": "alito",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "",
+      "text": "Alito, komm schon! Halte durch!"
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "anger",
+      "text": "Alito!"
+    },
+    {
+      "char": "girag",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alito",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Girag wollte dann Rache an Ray nehmen."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Du wirst dafür bezahlen, dass du Alito so zugerichtet hast, Ray."
+    },
+    {
+      "char": "rayshadows",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Wovon redest du? Ich würde niemals jemanden verletzen!"
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "",
+      "text": "Stell dich nicht dumm! Alito sagte, du hast ihn angegriffen. Mehr Beweise brauche ich nicht!"
+    }
+  ]
+}

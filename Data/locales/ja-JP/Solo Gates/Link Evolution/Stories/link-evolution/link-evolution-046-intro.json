@@ -1,0 +1,413 @@
+{
+  "name": "CrowsCrew_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_commons",
+      "text": ""
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "CENTER:FADEIN",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "RIGHT:FADEIN",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT:FADEIN",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "ランサーズがシンクロ$R次元(じげん)へとやってきたことで　$R治安維持局(ちあんいじきょく)は$R遊矢(ゆうや)を$R逃亡者(とうぼうしゃ)であるユーゴと\n$R勘違(かんちが)いする"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "$R次元(じげん)を$R飛(と)ぶのは　あんま$R快適(かいてき)じゃねーな"
+    },
+    {
+      "char": "yuya",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "ここは…？"
+    },
+    {
+      "char": "celina",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "$R恐(おそ)らく…　シンクロ$R次元(じげん)だ"
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "",
+      "image": "sad",
+      "text": "…"
+    },
+    {
+      "char": "celina",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "$R昨夜(さくや)の$R逃亡犯(とうぼうはん)だ！　$R大人(おとな)しく$R投降(とうこう)しろ！"
+    },
+    {
+      "char": "yuya",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "$R冗談(じょうだん)じゃない！　オレ$R達(たち)は　$R今(いま)$R来(き)たばっかりだ！"
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "NONE",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_raikirirosecard",
+      "text": ""
+    },
+    {
+      "char": "crowhoganarcv",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "$R漆黒(しっこく)の$R翼(つばさ)$R翻(ひるがえ)し　$R雷鳴(らいめい)と$R共(とも)に$R走(はし)れ!　$R電光(でんこう)の$R斬撃(ざんげき)!　\nシンクロ$R召喚(しょうかん)！　$R降(ふ)り$R注(そそ)げ！　$RＡ(アサルト)　$RＢＦ(ブラックフェザー)ー$R驟雨(しゅうう)のライキリ！"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "arcv_raikirirosecard",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "さっきはありがとう　$R助(たす)かったぜ　まったく　$R着(つ)いた$R途端(とたん)にアレだもんな　ひでえ$R歓迎(かんげい)ぶりだぜ　\nこっちははるばる$R次元(じげん)を$R越(こ)えてやって$R来(き)たってのに…"
+    },
+    {
+      "char": "crowhoganarcv",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "$R次元(じげん)を$R越(こ)えて！？"
+    },
+    {
+      "char": "crowhoganarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "neutral",
+      "text": "ああ　オレは$R沢渡(さわたり)シンゴ　スタンダード$R次元(じげん)の$R舞網市(まいあみし)じゃ$R無敵(むてき)のデュエリストと$R言(い)われた$R男(おとこ)だ"
+    },
+    {
+      "char": "yuya",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "smile",
+      "text": "こいつは$R弟子(でし)の$R榊(さかき)$R遊矢(ゆうや)"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "anger",
+      "text": "おい！"
+    },
+    {
+      "char": "celina",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "neutral",
+      "text": "で　こっちの$R気(き)の$R強(つ)ええ$R女(おんな)がセレナ　こいつはまた$R別(べつ)の$R次元(じげん)から"
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "anger",
+      "text": "なっ…！"
+    },
+    {
+      "char": "celina",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "$R信(しん)じがたい$R事(こと)かもしれないが　オレ$R達(たち)は$R別(べつ)の$R次元(じげん)からこの$R次元(じげん)に$R仲間(なかま)を$R捜(さが)しに…"
+    },
+    {
+      "char": "crowhoganarcv",
+      "pos": "",
+      "image": "smile",
+      "text": "よくわかんねえけど　$R寝泊(ねと)まりするトコも$R決(き)まってねぇんだろ？　それにあんだけの$R騒(さわ)ぎを\n$R起(お)こしたんだ　セキュリティに$R目(め)をつけられて$R当然(とうぜん)　ほとぼりが$R冷(さ)めるまでここにいろよ"
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "…っ！"
+    },
+    {
+      "char": "crowhoganarcv",
+      "pos": "",
+      "image": "surprise",
+      "text": "あれは！？　セキュリティ！！"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "anger",
+      "text": "$R放(はな)せよ！　$R放(はな)せっつーのっ！！"
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "",
+      "image": "smile",
+      "text": "$R大人(おとな)しくしてろ！"
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhoganarcv",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_council",
+      "text": ""
+    },
+    {
+      "char": "jeanmichelroget",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "ランサーズは$R逮捕(たいほ)され　$R治安維持局(ちあんいじきょく)$R長官(ちょうかん)の$R前(まえ)へと$R連(つ)れてこられた"
+    },
+    {
+      "char": "jeanmichelroget",
+      "pos": "",
+      "image": "neutral",
+      "text": "はじめまして　$R私(わたし)はこのシティの$R治安(ちあん)を$R預(あず)かる$R責任者(せきにんしゃ)…　$R治安維持局(ちあんいじきょく)$R長官(ちょうかん)の\nジャン・ミシェル・ロジェと$R申(もう)します"
+    },
+    {
+      "char": "jeanmichelroget",
+      "pos": "",
+      "image": "anger",
+      "text": "セキュリティに$R抵抗(ていこう)した　それだけでも$R立派(りっぱ)な$R罪(つみ)です"
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "$R先(さき)に$R手(て)を$R出(だ)してきたのはそっちだろ！　この$R次元(じげん)に$R着(つ)いた$R途端(とたん)　いきなりセキュリティに\n$R囲(かこ)まれて…"
+    },
+    {
+      "char": "jeanmichelroget",
+      "pos": "",
+      "image": "smile",
+      "text": "$R次元(じげん)？"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "$R我々(われわれ)の$R目的(もくてき)は$R騒乱(そうらん)ではない　$R我々(われわれ)ランサーズは　このシンクロ$R次元(じげん)をアカデミアの$R侵略(しんりゃく)から\n$R守(まも)り　$R共(とも)に$R手(て)を$R携(たずさ)えて$R次元戦争(じげんせんそう)に$R勝(か)ち$R抜(ぬ)くために$R来(き)た"
+    },
+    {
+      "char": "jeanmichelroget",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R次元戦争(じげんせんそう)？　$R何(なに)を$R言(い)い$R出(だ)すのかと$R思(おも)えば…"
+    },
+    {
+      "char": "jeanmichelroget",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R仮(かり)にその$R戯言(たわごと)が$R本当(ほんとう)だとしても　シティを$R守(まも)るのはセキュリティの$R役割(やくわり)　あなた$R達(たち)ではない！"
+    },
+    {
+      "char": "gale",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": "もういい　$R君達(きみたち)が$R我々(われわれ)の$R味方(みかた)だと$R言(い)うのなら　それを$R証明(しょうめい)してもらいたい"
+    },
+    {
+      "char": "shingo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "$R証明(しょうめい)！？　どうやって！？"
+    },
+    {
+      "char": "gale",
+      "pos": "",
+      "image": "neutral",
+      "text": "フレンドシップカップに$R出場(しゅつじょう)してもらおう"
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "フレンドシップカップ？"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "なるほど　それが$R行政評議会(ぎょうせいひょうぎかい)の$R意向(いこう)か　ランサーズが$R本当(ほんとう)にシンクロ$R次元(じげん)を$R守(まも)るために\n$R来(き)たというのなら　$R大会(たいかい)に$R出場(しゅつじょう)し　デュエル$R戦士(せんし)としての$R腕前(うでまえ)を$R見(み)せろと"
+    },
+    {
+      "char": "gale",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jeanmichelroget",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "そうしてフレンドシップカップが$R始(はじ)まった　デュエリストたちはＤ・ホイールに$R乗(の)ってライディング\nデュエルで$R闘(たたか)う"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_friendshipcup",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "クロウと$R権現坂(ごんげんざか)はフレンドシップカップの$R開幕戦(かいまくせん)で$R闘(たたか)うことになった"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "$R男(おとこ)・$R権現坂(ごんげんざか)　$R必(かなら)ず$R優勝(ゆうしょう)してみせる！"
+    },
+    {
+      "char": "crowhoganarcv",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "$R見(み)せ$R物(もの)になるのはゴメンだが　$R出(で)る$R限(かぎ)りは$R優勝(ゆうしょう)する　$R優勝(ゆうしょう)して　オレたちコモンズにも$R何(なに)かが\nできることをあいつらに$R教(おし)えてやる"
+    }
+  ]
+}

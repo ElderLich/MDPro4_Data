@@ -1,0 +1,227 @@
+{
+  "name": "TheAwakeningOfEvil_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_blimp",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Alors que tout le monde attendait le début du duel suivant, Yugi retourna dans sa chambre pour se reposer. Il fut soudainement surpris par un homme qui portait une robe et un turban."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Son nom était Shadi, et il a expliqué qu'il était venu guider Yugi pour relever les défis qui l'attendent."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "shadi",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Je suis le gardien des sept Objets du Millénium. Je suis ici parce que j'ai encore senti une perturbation dans l'alignement mystique."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_egyptiangodcards",
+      "text": ""
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "",
+      "text": "Les sept Objets sont à bord de ce navire, ainsi que les trois cartes Dieux Égyptiens. Ce qui signifie que tous les objets capables de sauver et de détruire le monde sont ici."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "Vraiment?"
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "smile",
+      "text": "La sécurité de la Terre repose sur toi, Yugi. Garde à l’esprit ces mots : si les mauvaises personnes venaient à prendre le contrôle de l'un des Objets du Millénium ou celui de l'une des cartes Dieux Égyptiens, les résultats pourraient être catastrophiques. Cela a failli se produire une fois auparavant lorsque Pegasus créa les Duel Monsters."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "Ah bon? Comment ca?"
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Tout a commencé lorsque Maximillion Pegasus arriva en Egypte. Il cherchait un moyen de retrouver son amour perdu. Sa quête l'a amené à moi, et je lui ai montré l'Œil du Millénium, car il était destiné à le posséder."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "",
+      "text": "Peu de temps après, il découvrit les origines des Anciens Jeux des Ombres Égyptiennes. Pegasus devint obsédé par ces jeux et décida de consacrer sa vie à les recréer."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "",
+      "text": "Durant un de ses anciens voyages de recherche dans les pyramides anciennes, Pegasus prévit de localiser les pierres représentant les Monstres Dieux Égyptiens qu'il avait vu dans ses lectures."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "",
+      "text": "J'ai donc guidé Pegasus et son équipe d'archéologues vers une chambre souterraine cachée sous les sables du désert."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "",
+      "text": "Et après avoir voyagé à pied pendant des heures, notre voyage se termina."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "",
+      "text": "Pegasus entra dans la chambre faiblement éclairée. Comme promis, je l'avais amené à l'endroit antique ou étaient enterrées les tablettes des Dieux Égyptiens."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "",
+      "text": "Pegasus trouva ce qu'il cherchait, sans savoir qu'il était sur le point de déclencher une force dévastatrice qui ne ressemblerait a rien d'autre."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "anger",
+      "text": "Triomphant, Pegasus retourna en Amérique pour concevoir ses cartes basées sur les images qu'il avait trouvées sur les pierres. Il était destiné à réveiller les Monstres Dieux Égyptiens ... mais il n'était pas destiné à contrôler leur puissante magie."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Bien que Maximillion Pegasus avait terminé les prototypes des trois cartes des Dieux Égyptiens, il prit immédiatement l'avion pour l'Egypte pour les sceller dans le tombeau à côté des sculptures originales et pour épargner le monde de leur pouvoir absolu."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "",
+      "text": "Et avec l'aide de Shizu, Pegasus scella les cartes."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "Puis Marek essaya de les voler?"
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "sad",
+      "text": "Oui. Et si jamais il mettait la main sur toutes les trois, les résultats seraient dévastateurs."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEIN:RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "anger",
+      "text": "Je peux t'assurer que Marek n'aura jamais les trois cartes Dieux Égyptiens!"
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "shy",
+      "text": "Mon Pharaon, c'est un honneur pour moi d'être en ta présence une fois de plus. Je sais que tu vas rétablir l'ordre dans le monde et mettre fin à ce chaos comme tu l'avais fait il y a cinq mille ans. Ma foi complète est en toi."
+    },
+    {
+      "char": "shadi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "A ce moment, le haut-parleur annonça que tous les finalistes devaient retourner au hall principal, et Shadi disparut."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "odion",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Le deuxième duel était entre Marek et Joey. Comme Odion faisait semblant d'être Marek, Odion se tenait devant Joey, prêt à se battre en duel."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "Allons-y, Marek!"
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "anger",
+      "text": "C’est l’heure du duel ... et de te détruire!"
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "",
+      "text": "Prépare-toi à la défaite!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "N'y compte pas, Marek! Je n'ai pas peur de toi!"
+    }
+  ]
+}

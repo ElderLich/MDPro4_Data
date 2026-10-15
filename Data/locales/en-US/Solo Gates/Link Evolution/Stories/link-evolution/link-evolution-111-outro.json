@@ -1,0 +1,83 @@
+{
+  "name": "GX_LEADERS_ZaneTruesdale_Sheppard_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_duelistkingdom",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "LEFT",
+      "image": "discouragement",
+      "text": "Ugh."
+    },
+    {
+      "char": "zanetruesdale",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Well, whatta ya know. The Underworld Deck."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Truesdale, hold on. Take this with you."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "gx_medal",
+      "text": ""
+    },
+    {
+      "char": "zanetruesdale",
+      "pos": "",
+      "image": "surprise",
+      "text": "A medal?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "neutral",
+      "text": "Wanna know where I've been all these months? Traveling to schools and duelist leagues in the four corners of the Earth. Know why? Because I'm organizing the ultimate tournament."
+    },
+    {
+      "char": "zanetruesdale",
+      "pos": "",
+      "image": "discouragement",
+      "text": "And what am I holding?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "anger",
+      "text": "Your ticket. No one can enter my tournament without one of my medals. Truesdale, it'd be in your best interest to join."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "gx_medal",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "anger",
+      "text": "I suggest you do. This is the opportunity of a lifetime."
+    },
+    {
+      "char": "zanetruesdale",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "I'm not giving up on you, Truesdale. If I can't bring you back, maybe your friends can."
+    }
+  ]
+}

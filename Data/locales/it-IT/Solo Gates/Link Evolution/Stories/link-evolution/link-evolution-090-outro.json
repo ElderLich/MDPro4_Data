@@ -1,0 +1,143 @@
+{
+  "name": "TheFinalFaceOff_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_blimp",
+      "text": ""
+    },
+    {
+      "char": "odion",
+      "pos": "BACK_LEFT",
+      "image": "",
+      "text": "Maestro Marik."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "Fratello, ti prego dimmi che stai bene."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "RIGHT",
+      "image": "good_sad",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Marik, è finita! Il tuo lato malvagio è stato bandito per sempre!"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_neutral",
+      "text": "È finita, mio grande Faraone."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Sì, e l'oscurità è sparita dal tuo cuore."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "neutral",
+      "text": "Marik ha sopraffatto il male che lo aveva controllato per tanto tempo."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "smile",
+      "text": "Grande Faraone, grazie. Hai salvato l'umanità."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "NOI l'abbiamo fatto. Non sarei stato vittorioso se non fosse stato per tutti voi."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_neutral",
+      "text": "Faraone, ti assicuro che tutti coloro che sono stati banditi nel Regno delle Ombre torneranno."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "smile",
+      "text": "Grazie."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_smile",
+      "text": "Ho ancora un compito da eseguire prima che la mia missione sia completa."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_neutral",
+      "text": "Vi mostrerò il segreto del potere del Faraone inciso sulla mia schiena. Questi simboli sono stati tramandati dalla mia famiglia di generazione in generazione per cinquemila anni."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Ci è stato insegnato che quando l'antico Faraone salvò il mondo dalla distruzione, eliminò tutti i suoi ricordi. Ma sapeva che un giorno sarebbe tornato e avrebbe dovuto accedere alla sua memoria."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Così ha affidato a una famiglia il suo più grande segreto: La Chiave per sbloccare la sua mente e il suo potere! Ora che possiedi le tre Carte Divinità Egizie e il Puzzle del Millennio, devi solamente leggere le parole sulla schiena di Marik. Sei così vicino."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_smile",
+      "text": "Faraone adesso noi partiremo. Quindi per favore prendi questa. La Barra del Millennio appartiene a te in questo modo non causerà più danni."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "millenniumrod",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "Grazie."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "millenniumrod",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_smile",
+      "text": "E prendi anche questo. L'Anello del Millennio è più sicuro con te."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "millenniumring",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Adesso che Yugi possedeva di tutti gli Oggetti del Millennio e le tre Carte Divinità Egizie, si assicurò che i Giochi delle Ombre non tornassero mai più!"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "TheFacility_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_citysquare",
+      "text": ""
+    },
+    {
+      "char": "bolttanner",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Antes era un profesional, pero nunca había luchado contra alguien como tú. Juegas bien. ¿Tienes nombre, novato?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Me llamo Yusei."
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "smile",
+      "text": "Mi oportunidad de estar en el centro de atención ya ha quedado atrás, pero quiero hacer todo lo que sea posible por hacer de tí un gran profesional. ¿Qué dices? ¿Te interesa?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "smile",
+      "text": "Mucho."
+    }
+  ]
+}

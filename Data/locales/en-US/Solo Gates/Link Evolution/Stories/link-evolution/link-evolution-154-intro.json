@@ -1,0 +1,449 @@
+{
+  "name": "ClashOfTheEmperors_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_night",
+      "text": ""
+    },
+    {
+      "char": "rio",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "rayshadows",
+      "pos": "LEFT",
+      "image": "evil_neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "All seven Barian emperors appeared in human form."
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rayshadows",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Shark, what are you doing with the Barians?"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "",
+      "text": "Shark? It's been a long time since anyone called me by that name."
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "anger",
+      "text": "But I'm not Shark or Reginald anymore. My name is Nash!"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "",
+      "text": "Nash the Barian!"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "",
+      "text": "Go Barian Battlemorph!"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "RIGHT:FADEIN",
+      "image": "",
+      "text": "We are the seven Barian Emperors."
+    },
+    {
+      "char": "mizar",
+      "pos": "CENTER",
+      "image": "barian_neutral",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "Mizar, the one true Galaxy-Eyes master!"
+    },
+    {
+      "char": "mizar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "CENTER",
+      "image": "barian_neutral",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "Girag, the ultimate Barian warrior!"
+    },
+    {
+      "char": "girag",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alito",
+      "pos": "CENTER",
+      "image": "barian_neutral",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "Alito, the Barian who battles with fists of fury!"
+    },
+    {
+      "char": "alito",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "vector",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "Vector, need I say more?"
+    },
+    {
+      "char": "vector",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "marin",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "Marin, the name that brings chills to everyone's hearts."
+    },
+    {
+      "char": "marin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "dumon",
+      "pos": "CENTER",
+      "image": "barian_neutral",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "Dumon, my faithful friend, but your greatest enemy!"
+    },
+    {
+      "char": "dumon",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "And I am Nash, leader of the seven Barian Emperors!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "I can't believe Shark is the leader of the Barians!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "trey",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "quattro",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "quinton",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "The Barian Emperors then defeated Trey, Quattro, and Quinton in separate duels."
+    },
+    {
+      "char": "trey",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "quattro",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "quinton",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Astral spoke with Yuma on how to battle the Barians."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Instead of fighting the seven Barian Emperors, let us eliminate the source and defeat Don Thousand instead."
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "Don Thousand is the great Barian deity I defeated long ago."
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "But he must have resurrected, for only his great power could cause this much destruction."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "Then let's go to Barian World and beat him!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_barian",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "So Yuma, Astral, and friends traveled in the airship to Barian World."
+    },
+    {
+      "char": "vector",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "donthousand",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Meanwhile, Vector began absorbing all of the Barian Emperors at the command of Don Thousand."
+    },
+    {
+      "char": "donthousand",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "marin",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "dumon",
+      "pos": "RIGHT",
+      "image": "barian_neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Marin, Alito, Girag, and Dumon already fell to him. Vector now set his sights on Nash."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "marin",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "dumon",
+      "pos": "FADEOUT",
+      "image": "barian_neutral",
+      "text": ""
+    },
+    {
+      "char": "vector",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "I’ve been waiting for you, Nash!"
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "Vector... You’ll pay for the pain you caused Marin and Dumon."
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "neutral",
+      "text": "And let me guess. You’re gonna be the one to make me pay?"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "Oh I’m so terrified!"
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "lose",
+      "text": "You should be!"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "smile",
+      "text": "Temper, temper! You have serious anger issues don’t you?"
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "You think this is funny!?"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "smile",
+      "text": "Yes! Because it’s hard to take you seriously!"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "anger",
+      "text": "But since you’re not amused by my razor sharp wit, let’s skip to the part where I finish you!"
+    }
+  ]
+}

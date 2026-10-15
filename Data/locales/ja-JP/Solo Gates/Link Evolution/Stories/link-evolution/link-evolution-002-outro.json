@@ -1,0 +1,149 @@
+{
+  "name": "ABlastFromThePast_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_arena",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R遊星(ゆうせい)とジャックのデュエルによって　$R巨大(きょだい)な$R赤(あか)き$R竜(りゅう)が$R召喚(しょうかん)され　$R人々(ひとびと)は$R驚(おどろ)いた\n$R様子(ようす)だった　$R治安維持局(ちあんいじきょく)の$R長官(ちょうかん)　レクス・ゴドウィンを$R除(のぞ)いて"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "Left",
+      "image": "notattoo_surprise",
+      "text": "なんだ　あの$R竜(りゅう)は！？"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "Right",
+      "image": "surprise",
+      "text": "なんだこれは！？"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "notattoo_neutral",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "$R赤(あか)き$R竜(りゅう)が　ついに$R目覚(めざ)めたか"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "5ds_signermark_yusei",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "notattoo_anguish",
+      "text": "くっ　この$R痣(あざ)…　$R一体(いったい)どこから！"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "$R遊星(ゆうせい)にも　$R痣(あざ)が$R浮(う)かんだだと！？"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "5ds_signermark_yusei",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "5ds_signermark_jack",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "notattoo_surprise",
+      "text": "これは$R何(なん)なのか$R知(し)ってるのか　ジャック？"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "5ds_signermark_jack",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "neutral",
+      "text": "…"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "notattoo_neutral",
+      "text": "どうなんだ！？"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "…"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "notattoo_anger",
+      "text": "$R答(こた)えろ　ジャック！"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "こちらはセキュリティ　$R許可(きょか)なきサテライト$R住民(じゅうみん)の　ネオ$R童実野(どみの)シティへの$R侵入(しんにゅう)は\n$R認(みと)められていない　$R治安維持局(ちあんいじきょく)の$R命(めい)により$R拘束(こうそく)する！"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "notattoo_anguish",
+      "text": "くっ！"
+    }
+  ]
+}

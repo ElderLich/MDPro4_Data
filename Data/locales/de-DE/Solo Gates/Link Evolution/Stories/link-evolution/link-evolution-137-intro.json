@@ -1,0 +1,611 @@
+{
+  "name": "LoveHurts_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Der Welt Duell Karneval stand kurz bevor. Alle Duellanten hatten mit ihren eigenen Herausforderungen zu kämpfen."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "quattro",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Lange nicht gesehen, Reginald."
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "Tut mir leid."
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "smile",
+      "text": "Alle nennen dich jetzt Shark, nicht wahr?"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "",
+      "text": "Das stimmt"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "",
+      "text": "Was willst du? Ich habe keine Zeit für dich."
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "Die wirst du haben, nachdem du diese kleine Geschichte aus unserer Vergangenheit gehört hast."
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "Sie spielt während der Finals eines Duellturniers."
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "Als du mein Deck ausspioniert hast und disqualifiziert wurdest."
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "Ich mache dir keine Vorwürfe. Du wolltest für deine Schwester unbedingt gewinnen."
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "smile",
+      "text": "Wie konntest du da meinem günstig platzierten Duelldeck widerstehen?"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "smile2",
+      "text": "Es ist ja fast, als hätte jemand dieses Deck absichtlich liegen lassen …"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "surprise",
+      "text": "Du meinst …"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "anger",
+      "text": "Du hast mich reingelegt!"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "Was vorbei ist, ist vorbei."
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "Und dazu gehört auch deine Duellkarriere!"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "Denn seit diesem Tag bist du ein Niemand!"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "Während ich in Duellen eine Trophäe nach der anderen gewonnen habe."
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "smile2",
+      "text": "Du musst dich wie ein Loser fühlen."
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "",
+      "text": "Nein! Das bin ich nicht!"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "Dann beweise es, Reginald."
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "Tritt im Welt Duell Karneval gegen mich an."
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "Wenn du dich traust."
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "",
+      "text": "Oh, ich traue mich."
+    },
+    {
+      "char": "quattro",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_night",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Bei Vetrix."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "quattro",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Reginald wird, genau wie du wolltest, am Welt Duell Karneval teilnehmen."
+    },
+    {
+      "char": "vetrix",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Hervorragend. Ich wusste, du würdest mich nicht enttäuschen."
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "Aber trotzdem, ist er wirklich wichtig?"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "Er ist jetzt nur noch eine leere Hülle."
+    },
+    {
+      "char": "vetrix",
+      "pos": "",
+      "image": "",
+      "text": "Vielleicht, aber er hat immer noch eine Rolle zu spielen."
+    },
+    {
+      "char": "vetrix",
+      "pos": "",
+      "image": "",
+      "text": "Alles wird offenbart, sobald ich die Nummern gesammelt habe."
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "smile",
+      "text": "Na schön. Bis dahin genieße ich es einfach, Shark wieder in die Mangel zu nehmen."
+    },
+    {
+      "char": "quattro",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "vetrix",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_arena",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "In der Zwischenzeit versuchte Yuma vergeblich, in den Welt Duell Karneval zu gelangen. Er wandte sich an den Turnierleiter, Mr. Heartland."
+    },
+    {
+      "char": "mrheartland",
+      "pos": "RIGHT",
+      "image": "lose",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Um am Karneval teilnehmen zu können, muss ein Duellant eine bestimmte Anzahl von „Herzstücken“ besitzen. Leider hatte Yuma keine, und dies war seine letzte Chance."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Das Sicherheitspersonal hielt Yuma davon ab, Mr. Heartland zu treffen. Bevor Heartland ihn abführen lassen konnte, sprang Kite Tenjo mit einer Bitte ein."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "sad",
+      "text": "Bitte, ich kann ihnen meine gesamten Ersparnisse für ein Herzstück geben! Das sind fast fünfundsiebzig Cent!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "mrheartland",
+      "pos": "",
+      "image": "lose",
+      "text": "Schickt mehr Sicherheitspersonal! Bringt ihn weg."
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Moment! Lassen wir die kleine Ratte teilnehmen."
+    },
+    {
+      "char": "mrheartland",
+      "pos": "",
+      "image": "neutral",
+      "text": "Kennst du ihn?"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "Nein."
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "Aber man weiß nie, wer heutzutage vielleicht eine Nummer-Karte hat."
+    },
+    {
+      "char": "mrheartland",
+      "pos": "",
+      "image": "lose",
+      "text": "Bist du sicher, dass du nichts im Schilde führst, Kite?"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "…"
+    },
+    {
+      "char": "mrheartland",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Heartland verließ das Gebäude, um Yuma zu seiner Aufnahme zu gratulieren."
+    },
+    {
+      "char": "mrheartland",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Mein lieber Junge! Ich habe von deiner Notlage gehört und beschlossen, persönlich hierher zu kommen, um dir …"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "mrheartland",
+      "pos": "",
+      "image": "win",
+      "text": "Dieses kleine Geschenk zu geben."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "smile",
+      "text": "Ein Herzstück!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "Endlich habe ich eins!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "Jetzt kann ich teilnehmen!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "smile",
+      "text": "Danke, danke, danke!"
+    },
+    {
+      "char": "mrheartland",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Endlich kam der Tag des Duells. Alle duellierten sich in der ganzen Stadt, und jemand, der einen Groll gegen Yuma hegte, schlug zu."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "annakaboom",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Irgendwelche letzten Worte? Ich bringe dich nämlich um! Du weißt, du hast es verdient!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Moment! Warum habe ich es verdient? Ich kenne dich nicht mal! Bist du sicher, dass ich derjenige bin, den du umbringen willst?"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "anger",
+      "text": "Ich bin mir ganz sicher! Ich würde dich nie vergessen, Yuma Tsukumo!"
+    },
+    {
+      "char": "torimeadows",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "Moment mal! Bist du das, Anna?"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Anna?"
+    },
+    {
+      "char": "torimeadows",
+      "pos": "",
+      "image": "",
+      "text": "Ja, Anna Kaboom aus der Schule. Sie hat vor zwei Jahren die Schule gewechselt. Erinnerst du dich nicht?"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "Sagt mir gar nichts."
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Ich bin also leicht zu vergessen?"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "anger",
+      "text": "Ist es das, was du sagen willst, Yuma!?"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "shy",
+      "text": "Nein! Gar nicht, denke ich!"
+    },
+    {
+      "char": "torimeadows",
+      "pos": "",
+      "image": "neutral",
+      "text": "Warte! Warum hast du es auf Yuma abgesehen, Anna?"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "anger",
+      "text": "Ich habe es auf ihn abgesehen, weil ich mich rächen will!"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "anger",
+      "text": "Für das, was er mir damals angetan hat … oder nicht getan hat."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "sad",
+      "text": "Hä?"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "shy",
+      "text": "Du … Du hast mich nie bemerkt."
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "",
+      "text": "Ich habe Klebstoff auf deine Schuhsohlen geschmiert! Ich habe deine Duel Disk mit Notizen vollgekritzelt!"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "anger",
+      "text": "Ich habe kleine Löcher in deine Sporthose geschnitten! Ich habe Steine in deiner Duellnahrung versteckt!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Wow. Weißt du, man möchte wirklich meinen, ich würde mich an all das erinnern."
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "anger",
+      "text": "Meine Rede! Wie konntest du nicht wissen, dass ich Hals über Kopf in dich verliebt war?"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "anger",
+      "text": "Darum habe ich versucht, deine Aufmerksamkeit zu erregen!"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "shy",
+      "text": "Ich habe dich gebeten, mich nach dem Unterricht zu treffen. Ich habe gewartet und gewartet, aber du kamst nie."
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "anger",
+      "text": "Und jetzt ist die Zeit der Rache gekommen!"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "anger",
+      "text": "Mach dich bereit, Yuma Tsukumo, denn du wirst die Zeche bezahlen!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Moment mal! Bevor du mich irgendetwas bezahlen lässt: Vielleicht gibt es eine andere Möglichkeit, mir eine Lektion zu erteilen."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "Indem du etwas tust, unter dem ich wirklich leiden werde."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "shy",
+      "text": "Zum Beispiel, mich in einem Duell zu besiegen!"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ein Duell, hm?"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "anger",
+      "text": "Das geht in Ordnung. Los geht‘s."
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "smile",
+      "text": "Wenn ich jedoch unser Match gewinne, musst du mein fester Freund werden."
+    }
+  ]
+}

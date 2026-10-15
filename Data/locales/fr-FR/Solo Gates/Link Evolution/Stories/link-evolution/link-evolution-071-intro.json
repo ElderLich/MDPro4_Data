@@ -1,0 +1,155 @@
+{
+  "name": "EvilSpiritoftheRing_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_duelistkingdom",
+      "text": ""
+    },
+    {
+      "char": "yamibakura",
+      "pos": "RIGHT",
+      "image": "ryo_smile",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Plus tard cette nuit-là, l'équipe s'installa pour le dîner quand ils reçurent la visite de leur camarade de lycée Bakura. Pendant qu'ils causaient autour du feu de camp, la conversation fut très vite transformée en duel."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamibakura",
+      "pos": "RIGHT",
+      "image": "ryo_smile",
+      "text": "Faisons maintenant un duel. Pas pour gagner des Jetons Étoiles mais juste pour nous amuser un peu."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Je suis partant. Après toutes ces histoires de Jetons Étoiles, il serait agréable d'avoir un duel sans aucune condition."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "Je suis d'accord. Je pense juste qu'un bon vieux duel est une merveilleuse idée!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamibakura",
+      "pos": "",
+      "image": "ryo_smile",
+      "text": "Avant de commencer, il y a un petit quelque chose que j'aimerais partager avec vous. Et surtout avec toi, Yugi."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "millenniumring",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "Non! Ce n'est pas possible! Un Objet du Millenium ?!"
+    },
+    {
+      "char": "yamibakura",
+      "pos": "FADEOUT",
+      "image": "ryo_smile",
+      "text": ""
+    },
+    {
+      "char": "yamibakura",
+      "pos": "RIGHT:FADEIN",
+      "image": "smile",
+      "text": "Oui, et la magie de mon Anneau du Millénium nous mènera vers le Royaume des Ombres."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_shadowrealm",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "Pourquoi fais-tu cela, Bakura?"
+    },
+    {
+      "char": "yamibakura",
+      "pos": "",
+      "image": "",
+      "text": "Tu as quelque chose que je veux, et mon but est de m'en emparer."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Bakura, possédé par un esprit inconnu, utilisa le pouvoir de son Anneau du Millénium pour enfermer les âmes de ses amis."
+    },
+    {
+      "char": "yamibakura",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Leurs âmes sont enfermées. Et maintenant, après avoir attendu pendant des siècles innombrables, le légendaire Puzzle du Millénium est à moi."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Juste au moment où Bakura saisissait le Puzzle du Millénium, celui-ci commença à briller. L'esprit dans le Puzzle se réveilla, se manifestant à l'intérieur de Yugi."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamibakura",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Non, ce n'est pas possible!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "Tu veux mon Puzzle du Millénium? Alors, tu vas devoir me battre en duel pour cela. Mais si je gagne, tu vas relâcher mes amis et nous renvoyer."
+    },
+    {
+      "char": "yamibakura",
+      "pos": "",
+      "image": "smile",
+      "text": "Ha ha. J'accepte tes ridicules conditions, Yugi. Mais je te promets, l'enjeu va au-delà de ta compréhension. Et c'est un Jeu des Ombres que tu ne peux pas gagner!"
+    }
+  ]
+}

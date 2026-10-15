@@ -1,0 +1,455 @@
+{
+  "name": "SwingIntoAction_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_paradisecity",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Chargement en cours des histoires ARC-V..."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Voici l'histoire de Yuya Sakaki. Certains le considèrent comme un héros, d'autres comme un boute-en-train, et d'autres encore comme un boute-en-train héroïque."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Tout au long de son périple, Yuya Sakaki voyagera à travers plusieurs dimensions et sera confronté à de nombreux adversaires afin de sauver le monde."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yuya n'aurait jamais imaginé que son histoire épique commencerait avec une leçon enseignée par son père..."
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "yusho",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Écoute les conseils de ton père, Yuya. Quand tu as envie de pleurer, essaye de rire. Et quand ça tourne au vinaigre, alors réponds avec un sourire."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "",
+      "text": "Ça te donnera du courage pour aller de l'avant !"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "",
+      "text": "C'est un peu comme ton pendule. S'il se balance d'un côté, tu sais qu'il se balancera aussi de l'autre côté."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "smile",
+      "text": "Comme dans un duel !"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "Un duel ?"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "neutral",
+      "text": "La clé d'un duel, c'est de croire en son deck et en soi-même."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "",
+      "text": "Si tu perds du terrain, tu peux faire en sorte que les choses aillent dans ton sens."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "smile",
+      "text": "C'est pourquoi il ne faut jamais s'inquiéter. L'important, c'est de s'amuser. Essaye de ne pas oublier ce que je viens de te dire. Ça te servira peut-être un jour..."
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yusho",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_arcleaguechampionship",
+      "text": ""
+    },
+    {
+      "char": "sledgehammer",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Quelques jours plus tard, Yusho devait défendre son titre de champion du Duel d'action contre son plus féroce adversaire : La Masse."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Mais le père de Yuya ne s'est jamais présenté et a disparu. Yusho et toute sa famille ont désormais la réputation d'être \"lâches\"."
+    },
+    {
+      "char": "sledgehammer",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_youshowschool",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Trois ans plus tard... \nÀ l'école You Show de Skip Boyle :"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Très bien Yuya, entre dans l'arène et montre à Gong ce que tu sais faire !"
+    },
+    {
+      "char": "yuya",
+      "pos": "CENTER",
+      "image": "smile",
+      "text": "Que le spectacle commence ! Mesdames et messieurs et Gong, que diriez-vous que le coup d'envoi de la partie soit donné par des hippopotames fans de carnaval ?!"
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Yuya, ça suffit, arrête de faire l'imbécile !"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "anger",
+      "text": "Yuya, tu peux me dire pourquoi tu tournes toujours tout en plaisanterie ?"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "Je vois vraiment pas ce qu'il y a de mal à faire rire les fans."
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "neutral",
+      "text": "Quand ton père était sur le terrain, tous les fans avaient le sourire."
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "sad",
+      "text": "Ses numéros de duel étaient un véritable spectacle. Par contre, les tiens sont plutôt du genre ridicule !"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "Si tu veux mon avis, le dernier duel de mon père aussi était ridicule."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "anger",
+      "text": "Yuya !"
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "nico",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Je vous souhaite le bonjour. J'espère que je ne vous dérange pas."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "À qui avons-nous l'honneur ?"
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "Je m'appelle Nico Smiley, je suis organisateur de duels et promoteur. Je représente également le champion en titre du duel d'action : monsieur La Masse !"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "Vous avez bien dit \"La Masse\" ?"
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "L'Institut Léo organise une journée de rencontre avec les fans, chaperonnée par monsieur La Masse. Et il a exprimé le souhait de faire un duel contre Yuya."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "Qu'est-ce que vous racontez, il veut que je fasse un duel contre lui ?"
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "C'est une chance inespérée de laver l'honneur de ton père."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "anger",
+      "text": "Je ne laisserai jamais Yuya participer à cette rencontre. Il a assez souffert avec la disparition de son père."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "C'est tellement dommage. Si vous aviez accepté, l'Institut Léo aurait été heureux de fournir à votre école de duel la toute dernière version du système ARC..."
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "Gratuitement."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "smile",
+      "text": "Bien entendu."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "smile",
+      "text": "Marché conclu !"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Tu viens de dire que tu ne le laisserais jamais faire un duel contre La Masse !"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "sad",
+      "text": "Eh bien..."
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Ouais ! Notre rôle est de le protéger et de le soutenir !"
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Pas vrai, Yuya ? Yuya … Il a filé … en douce."
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "surprise",
+      "text": "Tel père, tel fils."
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_arcleaguechampionship",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "nico",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "skipboyle",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Jour d'appréciation des fans :"
+    },
+    {
+      "char": "nico",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Il y a trois ans, le grand duelliste de divertissement Yusho Sakaki n'est pas venu défendre son titre contre La Masse !"
+    },
+    {
+      "char": "nico",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Aujourd'hui, son propre fils va tenter de laver son honneur !"
+    },
+    {
+      "char": "nico",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "À votre avis, il va venir ?"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "neutral",
+      "text": "Qui sait ? Mais quelque chose me dit que oui."
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "À la surprise de tous, Yuya s'est bien présenté au duel. Et encore plus surprenant, il est venu habillé en clown."
+    },
+    {
+      "char": "sledgehammer",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Tu ne vas quand même pas me dire que tu es le fils de Yusho ?!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "smile",
+      "text": "Mais si, c'est bien moi, en personne ! Alors ? Est-ce que vous êtes prêt à entrer en scène ?"
+    },
+    {
+      "char": "sledgehammer",
+      "pos": "",
+      "image": "anger",
+      "text": "Quand je t'aurai écrasé comme un moustique, tu ne seras plus aussi insolent !"
+    }
+  ]
+}

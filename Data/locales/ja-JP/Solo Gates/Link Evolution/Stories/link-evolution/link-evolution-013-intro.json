@@ -1,0 +1,521 @@
+{
+  "name": "MarkOfTheMonkey_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_shadowrealm",
+      "text": ""
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "CENTER",
+      "image": "anguish",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "カーリーはアルカディア・ムーブメントビルから$R真(ま)っ$R逆(さか)さまに$R地面(じめん)へと$R落(お)ちた"
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "すると$R間(ま)もなくして　$R地面(じめん)が$R揺(ゆ)れ$R始(はじ)めた　カーリーはダークシグナーとして$R復活(ふっかつ)したのだ"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_citysquare",
+      "text": ""
+    },
+    {
+      "char": "sayer",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "$R誰(だれ)だ$R貴様(きさま)は！？"
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "dark_smile",
+      "text": "ディヴァイン　$R私(わたし)はお$R前(まえ)を$R許(ゆる)さない"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "surprise",
+      "text": "お$R前(まえ)は…　そんなバカな"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "surprise",
+      "text": "あの$R高(たか)さから$R落(お)ちて$R無事(ぶじ)なはずは…"
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "dark_smile",
+      "text": "ディヴァイン　$R私(わたし)はお$R前(まえ)を$R葬(ほうむ)るために$R蘇(よみがえ)った"
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "dark_anger",
+      "text": "この$R痣(あざ)が$R疼(うず)くのさ　$R薄汚(うすぎたな)いお$R前(まえ)の$R魂(たましい)を$R生(い)け$R贄(にえ)に$R捧(ささ)げろとね　$R受(う)けるがいい　$R私(わたし)の$R闇(やみ)の\nデュエルを！"
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "NONE",
+      "image": "dark_neutral",
+      "text": ""
+    },
+    {
+      "char": "sayer",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "ディヴァインとカーリーは$R闇(やみ)のデュエルを$R始(はじ)めた　$R地震(じしん)は$R続(つづ)き　アルカディア・\nムーブメントビルを$R揺(ゆ)らしていた"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "ディヴァインはダークシグナーのカーリーに$R敗(やぶ)れ　アルカディア$R本部(ほんぶ)の$R最上階(さいじょうかい)から$R闇(やみ)へと\n$R落(お)ちてしまった"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R闘(たたか)いの$R中(なか)で$R召喚(しょうかん)された「$R地縛神(じばくしん)　$RＡｓｌｌａ(アスラ)　$Rｐｉｓｃｕ(ピスク)」が　ビル$R全体(ぜんたい)を$R破壊(はかい)しようとしていた"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R幸(さいわ)い　$R龍亞(るあ)　$R龍可(るか)　$R氷室(ひむろ)　$R矢薙(やなぎ)はこの$R隙(すき)にアルカディア$R本部(ほんぶ)を$R脱出(だっしゅつ)することができた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "",
+      "image": "smile",
+      "text": "$R龍可(るか)ちゃん！"
+    },
+    {
+      "char": "luna",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "$R矢薙(やなぎ)のおじいちゃん！"
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "",
+      "image": "discouragement",
+      "text": "$R無事(ぶじ)だったか！"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "anger",
+      "text": "$R龍亞(るあ)！　$R爺(じい)さん　どいてろ！"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "anger",
+      "text": "$R龍亞(るあ)！　しっかりしろ！"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "anguish",
+      "text": "あれ　$R氷室(ひむろ)のおっちゃん？　オレは…　そうか…　ディヴァインとのデュエルに$R負(ま)けて…　\nそうだ　$R龍可(るか)は！？"
+    },
+    {
+      "char": "luna",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R目(め)の$R前(まえ)にいるじゃない"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "discouragement2",
+      "text": "$R龍可(るか)！　$R無事(ぶじ)だったんだな"
+    },
+    {
+      "char": "luna",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "もう…　それはこっちの$R台詞(せりふ)よ"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "でも　なんでこんな$R所(ところ)に？"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "neutral",
+      "text": "わからんが　ここにいては$R危険(きけん)だ"
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "",
+      "image": "neutral",
+      "text": "とっとと$R脱出(だっしゅつ)しよう"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "アキは$R残(のこ)った$R遊星(ゆうせい)の$R仲間(なかま)と$R共(とも)に$R崩(くず)れるビルから$R脱出(だっしゅつ)することに$R成功(せいこう)した"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "そして　$R地縛神(じばくしん)はダークシグナーと$R共(とも)に$R姿(すがた)を$R消(け)した"
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R一方(いっぽう)　ネオ$R童実野(どみの)シティの$R収容所(しゅうようじょ)で$R捕(つか)まっていたボマーは$R思(おも)わぬ$R助(たす)けを$R得(え)た"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "greiger",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "$R誰(だれ)だ？"
+    },
+    {
+      "char": "devack",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "$R我(わ)が$R名(な)はディマク"
+    },
+    {
+      "char": "devack",
+      "pos": "",
+      "image": "neutral",
+      "text": "ボマーよ"
+    },
+    {
+      "char": "devack",
+      "pos": "",
+      "image": "",
+      "text": "お$R前(まえ)の$R心(こころ)に$R宿(やど)る$R復讐(ふくしゅう)の$R炎(ほのお)…"
+    },
+    {
+      "char": "devack",
+      "pos": "",
+      "image": "smile",
+      "text": "それが$R未(いま)だ$R燃(も)え$R続(つづ)けているのなら　$R私(わたし)と$R共(とも)にくるがいい"
+    },
+    {
+      "char": "devack",
+      "pos": "NONE",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "greiger",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "その$R間(あいだ)　$R不動(ふどう)$R遊星(ゆうせい)と$R他(ほか)のシグナーたちはゴドウィンと$R会(あ)い　$R最近(さいきん)の$R出来事(できごと)について$R話(はな)していた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "$R数千年前(すうせんねんまえ)　$R赤(あか)き$R竜(りゅう)がこの$R地(ち)に$R降臨(こうりん)し　$R悪(あく)の$R化身(けしん)どもを$R大地(だいち)に$R封(ふう)じました　その$R封印(ふういん)こそ　\nナスカの$R地上絵(ちじょうえ)と$R呼(よ)ばれしもの"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "そして$R現在(げんざい)　$R地上絵(ちじょうえ)がナスカの$R平原(へいげん)から$R忽然(こつぜん)と$R消失(しょうしつ)するという$R怪奇現象(かいきげんしょう)が$R頻発(ひんぱつ)しています　\nこれは$R全(すべ)てダークシグナーの$R仕業(しわざ)です"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "ご$R存知(ぞんじ)のとおり　ダークシグナーが$R現(あらわ)れる$R時(とき)　$R必(かなら)ず$R地上絵(ちじょうえ)も$R現(あらわ)れる　$R彼(かれ)らの$R出現(しゅつげん)により　\nネオ$R童実野(どみの)シティ$R全体(ぜんたい)が$R今(いま)　$R存亡(そんぼう)の$R危機(きき)に$R晒(さら)されています"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "$R既(すで)に$R彼(かれ)らの$R行動(こうどう)は　$R私(わたし)の$R推測(すいそく)の$R範囲(はんい)を$R超(こ)えています　$R現(げん)に$R地上絵(ちじょうえ)はシティにも$R出現(しゅつげん)し　\n$R多(おお)くの$R犠牲者(ぎせいしゃ)を$R出(だ)した"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "$R君(きみ)がサテライトで$R目(ま)の$R当(あ)たりにした$R現象(げんしょう)は　このシティでも$R起(お)きているのです　$R地上絵(ちじょうえ)から\n$R現(あらわ)れたモンスターによって　$R付近(ふきん)にいたとされる$R数百名(すうひゃくめい)の$R人々(ひとびと)が　$R現在(げんざい)$R行方不明(ゆくえふめい)になって\nいるのです"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "$R事態(じたい)は$R一刻(いっこく)を$R争(あらそ)います　$R手(て)をこまねいていれば　シティとサテライト　$R全(すべ)ての$R住人(じゅうにん)たちが\nダークシグナーの$R手(て)に$R落(お)ち　ネオ$R童実野(どみの)シティは$R崩壊(ほうかい)してしまうでしょう"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "オレは　シティとサテライトを$R守(まも)る$R為(ため)に$R命(いのち)を$R懸(か)ける$R覚悟(かくご)はある　だが　もし$R鬼柳(きりゅう)たちを$R元(もと)に$R戻(もど)す\n$R方法(ほうほう)があるのなら…"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "$R無駄(むだ)です　ダークシグナーとなった$R者(もの)を$R元(もと)の$R人間(にんげん)に$R戻(もど)す$R方法(ほうほう)はありません　\nダークシグナーとは$R亡者(もうじゃ)の$R魂(たましい)が$R能力(のうりょく)に$R目覚(めざ)めた$R状態(じょうたい)なのです　すなわち…　$R彼(かれ)らは$R既(すで)に\nこの$R世(よ)の$R者(もの)ではない"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": "$R何(なん)だとっ！？　いい$R加減(かげん)にしろ！　$R亡者(もうじゃ)が$R生(い)き$R返(かえ)るなどあるはずがない！"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "それがあるのですよ　$R冥界(めいかい)の$R扉(とびら)の$R向(む)こうでは　$R信(しん)じられないような$R現象(げんしょう)が　$R後戻(あともど)りは\nできません　ダークシグナーを$R倒(たお)すか　$R我々(われわれ)と$R共(とも)に$R世界(せかい)が$R滅(ほろ)びるか…　それは$R君(きみ)たちの$R手(て)に\n$R委(ゆだ)ねられているのです"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_satellite",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "ゴドウィンとの$R会話(かいわ)の$R後(あと)　シグナーたちはダークシグナーを$R止(と)めるべく　サテライトへと$R向(む)かった"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "シグナーたちはそれぞれ$R別(べつ)のダークシグナーと$R戦(たたか)うため　$R単独(たんどく)で$R行動(こうどう)した　シグナーたちには　\nそれぞれの$R目的(もくてき)があった"
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "devack",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "ダークシグナーのディマクは　$R龍可(るか)の$R探(さが)す「エンシェント・フェアリー・ドラゴン」を$R持(も)っていた"
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R龍可(るか)がエンシェント・フェアリー・ドラゴンを$R見(み)つけ　$R助(たす)けようとしたとき　$R龍可(るか)は$R精霊(せいれい)の$R世界(せかい)へ\n$R飛(と)ばされてしまった　"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R龍亞(るあ)が$R龍可(るか)を$R捜(さが)していると　ディマクが$R現(あらわ)れ　ダークシグナーとのデュエルが$R始(はじ)まった"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "devack",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "$R誰(だれ)だ？　お$R前(まえ)はシグナーではないな"
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "それがどうした！　オレは$R龍可(るか)を$R守(まも)るって$R約束(やくそく)したんだ！"
+    },
+    {
+      "char": "devack",
+      "pos": "",
+      "image": "anger",
+      "text": "なんと$R愚(おろ)かな…　シグナーでもないのにこの$R塔(とう)に$R近(ちか)づくとは　$R死(し)にに$R来(き)たか？"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "anger",
+      "text": "$R望(のぞ)むところさ！　デュエルで$R決着(けっちゃく)をつければいいんだろ！"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "anger",
+      "text": "オレがお$R前(まえ)を$R倒(たお)せば　$R龍可(るか)は$R危険(きけん)な$R目(め)に$R遭(あ)わなくて$R済(す)むんだ！　だったらオレが$R相手(あいて)を\nするぜ！"
+    },
+    {
+      "char": "devack",
+      "pos": "",
+      "image": "",
+      "text": "$R意気込(いきご)みだけは$R認(みと)めてやる　だが　シグナーでない$R者(もの)が$R我々(われわれ)に$R勝(か)つ$R事(こと)はできない"
+    },
+    {
+      "char": "devack",
+      "pos": "",
+      "image": "smile",
+      "text": "かかってくるがいい　$R少年(しょうねん)　デュエル！"
+    }
+  ]
+}

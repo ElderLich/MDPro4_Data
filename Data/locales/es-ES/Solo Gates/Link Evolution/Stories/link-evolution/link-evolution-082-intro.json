@@ -1,0 +1,383 @@
+{
+  "name": "BattleCityBegins_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_school",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yugi estaba muy enfadado por que ahora había un enemigo desconocido tratando de robar su Puzle Milenario. No se sentía preparado. No conocía el Puzle lo sufuciente como para entender los peligros a los que se tendría que enfrentar."
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Ey, ¿cómo va todo Yugi?"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "No muy bien. Necesito tu ayuda, y también te necesita el Espíritu del Puzle Milenario."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "Quien haya robado el Puzle parece saber mucho sobre su pasado, lo que ha hecho recordar al espíritu lo poco que sabe sobre él. Pero puede que pasar tiempo contigo le ayude a entender mejor las cosas."
+    },
+    {
+      "char": "teagardner",
+      "pos": "",
+      "image": "surprise",
+      "text": "Claro, pero ¿cómo voy a hacer eso exactamente?"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "Tú siempre das buenos consejos. Sólo tienes que hablar con él."
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "El Espíritu y Tea pasaron el día juntos. Fueron al Museo de Domino que acababa de abrir una exposición sobre Egipto."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Vieron una antigua talla de piedra que representaba una batalla entre un hechicero y un faraón. El faraón tenía un asombroso parecido a Yugi mientras que el brujo se parecía a Kaiba."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "BACK_LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Mientras estaban sorprendidos de su descubrimiento, una misteriosa mujer se acercó a saludarlos."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Mi Faraón, te estaba esperándo."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Eh? ¿Quién eres?"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Soy Ishizu de la Sociedad Histórica de Egipto. He desentrañado muchos misterios sobre ti y sobre estos antiguos grabados gracias a la magia de mi Collar Milenario."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "millenniumnecklace",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡Otro Objeto Milenario!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Igual que tu Puzle Milenario, este Collar me otorga ciertos poderes. Con él, he podido contemplar el pasado de hace cinco mil años, un tiempo en el que unos malvados hechiceros amenazaron con destruir el mundo entero."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Sin embargo, hubo un rey que poseía una magia tan poderosa como para detener esa malvada amenaza."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "El Faraón que salvó el mundo... fuiste tú. Y ahora ha llegado el momento de que rescates a la humanidad una vez más."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿De qué debo rescatar a la humanidad? ¿Cómo sabes que el mundo está en peligro de ser destruido otra vez?"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "sad",
+      "text": "Mi Collar Milenario también me muestra visiones del futuro. Mi Faraón, los acontecimientos del pasado volverán a repetirse. Y ese mismo mal volverá a amenazarnos."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "¿Cómo voy a reconocer ese mal?"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Sé que tus recuerdos se han desvanecido y que estás buscando muchas respuestas. Sé también que está a punto de comenzar un Torneo de Duelo de Monstruos."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "neutral",
+      "text": "Si lo ganas, encontrás esas respuestas."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "El torneo al que Ishizu se refería era el Torneo Battle City de Seto Kaiba. Tanto Joey como Yugi recibieron invitaciones para participar."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Todos los participantes recibieron una carta transparente especial conocida como Carta Localizadora."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_locatorcards",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Al ganador de cada duelo se le permitía quedarse con una Carta Localizadora y una carta rara del perdedor. Si un duelista perdía todas sus Cartas Localizadoras, quedaba eliminado del torneo. Sólo los que reunieran seis Cartas Localizadoras podrían conocer la ubicación de la final del torneo."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "seeker",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "El torneo atrajo a un grupo de duelistas conocidos como los Cazadores Raros. Estos duelistas malvados eran ladrones con la intención robar las cartas más raras de Duelo de Monstruos."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_redeyes_card",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Joey perdió el Dragón Negro de Ojos Rojos contra un Cazador Raro llamado Seeker. Joey le retó a una revancha con la esperanza de recuperar su carta."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "Tienes mi Dragón de Ojos Rojos y lo quiero recuperar. ¡Es el momento de luchar!"
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "win",
+      "text": "No tengo ninguna gana de batirme en duelo contigo. Ya tengo tu carta rara, el Dragón de Ojos Rojos. Mi búsqueda de tus cartas ya ha terminado."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "Vaya, ¡Qué pena! ¡No me voy a ir hasta que recupere mi Dragón de Ojos Rojos!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": "¡Joey! ¿Qué está pasando?"
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "neutral",
+      "text": "¡Yugi Muto! ¡Él es quien tiene el objeto que tanto desea mi maestro!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Este tío me debe la revancha para recuperar mi Dragón de Ojos Rojos!"
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "win",
+      "text": "Ya te he dicho que no tienes nada que yo quiera. Pero a lo mejor tu amigo estaría interesado en ser mi próxima víctima."
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "",
+      "text": "Sería un placer para mí cazar al campeón del Reino de los Duelistas y hacerme con su Mago Oscuro. ¡Así que reto a Yugi Muto a un duelo!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Está bien, Cazador Raro. ¡Acepto el reto!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "Es la única manera de recuperar tu carta, Joey."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEIN:LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "Si ganas este duelo, te entrego mi Mago Oscuro. Pero, si pierdes, ¡le tendrás que devolver a Joey su Dragón Negro de Ojos Rojos!"
+    }
+  ]
+}

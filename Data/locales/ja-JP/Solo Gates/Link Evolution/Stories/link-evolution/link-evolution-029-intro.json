@@ -1,0 +1,371 @@
+{
+  "name": "VictoryOrDoom_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_arena",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "LEFT",
+      "image": "anguish",
+      "text": ""
+    },
+    {
+      "char": "jakob",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "チーム・ニューワールドのメンバーを$R二人(ふたり)$R倒(たお)したジャックだったが　$R三人目(さんにんめ)のメンバー　ホセに\n$R難(なん)なく$R倒(たお)されてしまった"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jakob",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "チーム・5D'sの$R運命(うんめい)は$R再(ふたた)び$R遊星(ゆうせい)の$R手(て)に$R委(ゆだ)ねられた　ホセは$R自(みずか)らの$R真(しん)の$R目的(もくてき)を$R明(あ)かし　\nチーム・5D'sに$R未来(みらい)を$R垣間(かいま)$R見(み)せた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jakob",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "$R愚(おろ)かな…　あまりにも$R幼(おさな)い　ならば$R教(おし)えてやろう　$R愚(おろ)かなる$R人類(じんるい)の…　お$R前(まえ)たちの$R歴史(れきし)を！"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_apocalypticfuture",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "ここはまさか…"
+    },
+    {
+      "char": "jakob",
+      "pos": "",
+      "image": "neutral",
+      "text": "そうだ　ワシたちにとっては$R現実(げんじつ)の　お$R前(まえ)たちにとっては$R未来(みらい)の…"
+    },
+    {
+      "char": "jakob",
+      "pos": "",
+      "image": "",
+      "text": "ネオ$R童実野(どみの)シティ"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "$R何(なん)だと…　これがオレ$R達(たち)の$R未来(みらい)？"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "jakob",
+      "pos": "",
+      "image": "",
+      "text": "$R全(すべ)てはシンクロ$R召喚(しょうかん)から$R始(はじ)まったのだ"
+    },
+    {
+      "char": "jakob",
+      "pos": "",
+      "image": "",
+      "text": "デュエルの$R進化(しんか)とともに　$R人々(ひとびと)が$R熱狂(ねっきょう)するごとに$R世界(せかい)は$R発展(はってん)していった　シンクロ$R召喚(しょうかん)こそが　\nその$R繁栄(はんえい)のシンボルであった"
+    },
+    {
+      "char": "jakob",
+      "pos": "",
+      "image": "",
+      "text": "ある$R者(もの)は$R言(い)った…　D・ホイールがシンクロ$R召喚時(しょうかんじ)に$R起(お)こす$R波長(はちょう)が　モーメントと\nリンクしていると"
+    },
+    {
+      "char": "jakob",
+      "pos": "",
+      "image": "",
+      "text": "$R共鳴(きょうめい)したモーメントは$R回転(かいてん)を$R速(はや)め　$R世界(せかい)も$R進化(しんか)のスピードを$R増(ま)した　だがそのスピードは\n$R速(はや)すぎた"
+    },
+    {
+      "char": "jakob",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "lester",
+      "pos": "RIGHT",
+      "image": "bittersleep",
+      "text": "$R進化(しんか)の$R行(い)き$R着(つ)く$R先(さき)は$R争(あらそ)いだった"
+    },
+    {
+      "char": "lester",
+      "pos": "",
+      "image": "anger",
+      "text": "$R国々(くにぐに)は$R力(ちから)を$R増(ま)していき…"
+    },
+    {
+      "char": "lester",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "primo",
+      "pos": "RIGHT",
+      "image": "goodnightssleep",
+      "text": "$R戦争(せんそう)へと$R邁進(まいしん)していった"
+    },
+    {
+      "char": "primo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "lester",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jakob",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R愚(おろ)かな$R人間(にんげん)たちの$R欲望(よくぼう)はやがて$R頂点(ちょうてん)に$R達(たっ)した　その$R時(とき)$R突然(とつぜん)　モーメントが$R逆回転(ぎゃくかいてん)を$R始(はじ)めた"
+    },
+    {
+      "char": "jakob",
+      "pos": "",
+      "image": "",
+      "text": "まるで$R人(ひと)の$R心(こころ)に$R反応(はんのう)したかのように　モーメントは$R暴走(ぼうそう)し　$R世界各国(せかいかっこく)のモーメントが$R一斉(いっせい)に\n$R爆発(ばくはつ)し…　$R世界(せかい)を$R道連(みちづ)れにした"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "$R嘘(うそ)だ　モーメントが$R再(ふたた)び$R暴走(ぼうそう)したなんてオレは$R信(しん)じない！"
+    },
+    {
+      "char": "jakob",
+      "pos": "",
+      "image": "anger",
+      "text": "$R何故(なぜ)か$R運命(うんめい)に$R選(えら)ばれてしまったワシは　$R一人(ひとり)　$R世界(せかい)を$R彷徨(さまよ)い$R歩(ある)いた"
+    },
+    {
+      "char": "jakob",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "だが　ワシの$R呼(よ)ぶ$R声(こえ)に$R応(こた)えてくれる$R者(もの)はいなかった"
+    },
+    {
+      "char": "jakob",
+      "pos": "",
+      "image": "anger",
+      "text": "ワシは$R人類(じんるい)を…　$R歴史(れきし)を…　$R見送(みおく)った　$R深(ふか)い$R絶望(ぜつぼう)とともに"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "これがオレたちの$R未来(みらい)…"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "シンクロ$R召喚(しょうかん)が…　オレたちのスピードのいきつく$R先(さき)はあんな$R世界(せかい)だなんて　オレは$R信(しん)じない！"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_arena",
+      "text": ""
+    },
+    {
+      "char": "jakob",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R不動(ふどう)$R遊星(ゆうせい)！　$R運命(うんめい)から$R目(め)を$R逸(そ)らそうというのか？　お$R前(まえ)たちの$R世界(せかい)は$R破滅(はめつ)へと$R向(むか)っている　\nその$R始(はじ)まりとなるのがシンクロ$R召喚(しょうかん)なのだ！"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "$R違(ちが)う！　シンクロ$R召喚(しょうかん)は$R破滅(はめつ)のシンボルなんかじゃない！　$R運命(うんめい)の$R壁(かべ)を$R突(つ)き$R破(やぶ)るためのものだ！"
+    },
+    {
+      "char": "jakob",
+      "pos": "",
+      "image": "",
+      "text": "その$R単純(たんじゅん)な$R考(かんが)えが$R人類(じんるい)を$R破滅(はめつ)させたのだ"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "bittersleep",
+      "text": "いや　$R運命(うんめい)は…　$R未来(みらい)は…"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "まだオレ$R達(たち)の$R手(て)にある！"
+    },
+    {
+      "char": "jakob",
+      "pos": "",
+      "image": "anger",
+      "text": "それはどうかな　$R既(すで)に$R運命(うんめい)に$R近(ちか)づいているではないか"
+    },
+    {
+      "char": "jakob",
+      "pos": "",
+      "image": "neutral",
+      "text": "だが$R安心(あんしん)しろ　その$R運命(うんめい)は　$R私(わたし)たちが…　いやこのアポリアが$R修正(しゅうせい)してやる！"
+    },
+    {
+      "char": "jakob",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jakob",
+      "pos": "",
+      "image": "bittersleep",
+      "text": "$R絶望(ぜつぼう)より$R生(う)まれし$R三(み)つの$R魂(たましい)よ　$R今(いま)こそひとつに！"
+    },
+    {
+      "char": "primo",
+      "pos": "CENTER",
+      "image": "smile",
+      "text": "おせえよホセ！　これで$R再(ふたた)び$R不動(ふどう)$R遊星(ゆうせい)と$R闘(たたか)う$R時(とき)がきた！"
+    },
+    {
+      "char": "primo",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "lester",
+      "pos": "CENTER",
+      "image": "smile",
+      "text": "ボクもだけどね！"
+    },
+    {
+      "char": "lester",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jakob",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "aporia",
+      "pos": "FADEIN:RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "$R何(なに)がおこっている？"
+    },
+    {
+      "char": "aporia",
+      "pos": "RIGHT",
+      "image": "bittersleep",
+      "text": "$R我(わ)が$R名(な)はアポリア"
+    },
+    {
+      "char": "aporia",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "$R未来(みらい)の$R滅亡(めつぼう)を$R防(ふせ)ぐために　ネオ$R童実野(どみの)シティを$R歴史(れきし)から$R抹殺(まっさつ)する！"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "ネオ$R童実野(どみの)シティを$R歴史(れきし)から$R抹殺(まっさつ)するだと！？"
+    },
+    {
+      "char": "aporia",
+      "pos": "",
+      "image": "",
+      "text": "そう！　モーメントの$R根源(こんげん)を$R消滅(しょうめつ)させ$R未来(みらい)を$R救(すく)う　それが$R我(われ)らの$R計画(けいかく)だ！　\nチーム・ニューワールドの$R勝利(しょうり)によってネオ$R童実野(どみの)シティは$R滅(ほろ)びる"
+    },
+    {
+      "char": "aporia",
+      "pos": "",
+      "image": "anger",
+      "text": "そして$R未来(みらい)が$R変(か)わるのだ！"
+    },
+    {
+      "char": "aporia",
+      "pos": "",
+      "image": "",
+      "text": "$R絶望(ぜつぼう)より$R生(う)まれた　$R憎(にく)しみの$R力(ちから)を$R思(おも)い$R知(し)るがいい！"
+    },
+    {
+      "char": "aporia",
+      "pos": "",
+      "image": "",
+      "text": "このデュエルの$R勝利(しょうり)により$R破滅(はめつ)が$R訪(おとず)れる！　その$R破滅(はめつ)こそが$R新(あたら)しい$R未来(みらい)への$R扉(とびら)となるのだ！"
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R突如(とつじょ)　アーククレイドルと$R呼(よ)ばれる$R巨大(きょだい)な$R建物(たてもの)が$R上空(じょうくう)に$R現(あらわ)れ　ゆっくりとネオ$R童実野(どみの)シティに\n$R降下(こうか)してきた"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "アーククレイドルが$R地上(ちじょう)に$R落(お)ちれば　ネオ$R童実野(どみの)シティは$R壊滅(かいめつ)だ！"
+    }
+  ]
+}

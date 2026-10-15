@@ -1,0 +1,449 @@
+{
+  "name": "TimetoReunite_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_duelacademy",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "celina",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R柚子(ゆず)はというと　セレナに$R捕(と)らわれ$R檻(おり)の$R中(なか)に$R入(い)れられていた"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "セレナどうしたっていうの？　シティでもランサーズとして$R戦(たたか)ったあなたが！"
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "anger",
+      "text": "ランサーズなど$R気(き)の$R迷(まよ)いだ…　すべてはプロフェッサーのために"
+    },
+    {
+      "char": "celina",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "sad",
+      "text": "セレナ…　まさか！？"
+    },
+    {
+      "char": "celina",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "$R柚子(ゆず)！！"
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_laboratory",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R赤馬(あかば)$R零王(れお)の$R部屋(へや)では　$R遊勝(ゆうしょう)がかつての$R仲間(なかま)と$R対峙(たいじ)していた"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "$R待(ま)っていたぞ　$R榊(さかき) $R遊勝(ゆうしょう)"
+    },
+    {
+      "char": "yusho",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "$R零王(れお)　$R君(きみ)ほどの$R天才(てんさい)が　$R何故(なぜ)こんな$R愚(おろ)かな$R事(こと)を$R始(はじ)めた！　$R理想郷(りそうきょう)を$R作(つく)ると$R言(い)う$R美名(びめい)の$R下(もと)に\n$R四(よっ)つの$R次元(じげん)を$R侵略(しんりゃく)しようなどと！"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "…$R考(かんが)えたことはないか　$R四(よっ)つに$R分(わ)かれた$R次元(じげん)がデュエルの$R召喚方法(しょうかんほうほう)で$R違(ちが)うことを　かつて\nあった$R一(ひと)つの$R世界(せかい)には　それらが$R全(すべ)てあった　$R一(ひと)つの$R世界(せかい)…　そこでは$R既(すで)に　リアルソリッド\nビジョンが$R実用化(じつようか)されていた"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "smile",
+      "text": "とは$R言(い)え　それはまだほんの$R初期段階(しょきだんかい)のものでしかなかった　$R私(わたし)は　リアルソリッドビジョンに\n$R新(あら)たな$R可能性(かのうせい)を$R与(あた)えたいと$R考(かんが)えていた"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "やがて$R私(わたし)の$R研究(けんきゅう)は$R完成(かんせい)し　$R質量(しつりょう)を$R持(も)ったモンスター$R同士(どうし)の$R迫力(はくりょく)ある$R対戦(たいせん)が$R可能(かのう)となった　\nだが　その$R技術(ぎじゅつ)は$R世界(せかい)を$R破滅(はめつ)へと$R導(みちび)くものでもあった"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R破滅(はめつ)？"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "そう　$R破滅(はめつ)への$R道(みち)は$R人々(ひとびと)の$R熱狂(ねっきょう)から$R始(はじ)まった…　あの$R男(おとこ)の$R登場(とうじょう)と$R共(とも)に…　その$R男(おとこ)の$R名(な)は　\nズァーク"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "ズァークはモンスターと$R心(こころ)を$R通(つう)じ$R合(あ)わせたデュエルによって　$R多(おお)くの$R人々(ひとびと)を$R魅了(みりょう)していった　\nだが$R観客(かんきゃく)は$R奴(やつ)にもっと$R激(はげ)しく　もっと$R興奮(こうふん)するデュエルを$R見(み)せるように$R要求(ようきゅう)した　$R奴(やつ)もそれに\n$R応(こた)えて$R更(さら)に$R激(はげ)しく　$R更(さら)に$R派手(はで)なパフォーマンスを$R行(おこな)うようになった"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "anger",
+      "text": "それが$R更(さら)に$R観客(かんきゃく)を$R熱狂(ねっきょう)させ　もっと$R興奮(こうふん)するデュエルが$R見(み)たいと$R言(い)う$R人々(ひとびと)の$R飽(あ)くなき$R欲求(よっきゅう)は　\nズァークを$R破壊(はかい)の$R限(かぎ)りを$R尽(つ)くす$R悪魔(あくま)…　$R覇王龍(はおうりゅう)ズァークへと$R変貌(へんぼう)させた"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R神(かみ)にも$R近(ちか)い$R力(ちから)を$R持(も)った$R覇王龍(はおうりゅう)は　もはやどんな$R手段(しゅだん)を$R以(もっ)てしても$R滅(ほろ)ぼす$R事(こと)はできないと\n$R思(おも)われた　だが　$R私(わたし)には$R悪魔(あくま)を$R生(う)み$R出(だ)してしまった$R責任(せきにん)がある　この$R命(いのち)に$R代(か)えてでも　\n$R世界(せかい)を$R救(すく)い$R出(だ)さなければならなかった"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R一体(いったい)どうやってそれを…"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "smile",
+      "text": "$R遊矢(ゆうや)！"
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "$R父(とう)さん！　$R父(とう)さん　やっと$R会(あ)えた…　どこへ$R行(い)ってたんだよ$R今(いま)まで　$R父(とう)さんがいない$R間(あいだ)　いろんな\n$R事(こと)があって…　$R柚子(ゆず)がアカデミアにさらわれて…"
+    },
+    {
+      "char": "yusho",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "$R柚子(ゆず)が！？　$R零王(れお)…　$R私(わたし)の$R息子(むすこ)が$R泣(な)いている　$R子供(こども)たちをこれ$R以上(いじょう)$R悲(かな)しませないでくれ　$R彼(かれ)らを\n$R巻(ま)き$R込(こ)むのは$R止(や)めよう"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R榊(さかき)$R遊矢(ゆうや)…　ついにここまで$R辿(たど)り$R着(つ)いてしまったか　$R遊勝(ゆうしょう)　そこにいる$R遊矢(ゆうや)は$R君(きみ)の$R息子(むすこ)であって\n$R君(きみ)の$R息子(むすこ)ではない"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "どう$R言(い)う$R事(こと)だ！？"
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "$R柚子(ゆず)　セレナ　$R瑠璃(るり)　リン！　$R柚子(ゆず)たちをどうするつもりだ！"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R洗脳(せんのう)は$R解(と)けたものの　$R四人(よにん)はガラスのカプセルの$R中(なか)に$R捕(と)らわれたままだった"
+    },
+    {
+      "char": "celina",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "$R何(なに)をするつもりだ　プロフェッサー"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "そうだ　$R君(きみ)たちにも$R知(し)る$R権利(けんり)がある　$R真実(しんじつ)を$R知(し)り　そして$R受(う)け$R止(と)めてほしい"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R私(わたし)はズァークに$R対抗(たいこう)するため$R四枚(よんまい)のカードを$R作(つく)り$R上(あ)げた　そして$R私(わたし)$R自身(じしん)　それを$R手(て)に\nズァークとの$R戦(たたか)いに$R向(む)かおうとしたのだが…　その$R前(まえ)にカードを$R奪(うば)われてしまった"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R奪(うば)われた？　$R一体(いったい)だれが？"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "sad",
+      "text": "$R四枚(よんまい)のカードを$R奪(うば)ったのは　プロデュエリストでもあった$R我(わ)が$R娘(むすめ)…　レイ"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R娘(むすめ)！？"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "sad",
+      "text": "レイは$R自(みずか)らを$R犠牲(ぎせい)にし　ズァークを$R倒(たお)した　しかし　$R覇王龍(はおうりゅう)が$R引(ひ)き$R裂(さ)かれる$R事(こと)で　$R次元(じげん)も\n$R引(ひ)き$R裂(さ)かれ…　そしてレイにまでその$R爪跡(つめあと)を…"
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "そんな…"
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yusho",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rin",
+      "pos": "BACK_LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "lulu",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "smile",
+      "text": "レイは$R四(よっ)つの$R次元(じげん)それぞれに　$R新(あら)たな$R命(いのち)として$R再生(さいせい)していたのだ"
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "celina",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "lulu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "$R柚子(ゆず)は…　レイの$R生(う)まれ$R変(か)わり？"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "その$R通(とお)り　$R私(わたし)の$R望(のぞ)みはその$R四人(よにん)の$R分身(ぶんしん)を$R再(ふたた)び$R一(ひと)つに$R結(むす)びつけ　$R我(わ)が$R娘(むすめ)レイを$R復活(ふっかつ)させる\n$R事(こと)にある！"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "$R復活(ふっかつ)！？"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "smile",
+      "text": "アークエリアプロジェクトはそのための$R手段(しゅだん)"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "デュエル・アカデミアで$R鍛(きた)え$R上(あ)げた$R多(おお)くのデュエリストを$R各次元(かくじげん)に$R派遣(はけん)し\n$R人々(ひとびと)をカード$R化(か)して$R集(あつ)める$R事(こと)により　その$R生命(せいめい)エネルギーを$R再(ふたた)び$R凝結(ぎょうけつ)させ　\n$R四(よっ)つに$R分(わ)かれた$R次元(じげん)を$R一(ひと)つに$R戻(もど)す…"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "それによってレイも！"
+    },
+    {
+      "char": "yusho",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "まさか…"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R零児(れいじ)よ　$R今(いま)こそ$R力(ちから)を$R貸(か)せ　$R私(わたし)と$R共(とも)に$R榊(さかき)$R遊矢(ゆうや)を$R倒(たお)すのだ！"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R倒(たお)す？　$R遊矢(ゆうや)を！？"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R聡明(そうめい)なお$R前(まえ)ならもう$R気(き)づいているはず　レイが$R四(よっ)つの$R次元(じげん)に$R分裂(ぶんれつ)して$R生(う)まれ$R変(か)わったように　\nズァークもまた$R四(よっ)つの$R次元(じげん)それぞれに$R蘇(よみがえ)っていると$R言(い)う$R事(こと)を　$R榊(さかき)$R遊矢(ゆうや)こそ　ズァークの$R生(う)まれ\n$R変(か)わり！"
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "leoakaba",
+      "pos": "",
+      "image": "anger",
+      "text": "$R世界(せかい)を$R破滅(はめつ)の$R瀬戸際(せとぎわ)まで$R追(お)い$R込(こ)み　お$R前(まえ)の$R姉(あね)が$R犠牲(ぎせい)となり$R分裂(ぶんれつ)させた$R悪魔(あくま)のデュエリストを\n$R倒(たお)すのだ！"
+    },
+    {
+      "char": "yuto",
+      "pos": "LEFT:FADEIN",
+      "image": "surprise",
+      "text": "オレ$R達(たち)が…　$R悪魔(あくま)の$R分身(ぶんしん)？"
+    },
+    {
+      "char": "yuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "$R違(ちが)う！　オレは$R悪魔(あくま)なんかじゃない！　オレは…　$R笑顔(えがお)を…　デュエルでみんなに$R笑顔(えがお)を\n$R届(とど)けたくて…"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "$R分(わ)かっている　$R君(きみ)のデュエルがエンターテインメントである$R事(こと)は　そして$R私(わたし)は$R見(み)た　\n$R君(きみ)のデュエルで　$R多(おお)くの$R人々(ひとびと)が$R笑顔(えがお)になったのを！"
+    },
+    {
+      "char": "leoakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "ふふふ…　みーつけた"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "お$R前(まえ)！"
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "smile",
+      "text": "やだなぁ　ボクにはユーリって$R名前(なまえ)があるんだから　そう$R呼(よ)んでよ　でも　$R今(いま)のボクは…　\nユーゴでもあるんだけどね　$R次(つぎ)は$R君(きみ)の$R番(ばん)だよ　さあ　ボクと$R一(ひと)つになるんだ！"
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "お$R前(まえ)と$R一緒(いっしょ)になんてなるもんか！"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "$R待(ま)て　$R迂闊(うかつ)にユーリに$R近(ちか)づくな！"
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "デュエルだ！"
+    }
+  ]
+}

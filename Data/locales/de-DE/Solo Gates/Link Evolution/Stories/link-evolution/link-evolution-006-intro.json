@@ -1,0 +1,593 @@
+{
+  "name": "WelcomeToTheFortuneCup_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_citysquare",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Er wacht auf."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Wer bist du?"
+    },
+    {
+      "char": "luna",
+      "pos": "",
+      "image": "",
+      "text": "Wir haben dich unten in der Gasse gefunden."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "",
+      "text": "Und dann haben wir dich hergebracht."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "Mein Name ist Leonard, aber du kannst mich Leo nennen. Das ist meine Schwester Luna. Wir sind ganz offensichtlich Zwillinge."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Keine eineiigen natürlich. Sie ist eine sie und ich bin ein er."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "",
+      "text": "Also, wer bist du? Wie heißt du?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Ich habe keine Ahnung …"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Ich habe noch nie jemanden kennengelernt, der sein Gedächtnis verloren hat."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Mit diesem schicken D-Wheel ist klar, dass du zu den Duellanten gehörst. Vielleicht erinnerst du dich jetzt?"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "",
+      "text": "Na? Klingelt bei dem Begriff Fortune Cup irgendwas bei dir?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Fortune Cup?"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "Ja, das große Turnier, bei dem mehrere Duellanten gegeneinander antreten, die die KaibaCorp zufällig ausgewählt hat."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "",
+      "text": "Das wird toll! Und stell dir vor, sie haben mich ausgewählt. Ich werde dabei sein!"
+    },
+    {
+      "char": "luna",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "Eigentlich haben sie mich ausgewählt."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Technisch gesehen haben sie Luna ausgewählt, aber Luna hat zu viel Angst, also werde ich vorgeben, sie zu sein und das Ding für sie gewinnen."
+    },
+    {
+      "char": "luna",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Niemand wird dir glauben, dass du ich bist, Leo."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "anger",
+      "text": "Warum denn nicht? Wir sind doch Zwillinge. Wir sehen gleich aus."
+    },
+    {
+      "char": "luna",
+      "pos": "",
+      "image": "shy",
+      "text": "Ich bin ein Mädchen. Ich sehe gut aus."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Dann schminke ich mich eben."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Ich danke euch für eure Hilfe, aber diese Fortune Cup-Sache, das weckt so gar keine Erinnerungen."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Ich sollte mich auf den Weg machen."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Ich möchte euch nicht noch länger zur Last fallen."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Aber du weißt doch immer noch nicht, wer du bist!"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Bevor du gehst: Ich habe da eine Idee!"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "Ich fordere dich zu einem Duell heraus, Mr. Gedächtnisverlust."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Jack Atlas hat gesagt, das ein Duellant im Duell zeigt, wer er wirklich ist. Also, wenn du gegen mich antrittst, erinnerst du dich vielleicht daran, wer du bist."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Nun ja, schaden wird es wohl nicht."
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Alle waren überrascht, als das Duell tatsächlich Yuseis Gedächtnis auf die Sprünge half. Er wusste auf einmal wieder, wer er war."
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Bald darauf verließ Yusei die Zwillinge, nur um genau der Person zu begegnen, die zu seinem Gedächtnisverlust geführt hat."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "smile",
+      "text": "Ich dachte schon, du magst mich nicht mehr!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "AH!"
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "anger",
+      "text": "Ich bin hier, um dich mitzunehmen, Yusei! Also, mach keine Zicken!"
+    },
+    {
+      "char": "lazar",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "Officer Trudge, solltest du nicht den Kerzenstand an der Outer Rim Mall bewachen?"
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "anger",
+      "text": "Lass die Polizei hier ihre Arbeit tun! Wie heißt du überhaupt, Winzling?"
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "Spezialagent Lazar. Ich arbeite für den Generaldirektor … und ich stehe in einem höheren Dienstgrad als du!"
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "surprise",
+      "text": "*schluck*"
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "neutral",
+      "text": "Yusei Fudo, wir möchten, dass du am Fortune Cup teilnimmst."
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "smile",
+      "text": "Wenn du dich weigerst, werde ich deine vier Freunde in Satellite festnehmen, weil … hmm … nun, ich werde mir schon etwas ausdenken … hehehehe!"
+    },
+    {
+      "char": "lazar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Am nächsten Tag, erhielt Yusei einen weiteren Besuch, von seinem Rivalen, Jack Atlas."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Was führt dich hierher?"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "Ich habe gehört, du willst beim Fortune Cup mitmachen. Ich möchte dir und deinem Sternenstaubdrachen etwas vorschlagen."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "5ds_stardustdragoncard",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "Wenn du gewinnst, kannst du die Karte behalten. Wenn ich gewinne, bekomme ich die Karte. Dann sind wir quitt."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "5ds_stardustdragoncard",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "Quitt? Und was ist mit meinen Freunden?"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "surprise",
+      "text": "Wovon redest du?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Dein lila gefärbter Freund Lazar ist vorbeigekommen. Wenn ich nicht antrete, dann werden sie dafür bezahlen."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "neutral",
+      "text": "Na, dann wirst du ja jetzt definitiv deinen Sternenstaubdrachen brauchen, nicht wahr?"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "Und nur damit das klar ist: Von dieser Erpressung höre ich zum ersten Mal!"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "Ich duelliere für mich. Goodwin verfolgt eigene Absichten."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "Wir sehen uns dann beim Fortune Cup."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Inzwischen hatten sich Rex Goodwin und Lazar getroffen, um über einen weiteren Teilnehmer beim Fortune Cup zu sprechen."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "lazar",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Ich habe sichergestellt, dass die „Schwarze Rose“ eine Einladung erhält. Sie wird, neben Yusei, ebenfalls am Duell teilnehmen."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Dann läuft ja alles wie geplant. Bald wird sich der Feuerrote Drache erheben!"
+    },
+    {
+      "char": "lazar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_arena",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Beim Fortune Cup trafen schließlich alle Duellanten zum ultimativen Kräftemessen aufeinander."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Weil Luna sich nicht getraut hat, selber am Duell teilzunehmen, hat Leo ihren Platz eingenommen."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_arenahallway",
+      "text": ""
+    },
+    {
+      "char": "leoasluna",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Wie sehe ich aus?"
+    },
+    {
+      "char": "luna",
+      "pos": "LEFT",
+      "image": "discouragement",
+      "text": "Das ist ja oberpeinlich!"
+    },
+    {
+      "char": "leoasluna",
+      "pos": "",
+      "image": "smile",
+      "text": "Komm schon Luna, beruhige dich. Das ist doch, als würdest du in den Spiegel sehen, oder?!"
+    },
+    {
+      "char": "luna",
+      "pos": "",
+      "image": "anger",
+      "text": "Einen zerbrochenen Spiegel."
+    },
+    {
+      "char": "leoasluna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Währenddessen trafen sich Rex Goodwin und Lazar erneut, um das Turnier zu besprechen."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "lazar",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Alles in Ordnung. Unser D-Tector nimmt sogar die kleinsten Ener-D-Energiesignale auf, die von den Auserwählten ausgesandt werden. Wir werden mit Sicherheit wissen, wer die Auserwählten sind."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Wunderbar."
+    },
+    {
+      "char": "lazar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Das erste Duell im Fortune Cup beginnt! Greiger tritt dabei gegen Luna, ähem, ich meine, gegen Leo an!"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leoasluna",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Es ist mir eine Ehre, mich heute mit dir zu duellieren, Greiger! Also, schlag ein!"
+    },
+    {
+      "char": "greiger",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Hmm … Fräulein Luna, für ein junges Mädchen hast du einen kräftigen Händedruck!"
+    },
+    {
+      "char": "leoasluna",
+      "pos": "",
+      "image": "surprise",
+      "text": "*schluck* Uhh … Ja das höre ich ziemlich oft. Hahaha … haa …"
+    }
+  ]
+}

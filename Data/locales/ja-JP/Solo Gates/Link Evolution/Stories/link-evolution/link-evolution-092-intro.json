@@ -1,0 +1,221 @@
+{
+  "name": "WD_YUGI_SetoKaiba_Alister_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_kaibacorp",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "モンスターが$R街中(まちじゅう)に$R出現(しゅつげん)し　$R海馬(かいば)と$R海馬(かいば)コーポレーションには$R民衆(みんしゅう)の$R非難(ひなん)が$R集(あつ)まっていた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "いったい$R何(なに)が$R起(お)きている！　$R海馬(かいば)コーポレーションをおとしいれようとする$R輩(やから)の$R陰謀(いんぼう)か？"
+    },
+    {
+      "char": "mokubakaiba",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "$R兄(にい)さま！　$R大変(たいへん)だ！　$R海馬(かいば)コーポレーションの$R株(かぶ)が$R買(か)い$R占(し)められてる！"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "surprise",
+      "text": "なに！？　そんなバカな…　これほど$R大量(たいりょう)に　しかもこちらに$R気(き)づかれずに$R株(かぶ)を$R買(か)い$R占(し)めるなど\n$R一体(いったい)どうやって…"
+    },
+    {
+      "char": "mokubakaiba",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R兄(にい)さま…　どうしよう？"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "まさか…　これはペガサスの$R仕業(しわざ)か！？"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "mokubakaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "$R海馬(かいば)$R瀬人(せと)とモクバはペガサスと$R闘(たたか)うためデュエリストキングダムへと$R向(む)かった　"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_pegasuscastle",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "ペガサス！　くだらん$R遊(あそ)びはやめて$R今(いま)すぐ$R出(で)て$R来(こ)い！"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "フフフ…　ウェルカム$R海馬(かいば)ボーイ！　お$R久(ひさ)しぶり！"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R貴様(きさま)はペガサスではない！"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "",
+      "text": "$R流石(さすが)は$R海馬(かいば)$R瀬人(せと)　よく$R見破(みやぶ)ったね"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alister",
+      "pos": "FADEIN:RIGHT",
+      "image": "happy1",
+      "text": "そうさ　$R私(わたし)はペガサスじゃない！"
+    },
+    {
+      "char": "mokubakaiba",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "えっ　どういう$R事(こと)？"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "happy2",
+      "text": "ボクはドーマの$R三銃士(さんじゅうし)の$R一人(ひとり)　アメルダ！"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "ドーマの$R三銃士(さんじゅうし)?"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "anger",
+      "text": "ボクはお$R前(まえ)を$R許(ゆる)さない　これはボクの$R復讐(ふくしゅう)なんだよ$R海馬(かいば)$R瀬人(せと)！　$R発動(はつどう)せよ　オレイカルコスの\n$R結界(けっかい)！"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "surprise",
+      "text": "なっ！　これは$R一体何(いったいなん)だ！？"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "",
+      "text": "この$R結界(けっかい)に$R囚(とら)われし$R者(もの)はデュエルに$R勝利(しょうり)するまでいかなる$R事(こと)があろうと$R抜(ぬ)け$R出(だ)すことは\n$R出来(でき)ない！　そして　$R敗者(はいしゃ)となった$R者(もの)はその$R魂(たましい)を$R結界(けっかい)によって$R封(ふう)じられる！"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "surprise",
+      "text": "なんだと！？"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "anger",
+      "text": "$R海馬(かいば)$R瀬人(せと)…　$R我(われ)らがドーマの$R長(おさ)　ダーツ$R様(さま)の$R命(めい)により　お$R前(まえ)の$R魂(たましい)をもらい$R受(う)ける！"
+    },
+    {
+      "char": "mokubakaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "$R兄(にい)さま！"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "",
+      "text": "$R海馬(かいば)$R瀬人(せと)…　ボクはこの$R日(ひ)が$R来(く)るのをどれほど$R待(ま)ち$R望(のぞ)んで$R来(き)たことか"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "アメルダとか$R言(い)ったな　デュエルモンスターズの$R異変(いへん)も$R海馬(かいば)コーポレーションの$R株(かぶ)の$R買(か)い\n$R占(し)めも$R全(すべ)て$R貴様(きさま)の$R仕業(しわざ)か？"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "",
+      "text": "さあね"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "つまらん$R冗談(じょうだん)はそれくらいにしておけ！"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "sad",
+      "text": "$R冗談(じょうだん)か…　まあいい　お$R前(まえ)は$R二度(にど)とこのオレイカルコスの$R結界(けっかい)から$R出(で)られない！　お$R前(まえ)と\n$R海馬(かいば)コーポレーションの$R犯(おか)した$R罪(つみ)はお$R前(まえ)の$R魂(たましい)でつぐなわせてやる！"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "shy",
+      "text": "$R弟(おとうと)は…　お$R前(まえ)に…　お$R前(まえ)の$R会社(かいしゃ)に$R殺(ころ)されたんだ…"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "anger",
+      "text": "$R海馬(かいば)コーポレーションは$R平和(へいわ)を$R破壊(はかい)して$R肥(こ)え$R太(ふと)って$R来(き)たんだ　$R今(いま)こそ$R裁(さば)きを$R受(う)けるべきだ！"
+    }
+  ]
+}

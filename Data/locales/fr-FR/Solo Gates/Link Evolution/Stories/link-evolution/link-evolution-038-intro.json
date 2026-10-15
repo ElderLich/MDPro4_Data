@@ -1,0 +1,341 @@
+{
+  "name": "FusionFoes_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_paradisecity",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "masumi",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Zuzu tombe par hasard sur Julia, sa rivale de longue date, en plein duel contre un inconnu. Mais avant que Zuzu ne puisse faire quoi que ce soit, un visage familier l'arrête."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "neutral",
+      "text": "Julia !"
+    },
+    {
+      "char": "masumi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Fais demi-tour et va-t'en ! Je ne peux pas te laisser t'immiscer dans le duel qui oppose mon collègue à cette fille."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Ton collègue ? Est-ce que Julia est en danger ? Qui êtes-vous, au juste ? Que voulez-vous ?"
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "Nous avons des ennemis, Zuzu. Et ils ont enlevé notre amie. Rien ne nous arrêtera pour la récupérer."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "\"La\" ?"
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "La première fois que je t'ai vue, j'ai cru que tu étais Lulu."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Lulu, c'est ton amie qui a été kidnappée ? Qui est-elle ?"
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "C'est la sœur de mon collègue. Il s'appelle Shay."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Et toi ? Je ne connais toujours pas ton nom."
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "smile",
+      "text": "Je m'appelle Yuto."
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "masumi",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "C'est toi qui as attaqué Professeur Marco, n'est-ce pas ? Pourquoi tu n'avoues pas ?!"
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Oh, lui... J'espérais qu'au moins il saurait se battre correctement. Mais il était plutôt pathétique."
+    },
+    {
+      "char": "masumi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Je l'ai, les gars. Je vous envoie tout de suite ma position. Dépêchez-vous !"
+    },
+    {
+      "char": "masumi",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "hokuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "yaiba",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "",
+      "image": "neutral",
+      "text": "Alors, tu as appelé du renfort ? Seulement deux personnes ? Tu dois me sous-estimer."
+    },
+    {
+      "char": "hokuto",
+      "pos": "NONE",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "yaiba",
+      "pos": "NONE",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "masumi",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_risefalconcard",
+      "text": ""
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "",
+      "image": "anger",
+      "text": "Mon Raidraptor - Faucon Montant va en finir avec vous ! Révolte Destructrice !"
+    },
+    {
+      "char": "masumi",
+      "pos": "NONE",
+      "image": "anger",
+      "text": "Aaargh !"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "arcv_risefalconcard",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Cependant, quelqu'un est décidé à ne pas laisser Shay poursuivre ses méfaits."
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "",
+      "image": "neutral",
+      "text": "Qui êtes-vous ?"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Declan Akaba. L'actuel président de la Société Léo. Fils de Léo Akaba."
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "",
+      "image": "anger",
+      "text": "Ton méprisable père retient Lulu, et je ferais tout mon possible pour la retrouver. Y compris t'utiliser comme appât !"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Si tu fais exactement ce que je te demande, j'accepterai d'être ton adversaire."
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_arcleaguechampionship",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Quelques jours plus tard, le Championnat de la Ligue ARC débute !"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Je savais que vous étiez des petits jeunes bourrés de talent, mais qui aurait pu croire que vous seriez tous qualifiés pour le Championnat de la Ligue ARC ?!"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "neutral",
+      "text": "Yuya, Zuzu et Sora. Vous combattrez dans la division Junior."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "Voyons qui je vais affronter en premier... Sylvio ?! Mon duel se jouera seulement demain !"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Mon premier adversaire sera... Julia ?! Mon duel se tient cet après-midi."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "Et toi, Sora ?"
+    },
+    {
+      "char": "sora",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "C'est demain. Contre quelqu'un de l'Institut Léo. Un certain Shay Obsidian."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "sad",
+      "text": "Shay Obsidian..."
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sora",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "masumi",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Ah, te voilà, Zuzu ! Ma première victime du tournoi."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Julia !"
+    },
+    {
+      "char": "masumi",
+      "pos": "",
+      "image": "smile",
+      "text": "Tu as encore prévu de perdre contre moi ?"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "anger",
+      "text": "Ne compte pas là-dessus, Julia ! Je me suis entraînée dur depuis ma défaite contre toi mais là je suis prête à revenir au score !"
+    }
+  ]
+}

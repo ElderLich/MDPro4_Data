@@ -1,0 +1,365 @@
+{
+  "name": "DoomsdayDuel_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_arena",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Rector Sheppard, el administrador principal de la Academia de Duelos, llamó a Jaden, Bastion, Alexis, Chazz, Dr. Crowler, el Profesor Banner, y Zane a su oficina."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Quería advertirles de los Jinetes de las Sombras y el poder de las tres Cartas de las Bestias Sagradas."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "¡¿Tres cartas de las \"qué\" Sagradas?!"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Cartas de las Bestias Sagradas. Debido a su inmenso poder y su fuerza colosal, estaban ocultas aquí en la Academia."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Verás, esta Academia se construyó en parte para proteger las Cartas de las Bestias Sagradas. Las enterraron a gran profundidad y sellaron sus poderes por seguridad."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "La leyenda dice que si estas cartas ven la luz del día, ocurrirán cosas terribles..."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Nuestro mundo dejará de existir."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "¿Para siempre?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Así que esta es la razón por la que vosotros siete estáis aquí. Para proteger estas tres cartas de los malvados."
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "zanetruesdale",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "¿Los malvados?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Así es. Siete duelistas conocidos como los Jinetes de las Sombras codician estas cartas."
+    },
+    {
+      "char": "zanetruesdale",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "professorbanner",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "He oído hablar de estos Jinetes de las Sombras. Y no son ninguna broma. Tenéis que tener mucho cuidado."
+    },
+    {
+      "char": "professorbanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "De acuerdo, entonces ¿cómo vamos a proteger esas cartas?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Protegiendo siete Puertas de los Espíritus. Para llegar a las cartas, hay que abrir con llave esas puertas."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Y para abrirlas,  hay que conseguir las siete llaves de las siete puertas. Así es como vamos a proteger esas cartas. Protegiendo las llaves."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "gx_spiritkeys",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Y aquí están. Una para cada uno de vosotros. Debéis encargaros de guargarlas."
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "professorbanner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Chicos, esta es una gran responsabilidad. Para mí, también."
+    },
+    {
+      "char": "professorbanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "",
+      "image": "anguish",
+      "text": "¿Qué nosotros guardemos las llaves? ¿Y eso no nos convertiría en objetivos a batir?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Eso es verdad. Teniendo estas llaves, los Jinetes de las Sombras os van a buscar."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "gx_spiritkeys",
+      "text": ""
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "chazzprinceton",
+      "pos": "RIGHT",
+      "image": "black_amazed",
+      "text": "¿Eh, nos van a buscar? ¿Quieres decir que nos van a ELIMINAR?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Sólo batiéndose en un duelo."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "smile",
+      "text": "Por suerte para nosotros, las llaves no se pueden robar simplemente. Un antiguo edicto ordena que las llaves sólo se pueden ganar en un duelo. ¡Y por eso, he llamado a nuestros siete mejores duelistas de la academia para asumir este reto y dar su mejor batalla!"
+    },
+    {
+      "char": "sheppard",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "chazzprinceton",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_shadowrealm",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Más tarde esa noche, Jaden y Alexis fueron transportados a un volcán donde se encontraron con el primer Jinete de las Sombras."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "¿Dónde estamos?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "En un sueño muy raro."
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "¡O pesadilla!"
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "¡Ja ja ja! ¡Ninguna de las dos cosas!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Qué está pasando?"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "smile",
+      "text": "¿Quieres decir que no lo sabes?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "bittersleep",
+      "text": "Me lleva tiempo aprender."
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "¡Llámame Velo Nocturno! ¡Soy quien va a ganar esa llave que tienes colgada al cuello!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "surprise",
+      "text": "Vaya. No perdéis tiempo, ¿verdad?"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "Voy a conseguir esa llave, y voy a hacerlo ahora. Aj, y sólo para estar seguiro he traído unos amigos."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anguish",
+      "text": "¿Qué quieres decir?"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Saluda a Syrus y Chumley! Parece que están con el agua al cuelo. ¡O a lo mejor debería decir a punto de caer en lava liquida! Pero así es el Juego de las Sombras, ¡guardián de la llave!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anger",
+      "text": "¿Un Juego de Sombras? ¡Venga, vamos a luchar de una vez! ¡Pero deja que se vayan!"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "No lo creo. Los necesito para asegurarme una partida rápida. Después de todo, ¿esa esfera de protección en la que están? Bueno, no está diseñada para durar mucho, precisamente."
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ah, y me temo que hay más. También está en juego tu alma, que quedará atrapada en esta carta cuando pierdas. Por supuesto, si pierdo yo, entonces mi alma quedará atrapada en la carta."
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "Pero bueno, a ver, vamos a tomárnoslo. ¿Perder, yo? De ninguna manera. Ahora entonces, ¿nos ponemos a ello?"
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "CENTER",
+      "image": "anguish",
+      "text": "¡No puedes aceptar estas condiciones!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anguish",
+      "text": "¡Explícaselo a Syrus y Chumley! ¡Que están a punto de convertirse en albóndigas en un guiso de lava! ¡Son mis amigos y no voy a permitir que eso les llegue a pasar! ¡Ni a nosotros!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anger",
+      "text": "Además, este no es mi primer Juego de las Sombras. ¡Sólo espero que no duela tanto como los anteriores !"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anger",
+      "text": "Vale, ¿quieres luchar? ¡Por supuesto! ¡Vamos!"
+    }
+  ]
+}

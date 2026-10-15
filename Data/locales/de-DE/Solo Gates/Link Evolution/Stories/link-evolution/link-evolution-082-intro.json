@@ -1,0 +1,383 @@
+{
+  "name": "BattleCityBegins_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_school",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yugi war beunruhigt, dass es nun einen unbekannten Feind gab, der versuchte, sein Millenniumspuzzle zu stehlen. Er fühlte sich unvorbereitet. Er wusste nicht genug über das Puzzle, um zu verstehen, welchen Gefahren er jetzt ausgesetzt sein würde."
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Hey, wie geht’s dir, Yugi?"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "Nicht so toll. Ich brauche deine Hilfe, und das gilt auch für den Geist des Millenniumspuzzles."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "Wer auch immer das Puzzle gestohlen hat, schien viel über seine Vergangenheit zu wissen. Das erinnerte den Geist daran, wie wenig er darüber weiß. Aber wenn er Zeit mit dir verbringt, wird ihm vielleicht Einiges klar."
+    },
+    {
+      "char": "teagardner",
+      "pos": "",
+      "image": "surprise",
+      "text": "Sicher, aber wie genau soll ich das machen?"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "Du hast doch immer gute Ratschläge parat. Sprich einfach mit ihm."
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Der Geist und Tea verbrachten den Tag zusammen. Sie gingen ins Domino Museum, das gerade seine ägyptische Ausstellung eröffnet hatte."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Sie sahen eine antike Steingravur, die einen Kampf zwischen einem Zauberer und einem Pharao darstellte. Der Pharao hatte eine frappierende Ähnlichkeit mit Yugi, während der Zauberer genauso aussah wie Kaiba."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "BACK_LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Als sie ehrfürchtig vor ihrer Entdeckung standen, kam eine geheimnisvolle Frau auf sie zu, um sie zu begrüßen."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Mein Pharao, ich habe dich erwartet."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "Hä? Wer bist du?"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Ich bin Ishizu von der ägyptischen historischen Gesellschaft. Ich habe mit der Magie meiner Millenniumskette viele Geheimnisse über dich und diese antiken Gravuren aufgedeckt."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "millenniumnecklace",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "Noch ein Millenniumsgegenstand!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Wie dein Millenniumspuzzle verleiht mir diese Kette gewisse Kräfte. Damit habe ich fünftausend Jahre in die Vergangenheit geblickt, in eine Zeit, in der böse Zauberer drohten, die ganze Welt zu zerstören."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Es gab jedoch einen König, der eine Magie besaß, die stark genug war, um diese böse Bedrohung aufzuhalten."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Der Pharao, der die Welt gerettet hat … warst du. Und jetzt ist es an der Zeit, dass du die Menschheit noch einmal rettest."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "Die Menschheit retten? Wovor? Woher weißt du, dass die Welt wieder Gefahr läuft, zerstört zu werden?"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "sad",
+      "text": "Meine Millenniumskette zeigt mir auch Visionen für die Zukunft. Mein Pharao, die Ereignisse der Vergangenheit werden sich noch einmal wiederholen. Und das gleiche große Übel wird zurückkehren, um uns zu bedrohen."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Wie werde ich dieses Übel erkennen?"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Ich weiß, dass dein Gedächtnis verblasst ist und dass du viele Antworten suchst. Ich weiß auch, dass ein Duel Monsters Turnier ansteht!"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "neutral",
+      "text": "Wenn du es gewinnst, wirst du deine Antworten finden."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Das Turnier, von dem Ishizu sprach, war Seto Kaibas Battle City Turnier. Joey und Yugi wurden beide zur Teilnahme eingeladen."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Alle Teilnehmer erhielten eine besondere durchsichtige Karte, eine sogenannte Puzzlekarte."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_locatorcards",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Der Gewinner jedes Duells durfte dem Verlierer sowohl eine Puzzlekarte als auch eine seltene Karte abnehmen. Wenn ein Duellant alle seine Puzzlekarten verlor, wurde er aus dem Turnier ausgeschlossen. Nur diejenigen, die sechs Puzzlekarten gesammelt hatten, konnten den Ort der Finals finden."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "seeker",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Das Turnier zog eine Gruppe von Duellanten an, die als die Raritätenjäger bekannt waren. Diese bösen Duellanten waren Diebe, die die seltensten Duel Monsters Karten stehlen wollten."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_redeyes_card",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Joey verlor seinen Rotäugigen schwarzen Drachen an einen Raritätenjäger namens Seeker. In der Hoffnung, seine Karte zurückzugewinnen, forderte Joey ihn zu einer Revanche heraus."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "Du hast meinen Rotäugigen und ich will ihn zurück. Höööchste Zeit für ein Duell!"
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "win",
+      "text": "Ich habe keine Lust, mich mit dir zu duellieren. Ich habe dich schon um deinen seltenen Rotäugigen erleichtert. Meine Jagd nach deinem Deck ist vorbei."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "So ein Pech aber auch! Ich gehe erst, wenn ich meinen Rotäugigen zurückgewonnen habe!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Joey! Was ist hier los?"
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "neutral",
+      "text": "Yugi Muto! Er hat den Gegenstand, den mein Meister haben möchte!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "Dieser Typ schuldet mir eine Revanche, damit ich meinen Rotäugigen zurückgewinnen kann!"
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "win",
+      "text": "Ich habe dir schon gesagt, dass du nichts hast, womit ich etwas anfangen könnte. Aber vielleicht wäre dein Freund daran interessiert, mein nächstes Opfer zu sein."
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "",
+      "text": "Es wäre mir eine Freude, den Champion des Königreichs der Duellanten zu jagen und seinen Dunklen Magier zu erbeuten. Also fordere ich Yugi Muto zu einem Duell heraus!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "OK, Raritätenjäger. Ich akzeptiere deine Herausforderung!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "Es ist die einzige Möglichkeit, deine Karte zurückzugewinnen, Joey."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEIN:LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "Wenn du dieses Duell gewinnst, werde ich dir meinen Dunklen Magier übergeben. Aber wenn du verlierst, musst du Joeys Rotäugigen schwarzen Drachen zurückgeben!"
+    }
+  ]
+}

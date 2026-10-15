@@ -1,0 +1,245 @@
+{
+  "name": "ReadySetDuel_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "bg_vgs",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Now loading 5D's histories..."
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_citysquare",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Duelists young and old, professional and amateur alike, it's the moment you've been waiting for!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Welcome to New Domino City, home of Turbo Dueling."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Turbo Duels are a new form of dueling that takes place on motorcycles called \"Duel Runners.\""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_satellite",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "However, our story does not begin in New Domino City. We join our hero Yusei Fudo in the poorer outskirts known as \"Satellite.\""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "notattoo_anguish",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yusei was wronged by the undefeated Turbo Dueling champion Jack Atlas."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "The two were once friends, but Jack stole Yusei's two most prized possessions: the Stardust Dragon card and his custom Duel Runner."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Jack left Satellite and became the Turbo Dueling champion for New Domino City."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yusei wanted to confront Jack, but unfortunately, Sector Security kept getting in his way."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "notattoo_neutral",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rallydawson",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yusei's friend Rally \"found\" a Skylon-30 acceleration chip. Yusei needed this chip badly for the new Duel Runner he was building."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rallydawson",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Yusei! Hey, Yusei!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "notattoo_neutral",
+      "text": ""
+    },
+    {
+      "char": "rallydawson",
+      "pos": "",
+      "image": "neutral",
+      "text": "Check this out!"
+    },
+    {
+      "char": "rallydawson",
+      "pos": "",
+      "image": "",
+      "text": "It's a Skylon-30 Acceleration Chip."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "notattoo_neutral",
+      "text": "Aren’t those incredibly expensive? Don’t tell me you stole this."
+    },
+    {
+      "char": "rallydawson",
+      "pos": "",
+      "image": "anger",
+      "text": "I didn’t steal nothin’! It was just laying on the ground in broad daylight."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "notattoo_smile",
+      "text": "Okay, thanks! This is just what I needed."
+    },
+    {
+      "char": "rallydawson",
+      "pos": "",
+      "image": "smile",
+      "text": "I knew you’d like it! Will it make your Duel Runner faster?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "notattoo_smile",
+      "text": "Absolutely!"
+    },
+    {
+      "char": "rallydawson",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "notattoo_neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Unfortunately, Sector Security had tracked Rally and quickly closed in on Yusei and his friends."
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "So it was up to Yusei to confront Sector Security and get his friends out of trouble."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "smile",
+      "text": "I knew I shoulda locked you up when you were a kid. Looks like I’ll finally get my wish!"
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "neutral",
+      "text": "Are you going to make this easy and come along quietly?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "notattoo_neutral",
+      "text": "I will... if you can beat me."
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "smile",
+      "text": "You’ve got yourself a deal."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "notattoo_neutral",
+      "text": ""
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "neutral",
+      "text": "Fool."
+    }
+  ]
+}

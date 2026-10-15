@@ -1,0 +1,593 @@
+{
+  "name": "WelcomeToTheFortuneCup_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_citysquare",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Si sta svegliando."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Chi siete?"
+    },
+    {
+      "char": "luna",
+      "pos": "",
+      "image": "",
+      "text": "Ti abbiamo trovato nel vicolo sottostante."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "",
+      "text": "Così ti abbiamo portato qui."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "Mi chiamo Leonard, ma chiamami Leo. Questa è mia sorella Luna. Siamo gemelli."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Non gemelli identici, ovviamente. Lei è una lei, e io sono un lui."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "",
+      "text": "Tu chi sei, signore? Come ti chiami?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Non lo so..."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Non ho mai incontrato nessuno con l'amnesia."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Devi essere un duellante se sei proprietario di quel potente Duel Runner, quindi forse questo ti rinfrescherà la memoria. Dimmi se questo ti sembra familiare."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "",
+      "text": "Allora? Questo invito alla Fortune Cup ti dice niente?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "La Fortune Cup?"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "Sì! Un grande torneo tra un gruppo di persone che la Kaiba Corporation ha selezionato in modo casuale."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "",
+      "text": "Sarà una grande competizione! E indovina! Mi hanno scelto! Farò parte di questo incredibile evento!"
+    },
+    {
+      "char": "luna",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "In realtà, hanno scelto me."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Sì, hanno selezionato Luna, ma lei ha troppa paura, quindi farò finta di essere lei e vincerò il torneo!"
+    },
+    {
+      "char": "luna",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Nessuno crederà che tu sia me, Leo."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "anger",
+      "text": "Perché non dovrebbero? Siamo gemelli! Ci assomigliamo."
+    },
+    {
+      "char": "luna",
+      "pos": "",
+      "image": "shy",
+      "text": "Sono una ragazza. Sono carina."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Userò del trucco."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Grazie per avermi aiutato, ma questa cosa della Fortune Cup non mi fa ricordare niente."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Devo andarmene da qui."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Non vi darò più fastidio ragazzi."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Ma... ancora non sai chi sei!"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Non andartene, ho un'altra idea."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "Ti sfido a un duello, signor Amnesia!"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Jack Atlas ha detto che durante un duello è possibile scoprire la personalità del duellante. Così se duellerai con me, potresti ricordare chi sei!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Non è una cattiva idea."
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Il duello effettivamente schiarì la memoria di Yusei e finalmente si ricordò chi era."
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Poco dopo, Yusei lasciò i gemelli, e incontrò la persona che causò la sua amnesia."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "smile",
+      "text": "Stavo iniziando a pensare che non ti piacevo!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "AH!"
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "anger",
+      "text": "Yusei sono qui per arrestarti! Hai intenzione di obbedire tranquillamente?"
+    },
+    {
+      "char": "lazar",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "Agente di sicurezza Trudge, non dovresti essere di guardia al chiosco Candele & Calendari presso il centro commerciale di Outer Rim?"
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "anger",
+      "text": "Non interferire con le investigazioni ufficiali della polizia! Come ti chiami piccoletto!"
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "Agente Speciale Lazar. Io lavoro per il Direttore Generale... e sono il tuo superiore."
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "surprise",
+      "text": "*gulp*"
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "neutral",
+      "text": "Signor Yusei Fudo, voglio invitarti alla Fortune Cup."
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "smile",
+      "text": "Se ti rifiuti, arresterò i tuoi quattro amici a Satellite per il reato di... hmm... Mi inventerò qualcosa. Eheheheheh!"
+    },
+    {
+      "char": "lazar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Il giorno successivo Yusei ricevette un'altra visita dal suo rivale Jack Atlas."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Cosa ci fai qui?"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "Ho sentito che sarai alla Fortune Cup. Propongo un affare per te e il tuo Drago Polvere di Stelle."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "5ds_stardustdragoncard",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "Se vinci, puoi tenerti la carta. Se vinco io, la prendo per me. Poi saremo a posto."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "5ds_stardustdragoncard",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "A posto? E i miei amici?"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "surprise",
+      "text": "Di cosa stai parlando?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Me l'ha detto Lazar, il tuo amico dai capelli viola. Se non duello, loro pagheranno."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "neutral",
+      "text": "Mm, allora, avrai sicuramente bisogno del tuo Drago Polvere di Stelle, non è vero?"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "E giusto per chiarire: non so nulla di questa minaccia, capito?"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "Io duello per me. Goodwin ha la sua agenda."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "Ci vediamo alla Fortune Cup."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Nel frattempo, Rex Goodwin e Lazar si incontrarono per discutere riguardo un altro partecipante della Fortune Cup."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "lazar",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Mi sono assicurato che la \"Rosa Nera\" ha ricevuto l'invito. Lei duellerà qui con Yusei."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Tutto sta andando come previsto. Ben presto, il Drago Cremisi ritornerà..."
+    },
+    {
+      "char": "lazar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_arena",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Intanto alla Fortune Cup, tutti i partecipanti si riunirono per iniziare la competizione."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Dato che Luna aveva paura di competere nei duelli, Leo prese felicemente il suo posto."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_arenahallway",
+      "text": ""
+    },
+    {
+      "char": "leoasluna",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Come ti sembro?"
+    },
+    {
+      "char": "luna",
+      "pos": "LEFT",
+      "image": "discouragement",
+      "text": "Sei imbarazzante."
+    },
+    {
+      "char": "leoasluna",
+      "pos": "",
+      "image": "smile",
+      "text": "Eddai Luna, rilassati! Scommetto che è come quando ti guardi allo specchio!"
+    },
+    {
+      "char": "luna",
+      "pos": "",
+      "image": "anger",
+      "text": "Uno specchio rotto."
+    },
+    {
+      "char": "leoasluna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Nel frattempo, Rex Goodwin e Lazar si incontrarono nuovamente per discutere il torneo."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "lazar",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Tutto è in ordine. Il nostro D-Tector riceverà anche i più piccoli segnali di energia Ener-D emessi dai Predestinati. Sapremo con certezza chi sono."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Eccellente."
+    },
+    {
+      "char": "lazar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Siamo pronti per il primo duello della Fortune Cup! È Greiger contro Luna... voglio dire, Leo!"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leoasluna",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "È un onore duellare contro di te Greiger! Preparati, amico!"
+    },
+    {
+      "char": "greiger",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Hmm... Signorina Luna, lei hai una stretta di mano molto forte."
+    },
+    {
+      "char": "leoasluna",
+      "pos": "",
+      "image": "surprise",
+      "text": "*gulp* Uhm... Tutti a scuola mi chiamano maschiaccio. Ahahah..."
+    }
+  ]
+}

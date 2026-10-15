@@ -1,0 +1,191 @@
+{
+  "name": "TheFortuneCupFinale_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_arenahallway",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Nach dem Duell mit der Schwarzen Rosenhexe hat Yusei Goodwins Pläne in Bezug auf den Feuerroten Drachen aufgedeckt und ihn zur Rede gestellt."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Es ist an der Zeit, dass wir einmal miteinander reden. Du hast mich zu diesem Turnier gezwungen, mich bedroht und meine Freunde eingesperrt."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ich möchte die Wahrheit wissen. Ich werde nicht gegen Jack antreten, bis du mir gesagt hast, warum du das getan hast."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Bist du schwer von Begriff, Yusei? Es geht um dieses Mal, darum geht es."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "5ds_signermark_jack",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "neutral",
+      "text": "Er will die Macht des Feuerroten Drachen, also versucht er jeden, der ein Drachenmal hat, in seine Klauen zu bekommen."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "5ds_signermark_jack",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "anguish",
+      "text": "Er hat mich belogen, mir Honig ums Maul geschmiert und mich manipuliert. Nur deshalb bin ich hier."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ach komm schon, das klingt ja, als wäre ich ein Monster."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Jack, du wolltest doch Turboduell-Champion werden!"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "anger",
+      "text": "Ja, aber ich wollte mir diesen Titel VERDIENEN. So langsam glaube ich, dass du das alles von langer Hand eingefädelt hast."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "neutral",
+      "text": "Du hast mich als Köder benutzt, um Yusei anzulocken."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "Goodwin wusste, dass du hinter mir her sein würdest, wenn ich alles genau so mache, wie er es befohlen hat."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "laughter",
+      "text": "Mach dich nicht lächerlich. Ich kannte Yusei überhaupt nicht, bis du an jenem Abend in der Arena gegen ihn angetreten bist."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "Glaubst du wirklich, dass ich dir abnehme, dass das alles hier nur ein großer Zufall ist?"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "Ich stelle eine Bedingung."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "Du hast doch, was du wolltest. Yusei ist hier, stimmt’s? Also lass seine Freunde gehen."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "Ich will ein ehrliches Duell. Keine Drohungen, keine Tricks und so. Nur wir."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "laughter",
+      "text": "Nun, wenn mein Champion das so wünscht, dann soll es so sein."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Und so begann der Kampf zwischen Yusei Fudo und Jack Atlas."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Das war’s dann. Ich werde dir zeigen, dass du einfach nicht gut genug bist, um zu den Besten zu gehören, Yusei."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Bist du sicher, dass wir das tun sollten? Es gibt noch eine Menge, was wir nicht über den Feuerroten Drachen wissen."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "anger",
+      "text": "Das ist genau das, was ich meine, Yusei. Du hast keinen Mut!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "Okay, Jack, dann lass uns das Duell beginnen."
+    }
+  ]
+}

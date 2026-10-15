@@ -1,0 +1,35 @@
+{
+  "name": "FlippingOut_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Oui! Voici le flux!"
+    },
+    {
+      "char": "flipturner",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "Malgré toutes mes astuces, j'ai quand même perdu!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Tu as gagné mon respect de la plus belle manière ... sans tricher. Tu te sens mieux intérieurement, n'est-ce pas?"
+    },
+    {
+      "char": "flipturner",
+      "pos": "",
+      "image": "shy",
+      "text": "Je commence une nouvelle page à partir d'aujourd'hui!"
+    }
+  ]
+}

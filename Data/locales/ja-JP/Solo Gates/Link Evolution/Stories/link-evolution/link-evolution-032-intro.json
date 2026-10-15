@@ -1,0 +1,455 @@
+{
+  "name": "SwingIntoAction_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_paradisecity",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "ＡＲＣ－Ｖの$R歴史(れきし)をロードしています…"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "これは　$R榊(さかき)$R遊矢(ゆうや)の$R物語(ものがたり)だ　$R彼(かれ)をヒーローと$R呼(よ)ぶ$R者(もの)もいれば　マヌケと$R呼(よ)ぶ$R者(もの)もいる　"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R旅(たび)を$R終(お)えるまでに　$R遊矢(ゆうや)は$R数々(かずかず)の$R次元(じげん)を$R渡(わた)り$R歩(ある)き　$R世界(せかい)を$R救(すく)うために$R数(かぞ)えきれない\nほどの$R相手(あいて)と$R戦(たたか)うことになる"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R遊矢(ゆうや)も$R父親(ちちおや)からの$R小(ちい)さな$R助言(じょげん)が$R壮大(そうだい)な$R物語(ものがたり)の$R始(はじ)まりになるとは$R知(し)る$R由(よし)もなかった"
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "yusho",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "$R泣(な)きたい$R時(とき)は$R笑(わら)え　$R精一杯(せいいっぱい)$R大笑(おおわら)いするんだ　$R笑(わら)ってるうちに$R本当(ほんとう)に$R楽(たの)しくなってくる"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "",
+      "text": "そして　それが$R次(つぎ)のエネルギーになる"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "",
+      "text": "$R振(ふ)り$R子(こ)と$R同(おな)じさ　$R大(おお)きく$R振(ふ)れば$R大(おお)きく$R戻(もど)る"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "smile",
+      "text": "デュエルもそうだ"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "デュエルも？"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R怖(こわ)がって$R縮(ちぢ)こまっていたら$R何(なに)も$R出来(でき)ない　$R勝(か)ちたいなら$R自分(じぶん)もダメージを$R受(う)ける$R勇気(ゆうき)をもって\n$R前(まえ)に$R出(で)ろ"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "",
+      "text": "その$R勇気(ゆうき)の$R分(ぶん)だけ$R喜(よろこ)びも$R戻(もど)って$R来(く)る"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "smile",
+      "text": "$R振(ふ)り$R子(こ)　ペンデュラムは$R何(なに)かを$R発見(はっけん)する$R道具(どうぐ)でもある　お$R前(まえ)が$R道(みち)に$R迷(まよ)った$R時(とき)　\nこのペンデュラムが$R進(すす)むべき$R方向(ほうこう)を$R指(さ)し$R示(しめ)してくれるだろう"
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yusho",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_arcleaguechampionship",
+      "text": ""
+    },
+    {
+      "char": "sledgehammer",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R数日後(すうじつご)　$R遊勝(ゆうしょう)はアクションデュエルチャンピオンの$R座(ざ)を$R守(まも)るべく　$R優勝(ゆうしょう)$R第一(だいいち)$R候補(こうほ)のストロング\n$R石島(いしじま)と$R闘(たたか)うことになっていた"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "しかし　$R遊矢(ゆうや)の$R父(ちち)は$R現(あらわ)れず　それどころか$R二度(にど)と$R姿(すがた)を$R現(あらわ)すことはなかった　この$R事件(じけん)が\nきっかけで　$R遊勝(ゆうしょう)はもとより$R榊(さかき)$R家(け)に$R臆病者(おくびょうもの)の$R烙印(らくいん)を$R押(お)されてしまった"
+    },
+    {
+      "char": "sledgehammer",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_youshowschool",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R三年後(さんねんご)…　\n$R柊(ひいらぎ)$R修造(しゅうぞう)の$R遊勝塾(ゆうしょうじゅく)にて"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "ここから$R先(さき)は$R一歩(いっぽ)も$R通(とお)さぬ！　さぁバトルだ$R遊矢(ゆうや)！　この$R男(おとこ)・$R権現坂(ごんげんざか)と$R一対一(いったいいち)で$R勝負(しょうぶ)しろーっ！"
+    },
+    {
+      "char": "yuya",
+      "pos": "CENTER",
+      "image": "smile",
+      "text": "レディース・アンド・ジェントルメン！　オレは$R速攻魔法(そっこうまほう)フレンチ・トントンを$R発動(はつどう)！　\nイッツ・ショーターイム！"
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "$R真面目(まじめ)にやれ！　$R遊矢(ゆうや)ーっ！"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "anger",
+      "text": "だれも$R笑(わら)ってなどいないぞ！"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "いやいや　$R結構(けっこう)$R笑(わら)ってたって"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R笑(わら)わせるのと$R笑(わら)われるのでは　$R天(てん)と$R地(ち)ほども$R違(ちが)う！！"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "sad",
+      "text": "お$R前(まえ)の$R父上(ちちうえ)はデュエルでみんなを$R笑顔(えがお)にしていた　あの$R心(こころ)からの$R笑顔(えがお)を$R忘(わす)れたのかーっ！"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "まっ　ウチの$R親父(おやじ)も$R最後(さいご)はみんなに$R笑(わら)われたけどね"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "anger",
+      "text": "$R遊矢(ゆうや)！"
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "nico",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "おやおや　$R何(なに)やらお$R困(こま)りのご$R様子(ようす)　$R私(わたくし)で$R良(よ)ければお$R力添(ちからぞ)えを…"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "え？　$R誰(だれ)？"
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R申(もう)し$R遅(おく)れました　$R私(わたくし)アクションデュエルの$R現役(げんえき)チャンピオン　ストロング$R石島(いしじま)のマネージャー$R兼(けん)\nプロモーターをしております　ニコ・スマイリーと$R申(もう)します"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "ストロング$R石島(いしじま)！？"
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R現在(げんざい)ストロング$R石島(いしじま)はレオ・コーポレーション$R直営(ちょくえい)のデュエル$R塾(じゅく)LDSのイメージキャラクターを\n$R務(つと)めております　その$R活動(かつどう)の$R一環(いっかん)として$R行(おこな)われるファン$R感謝(かんしゃ)デーに　ぜひ$R榊(さかき)$R遊矢(ゆうや)$R君(くん)をお$R招(まね)き\nしたいのです！"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "そこでオレが…　ストロング$R石島(いしじま)と！？"
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "そう　$R闘(たたか)えるのです！　あの$R三年前(さんねんまえ)の$R願(ねが)いが$R遂(つい)に$R現実(げんじつ)のものに！"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "anger",
+      "text": "ダメだ　$R遊矢(ゆうや)を$R見世物(みせもの)にはできん！　この$R三年間(さんねんかん)　$R遊矢(ゆうや)がどんな$R思(おも)いで…　いいから$R帰(かえ)ってくれ"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "それは$R残念(ざんねん)　ご$R承諾(しょうだく)$R頂(いただ)けましたなら　お$R礼(れい)としてレオ・コーポレーション$R社製(しゃせい)の$R最新型(さいしんがた)リアル・\nソリッドビジョン・システムをお$R納(おさ)めさせて$R頂(いただ)こうと$R思(おも)っておりましたのに"
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "もちろん…"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "smile",
+      "text": "$R無料(むりょう)で"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "smile",
+      "text": "マジっすか！？"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "たった$R今(いま)　$R見世物(みせもの)には$R出来(でき)ないって$R言(い)ったばかりでしょ！"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "sad",
+      "text": "いや　だってオレの$R熱血指導(ねっけつしどう)のためには…"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "$R大事(だいじ)なのは$R遊矢(ゆうや)の$R気持(きも)ちだ"
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "そうよ　…あれ　$R遊矢(ゆうや)は？"
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "surprise",
+      "text": "いない…　まるで$R父親(ちちおや)のようですね"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_arcleaguechampionship",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "nico",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "skipboyle",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "ファン$R感謝(かんしゃ)デー"
+    },
+    {
+      "char": "nico",
+      "pos": "CENTER",
+      "image": "",
+      "text": "さあ$R皆(みな)さん　いよいよ$R本日(ほんじつ)のメインイベント　スペシャルマッチのお$R時間(じかん)がやってまいりました！"
+    },
+    {
+      "char": "nico",
+      "pos": "CENTER",
+      "image": "",
+      "text": "チャンピオン　ストロング$R石島(いしじま)に$R挑戦(ちょうせん)しますのは　あの$R伝説(でんせつ)のデュエルスター$R榊(さかき)$R遊勝(ゆうしょう)の\n$R一人息子(ひとりむすこ)　$R榊(さかき)$R遊矢(ゆうや)$R君(くん)であります！"
+    },
+    {
+      "char": "nico",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "$R遊矢(ゆうや)…"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "neutral",
+      "text": "あいつ$R本当(ほんとう)に$R出(で)るのか！？"
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R遊矢(ゆうや)がデュエルに$R出場(しゅつじょう)し　$R誰(だれ)もが$R驚(おどろ)いた　しかしもっと$R驚(おどろ)いたことに　$R遊矢(ゆうや)はピエロの$R格好(かっこう)を\nしていた"
+    },
+    {
+      "char": "sledgehammer",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "…お$R前(まえ)　$R榊(さかき)$R遊勝(ゆうしょう)のせがれか？"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "smile",
+      "text": "では$R改(あらた)めてお$R願(おねが)い$R致(いた)します　どうか$R私(わたくし)めとデュエルを！　チャンピオン$R様(さま)のお$R手並(てなみ)を$R拝見(はいけん)"
+    },
+    {
+      "char": "sledgehammer",
+      "pos": "",
+      "image": "anger",
+      "text": "お$R手並(てなみ)だぁ！？　ふざけたこと$R言(い)ってんじゃねーっ！　この$R礼儀(れいぎ)$R知(し)らずのクソガキが！！　\nだったら$R見(み)せてやるぜ！　プロの$R技(わざ)でお$R前(まえ)を$R躾(しつ)け$R直(なお)してやる！"
+    }
+  ]
+}

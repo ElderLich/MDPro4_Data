@@ -1,0 +1,185 @@
+{
+  "name": "TheNextKingOfGames_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_outsideacademy",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R遊戯(ゆうぎ)たちの$R貢献(こうけん)によりデュエルは$R世界的(せかいてき)に$R広(ひろ)まり　$R各地(かくち)にデュエル・アカデミアが$R設立(せつりつ)された　"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "デュエリストを$R目指(めざ)す$R遊城(ゆうき)$R十代(じゅうだい)は　$R有名(ゆうめい)なデュエル・アカデミアに$R入学(にゅうがく)するチャンスを$R得(え)た　\nしかし$R入学(にゅうがく)するには　$R試験(しけん)に$R合格(ごうかく)しなくてはならなかった"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R学校(がっこう)へ$R急(いそ)いでいると　$R十代(じゅうだい)はかつての$R有名人(ゆうめいじん)によく$R似(に)た$R謎(なぞ)の$R男(おとこ)とぶつかった　"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "surprise",
+      "text": "ごめん！"
+    },
+    {
+      "char": "yami",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "キミ　デュエルをやるのかい？"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "neutral",
+      "text": "ああ　デュエル・アカデミアを$R受験(じゅけん)するんだ"
+    },
+    {
+      "char": "yami",
+      "pos": "",
+      "image": "smile",
+      "text": "フフ…"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "surprise",
+      "text": "あ　あなたは！"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "gx_wingedkuriboh_card",
+      "text": ""
+    },
+    {
+      "char": "yami",
+      "pos": "",
+      "image": "smile",
+      "text": "ラッキーカードだ　こいつがキミのところへ$R行(い)きたがっている"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "え？　あ　ありがと！"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "gx_wingedkuriboh_card",
+      "text": ""
+    },
+    {
+      "char": "yami",
+      "pos": "",
+      "image": "neutral",
+      "text": "ガンバレよ"
+    },
+    {
+      "char": "yami",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_arena",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R遅(おく)れていることに$R気付(きづ)いた$R十代(じゅうだい)は　$R試験(しけん)に$R間(ま)に$R合(あ)うよう$R急(いそ)いでアカデミアへと$R向(む)かった　"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "Right",
+      "image": "neutral",
+      "text": "ボンジョールノ！"
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "",
+      "image": "",
+      "text": "ギリギリにやってくるなんて　まず$R心(こころ)がけがなっていないノーネ　ドロップアウトボーイは\n$R我(わ)が$R学園(がくえん)には$R必要(ひつよう)ないノーネ"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "Left",
+      "image": "",
+      "text": "えっと　オレ　$R遊城(ゆうき)$R十代(じゅうだい)です"
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "",
+      "image": "",
+      "text": "シニョール・$R十代(じゅうだい)　$R私(わたくし)はクロノス・デ・メディチ　$R学園(がくえん)では$R実技担当(じつぎたんとう)の$R最高責任者(さいこうせきにんしゃ)でスーノ"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "smile",
+      "text": "ウワッ　$R光栄(こうえい)だな！　$R実技(じつぎ)の$R責任者(せきにんしゃ)が$R対戦(たいせん)してくれるなんて！　きっとオレ　それだけ$R期待(きたい)\nされてるってことかな"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "な　$R先生(せんせい)　そのコートってオレも$R買(か)えるの？"
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "",
+      "image": "anger",
+      "text": "$R成績(せいせき)が$R優秀(ゆうしゅう)な$R生徒(せいと)ならみんな$R持(も)ってるーノ"
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "",
+      "image": "neutral",
+      "text": "…あなたのようなドロップアウトボーイには$R関係(かんけい)ないのですけどね　$R永久(えいきゅう)に"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "neutral",
+      "text": "よおし！　$R頑張(がんば)るぞ！　デュエル！"
+    }
+  ]
+}

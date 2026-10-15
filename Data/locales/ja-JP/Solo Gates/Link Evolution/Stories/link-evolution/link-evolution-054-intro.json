@@ -1,0 +1,179 @@
+{
+  "name": "RushtoRevenge_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_heartlandcity",
+      "text": ""
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R遊矢(ゆうや)とランサーズはエクシーズ$R次元(じげん)のハートランドシティに$R飛(と)ばされていた　やがて$R一行(いっこう)は\nオベリスク・フォースと$R戦(たたか)う$R天城(てんじょう)カイトに$R遭遇(そうぐう)した"
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "かつてハートランドは$R平和(へいわ)だった…　アカデミアが$R襲撃(しゅうげき)するまでは！"
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "プロフェッサー$R率(ひき)いる$R融合(ゆうごう)$R次元(じげん)のアカデミア$R兵(へい)は$R突然(とつぜん)$R現(あらわ)れ　$R容赦(ようしゃ)なくハートランドの$R人々(ひとびと)を\nカード$R化(か)していった"
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "ハートランドが$R侵略(しんりゃく)された$R日(ひ)　オレ$R達(たち)は$R全(すべ)てを$R失(うしな)った"
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "anger",
+      "text": "だがオレは$R戦(たたか)い$R続(つづ)ける　アカデミア$R兵(へい)を$R一人(ひとり)$R残(のこ)らず$R倒(たお)すまで！"
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "",
+      "image": "anger",
+      "text": "ぐわっ！"
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_obeliskforcecard",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "どうしてこんなことを…"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "arcv_obeliskforcecard",
+      "text": ""
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R決(き)まっている　そいつらはアカデミア…　オレの$R敵(てき)だからだ！"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "$R敵(てき)だからってむやみにカード$R化(か)していいわけない！"
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "アカデミアはオレの$R仲間(なかま)を$R何人(なんにん)もカードにしてきた　ならばオレはその$R何千倍(なんぜんばい)もの\nアカデミア$R兵(へい)をカード$R化(か)するまでだ"
+    },
+    {
+      "char": "yuto",
+      "pos": "LEFT:FADEIN",
+      "image": "neutral",
+      "text": "あいつはカイト　ハートランドでは$R有名(ゆうめい)なデュエリストだ"
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "だが$R以前(いぜん)とはあまりにも$R顔(かお)つきが$R違(ちが)う"
+    },
+    {
+      "char": "yuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "anger",
+      "text": "オレの$R邪魔(じゃま)をすると$R言(い)うならば$R容赦(ようしゃ)はしない　$R構(かま)えろ！"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "まて　オレたちは$R敵(てき)じゃない！"
+    },
+    {
+      "char": "yuto",
+      "pos": "LEFT:FADEIN",
+      "image": "neutral",
+      "text": "$R無駄(むだ)だ　$R今(いま)のカイトは$R話(はな)して$R分(わ)かる$R相手(あいて)じゃない"
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R遊矢(ゆうや)　$R確(たし)かにお$R前(まえ)はジャック･アトラスとデュエルで$R語(かた)り$R合(あ)えた　だがあれは　$R目指(めざ)す$R方向(ほうこう)が\n$R同(おな)じジャックだからこそ$R出来(でき)たこと"
+    },
+    {
+      "char": "yuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R目指(めざ)す…　$R方向(ほうこう)？"
+    },
+    {
+      "char": "yuto",
+      "pos": "LEFT:FADEIN",
+      "image": "neutral",
+      "text": "ジャックもお$R前(まえ)も$R街(まち)の$R平和(へいわ)を$R願(ねが)っていた　しかし$R今(いま)のカイトは　$R怒(いか)りに$R支配(しはい)され$R全(すべ)ての$R者(もの)に$R牙(きば)を\n$R剥(む)いて$R襲(おそ)い$R掛(か)かる$R手負(てお)いの$R野獣(やじゅう)だ　$R彼(かれ)と$R語(かた)り$R合(あ)う$R事(こと)など…"
+    },
+    {
+      "char": "yuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R出来(でき)る！　オレは$R信(しん)じてる…　デュエルでみんなを$R笑顔(えがお)に$R出来(でき)る$R事(こと)を！"
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "デュエルだ！"
+    }
+  ]
+}

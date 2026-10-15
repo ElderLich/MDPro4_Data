@@ -1,0 +1,155 @@
+{
+  "name": "EvilSpiritoftheRing_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_duelistkingdom",
+      "text": ""
+    },
+    {
+      "char": "yamibakura",
+      "pos": "RIGHT",
+      "image": "ryo_smile",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "その$R日(ひ)の$R晩(ばん)　$R遊戯(ゆうぎ)たちが$R一休(ひとやす)みして$R夕飯(ゆうはん)を$R食(た)べていると　$R高校(こうこう)の$R友達(ともだち)　$R獏良(ばくら)がやってきた\nたき$R火(び)を$R囲(かこ)んで$R話(はな)していると　やがてデュエルの$R話(はなし)になった"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamibakura",
+      "pos": "RIGHT",
+      "image": "ryo_smile",
+      "text": "$R遊戯(ゆうぎ)くん　ボクとデュエルしないか？　もちろんスターチップなんて$R関係(かんけい)なく"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "",
+      "text": "おっ　いいじゃねえか$R遊戯(ゆうぎ)　この$R島(しま)に$R来(き)てからずっと$R真剣勝負(しんけんしょうぶ)$R続(つづ)きだったしな"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "そうだね　$R気分転換(きぶんてんかん)に$R気楽(きらく)なデュエルもいいかも"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamibakura",
+      "pos": "",
+      "image": "ryo_smile",
+      "text": "フフフ！"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "millenniumring",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "そ　それは！　$R千年(せんねん)アイテム！？"
+    },
+    {
+      "char": "yamibakura",
+      "pos": "FADEOUT",
+      "image": "ryo_smile",
+      "text": ""
+    },
+    {
+      "char": "yamibakura",
+      "pos": "RIGHT:FADEIN",
+      "image": "smile",
+      "text": "フハハハハハ！"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_shadowrealm",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "これは$R闇(やみ)のゲーム！？"
+    },
+    {
+      "char": "yamibakura",
+      "pos": "",
+      "image": "",
+      "text": "あっけないもんだな"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R謎(なぞ)の$R意志(いし)に$R取(と)りつかれた$R獏良(ばくら)は　$R千年(せんねん)リングの$R力(ちから)を$R使(つか)って$R遊戯(ゆうぎ)たちの$R魂(たましい)を$R閉(と)じ$R込(こ)めた　"
+    },
+    {
+      "char": "yamibakura",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "これで$R千年(せんねん)パズルはオレのもの…"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R獏良(ばくら)が$R千年(せんねん)パズルを$R奪(うば)おうとしたその$R時(とき)　パズルが$R輝(かがや)き$R始(はじ)めた　パズルの$R内(うち)にある$R魂(たましい)が\n$R目(め)を$R覚(さ)まし　$R遊戯(ゆうぎ)の$R中(なか)に$R姿(すがた)を$R現(あらわ)したのだ"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamibakura",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "なに！？"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "$R獏良(ばくら)…　お$R前(まえ)　$R闇(やみ)のデュエリストだったのか　$R一体(いったい)$R何(なに)が$R目的(もくてき)だ！？"
+    },
+    {
+      "char": "yamibakura",
+      "pos": "",
+      "image": "smile",
+      "text": "$R全(すべ)ての$R千年(せんねん)アイテムを$R集(あつ)めたものはこの$R世(よ)の$R全(すべ)てを$R我(わ)がものにできる…　お$R前(まえ)が$R勝(か)てば\nみんなの$R魂(たましい)を$R元(もと)にもどしてやる　だが　オレが$R勝(か)った$R時(とき)はお$R前(まえ)の$R千年(せんねん)パズルを$R貰(もら)うぜ"
+    }
+  ]
+}

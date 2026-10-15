@@ -1,0 +1,41 @@
+{
+  "name": "ClashInTheColosseum_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_blimp",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Hai perso, Kaiba!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "Ti ho detto che il tuo odio e la tua sete di potere non avrebbero mai prevalso!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEIN:LEFT",
+      "image": "neutral",
+      "text": "Ce l'ho fatta! Ma devo ancora affrontare la mia battaglia più dura, quando mi troverò a faccia a faccia con Marik nel duello finale!"
+    }
+  ]
+}

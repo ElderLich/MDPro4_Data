@@ -1,0 +1,707 @@
+{
+  "name": "SupersensoryShakedown_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_satellite",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Poco después de terminar la Copa de La Fortuna, Yusei se encontró en otro duelo contra un hombre que decía ser un \"Portador Oscuro.\""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Después de derrotar a su enemigo, Yusei trató de interrogarlo, pero el individuo no se acordaba de nada de lo que acababa de ocurrir."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "El hombre parecía estar bajo algún tipo de control mental. Sin embargo, en ese momento Yusei conoció a la periodista Carly Carmine."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "RIGHT",
+      "image": "glasses_smile",
+      "text": "¡Hola! Soy Carly Carmine y esperaba que me contaras cómo te sientes al ser el primer aficionado en convertirse en nuevo campeón de Neo Domino?"
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "glasses_surprise",
+      "text": "Y que ha pasado aquí con este extraño encapuchado- Eh, ¿oyes sirenas?"
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "glasses_discouragement",
+      "text": "¿Quién ha llamado a Seguridad?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Será mejor que nos vayamos de aquí antes de que empiecen a hacer preguntas."
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "glasses_surprise",
+      "text": "¡P-pero mi entrevista!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "La terminaremos en otro momento."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Más tarde, Yusei se reunió con Rex Goodwin para encontrar respuestas sobre de los Portadores Oscuros."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Yusei, ha llegado el momento de que te diga la verdad."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "5ds_signermark_yusei",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Por qué no empezamos con esta marca."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Esa es la marca del Dragón Carmesí. Pertenece a los que protegen nuestro mundo de la oscuridad."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "5ds_signermark_yusei",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "La oscuridad es peligrosa. Puede tomar muchas formas, incluso hacerse pasar por tus amigos."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Pero darás cuenta de su identidad, porque tendrán la Marca de las Sombras."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "“¿Marca de las Sombras?” ¡Te refieres a los Portadores Oscuros!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Del mismo modo que tú fuiste elegido para proteger la luz, ellos lo fueron para proteger a la oscuridad."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "No se detendrán ante nada para aniquilarte. Para aumentar su fuerza, se aimentan de almas humanas, incluso de almas inocentes."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Tus amigos y tú tenéis que unir vuestras fuerzas y derrotar a los Portadores Oscuros."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "¿Y si no podemos? ¿Y si se liberan las sombras?"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Si eso ocurre, bueno... Ya has visto una visión de nuestro destino."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Después de hablar con Goodwin, a Yusei lo enviaron a Satélite con el fin de buscar a los Portadores Oscuros."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Fue entonces cuando se encontró con un viejo amigo."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "RIGHT",
+      "image": "laughter",
+      "text": "¡Eh, Yusei!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "¡Me alegro de verte, Cuervo!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "¿Qué has estado haciendo?"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "laughter",
+      "text": "Pues ya me conoces. Sigo luchando y dando la batalla. Robando a los ricos para dar de comer a los pobres y todo eso."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "",
+      "text": "Así que ahora he oído que eres un gran campeón."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Sí. Algo por el estilo."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Cuervo ¿por qué están tan desiertas las calles?"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "neutral",
+      "text": "Unos tipos raros han estado viniendo por aquí últimamente."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Predican unas doctrinas un tanto raras, intentando de reclutar a seguidores."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Voy a tener que ver qué pasa aquí."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "En poco tiempo, Cuervo y Yusei se toparon cara a cara con un Portador Oscuro"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "CENTER",
+      "image": "discouragement",
+      "text": ""
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "RIGHT",
+      "image": "dark_smile",
+      "text": "¡Yusei!"
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_smile",
+      "text": "¡Y tu amigo cabeza hueca!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Kalin Kessler? ¡¿Eres tú de verdad?! ¡Pensé que te habías ido para siempre!"
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Te equivocas, Yusei. Mientras estaba fuera, he hecho nuevos amigos. Creo que ya te enfrentaste en un duelo con uno de mis asociados."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Te refieres al Portador Oscuro? ¿Estás de su lado?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Pero antes eras nuestro amigo!"
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_goodnightssleep",
+      "text": "“Éramos amigos,” sí. Pero ahora... ¡enemigos!"
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_smile",
+      "text": "¡Ahora prepárate para el duelo de tu vida!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "Es un Portador Oscuro. ¡A eso se refería Goodwin cuando decía que la oscuridad podía presentarse en forma de un amigo!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_smile",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_satellite",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anguish",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Durante su duelo, Kalin invocó a Ccapac Apu, Inmortal Terrestre y la criatura absorbió las almas humanas por todo el campo."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Kalin luego utilizó este monstruo para derrotar a Yusei. Los amigos de Yusei inmediatamente corrieron a su lado."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_citysquare",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Mientras tanto, Luna y Leo estaban hablando sobre lo que podían hacer para ayudar a detener a los Portadores Oscuros."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Hemos luchamos contra el mal, lo que quiere decir que somos superhéroes. Y se supone que los superhéroes han de permanecer siempre unidos."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Esa es como la cosa más importante!"
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "Creo que los superpoderes es lo más importante..."
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "",
+      "image": "smile",
+      "text": "De todas formas, tienes toda la razón, Leo. Es mejor que nos quedemos juntos aquí mismo en esta bonita mansión tan acogedora."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "¿Y qué pasa con Akiza?"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "Puede que sea una Portadora, pero eso no significa que podamos confiar en ella."
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "",
+      "text": "Forma parte de ese tal Movimiento Arcadia que tiene todos como locos."
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Su objetivo principal es enseñar a los duelistas a infligir daño de verdad."
+    },
+    {
+      "char": "luna",
+      "pos": "LEFT",
+      "image": "discouragement",
+      "text": "¡Pero Akiza en realidad no quiere hacer daño a la gente!"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "",
+      "text": "Quién sabe. Lo mejor será que nos mantengamos lo más lejos posible."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "discouragement",
+      "text": "¡Pero Yanagi estaba de acuerdo en que nosotros los héroes tenemos que permanecer unidos! ¿Y si ella necesita nuestra ayuda?"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "anger",
+      "text": "¿O que tal si Yusei está en problemas y necesitamos el deck de Akiza?"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Hay como un millón de razones por las que esta es una buena idea!"
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bolttanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Mientras tanto Leo, Luna, Bolt, y Tenzen viajaron a la sede del Movimiento Arcadia para pedirle ayuda a Akiza."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sayer",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "¿Queréis ver a Akiza? Está muy ocupada."
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "",
+      "text": "¿Qué es tan sumamente importante como para que hayáis venido hasta aquí?"
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Ella tiene la Marca del Dragón. ¡Eso significa que es un superhéroe!"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "Luna y yo somos superhéroes también. ¡Vamos a ayudar a nuestro amigo Yusei a luchar contra los Portadores Oscuros y salvar toda la ciudad!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "neutral",
+      "text": "He estado siguiendo algunos sucesos extraños que han ocurrido últimamente. Me encantaría ayudarte."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "shy",
+      "text": "¡¿De verdad?!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile1",
+      "text": "Mi Movimiento Arcadia representa a todo el bien. ¡Os prometo que voy a hacer todo lo posible para detener a esta amenaza!"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Bien!"
+    },
+    {
+      "char": "luna",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "¡Gracias!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ahora si me disculpáis, voy a ir a buscar Akiza."
+    },
+    {
+      "char": "sayer",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bolttanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Por desgracia, toda la visita fue una trampa montada por Sayer. Su intención era poner a prueba las habilidades de Leo para averiguar si eran similares a las de Luna."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "¿Dónde está Luna? ¿Dónde estoy? ¿Por qué estoy encadenado con este aparato en la cabeza?"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ese sombrero detecta poderes psíquicos latentes, suponiendo que tengas alguno."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Qué… latentes? ¡Dijiste que ibas a buscar a Akiza y ayudarnos a combatir los Portadores Oscuros!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile2",
+      "text": "¡Voy a hacer pagar a la sociedad por la forma en que se discriminaba y se trataba a los psíquicos en el pasado!"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡¿Y qué vas a hacer conmigo?! ¡¿Me vas a robar el cerebro o algo?!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile1",
+      "text": "Por supuesto que no. Estás aquí para pasar una prueba. Para ver si tienes el poder de un duelista psíquico"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile2",
+      "text": "Akiza era sólo un avance. ¡Tengo docenas de duelistas psíquicos a mis órdenes!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile1",
+      "text": "Los psíquicos pueden hacer cosas increíbles con sus mentes."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Eso significa que Akiza te va ayudar a vengarte? ¡Pero ella se supone que es una heroína!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile2",
+      "text": "¿Una heroína? ¡Ella ni siquiera sabe lo que realmente estoy haciendo aquí! Ahora, ¡que tal si empezamos esa prueba!"
+    }
+  ]
+}

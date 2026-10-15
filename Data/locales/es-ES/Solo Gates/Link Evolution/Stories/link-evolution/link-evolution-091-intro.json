@@ -1,0 +1,593 @@
+{
+  "name": "WD_JOEY_JoeyWheeler_MaiValentine_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_gamestore",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Yugi Muto había conseguido hacerse con las tres cartas de los Dioses Egipcios después de derrotar a Marik. Sin embargo, estuvieron poco tiempo en sus manos."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Cuando aparecieron monstruos de verdad por todo el mundo, el pánico se desató. Y lo que fue peor, tres asaltantes desconocidos robaron las cartas de los Dioses Egipcios."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "¡Nooo! ¿Cómo...? ¿Cómo ha podido ocurrir?"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "¡Abuelo! ¿Estás bien?"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "sad",
+      "text": "Yugi... Han desaparecido..."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "¡¿Qué es lo que ha desaparecido, abuelo?!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "sad",
+      "text": "Tus cartas... Tus cartas más poderosas..."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡¿Las Cartas de los Dioses?!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT_BACK",
+      "image": "surprise",
+      "text": "¿Quién ha sido?"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_gamestore",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Yugi y sus amigos no tenían ni idea de quién podía haber robado las cartas. En medio de la confusión, llegó un paquete por correo."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "Mirad, acabamos de recibir esto."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "¿Quién lo envía?"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "sad",
+      "text": "No estoy seguro. Mi vista ya no es lo que era."
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT_FRONT",
+      "image": "surprise",
+      "text": "Veamos... Viene de la oficina de Maximillion Pegasus."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT_FRONT",
+      "image": "surprise",
+      "text": "¡No! ¡Pegasus no!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "CENTER",
+      "image": "sad",
+      "text": "¿Qué hacemos?"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "CENTER:FADEIN",
+      "image": "",
+      "text": "Deberíamos escuchar qué quiere decirnos. Al fin y al cabo, Pegasus inventó Duelo de Monstruos."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "CENTER:FADEIN",
+      "image": "surprise",
+      "text": "¿Y crees que él tiene algo que ver con lo que está pasando?"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "CENTER:FADEIN",
+      "image": "",
+      "text": "Puede. Veamos la cinta."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_ind_illusions",
+      "text": ""
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "CENTER:FADEIN",
+      "image": "",
+      "text": "Saludos, joven Yugi. Sin duda sabrás que hay monstruos de duelo totalmente desbocados por nuestro mundo. Yo sé quién está detrás de todo esto, pero es demasiado arriesgado grabar tal información en esta cinta. Esto significa que tienes que venir a verme en persona."
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_gamestore",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "CENTER:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "¡¿Quéee?!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "¡No nos podemos fiar de este tío!"
+    },
+    {
+      "char": "teagardner",
+      "pos": "LEFT_FRONT",
+      "image": "sad",
+      "text": "¿Tú qué opinas, Yugi?"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Vayamos. Puede que Pegasus sea nuestra única esperanza."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEIN:CENTER",
+      "image": "",
+      "text": "Es cierto... ¡Decidido! Yo voy."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT_FRONT",
+      "image": "",
+      "text": "Y yo estaré a tu lado, colega."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT_BACK",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "LEFT_FRONT",
+      "image": "",
+      "text": "¡Cuenta conmigo también!"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "RIGHT_BACK",
+      "image": "smile",
+      "text": "¡Y conmigo! Él nos paga el vuelo en primera clase, ¿verdad?"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Gracias a todos!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_temple",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Los tres ladrones de cartas, Rafael, Alister y Valon, se reunieron con su amo, Dartz, en su antigua guarida."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rafael",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Hemos localizado al Faraón, amo, pero por desgracia no pudimos capturar su alma. De todas formas, yo nunca vuelvo con las manos vacías. Deseo entregarle estas tres cartas."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_egyptiangodcards",
+      "text": ""
+    },
+    {
+      "char": "dartz",
+      "pos": "LEFT",
+      "image": "happy",
+      "text": "Excelente. Los Dioses Egipcios. ¡Al fin tengo en mis manos el poder necesario para despertar a la bestia! Ha llegado la hora, amigos míos: después de 10 000 años, ¡el Gran Leviatán volverá a alzarse!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "classic_egyptiangodcards",
+      "text": ""
+    },
+    {
+      "char": "dartz",
+      "pos": "",
+      "image": "anger",
+      "text": "Cuando te rellene con las almas necesarias, ¡heredarás la fuerza para devorar el mundo! ¡Nadie nos detendrá! ¡Nadie!"
+    },
+    {
+      "char": "rafael",
+      "pos": "",
+      "image": "neutral",
+      "text": "Encontraré al Faraón, amo, y esta vez me aseguraré de absorber su poder para alimentar a la gran bestia."
+    },
+    {
+      "char": "dartz",
+      "pos": "",
+      "image": "",
+      "text": "¿Por qué no aprendes a escuchar? Es una habilidad realmente útil. Si la dominaras, sabrías que no solo necesitamos el alma del Faraón."
+    },
+    {
+      "char": "alister",
+      "pos": "LEFT_FRONT",
+      "image": "neutral",
+      "text": "¡Entonces nos encargaremos de los otros también! ¡Acabaré con Kaiba!"
+    },
+    {
+      "char": "valon",
+      "pos": "RIGHT_FRONT",
+      "image": "happy",
+      "text": "Yo también tengo a alguien en el punto de mira. ¡A ese Joey Wheeler! Me divertiré destrozándolo."
+    },
+    {
+      "char": "dartz",
+      "pos": "",
+      "image": "neutral",
+      "text": "El Faraón y sus amigos ya están de camino para hablar con aquel al que estamos vigilando. Aseguraos de llegar a él antes que ellos."
+    },
+    {
+      "char": "rafael",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Te refieres a Pegasus?"
+    },
+    {
+      "char": "dartz",
+      "pos": "",
+      "image": "anger",
+      "text": "Y yo que pensaba que no sabías escuchar. Id a por Pegasus inmediatamente."
+    },
+    {
+      "char": "dartz",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rafael",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alister",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "valon",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_ind_illusions",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Cuando Yugi y sus amigos llegaron a Ilusiones Industriales, no fue Pegasus quien los recibió, sino otra cara conocida."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "¿Holaaa? ¿Pegasus? ¡Este sitio está desierto!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Sospecho que los ladrones que andaban tras Pegasus ya lo habrán encontrado. Si ese es el caso, estoy seguro de que nos estarán esperando."
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "¿Mai? ¿Eres tú?"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "LEFT:FRONT",
+      "image": "alternate_neutral",
+      "text": "No, no soy Mai. O al menos no soy la Mai que tú conocías."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Qué?"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_happy1",
+      "text": "Ya me has oído. ¡Bueno, saludad a Pegasus!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_seal_pegasus",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT_FRONT",
+      "image": "anger",
+      "text": "Eh... Una pregunta: ¡¿eso se lo has hecho tú?!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Oye, más te vale que empieces a hablar!"
+    },
+    {
+      "char": "valon",
+      "pos": "LEFT:FRONT",
+      "image": "",
+      "text": "¿Qué pasa, Wheeler? ¿Tu pequeña reunión con Mai no ha salido como esperabas? ¡Y tú, Mai! ¿Por qué acaparas con todos?"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_anger",
+      "text": "Métete en tus asuntos, don nadie. ¡Estos perdedores son míos, asúmelo!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "sad",
+      "text": "¿Perdedores? ¡Pero si somos tus amigos, Mai! ¡Por favor, dime que es una broma! Tú estás de nuestra parte, ¿recuerdas?"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_neutral",
+      "text": "Yo nunca he formado parte de vuestra pandilla, ¡y ahora os destrozaré uno a uno! Y Wheeler... ¡tú serás el primero!"
+    },
+    {
+      "char": "valon",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_happy1",
+      "text": "¡Vosotros érais una molestia que me impedía alcanzar el auténtico poder! Ahora, saludad a mi verdadero amigo... ¡El Sello de Oricalcos!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "RIGHT_FRONT",
+      "image": "surprise",
+      "text": "¡Oh, no! ¡Esto no!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "surprise",
+      "text": "Mai, vamos a hablar. Tiene que haber otra forma de resolver esto."
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_neutral",
+      "text": "Lo siento, cielo. Quien pierda el duelo... ¡perderá su alma!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "classic_seal",
+      "text": ""
+    }
+  ]
+}

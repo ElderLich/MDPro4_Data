@@ -1,0 +1,287 @@
+{
+  "name": "CityScape_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_tops",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "LEFT:FADEIN",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT:FADEIN",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Zuzu e Yugo si ritrovarono teletrasportati nella Dimensione Synchro."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "smile",
+      "text": "Benvenuta nella Dimensione Synchro!"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Cosa? La Dimensione Synchro? Ma io dovrei essere nel bel mezzo di una battaglia tutti contro tutti!"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "neutral",
+      "text": "Tu e Yuya siete praticamente due gocce d'acqua. Anche se di gocce ce ne sono tre, anzi, quattro! Com'è che ti chiami? Yo-yo?"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "Ma come \"Yo-yo\"?! Io sono Yugo! Allora è proprio vero che non sei Rin. Lei non sbaglierebbe mai il mio nome."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "smile",
+      "text": "Non preoccuparti, ti abituerai a questo posto. Ricordo quanto mi sono spaventato quando mi sono ritrovato in un'altra dimensione. È stato quel giorno che ho perso Rin-Rin. Eravamo inseparabili... finché non me l'hanno portata via."
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_commons",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "rin",
+      "pos": "CENTER",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yugo ricordò il momento in cui Rin fu rapita."
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "smile",
+      "text": "Tu verrai con me. Posso portarti via con le buone o con le cattive... Io preferirei le cattive."
+    },
+    {
+      "char": "rin",
+      "pos": "",
+      "image": "surprise",
+      "text": "!"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": "Lasciala andare, schifoso! Non fare mosse azzardate, capito?"
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "neutral",
+      "text": "Spiacente, ma le mosse azzardate sono il mio forte! Ciao ciao!"
+    },
+    {
+      "char": "rin",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "Rin-Rin!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_clearwingcard",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Wow... Che sta succedendo? Drago Synchro Ala Chiara? Perché stai brillando?"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_heartlandcity",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "surprise",
+      "text": "(D'improvviso, mi sono ritrovato nella Dimensione Xyz, in un posto chiamato Heartland, che aveva visto giorni migliori.)"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "arcv_clearwingcard",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": "Sei di nuovo tu! Ridammi Rin e potrei risparmiarti."
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "anger",
+      "text": "Mi stai minacciando? Fatti sotto!"
+    },
+    {
+      "char": "yuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_tops",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Zuzu chiarì l'errore di Yugo."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Quel ragazzo era Yuto. Non è lui ad aver rapito Rin. Sta combattendo per salvare Lulu, la sorella del suo amico... proprio come te."
+    },
+    {
+      "char": "yuzu",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "I due furono presto interrotti da un agente della Sicurezza."
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "",
+      "image": "neutral",
+      "text": "Due \"Comuni\"! La villa è solo per i Superiori!"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "Sapevo che non saremmo dovuti restare qui. Siamo in un'area riservata ai Superiori. Noi non possiamo entrarci."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "I Superiori sono i pezzi grossi della società che possiedono tutta la ricchezza e il potere qui a Nuova Città di Domino. Ma laggiù nei bassifondi... è lì che dobbiamo vivere noi Comuni."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "sad",
+      "text": "Non mi sembra giusto."
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "",
+      "image": "anger",
+      "text": "Siamo della Sicurezza. Altolà!"
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Pensate che voglia scappare? Assolutamente no! Duelliamo!"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "FlippingOut_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "よっしゃー　$R決(き)まったぜ！"
+    },
+    {
+      "char": "flipturner",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "$R負(ま)けたウラ…　どうしてオレが$R負(ま)けるウラ…"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R徳之助(とくのすけ)　お$R前(まえ)は$R卑怯(ひきょう)なことなんかしなくても$R十分(じゅうぶん)$R強(つよ)いぜ"
+    },
+    {
+      "char": "flipturner",
+      "pos": "",
+      "image": "shy",
+      "text": "$R遊馬(ゆうま)…　ありがとうウラ"
+    }
+  ]
+}

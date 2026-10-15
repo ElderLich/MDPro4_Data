@@ -1,0 +1,47 @@
+{
+  "name": "MimeControl_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "strings",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "",
+      "text": "I win! It’s over!"
+    },
+    {
+      "char": "strings",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "RIGHT:FADEIN",
+      "image": "dark_surprise",
+      "text": "It can’t be! How could I lose with an Egyptian God Card in my deck?"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_anger",
+      "text": "You’ll pay! You may have defeated Slifer, but I hold another Egyptian God Card – a much more powerful one!"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_anger",
+      "text": "So savor this victory while you can...for it will be your last!"
+    }
+  ]
+}

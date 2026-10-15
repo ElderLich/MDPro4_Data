@@ -1,0 +1,209 @@
+{
+  "name": "ClashInTheColosseum_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_blimp",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "マリクの$R力(ちから)が$R次々(つぎつぎ)と$R支配(しはい)していく"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamibakura",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "millenniumring",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "マリクは$R闇(やみ)バクラと$R千年(せんねん)リングを$R賭(か)けて$R闘(たたか)い$R勝利(しょうり)した"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamibakura",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_wingeddragon_card",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R次(つぎ)は$R準決勝(じゅんけっしょう)だ　$R最初(さいしょ)の$R対戦(たいせん)は$R城之内(じょうのうち)vsマリクだった　マリクのパワーは$R強大(きょうだい)で　\n「ラーの$R翼神竜(よくしんりゅう)」によって$R城之内(じょうのうち)は$R病院(びょういん)$R送(おく)りとなってしまった　マリクの$R恐怖(きょうふ)による$R支配(しはい)を\n$R止(と)められる$R者(もの)はいないかのように$R思(おも)われた"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R準決勝(じゅんけっしょう)$R第二戦(だいにせん)によってマリクと$R闘(たたか)う$R相手(あいて)が$R決(き)まる"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R第二戦(だいにせん)は$R遊戯(ゆうぎ)vs$R海馬(かいば)　デュエリストキングダム$R以来(いらい)の$R対戦(たいせん)だ"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "",
+      "text": "$R相棒(あいぼう)　オレ$R達(たち)の$R闘(たたか)いが$R待(ま)っている"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_blimp",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "$R来(き)たな　$R遊戯(ゆうぎ)"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "…$R海馬(かいば)"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "いよいよ$R真(しん)の$R決着(けっちゃく)をつける$R時(とき)が$R来(き)たな"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "smile",
+      "text": "いつものうるさいギャラリーがいないと$R言(い)う$R事(こと)は　$R城之内(じょうのうち)の$R棺(ひつぎ)はよほど$R重(おも)かったようだ"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "anger",
+      "text": "$R城之内(じょうのうち)くんは$R今(いま)も$R闘(たたか)っている　オレはそう$R信(しん)じている！"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "$R貴様(きさま)が$R何(なに)を$R信(しん)じようと$R勝手(かって)だ　$R奴(やつ)はマリクを$R相手(あいて)に$R予想以上(よそういじょう)に$R過酷(かこく)なデュエルを$R闘(たたか)い$R抜(ぬ)いた　\n$R神(かみ)を$R引(ひ)きずり$R出(だ)すほどにな"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "もはや$R思(おも)い$R残(のこ)すこともあるまい"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R海馬(かいば)　このバトルシティにおいてオレ$R達(たち)は$R闘(たたか)いのロード…　その$R先(さき)にあるなにかを$R求(もと)めて\n$R歩(あゆ)んできた　オレも$R城之内(じょうのうち)くんもまだその$R答(こた)えを$R見(み)つけてはいない"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R敗者(はいしゃ)に$R答(こた)えなどない　あるのは$R屈辱(くつじょく)　そして$R絶望(ぜつぼう)！"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "$R違(ちが)う！　$R敗北(はいぼく)しても$R立(た)ち$R上(あ)がり　その$R先(さき)の$R未来(みらい)を$R見(み)つめ　$R見果(みは)てぬ$R先(さき)まで$R続(つづ)く$R闘(たたか)いのロードを\n$R進(すす)むか$R否(いな)か！　その$R先(さき)に$R必(かなら)ず$R答(こた)えはある！　$R真(しん)のデュエリストとはなにか…　$R城之内(じょうのうち)くんも\nその$R答(こた)えを$R探(さが)して$R今(いま)も$R闘(たたか)っているはずだ！"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "",
+      "text": "くだらん…　いいか！　$R真(しん)の$R勝者(しょうしゃ)は$R一人(ひとり)だ！　$R敗北者共(はいぼくしゃども)の$R屍(しかばね)を$R築(きず)き$R上(あ)げ　$R天(てん)に$R輝(かがや)く$R栄光(えいこう)を\n$R手(て)にした$R者(もの)だけが$R全(すべ)てを$R得(え)られる！　それは$R三枚(さんまい)の$R神(かみ)のカードに$R選(えら)ばれし$R者(もの)！"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "$R遊戯(ゆうぎ)　オレは$R貴様(きさま)を$R倒(たお)し　デュエルキングの$R称号(しょうごう)を$R手(て)にしてやる！"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "いくぞ　$R遊戯(ゆうぎ)！　オレのオベリスクか　$R貴様(きさま)のオシリスか！　$R今(いま)　$R神(かみ)が$R激突(げきとつ)する$R時(とき)だ！"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "いくぜ　$R海馬(かいば)！"
+    }
+  ]
+}

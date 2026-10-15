@@ -1,0 +1,179 @@
+{
+  "name": "RushtoRevenge_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_heartlandcity",
+      "text": ""
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yuya y los Lanceros se teletransportaron a Ciudad Heartland en la Dimensión Xyz. Pronto se encontraron con Kite Tenjo luchando contra la Fuerza del Obelisco."
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "La gente de Ciudad Heartland vivía en paz... ¡hasta que la Academia de Duelos atacó!"
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "Realizaron una invasión inesperada desde la Dimensión de Fusión. Una invasión planeada por el líder de la Academia de Duelos: el profesor."
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "El día que cayó Ciudad Heartland, perdimos familiares, amigos... todo..."
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Pero seguiré luchando y haré que la Academia de Duelos pague por lo que le hicieron a mi hogar!"
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Ohh!"
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_obeliskforcecard",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "No me puedo creer que los hayas convertido en cartas."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "arcv_obeliskforcecard",
+      "text": ""
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "Recibieron lo que merecían. ¡Son de la Academia de Duelos! ¡Mis peores enemigos!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "¡Pero ni siquiera mi peor enemigo merece algo tan horrible! ¿Te imaginas quedarte atrapado dentro de una carta? ¡Debe de ser espantoso!"
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "No sé quién eres ni me importa. Me voy a deshacer de todos ustedes en este mismo momento."
+    },
+    {
+      "char": "yuto",
+      "pos": "LEFT:FADEIN",
+      "image": "neutral",
+      "text": "Kite Tenjo es uno de los mejores, si no es EL MEJOR, de toda Ciudad Heartland."
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "Pero ahora actúa de manera diferente. El Kite que yo conocía siempre sonreía. Ahora lo único que siento en él es rabia... Una rabia tan intensa que lo ha consumido por completo."
+    },
+    {
+      "char": "yuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "anger",
+      "text": "Si te atreves a oponerte a mí, ¡debes ser de la Academia de Duelos!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡No, te lo juro!"
+    },
+    {
+      "char": "yuto",
+      "pos": "LEFT:FADEIN",
+      "image": "neutral",
+      "text": "Yuya, presta atención. En tu Duelo contra Jack Atlas, pudiste llegar a él de verdad."
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "Pero fue porque ambos compartían el mismo objetivo."
+    },
+    {
+      "char": "yuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿El mismo objetivo?"
+    },
+    {
+      "char": "yuto",
+      "pos": "LEFT:FADEIN",
+      "image": "neutral",
+      "text": "Sí. Los dos querían que la paz prevaleciera en Ciudad Neo Domino. Pero Kite está tan enfadado que no está luchando por la paz, está luchando por venganza. Es imposible llegar hasta él."
+    },
+    {
+      "char": "yuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "Recuerda lo que dijiste: \"No olvides usar tu poder para mantener al mundo entretenido y sonriente\". Eso es justo lo que pretendo hacer. Yuto, ¡siéntate y disfruta del espectáculo!"
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "¡Luchemos!"
+    }
+  ]
+}

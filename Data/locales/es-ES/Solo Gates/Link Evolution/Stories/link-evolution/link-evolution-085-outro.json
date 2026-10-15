@@ -1,0 +1,47 @@
+{
+  "name": "MimeControl_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "strings",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "",
+      "text": "¡Te he ganado! ¡Se acabó!"
+    },
+    {
+      "char": "strings",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "RIGHT:FADEIN",
+      "image": "dark_surprise",
+      "text": "¡No puede ser! ¿Cómo he podido perder con un Dios Egipcio en mi deck?"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_anger",
+      "text": "¡Me las vas a pagar! Puede que hayas derrotado a Slifer, pero tengo otro Dios Egipcio - ¡uno aún más poderoso!"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_anger",
+      "text": "Así que disfruta de esta victoria mientras puedas... ¡porque va a ser la última!"
+    }
+  ]
+}

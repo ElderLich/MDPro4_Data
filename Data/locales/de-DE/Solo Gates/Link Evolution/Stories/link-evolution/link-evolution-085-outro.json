@@ -1,0 +1,47 @@
+{
+  "name": "MimeControl_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "strings",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Gewonnen! Es ist vorbei!"
+    },
+    {
+      "char": "strings",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "RIGHT:FADEIN",
+      "image": "dark_surprise",
+      "text": "Das kann nicht sein! Wie konnte ich mit einer Ägyptischen Götterkarte in meinem Deck verlieren?"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_anger",
+      "text": "Dafür wirst du bezahlen! Du hast vielleicht Slifer besiegt, aber ich habe noch eine Ägyptische Götterkarte – eine viel mächtigere!"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_anger",
+      "text": "Also genieße diesen Sieg, solange du kannst … denn es wird dein letzter sein!"
+    }
+  ]
+}

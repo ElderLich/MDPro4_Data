@@ -1,0 +1,119 @@
+{
+  "name": "DualDuel_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_night",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "やがてギラグもアリトが$R飛(と)ばされた$R場所(ばしょ)へとたどり$R着(つ)いた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "お$R前(まえ)　どうした！？"
+    },
+    {
+      "char": "alito",
+      "pos": "LEFT",
+      "image": "discouragement",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "",
+      "text": "おい　アリト…　おい！"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "discouragement",
+      "text": "…やられた"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "discouragement",
+      "text": "$R真(しん)…　$R月(げつ)…"
+    },
+    {
+      "char": "alito",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "",
+      "text": "おい　しっかりしろアリト！"
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "anger",
+      "text": "アリト　アリトおおお！！"
+    },
+    {
+      "char": "girag",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alito",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "ギラグは$R真月(しんげつ)への$R復讐(ふくしゅう)を$R試(こころ)みていた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "よくもアリトを$R闇討(やみう)ちしやがったな！　$R卑怯者(ひきょうもの)め！"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "$R一体(いったい)　$R何(なん)の$R事(こと)ですか！？　ボクがなにを…"
+    },
+    {
+      "char": "girag",
+      "pos": "",
+      "image": "",
+      "text": "てめえの$R仕業(しわざ)だとアリトが$R言(い)っていた！"
+    }
+  ]
+}

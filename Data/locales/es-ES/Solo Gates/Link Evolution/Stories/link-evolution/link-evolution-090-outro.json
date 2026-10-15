@@ -1,0 +1,143 @@
+{
+  "name": "TheFinalFaceOff_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_blimp",
+      "text": ""
+    },
+    {
+      "char": "odion",
+      "pos": "BACK_LEFT",
+      "image": "",
+      "text": "Maestro Marik."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "Hermano, por favor, dime que estás bien."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "RIGHT",
+      "image": "good_sad",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "¡Marik, se acabó! ¡Tu lado malvado ha sido desterrado para siempre!"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_neutral",
+      "text": "Por fin todo se ha acabado, mi Faraón."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Sí, se ha levantado la oscuridad de tu corazón."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "neutral",
+      "text": "Marik ha conseguido dominar al mal que lo ha controlado por tanto tiempo."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "smile",
+      "text": "Mi Faraón, gracias. Has salvado a la humanidad."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "NOSOTROS lo hemos hecho. No habría salido victorioso si no hubiera sido por todos vosotros."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_neutral",
+      "text": "Faraón, puedo asegurarte de que volverán todos los que han sido desterrados al Reino de las Sombras por mi lado oscuro."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "smile",
+      "text": "Gracias."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_smile",
+      "text": "Antes de completar la misión de mi guardián de la tumba tengo que terminar una tarea más."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_neutral",
+      "text": "Vas a ser testigo del secreto del poder del faraón inscrito en mi espalda. Estas marcas han sido transmitidas por mi familia de generación en generación desde hace cinco mil años."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Nos enseñaron que cuando el antiguo Faraón salvó al mundo de la destrucción, él borro su propia memoria. Pero sabía que algún día iba a volver y que necesitaría recuperar la memoria."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Así que confió su mayor secreto a una familia: ¡La llave que da acceso a su mente y su poder! Ahora que tienes las tres cartas de los Dioses Egipcios y el Puzle Milenario, todo lo que tienes que hacer es leer las palabras en la espalda de Marik. Estás muy cerca."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_smile",
+      "text": "Ya es hora de que nos vayamos, Faraón. Así que toma esto, por favor. El Cetro Milenario te pertenece y ha de estar allá donde no cause más daño."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "millenniumrod",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "Gracias."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "millenniumrod",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_smile",
+      "text": "Y toma esto también. El Anillo Milenario estará más seguro contigo."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "millenniumring",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Con Yugi en posesión de todos los Objetos Milenarios y las tres cartas de los Dioses Egipcios, ¡Podía asegurarse de que los Juegos de las Sombras no volvieran jamás!"
+    }
+  ]
+}

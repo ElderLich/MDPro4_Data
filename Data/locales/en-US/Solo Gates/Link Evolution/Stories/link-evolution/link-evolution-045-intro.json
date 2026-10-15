@@ -1,0 +1,287 @@
+{
+  "name": "CityScape_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_tops",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "LEFT:FADEIN",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT:FADEIN",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Zuzu and Yugo teleported to the Synchro Dimension."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "smile",
+      "text": "Welcome to the Synchro Dimension!"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "What? The Synchro Dimension? But I'm supposed to be in the middle of a battle royal!"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "neutral",
+      "text": "You're like Yuya's twin, I mean triplet, I mean quadruplet! What's your name again? Was it Yoyo?"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "Yo-Yo!? My name is Yugo! You really aren't Rin. There's no way Rin would ever get my name wrong."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "smile",
+      "text": "Don't worry. You'll get used to being here. I remember how freaked out I was when I got sent to another dimension. That's the day I lost RinRin. We were inseparable… until we were separated."
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_commons",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "rin",
+      "pos": "CENTER",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yugo reminisced about the moment Rin was captured."
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "smile",
+      "text": "You're going to come with me. You can do this the easy way or the hard way... I hope it's the hard way."
+    },
+    {
+      "char": "rin",
+      "pos": "",
+      "image": "surprise",
+      "text": "!"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": "Let her go, creep! Don't do anything crazy, you got that?"
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "neutral",
+      "text": "I'm so sorry, but crazy is what I do best! Buh-bye!"
+    },
+    {
+      "char": "rin",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "RinRin!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_clearwingcard",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Woah… What's goin' on? Clear Wing Synchro Dragon? Why are you glowing?"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_heartlandcity",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "surprise",
+      "text": "(The next thing I knew, I was in the Xyz Dimension in a place called Heartland City. The place has seen better days.)"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "arcv_clearwingcard",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": "It's you again! Give Rin back and I might go easy on you."
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "anger",
+      "text": "You threatening me? Bring it on!"
+    },
+    {
+      "char": "yuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_tops",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Back in the present day, Zuzu informed Yugo about his mistake."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "That guy was Yuto. He doesn't have Rin. He's on a mission to save his friend's sister Lulu – just like you."
+    },
+    {
+      "char": "yuzu",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "They were soon interrupted by an officer from Sector Security."
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "",
+      "image": "neutral",
+      "text": "Two \"Commons!\" The Villa is for Topsiders only!"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "I knew we shouldn't have stayed there. We are in a restricted, Tops-only area. Off limits to us."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "Topsiders are the haves of society who possess all the wealth and power here in New Domino City. But down there in the slums… that's the area where us Commons have to live."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "sad",
+      "text": "Doesn't seem fair."
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "",
+      "image": "anger",
+      "text": "This is Sector Security. Stop right there!"
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Me run? No chance! Let's duel!"
+    }
+  ]
+}

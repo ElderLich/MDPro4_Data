@@ -1,0 +1,101 @@
+{
+  "name": "MimeControl_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_egyptiangodcards",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Marik estaba en posesión de dos de las tres cartas de Dioses Egipcios, pero todavía necesitaba el Puzle Milenario para llevar a cabo su plan."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "De repente, Yugi se enfrentó al desafío de un duelista llamado Strings."
+    },
+    {
+      "char": "strings",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "¡Yugi!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "strings",
+      "pos": "",
+      "image": "",
+      "text": "Prepárate para un duelo... y para perder tu Puzle."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡Marik!"
+    },
+    {
+      "char": "strings",
+      "pos": "",
+      "image": "win",
+      "text": "Te presento a mi esclavo mental, Strings El Silencioso. Gracias al poder de mi Cetro Milenaro, te derrotará."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Cobarde!"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "CENTER",
+      "image": "dark_neutral",
+      "text": "¿Por qué iba yo a perder el tiempo luchando contigo cuando puedo hacerlo a través de mis marionetas mentales?"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "No hay ninguna diferencia entre luchar con el poder de mi Cetro Milenario durante un duelo o con el de tu Puzle."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEIN:LEFT",
+      "image": "",
+      "text": "Eso no es cierto. Tú tomas control de las mentes de tus sirvientes en contra de su voluntad y les obligas a que te hagan el trabajo sucio. ¡Yo lucho con respeto y honor!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Marik! ¡Saca tu carta!"
+    }
+  ]
+}

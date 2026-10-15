@@ -1,0 +1,287 @@
+{
+  "name": "CityScape_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_tops",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "LEFT:FADEIN",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT:FADEIN",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Zuzu et Yugo se téléportent dans la dimension Synchro."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "smile",
+      "text": "Bienvenue dans la dimension Synchro !"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Comment ? La dimension Synchro ? Mais je suis censée être au milieu d'une Bataille royale !"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "neutral",
+      "text": "Tu es comme le jumeau de Yuya, je veux dire le triplé, je veux dire le quadruplé ! Quel est ton nom déjà ? Yoyo ?"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "Yo-Yo !? Je m'appelle Yugo ! Tu n'es vraiment pas Rin. Rin ne se serait jamais trompée sur mon nom."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "smile",
+      "text": "Ne vous inquiétez pas. Tu t'habitueras vite ici. Je me souviens à quel point j'étais paniqué quand on m'a envoyé dans une autre dimension. C'est le jour où j'ai perdu Rin. Nous étions inséparables… jusqu'à ce que nous soyons séparés."
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_commons",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "rin",
+      "pos": "CENTER",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yugo se souvient du moment où Rin a été capturée."
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "smile",
+      "text": "Tu vas venir avec moi. On peut le faire volontairement ou par la force... J'espère que tu choisiras par la force."
+    },
+    {
+      "char": "rin",
+      "pos": "",
+      "image": "surprise",
+      "text": "!"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": "Laisse-la partir ! C'est de la folie, tu m'entends ?"
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "neutral",
+      "text": "Désolé, mais la folie est ce que je fais de mieux ! Allez, salut !"
+    },
+    {
+      "char": "rin",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "Rin !"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_clearwingcard",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Ouah... Que se passe-t-il ? Dragon Synchro de l'Aile Claire ? Pourquoi brilles-tu ?"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_heartlandcity",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "surprise",
+      "text": "(Soudain, j'étais dans la dimension Xyz, dans un endroit appelé Heartland City. Cet endroit avait connu des jours meilleurs.)"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "arcv_clearwingcard",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": "Encore toi ! Libère Rin et je serai peut-être clément."
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "anger",
+      "text": "Des menaces ? Battons-nous !"
+    },
+    {
+      "char": "yuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_tops",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Retour au présent, où Zuzu informe Yugo de son erreur."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Ce type était Yuto. Il n'a pas Rin avec lui. Sa mission est de sauver Lulu, la sœur de son ami, tout comme toi."
+    },
+    {
+      "char": "yuzu",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Ils sont vite interrompus par un agent de la Sécurité du Secteur."
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "",
+      "image": "neutral",
+      "text": "Deux habitants de Satellite ! La Villa est réservée aux habitants de la Nouvelle Domino City !"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "Je savais que nous n'aurions pas dû rester là. Nous sommes dans une zone restreinte. Elle nous est interdite."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "Les habitants de la Nouvelle Domino City sont des nantis qui possèdent toute la richesse et le pouvoir ici. Mais là-bas, dans les bidonvilles… C'est là que nous devons vivre."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "sad",
+      "text": "Ça ne me semble pas juste."
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "",
+      "image": "anger",
+      "text": "Ici la Sécurité du secteur. Arrêtez !"
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Moi, courir ? Jamais ! Battons-nous !"
+    }
+  ]
+}

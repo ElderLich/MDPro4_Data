@@ -1,0 +1,233 @@
+{
+  "name": "TheLockdownDuel_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_citysquare",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R氷室(ひむろ)$R仁(じん)とのデュエルから$R間(ま)もなくして　$R収容所(しゅうようじょ)の$R所長(しょちょう)　$R鷹栖(たかす)が$R現(あらわ)れ　$R氷室(ひむろ)が$R禁制品(きんせいひん)を$R持(も)って\nいるとの$R疑(うたが)いをかけた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "$R凶器(きょうき)を$R隠(かく)し$R持(も)っているとの$R情報(じょうほう)があってな…　ほ～ら　あった"
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "",
+      "text": "$R氷室(ひむろ)は$R重大(じゅうだい)な$R罪(つみ)を$R犯(おか)した　この$R責任(せきにん)はここにいる$R全員(ぜんいん)で$R償(つぐな)ってもらう"
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "",
+      "text": "$R今後(こんご)$R一年(いちねん)　$R貴様(きさま)らの$R自由時間(じゆうじかん)は$R没収(ぼっしゅう)　それぞれの$R部屋(へや)からの$R外出(がいしゅつ)は$R禁止(きんし)する"
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "",
+      "text": "ちゃんと$R覚(おぼ)えとけよ！　$R貴様(きさま)らはこの$R世界(せかい)に$R不要(ふよう)な$R人間(にんげん)どもだ！"
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R自由(じゆう)も$R権利(けんり)もない！　あるのは$R永遠(えいえん)に$R日陰(ひかげ)でコソコソと$R生(い)き$R続(つづ)ける$R惨(みじ)めさだけだ"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "…"
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "",
+      "text": "$R文句(もんく)があるなら$R言(い)え！　$R貴様(きさま)らもこいつと$R同(おな)じ$R目(め)に$R遭(あ)わせてやる！"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "$R待(ま)て　この$R世(よ)に$R不要(ふよう)な$R人間(にんげん)などいない"
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "smile",
+      "text": "これはこれは…　サテライトのゴミが$R英雄(えいゆう)$R気取(きど)りか？"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R氷室(ひむろ)は$R無実(むじつ)だ"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "$R奴(やつ)は$R本物(ほんもの)のデュエリストだ　$R何(なに)も$R企(たくら)んだりしない"
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "smile",
+      "text": "ほう…　それはオレ$R様(さま)もデュエリストと$R知(し)っての$R発言(はつげん)か？　$R奴(やつ)は$R本物(ほんもの)で　オレは$R偽物(にせもの)だとでも？"
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "neutral",
+      "text": "よかろう　ならば$R全員(ぜんいん)の$R前(まえ)でデュエルで$R決着(けっちゃく)をつけよう　$R貴様(きさま)が$R勝(か)ったら$R氷室(ひむろ)の$R罪(つみ)には$R目(め)を\nつぶり　$R自由(じゆう)な$R時間(じかん)を$R奪(うば)わないと$R約束(やくそく)してやる"
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "",
+      "text": "ただし　オレ$R様(さま)が$R勝(か)ったら…"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "$R一生(いっしょう)お$R前(まえ)の$R言(い)いなりになってやる"
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "anger",
+      "text": "$R面白(おもしろ)い　デュエルは$R今晩(こんばん)$R八時半(はちじはん)だ！"
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R遊星(ゆうせい)…　すまない　オレのデッキはやつらに$R持(も)って$R行(い)かれちまった"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "",
+      "text": "デッキがないんじゃ$R話(はなし)にならない"
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "ああ…　なんてこった…　あいつら　ワシのデッキを…"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bolttanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R幸運(こううん)にも　$R収容所(しゅうようじょ)の$R仲間(なかま)の$R協力(きょうりょく)によって　$R鷹栖(たかす)と$R闘(たたか)うデッキを$R作(つく)り$R上(あ)げるだけのカードを\n$R集(あつ)めることができた"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R場面(ばめん)はその$R日(ひ)の$R夜(よる)へと$R移(うつ)る"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "へへへ！　サテライトの$R英雄殿(えいゆうどの)"
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "",
+      "text": "デュエルをするにはデッキが$R必要(ひつよう)だ　もちろん$R持(も)ってるんだろうな？"
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "smile",
+      "text": "まさかとは$R思(おも)うが…　もし$R持(も)っていないなら　このデュエルはオレ$R様(さま)の$R不戦勝(ふせんしょう)となる"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "smile",
+      "text": "デッキならある"
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "surprise",
+      "text": "バカな！　それはどこから？"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "お$R前(まえ)は$R知(し)らない　デュエリストが$R一枚(いちまい)のカードに　どれほどの$R気持(きも)ちを$R託(たく)し　$R大切(たいせつ)にするかを"
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "neutral",
+      "text": "けっ　まあいい"
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "anger",
+      "text": "デッキがあるならデュエルで$R叩(たた)き$R潰(つぶ)すまでだ　デュエルディスクを$R用意(ようい)しろ！"
+    }
+  ]
+}

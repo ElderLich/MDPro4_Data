@@ -1,0 +1,209 @@
+{
+  "name": "ClashInTheColosseum_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_blimp",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Immer mehr Duellanten fielen der Macht von Malik zum Opfer."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamibakura",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "millenniumring",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Marik duellierte sich mit Bakura um den Millenniumsring und gewann."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamibakura",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_wingeddragon_card",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Jetzt war es Zeit für das Halbfinale. Im ersten Match spielte Joey gegen Marik. Mariks Macht war so groß, dass der geflügelte Drache von Ra Joey ins Krankenhaus schickte. Es schien, als könnte nichts der Schreckensherrschaft von Marik Einhalt gebieten."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Im zweiten Halbfinale wurde ermittelt, wer gegen Marik antreten würde."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yugi trat gegen Kaiba an, zum ersten Mal seit ihrem Kampf im Königreich der Duellanten."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Yugi, wir dürfen nicht zulassen, dass Joeys Ringen unsere Konzentration stört. Denk daran: Um Marik zu besiegen, müssen wir an Kaiba vorbei."
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_blimp",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Sieh an, sieh an, Yugi. Du hast dich also doch entschlossen zu kommen."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "Natürlich. Dieses Duell zu verpassen hieße, mein Schicksal zu verleugnen."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Erspar mir das Drama."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "smile",
+      "text": "Also, warum sind deine Nerds nicht hier, um dich anzufeuern? Sind sie zu beschäftigt damit, Wheeler aus seinem Nickerchen zu wecken?"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "anger",
+      "text": "Joey ist jetzt in großer Gefahr! Größer, als du es dir vorstellen kannst!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "Wheeler hätte es gar nicht bis hierher schaffen dürfen. Ich habe ihn gewarnt, nicht mit den großen Jungs zu spielen, und wenn du mich fragst, hat er genau das bekommen, was er verdient hat: eine Ohrfeige von Ra!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "Und wenn ein Angriff von einer Ägyptischen Götterkarte diesen Burschen nicht zur Vernunft bringt, dann ist Hopfen und Malz verloren!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Das reicht, Kaiba! Du hast keine Ahnung, wie gefährlich dein Duell Monsters Turnier geworden ist! Das Ergebnis der Battle City Finals könnte die ganze Welt in Gefahr bringen!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Das Einzige, was in Gefahr ist, bist du! Dieses eine Mal gewinne ich. Du wirst nicht die Nummer eins sein!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "Kaiba, es geht nicht immer darum, die Nummer eins zu sein! Es geht darum, sich mit Mut, Ehre und Respekt zu duellieren! Und vor allem, die Bedürfnisse anderer über die eigenen zu stellen! Und das hat Joey Wheeler jeden Tag seines Lebens getan."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "",
+      "text": "Yugi, in der Antike kämpften römische Gladiatoren bis zum Untergang, um zu beweisen, wer der Stärkste war."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "Jetzt sind wir an der Reihe, zu sehen, wer von uns es verdient, sich als den Besten der Welt zu bezeichnen!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "Zieh also deine erste Karte und lass den Kampf beginnen!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "Mit Vergnügen, Kaiba!"
+    }
+  ]
+}

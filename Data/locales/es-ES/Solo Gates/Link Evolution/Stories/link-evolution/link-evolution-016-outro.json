@@ -1,0 +1,35 @@
+{
+  "name": "DestinysWill_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_satellite",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "romangoodwin",
+      "pos": "RIGHT",
+      "image": "bittersleep",
+      "text": "¿De verdad crees que se acabó?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "romangoodwin",
+      "pos": "FADEOUT",
+      "image": "anger",
+      "text": "A menos que derrotes a todos los Portadores Oscuros antes de la puesta de sol, ¡el Rey de Inframundo resucitará!"
+    }
+  ]
+}

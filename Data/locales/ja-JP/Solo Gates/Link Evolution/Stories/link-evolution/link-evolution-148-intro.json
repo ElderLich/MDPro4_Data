@@ -1,0 +1,317 @@
+{
+  "name": "SearchForShadowsPart1_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R遊馬(ゆうま)のかつての$R敵(てき)が$R復讐(ふくしゅう)すべく$R再(ふたた)び$R現(あらわ)れた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "vector",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "ヒャッハハハハ！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "お$R前(まえ)は…"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R我(わ)が$R名(な)はベクター　バリアン$R最強(さいきょう)の$R戦士(せんし)だ"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "$R九十九(つくも)$R遊馬(ゆうま)ぁ～　アストラルぅ～　$R貴様(きさま)ら$R諸共(もろとも)この$R世界(せかい)をぶっ$R潰(つぶ)しにきたぜぇ！"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "フフフフフ…　お$R前(まえ)らとデュエルするのは$R久(ひさ)しぶりだなぁ～"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "$R何(なに)が$R久(ひさ)しぶりだ！　オレはお$R前(まえ)の$R事(こと)なんてしらねえ！"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "anger",
+      "text": "$R忘(わす)れちまったのかよ！！　ドクター・フェイカーを$R操(あやつ)って　お$R前(まえ)たちと$R楽(たの)しい\nデュエルをしたじゃないか"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "お$R前(まえ)が…　ドクター・フェイカーを$R操(あやつ)ってたバリアンだったのか"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "neutral",
+      "text": "さあ　よからぬことを$R始(はじ)めようじゃないか！"
+    },
+    {
+      "char": "astral",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rayshadows",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "$R遊馬(ゆうま)くん！　よかれと$R思(おも)って！"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "discouragement",
+      "text": ""
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "anger",
+      "text": "ちッ！　よからぬことを　ならば$R貴様(きさま)の$R代(か)わりにこいつを$R頂(いただ)いていく"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "てめえ　$R真月(しんげつ)を$R放(はな)せ！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "$R真月(しんげつ)をどこに$R連(つ)れてく$R気(き)だ！"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "こいつを$R助(たす)けたければ　カードに$R聞(き)くんだな"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "zexal_masterkeybeetlecard",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "ナンバーズ66…"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "zexal_masterkeybeetlecard",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rayshadows",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "$R遊馬(ゆうま)くん！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "$R真月(しんげつ)！　$R真月(しんげつ)ううう！！"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "vector",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "ベクターにもらったナンバーズを$R使(つか)って　アストラルは$R全員(ぜんいん)をバリアン$R世界(せかい)へ$R連(つ)れていける\n$R飛行船(ひこうせん)を$R召喚(しょうかん)することに$R成功(せいこう)した"
+    },
+    {
+      "char": "astral",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R遊馬(ゆうま)　$R私達(わたしたち)の$R向(む)かうべき$R場所(ばしょ)がわかったぞ"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "$R先程(さきほど)のデュエルで　ベクターが$R残(のこ)していったナンバーズ　あのカードがキーとなって　\nこの$R飛行船(ひこうせん)が$R起動(きどう)した"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "しかも　ある$R場所(ばしょ)を$R示(しめ)す$R座標(ざひょう)も$R表示(ひょうじ)されたのだ"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "$R場所(ばしょ)って…　$R一体(いったい)どこ？"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "おそらく　バリアン$R世界(せかい)"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "ベクターは　この$R飛行船(ひこうせん)で$R私達(わたしたち)に$R来(こ)いと$R言(い)っているようだ"
+    },
+    {
+      "char": "astral",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_barian",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R遊馬(ゆうま)たちはバリアン$R世界(せかい)へ$R向(む)かうため　$R飛行船(ひこうせん)へと$R乗(の)り$R込(こ)んだ"
+    },
+    {
+      "char": "dumon",
+      "pos": "",
+      "image": "barian_neutral",
+      "text": ""
+    },
+    {
+      "char": "mizar",
+      "pos": "",
+      "image": "barian_neutral",
+      "text": ""
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "しかし　$R飛行船(ひこうせん)の$R着(つ)いた$R先(さき)はバリアン$R世界(せかい)ではなく　サルガッソだった　そこはバリアンたちが\n$R待(ま)つ$R次元(じげん)の$R狭間(はざま)だった"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R遊馬(ゆうま)　カイト　$R凌牙(りょうが)はそれぞれバリアンの$R七皇(ななこう)と$R闘(たたか)うことになった"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "dumon",
+      "pos": "RIGHT",
+      "image": "barian_neutral",
+      "text": "お$R前(まえ)が$R神代(かみしろ)$R凌牙(りょうが)か"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "dumon",
+      "pos": "",
+      "image": "barian_win",
+      "text": "$R我(わ)が$R名(な)はドルベ　お$R前(まえ)をデュエルで$R倒(たお)すもの"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "anger",
+      "text": "ほう　オレがぶっ$R倒(たお)すバリアンの$R一人(ひとり)として　この$R胸(むね)に$R名(な)を$R刻(きざ)んでおいてやるぜ"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "",
+      "text": "とっとと$R始(はじ)めようぜ　デュエルだ！"
+    }
+  ]
+}

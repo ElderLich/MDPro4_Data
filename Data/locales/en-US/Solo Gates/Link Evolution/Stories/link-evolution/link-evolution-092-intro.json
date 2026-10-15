@@ -1,0 +1,221 @@
+{
+  "name": "WD_YUGI_SetoKaiba_Alister_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_kaibacorp",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "As monsters appeared all over the city, the public accused Kaiba and KaibaCorp for these monster sightings."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "I think someone's trying to make a fool out of me. I have worked too hard repairing the reputation of this company. This has to stop."
+    },
+    {
+      "char": "mokubakaiba",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Seto! Check out our database! There's someone out there that's buying up every share of our company!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "surprise",
+      "text": "Mokuba, you're right! If these numbers are accurate, almost half of KaibaCorp was just bought by one person... and they're still buying! But how can that be?"
+    },
+    {
+      "char": "mokubakaiba",
+      "pos": "",
+      "image": "surprise",
+      "text": "What are we gonna do?"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "We have to stop them. If they buy any more shares, they can take control of the entire company. Wait! There's only one person who's capable of something like this... Pegasus."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "mokubakaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Seto Kaiba and Mokuba went to Duelist Kingdom to confront Pegasus."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_pegasuscastle",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Show yourself, Pegasus!"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Ha ha ha ha ha! Your lack of patience never fails to amuse me."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "You're as irritating as ever. What's the deal, Pegasus?"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "",
+      "text": "I just haven't been myself lately. In fact...."
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alister",
+      "pos": "FADEIN:RIGHT",
+      "image": "happy1",
+      "text": "I mean that quite literally!"
+    },
+    {
+      "char": "mokubakaiba",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "What's going on?"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "happy2",
+      "text": "Surprise! I've waited for this day a long time, Kaiba boy!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Identify yourself!"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "anger",
+      "text": "Alister's the name, Kaiba boy! Now let's duel! This spell card is about to change everything! Activating The Seal of Orichalcos!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "surprise",
+      "text": "What's that!? Explain yourself! Now!"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "",
+      "text": "We're trapped in here until the duel's over. Then, once I crush you, I'll be able to get out. Of course you, on the other hand, won't be quite as lucky as myself, Kaiba boy!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "surprise",
+      "text": "What do you mean?"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "anger",
+      "text": "When you lose, your soul will be locked away for all eternity!"
+    },
+    {
+      "char": "mokubakaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "Let my brother out! You have no idea who you're messing with!"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "",
+      "text": "Sure I do. I'm messing with a greedy little punk who's just as pathetic as his old man."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "What did you just say to me? No one compares me to my stepfather and gets away with it! He was a worthless snake!"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "",
+      "text": "Like you."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "My family business has nothing to do with you."
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "sad",
+      "text": "Guess again. Your family business has everything to do with me."
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "shy",
+      "text": "It was 7 years ago today. A day I'll never forget. The tanks came and took my brother. I soon found out who was responsible..."
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "anger",
+      "text": "Gozaburo Kaiba. Your father did this to me. Now you run his evil empire, so it's your fault too!"
+    }
+  ]
+}

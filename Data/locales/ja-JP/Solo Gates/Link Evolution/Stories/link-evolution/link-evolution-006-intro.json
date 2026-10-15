@@ -1,0 +1,593 @@
+{
+  "name": "WelcomeToTheFortuneCup_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_citysquare",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "このカード$R達(たち)…　すごく$R大事(だいじ)にされてる"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "$R誰(だれ)だ？"
+    },
+    {
+      "char": "luna",
+      "pos": "",
+      "image": "",
+      "text": "$R覚(おぼ)えてない？"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "",
+      "text": "$R昨日(きのう)の$R夜(よる)　$R下(した)で$R倒(たお)れてたんだよ"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "オレ　$R龍亞(るあ)って$R言(い)うんだ"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "こっちは$R妹(いもうと)の$R龍可(るか)　オレ$R達(たち)$R双子(ふたご)なんだ！"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "",
+      "text": "ねえ　$R名前(なまえ)はなんていうの？"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "discouragement",
+      "text": "$R遊星(ゆうせい)だ　ここは？"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "オレらの$R家(いえ)　ここらへんはトップスって$R言(い)って　ネオ$R童実野(どみの)シティで$R一番(いちばん)$R高(たか)い$R場所(ばしょ)にあるんだ"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R遊星(ゆうせい)ってデュエリストなんでしょ？　オレもいつかキングになるのが$R夢(ゆめ)なんだ！　\nライディングデュエル　オレもやりたいんだよね！"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "",
+      "text": "$R見(み)てよ　これ！　キングとデュエル$R出来(でき)るかもしれないんだよ！？"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "デュエル・オブ・フォーチュンカップ…"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "うん　ランダムに$R選(えら)ばれた$R人(ひと)たちでトーナメントするんだって　\nその$R中(なか)にね　$R龍可(るか)が$R選(えら)ばれたんだ！"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "",
+      "text": "$R優勝(ゆうしょう)したデュエリストは　キングとデュエル$R出来(でき)るんだ！"
+    },
+    {
+      "char": "luna",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "$R私(わたし)　$R出(で)る$R気(き)ないから"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R聞(き)いた？　$R龍可(るか)っていっつもこうなんだ　だからオレが$R龍可(るか)のふりをして　$R出(で)ようと$R思(おも)うんだ"
+    },
+    {
+      "char": "luna",
+      "pos": "",
+      "image": "discouragement",
+      "text": "$R龍亞(るあ)には$R私(わたし)の$R真似(まね)　$R無理(むり)だから"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "anger",
+      "text": "$R無理(むり)じゃないよ　おんなじ$R顔(かお)してるじゃん！"
+    },
+    {
+      "char": "luna",
+      "pos": "",
+      "image": "shy",
+      "text": "おんなじ$R顔(かお)？　どこがぁ？"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "オレたち$R双子(ふたご)じゃん！"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "discouragement",
+      "text": "…$R匿(かくま)ってくれたことには$R感謝(かんしゃ)している"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "だが　オレには$R関(かか)わらないほうがいい"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "$R迷惑(めいわく)はかけられない"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R迷惑(めいわく)なんかじゃないよ！"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "そうだ　$R遊星(ゆうせい)　オレとデュエルやろうよ！　デュエリストなら$R挑(いど)まれた$R勝負(しょうぶ)は$R受(う)けなきゃ！"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "オレ　$R強(つよ)い$R奴(やつ)とデュエルしたいんだ"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "やろうよ$R遊星(ゆうせい)！　オレ　いろんな$R奴(やつ)とデュエルして$R腕(うで)あげたいんだ！　ねえ　やろうよ！　\nやろうよやろうよやろうよ！！"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "…わかった　やろう"
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R遊星(ゆうせい)は$R龍亞(るあ)とデュエルをした　しかし　$R楽(たの)しい$R時間(じかん)はそう$R長(なが)くは$R続(つづ)かなかった"
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R牛尾(うしお)$R哲(てつ)が$R遊星(ゆうせい)の$R居場所(いばしょ)を$R突(つ)き$R止(と)めたのだ"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "smile",
+      "text": "$R待(ま)ってたぜ　クズ$R野郎(やろう)！"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "くっ"
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "anger",
+      "text": "さあ　$R観念(かんねん)してもらおうか！"
+    },
+    {
+      "char": "lazar",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "$R捜査官(そうさかん)$R君(くん)　この$R男(おとこ)の$R身柄(みがら)　しばし$R治安維持局(ちあんいじきょく)に$R預(あず)けてはくれないかな？"
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "anger",
+      "text": "$R治安維持局(ちあんいじきょく)？"
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "$R特別調査室(とくべつちょうさしつ)$R室長(しつちょう)のイェーガーと$R申(もう)します　あなたは$R牛尾(うしお)$R君(くん)ですね　ヒヒヒッ"
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R特別調査室(とくべつちょうさしつ)$R室長(しつちょう)！？"
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "neutral",
+      "text": "レクス・ゴドウィン$R長官(ちょうかん)より　この$R男(おとこ)にメッセージを$R預(あず)かって$R参(まい)りました"
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "smile",
+      "text": "$R遊星(ゆうせい)　デュエル・オブ・フォーチュンカップにご$R参加下(さんかくだ)さい　$R拒否(きょひ)すればあなたの$R友達(ともだち)には\nあなたの$R想像(そうぞう)も$R及(およ)ばぬ$R痛(いた)みを$R経験(けいけん)してもらいます　いいですね？　ヒヒヒッ"
+    },
+    {
+      "char": "lazar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "その$R翌日(よくじつ)　$R遊星(ゆうせい)のところへ$R新(あら)たな$R来訪者(らいほうしゃ)がやってきた　ライバルのジャック・アトラスだ"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "$R何(なん)の$R用(よう)だ？"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "フォーチュンカップに$R出(で)るそうだな　こいつを$R返(かえ)しに$R来(き)た"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "5ds_stardustdragoncard",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "スターダストはお$R前(まえ)が$R使(つか)ってこそ$R意味(いみ)を$R成(な)す　こいつを$R使(つか)い　あの$R夜(よる)の$R決着(けっちゃく)をつけろ"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "5ds_stardustdragoncard",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "ラリー$R達(たち)を$R売(う)ったのはお$R前(まえ)か"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "surprise",
+      "text": "なに？"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "フォーチュンカップの$R招待状(しょうたいじょう)…　$R治安維持局(ちあんいじきょく)を$R名乗(なの)る$R男(おとこ)がオレに$R渡(わた)したものだ　オレが\nフォーチュンカップに$R出(で)なければラリー$R達(たち)に$R危害(きがい)が$R及(およ)ぶ…　オレが$R出(で)るのは　$R薄汚(うすぎたな)い\n$R治安維持局(ちあんいじきょく)と$R戦(たたか)うためだ"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "neutral",
+      "text": "ならば　スターダストはお$R前(まえ)が$R持(も)つにふさわしかろう！"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "オレはここに$R来(き)た　$R次(つぎ)は　お$R前(まえ)がオレのとこに$R来(こ)い！"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "それと…　$R一(ひと)つ$R言(い)っておこう"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "あの$R日(ひ)　オレ$R達(たち)が$R見(み)た$R赤(あか)き$R竜(りゅう)は　$R始(はじ)まりにすぎない"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R一方(いっぽう)　レクス・ゴドウィンとイェーガーはフォーチュンカップの$R他(ほか)の$R参加者(さんかしゃ)について$R議論(ぎろん)していた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "lazar",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "$R先日(せんじつ)の$R夜(よる)　またもや$R魔女(まじょ)が$R現(あら)われたとか…　かの$R魔女(まじょ)も$R招待状(しょうたいじょう)を$R受(う)け$R取(と)った$R身(み)　ほどなく\n$R素顔(すがお)が$R見(み)られることでしょう　ヒヒヒッ"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "$R竜(りゅう)の$R痣(あざ)の$R加護(かご)の$R下(もと)　シグナーがここに$R集(あつ)まります"
+    },
+    {
+      "char": "lazar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_arena",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "フォーチュンカップに$R出場(しゅつじょう)するために$R参加者(さんかしゃ)$R全員(ぜんいん)が$R集(あつ)まっていた"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R龍可(るか)は$R一人(ひとり)でのデュエルを$R怖(こわ)がっていたため　$R龍亞(るあ)が$R代(か)わりに$R出(で)ることにした"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_arenahallway",
+      "text": ""
+    },
+    {
+      "char": "leoasluna",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "よしっ！　$R龍可(るか)にそっくりでしょ！　でしょ！　でしょ！　でしょ！"
+    },
+    {
+      "char": "luna",
+      "pos": "LEFT",
+      "image": "discouragement",
+      "text": "$R私(わたし)はそんなんじゃない！"
+    },
+    {
+      "char": "leoasluna",
+      "pos": "",
+      "image": "smile",
+      "text": "まあまあ　ちゃんとやるから$R安心(あんしん)しろって"
+    },
+    {
+      "char": "luna",
+      "pos": "",
+      "image": "anger",
+      "text": "む～"
+    },
+    {
+      "char": "leoasluna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R一方(いっぽう)で　レクス・ゴドウィンとイェーガーは$R再(ふたた)び$R会(あ)って$R大会(たいかい)の$R話(はなし)をしていた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "lazar",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "$R準備(じゅんび)は$R整(ととの)いました　シグナーが$R揃(そろ)うのも$R時間(じかん)の$R問題(もんだい)でしょう　ヒヒヒッ　シグナーの$R反応(はんのう)は\nＤセンサーによって$R感知(かんち)できます"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "LEFT",
+      "image": "",
+      "text": "$R頼(たの)みましたよ"
+    },
+    {
+      "char": "lazar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "フォーチュンカップの$R最初(さいしょ)のデュエルが$R始(はじ)まる！　ボマーvs$R龍可(るか)　いや　$R龍亞(るあ)だ！"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leoasluna",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "デュエリストに$R悪(わる)い$R奴(やつ)なんかいないっていうけど　ほんとだよね！"
+    },
+    {
+      "char": "greiger",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "$R女(おんな)の$R子(こ)　と$R聞(き)いていたが　どうやら$R男(おとこ)の$R子(こ)のようだな"
+    },
+    {
+      "char": "leoasluna",
+      "pos": "",
+      "image": "surprise",
+      "text": "あはは！　オレさ　オトコみたいだってよく$R言(い)われるけど　$R一応(いちおう)$R女(おんな)！　ねっ！"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "name": "TradeBait_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_youshowschool",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Après son Invocation Pendule surprise contre La Masse, Yuya est plus populaire que jamais !"
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Euh... mais qui es-tu ?"
+    },
+    {
+      "char": "shingo",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Moi ? Juste l'un de tes plus grands admirateurs. Je m'appelle Sylvio. C'est un honneur."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "shy",
+      "text": "Salut."
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "smile",
+      "text": "J'ai vu ton duel contre La Masse à la télé. Tu étais simplement épatant !"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ta technique d'Invocation Pendule m'a coupé le souffle. Et ces cartes que tu utilises, comment les appelles-tu, déjà ?"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "Tu parles de mes cartes Pendule ?"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "",
+      "text": "Exactement ! Seul un duelliste du plus haut niveau peut posséder des cartes aussi rares !"
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Inutile de gonfler son égo. C'est déjà assez difficile de le lui faire ravaler comme ça."
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Tu avais prévu de faire une démonstration de ta technique ? Je peux avoir accès au lieu idéal pour toi. L'Institut Léo !"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "Je croyais que c'était réservé aux élèves de Léo uniquement !"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "smile",
+      "text": "J'ai déjà réservé l'espace. Je fais partie des plus brillants élèves de cette école."
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_paradisecity",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "En arrivant à l'Institut Léo :"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "smile",
+      "text": "Bienvenue à l'Institut De Duel Léo ! L'Institut est géré par la Corporation Léo. Ils ne lésinent pas sur les dépenses pour que notre école soit l'un des plus grands instituts de duel au monde !"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "neutral",
+      "text": "J'ai entendu dire que You Show était une école décente."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "anger",
+      "text": "Merci du compliment. Ton école est meilleure à tous les niveaux."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "Il faut l'admettre, cet établissement possède des tas de choses que notre école ne peut pas s'offrir."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "On peut apprendre l'Invocation Xyz, l'Invocation Synchro... Ouah ! Ils enseignent même l'Invocation Fusion !"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "neutral",
+      "text": "J'aimerais voir les cartes que tu utilises pour l'Invocation Pendule. Est-ce que ça te dérangerait de me laisser jeter un coup d'œil ?"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "Te montrer mes cartes ? Bon, d'accord."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Avant même que Yuya ne finisse de parler, Sylvio s'empare des cartes Pendule de Yuya !"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "smile",
+      "text": "Je peux Invoquer le Pendule avec ces cartes ? Elles font désormais partie de ma collection de cartes rares !"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "Hein ?!"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "anger",
+      "text": "Ce n'est pas drôle, Sylvio !"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "",
+      "text": "Je ne cherche pas à faire de l'humour. Tes cartes sont tellement uniques que je ne peux pas y résister."
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "",
+      "text": "J'ai quelque chose pour toi. Je t'offre ces cartes en échange de tes cartes Pendule. Elles n'ont aucune valeur, comme toi !"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "Toutes les cartes ont une valeur."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "Que le spectacle commence !"
+    }
+  ]
+}

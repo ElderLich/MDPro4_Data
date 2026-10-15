@@ -1,0 +1,521 @@
+{
+  "name": "MarkOfTheMonkey_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_shadowrealm",
+      "text": ""
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "CENTER",
+      "image": "anguish",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Quand Carly tomba de l'immeuble du Mouvement Arcadia, elle fut absorbée par la brume pourpre et disparut."
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Peu de temps après, la terre commença à trembler. Carly réapparut sous forme de Pactisant des Ténèbres."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_citysquare",
+      "text": ""
+    },
+    {
+      "char": "sayer",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Sors de mon immeuble!"
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "dark_smile",
+      "text": "Mais je suis ici pour te demander une revanche, Sayer."
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "surprise",
+      "text": "Je dois halluciner... C'est toi, Carly?"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "surprise",
+      "text": "Mais tu es tombée!"
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "dark_smile",
+      "text": "Les Pactisants des Ténèbres recrutent activement des duellistes pour se joindre à leur cause, et ils ont choisi votre serviteur."
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "dark_anger",
+      "text": "Et c'est une mauvaise nouvelle pour toi."
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "NONE",
+      "image": "dark_neutral",
+      "text": ""
+    },
+    {
+      "char": "sayer",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Sayer et Carly commencèrent un duel des Ténèbres et une série de tremblements de terre frappa la tour du Mouvement Arcadia."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Sayer fut vaincu par le Pactisant des Ténèbres Carly et apparemment tomba à sa perte du haut du siège Arcadia."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Pendant la bataille, l'Esprit de la Terre Immortel Aslla piscu fut invoqué et commença à détruire l'ensemble du bâtiment."
+    },
+    {
+      "char": "bolttanner",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Heureusement, Lua, Luca, Bolt, et Tenzen utilisèrent cette occasion pour échapper du siège Arcadia."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "",
+      "image": "smile",
+      "text": "Luca!"
+    },
+    {
+      "char": "luna",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Comment m'avez-vous retrouvé les gars?"
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Voici la huitième porte que Bolt a frappé!"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "anger",
+      "text": "J'ai besoin de briser ce verre pour retrouver Lua!"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "anger",
+      "text": "Lua! Ça va?"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "anguish",
+      "text": "Où est Luca? Elle va bien?"
+    },
+    {
+      "char": "luna",
+      "pos": "",
+      "image": "neutral",
+      "text": "Je suis devant toi, Luca."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "discouragement2",
+      "text": "Je suis tellement content que tu sois en sécurité!"
+    },
+    {
+      "char": "luna",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "Ce n'est pas comme si j'étais impuissante sans toi."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Alors, euh - que fais-je dans cette pièce?"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "neutral",
+      "text": "Je ne sais pas, mais n'en parlons pas pour l'instant."
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "",
+      "image": "neutral",
+      "text": "En d'autres mots \"sortons d'ici!\""
+    },
+    {
+      "char": "bolttanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Akiza réussit à s'échapper du bâtiment qui s'effondra avec le reste des amis de Yusei."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Et l'Esprit de la Terre Immortel disparut avec le Pactisants des Ténèbres."
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Ailleurs dans Nouvelle Domino City, un Greiger nouvellement détenu fut l'objet d'un sauvetage surprenant."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "greiger",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Hein ? Qui es-tu"
+    },
+    {
+      "char": "devack",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Le nom est Devack."
+    },
+    {
+      "char": "devack",
+      "pos": "",
+      "image": "neutral",
+      "text": "Je sais ce que Goodwin t'a fait, Greiger. A ton village."
+    },
+    {
+      "char": "devack",
+      "pos": "",
+      "image": "",
+      "text": "Je sais que tu es en colère. Et je sais que tu veux toujours la vengeance. Je peux t'aider à te venger."
+    },
+    {
+      "char": "devack",
+      "pos": "",
+      "image": "smile",
+      "text": "Viens avec moi."
+    },
+    {
+      "char": "devack",
+      "pos": "NONE",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "greiger",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Pendant ce temps, Yusei Fudo et le reste des Pactisants rencontrèrent Goodwin pour discuter des derniers événements."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Je vais vous donner une leçon d'histoire. Des milliers d'années auparavant, une énorme guerre prit place et le Dragon Cramoisi vainquit l'Armée des Ténèbres."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Craignant que les Ténèbres seraient un jour de retour pour détruire le monde, le Dragon Cramoisi les enferma sous terre."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Des symboles magiques furent enterrés dans la terre, refermant leur essence pendant des millénaires."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Avec le temps, les Ténèbres furent oubliées, et leur prison devint une destination touristique connue sous le nom Lignes Nazca."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Mais les Ténèbres n'étaient pas disposés à rester vaincues. Elles voulaient se venger, ce qui est maintenant possible avec l'aide des Pactisants des Ténèbres."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Je pense que certains d'entre vous ont déjà rencontré personnellement les dangereux monstres des Pactisants des Ténèbres."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Tu dois parler des Esprits de la Terre Immortels."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Oui. Leur force est stupéfiante, car ils abritent le pouvoir même de l'Armée des Ténèbres ."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": "On comprend! Ils sont mauvais! Eliminons-les tout simplement!"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Notre tâche s'élève bien au-delà de battre un simple ennemi. C'est une opération de sauvetage pour toutes ces pauvres gens qui ont été victimes des puissances des Ténèbres."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_satellite",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Après avoir parlé avec Goodwin, l'équipe des Pactisants se dirigea vers Satellite afin d'arrêter les Pactisants des Ténèbres ."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "L'équipe des Pactisants se subdivisa, chacun résolut à battre un autre Pactisant des Ténèbres, chacun avec ses propres motivations."
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "devack",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Le Pactisant des Ténèbres Devack avait pris Ancien Dragon Féerique et empêchait Luca de l'avoir."
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Dans une tentative de trouver et de sauver son Ancien Dragon Féerique, Luca fut transporté vers le monde des esprits."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Pendant que Lua recherchait Luca, il tomba sur Devack et fut embusqué dans un duel contre un Pactisant des Ténèbres."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "devack",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Qui es-tu? Tu n'es pas un Pactisant des Ténèbres. Que fais-tu ici?"
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Je suis ici pour te battre en duel! Si tu penses que tu es assez fort pour me vaincre!"
+    },
+    {
+      "char": "devack",
+      "pos": "",
+      "image": "anger",
+      "text": "Tu blagues ou quoi? Où est la petite fille? Pourquoi n'est-elle pas ici? Je LUI ai dit de venir."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "anger",
+      "text": "Eh bien, elle est occupée! Tu vas devoir me battre en duel à sa place, monsieur!"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "anger",
+      "text": "Je ne suis peut être pas un Pactisant, mais cela ne signifie pas que je ne sais pas manier un deck!"
+    },
+    {
+      "char": "devack",
+      "pos": "",
+      "image": "",
+      "text": "J'applaudis ton enthousiasme. Mais j'ai bien peur que tu n'aies simplement pas le pouvoir de me défier, garçon."
+    },
+    {
+      "char": "devack",
+      "pos": "",
+      "image": "smile",
+      "text": "Si tu insistes pour être détruit... ainsi soit-il."
+    }
+  ]
+}

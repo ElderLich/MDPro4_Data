@@ -1,0 +1,383 @@
+{
+  "name": "BattleCityBegins_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_school",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yugi was disturbed that there was now an unknown foe attempting to take his Millennium Puzzle. He felt unprepared. He didn't know enough about the Puzzle to understand what dangers he now would have to face."
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Hey, how’s it goin’ Yugi?"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "Not so great. I need your help, and so does the Spirit of the Millennium Puzzle."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "Whoever it was that stole the Puzzle seemed to know a lot about its past. That reminded the spirit how little he knows about it. But hanging out with you might help him figure things out."
+    },
+    {
+      "char": "teagardner",
+      "pos": "",
+      "image": "surprise",
+      "text": "Sure, but how exactly am I gonna do that?"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "You always have great advice. Just talk to him."
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "The Spirit and Téa spent the day together. They went to Domino Museum which had just opened their Egyptian exhibit."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "They saw an ancient stone carving that depicted a battle between a sorcerer and a pharaoh. The pharaoh bore a striking resemblance to Yugi while the sorcerer looked just like Kaiba."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "BACK_LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "As they stood in awe of their discovery, a mysterious woman walked up to greet them."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "My Pharaoh, I've been expecting you."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "Huh? Who are you?"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "I am Ishizu of the Egyptian Historical Society. I have uncovered many mysteries about you and these ancient carvings using the magic of my Millennium Necklace."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "millenniumnecklace",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "Another Millennium Item!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Like your Millennium Puzzle, this Necklace affords me certain powers. With it, I have gazed five thousand years into the past to a time when evil sorcerers threatened to destroy the entire world."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "However, there was one king who possessed a magic powerful enough to stop this evil threat."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "The Pharaoh who saved the world... was you. And now the time has come for you to rescue mankind once again."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "To rescue mankind from what? How do you know the world is in danger of being destroyed again?"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "sad",
+      "text": "My Millennium Necklace also shows me visions of the future. My Pharaoh, the events of the past will occur once again. And that same great evil will return to threaten us."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "How will I recognize this evil?"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "I know that your memory has faded and that you seek many answers. I also know a Duel Monsters tournament is beginning."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "neutral",
+      "text": "If you win it, you will find your answers."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "The tournament that Ishizu was referring to was Seto Kaiba's Battle City Tournament. Joey and Yugi both received invitations to participate."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "All entrants were given a special transparent card known as a Locator Card."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_locatorcards",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "The winner of each duel was allowed to take both a Locator Card and a rare card from the loser. If a duelist lost all his Locator Cards, he was eliminated from the tournament. Only those who collected six Locator Cards would find the location of the tournament finals."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "seeker",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "The tournament attracted a group of duelists known as the Rare Hunters. These evil duelists were thieves intent on stealing the most rare Duel Monsters cards."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_redeyes_card",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Joey lost his Red-Eyes B. Dragon to a Rare Hunter named Seeker. Hoping to win back his card, Joey challenged him to a rematch."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "You got my Red-Eyes and I want it back, soooo it’s time to duel!"
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "win",
+      "text": "I have no desire to duel you. I’ve already relieved you of your rare Red-Eyes. My hunt for your deck is over."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "Well that’s too bad! I’m not leaving until I win back my Red-Eyes!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Joey! What’s going on?"
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "neutral",
+      "text": "Yugi Muto! He has the item my master desires!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "This guy owes me a rematch so I can win back my Red-Eyes!"
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "win",
+      "text": "I already told you that you have nothing that’s of any use to me. But perhaps your friend would be interested in being my next victim."
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "",
+      "text": "It would be my pleasure to hunt the Duelist Kingdom champion and snare his Dark Magician. So I challenge Yugi Muto to a duel!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Fine, Rare Hunter. I accept your challenge!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "It's the only way to win back your card, Joey."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEIN:LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "If you win this duel, I'll hand over my Dark Magician to you. But, if you lose, you must return Joey's Red-Eyes Black Dragon!"
+    }
+  ]
+}

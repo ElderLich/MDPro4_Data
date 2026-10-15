@@ -1,0 +1,239 @@
+{
+  "name": "DoubleJeopardy_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "flipturner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Flip était en train de négocier des Fragments de Cœur en escroquant les gens. En prenant des sucreries, il finit d'assembler entièrement son Cœur."
+    },
+    {
+      "char": "flipturner",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "dextra",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "nistro",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Flip apporta son Cœur qu'il avait fini d'assembler à Nistro et Dextra qui organisaient le tournoi et faisaient respecter les règles."
+    },
+    {
+      "char": "flipturner",
+      "pos": "CENTER",
+      "image": "",
+      "text": "J'ai réuni mes fragments! Tous les cinq, regardez!"
+    },
+    {
+      "char": "nistro",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "flipturner",
+      "pos": "",
+      "image": "",
+      "text": "Mon Cœur est complet!"
+    },
+    {
+      "char": "nistro",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Ouah! C'est impressionnant! Cela ne t'a pas pris longtemps."
+    },
+    {
+      "char": "flipturner",
+      "pos": "",
+      "image": "smile",
+      "text": "Suis-je le premier duelliste alors à aller en finale? Incroyable!"
+    },
+    {
+      "char": "nistro",
+      "pos": "",
+      "image": "",
+      "text": "A moins qu'il ne soit constitué de bonbons."
+    },
+    {
+      "char": "flipturner",
+      "pos": "",
+      "image": "shy",
+      "text": "Q-Q-Quoi?"
+    },
+    {
+      "char": "flipturner",
+      "pos": "",
+      "image": "",
+      "text": "Suggères-tu que ce Cœur pourrait être un faux?"
+    },
+    {
+      "char": "flipturner",
+      "pos": "",
+      "image": "",
+      "text": "Je n'aurais jamais pu réaliser un tel exploit, monsieur!"
+    },
+    {
+      "char": "nistro",
+      "pos": "",
+      "image": "anger",
+      "text": "Prouve que ce ne sont pas des sucreries en y goûtant!"
+    },
+    {
+      "char": "flipturner",
+      "pos": "",
+      "image": "discouragement",
+      "text": "OK..."
+    },
+    {
+      "char": "flipturner",
+      "pos": "",
+      "image": "neutral",
+      "text": "C'est... délicieux..."
+    },
+    {
+      "char": "flipturner",
+      "pos": "",
+      "image": "surprise",
+      "text": "Et... Oh la la ! C'est en train de fondre!"
+    },
+    {
+      "char": "flipturner",
+      "pos": "",
+      "image": "surprise",
+      "text": "Incroyable! Quelqu'un a remplacé mon Cœur avec des délicieuses sucreries! Quel ignoble salopard gourmand ferait une telle chose?"
+    },
+    {
+      "char": "nistro",
+      "pos": "",
+      "image": "",
+      "text": "Arrête, gamin! Je t'ai attrapé!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Flip!"
+    },
+    {
+      "char": "flipturner",
+      "pos": "",
+      "image": "surprise",
+      "text": "Yuma, à l'aide!"
+    },
+    {
+      "char": "flipturner",
+      "pos": "",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "Qu'as-tu l'intention de faire avec Flip?"
+    },
+    {
+      "char": "dextra",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "dextra",
+      "pos": "",
+      "image": "",
+      "text": "Ce tricheur a fabriqué de faux Fragments de Cœur."
+    },
+    {
+      "char": "dextra",
+      "pos": "",
+      "image": "",
+      "text": "Il lui est interdit de participer ici et dans tous les prochaines Fêtes de Duel."
+    },
+    {
+      "char": "dextra",
+      "pos": "",
+      "image": "anger",
+      "text": "En plus, il est exilé de la Ville de Heartland!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Flip a eu tort, mais n'est-ce pas un peu extrême?"
+    },
+    {
+      "char": "dextra",
+      "pos": "",
+      "image": "",
+      "text": "Je vais te dire ce qui est extrême. Il a violé nos règles sacrées de conduite!"
+    },
+    {
+      "char": "dextra",
+      "pos": "",
+      "image": "",
+      "text": "Il va maintenant subir les conséquences!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "sad",
+      "text": "Je ne peux pas nier le fait que Flip a fait une énorme erreur et mérite d'être puni."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "Mais tu ne peux pas le bannir à jamais!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "Que dirais-tu si nous nous réglions ceci honorablement par un duel?"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "Si je te bats, alors tu seras d'accord pour lui donner une seconde chance."
+    },
+    {
+      "char": "dextra",
+      "pos": "",
+      "image": "neutral",
+      "text": "Très bien alors, on va se battre en duel. Si tu gagnes, ton ami obtiendra une seconde chance. Mais si tu perds, tu obtiendras exactement la même punition que lui."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "Allons en duel!"
+    }
+  ]
+}

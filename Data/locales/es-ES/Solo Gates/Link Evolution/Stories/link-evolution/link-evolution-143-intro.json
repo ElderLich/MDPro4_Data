@@ -1,0 +1,443 @@
+{
+  "name": "DuelOfDestiny_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_night",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "La noche antes de las semifinales..."
+    },
+    {
+      "char": "vetrix",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Excelente. Todo se está desarrollando como lo había planeado."
+    },
+    {
+      "char": "vetrix",
+      "pos": "",
+      "image": "smile",
+      "text": "Mañana, podré empezar la fase final, ¡y todos los Números de pronto pertenecerán a mí!"
+    },
+    {
+      "char": "vetrix",
+      "pos": "",
+      "image": "neutral",
+      "text": "Estaba obligado a aprovecharme de Trey, Quattro y Quinton para alcanzar mi objetivo, no tenía otra opción."
+    },
+    {
+      "char": "vetrix",
+      "pos": "",
+      "image": "",
+      "text": "Ahora que ellos están fuera de servicio, estoy buscando ayuda en otra parte."
+    },
+    {
+      "char": "vetrix",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "¡Vetrix!"
+    },
+    {
+      "char": "vetrix",
+      "pos": "",
+      "image": "smile",
+      "text": "Te he estado esperando."
+    },
+    {
+      "char": "vetrix",
+      "pos": "",
+      "image": "neutral",
+      "text": "Como ya sabes, la semilla de la oscuridad quedó sembrada en tu corazón durante tu duelo contra mi hijo."
+    },
+    {
+      "char": "vetrix",
+      "pos": "",
+      "image": "",
+      "text": "Pensabas que ya habías superado esta oscuridad, pero te equivocas."
+    },
+    {
+      "char": "vetrix",
+      "pos": "",
+      "image": "",
+      "text": "La semilla crecerá hasta controlarte."
+    },
+    {
+      "char": "vetrix",
+      "pos": "",
+      "image": "smile",
+      "text": "Entonces usarás la oscuridad para destruir a tu siguiente rival... ¡Yuma!"
+    },
+    {
+      "char": "vetrix",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Mientras tanto, Yuma visitó a Hart."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Hart está dormido."
+    },
+    {
+      "char": "astral",
+      "pos": "CENTER",
+      "image": "",
+      "text": "No creo que esté simplemente durmiendo."
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "Parece que Hart está inconsciente."
+    },
+    {
+      "char": "harttenjo",
+      "pos": "RIGHT:FADEIN",
+      "image": "",
+      "text": "Yuma..."
+    },
+    {
+      "char": "harttenjo",
+      "pos": "",
+      "image": "",
+      "text": "¿Puedes oírme?"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡Uy! ¡Es como si estuvieras hablando directamente en mi cabeza!"
+    },
+    {
+      "char": "harttenjo",
+      "pos": "",
+      "image": "",
+      "text": "Tengo que pedirte un favor."
+    },
+    {
+      "char": "harttenjo",
+      "pos": "",
+      "image": "",
+      "text": "¿Podrías salvar a Kite?"
+    },
+    {
+      "char": "harttenjo",
+      "pos": "",
+      "image": "",
+      "text": "Mi hermano se está debilitando cada vez más."
+    },
+    {
+      "char": "harttenjo",
+      "pos": "",
+      "image": "",
+      "text": "Quiero salvarlo, pero es imposible."
+    },
+    {
+      "char": "harttenjo",
+      "pos": "",
+      "image": "",
+      "text": "Ya no me quedan fuerzas."
+    },
+    {
+      "char": "harttenjo",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Por eso necesito que tú lo salves."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡Espera! ¡No te vayas!"
+    },
+    {
+      "char": "harttenjo",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Si pudiéramos liberar a Hart de su estado actual, existe la posibilidad de que pudiera volver a la normalidad."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "¿Qué tenemos que hacer para liberarlo?"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "No estoy seguro, pero recuerda que Kite ha dicho que está coleccionando Números para salvar a su hermano menor, entonces-"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡Yuma, alguien se acerca!"
+    },
+    {
+      "char": "drfaker",
+      "pos": "CENTER",
+      "image": "smile",
+      "text": "¡Bienvenido a mi dominio, Yuma Tsukumo!"
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "neutral",
+      "text": "¡Soy el célebre genio, Dr. Faker!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Es el Dr. Faker? He oído hablar de usted."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Es el padre de Kite y de Hart."
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "",
+      "text": "Así es. Qué placer de conocer al hijo de Kazuma Tsukumo..."
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "smile",
+      "text": "...Y tu socio, ¡el Número original!"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "¿Por qué está tratando de coleccionar Números?"
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "",
+      "text": "Todo es parte del acuerdo al que llegué con Mundo Barian."
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "¿Qué sabe usted de Barian?"
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "",
+      "text": "Sé que es un mundo distante que es bastante hostil contra tu propio Mundo Astral."
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "smile",
+      "text": "Acorde destruir al Mundo Astral a petición de los habitantes de Barian. Y a cambio, ¡recibiré un poder inimaginable!"
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "neutral",
+      "text": "¡Entonces podré conquistar la Tierra y reinaré sobre ella!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Me pone enfermo!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "¿Usted obligo a Kite a convertirse en un cazador de Números sólo para poder conseguir este poder?"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Kite y Hart están sufriendo por su culpa!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "¿Cómo puede tratar a sus propios hijos de esa manera?"
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "anger",
+      "text": "¡El bienestar de mis hijos no significa nada para mí cuando se compara con el poder que tengo a mi alcance!"
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "",
+      "text": "Estoy dispuesto a sacrificar a cualquiera para conseguir tal poder... ¡como lo hice con tu propio padre, Kazuma!"
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "neutral",
+      "text": "Un verdadero genio como yo no se puede permitir que los seres inferiores se interpongan en su camino."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "Todavía tiene que pasar por encima de mí."
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "",
+      "text": "Eso va a ser fácil. Estás destinado para que te destruyan, Yuma."
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "smile",
+      "text": "De la misma manera el Mundo Astral está condenado."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "drfaker",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_arena",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "¡Están a punto de comenzar las semifinales del World Duel Carnival!"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "mrheartland",
+      "pos": "CENTER",
+      "image": "",
+      "text": "¡Va a ser un día dinámico, mientras nos preparamos para inaugurar las emocionantes semifinales del World Duel Carnival!"
+    },
+    {
+      "char": "mrheartland",
+      "pos": "",
+      "image": "",
+      "text": "¡Aquí tenemos a nuestros cuatro finalistas! Los supervivientes ahora se enfrentarán para ver quién se convierte en el primer campeón del World Duel Carnival!"
+    },
+    {
+      "char": "mrheartland",
+      "pos": "",
+      "image": "win",
+      "text": "¡El estadio está a punto de estallar ya que Vetrix va a luchar contra Kite mientras Tiburón se enfrentará en un duelo contra Yuma!"
+    },
+    {
+      "char": "mrheartland",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "¿Qué pasa con Tiburón? Tiene un aspecto raro."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "Eh, ¡Tiburón! ¿Estás bien?"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "discouragement",
+      "text": "..."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "No reaccionó. Algo no está bien."
+    }
+  ]
+}

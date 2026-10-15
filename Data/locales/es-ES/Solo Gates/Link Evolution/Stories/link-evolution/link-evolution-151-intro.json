@@ -1,0 +1,545 @@
+{
+  "name": "BarianVengeance_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_barian",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Don Milenario, la deidad de los Barians, compareció ante Vector."
+    },
+    {
+      "char": "vector",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Pueden que me hayan derrotado, pero aún falta mucho para que nuestra batalla termine."
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "La próxima vez, ¡voy a aplastarlos de una vez por todas!"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "neutral",
+      "text": "Todo lo que necesito es la fuerza. Y si las antiguas leyendas de Barian son verdad..."
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "Don Milenario, ¡te ofrezco mi fuerza de vida a cambio de tu gran poder!"
+    },
+    {
+      "char": "donthousand",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "donthousand",
+      "pos": "",
+      "image": "win",
+      "text": "Me has despertado para pedirme un favor... el regalo de mi poder."
+    },
+    {
+      "char": "donthousand",
+      "pos": "",
+      "image": "neutral",
+      "text": "¿Por qué?"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "Hay alguien a quien debo derrotar de una vez por todas, pero no puedo hacerlo sin tu ayuda."
+    },
+    {
+      "char": "donthousand",
+      "pos": "",
+      "image": "",
+      "text": "Te refieres a Astral."
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "Sí, y el parásito de su amigo, Yuma Tsukumo."
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "Dame el poder para derrotarles y haré todo lo que me pidas."
+    },
+    {
+      "char": "donthousand",
+      "pos": "",
+      "image": "win",
+      "text": "Descubre los lugares de los siete Números Legendarios."
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "¿Siete Números Legendarios?"
+    },
+    {
+      "char": "donthousand",
+      "pos": "",
+      "image": "",
+      "text": "Recupéralos y vamos a ser imparables."
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "smile",
+      "text": "Si eso es lo que se necesita para vencer a Yuma y Astral, ¡entonces dalo hecho!"
+    },
+    {
+      "char": "vector",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "donthousand",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "En cuanto recibió el poder de Don Milenario, Vector visitó a Mizar y Dumon."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "dumon",
+      "pos": "RIGHT",
+      "image": "barian_neutral",
+      "text": ""
+    },
+    {
+      "char": "vector",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Como sabéis, Astral ha sido siempre una amenaza para nosotros. Hace muchos años, incluso derrotó a nuestra gran deidad Don Milenario y lo lanzó a las profundidades del gran mar de Barian."
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "Si continúa absorbiendo Números, ¡pronto estará en condiciones de destruir completamente el Mundo Barian!"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "smile",
+      "text": "Pero no temas, ¡Vector está aquí!"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "neutral",
+      "text": "¡He aprendido la forma en como podemos detenerlo!"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "Hay siete Números Legendarios repartidos por todo el mundo humano."
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "anger",
+      "text": "Cuando los consigamos, ¡podemos ejercer su poder para aplastar Astral!"
+    },
+    {
+      "char": "dumon",
+      "pos": "",
+      "image": "barian_neutral",
+      "text": "Si la información es correcta, entonces es imperativo que encontremos esos números antes de que Astral lo haga."
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "neutral",
+      "text": "Podríamos descubrir algo más. Si viajamos al mundo humano, podríamos encontrar pistas que nos puedan llevar a Nash."
+    },
+    {
+      "char": "dumon",
+      "pos": "",
+      "image": "barian_lose",
+      "text": "¿Con Nash?"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "Parece que fue ayer que nosotros, los siete Emperadores de Barian fuimos reducidos de siete a cinco, cuando nuestro intrépido líder Nash y Marín desaparecieron del Mundo Barian."
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "Nos pueden guiar hacia nuestros amigos perdidos mientras exploramos los portales dimensionales."
+    },
+    {
+      "char": "dumon",
+      "pos": "",
+      "image": "barian_neutral",
+      "text": "Vector tiene razón. Debemos separarnos y comenzar nuestra búsqueda de inmediato."
+    },
+    {
+      "char": "dumon",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "mizar",
+      "pos": "",
+      "image": "barian_neutral",
+      "text": "Más vale que esto funcione, Vector."
+    },
+    {
+      "char": "mizar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "vector",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_school",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Mientras tanto, Astral tuvo una visión de Don Milenario, que hizo que apareciera un mapa en el dirigible."
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Astral entonces invocó a Yuma y a sus amigos al dirigible."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "",
+      "text": "La próxima vez que nos traigas a tu dirigible, ¿podrías daros un aviso?"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "Lo siento, pero este asunto es bastante urgente."
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "Estaba aquí en la cubierta cuando este mapa planetario apareció inesperadamente."
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "Hay ruinas antiguas en cada uno de los lugares marcados."
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "Y lo más importante, ¡hay siete Números escondidos!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "¿Siete números?"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "Junto con el mapa, también había un mensaje de tu padre."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Mi padre?"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "Sí. Dice que tenemos que encontrar los siete Números Legendarios antes que los Barians lo hagan."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "neutral",
+      "text": "No quiero decepcionar a mi padre de ninguna manera. ¡Voy a encontrar esos Números!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "¡Y nada me va a detener!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "Astral, ¡traza un itinerario para llegar al primer lugar de destino!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Este dirigible va a la máxima velocidad!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Todo el mundo se dirigió a la ciudad de Spartan en busca del primero de los siete Números Legendarios, donde se reunieron con viejos amigos."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "¡Dextra y Nistro! ¿Qué tal?"
+    },
+    {
+      "char": "nistro",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "¡Yuma! ¡Es un placer verte!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Así que ya eres todo un profesional, Nistro!"
+    },
+    {
+      "char": "torimeadows",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "nistro",
+      "pos": "",
+      "image": "",
+      "text": "Sé que es un gran cambio de carrera, pero decidimos que queríamos dar esperanza a los jóvenes. Como superhéroe de los duelos Nistromo el Viajero Estelar, fui capaz de ofrecer a los fans un héroe a quien admirar."
+    },
+    {
+      "char": "dextra",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "¿De todas maneras, qué os ha traido a todos aquí a la ciudad Spartan?"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "Estamos en una misión. Estamos buscando unas ruinas antiguas."
+    },
+    {
+      "char": "nistro",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "dextra",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Dextra mostró a Yuma y a sus amigos dónde se encontraban las ruinas. Sin embargo, Alito había llegado al Número Legendario primero."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alito",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Eso parece una Carta de Número."
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Esa carta es mía!"
+    },
+    {
+      "char": "nistro",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "¡Oye, amigo! ¿Qué estás haciendo aquí?"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "¡Alito!"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "neutral",
+      "text": "Yuma Tsukumo."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "neutral",
+      "text": "¡Me alegra ver que estás bien! Yo estaba preocupado por lo que te había pasado después de nuestro duelo."
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "",
+      "text": "Como puedes ver, estoy bien. Me he recuperado completamente, y estoy deseando subir al ring contigo y tener una revancha."
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "",
+      "text": "¿Nistro, eres un duelista verdad? Entonces te encantará esta carta. ¡Échale un vistazo!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "zexal_lionheartcard",
+      "text": ""
+    },
+    {
+      "char": "nistro",
+      "pos": "",
+      "image": "anger",
+      "text": "Espera, esto es una Carta de Número."
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "",
+      "text": "¡Así es, y ahora la vas a usar para derrotar a Yuma de mi parte!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "zexal_lionheartcard",
+      "text": ""
+    },
+    {
+      "char": "nistro",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡AHHHHHH!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "¿Qué estás haciendo? ¡Detente!"
+    },
+    {
+      "char": "alito",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "nistro",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "... Tengo que eliminar todas las amenazas en contra del Mundo Barian..."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "¡La única manera de liberar la mente de Nistro del control de Alito es ganando este duelo!"
+    }
+  ]
+}

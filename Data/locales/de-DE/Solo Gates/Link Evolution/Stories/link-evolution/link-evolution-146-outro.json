@@ -1,0 +1,101 @@
+{
+  "name": "CounterOffensive_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_school",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Alito!"
+    },
+    {
+      "char": "alito",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "sad",
+      "text": "Alito, geht es dir gut? Lass mich dir aufhelfen."
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "neutral",
+      "text": "Das war wirklich ein episches Duell."
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "",
+      "text": "Hey, Astral, meine Nummer gehört jetzt dir."
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "",
+      "text": "Für mich ist es Zeit, in die Barianwelt zurückzukehren. Leb wohl …"
+    },
+    {
+      "char": "alito",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_night",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Aber Alito wurde nicht in die Barianwelt zurücktransportiert."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alito",
+      "pos": "LEFT:FADEIN",
+      "image": "surprise",
+      "text": "Das ist nicht die Barianwelt! Wer auch immer mich hierher gebracht hat, zeig dich!"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "RIGHT",
+      "image": "evil_smile",
+      "text": "Hahahaha!"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "surprise",
+      "text": "Du … bist es!"
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "name": "DoomsdayDuel_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_arena",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Kanzler Sheppard, der Schulleiter der Duell-Akademie, versammelte Jaden, Bastion, Alexis, Chazz, Dr. Crowler, Prof. Banner und Zane in seinem Büro."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Er wollte sie vor den Schattenreitern und der Macht der drei „Heiligen Ungeheuer“-Karten warnen."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Drei „was“ für heilige Karten?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "„Heilige Ungeheuer“-Karten. Aufgrund ihrer enormen Stärke und gewaltigen Macht wurden sie hier in der Akademie verborgen."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Seht ihr, diese Akademie wurde teils zu dem Zweck gebaut, die „Heiligen Ungeheuer“-Karten zu schützen. Sie wurden tief unterirdisch vergraben, wo ihre Kräfte sicher versiegelt sind."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Die Legende besagt, dass schreckliche Dinge passieren werden, sollten diese Karten je wieder ans Tageslicht gelangen …"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Es würde das Ende unserer Welt bedeuten."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Das Ende?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Deshalb seid ihr sieben hier. Um diese drei Karten vor den Bösen zu beschützen."
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "zanetruesdale",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Den Bösen?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Das ist richtig. Sieben als Schattenreiter bekannte Duellanten streben nach diesen Karten."
+    },
+    {
+      "char": "zanetruesdale",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "professorbanner",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Ich habe von diesen Schattenreitern gehört. Mit denen ist nicht zu spaßen. Ihr solltet vorsichtig sein."
+    },
+    {
+      "char": "professorbanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Okay, wie können wir denn diese Karten beschützen?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Indem ihr die sieben Geistertore schützt. Um an die Karten zu gelangen, muss man diese Tore aufschließen."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Und um sie aufzuschließen, benötigt man die sieben Schlüssel für die sieben Tore. So werden wir die Karten beschützen. Indem wir die Schlüssel verwahren."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "gx_spiritkeys",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Und das sind sie. Für jeden von euch einen zur Bewachung."
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "professorbanner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Kinder, das ist eine große Verantwortung. Auch für mich."
+    },
+    {
+      "char": "professorbanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "",
+      "image": "anguish",
+      "text": "Wir tragen die Schlüssel? Macht uns das nicht zu Angriffszielen?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Das stimmt. Mit diesen Schlüsseln werden die Schattenreiter nach euch suchen."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "gx_spiritkeys",
+      "text": ""
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "chazzprinceton",
+      "pos": "RIGHT",
+      "image": "black_amazed",
+      "text": "Eh, nach uns suchen? Sie meinen uns AUSSCHALTEN."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Höchstens in einem Duell."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "smile",
+      "text": "Zu unserem Glück können diese Schlüssel nicht einfach gestohlen werden. Ein uralter Erlass gebietet, dass die Schlüssel in einem Duell gewonnen werden müssen. Deswegen habe ich mich an die sieben besten unserer Akademie gewandt, diese Herausforderung anzunehmen und für das Gute zu kämpfen!"
+    },
+    {
+      "char": "sheppard",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "chazzprinceton",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_shadowrealm",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Später am selben Abend wurden Jaden und Alexis zu einem Vulkan transportiert, wo sie auf den ersten Schattenreiter trafen."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Wo sind wir?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "In einem sehr seltsamen Traum."
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Oder Alptraum!"
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Hahaha! Weder noch!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "surprise",
+      "text": "Was passiert hier?"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "smile",
+      "text": "Willst du damit sagen, du weißt es nicht?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "bittersleep",
+      "text": "Nenn’ mich ruhig langsam."
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ich bin Nightshroud! Ich bin derjenige, der den Schlüssel nehmen wird, den du da um deinen Hals trägst!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "surprise",
+      "text": "Wow. Ihr Typen verschwendet echt keine Zeit, oder?"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ich werde diesen Schlüssel bekommen und zwar jetzt. Oh, und um das sicherzustellen, habe ich Freunde mitgebracht."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anguish",
+      "text": "Was soll das heißen?"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "anger",
+      "text": "Sag hallo zu Syrus und Chumley! Sieht so aus als wären sie in Teufels Küche. Oder vielleicht sollte ich sagen in schmelzender Lava! Aber so funktionieren Schattenspiele nun mal, Schlüsselwächter!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anger",
+      "text": "Ein Schattenspiel? Hör mal, wir können uns duellieren! Aber lass die anderen gehen!"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ich denke nicht. Ich brauche sie, um mir ein schnelles Match zu sichern. Siehst du diese Schutzkugel, in der sie sich befinden? Sagen wir mal, sie ist nicht besonders solide gebaut."
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "Oh, und ich befürchte, das ist noch nicht alles. Deine Seele steht auch auf dem Spiel und wird in dieser Karte versiegelt, wenn du verlierst. Natürlich wird meine Seele versiegelt, falls ich verliere."
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "Aber hey, wenn wir ehrlich sind. Ich und verlieren? Auf keinen Fall. Also dann, fangen wir an?"
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "CENTER",
+      "image": "anguish",
+      "text": "Du kannst doch bei sowas nicht mitmachen!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anguish",
+      "text": "Versuch das Syrus und Chumley zu erklären! Die werden gleich zu Frikadellen in Lavasuppe! Sie sind meine Freunde und ich werde nicht zulassen, dass ihnen etwas passiert! Oder uns!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anger",
+      "text": "Außerdem ist es nicht so, als ob das mein erstes Schattenspiel wäre. Ich hoffe nur, es tut nicht so doll weh wie die anderen!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anger",
+      "text": "Okay, Mann, du willst ein Duell? Du bekommst eins! Lass uns loslegen! Zeig, was du kannst!"
+    }
+  ]
+}

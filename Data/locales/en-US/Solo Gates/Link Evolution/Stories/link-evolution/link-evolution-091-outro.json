@@ -1,0 +1,113 @@
+{
+  "name": "WD_JOEY_JoeyWheeler_MaiValentine_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_ind_illusions",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "LEFT",
+      "image": "alternate_sad",
+      "text": "I can't lose... I can't go back there... I gave up everything just to be a winner..."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Hey, Mai?"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_sad",
+      "text": "Can't lose... Won't go back there... Have to win..."
+    },
+    {
+      "char": "rafael",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Oh well. She's lost it. Valon! What are you doing!?"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "valon",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "With this fragment of the Orichalcos stone, I unlock the Seal!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Joey, are you alright!? Joey!"
+    },
+    {
+      "char": "rafael",
+      "pos": "",
+      "image": "anger",
+      "text": "What were you thinking, Valon? You betrayed Master Dartz and risked your own soul! And you mean to tell me you did all that just so you could save some girl, Valon?"
+    },
+    {
+      "char": "valon",
+      "pos": "",
+      "image": "anger",
+      "text": "She's not just some girl!"
+    },
+    {
+      "char": "rafael",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "valon",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "NONE",
+      "image": "alternate_neutral",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "CENTER",
+      "image": "sad",
+      "text": "Where's Mai? Did dose punks take her?"
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Guess so."
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Yeah, she's gone."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": "Oh no. I was so close... I'll get you back, Mai!"
+    }
+  ]
+}

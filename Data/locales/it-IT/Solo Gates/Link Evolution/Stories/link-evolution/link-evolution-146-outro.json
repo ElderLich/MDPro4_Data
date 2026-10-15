@@ -1,0 +1,101 @@
+{
+  "name": "CounterOffensive_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_school",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Alit!"
+    },
+    {
+      "char": "alito",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "sad",
+      "text": "Alit, stai bene? Lascia che ti aiuti."
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "neutral",
+      "text": "Che duello davvero epico."
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "",
+      "text": "Ehi Astral, il mio Numero appartiene a te adesso."
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "",
+      "text": "È arrivato per me il momento di tornare nel Mondo Bariano. Addio..."
+    },
+    {
+      "char": "alito",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_night",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Ma Alit non fece ritorno nel Mondo Bariano."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alito",
+      "pos": "LEFT:FADEIN",
+      "image": "surprise",
+      "text": "Questo non è il Mondo Bariano! Chi mi ha portato qui, fatti vedere!"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "RIGHT",
+      "image": "evil_smile",
+      "text": "Ahahahah!"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "surprise",
+      "text": "Sei... tu!"
+    }
+  ]
+}

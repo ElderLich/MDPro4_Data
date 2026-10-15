@@ -1,0 +1,155 @@
+{
+  "name": "RootsOfTheProblem_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Dopo la sua battaglia con Kite, Yuma sconfisse un altro duellante e prese il Numero 96: Nebbia Oscura."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Purtroppo, un mostro apparve dalla carta e attaccò Astral. Yuma fu posseduto dal mostro, il suo amico Bronk doveva salvare la situazione!"
+    },
+    {
+      "char": "astral",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Yuma, devi dare Utopia a Bronk."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "Ma perché?"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "anger",
+      "text": "Fallo e basta!"
+    },
+    {
+      "char": "astral",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "zexal_utopiacard",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Bronk! Afferra!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bronkstone",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Presa!"
+    },
+    {
+      "char": "bronkstone",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bronkstone",
+      "pos": "",
+      "image": "anger",
+      "text": "Ehi mostro oscuro e raccapricciante! Se vuoi questo Numero devi battermi in un duello!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "number96",
+      "pos": "RIGHT:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "number96",
+      "pos": "",
+      "image": "smile",
+      "text": "Un duello?"
+    },
+    {
+      "char": "number96",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "RIGHT:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "No, Bronk!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "Scappa! Dimenticami e salva te stesso!"
+    },
+    {
+      "char": "bronkstone",
+      "pos": "",
+      "image": "anger",
+      "text": "Assolutamente no, Yuma!"
+    },
+    {
+      "char": "bronkstone",
+      "pos": "",
+      "image": "",
+      "text": "Non mollo mai un amico."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "number96",
+      "pos": "RIGHT:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "number96",
+      "pos": "",
+      "image": "neutral",
+      "text": "Commovente. Molto bene, duelliamo!"
+    }
+  ]
+}

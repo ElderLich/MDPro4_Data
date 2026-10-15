@@ -1,0 +1,707 @@
+{
+  "name": "SupersensoryShakedown_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_satellite",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Dopo che la Fortune Cup si concluse, Yusei duellò contro un uomo che dichiarava di essere un \"Predestinato Oscuro.\""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yusei riuscì a sconfiggere questo nuovo nemico e cercò di interrogarlo, ma l'individuo non aveva nessun ricordo di ciò che era appena accaduto."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Quest'uomo sembrava essere sotto un tipo di controllo mentale. Tuttavia, in quel momento Yusei incontrò la giornalista Carly Carmine."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "RIGHT",
+      "image": "glasses_smile",
+      "text": "Ciao! Sono Carly Carmine. Vorrei intervistarti e sapere come ci si sente a essere il primo dilettante a diventare il campione di Nuova Domino…"
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "glasses_surprise",
+      "text": "E quello che è successo con questo tizio stravagante... Ehi, senti le sirene?"
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "glasses_discouragement",
+      "text": "Chi ha chiamato la Security?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "È meglio andarcene da qui prima che iniziano a fare domande."
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "glasses_surprise",
+      "text": "M-ma la mia intervista!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "La finiremo un'altra volta."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Più tardi, Yusei si incontrò con Rex Goodwin per scoprire ulteriori informazioni riguardo i Predestinati Oscuri."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Yusei, è giunto il momento di dirti la verità."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "5ds_signermark_yusei",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Perché non cominciamo con questo marchio?"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Questo è il Marchio del Drago Cremisi. Il marchio appartiene a chi protegge il nostro mondo dall'oscurità."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "5ds_signermark_yusei",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Questa oscurità è pericolosa. Essa può assumere molte forme, anche quelle dei tuoi amici."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Ma tu saprai la loro identità, perché avranno il Marchio dell'Ombra."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "\"Marchio dell'Ombra?\" Ti riferisci ai Predestinati Oscuri!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Come tu sei stato scelto per proteggere la luce, loro hanno scelto di proteggere l'oscurità."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Non si fermeranno mai di cercare di annientarti. Per aumentare la loro forza, assorbono le anime umane, anche quelle degli innocenti."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Tu e i tuoi amici dovrete unire le vostre forze e sconfiggere i Predestinati Oscuri."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "E se noi non ce la faremo? E se rilasceranno le ombre?"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Se ciò dovesse accadere, beh... Hai già visto un'anteprima del nostro destino."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Dopo aver parlato con Goodwin, Yusei fu inviato a Satellite alla ricerca dei Predestinati Oscuri."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Lì incontrò un vecchio amico."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "RIGHT",
+      "image": "laughter",
+      "text": "Hey, Yusei!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Che bello vederti, Crow!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Come stai?"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "laughter",
+      "text": "Come il solito. Continuo a combattere. Rubo ai ricchi per sfamare i poveri, eccetera."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "",
+      "text": "Ho sentito che adesso sei un grande campione."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Sì. Qualcosa del genere."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Crow, perché le strade sono così deserte?"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ultimamente ci sono dei tipi raccapriccianti in giro."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Predicano una dottrina stravagante e cercano di arruolare nuovi seguaci."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Bene darò un'occhiata."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Poco dopo, Crow e Yusei si trovano a faccia a faccia con un Predestinato Oscuro."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "CENTER",
+      "image": "discouragement",
+      "text": ""
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "RIGHT",
+      "image": "dark_smile",
+      "text": "Yusei!"
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_smile",
+      "text": "E il suo amico con il cervellino di uccello!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Kalin Kassler? Sei davvero tu?! Pensavo che te ne fossi andato per sempre!"
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Sbagliato, Yusei. E mentre ero via, ho fatto alcuni nuovi amici. Credo che tu abbia già duellato con uno dei miei colleghi."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Vuoi dire il Predestinato Oscuro? Stai dalla loro parte?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "Ma una volta tu eri il nostro amico!"
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_goodnightssleep",
+      "text": "\"Una volta ero il tuo amico,\" sì. Ma ora... il tuo nemico!"
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_smile",
+      "text": "Preparati per il duello della tua vita!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "È un Predestinato Oscuro. Questo è ciò che Goodwin stava riferendosi quando ha detto che l'oscurità può presentarsi nella forma di un amico!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_smile",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_satellite",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anguish",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Durante il loro duello, Kalin evocò l'Immortale Terrestre Ccapac Apu, e la creatura assorbì le anime umane presenti nell'arena."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Kalin poi utilizzò questo mostro per sconfiggere Yusei. Gli amici di Yusei immediatamente si precipitarono al suo fianco."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_citysquare",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Nel frattempo, Luna e Leo discussero la loro prossima mossa per fermare i Predestinati Oscuri."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Siccome combattiamo il male, allora noi siamo supereroi. I supereroi stanno sempre a fianco a fianco."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "Penso che sia la cosa più importante!"
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "I loro superpoteri sono la cosa più importante..."
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "",
+      "image": "smile",
+      "text": "In ogni caso, hai assolutamente ragione, Leo. Restiamo qui insieme in questa bella villa accogliente."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "E Akiza?"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "Sarà un Predestinato, ma non significa che possiamo fidarci di lei."
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "",
+      "text": "Fa parte di quello strano Movimento Arcadia che ha tutti quegli psichici."
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Il loro obiettivo principale è quello di addestrare i duellanti a infliggere danni reali."
+    },
+    {
+      "char": "luna",
+      "pos": "LEFT",
+      "image": "discouragement",
+      "text": "Ma Akiza non farebbe mai del male alle persone!"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "",
+      "text": "Chi lo sa. Io dico di stargli il più lontano possibile."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Ma Yanagi ha detto che gli eroi devono rimanere insieme! E se avesse bisogno del nostro aiuto?"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "anger",
+      "text": "Oppure se Yusei è nei guai e dobbiamo usare il deck di Akiza come riserva?"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "Ci sono un milione di motivi per cui questa è una buona idea!"
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bolttanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Nel frattempo Leo, Luna, Bolt e Tenzen viaggiarono al quartier generale del Movimento Arcadia per ottenere aiuto da Akiza."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sayer",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Volete vedere Akiza? È molto occupata adesso."
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "",
+      "text": "Se siete venuti fino a qua ci dev'essere qualcosa di incredibilmente importante."
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Akiza ha il Marchio del Drago. Ciò Significa che lei è un supereroe!"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "Anch'io e Luna siamo supereroi. Stiamo aiutando il nostro amico Yusei a combattere i Predestinati Oscuri e a salvare la città!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ultimamente ho notato alcuni strani avvenimenti. Mi piacerebbe aiutarvi."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "shy",
+      "text": "Veramente?!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile1",
+      "text": "Il Movimento Arcadia rappresenta tutto ciò che è buono. Vi prometto che farò di tutto per fermare questa minaccia!"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "D'accordo!"
+    },
+    {
+      "char": "luna",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Grazie!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ora, se mi scusate, vado a prendere Akiza."
+    },
+    {
+      "char": "sayer",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bolttanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Purtroppo, l'intera visita fu una trappola tesa da Sayer. La sua intenzione era di testare le capacità di Leo per scoprire se erano simili a quelle di Luna."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Dov'è Luna? Dove mi trovo? Perché sono incatenato con questo aggeggio sulla mia testa?"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "neutral",
+      "text": "Quel casco rileva i poteri psichici latenti, se ne hai."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Che cosa? Hai detto che stavi andando a prendere Akiza per aiutarci a combattere i Predestinati Oscuri!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile2",
+      "text": "La società dovrà pagare per come ha discriminato e trattato gli psichici!"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Che cosa ne farai di me?! Prenderai il mio cervello o qualcosa di simile?!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile1",
+      "text": "Ovviamente no. Sei solo qui per fare un test. Voglio vedere se hai la potenza di un duellante psichico."
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile2",
+      "text": "Akiza era solo un'anteprima. Ho decine di altri duellanti psichici ai miei ordini!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile1",
+      "text": "Gli psichici possono fare cose incredibili con le loro menti."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Vuoi dire che Akiza ti aiuterà a pareggiare i conti? Ma lei dovrebbe essere un eroe!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile2",
+      "text": "Un eroe? Lei non sa nemmeno quello che sto veramente facendo qui! Ora inizieremo il test!"
+    }
+  ]
+}

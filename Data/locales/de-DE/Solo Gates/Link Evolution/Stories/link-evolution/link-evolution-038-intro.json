@@ -1,0 +1,341 @@
+{
+  "name": "FusionFoes_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_paradisecity",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "masumi",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Zuzu begegnete ihrer alten Rivalin Julia, die sich mit einer unbekannten Person duellierte. Beim Anblick des bekannten Gesichtes hielt sie inne."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "neutral",
+      "text": "Julia!"
+    },
+    {
+      "char": "masumi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Dreh dich um und geh weg. Ich kann nicht zulassen, dass du das Duell meines Kollegen mit diesem Mädchen störst."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Dein „Kollege“? Ist Julia etwa in Gefahr? Wer seid ihr? Was wollt ihr?"
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "Wir haben Feinde, Zuzu. Und eine Freundin von uns wurde von ihnen entführt. Wir werden vor nichts Halt machen, um sie zurückzuholen."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "„Sie“?"
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "Das erste Mal, als ich dich sah, dachte ich, du wärst Lulu."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Lulu ist also die Freundin, nach der ihr sucht? Wer ist sie?"
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "Sie ist die Schwester meines Kollegen. Sein Name ist Shay."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Was ist mit dir? Ich weiß immer noch nicht, wie du heißt."
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "smile",
+      "text": "Mein Name ist … Yuto."
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "masumi",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Du bist derjenige, der Professor Marco angegriffen hat, richtig? Gib es zu!"
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Oh, der … Ich hatte gehofft, er würde mir wenigstens ein gutes Duell liefern. Aber er war erbärmlich."
+    },
+    {
+      "char": "masumi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Leute, ich habe ihn gefunden. Ich sende euch meinen Standort. Beeilt euch!"
+    },
+    {
+      "char": "masumi",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "hokuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "yaiba",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "",
+      "image": "neutral",
+      "text": "Du hast um Hilfe gerufen? Nur zwei Leute … Du scheinst mich zu unterschätzen."
+    },
+    {
+      "char": "hokuto",
+      "pos": "NONE",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "yaiba",
+      "pos": "NONE",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "masumi",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_risefalconcard",
+      "text": ""
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "",
+      "image": "anger",
+      "text": "Überfallraptor - Aufsteigender Falke wird euch alle erledigen! Verheerende Rebellion!"
+    },
+    {
+      "char": "masumi",
+      "pos": "NONE",
+      "image": "anger",
+      "text": "Aaagh!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "arcv_risefalconcard",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Eine Person stellte sich jedoch Shay entgegen, um ihm Einhalt zu gebieten."
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "",
+      "image": "neutral",
+      "text": "Wer bist du?"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Declan Akaba. Der amtierende Präsident der Leo Corporation. Leo Akabas Sohn."
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "",
+      "image": "anger",
+      "text": "Dein verfluchter Vater hat Lulu, und ich werde alles tun, um sie zurückzuholen … Dabei wirst du einen guten Köder abgeben!"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Nun, wenn du genau das tust, was ich sage, bin ich bereit, mich mit dir zu duellieren."
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_arcleaguechampionship",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Einige Tage später begann die Arc Meisterschaft!"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Ich wusste, dass ihr talentiert seid, aber wer hätte gedacht, dass ihr euch alle für die Arc Meisterschaft qualifizieren würdet?"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "neutral",
+      "text": "Yuya, Zuzu und Sora. Ihr werdet in der Juniorenliga antreten."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "Mal sehen, mit wem ich mich zuerst duellieren soll … Sylvio!? Und das Duell ist für morgen geplant!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Mein erster Gegner ist … Julia!? Mein Duell ist heute Nachmittag."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "Und du, Sora?"
+    },
+    {
+      "char": "sora",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Ich duelliere mich morgen. Mit jemandem vom Leo Institut. Einem Typen namens Shay Obsidian."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "sad",
+      "text": "Shay Obsidian …"
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sora",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "masumi",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Ah, da bist du ja, Zuzu! Mein erstes Opfer in diesem Turnier."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Julia!"
+    },
+    {
+      "char": "masumi",
+      "pos": "",
+      "image": "smile",
+      "text": "Hast du vor, wieder gegen mich zu verlieren?"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "anger",
+      "text": "Verlass dich nicht darauf, Julia! Ich trainiere hart, seit du mich geschlagen hast, und jetzt bin ich bereit für eine Revanche!"
+    }
+  ]
+}

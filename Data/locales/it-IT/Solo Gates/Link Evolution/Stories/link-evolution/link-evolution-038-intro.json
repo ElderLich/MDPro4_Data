@@ -1,0 +1,341 @@
+{
+  "name": "FusionFoes_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_paradisecity",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "masumi",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Zuzu si imbatté nella sua vecchia rivale, Julia, impegnata in un duello con un avversario misterioso. Ma prima che potesse aiutarla, un volto conosciuto la fermò."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "neutral",
+      "text": "Julia!"
+    },
+    {
+      "char": "masumi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Torna indietro e vattene. Non posso lasciarti interferire nel duello del mio collega con quella ragazza."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Il tuo \"collega\"? Quindi Julia è in pericolo? Chi siete? Cosa volete?"
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "Abbiamo dei nemici, Zuzu, e hanno preso una nostra amica. Faremo qualsiasi cosa per ritrovarla."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Amica?"
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "La prima volta che ti ho visto, pensavo fossi Lulu."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Quindi è questa Lulu l'amica che vi hanno portato via? E chi è?"
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "È la sorella del mio collega. Lui si chiama Shay."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "E tu? Non mi hai ancora detto come ti chiami."
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "smile",
+      "text": "Io... sono Yuto."
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "masumi",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Sei tu che hai attaccato il Professor Marco, vero? Perché non lo ammetti?!"
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Ah, quello... Speravo che almeno lui mi avrebbe fatto divertire. Ma si è rivelato patetico."
+    },
+    {
+      "char": "masumi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ragazzi, l'ho trovato. Vi invio la mia posizione. Sbrigatevi!"
+    },
+    {
+      "char": "masumi",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "hokuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "yaiba",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "",
+      "image": "neutral",
+      "text": "E così hai chiamato rinforzi? Ma sono solo in due. A quanto pare, mi sottovaluti."
+    },
+    {
+      "char": "hokuto",
+      "pos": "NONE",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "yaiba",
+      "pos": "NONE",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "masumi",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_risefalconcard",
+      "text": ""
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "",
+      "image": "anger",
+      "text": "Raidraptor - Falco Ascendente vi eliminerà tutti quanti! Ribellione Devastante!"
+    },
+    {
+      "char": "masumi",
+      "pos": "NONE",
+      "image": "anger",
+      "text": "Aaagh!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "arcv_risefalconcard",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Tuttavia, qualcuno impedì a Shay di portare a termine il suo assalto."
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "",
+      "image": "neutral",
+      "text": "E tu chi sei?"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Mi chiamo Declan Akaba. Sono il presidente in carica della Leo Corporation. Il figlio di Leo Akaba."
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "",
+      "image": "anger",
+      "text": "Il tuo spregevole padre ha preso Lulu, e farò qualsiasi cosa per riaverla... anche usare te come esca!"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "D'accordo. Se farai come dico, accetto di essere il tuo avversario."
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_arcleaguechampionship",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Diversi giorni dopo, ebbe inizio il Campionato dell'Arc League!"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Sapevo che avevate talento, ragazzi, ma chi avrebbe immaginato che vi sareste tutti qualificati per il Campionato dell'Arc League?!"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "neutral",
+      "text": "Yuya, Zuzu e Sora. Parteciperete nella Divisione Junior."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "Vediamo un po' chi sarà il mio primo avversario... Shingo?! E il duello sarà domani!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Il mio primo avversario sarà... Julia?! Il mio duello è oggi pomeriggio."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "E il tuo, Sora?"
+    },
+    {
+      "char": "sora",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Il mio è domani, contro un tizio dell'Istituto Leo. Un tale Shay Obsidian."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "sad",
+      "text": "Shay Obsidian..."
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sora",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "masumi",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Ah, eccoti, Zuzu! La mia prima vittima nel torneo."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Julia!"
+    },
+    {
+      "char": "masumi",
+      "pos": "",
+      "image": "smile",
+      "text": "Vuoi farti di nuovo stracciare?"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "anger",
+      "text": "Non ci contare, Julia! Mi sono allenata duramente da quando mi hai battuto e sono pronta a prendermi la rivincita!"
+    }
+  ]
+}

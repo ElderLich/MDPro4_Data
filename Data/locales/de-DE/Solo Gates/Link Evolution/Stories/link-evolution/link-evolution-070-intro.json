@@ -1,0 +1,245 @@
+{
+  "name": "TheDinosaurDuelist_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_duelistkingdom",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Mai Valentine saß auf einem Hügel, um ein wenig Zeit für sich zu haben."
+    },
+    {
+      "char": "maivalentine",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "Ich verstehe das nicht. Die Teufelskerle von Duellanten fertigzumachen macht normalerweise genauso viel Spaß wie ein Schlussverkauf. Warum habe ich keine Freude mehr daran?"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "anger",
+      "text": "Grrr! Daran ist diese Nervensäge Joey schuld! Kaum zu glauben, dass so ein Amateur mich besiegen konnte! Ich muss es diesem grinsenden Mistkerl heimzahlen!"
+    },
+    {
+      "char": "rexraptor",
+      "pos": "RIGHT",
+      "image": "win",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "In diesem Moment sprang überraschte sie Rex Raptor, den Mai auf dem Weg zum Königreich der Duellanten im Duell besiegt hatte."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexraptor",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Ich bin es, Rex Raptor, der Dino-Duellant! Und es juckt mich in den Fingern, das Match zu beenden, das wir auf dem Schiff angefangen haben!"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "smile",
+      "text": "Komisch. Ich dachte, ich hätte dir schon deinen Jura-Hintern versohlt!"
+    },
+    {
+      "char": "rexraptor",
+      "pos": "",
+      "image": "win",
+      "text": "Denk doch, was du willst! Ich werde dich zertrampeln!"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "surprise",
+      "text": "Du glaubst wirklich, dass ich auch nur eine Minute mit einem Erbsenhirn wie dir verplempern werde? Hau ab, Dino-Schnaufer. Kusch! Kusch!"
+    },
+    {
+      "char": "rexraptor",
+      "pos": "",
+      "image": "lose",
+      "text": "Grrr! Erbsenhirn?! Ich war dieses Jahr zufälligerweise im Finale der Regional Championship, und du sollst wissen, dass ich bereits fünf Sternenmarken gewonnen habe!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Mai hielt ihr Armband hoch und zeigte ihre Sternenmarken."
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "smile",
+      "text": ""
+    },
+    {
+      "char": "rexraptor",
+      "pos": "",
+      "image": "lose",
+      "text": "Wow! Wie hast du schon acht Marken bekommen?!"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "",
+      "text": "Von Jammerlappen wie dir, die glauben, wenn sie gegen ein Mädel antreten, kommen sie leicht an ein paar Sterne. Ich habe nur einmal verloren, aber sobald ich diesen Mistkerl Joey finde, zahle ich es ihm heim."
+    },
+    {
+      "char": "rexraptor",
+      "pos": "",
+      "image": "win",
+      "text": "Joey Wheeler? Wie konntest du nur gegen ihn verlieren?"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "",
+      "text": "Ich wäre ja gerne dabei, wenn du es versuchst … Hmm, da kommt mir eine Idee!"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "smile",
+      "text": "Rex, ich bin bereit, mich mit dir zu duellieren … wenn du mir vorher einen Gefallen tust."
+    },
+    {
+      "char": "rexraptor",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Mai und Rex haben Yugi und seine Freunde gesucht, in der Hoffnung, so Joey zu finden. Und es hat auch nicht lang gedauert."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Oh nein. Sag mir, das ist nicht die, für die ich sie halte?"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Wie geht es dir, Joseph? Freust du dich, mich wiederzusehen?"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "sad",
+      "text": "Ich bin begeistert."
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "",
+      "text": "Also, Joey, trägt Yugi immer noch deine Kämpfe für dich aus? Jeder weiß doch, dass du mich niemals besiegt hättest, wenn Yugi dir nicht das Händchen gehalten hätte. Stimmt doch, Yugi, oder?"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Das stimmt nicht."
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "smile",
+      "text": "Ach, wirklich? Dann schlage ich vor, dass er hier und jetzt aus deinem Schatten heraustritt. Wenn Joey denkt, er ist so stark, soll er es beweisen."
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "",
+      "text": "Na, traust du dich wirklich, dich dem Duellanten zu stellen, den ich für dich gewählt habe?"
+    },
+    {
+      "char": "rexraptor",
+      "pos": "RIGHT_BACK",
+      "image": "",
+      "text": "Ich duelliere mich für Mai. Erkennst du mich?"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "Das ist Rex Raptor!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "Soll mir der Trottel Angst einjagen, oder was? Der ist doch auch keine Herausforderung."
+    },
+    {
+      "char": "teagardner",
+      "pos": "LEFT_BACK",
+      "image": "surprise",
+      "text": "Erinnerst du dich nicht, Joey? Rex hat bei der Regional Championship den zweiten Platz belegt."
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "",
+      "text": "Nun, Joey? Musst du erst noch Mama um Erlaubnis bitten, oder was ist los?"
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "",
+      "text": "Das ist deine große Chance, dich zu beweisen. Oder kneifst du etwa?"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "Keine Sorge, Schwester. Du wirst stolz auf mich sein."
+    },
+    {
+      "char": "maivalentine",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexraptor",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Also gut. Es wird Zeit, den Dino zu füttern. Duellieren wir uns!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "Komm schon!"
+    }
+  ]
+}

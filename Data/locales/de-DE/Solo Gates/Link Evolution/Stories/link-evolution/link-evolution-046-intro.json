@@ -1,0 +1,413 @@
+{
+  "name": "CrowsCrew_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_commons",
+      "text": ""
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "CENTER:FADEIN",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "RIGHT:FADEIN",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT:FADEIN",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Während sich die Lancer in die Synchrodimension teleportierten, hielt die Sektorensicherheit Yuya für den flüchtigen Yugo."
+    },
+    {
+      "char": "declanakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "Also der Dimensionssprung war sicher nicht sehr angenehm."
+    },
+    {
+      "char": "yuya",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Wo sind wir?"
+    },
+    {
+      "char": "celina",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Wie Declan sagte: in der Synchrodimension."
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "",
+      "image": "sad",
+      "text": "…"
+    },
+    {
+      "char": "celina",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Wir suchen seit letzter Nacht nach euch lausigen Pennern!"
+    },
+    {
+      "char": "yuya",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Seit letzter Nacht? Aber wir sind gerade erst angekommen."
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "NONE",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_raikirirosecard",
+      "text": ""
+    },
+    {
+      "char": "crowhoganarcv",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Lasst diese Leute in Ruhe! Raikiri – mach einen Weg frei!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "arcv_raikirirosecard",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Danke für deine Hilfe! Ich hätte die Situation in den Griff bekommen, aber das Springen durch die Dimensionen schlaucht ganz schön!"
+    },
+    {
+      "char": "crowhoganarcv",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "Ähm, von wo seid ihr gesprungen?"
+    },
+    {
+      "char": "crowhoganarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Paradise City. Ich bin Sylvio Sawatari. In der Standarddimension bin ich ein Superstar unter den Duellanten."
+    },
+    {
+      "char": "yuya",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "smile",
+      "text": "Und das ist Yuya Sakaki, mein persönlicher Assistent."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "anger",
+      "text": "Was?!"
+    },
+    {
+      "char": "celina",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Und diese Kratzbürste hier ist Celina. Sie kommt aus einer ganz anderen Dimension."
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "anger",
+      "text": "!"
+    },
+    {
+      "char": "celina",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Ich weiß, es ist schwer zu glauben, aber wir sind in deine Dimension gekommen, um Duellanten zu finden, die uns helfen können, die Galaxie zu retten."
+    },
+    {
+      "char": "crowhoganarcv",
+      "pos": "",
+      "image": "smile",
+      "text": "Hm, ich kapier nicht ganz, was ihr da für ein verrücktes Zeug labert, aber ihr scheint ganz okay zu sein."
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Ah!"
+    },
+    {
+      "char": "crowhoganarcv",
+      "pos": "",
+      "image": "surprise",
+      "text": "Sektorensicherheit!"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "anger",
+      "text": "Loslassen! Wisst ihr überhaupt, wer ich bin?"
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "",
+      "image": "smile",
+      "text": "Ist mir vollkommen egal. Du bist verhaftet!"
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhoganarcv",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_council",
+      "text": ""
+    },
+    {
+      "char": "jeanmichelroget",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Die Lancer wurden festgenommen und vor den Hohen Rat geführt."
+    },
+    {
+      "char": "jeanmichelroget",
+      "pos": "",
+      "image": "neutral",
+      "text": "Erlaubt mir, mich vorzustellen. Mein Name ist Jean Michel Roget und ich bin der Direktor der Sektorensicherheit."
+    },
+    {
+      "char": "jeanmichelroget",
+      "pos": "",
+      "image": "anger",
+      "text": "Ihr habt euch der Sektorensicherheit widersetzt. Das ist ein schwerwiegender Verstoß gegen die Gesetze der Stadt."
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Du kannst uns kaum vorwerfen, dass wir uns verteidigt haben! Deine Leute haben uns gejagt, seit wir aus unserer Dimension hier angekommen sind!"
+    },
+    {
+      "char": "jeanmichelroget",
+      "pos": "",
+      "image": "smile",
+      "text": "„Aus eurer Dimension“?"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Er sagt die Wahrheit. Wir kommen in Frieden, nicht, um Chaos zu stiften. Eure Welt wird sehr bald von Kriegern der Fusionsdimension angegriffen. Wir können euch helfen, sie zu bekämpfen."
+    },
+    {
+      "char": "jeanmichelroget",
+      "pos": "",
+      "image": "neutral",
+      "text": "Einen Moment mal … Dimensionen, die sich bekämpfen? Die Dimensionsreise würde ich euch ja noch abkaufen, aber Dimensionskriege?"
+    },
+    {
+      "char": "jeanmichelroget",
+      "pos": "",
+      "image": "neutral",
+      "text": "So oder so, mein Sicherheitsteam ist ziemlich gut aufgestellt. Wir brauchen eure Hilfe nicht."
+    },
+    {
+      "char": "gale",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": "Genug, Direktor! Wir werden diese Befragung übernehmen. Ihr behauptet, Freunde dieser Welt zu sein? Ihr werdet die Chance erhalten, uns das zu beweisen."
+    },
+    {
+      "char": "shingo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Beweisen? Wie?"
+    },
+    {
+      "char": "gale",
+      "pos": "",
+      "image": "neutral",
+      "text": "Indem ihr am Freundschafts-Cup teilnehmt."
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Ist das ein Duell-Turnier?"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Wenn diese Leute nicht glauben, dass wir Lancer diese Dimension schützen können, nehmen wir am Turnier teil, um ihnen unser Können zu zeigen."
+    },
+    {
+      "char": "gale",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jeanmichelroget",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Und so begann der Freundschafts-Cup. Duellanten fuhren D-Wheels und maßen sich in Turboduellen."
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_friendshipcup",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Crow und Gong standen sich im Eröffnungsmatch des Freundschafts-Cups gegenüber."
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Gong hat noch nie auf so einem Teil gesessen … Aber wenn Gong dieses Turnier gewinnen will, muss Gong richtig Gas geben!"
+    },
+    {
+      "char": "crowhoganarcv",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Ich muss dieses Turnier gewinnen! Wenn das bedeutet, dass ich Gong überfahren muss, dann werde ich genau das tun."
+    }
+  ]
+}

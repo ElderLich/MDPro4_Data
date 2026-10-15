@@ -1,0 +1,65 @@
+{
+  "name": "RiseOfTheSacredBeasts_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_genericoutdoor2",
+      "text": ""
+    },
+    {
+      "char": "kagemaru",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "¡Imposible! ¡Las Bestias Sagradas no pueden ser derrotadas!"
+    },
+    {
+      "char": "kagemaru",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kagemaru",
+      "pos": "FADEIN:RIGHT",
+      "image": "old_neutral",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Que rayos- ¿Estás bien?"
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "old_discouragement",
+      "text": "Es cierto. Soy un hombre viejo. Y simplemente quiero lo que todo hombre viejo quiere... Ser joven otra vez."
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "old_discouragement",
+      "text": "Y canalizando el poder de esas Bestias Sagradas es la única manera de poder hacerlo."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "Sí... y para apoderarse del mundo."
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "old_discouragement",
+      "text": "¿No podrías perdonar el alma de este viejo decrépito?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "Sí, supongo... ¿Pero sabes que viejo? Robando la energía de algo o de alguien no es la manera de sentirse joven otra vez. ¡Tienes que encontrar esa fuerza en tu interior!"
+    }
+  ]
+}

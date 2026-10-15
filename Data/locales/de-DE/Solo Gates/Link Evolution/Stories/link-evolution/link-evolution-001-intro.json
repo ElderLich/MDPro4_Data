@@ -1,0 +1,245 @@
+{
+  "name": "ReadySetDuel_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "bg_vgs",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "5D's-Geschichten werden geladen …"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_citysquare",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Duellanten! Jung und Alt, Profis und Amateure: Das ist der Moment, auf den ihr alle gewartet habt!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Willkommen in New Domino City, der Heimat der Turboduelle."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Turboduelle sind eine neue Form des Duells, die mit Motorrädern ausgetragen werden, die man auch als „D-Wheels“ kennt."
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_satellite",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Allerdings beginnt unsere Geschichte nicht in New Domino City. Wir treffen unseren Helden, Yusei Fudo, in den ärmeren Vororten, die als sogenannter „Satellite“ zusammengefasst werden."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "notattoo_anguish",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yusei wurde von dem bisher ungeschlagenen Turboduell-Champion Jack Atlas Unrecht getan."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Die beiden waren einmal eng befreundet, aber Jack hat Yusei zwei seiner kostbarsten Besitztümer entwendet: die Sternenstaubdrachen-Karte und seinen schicken D-Wheel."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Jack hat Satellite verlassen und wurde zum Turboduell-Champion in New Domino City."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yusei wollte Jack zur Verantwortung ziehen, aber leider stand ihm immer die Sektorensicherheit im Weg."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "notattoo_neutral",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rallydawson",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yuseis Freund Rally hat einen Skylon-30-Beschleunigungschip „gefunden“. Yusei benötigte diesen Chip unbedingt für den neuen D-Whell, den er gerade zusammenstellte."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rallydawson",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Yusei! Hey, Yusei!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "notattoo_neutral",
+      "text": ""
+    },
+    {
+      "char": "rallydawson",
+      "pos": "",
+      "image": "neutral",
+      "text": "Schau dir das an!"
+    },
+    {
+      "char": "rallydawson",
+      "pos": "",
+      "image": "",
+      "text": "Es ist ein Skylon-30-Beschleunigungschip."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "notattoo_neutral",
+      "text": "Sind die nicht unglaublich teuer? Sag mir bitte nicht, dass du ihn geklaut hast!"
+    },
+    {
+      "char": "rallydawson",
+      "pos": "",
+      "image": "anger",
+      "text": "Ich habe ihn nicht gestohlen! Er lag am helllichten Tag auf dem Boden herum."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "notattoo_smile",
+      "text": "Okay, danke! Das ist genau das, was ich gebraucht habe!"
+    },
+    {
+      "char": "rallydawson",
+      "pos": "",
+      "image": "smile",
+      "text": "Ich wusste, dass dir das gefallen würde! Wird dieser Chip deinen D-Wheel beschleunigen?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "notattoo_smile",
+      "text": "Auf jeden Fall!"
+    },
+    {
+      "char": "rallydawson",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "notattoo_neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Leider konnte die Sektorensicherheit Rally aufspüren und hat schnell herausgefunden, wo Yusei und seine Freunde sich aufhalten."
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Also musste Yusei sich mit der Sektorensicherheit auseinandersetzen und seinen Freunden aus der Patsche helfen."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "smile",
+      "text": "Mir war klar, dass ich dich hätte einsperren sollen, als du noch ein Grünschnabel warst. Scheint, als hätte ich endlich Gelegenheit dazu!"
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "neutral",
+      "text": "Willst du Widerstand leisten oder kommst du einfach mit?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "notattoo_neutral",
+      "text": "Werde ich … wenn es dir gelingt, mich zu schlagen!"
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "smile",
+      "text": "Abgemacht!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "notattoo_neutral",
+      "text": ""
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "neutral",
+      "text": "Du Idiot!"
+    }
+  ]
+}

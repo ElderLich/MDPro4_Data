@@ -1,0 +1,227 @@
+{
+  "name": "TheShadowDuelist_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_genericoutdoor2",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Jaden schlenderte mit seinen Freunden Syrus und Chumley über das Schulgelände, wo sie auf ein altes, verlassenes Wohnheim stießen, in dem es angeblich spukte."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Zu ihrer Überraschung trafen sie dort auf Alexis."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "BACK_RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "RIGHT",
+      "image": "red_neutral",
+      "text": ""
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_surprise",
+      "text": "Alexis? Was machst du hier?"
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "",
+      "image": "surprise",
+      "text": "Komisch, ich wollte euch gerade dasselbe fragen."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "Wir haben von diesem Wohnheim gehört und wollten es mal angucken."
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "",
+      "image": "anguish",
+      "text": "Nun, das ist nicht sehr schlau. Wusstet ihr nicht, dass hier des Öfteren Kinder verschwinden?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "smile",
+      "text": "Ach, das ist doch nur so ein Großstadtmythos."
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "",
+      "image": "anguish",
+      "text": "Nein, ist es nicht. Das könnt ihr mir glauben. Warum sonst würde die Akademie es strengstens verbieten, hierher zu kommen?"
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "",
+      "image": "surprise",
+      "text": "Wenn sie dich hier erwischen, wirst du rausgeworfen, Jaden."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "Und warum bist DU dann hier?"
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "",
+      "image": "bittersleep",
+      "text": "Eines der Kinder, die hier verschwunden sind … war mein Bruder."
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_surprise",
+      "text": "Wenn Alexis’ Bruder wirklich hier verschwunden ist, dann sind das nicht nur Gerüchte! Ich schlage vor, wir kehren um, Jaden!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "Echt? Ich sage, wir gehen rein!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_discouragement",
+      "text": "Was?! Ah, warte doch!"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Ich hoffe, Jaden weiß, was er tut …"
+    },
+    {
+      "char": "titan",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "",
+      "image": "surprise",
+      "text": "Ah! Wer bist du?"
+    },
+    {
+      "char": "titan",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Während Jaden und seine Freunde das Wohnheim erkundeten, wurde Alexis von Titan gefangen genommen, einem berüchtigten Auftragskiller, den Dr. Crowler angeheuert hatte, um Jaden aus der Akademie zu werfen. Titan schloss Alexis in einen Sarg ein, um damit Jaden zu einem Duell anzustacheln."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Lass Alexis sofort frei oder du wirst es bereuen!"
+    },
+    {
+      "char": "titan",
+      "pos": "RIGHT",
+      "image": "dark_smile",
+      "text": "Ich lasse sie nur frei, wenn du mich in einem Schattenspiel besiegst."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "Ich habe keine Angst vor einem Duell, aber Schattenspiele gibt es nicht."
+    },
+    {
+      "char": "titan",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Die anderen haben auch zuerst nicht an Schattenspiele geglaubt, aber sie waren schnell überzeugt. Denn, wie du sehen wirst, bezahlst du bei einem Schattenspiel nicht nur mit Life Points … sondern mit deiner Seele."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "Also steckst du hinter all dem Verschwinden! Tja, uns bekommst du nicht – schon gar nicht Alexis!"
+    },
+    {
+      "char": "titan",
+      "pos": "",
+      "image": "",
+      "text": "Wenn du nicht gewinnst, gehört sie für immer mir … und du auch!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "Na gut, mach dich bereit!"
+    }
+  ]
+}

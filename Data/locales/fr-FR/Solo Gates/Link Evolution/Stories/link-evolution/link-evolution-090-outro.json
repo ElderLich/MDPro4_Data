@@ -1,0 +1,143 @@
+{
+  "name": "TheFinalFaceOff_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_blimp",
+      "text": ""
+    },
+    {
+      "char": "odion",
+      "pos": "BACK_LEFT",
+      "image": "",
+      "text": "Maître Marek."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "Mon frère, s'il te plaît dis-moi que tu vas bien."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "RIGHT",
+      "image": "good_sad",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Marek, c'est terminé! Ton côté maléfique a été banni pour toujours!"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_neutral",
+      "text": "C'est enfin terminé, mon Pharaon."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Oui. Et les ténèbres ont quitté ton cœur."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "neutral",
+      "text": "Marek a vaincu le mal qui le contrôlait depuis si longtemps."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "smile",
+      "text": "Mon Pharaon, je te remercie. Tu as sauvé l'humanité."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Nous l'avons fait ensemble. Je n'aurais pas été victorieux n'eût été vous tous."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_neutral",
+      "text": "Pharaon, sois assuré que tous ceux qui ont été banni du royaume des ombres par mes ténèbres reviendront."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "smile",
+      "text": "Merci."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_smile",
+      "text": "J'ai une autre tâche à accomplir avant que ma mission de mon gardien de tombe ne se termine."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_neutral",
+      "text": "Sois témoin du secret de la puissance du pharaon inscrit sur mon dos. Ces marques ont été transmises par ma famille de génération en génération depuis cinq mille ans."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "On nous a appris que lorsque l'ancien Pharaon sauva le monde de la destruction, il effaça sa propre mémoire. Mais il savait qu'un jour il reviendrait et il aurait besoin de retrouver la mémoire."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Donc, il confia une famille avec son plus grand secret : la clé pour débloquer son esprit et son pouvoir! Maintenant que tu détiens les trois cartes Dieux Égyptiens et le Puzzle du Millénium, tout ce que tu devras faire est de lire les mots sur le dos de Marek. Tu es si proche."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_smile",
+      "text": "Il est temps pour nous de partir maintenant, Pharaon. Alors prends ceci s'il te plaît. La Baguette du Millénium t'appartient et ainsi, elle ne causera plus de mal."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "millenniumrod",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "Merci."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "millenniumrod",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_smile",
+      "text": "Et prends aussi ceci. L'Anneau du Millénium est en meilleure sécurité avec toi."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "millenniumring",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Avec Yugi possédant maintenant tous les Objets du Millénium et les trois cartes Dieux Égyptiens, il pouvait maintenant s'assurer que les Jeux des Ombres ne reviendraient plus jamais!"
+    }
+  ]
+}

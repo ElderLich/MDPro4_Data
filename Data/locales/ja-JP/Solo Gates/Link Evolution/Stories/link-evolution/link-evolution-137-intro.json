@@ -1,0 +1,611 @@
+{
+  "name": "LoveHurts_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "ワールドデュエルカーニバルが$R始(はじ)まろうとしていた　それぞれのデュエリストには　それぞれの\n$R試練(しれん)があった"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "quattro",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "$R久(ひさ)しぶりですね　$R凌牙(りょうが)…"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "いえ　シャークと$R呼(よ)んだほうが$R良(よ)いのでしょうか"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "smile",
+      "text": "そんな$R険(けわ)しい$R顔(かお)をしなくても　ただの$R挨拶(あいさつ)ですよ　デュエルカーニバルが$R始(はじ)まる$R前(まえ)のね"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "",
+      "text": "お$R前(まえ)は…"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "",
+      "text": "オレは$R大会(たいかい)には$R出(で)ない"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "おやおや　まだあの$R時(とき)の$R事(こと)を$R引(ひ)きずってるとは"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "じゃあ$R面白(おもしろ)い$R話(はなし)をしましょう"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "あの$R決勝戦(けっしょうせん)　$R貴方(あなた)は$R控(ひか)え$R室(しつ)で$R私(わたし)のデッキを$R盗(ぬす)み$R見(み)て　$R失格(しっかく)となった"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "だがあの$R時(とき)の$R貴方(あなた)は　$R普通(ふつう)の$R精神状態(せいしんじょうたい)ではなかったはずです…　$R大切(たいせつ)な$R人(ひと)の$R不幸(ふこう)な$R事故(じこ)を\n$R目(ま)の$R当(あ)たりにして"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "smile",
+      "text": "そんな$R状態(じょうたい)の$R貴方(あなた)に　もし$R対戦相手(たいせんあいて)がワザとデッキをばら$R撒(ま)いたとしたら…"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "smile2",
+      "text": "そもそも　$R彼女(かのじょ)の$R事故(じこ)が$R偶然(ぐうぜん)ではなかったとしたら…"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "surprise",
+      "text": "なっ…　お　お$R前(まえ)…　オレを$R嵌(は)める$R為(ため)に…"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "anger",
+      "text": "てめええええ！！"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "おっと　$R暴力(ぼうりょく)はいけません"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "ですが$R笑(わら)えますねぇ"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "あの$R一件(いっけん)で$R貴方(あなた)はデュエルの$R表舞台(おもてぶたい)から$R追放(ついほう)"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "$R一方(いっぽう)　$R私(わたし)は$R今(いま)では$R極東(きょくとう)エリアのデュエルチャンピオン　$R随分(ずいぶん)と$R差(さ)がつきました"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "smile2",
+      "text": "…$R悔(くや)しいでしょうねぇ"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "",
+      "text": "てめえ！"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "ならオレを$R倒(たお)してみろ…"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "デュエルカーニバルでな！"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "$R待(ま)ってるぜ"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "",
+      "text": "ワールドデュエルカーニバル…"
+    },
+    {
+      "char": "quattro",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_night",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "トロンの$R家(いえ)にて"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "quattro",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "$R望(のぞ)み$R通(どお)り　$R凌牙(りょうが)はデュエルカーニバルに$R参加(さんか)する"
+    },
+    {
+      "char": "vetrix",
+      "pos": "LEFT",
+      "image": "",
+      "text": "それはそれは　どうもご$R苦労様(くろうさま)でした"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "だが　$R何故(なぜ)あんな$R奴(やつ)を$R気(き)にする？"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "$R奴(やつ)は$R既(すで)にデュエリストとしては$R抜(ぬ)け$R殻(がら)"
+    },
+    {
+      "char": "vetrix",
+      "pos": "",
+      "image": "",
+      "text": "それでも$R必要(ひつよう)なんですよね"
+    },
+    {
+      "char": "vetrix",
+      "pos": "",
+      "image": "",
+      "text": "…$R我々(われわれ)がナンバーズを$R集(あつ)めきった$R時(とき)にね"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "smile",
+      "text": "まあいい　これで$R奴(やつ)を$R再(ふたた)び$R地獄(じごく)に$R突(つ)き$R落(お)とす$R楽(たの)しみが$R出来(でき)た"
+    },
+    {
+      "char": "quattro",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "vetrix",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_arena",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R一方(いっぽう)　$R遊馬(ゆうま)はなんとかしてワールドデュエルカーニバルの$R参加(さんか)$R権(けん)を$R得(え)ようと　$R大会(たいかい)の$R主催者(しゅさいしゃ)　\nMr.ハートランドに$R会(あ)いにいった"
+    },
+    {
+      "char": "mrheartland",
+      "pos": "RIGHT",
+      "image": "lose",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "カーニバルに$R参加(さんか)するには　$R一定数(いっていすう)の「ハートピース」を$R持(も)っている$R必要(ひつよう)があった　$R残念(ざんねん)な\nことに　$R遊馬(ゆうま)は$R一(ひと)つも$R持(も)っていなかった　そのため　$R遊馬(ゆうま)にとってこれが$R最後(さいご)の$R希望(きぼう)だった"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R遊馬(ゆうま)はビルの$R警備員(けいびいん)に$R止(と)められ　Mr.ハートランドに$R会(あ)えずにいた　$R追(お)い$R返(かえ)される$R直前(ちょくぜん)に　\n$R天城(てんじょう)カイトが$R現(あらわ)れ$R一(ひと)つの$R要求(ようきゅう)を$R示(しめ)した"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "sad",
+      "text": "そこをなんとか$R頼(たの)むよ…　こうやってハートランドまで$R来(き)てるんだからさぁ"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "mrheartland",
+      "pos": "",
+      "image": "lose",
+      "text": "さっさと$R追(お)い$R返(かえ)しなさい"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R待(ま)て　$R奴(やつ)に$R参加資格(さんかしかく)を$R与(あた)えてくれ"
+    },
+    {
+      "char": "mrheartland",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R彼(かれ)を$R知(し)っているのか？"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "いえ"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "だが$R奴(やつ)がナンバーズを$R持(も)っている$R可能性(かのうせい)もある"
+    },
+    {
+      "char": "mrheartland",
+      "pos": "",
+      "image": "lose",
+      "text": "カイト　$R私(わたし)に$R何(なに)か$R隠(かく)してないか？"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "…"
+    },
+    {
+      "char": "mrheartland",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Mr.ハートランドがビルから$R出(で)てきて　$R遊馬(ゆうま)を$R受(う)け$R入(い)れることを$R示(しめ)した"
+    },
+    {
+      "char": "mrheartland",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "わかっているとも！　$R全(すべ)てを$R言(い)わずとも$R君(きみ)の$R願(ねが)いは$R私(わたし)の$R熱(あつ)いハートに$R届(とど)いている"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "mrheartland",
+      "pos": "",
+      "image": "win",
+      "text": "$R君(きみ)の$R望(のぞ)みを$R叶(かな)えましょう"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "smile",
+      "text": "うおおお！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "これが…　ハートピース！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "やったビングだぜ　オレ！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "smile",
+      "text": "ありがとう　おじさん！"
+    },
+    {
+      "char": "mrheartland",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "ついに　デュエルの$R日(ひ)がやってきた　$R人々(ひとびと)が$R街中(まちじゅう)でデュエルする$R中(なか)　$R遊馬(ゆうま)に$R恨(うら)みを$R持(も)つ$R者(もの)が\n$R挑戦(ちょうせん)してきた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "annakaboom",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "もう$R逃(に)がさないぜ！　$R覚悟(かくご)はいいか！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "ちょっ　ちょっと$R待(ま)て！　$R一体(いったい)なんなんだよ！"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "anger",
+      "text": "ふん　$R相変(あいか)わらず$R往生際(おうじょうぎわ)が$R悪(わる)いな　$R九十九(つくも)$R遊馬(ゆうま)！"
+    },
+    {
+      "char": "torimeadows",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "あっ…　あなた　$R神月(こうづき)アンナじゃない？"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "アンナ？"
+    },
+    {
+      "char": "torimeadows",
+      "pos": "",
+      "image": "",
+      "text": "ほら　いたじゃない　$R二年前(にねんまえ)に$R転校(てんこう)しちゃったけど　いつも$R男子(だんし)と$R喧嘩(けんか)して　いじめられてた$R子(こ)を\n$R守(まも)ってた…"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "そんな$R奴(やつ)いたっけ？"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "discouragement",
+      "text": "なっ…"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "anger",
+      "text": "$R覚(おぼ)えてないなら　$R思(おも)い$R出(だ)させてやるぜ！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "shy",
+      "text": "うわっ　ちょっ　$R覚(おぼ)えてる$R覚(おぼ)えてる！　$R思(おも)い$R出(だ)しました！"
+    },
+    {
+      "char": "torimeadows",
+      "pos": "",
+      "image": "neutral",
+      "text": "でも　なんでアンナが$R遊馬(ゆうま)の$R事(こと)を？"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "anger",
+      "text": "$R決(き)まってるぜ！　$R復讐(ふくしゅう)だよ！"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "anger",
+      "text": "$R九十九(つくも)$R遊馬(ゆうま)！　オレはお$R前(まえ)のことが…　す　すっ…　す…"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "sad",
+      "text": "はあ？"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "shy",
+      "text": "だから！　お$R前(まえ)の$R事(こと)が…　だいす…　き…　なんだよ！"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "",
+      "text": "お$R前(まえ)のシューズに$R接着剤(せっちゃくざい)を$R塗(ぬ)ったり　お$R前(まえ)のDパッドに$R落書(らくが)きしたり…"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "anger",
+      "text": "お$R前(まえ)の$R水着(みずぎ)に$R切(き)れ$R目(め)を$R入(い)れたり　お$R前(まえ)のおにぎりに$R石(いし)を$R入(い)れたりもした"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "って　どんだけひでえ$R事(こと)…　あっ　いや　ああ　そういえば！"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "anger",
+      "text": "$R思(おも)い$R出(だ)したか！"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "anger",
+      "text": "そして　$R二年前(にねんまえ)$R転校(てんこう)する$R事(こと)になって…　だから　オレはお$R前(まえ)を$R呼(よ)び$R出(だ)した！　$R転校(てんこう)する$R前(まえ)に　\nお$R前(まえ)にちゃんと$R告白(こくはく)するためにな！"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "shy",
+      "text": "けど…　お$R前(まえ)はこなかった　オレの$R気持(きも)ちは$R知(し)ってた$R癖(くせ)に…"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "anger",
+      "text": "この$R怨(うら)みは　$R必(かなら)ず$R晴(は)らしてやると！"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "anger",
+      "text": "せめてもの$R情(なさ)けだ　$R苦(くる)しまずに$R逝(い)けるよう$R一発(いっぱつ)で$R仕留(しと)めてやるぜ！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "ま　$R待(ま)ってくれ！　お$R前(まえ)の$R気持(きも)ちはよくわかる！　でも　そんな$R乱暴(らんぼう)なやりかたじゃなくていいだろ！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "$R頼(たの)む　そんなに$R復讐(ふくしゅう)したいなら…"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "shy",
+      "text": "デュエルでやってくれ！"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "neutral",
+      "text": "デュエルで？"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "anger",
+      "text": "いいだろう　$R相手(あいて)になってやるぜ"
+    },
+    {
+      "char": "annakaboom",
+      "pos": "",
+      "image": "smile",
+      "text": "その$R代(か)わり　オレが$R勝(か)ったら　お$R前(まえ)はオレが$R貰(もら)う！　$R勝負(しょうぶ)だ　$R九十九(つくも)$R遊馬(ゆうま)！"
+    }
+  ]
+}

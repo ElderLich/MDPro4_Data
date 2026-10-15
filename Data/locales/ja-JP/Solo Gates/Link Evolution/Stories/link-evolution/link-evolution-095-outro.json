@@ -1,0 +1,101 @@
+{
+  "name": "WD_YUGI_YamiYugi_Dartz_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_temple",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "$R見(み)たかダーツ！　$R絆(きずな)の$R力(ちから)が$R闇(やみ)を$R打(う)ち$R砕(くだ)く$R瞬間(しゅんかん)を！"
+    },
+    {
+      "char": "dartz",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "バ…　バカな…"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "ダーツ！　デュエルはオレの$R勝(か)ちだ！　みんなの$R魂(たましい)を$R解放(かいほう)しろ！"
+    },
+    {
+      "char": "dartz",
+      "pos": "",
+      "image": "anger",
+      "text": "クッ！"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_temple",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "ダーツは$R闇遊戯(やみゆうぎ)の$R魂(たましい)を$R奪(うば)うことに$R失敗(しっぱい)したが　$R自(みずか)らの$R魂(たましい)を$R蛇神(じゃしん)ゲーと$R融合(ゆうごう)させ　\n$R獣(けもの)を$R復活(ふっかつ)させた　"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R仲間(なかま)たちの$R光(ひかり)に$R力(ちから)をもらった$R遊戯(ゆうぎ)は　$R盗(ぬす)まれた$R三幻神(さんげんしん)を$R取(と)り$R戻(もど)し　ダーツと$R蛇神(じゃしん)ゲーを$R永遠(えいえん)に\n$R葬(ほうむ)り$R去(さ)った　"
+    },
+    {
+      "char": "dartz",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "フッ　$R所詮(しょせん)$R全(すべ)ては$R夢幻(ゆめまぼろし)だったか"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "$R遊戯(ゆうぎ)！　$R心配(しんぱい)かけやがって！"
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "おかえり…　$R遊戯(ゆうぎ)"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEIN:LEFT",
+      "image": "",
+      "text": "みんな　ありがとう！"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "さあ！　$R帰(かえ)ろうぜ！　オラオラ！　$R早(はや)くしねぇと$R置(お)いてくぞ！"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "CENTER",
+      "image": "smile",
+      "text": "…ったく　$R調子(ちょうし)のいい$R野郎(やろう)だぜ"
+    }
+  ]
+}

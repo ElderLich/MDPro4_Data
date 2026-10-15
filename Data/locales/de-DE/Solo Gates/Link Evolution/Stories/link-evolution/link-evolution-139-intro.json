@@ -1,0 +1,461 @@
+{
+  "name": "TheDragonAwakens_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Der Karneval ging weiter, und Kite besuchte seinen Bruder Hart."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Hart …"
+    },
+    {
+      "char": "harttenjo",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "Wie geht es dir?"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "Ich habe mehr Nummern gesammelt, um dir zu helfen."
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "Ehe du dich versiehst, wird es dir viel besser gehen."
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "Du musst nur durchhalten."
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Glaubst du, du schaffst das für mich?"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "harttenjo",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Bruder …"
+    },
+    {
+      "char": "harttenjo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ich muss gehen."
+    },
+    {
+      "char": "harttenjo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_night",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "In einer Lichtkugel floh Hart auf die Straßen von Heartland City."
+    },
+    {
+      "char": "harttenjo",
+      "pos": "RIGHT:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Hart tauchte mitten auf einer belebten Straße vor Yuma auf."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "harttenjo",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Ich kenne den Jungen. Das ist Kites kleiner Bruder."
+    },
+    {
+      "char": "harttenjo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "torimeadows",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Was glaubst du, wohin er wollte?"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ich habe keine Ahnung. Wir sollten ihn zu Kite zurückbringen, also müssen wir ihn irgendwie finden."
+    },
+    {
+      "char": "torimeadows",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Ja, aber … Du weißt, was passiert, wenn du Kite triffst."
+    },
+    {
+      "char": "torimeadows",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Es wird ein Wortgefecht geben und dann ein Duell und … und wenn du verlierst, dann …"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "Wie wäre es, wenn wir uns darüber Sorgen machen, wenn es soweit ist."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "torimeadows",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yuma spürte Hart auf und folgte ihm auf die Spitze eines mysteriösen Turms."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Auf der Spitze des Turms wurden Yuma und Hart von Quinton gestellt."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Wer bist du?"
+    },
+    {
+      "char": "quinton",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Ich bin Harts Freund."
+    },
+    {
+      "char": "harttenjo",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "quinton",
+      "pos": "",
+      "image": "",
+      "text": "Ich bin hier, um zu helfen. Nicht wahr, Hart?"
+    },
+    {
+      "char": "harttenjo",
+      "pos": "",
+      "image": "",
+      "text": "…"
+    },
+    {
+      "char": "quinton",
+      "pos": "",
+      "image": "",
+      "text": "Hart ist bei mir bestens aufgehoben, das versichere ich dir. Lass uns gehen."
+    },
+    {
+      "char": "harttenjo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "quinton",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Nachdem Quinton Hart mitgenommen hatte, musste sich Yuma mit Kite zusammentun, um ihn zu finden."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Sag mir, wo Hart ist!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "Der Kerl, den du geschickt hast, kam in einem Hubschrauber an, um deinen Bruder abzuholen."
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "Ich habe niemanden geschickt, um ihn abzuholen."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Er war also nicht dein Freund?"
+    },
+    {
+      "char": "orbital7",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Hör auf, uns zu veralbern!"
+    },
+    {
+      "char": "orbital7",
+      "pos": "",
+      "image": "",
+      "text": "Wir wurden nicht erst gestern hergestellt, weißt du."
+    },
+    {
+      "char": "orbital7",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "sad",
+      "text": "Es ist meine Schuld. Ich hätte Hart nicht gehen lassen sollen."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "sad",
+      "text": "Tut mir leid."
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "Hart geht es nicht gut. Ich hoffe, ich finde ihn bald."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "Ich helfe dir, ihn zu finden!"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "Das ist mein Problem, nicht deins."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "Ich habe Hart versprochen, dass ich euch beide wieder zusammenbringe."
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "discouragement",
+      "text": "… Na schön."
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Yuma und Kite konnten Quinton und Hart schließlich aufspüren. Quinton war bei seinen beiden Brüdern, Quattro und Trey."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "quattro",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Wenn es nicht der berüchtigte Kite ist. Welche Ehre."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "He, das ist Quattro!"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "anger",
+      "text": "Seid ihr diejenigen, die meinen Bruder entführt haben?"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "Wo ist er?"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "Entspann dich. Wir haben ihm nichts getan."
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "smile2",
+      "text": "Zumindest … noch nicht. Ha."
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "Was soll das heißen?"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "neutral",
+      "text": "Wenn wir fertig sind, werden wir dir Hart zurückgeben … oder das, was von ihm übrig ist."
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "anger",
+      "text": "Ich werde euch Widerlinge besiegen und meinen Bruder hier rausholen!"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "anger",
+      "text": "Das würde ich gerne sehen. Trey, schalte diesen Trottel für mich aus."
+    },
+    {
+      "char": "quattro",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "trey",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Sehr gerne! Duellieren wir uns!"
+    }
+  ]
+}

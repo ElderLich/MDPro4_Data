@@ -1,0 +1,155 @@
+{
+  "name": "EvilSpiritoftheRing_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_duelistkingdom",
+      "text": ""
+    },
+    {
+      "char": "yamibakura",
+      "pos": "RIGHT",
+      "image": "ryo_smile",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Later that night, the team settled down for dinner when they were visited by their high school friend Bakura. As they chatted around the campfire, the conversation soon turned to dueling."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamibakura",
+      "pos": "RIGHT",
+      "image": "ryo_smile",
+      "text": "Let's have a duel right now. Not for Star Chips but just for a little fun."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "",
+      "text": "I'm down with that. After all this Star Chips stuff, it would be nice to have a duel with no strings attached."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "I agree. I think just a regular ol’ duel sounds like a great idea!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamibakura",
+      "pos": "",
+      "image": "ryo_smile",
+      "text": "Before we get started, there’s a little something I’d like to share with you. And especially with you, Yugi."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "millenniumring",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "No! It can't be! A Millennium Item?!"
+    },
+    {
+      "char": "yamibakura",
+      "pos": "FADEOUT",
+      "image": "ryo_smile",
+      "text": ""
+    },
+    {
+      "char": "yamibakura",
+      "pos": "RIGHT:FADEIN",
+      "image": "smile",
+      "text": "Yes, and the magic of my Millennium Ring will take us to the Shadow Realm."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_shadowrealm",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "Why are you doing this, Bakura?"
+    },
+    {
+      "char": "yamibakura",
+      "pos": "",
+      "image": "",
+      "text": "You have something I want, and I aim to take it."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Bakura, possessed by some unknown spirit, used the power of his Millennium Ring to lock away his friends' souls."
+    },
+    {
+      "char": "yamibakura",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Their souls have been locked away. And now, after waiting for countless centuries, the legendary Millennium Puzzle is mine."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Just as Bakura tried to grab the Millennium Puzzle, it started to glow. The spirit within the Puzzle awoke, manifesting himself in Yugi."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamibakura",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "No, it can't be!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "You want my Millennium Puzzle? Then you're going to have to duel me for it. But if I win, you'll release my friends and send us all back."
+    },
+    {
+      "char": "yamibakura",
+      "pos": "",
+      "image": "smile",
+      "text": "Ha ha. I agree to your ridiculous terms, Yugi. But I promise you, there is more at stake here than you comprehend. And this is one Shadow Game that you cannot win!"
+    }
+  ]
+}

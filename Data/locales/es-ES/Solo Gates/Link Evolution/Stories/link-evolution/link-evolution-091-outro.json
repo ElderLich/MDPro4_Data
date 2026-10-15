@@ -1,0 +1,113 @@
+{
+  "name": "WD_JOEY_JoeyWheeler_MaiValentine_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_ind_illusions",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "LEFT",
+      "image": "alternate_sad",
+      "text": "No puedo perder... No puedo volver ahí... Lo he sacrificado todo para ser una vencedora..."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Eh, ¿Mai?"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_sad",
+      "text": "No puedo perder... No volveré... Tengo que ganar..."
+    },
+    {
+      "char": "rafael",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Vaya, ha perdido la cabeza. ¡Valon! ¿Qué estás haciendo?"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "valon",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "Con este fragmento de la piedra de Oricalcos, ¡liberaré el Sello!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "¡Joey! ¡¿Estás bien?! ¡Joey!"
+    },
+    {
+      "char": "rafael",
+      "pos": "",
+      "image": "anger",
+      "text": "¿En qué estabas pensando, Valon? ¡Has traicionado al amo Dartz y arriesgado tu alma! Y todo eso, ¿solo por salvar a una chica?"
+    },
+    {
+      "char": "valon",
+      "pos": "",
+      "image": "anger",
+      "text": "¡No es solo una chica!"
+    },
+    {
+      "char": "rafael",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "valon",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "NONE",
+      "image": "alternate_neutral",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "CENTER",
+      "image": "sad",
+      "text": "¿Dónde está Mai? ¿Se la han llevado esos cerdos?"
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Supongo."
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Sí, no está."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": "Oh, no... Me ha faltado tan poco... ¡Pero te ayudaré, Mai!"
+    }
+  ]
+}

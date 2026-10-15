@@ -1,0 +1,47 @@
+{
+  "name": "MimeControl_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "strings",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "",
+      "text": "J'ai gagné! C'est terminé!"
+    },
+    {
+      "char": "strings",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "RIGHT:FADEIN",
+      "image": "dark_surprise",
+      "text": "Ce n'est pas possible! Comment ai-je pu perdre avec une carte Dieu Égyptien dans mon deck?"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_anger",
+      "text": "Tu devras payer! Tu as peut-être vaincu Slifer, mais je possède une autre carte Dieu Égyptien ... une carte beaucoup plus puissante!"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_anger",
+      "text": "Savoure donc cette victoire pendant que tu peux ... car ce sera ta dernière!"
+    }
+  ]
+}

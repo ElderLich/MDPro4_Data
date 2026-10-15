@@ -1,0 +1,269 @@
+{
+  "name": "ChainGame_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_commons",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yuri führte die Invasion der Eingreiftruppe Obelisk in die Synchrodimension an – und versetzte New Domino City in Aufruhr."
+    },
+    {
+      "char": "yuri",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_council",
+      "text": ""
+    },
+    {
+      "char": "gale",
+      "pos": "",
+      "image": "anger",
+      "text": "Ihr Lancer seid in diese Dimension gekommen, um uns genau davor zu beschützen, oder nicht?!"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Die Lancer sind gekommen, um bei der Verteidigung gegen diese Feinde zu helfen. Sie sollten gemeinsam mit euren eigenen Duellanten agieren!"
+    },
+    {
+      "char": "gale",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_commons",
+      "text": ""
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "celina",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Die Eingreiftruppe Obelisk hat Celina aufgespürt."
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "",
+      "image": "smile",
+      "text": "Ha ha ha ha ha!"
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "",
+      "image": "sad",
+      "text": "Celina!"
+    },
+    {
+      "char": "celina",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "sora",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "",
+      "image": "sad",
+      "text": "Gwa!"
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sora",
+      "pos": "",
+      "image": "smile",
+      "text": "Kommt schon, Leute. Ihr könnt euch jetzt entspannen."
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Sora! Es ist so schön, dich zu sehen!"
+    },
+    {
+      "char": "celina",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "„Schön, ihn zu sehen“? Hast du vergessen, dass er Shay verprügelt und versucht hat, mich auch zu erwischen?"
+    },
+    {
+      "char": "sora",
+      "pos": "",
+      "image": "neutral",
+      "text": "Entspann dich. Ich will helfen, nicht dich zur Akademie zurückbringen. Wir sind jetzt auf der gleichen Seite!"
+    },
+    {
+      "char": "yuri",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Warum sollte irgendjemand freiwillig die Verliererseite wählen?"
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Er sieht genauso aus wie ich!"
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "smile",
+      "text": "So viele Verräter auf so kleinem Raum. Der Professor wird nicht glücklich sein."
+    },
+    {
+      "char": "sora",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "celina",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Ich habe dich endlich gefunden, du Schlange!"
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "sad",
+      "text": "Wie üblich ist dein Timing schrecklich, Pogo. Siehst du nicht, dass ich beschäftigt bin?"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": "Na und?! Das hast du davon, dass du Rin entführt hast!"
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "neutral",
+      "text": "Der Professor bekommt, was er will. Er wollte Rin haben. Und jetzt will er, dass ich Celina zu ihm bringe."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": "Jetzt ist Schluss, du Mistkerl."
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "neutral",
+      "text": "Du meinst wohl „jetzt ist Schluss für dich“, Dummerchen. Deine Siegchance ist schließlich gleich Null."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Klingt gut! Hä? Das ergibt keinen Sinn … aber ich werde dich einfach schlagen!"
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "sad",
+      "text": "Ich kann es einfach nicht glauben, dass ich mich mit diesem Idioten duellieren muss …"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": "Oh doch, glaub das mal! Dieser „Idiot“ ist bereit zum Kampf!"
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": "Duellieren wir uns!"
+    }
+  ]
+}

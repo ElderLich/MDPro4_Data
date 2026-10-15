@@ -1,0 +1,179 @@
+{
+  "name": "TimetoReunite_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_laboratory",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "CENTER",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R遊矢(ゆうや)は$R厳(きび)しいデュエルに$R勝利(しょうり)したが　$R代償(だいしょう)は$R大(おお)きかった"
+    },
+    {
+      "char": "yuri",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "$R参(まい)ったな　まさかボクが$R負(ま)けるなんて　でも　$R初(はじ)めて$R負(ま)けた$R相手(あいて)が$R君(きみ)でよかったよ　だって　\n$R君(きみ)はボクでもあるわけだし　さあ　ボクを$R早(はや)く$R君(きみ)の$R中(なか)に$R吸収(きゅうしゅう)したらいい"
+    },
+    {
+      "char": "sora",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "$R遊矢(ゆうや)は$R悪魔(あくま)になんてならない！　ユートもユーゴもきっと$R同(おな)じ$R気持(きも)ちのはずだ！　\nだからデュエルで$R遊矢(ゆうや)に$R力(ちから)を$R貸(か)したんだ！"
+    },
+    {
+      "char": "sora",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "asterphoenixarcv",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "$R君(きみ)も$R闇(やみ)の$R中(なか)から$R抜(ぬ)け$R出(だ)せ！　ズァークの$R呪縛(じゅばく)を$R断(た)ち$R切(き)るんだ！"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "オレは$R勝(か)った　$R勝(か)つことだけを$R考(かんが)え…　$R勝(か)った"
+    },
+    {
+      "char": "asterphoenixarcv",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "$R遊矢(ゆうや)！？"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "anger",
+      "text": "お$R前(まえ)たちの…　$R望(のぞ)みどおりに！！"
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "！"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "anger",
+      "text": "そしてオレはこれからも$R勝(か)ち$R続(つづ)ける！　この$R世(よ)の$R全(すべ)てを$R破壊(はかい)し$R尽(つ)くすまで！"
+    },
+    {
+      "char": "asterphoenixarcv",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "こ　これは…"
+    },
+    {
+      "char": "asterphoenixarcv",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sora",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "どうなってるんだ…"
+    },
+    {
+      "char": "sora",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "BACK_RIGHT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "BACK_LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_astrographcard",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "$R時空(じくう)を$R司(つかさど)るアストログラフ・マジシャンよ！　その$R深淵(しんえん)なる$R力(ちから)で　$R我(われ)らの$R望(のぞ)みを$R重(かさ)ね$R合(あ)わせろ！"
+    },
+    {
+      "char": "yugo",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "arcv_astrographcard",
+      "text": ""
+    },
+    {
+      "char": "zarc",
+      "pos": "CENTER:FADEIN",
+      "image": "smile",
+      "text": "$R我(われ)こそは…　ズァーク！"
+    }
+  ]
+}

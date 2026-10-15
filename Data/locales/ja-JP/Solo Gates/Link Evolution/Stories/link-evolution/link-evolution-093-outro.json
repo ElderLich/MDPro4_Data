@@ -1,0 +1,245 @@
+{
+  "name": "WD_JOEY_JoeyWheeler_Valon_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_sanfrancisco",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "valon",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "オレの$R負(ま)けだな…　$R格好悪(かっこうわる)い$R所(ところ)みせちまったが…　$R後悔(こうかい)はしてないぜ"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "RIGHT",
+      "image": "alternate_sad",
+      "text": "ヴァロン！"
+    },
+    {
+      "char": "valon",
+      "pos": "",
+      "image": "",
+      "text": "$R城之内(じょうのうち)　$R舞(まい)を$R頼(たの)む…"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "valon",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_temple",
+      "text": ""
+    },
+    {
+      "char": "dartz",
+      "pos": "CENTER",
+      "image": "happy",
+      "text": "$R敗(やぶ)れたか　ヴァロン…　ならばお$R前(まえ)の$R魂(たましい)もまた$R神(かみ)の$R糧(かて)となるのだ　そして$R次(つぎ)はお$R前(まえ)の$R番(ばん)だ　\n$R孔雀(くじゃく)$R舞(まい)　お$R前(まえ)の$R心(こころ)の$R闇(やみ)を$R見(み)せてもらおう"
+    },
+    {
+      "char": "dartz",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_sanfrancisco",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "RIGHT",
+      "image": "alternate_sad",
+      "text": "ヴァロン…　バカな$R男(おとこ)　デュエルは$R他人(たにん)のために$R闘(たたか)うんじゃない　$R自分(じぶん)が$R勝(か)つために\n$R闘(たたか)うんだって$R言(い)ったのはあんただろ？"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_anger",
+      "text": "だから$R負(ま)けるんだよ"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "$R舞(まい)…　ヴァロンはデュエリストとしてベストを$R尽(つ)くした！　たとえお$R前(まえ)でもそれを$R否定(ひてい)するのは\n$R許(ゆる)さない！"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_happy1",
+      "text": "フッ　ずいぶん$R熱(あつ)くなるじゃないか"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R舞(まい)　オレと$R闘(たたか)おうぜ　もう$R逃(に)げない　$R闘(たたか)うことでしかお$R前(まえ)の$R気持(きも)ちは$R受(う)けとれない　やろうぜ…　\nお$R互(たが)い$R悔(く)いのないデュエルを$R全力(ぜんりょく)でな！"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_anger",
+      "text": "$R前(まえ)みたいに$R手(て)を$R抜(ぬ)いたデュエルをしたら$R承知(しょうち)しないよ"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "smile",
+      "text": "ヴァロンと$R本気(ほんき)で$R闘(たたか)ってわかったことがある　オレ$R達(たち)はデュエルの$R中(なか)で　$R言葉(ことば)で\n$R話(はな)すよりも$R多(おお)くのことを$R語(かた)った　アイツの$R想(おも)いをオレは$R確(たし)かに$R受(う)けとったんだ　だから$R舞(まい)…　\nお$R前(まえ)とも$R真剣(しんけん)に$R闘(たたか)う！"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_anger",
+      "text": "$R何(なに)を$R言(い)ってるんだか　あたしの$R気持(きも)ちがあんたにわかるわけない！　$R勝(か)つ$R為(ため)に$R闘(たたか)い$R続(つづ)ける\nしかないあたしの$R気持(きも)ちが！"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_neutral",
+      "text": "オレイカルコスの$R結界(けっかい)！"
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "ヴァロンとのデュエルで$R疲(つか)れ$R切(き)っていた$R城之内(じょうのうち)は　$R最後(さいご)までデュエルすることができなかった"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "お$R前(まえ)の$R勝(か)ちだ…　$R舞(まい)…"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "RIGHT",
+      "image": "alternate_surprise",
+      "text": "$R城之内(じょうのうち)！　あんたヴァロンとの$R闘(たたか)いですでに…　そんな$R体(からだ)であたしとデュエルを…"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "sad",
+      "text": "わりぃな　$R結局(けっきょく)$R何(なに)もしてやれなくてよ…　でもお$R前(まえ)の$R魂(たましい)が$R奪(うば)われなくてよかったぜ…"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_anger",
+      "text": "$R城之内(じょうのうち)！　いやぁぁぁ！"
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R舞(まい)はダーツの$R支配(しはい)から$R解放(かいほう)されたが　$R城之内(じょうのうち)の$R魂(たましい)はオレイカルコスに$R捕(と)らわれてしまった"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "RIGHT",
+      "image": "alternate_sad",
+      "text": "いやよ$R城之内(じょうのうち)！　こんな$R事(こと)して$R勝(か)ったってなんにもならない$R事(こと)ぐらい$R最初(さいしょ)からわかってた…　\nわかっていたのに…　あたしは$R馬鹿(ばか)だ　あんたを$R犠牲(ぎせい)にして$R一体(いったい)$R何(なに)を$R手(て)に$R入(い)れられるって\n$R言(い)うの？"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_anger",
+      "text": "ダーツ　この$R落(お)とし$R前(まえ)はあたしがつける！　まってて$R城之内(じょうのうち)　ヴァロン…　あんた$R達(たち)の$R魂(たましい)は\nあたしが$R取(と)り$R戻(もど)す！"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "ウソだろ？"
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "そんな…"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "",
+      "text": "$R城之内(じょうのうち)くん！"
+    },
+    {
+      "char": "teagardner",
+      "pos": "",
+      "image": "sad",
+      "text": "こんなことって"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "sad",
+      "text": "…"
+    }
+  ]
+}

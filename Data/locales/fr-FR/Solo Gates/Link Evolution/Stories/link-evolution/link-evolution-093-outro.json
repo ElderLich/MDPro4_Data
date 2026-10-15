@@ -1,0 +1,245 @@
+{
+  "name": "WD_JOEY_JoeyWheeler_Valon_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_sanfrancisco",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "valon",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Tu as réussi. Tu as gagné. Adieu."
+    },
+    {
+      "char": "maivalentine",
+      "pos": "RIGHT",
+      "image": "alternate_sad",
+      "text": "Tout est de ma faute."
+    },
+    {
+      "char": "valon",
+      "pos": "",
+      "image": "",
+      "text": "Tu n'as pas à t'en vouloir, Mai. Je suis le seul responsable de ma défaite. Je pensais que si gagnais, je pourrais te faire oublier ce Joey Wheeler. Mais je comprends maintenant pourquoi il était si important pour toi. Il a du cœur."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "valon",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_temple",
+      "text": ""
+    },
+    {
+      "char": "dartz",
+      "pos": "CENTER",
+      "image": "happy",
+      "text": "Regarde qui l'Orichalque a capturé. Mon ancien employé. C'est maintenant à Mlle Valentine de me procurer une âme... ou de renoncer à la sienne. Ha ha ha ha ha !"
+    },
+    {
+      "char": "dartz",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_sanfrancisco",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "RIGHT",
+      "image": "alternate_sad",
+      "text": "Comment a-t-il pu faire ça ? Varon m'a appris à me battre pour moi-même. C'est alors qu'il a décidé de t'affronter pour me protéger ?"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_anger",
+      "text": "C'est pitoyable. Il n'a eu que ce qu'il méritait."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Quoi ! Varon m'avait peut-être énervé, mais il ne méritait pas de se faire voler son âme et d'être retenu prisonnier par un psychopathe avide de pouvoir ! Je ne souhaite ça à personne."
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_happy1",
+      "text": "Ha !"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "neutral",
+      "text": "Tu sais quoi, Mai ? Tant que ce truc d'Orichalque contrôlera ton esprit, je ne pourrais pas te faire entendre raison ! En fin de compte, je n'ai qu'une seule solution pour te sauver je dois t'affronter en duel !"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_anger",
+      "text": "Sauve-toi toi-même. Je me débrouille très bien sans toi ! Tu n'as pas retenu la leçon ? Si tu m'ennuies, tu finiras dans un monde de souffrances !"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "smile",
+      "text": "Je comprends tout maintenant, Mai. Tu as oublié la véritable signification des duels. Mais je suis là pour te rappeler ce qu'est l'âme des cartes !"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_anger",
+      "text": "Grrr ! Si tu crois pouvoir me donner des conseils sur les Duel Monsters, tu perds ton temps !"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_neutral",
+      "text": "Le Sceau d'Orichalque !"
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Exténué par son dernier combat contre Varon, Joey est incapable de terminer le duel."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "Félicitations... Tu as gagné... Je suis trop fatigué... pour terminer..."
+    },
+    {
+      "char": "maivalentine",
+      "pos": "RIGHT",
+      "image": "alternate_surprise",
+      "text": "Tu te trompes ! Je n'ai pas attaqué donc tu n'as pas perdu ce duel ! Je ne laisserai pas l'Orichalque t'emmener, Joey !"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "sad",
+      "text": "C'est trop tard... J'ai déjà perdu ce duel, impossible de revenir en arrière. Mais je suis content que si l'un de nous doit perdre son âme, ce ne soit pas toi, Mai."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_anger",
+      "text": "Joey ! Nooon !"
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Mai se libère de l'influence de Dartz, mais l'âme de Joey est capturée par l'Orichalque."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "RIGHT",
+      "image": "alternate_sad",
+      "text": "Comment ai-je pu être aussi égoïste ? Tu es le meilleur ami que j'aie jamais eu et comment je te remercie ? En t'abandonnant pour suivre un fou qui a promis de me donner du pouvoir."
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_anger",
+      "text": "Je vais lui faire regretter le jour où il a rencontré Mai Valentine !"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Oh non !"
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Que s'est-il passé ?"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Il a perdu le duel."
+    },
+    {
+      "char": "teagardner",
+      "pos": "",
+      "image": "sad",
+      "text": "Ça veut dire que... ?"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "sad",
+      "text": "Oui. Son âme est désormais entre les mains de Dartz."
+    }
+  ]
+}

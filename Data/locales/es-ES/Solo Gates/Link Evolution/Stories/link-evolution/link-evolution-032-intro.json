@@ -1,0 +1,455 @@
+{
+  "name": "SwingIntoAction_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_paradisecity",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Cargando historias de ARC-V..."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Esta es la historia de Yuya Sakaki. Hay quien lo considera un héroe, quien lo considera un payaso... y quien lo considera un payaso heroico."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Antes del fin de este viaje, Yuya Sakaki habrá visitado varias dimensiones y se habrá enfrentado a incontables adversarios para salvar el mundo."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Poco podía imaginar él que esta historia épica empezaría con una pequeña lección de vida que le dio su padre..."
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "yusho",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Sigue los consejos de tu padre, Yuya. Trata de reír cuando quieras llorar. Cuando las cosas se compliquen... responde con una sonrisa."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "",
+      "text": "Esto te dará la fuerza para salir adelante."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "",
+      "text": "Es como un péndulo. Si el péndulo oscila hacia un lado, sabrás que lo hará hacia el otro lado también."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "smile",
+      "text": "Como en un Duelo."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Un Duelo?"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "neutral",
+      "text": "La clave para el Duelo es creer en tus cartas... y en ti mismo."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "",
+      "text": "Cuando te estés quedando atrás, siempre puedes hacer que las cosas se muevan a tu favor."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "smile",
+      "text": "Así que no te preocupes por nada. Solo disfruta del viaje. Recuerda lo que te dije, Yuya. Te puede ayudar algún día."
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yusho",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_arcleaguechampionship",
+      "text": ""
+    },
+    {
+      "char": "sledgehammer",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Unos días después, Yusho tenía que defender su título en el Campeonato de Duelos de Actuación contra su rival número 1: el Martillo."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Sin embargo, el padre de Yuya no solamente no apareció en el campeonato, sino que nadie volvió a verlo jamás. Esto hizo que tanto Yusho como toda su familia fueran tildados de cobardes."
+    },
+    {
+      "char": "sledgehammer",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_youshowschool",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Tres años más tarde...\nEn la Escuela de Duelos You Show de Skip Boyle:"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Muy bien, Yuya, ¡ha llegado el momento de que tomes el control y le demuestres a Gong de qué estás hecho!"
+    },
+    {
+      "char": "yuya",
+      "pos": "CENTER",
+      "image": "smile",
+      "text": "¡Es hora del espectáculo! Damas, caballeros, Gong... ¿Qué tal si hacemos más entretenida esta ronda con unos hipopótamos carnavalescos?"
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "¡Deja de hacer el tonto, Yuya!"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "anger",
+      "text": "¿Por qué tienes que convertir todo en un chiste, Yuya?"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "No hay nada de malo en hacer reír a los fans."
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "neutral",
+      "text": "Cuando tu padre estaba en el Campo, todos los fans sonreían."
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "sad",
+      "text": "Al menos él hacía reír con el Duelnimiento. ¡Pero tus Duelos dan vergüenza ajena!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "Bueno, si te digo la verdad, el último Duelo de mi padre también dio bastante vergüenza."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Yuya!"
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "nico",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "¡Buenas tardes a todos! Espero no interrumpir."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "¿Quién eres tú?"
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "Soy Nico Smiley, gerente y promotor de Duelos. Actualmente, represento al actual campeón de los Duelos de Actuación: ¡el Martillo!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "¡Oh, no!"
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "El Martillo está organizando un Día de Apreciación de Fans en el Instituto Leo, y quiere retar a Yuya a un Duelo cara a cara."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "Me estás invitando... ¡¿a enfrentarme al Martillo?!"
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "Es tu oportunidad de compensar la desaparición de tu padre."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "anger",
+      "text": "Jamás permitiré que Yuya participe en un Duelo así. El chico ya ha sufrido bastante desde que su padre desapareció."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "Qué lástima. Porque si aceptaras, la Corporación Leo donaría a tu escuela el nuevo sistema de combate de realidad aumentada..."
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "... sin ningún cargo."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "smile",
+      "text": "Gratis."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Trato hecho!"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "¡Pero si acabas de decir que jamás permitirías que Yuya se enfrentara al Martillo!"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "sad",
+      "text": "Mmm... bueno..."
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "¡Exacto! ¡Tenemos que proteger a Yuya!"
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Verdad, Yuya?... ¿Yuya? Se ha... largado."
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡Igual que su padre!"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_arcleaguechampionship",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "nico",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "skipboyle",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Día de Apreciación de Fans:"
+    },
+    {
+      "char": "nico",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Hace tres años, el famoso dueltretenedor Yusho Sakaki se marchó y no defendió su título contra el Martillo."
+    },
+    {
+      "char": "nico",
+      "pos": "CENTER",
+      "image": "",
+      "text": "¡Ahora, el mismísimo hijo de Sakaki intentará borrar esa vergüenza!"
+    },
+    {
+      "char": "nico",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "¿Crees que Yuya vendrá?"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "neutral",
+      "text": "¿Quién sabe? Gong cree que sí."
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Para sorpresa de todos, Yuya sí que se presentó en el Duelo. Y la sorpresa fue aún mayor cuando lo vieron vestido de payaso."
+    },
+    {
+      "char": "sledgehammer",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "¡¿No me digas que tú eres el hijo de Yusho?!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Sí, el único e inimitable! ¿Y bien? ¿Estás listo para el espectáculo?"
+    },
+    {
+      "char": "sledgehammer",
+      "pos": "",
+      "image": "anger",
+      "text": "¡No serás tan insolente cuando el Martillo te aplaste!"
+    }
+  ]
+}

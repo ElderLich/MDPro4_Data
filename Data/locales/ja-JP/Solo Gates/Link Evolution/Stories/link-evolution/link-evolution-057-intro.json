@@ -1,0 +1,209 @@
+{
+  "name": "AllDuelHandsonDeck_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_duelacademy",
+      "text": ""
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R融合(ゆうごう)$R次元(じげん)では　オベリスク・フォースが$R遊勝塾(ゆうしょうじゅく)への$R侵攻(しんこう)を$R続(つづ)けていた"
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yusho",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alexisrhodesarcv",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "この$R前(まえ)はユーリというデュエリストに$R合計(ごうけい)$R六人(ろくにん)の$R塾生(じゅくせい)がやられました　このままでは\nアカデミアと$R戦(たたか)う$R力(ちから)を$R付(つ)ける$R前(まえ)に$R遊勝塾(ゆうしょうじゅく)は$R潰(つぶ)されてしまいます"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R分(わ)かった　ならば$R私(わたし)が$R行(い)こう"
+    },
+    {
+      "char": "alexisrhodesarcv",
+      "pos": "",
+      "image": "surprise",
+      "text": "いえ　$R先生(せんせい)までは…"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "neutral",
+      "text": "せっかく$R脱出(だっしゅつ)してきた$R塾生達(じゅくせいたち)を$R再(ふたた)びアカデミアに$R向(む)かわせるわけにはいかない"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "neutral",
+      "text": "ここは$R私(わたし)が$R出向(でむ)き　$R赤馬(あかば)$R零王(れお)に$R直接(ちょくせつ)$R訴(うった)える　$R元々(もともと)その$R為(ため)に$R私(わたし)は$R次元(じげん)を$R越(こ)えて$R来(き)たのだから"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "$R残念(ざんねん)だけど　あなたはプロフェッサーに$R会(あ)うことも$R出来(でき)ないし　アカデミアに$R辿(たど)り$R着(つ)くことも\n$R出来(でき)ないと$R思(おも)うよ"
+    },
+    {
+      "char": "alexisrhodesarcv",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "デニス！？"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "smile",
+      "text": "$R久(ひさ)しぶりだね　$R柚子(ゆず)　シンクロ$R次元(じげん)でのボクのパフォーマンスは$R気(き)に$R入(い)ってもらえたかな？　\nボクが$R古代の機械混沌巨人(アンティーク・ギア・カオス・ジャイアント)を$R召喚(しょうかん)した$R時(とき)なんて$R特(とく)に$R盛(も)り$R上(あ)がったでしょ"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "neutral",
+      "text": "あれ？　あなたまで$R昔(むかし)のことを$R思(おも)い$R出(だ)しちゃった？　ま　わざと$R思(おも)い$R出(だ)させるように\n$R言(い)ったんだけど"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "anger",
+      "text": "$R君(きみ)はあの$R頃(ころ)から$R少(すこ)しも$R成長(せいちょう)してないようだな"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "えっ！？　$R知(し)ってるの！？"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "neutral",
+      "text": "もちろん$R知(し)ってますよね　だってボクは$R榊(さかき) $R遊勝(ゆうしょう)の$R弟子(でし)みたいなものだから"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R弟子(でし)！？"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "",
+      "text": "$R今(いま)じゃボクの$R方(ほう)が　$R観客達(かんきゃくたち)を$R魅了(みりょう)する$R技術(ぎじゅつ)も$R上(うえ)だと$R思(おも)うけどね　さ　デュエルしようか$R先生(せんせい)"
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "そのデュエル　オレが$R受(う)ける！"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R何(なん)だ$R君(きみ)は！？"
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "オレの$R名(な)はカイト　シュンに$R代(か)わって$R瑠璃(るり)を$R助(たす)け$R出(だ)す$R為(ため)に$R来(き)た　オレとのデュエルに$R負(ま)けた\n$R時(とき)には$R瑠璃(るり)の$R居場所(いばしょ)まで$R案内(あんない)してもらおう"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "smile",
+      "text": "$R負(ま)ける？　ボクが！？　そんなことあるわけないじゃん　アカデミアに$R制圧(せいあつ)された$R側(がわ)の$R人間(にんげん)が　\nこのボクに$R勝(か)てるだなんて…"
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "オレ$R達(たち)は$R制圧(せいあつ)などされていない"
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "smile",
+      "text": "アカデミア$R軍(ぐん)も$R既(すで)に$R矛(ほこ)を$R収(おさ)め　エクシーズ$R次元(じげん)の$R復興(ふっこう)に$R従事(じゅうじ)している　$R総司令官(そうしれいかん)\nエド・フェニックスの$R決断(けつだん)によって！"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "surprise",
+      "text": "エドが！？"
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "smile",
+      "text": "ええ　そうです$R先生(せんせい)　オレがここに$R来(こ)られたのもエドの$R協力(きょうりょく)があったから　そしてそのエドの\n$R心(こころ)を$R開(ひら)かせたのは　$R榊(さかき)$R遊矢(ゆうや)"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "smile",
+      "text": "$R遊矢(ゆうや)…"
+    },
+    {
+      "char": "yusho",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "anger",
+      "text": "なるほど…　つまりエドも$R遊矢(ゆうや)に$R唆(そそのか)されて$R裏切(うらぎ)ったってわけね…　$R情(なさ)けない"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R分(わ)かったよ　そこまで$R言(い)うなら$R闘(たたか)ってあげるよ$R君(きみ)と　$R師匠(ししょう)の$R目(め)の$R前(まえ)で$R弟子(でし)を$R叩(たた)きのめすのも\n$R一興(いっきょう)だし"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "neutral",
+      "text": "それじゃあ　ショータイムだ！"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "name": "TimetoReunite_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_laboratory",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "CENTER",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yuya vinse il difficile duello, ma a un prezzo alto."
+    },
+    {
+      "char": "yuri",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Quindi è questa la sensazione che si prova a perdere... Scommetto che è la sensazione che prova Yugo ogni singolo giorno."
+    },
+    {
+      "char": "sora",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Quindi Z-ARC non potrà mai più tornare! Non lo farà né oggi, né mai!"
+    },
+    {
+      "char": "sora",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "asterphoenixarcv",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Yuya è un vincitore, e non un perdente come te. Giusto, Yuya? Yuya?"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "Ho vinto, Declan. Mi hai chiesto di concentrarmi sulla vittoria... e ho vinto."
+    },
+    {
+      "char": "asterphoenixarcv",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Ma, Yuya?!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "anger",
+      "text": "Ho vinto. Come volevi tu!"
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "anger",
+      "text": "Da ora l'obiettivo... non sono i duelli d'intrattenimento, ma la vittoria! Volevi un duello che fosse brutale, ed io ti ho accontentato!"
+    },
+    {
+      "char": "asterphoenixarcv",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Che sta succedendo?"
+    },
+    {
+      "char": "asterphoenixarcv",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sora",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Nulla di buono."
+    },
+    {
+      "char": "sora",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "BACK_RIGHT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "BACK_LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_astrographcard",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Stregone Astrografo! Ti chiamo per servirmi dei tuoi poteri mistici e unirci in una sola, unica e inarrestabile forza!"
+    },
+    {
+      "char": "yugo",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "arcv_astrographcard",
+      "text": ""
+    },
+    {
+      "char": "zarc",
+      "pos": "CENTER:FADEIN",
+      "image": "smile",
+      "text": "Sono tornato! Finalmente libero!"
+    }
+  ]
+}

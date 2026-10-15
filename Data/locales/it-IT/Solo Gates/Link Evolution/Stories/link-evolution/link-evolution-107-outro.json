@@ -1,0 +1,65 @@
+{
+  "name": "RiseOfTheSacredBeasts_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_genericoutdoor2",
+      "text": ""
+    },
+    {
+      "char": "kagemaru",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Impossibile! Le Bestie Sacre non possono essere sconfitte!"
+    },
+    {
+      "char": "kagemaru",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kagemaru",
+      "pos": "FADEIN:RIGHT",
+      "image": "old_neutral",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Che cosa... stai bene?"
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "old_discouragement",
+      "text": "È vero. Sono un uomo vecchio. Volevo semplicemente ciò che ogni vecchio vuole... essere di nuovo giovane."
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "old_discouragement",
+      "text": "La potenza di quelle Bestie Sacre era l'unico modo che ho trovato per farlo."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "Sì... e per conquistare il mondo."
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "old_discouragement",
+      "text": "Non puoi perdonare una vecchia anima decrepita?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "Sì, credo... Ma non capisci vecchio? Rubare energia da qualcosa o qualcuno non è un modo per sentirsi di nuovo vivo. Tu devi trovare la forza in te stesso!"
+    }
+  ]
+}

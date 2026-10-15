@@ -1,0 +1,545 @@
+{
+  "name": "BarianVengeance_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_barian",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "バリアン$R世界(せかい)の$R神(かみ)　ドン・サウザンドがベクターの$R前(まえ)に$R現(あらわ)れた"
+    },
+    {
+      "char": "vector",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "$R許(ゆる)さねえ…　アストラル…　$R遊馬(ゆうま)…　オレをこんな$R目(め)に…　$R遭(あ)わせやがって…"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "オレはこのままじゃ$R終(お)わらねぇ！！"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R伝説(でんせつ)が$R本当(ほんとう)なら…　この$R先(さき)にバリアンの$R神(かみ)　ドン・サウザンドの$R眠(ねむ)る$R場所(ばしょ)が！"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "ドン・サウザンドよ！　$R命(いのち)はくれてやる！　だから　このオレに…　$R力(ちから)を！！"
+    },
+    {
+      "char": "donthousand",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "donthousand",
+      "pos": "",
+      "image": "win",
+      "text": "$R我(わ)が$R名(な)はドン・サウザンド"
+    },
+    {
+      "char": "donthousand",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R我(われ)に$R命(いのち)を$R差(さ)し$R出(だ)すものよ…　$R汝(なんじ)の$R望(のぞ)みはなんだ？"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "ドン・サウザンド　オレにはどうしてもぶっ$R倒(たお)してえ$R奴(やつ)がいる！"
+    },
+    {
+      "char": "donthousand",
+      "pos": "",
+      "image": "",
+      "text": "…アストラル"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "ああ　そして$R九十九(つくも)$R遊馬(ゆうま)"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "ドン・サウザンド！　オレにその$R力(ちから)を！"
+    },
+    {
+      "char": "donthousand",
+      "pos": "",
+      "image": "win",
+      "text": "ならば$R地上(ちじょう)にある$R七枚(しちまい)のナンバーズ…　$R封印(ふういん)のナンバーズを$R探(さが)すのだ"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "$R封印(ふういん)のナンバーズ？"
+    },
+    {
+      "char": "donthousand",
+      "pos": "",
+      "image": "",
+      "text": "そうだ　さすれば$R我(わ)が$R力(ちから)は$R復活(ふっかつ)する"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "smile",
+      "text": "$R面白(おもしろ)い　$R奴(やつ)らを$R倒(たお)す$R為(ため)だったら$R何(なん)だってしてやる　だから…　オレに$R力(ちから)を！！"
+    },
+    {
+      "char": "vector",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "donthousand",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "ドン・サウザンドの$R力(ちから)を$R得(え)たベクターは　ミザエルとドルベのもとを$R訪(おとず)れた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "dumon",
+      "pos": "RIGHT",
+      "image": "barian_neutral",
+      "text": ""
+    },
+    {
+      "char": "vector",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "アストラルの$R力(ちから)が$R目覚(めざ)めようとしている　…$R数千年前(すうせんねんまえ)　バリアン$R世界(せかい)の$R神(かみ)　ドン･サウザンドが\nアストラルとの$R闘(たたか)いによって$R闇(やみ)に$R封印(ふういん)された"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "アストラルの$R力(ちから)は$R強大(きょうだい)だ　$R奴(やつ)がこのままナンバーズを$R吸収(きゅうしゅう)し　$R本来(ほんらい)の$R力(ちから)を$R取(と)り$R戻(もど)せば…　\nバリアン$R世界(せかい)は$R滅(ほろ)びる"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "smile",
+      "text": "そこでだ！"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "neutral",
+      "text": "オレはとっておきの$R情報(じょうほう)を$R手(て)に$R入(い)れた"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "$R奴(やつ)らの$R世界(せかい)には　まだ$R見(み)つかっていない$R強力(きょうりょく)なナンバーズが$R七枚(しちまい)ある"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "anger",
+      "text": "それを$R見(み)つけて　オレ$R達(たち)の$R力(ちから)にするのさ！"
+    },
+    {
+      "char": "dumon",
+      "pos": "",
+      "image": "barian_neutral",
+      "text": "その$R話(はなし)が$R本当(ほんとう)ならば　アストラルに$R吸収(きゅうしゅう)される$R前(まえ)に$R我々(われわれ)が$R奪(うば)わねば！"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "neutral",
+      "text": "ああ　それに$R奴(やつ)らの$R世界(せかい)にいけば　$R掴(つか)めるかもしれないぜ　ナッシュの$R手(て)がかりがな"
+    },
+    {
+      "char": "dumon",
+      "pos": "",
+      "image": "barian_lose",
+      "text": "ナッシュ…"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "オレ$R達(たち)は$R本来(ほんらい)$R七人(しちにん)　バリアンの$R七皇(ななこう)！　だが　ナッシュとメラグは$R突然(とつぜん)この$R世界(せかい)から$R姿(すがた)を$R消(け)した"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "もしかしたら　$R奴(やつ)らの$R世界(せかい)にいる$R可能性(かのうせい)はあるぜ"
+    },
+    {
+      "char": "dumon",
+      "pos": "",
+      "image": "barian_neutral",
+      "text": "$R良(よ)いだろう　そのナンバーズ　$R手分(てわ)けをして$R探(さが)すぞ！"
+    },
+    {
+      "char": "dumon",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "mizar",
+      "pos": "",
+      "image": "barian_neutral",
+      "text": "フン…"
+    },
+    {
+      "char": "mizar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "vector",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_school",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R一方(いっぽう)　アストラルはドン・サウザンドの$R気配(けはい)を$R感(かん)じ$R取(と)り　それにより$R飛行船(ひこうせん)に$R地図(ちず)が$R現(あらわ)れた"
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "アストラルは$R遊馬(ゆうま)たちを$R飛行船(ひこうせん)へと$R連(つ)れてきた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "",
+      "text": "アストラル！？　ってここは$R飛行船(ひこうせん)の$R中(なか)…　な　なんだよいきなり　びっくりするだろ"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "すまない　だが　これを$R見(み)て$R欲(ほ)しい"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "$R先程(さきほど)　$R突然(とつぜん)ある$R場所(ばしょ)を$R示(しめ)す$R地図(ちず)が$R映(うつ)し$R出(だ)された"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "この$R地図(ちず)にある$R七(なな)つの$R点(てん)は　ある$R遺跡(いせき)を$R示(しめ)している"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "そしてそれは　ナンバーズがある$R場所(ばしょ)でもある"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "ナンバーズ？"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "そして　$R地図(ちず)と$R共(とも)に$R九十九(つくも)$R一馬(かずま)からのメッセージが$R出現(しゅつげん)した"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "と　$R父(とう)ちゃんが！？"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "このメッセージによると　$R遺跡(いせき)にある$R七枚(しちまい)のナンバーズがバリアンの$R手(て)に$R渡(わた)れば　$R彼(かれ)らに\n$R強大(きょうだい)な$R力(ちから)が$R蘇(よみがえ)るらしい"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "neutral",
+      "text": "そのナンバーズを　バリアンより$R先(さき)に$R見(み)つけなきゃいけねえって$R事(こと)だな"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "$R父(とう)ちゃんはいつだってオレを$R導(みちび)いてくれた…"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "だったら$R信(しん)じて$R行(い)ってやる！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "smile",
+      "text": "ナンバーズを$R目指(めざ)して$R出発(しゅっぱつ)だ！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R一行(いっこう)は$R一枚目(いちまいめ)の$R封印(ふういん)のナンバーズを$R探(さが)しに　スパルタンシティへと$R向(む)かった　そこで　\nかつての$R仲間(なかま)と$R出会(であ)った"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "ゴーシュ！　ドロワ！"
+    },
+    {
+      "char": "nistro",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "お$R前(まえ)…　$R遊馬(ゆうま)！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "smile",
+      "text": "しっかし$R驚(おどろ)いたな～　ゴーシュがプロデュエリストになるなんて！"
+    },
+    {
+      "char": "torimeadows",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "nistro",
+      "pos": "",
+      "image": "",
+      "text": "オレはよ　$R子供(こども)たちに$R希望(きぼう)の$R星(ほし)を$R見(み)せてやりてえんだ　デュエルを$R通(とお)してな"
+    },
+    {
+      "char": "dextra",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "ところで　お$R前(まえ)たちはどうしてこの$R町(まち)に？"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "$R実(じつ)はオレ$R達(たち)　$R遺跡(いせき)を$R探(さが)してるんだ"
+    },
+    {
+      "char": "nistro",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "dextra",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "ドロワは$R遊馬(ゆうま)たちを$R遺跡(いせき)へと$R案内(あんない)した　しかし　アリトは$R一足(ひとあし)$R先(さき)に$R封印(ふういん)のナンバーズにたどり\n$R着(つ)いていた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alito",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "こいつがこの$R遺跡(いせき)のナンバーズか！"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "anger",
+      "text": "ほう　$R強力(きょうりょく)なナンバーズじゃねえか"
+    },
+    {
+      "char": "nistro",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "おい　お$R前(まえ)！　そこでなにしてんだ？"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "お$R前(まえ)は…　アリト！"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R九十九(つくも)…　$R遊馬(ゆうま)…"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R無事(ぶじ)だったのか！　オレ　ずっと$R心配(しんぱい)してたんだぜ！"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "",
+      "text": "オレも$R心配(しんぱい)してたぜ　お$R前(まえ)がオレ$R以外(いがい)の$R誰(だれ)かにヤられちまったんじゃねえかってな"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "",
+      "text": "ゴーシュとかいったな　しばらくコレを$R貸(か)してやる！"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "zexal_lionheartcard",
+      "text": ""
+    },
+    {
+      "char": "nistro",
+      "pos": "",
+      "image": "anger",
+      "text": "こいつは…　ナンバーズ！？"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "",
+      "text": "そいつを$R使(つか)って　オレと$R一緒(いっしょ)に$R九十九(つくも)$R遊馬(ゆうま)を$R倒(たお)すんだ！"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "zexal_lionheartcard",
+      "text": ""
+    },
+    {
+      "char": "nistro",
+      "pos": "",
+      "image": "surprise",
+      "text": "ああああああ！！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "アリト　お$R前(まえ)っ！！"
+    },
+    {
+      "char": "alito",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "nistro",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "$R全(すべ)ては　バリアン$R世界(せかい)のために"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "ゴーシュの$R洗脳(せんのう)を$R解(と)くには　デュエルで$R勝(か)つしかねえ！"
+    }
+  ]
+}

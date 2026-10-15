@@ -1,0 +1,209 @@
+{
+  "name": "AllDuelHandsonDeck_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_duelacademy",
+      "text": ""
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Dans la dimension Fusion, la Force Obelisk poursuivent leur assaut contre l'école de duel You Show."
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yusho",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alexisrhodesarcv",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Nous ne pouvons plus attendre très longtemps ! L'un des hommes de main du Professeur vient de battre cinq de nos meilleurs duellistes et les a transformés en cartes !"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "neutral",
+      "text": "D'accord. Mais j'y vais seul."
+    },
+    {
+      "char": "alexisrhodesarcv",
+      "pos": "",
+      "image": "surprise",
+      "text": "Non, c'est impossible. Pas avec la jambe dans cet état. Nous sommes capables de nous en occuper !"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "neutral",
+      "text": "Bien sûr que vous en êtes capables, mais je ne suis pas sûr que le combat soit juste. Il y a peut-être un autre moyen."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "neutral",
+      "text": "Et ce moyen est de parler personnellement à Léo Akaba."
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Oh, sûrement pas. Pour parler au Professeur, vous devez d'abord le rencontrer. Et je suis la seule façon que vous ayez de le rencontrer."
+    },
+    {
+      "char": "alexisrhodesarcv",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Dennis ?!"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "smile",
+      "text": "Salut, Zuzu. Ça faisait longtemps. C'était une belle performance, n'est-ce pas ?"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "neutral",
+      "text": "J'ai berné tout le monde. Mais on n'attend rien de moins de la part d'un artiste aussi talentueux que moi."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "anger",
+      "text": "Ah oui, M. McField ?"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Tu le connais ?"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ça faisait longtemps… Yusho."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Yusho ?!"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "",
+      "text": "Alors, dis-moi. Prêt à mettre mon art face à ton spectacle ?"
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Tais-toi, rouquin."
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "surprise",
+      "text": "Que fais-tu ici ?"
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "J'ai fait un petit saut dimensionnel pour aider une amie dans le besoin. Le Professeur retient Lulu en otage, et tu vas me dire où il la garde… sinon je te tirerai les vers du nez en faisant un duel."
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "smile",
+      "text": "Me tirer les vers du nez en faisant un duel ? T'es un comique toi !"
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "Peut-être, mais je ne sais pas si tu riras toujours quand tu sauras que l'Académie de Duel commence à remettre en question les plans du Professeur."
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "smile",
+      "text": "Même ton chef, Aster Phoenix, est de notre côté maintenant."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "surprise",
+      "text": "C'est vrai ?"
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "smile",
+      "text": "Ouais. Après son Duel contre Yuya, Aster a complètement retourné sa veste."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "smile",
+      "text": "Yuya..."
+    },
+    {
+      "char": "yusho",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "anger",
+      "text": "Je n'arrive pas à croire qu'Aster s'est joint à vous à cause de ce naze de Yuya."
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "neutral",
+      "text": "Assez bavardé. Passons au duel. Ce sera amusant de vous donner une leçon devant votre enseignant !"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "neutral",
+      "text": "Que le spectacle commence !"
+    }
+  ]
+}

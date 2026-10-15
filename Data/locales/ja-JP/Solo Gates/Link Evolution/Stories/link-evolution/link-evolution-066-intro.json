@@ -1,0 +1,341 @@
+{
+  "name": "TheHeartOfTheCards_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_gamestore",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "その$R日(ひ)の$R午後(ごご)　$R遊戯(ゆうぎ)は$R友達(ともだち)と$R一緒(いっしょ)におじいさんのゲーム$R屋(や)へ$R行(い)った　$R遊戯(ゆうぎ)は$R友達(ともだち)に\nおじいさんの$R宝物(たからもの)を$R見(み)せたかったのだ"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": "ねえねえ　じーちゃんのすごいカード　みんなに$R見(み)せてあげてよ"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "あのカードを？　さーて　どうするかのう…"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "smile",
+      "text": "お$R願(ねが)い！"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "smile",
+      "text": "ホホ…　しょうがないのう"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_blueeyes_card",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "smile",
+      "text": "ほれ　これが$R超(ちょう)ウルトラ$R級(きゅう)のレアカード「$R青眼の白龍(ブルーアイズ・ホワイト・ドラゴン)」！"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "smile",
+      "text": "$R世界(せかい)に$R四枚(よんまい)しかないうちの$R一枚(いちまい)じゃ　$R値段(ねだん)のつけようもないわい"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R突然(とつぜん)　クラスメイトが$R店(みせ)に$R入(はい)ってきた　$R彼(かれ)の$R名前(なまえ)は$R海馬(かいば)$R瀬人(せと)　$R海馬(かいば)コーポレーションの\n$R若(わか)き$R社長(しゃちょう)だ　$R彼(かれ)は$R探(さが)していたカードを$R見(み)つけた"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "LEFT",
+      "image": "",
+      "text": "じーさん　その$R青眼の白龍(ブルーアイズ・ホワイト・ドラゴン)$R一枚(いちまい)を　このトランクケースのカード$R全部(ぜんぶ)と$R交換(こうかん)してくれ！"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "ホホ…　ダメ　このカードはワシの$R大切(たいせつ)な$R親友(しんゆう)からゆずりうけたものでのう　その$R親友(しんゆう)と\n$R同(おな)じくらい$R大切(たいせつ)なものなんじゃ　いくら$R積(つ)まれても$R手放(てばな)すわけにはいかんのじゃよ"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "ちっ…　$R失礼(しつれい)する"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R海馬(かいば)は$R怒(おこ)っておじいさんの$R店(みせ)を$R出(で)ていった　$R海馬(かいば)の$R青眼の白龍(ブルーアイズ・ホワイト・ドラゴン)に$R対(たい)する$R執念(しゅうねん)に$R周囲(しゅうい)は\n$R動揺(どうよう)していた"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R次(つぎ)の$R日(ひ)　$R遊戯(ゆうぎ)たちが$R店(みせ)に$R帰(かえ)ってくると　おじいさんがいなくなっていた　$R電話(でんわ)が$R鳴(な)り　$R相手(あいて)は\n$R海馬(かいば)だった　おじいさんを$R誘拐(ゆうかい)し　$R海馬(かいば)コーポレーションへ$R連(つ)れていったと$R言(い)うのだ"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_kaibacorp",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R遊戯(ゆうぎ)たちが$R海馬(かいば)コーポレーションに$R駆(か)けつけると　おじいさんは$R闘(たたか)いに$R敗(やぶ)れ　$R床(ゆか)に$R倒(たお)れていた"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "じーちゃん！　しっかりして！！"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "ゆ…　$R遊戯(ゆうぎ)…　ゴメンよ…　ワシは$R負(ま)けてしまったよ…"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "じーちゃん！"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "フフフ　$R遅(おそ)かったじゃないか"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "てめえ　じーさんになにしやがった！？"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "デュエルをしただけさ　お$R互(たが)い$R一番(いちばん)$R大切(たいせつ)なカードをかけてね　ただ　ボクの$R開発(かいはつ)した\nバーチャルシミュレーターの$R刺激(しげき)がちょっと$R強(つよ)すぎたかもな"
+    },
+    {
+      "char": "teagardner",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "$R卑怯(ひきょう)な$R手(て)を$R使(つか)ったんじゃないの！？"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_blueeyes_card",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "smile",
+      "text": "まさか　その$R証拠(しょうこ)に$R手(て)に$R入(い)れたこのカード…"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R海馬(かいば)はおじいさんの$R青眼の白龍(ブルーアイズ・ホワイト・ドラゴン)を$R掲(かか)げると　$R真(ま)っ$R二(ぷた)つに$R破(やぶ)り$R捨(す)てた"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "じーちゃんの$R大事(だいじ)なカードを！！"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "",
+      "text": "デッキに$R入(い)れられる$R同名(どうめい)カードは$R三枚(さんまい)　$R四枚目(よんまいめ)は$R敵(てき)になるかもしれないからな"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "ワシの「$R青眼の白龍(ブルーアイズ・ホワイト・ドラゴン)」が…"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "じーちゃん！？　しっかり！！"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "なんてひどいことを！！"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "ゆ　$R遊戯(ゆうぎ)…　これを…"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "じーちゃん！？"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "sad",
+      "text": "これは$R彼(かれ)とのデュエルで$R使(つか)ったカードデッキじゃ…　$R負(ま)けはしたが$R魂(たましい)のカード　$R遊戯(ゆうぎ)　お$R前(まえ)なら\nあの$R少年(しょうねん)に$R勝(か)てるはずじゃ"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "わかったよじーちゃん！"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "おもしろい…　じーさんの$R敵討(かたきう)ちってわけか"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "$R勝負(しょうぶ)だ　$R海馬(かいば)！"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "surprise",
+      "text": "なにっ！？"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R海馬(かいば)は$R遊戯(ゆうぎ)の$R突然(とつぜん)の$R変化(へんか)に$R驚(おどろ)いた　$R自信(じしん)たっぷりで$R力強(ちからづよ)く　まるで$R別人(べつじん)になってしまったかの\nようだった"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "anger",
+      "text": "$R海馬(かいば)…　じーちゃんの$R魂(たましい)のデッキにかけて　お$R前(まえ)に$R勝(か)つ！！"
+    }
+  ]
+}

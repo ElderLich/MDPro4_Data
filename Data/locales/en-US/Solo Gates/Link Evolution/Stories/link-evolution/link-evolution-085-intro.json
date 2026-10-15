@@ -1,0 +1,101 @@
+{
+  "name": "MimeControl_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_egyptiangodcards",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Marik was in possession of two of the three Egyptian God Cards, but he still needed the Millennium Puzzle to bring his plan together."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Suddenly, Yugi found himself being challenged by a duelist named Strings."
+    },
+    {
+      "char": "strings",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Yugi!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "strings",
+      "pos": "",
+      "image": "",
+      "text": "Prepare to duel... and lose your Puzzle."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "Marik!"
+    },
+    {
+      "char": "strings",
+      "pos": "",
+      "image": "win",
+      "text": "Meet my mind slave, Strings the Quiet One. Thanks to the power of my Millennium Rod, he shall defeat you."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "Coward!"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "CENTER",
+      "image": "dark_neutral",
+      "text": "Why should I waste my time when I can duel you through my mind puppets?"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Battling with the power of my Millennium Rod is no different than you using your Puzzle to duel."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEIN:LEFT",
+      "image": "",
+      "text": "That's not true. You force your servants to do your dirty work by taking control of their minds against their will. I duel with respect and honor!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "anger",
+      "text": "Marik! Make your move!"
+    }
+  ]
+}

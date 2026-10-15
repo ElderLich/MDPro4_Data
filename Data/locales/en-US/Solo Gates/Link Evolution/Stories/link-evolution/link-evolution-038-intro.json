@@ -1,0 +1,341 @@
+{
+  "name": "FusionFoes_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_paradisecity",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "masumi",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Zuzu ran into her old rival, Julia, dueling an unknown figure. But before Zuzu could help, she was stopped by a familiar face."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "neutral",
+      "text": "Julia!"
+    },
+    {
+      "char": "masumi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Turn around and walk away. I can't let you interfere with my colleague's duel with that girl."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Your \"colleague?\" Is Julia in danger right now? Who are you guys? What do you want?"
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "We have enemies, Zuzu. And a friend of ours was taken by them. We'll stop at nothing to get her back."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "\"Her?\""
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "The first time that I saw you – I thought you were Lulu."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "So is Lulu the friend that was taken from you? Who is she?"
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "She's my colleague's sister. His name is Shay."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "What about you? I still don't know your name."
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "smile",
+      "text": "My name is… Yuto."
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "masumi",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "You're the one who attacked Professor Marco, aren't you? Why don't you just admit it?!"
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Oh, him… I was hoping he'd at least put up a good struggle. But he was pathetic."
+    },
+    {
+      "char": "masumi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Guys, I found him. I'm sending you my location. Hurry up!"
+    },
+    {
+      "char": "masumi",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "hokuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "yaiba",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "",
+      "image": "neutral",
+      "text": "So you called for backup? Only two people, though. You must underestimate me."
+    },
+    {
+      "char": "hokuto",
+      "pos": "NONE",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "yaiba",
+      "pos": "NONE",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "masumi",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_risefalconcard",
+      "text": ""
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "",
+      "image": "anger",
+      "text": "Raidraptor - Rise Falcon will finish you all! Ravaging Rebellion!"
+    },
+    {
+      "char": "masumi",
+      "pos": "NONE",
+      "image": "anger",
+      "text": "Aaagh!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "arcv_risefalconcard",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "However, one individual would not let Shay continue his rampage."
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "",
+      "image": "neutral",
+      "text": "Who are you?"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Declan Akaba. The current president of Leo Corporation. Leo Akaba's son."
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "",
+      "image": "anger",
+      "text": "Your despicable father has Lulu, and I'll do anything and everything to get her back… including using you as bait!"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Then if you do exactly what I ask, I'll agree to be your opponent."
+    },
+    {
+      "char": "shayobsidian",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_arcleaguechampionship",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Several days later, the Arc League Championship began!"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "I knew you kids were talented, but who'd have guessed you'd all qualify for the ARC League Championship!?"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "neutral",
+      "text": "Yuya, Zuzu and Sora. You'll be competing in the Junior Division."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "Now let's see who I'm gonna duel first… Sylvio!? And it's scheduled for tomorrow!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "My first opponent is… Julia!? My duel is this afternoon."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "And you, Sora?"
+    },
+    {
+      "char": "sora",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "I duel tomorrow. Against someone from the Leo Institute. Some guy named Shay Obsidian."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "sad",
+      "text": "Shay Obsidian…"
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sora",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "masumi",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Ah, there you are Zuzu! My first victim of the tournament."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Julia!"
+    },
+    {
+      "char": "masumi",
+      "pos": "",
+      "image": "smile",
+      "text": "You planning on losing to me again?"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "anger",
+      "text": "Don't count on it, Julia! I've been training hard ever since you beat me and now I'm ready to even the score!"
+    }
+  ]
+}

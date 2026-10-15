@@ -1,0 +1,287 @@
+{
+  "name": "CityScape_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_tops",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "LEFT:FADEIN",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT:FADEIN",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Zuzu y Yugo se teletransportaron a la Dimensión de Sincronía."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Bienvenida a la Dimensión de Sincronía!"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Qué? ¿La Dimensión de Sincronía? ¡Pero si yo estaba en medio de una batalla todos contra todos!"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "neutral",
+      "text": "Eres como el gemelo de Yuya. Bueno, el trillizo... ¡o cuatrillizo! ¿Me recuerdas tu nombre? ¿Era Yoyo?"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "¡¿Yoyo?! ¡Me llamo Yugo! Y tú no eres Rin; es imposible que ella se equivocara con mi nombre."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "smile",
+      "text": "No te preocupes, te acostumbrarás a este lugar. Recuerdo lo asustado que estaba cuando acabé en otra dimensión. Ese fue el día que perdí a Rin-Rin. Éramos inseparables... hasta que nos separaron."
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_commons",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "rin",
+      "pos": "CENTER",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yugo recordó el momento en que capturaron a Rin."
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "smile",
+      "text": "Vendrás conmigo, por las buenas o por las malas... y espero que sea por las malas."
+    },
+    {
+      "char": "rin",
+      "pos": "",
+      "image": "surprise",
+      "text": "!"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Suéltala, desgraciado! No hagas ninguna locura, ¿entendido?"
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "neutral",
+      "text": "Lo siento muchísimo, ¡pero las locuras son mi especialidad! ¡Chao!"
+    },
+    {
+      "char": "rin",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "¡Rin-Rin!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_clearwingcard",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Ohhh... ¿Qué está pasando? ¿Dragón Sincro Ala Transparente? ¿Por qué brillas?"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_heartlandcity",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "surprise",
+      "text": "(De repente, me encontré en la Dimensión Xyz, en Ciudad Heartland. Ese lugar había visto épocas mejores.)"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "arcv_clearwingcard",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Tú otra vez! ¡Suelta a Rin y puede que tenga piedad de ti!"
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "anger",
+      "text": "¿Me estás amenazando? ¡Pues ven!"
+    },
+    {
+      "char": "yuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_tops",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "De vuelta en el presente, Zuzu le hace ver a Yugo que está equivocado."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Ese chico era Yuto. Él no tiene a Rin. Su misión es rescatar a Lulu, la hermana de su amigo. Igual que tú."
+    },
+    {
+      "char": "yuzu",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "No tardaron en verse interrumpidos por un oficial del Sector de Seguridad."
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "",
+      "image": "neutral",
+      "text": "¡Dos Comunes! ¡Alto! ¡Esta zona es exclusiva de la Élite!"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "Sabía que quedarnos aquí no era una buena idea. Estamos en una zona solo para la Élite. Una zona prohibida para nosotros."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "La Élite es la parte de la sociedad que posee toda la riqueza y el poder aquí, en Ciudad Neo Domino. Los Comunes como nosotros tenemos que vivir en los barrios bajos."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "sad",
+      "text": "No me parece justo."
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "",
+      "image": "anger",
+      "text": "En nombre del Sector de Seguridad, ¡alto ahí!"
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "neutral",
+      "text": "¿Y dejarme atrapar? ¡Ni hablar! ¡Luchemos!"
+    }
+  ]
+}

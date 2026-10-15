@@ -1,0 +1,191 @@
+{
+  "name": "TheMasterOfMagicians_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_obelisk_card",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "バトルシティの$R開催(かいさい)$R中(ちゅう)に　マリクは$R探(さが)していた$R神(かみ)のカードを$R見(み)つけた"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "LEFT",
+      "image": "dark_neutral",
+      "text": ""
+    },
+    {
+      "char": "odion",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_surprise",
+      "text": "オベリスクの$R足跡(あしあと)を$R見(み)つけただと？"
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "",
+      "text": "はい　$R童実野町北(どみのちょうきた)Ｃブロック　オベリスクのカードの$R持(も)ち$R主(ぬし)は…"
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "",
+      "text": "$R海馬(かいば)$R瀬人(せと)です"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "フフ…　やはりな"
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "",
+      "text": "しかし　どのようにして$R海馬(かいば)が…"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "$R想像(そうぞう)はつくよ　$R奴(やつ)が$R神(かみ)のカードを$R手(て)にしたからこそこの$R大会(たいかい)が$R開催(かいさい)された　$R神(かみ)を$R束(たば)ねる$R儀式(ぎしき)と\nしてね　やはり$R姉(ねえ)さん…　あなたが$R最後(さいご)の$R一枚(いちまい)を$R持(も)っていたんだね"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "$R千年(せんねん)タウクが$R見(み)せるおぼろげな$R未来(みらい)に$R導(みちび)かれたんだろう　$R海馬(かいば)$R瀬人(せと)にオベリスクのカードを\nわたす$R事(こと)によって$R大会(たいかい)が$R開(ひら)かれることも"
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "",
+      "text": "レアハンターを$R集結(しゅうけつ)させ$R海馬(かいば)に$R狙(ねら)いを$R定(さだ)めますか？"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "いや　$R海馬(かいば)は$R泳(およ)がせておけ"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "ボクはもう$R王(おう)を$R見(み)つけた"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_anger",
+      "text": "$R奇術師(きじゅつし)パンドラにデュエルの$R準備(じゅんび)をさせておけ"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "odion",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "バトルシティの$R後半(こうはん)で　$R怪(あや)しいピエロが$R危険(きけん)な$R仕掛(しか)けのある$R秘密(ひみつ)の$R隠(かく)れ$R家(が)へと$R遊戯(ゆうぎ)を$R誘(さそ)い\n$R込(こ)んだ"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "arkana",
+      "pos": "RIGHT",
+      "image": "win",
+      "text": "ようこそ　$R私(わたし)が$R二人目(ふたりめ)のレアハンター　パンドラ　$R別名(べつめい)「ブラック・マジシャン$R使(つか)いの$R奇術師(きじゅつし)」"
+    },
+    {
+      "char": "arkana",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R遊戯(ゆうぎ)…　あなたもブラック・マジシャンを$R使(つか)いこなし　あらゆる$R敵(てき)をたおしてきた$R事(こと)は\n$R知(し)っています"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "anger",
+      "text": "ブラック・マジシャン$R使(つか)い…"
+    },
+    {
+      "char": "arkana",
+      "pos": "",
+      "image": "win",
+      "text": "だが　$R私(わたし)こそがマスター・オブ・マジシャン！　$R私(わたし)のブラック・マジシャンに$R勝(か)てる$R者(もの)はいない！"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "それはどうかな…　デュエリストは$R数(かず)あるカードの$R中(なか)から$R己(おのれ)の$R信(しん)じたカードを$R選(えら)びデッキを\n$R構築(こうちく)する！"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "smile",
+      "text": "だが　カードもまたデュエリストを$R見極(みきわ)める！　カードとデュエリスト！　$R二(ふた)つの$R心(こころ)が$R信頼(しんらい)の$R絆(きずな)で\n$R結(むす)ばれた$R時(とき)　カードの$R真(しん)の$R力(ちから)が$R発揮(はっき)されるんだ！"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "レアハンターにデュエリストの$R心(こころ)はないぜ！"
+    },
+    {
+      "char": "arkana",
+      "pos": "",
+      "image": "win",
+      "text": "ブラック・マジシャンの$R使(つか)い$R手(て)はこの$R世(よ)に$R二人(ふたり)はいりません…　このデュエルを$R制(せい)した$R者(もの)が\nマスター・オブ・マジシャンの$R称号(しょうごう)を$R手(て)に$R入(い)れる！"
+    }
+  ]
+}

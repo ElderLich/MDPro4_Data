@@ -1,0 +1,83 @@
+{
+  "name": "GX_LEADERS_ZaneTruesdale_Sheppard_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_duelistkingdom",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "LEFT",
+      "image": "discouragement",
+      "text": "Argh."
+    },
+    {
+      "char": "zanetruesdale",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Il est enfin à moi. Le Deck des Enfers."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Truesdale, attends. Prends ça."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "gx_medal",
+      "text": ""
+    },
+    {
+      "char": "zanetruesdale",
+      "pos": "",
+      "image": "surprise",
+      "text": "Une médaille ?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "neutral",
+      "text": "Tu veux savoir ce que je faisais ces derniers mois ? J'ai visité les écoles et les ligues de duellistes des quatre coins du monde. Tu sais pourquoi ? Pour organiser le tournoi ultime."
+    },
+    {
+      "char": "zanetruesdale",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Quel rapport avec cette médaille ?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "anger",
+      "text": "C'est ton ticket d'entrée. Nul ne peut participer à ce tournoi sans l'une de mes médailles. Truesdale, tu devrais participer, dans ton propre intérêt."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "gx_medal",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "anger",
+      "text": "Je te le conseille vivement. C'est une occasion à ne pas manquer."
+    },
+    {
+      "char": "zanetruesdale",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Je ne t'abandonnerai pas, Truesdale. Si je ne peux pas te ramener à la raison, peut-être que tes amis en seront capables."
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "name": "BattleCityBegins_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_school",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yugi était perturbé qu'il y avait un ennemi inconnu qui tentait de lui prendre son Puzzle du Millénium. Il se sentait mal préparé. Il ne connaissait pas assez bien le Puzzle pour comprendre quels dangers il aurait à faire face."
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Hé, comment ça va Yugi?"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "Pas terrible. J'ai besoin de ton aide ainsi que l'Esprit du Puzzle du Millénium aussi."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "Quel que soit celui qui a volé le puzzle, il semblait en savoir beaucoup de choses sur son passé. Cela a rappelé à l'esprit qu'il ne savait pas grand chose à ce sujet. Mais passer du temps avec toi pourrait l'aider à comprendre ce qui se passe."
+    },
+    {
+      "char": "teagardner",
+      "pos": "",
+      "image": "surprise",
+      "text": "Bien sûr, mais comment exactement je vais faire ça?"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "Tu donnes toujours de bons conseils. Il suffit de lui parler."
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "L'Esprit et Tea passèrent la journée ensemble. Ils partirent au Musée Domino qui venait de commencer une exposition égyptienne."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Ils virent une ancienne sculpture sur pierre qui représentait une bataille entre un sorcier et un pharaon. Le pharaon présentait une ressemblance frappante avec Yugi tandis que le sorcier ressemblait exactement à Kaiba."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "BACK_LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Pendant qu'ils se tenaient debout ébahis devant leur découverte, une mystérieuse femme s'approcha pour les saluer."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Mon Pharaon, je t'attendais."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "Hein? Qui es-tu?"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Je suis Shizu de la Société Historique Égyptienne. J'ai découvert beaucoup de mystères sur toi et sur ces sculptures antiques en utilisant la magie de mon collier Millenium."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "millenniumnecklace",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "Un autre Objet du Millénium!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Comme votre Puzzle du Millénium, ce Collier me donne certains pouvoirs qui m'ont permis de regarder cinq mille années en un arrière, à une époque où les sorciers maléfiques menacèrent de détruire le monde entier."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Cependant, il y avait un roi qui possédait une magie assez puissante pour arrêter cette dangereuse menace."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Le Pharaon qui avait sauvé le monde ... C'était toi. Et maintenant, le moment est venu pour toi de secourir l'humanité une fois de plus."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "Pour sauver l'humanité de quoi? Comment sais-tu que le monde court le danger d'être à nouveau détruit?"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "sad",
+      "text": "Mon Collier du Millénium me montre aussi des visions de l'avenir. Mon Pharaon, les événements du passé se reproduiront une fois de plus. Et ce même grand maléfice reviendra nous menacer."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Comment vais-je reconnaître ce mal?"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "Je sais que ta mémoire a disparu et que tu cherches beaucoup de réponses. Je sais aussi un qu'un tournoi Duel Monsters va commencer."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "neutral",
+      "text": "Si tu gagnes, tu trouveras tes réponses."
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Le tournoi dont Shizu faisait allusion était le tournoi de Battle City de Seto Kaiba. Joey et Yugi reçurent tous deux des invitations à y participer."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Tous les participants reçurent une carte transparente spéciale connue sous le nom de Carte de Localisation."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_locatorcards",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Le vainqueur de chaque duel était autorisé à prendre à la fois une Carte de Localisation et une Carte Rare du perdant. Si un duelliste perdait toutes ses Cartes de Localisation, il serait éliminé du tournoi. Seul ceux qui rassembleraient six Cartes de Localisation pourraient trouver l'emplacement de la finale du tournoi."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "seeker",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Le tournoi attira un groupe de duellistes connus sous le nom de Pilleurs de l'Ombre. Ces mauvaises duellistes étaient des voleurs qui avaient l'intention de voler les cartes les plus rares de Duel Monsters."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_redeyes_card",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Joey perdit sa carte Dragon Noir aux Yeux Rouges face à un Pilleur de l'Ombre nommé Seeker. Espérant récupérer sa carte, Joey le défia à un match de revanche."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "Tu as mes Yeux Rouges et je veux le récupérer, donc c’est l’heure du duel!"
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "win",
+      "text": "Je n'ai aucun désir de me battre en duel contre toi. Je t'ai déjà allégé de ta carte rare Yeux Rouges. Ma chasse pour gagner ton deck est terminée."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "Eh bien c'est dommage! Je ne partirai pas jusqu'à ce que je récupère mes Yeux Rouges!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Joey! Que se passe-t-il?"
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "neutral",
+      "text": "Yugi Muto! Il possède l'objet que mon maître désire!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "Ce mec me doit une revanche pour que je puisse récupérer ma carte Yeux Rouges!"
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "win",
+      "text": "Je t'ai déjà dit que tu n'as plus rien qui ne me soit utile. Mais peut-être que votre ami serait intéressé à être ma prochaine victime."
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "",
+      "text": "Cela me ferait plaisir de chasser le champion du Royaume des Duellistes et de m'emparer de son Magicien Sombre. Donc, je défis Yugi Muto en duel!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "D'accord, Pilleur de l'Ombre. J'accepte ton défi!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "C'est la seule façon de reconquérir ta carte, Joey."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEIN:LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "Si tu gagnes ce duel, je te donnerais mon Magicien Sombre. Mais si tu perds, tu devras rendre le Dragon Noir aux Yeux Rouges de Joey!"
+    }
+  ]
+}

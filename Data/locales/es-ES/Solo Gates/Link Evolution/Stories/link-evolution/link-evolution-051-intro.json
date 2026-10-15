@@ -1,0 +1,269 @@
+{
+  "name": "ChainGame_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_commons",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yuri dirigió la invasión de la Dimensión de Sincronía por parte de la Fuerza Obelisco, lo que desató el caos en Ciudad Neo Domino."
+    },
+    {
+      "char": "yuri",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_council",
+      "text": ""
+    },
+    {
+      "char": "gale",
+      "pos": "",
+      "image": "anger",
+      "text": "Los Lanceros vinieron a esta dimensión para protegernos de este tipo de situaciones, ¿no es así?"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Los Lanceros llegaron para ayudar a combatir a estos enemigos. ¡Para formar equipo con tus propios duelistas y trabajar como una fuerza unida!"
+    },
+    {
+      "char": "gale",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_commons",
+      "text": ""
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "celina",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "La Fuerza Obelisco ha localizado a Celina."
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "",
+      "image": "smile",
+      "text": "Ja, ja, ja, ja, ja..."
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "",
+      "image": "sad",
+      "text": "¡Celina!"
+    },
+    {
+      "char": "celina",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "sora",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "",
+      "image": "sad",
+      "text": "¡Ohh!"
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sora",
+      "pos": "",
+      "image": "smile",
+      "text": "Vamos, chicos. Ya se pueden relajar."
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "¡Sora! ¡Me alegro de verte!"
+    },
+    {
+      "char": "celina",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "¿Que te alegras de verle? ¡¿Has perdido la cabeza?! ¿Olvidaste que le dio una paliza a Shay y trató de llevarme con él?"
+    },
+    {
+      "char": "sora",
+      "pos": "",
+      "image": "neutral",
+      "text": "Calma. Estoy aquí para ayudar, no para llevarte de vuelta a la Academia. ¡Ahora estamos en el mismo bando!"
+    },
+    {
+      "char": "yuri",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "¿Por qué alguien elegiría voluntariamente el bando perdedor?"
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "¡Se parece mucho a mí!"
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "smile",
+      "text": "Tantos traidores en un espacio tan pequeño. Esto no le va a gustar al profesor."
+    },
+    {
+      "char": "sora",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "celina",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "¡Por fin te encontré, rata!"
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "sad",
+      "text": "Como de costumbre, llegas en mal momento, Yugo. ¿No ves que estoy ocupada en este momento?"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": "¿Y qué? ¡Eso es lo que obtienes por llevarte a Rin!"
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "neutral",
+      "text": "El profesor tendrá todo lo que quiera. Quería a Rin, y ahora quiere a Celina."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": "Aquí se acaba tu miserable camino."
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "neutral",
+      "text": "Creo que te refieres a que se acaba el tuyo, estúpido. Después de todo, tus probabilidades de ganar son nulas."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "neutral",
+      "text": "¿Nulas? Eso es más que cero o menos que... No, eso no tiene sentido. ¡Pero te venceré de todos modos!"
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "sad",
+      "text": "No puedo creer que tenga que luchar contra este imbécil..."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Oh, será mejor que lo creas! ¡Este imbécil está listo para luchar!"
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Luchemos!"
+    }
+  ]
+}

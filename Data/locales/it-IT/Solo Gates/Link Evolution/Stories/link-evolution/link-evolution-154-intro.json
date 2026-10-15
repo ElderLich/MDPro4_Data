@@ -1,0 +1,449 @@
+{
+  "name": "ClashOfTheEmperors_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_night",
+      "text": ""
+    },
+    {
+      "char": "rio",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "rayshadows",
+      "pos": "LEFT",
+      "image": "evil_neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Tutti e sette gli Imperatori Bariani apparvero in forma umana."
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rayshadows",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Shark, che cosa stai facendo con i Bariani?"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "",
+      "text": "Shark? È passato molto tempo da quando qualcuno mi ha chiamato con quel nome."
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "anger",
+      "text": "Ma io non sono più Shark o Reginald. Il mio nome è Nash!"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "",
+      "text": "Nash il Bariano!"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "",
+      "text": "Vai Trasformazione Bariana!"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "RIGHT:FADEIN",
+      "image": "",
+      "text": "Siamo i sette Imperatori Bariani."
+    },
+    {
+      "char": "mizar",
+      "pos": "CENTER",
+      "image": "barian_neutral",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "Mizar, l'unico vero maestro degli Occhi Galattici!"
+    },
+    {
+      "char": "mizar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "CENTER",
+      "image": "barian_neutral",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "Girag, il guerriero Bariano più potente!"
+    },
+    {
+      "char": "girag",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alito",
+      "pos": "CENTER",
+      "image": "barian_neutral",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "Alit, il Bariano che combatte con i pugni della furia!"
+    },
+    {
+      "char": "alito",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "vector",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "Vector, c'è altro da aggiungere?"
+    },
+    {
+      "char": "vector",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "marin",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "Marin, il nome che da i brividi a tutti i cuori."
+    },
+    {
+      "char": "marin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "dumon",
+      "pos": "CENTER",
+      "image": "barian_neutral",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "Dumon, il mio fedele amico, ma il tuo più grande nemico!"
+    },
+    {
+      "char": "dumon",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "Ed io sono Nash, leader dei sette Imperatori Bariani!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Non posso credere che Shark sia il leader dei Bariani!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "trey",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "quattro",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "quinton",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Dopodiché gli imperatori Bariani sconfissero III, IV e V in duelli separati."
+    },
+    {
+      "char": "trey",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "quattro",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "quinton",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Astral discusse con Yuma su come combattere i Bariani."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Invece di combattere i sette Imperatori Bariani, cerchiamo invece di eliminare la fonte; Don Thousand."
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "Don Thousand è il grande dio Bariano, che sconfissi molto tempo fa."
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "Ma deve essere resuscitato, perché solo la sua grande potenza può causare questa distruzione."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "Allora andiamo nel Mondo Bariano e sconfiggiamolo!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_barian",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Così Yuma, Astral e i loro amici viaggiarono con il dirigibile spaziale nel Mondo Bariano."
+    },
+    {
+      "char": "vector",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "donthousand",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Nel frattempo, Vector iniziò ad assorbire tutti gli imperatori Bariani sotto il comando di Don Thousand."
+    },
+    {
+      "char": "donthousand",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "marin",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "dumon",
+      "pos": "RIGHT",
+      "image": "barian_neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Marin, Alit, Girag, e Dumon soccombettero. Vector puntò gli occhi su Nash."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "marin",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "dumon",
+      "pos": "FADEOUT",
+      "image": "barian_neutral",
+      "text": ""
+    },
+    {
+      "char": "vector",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Ti stavo aspettando, Nash!"
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "Vector... pagherai per il dolore che hai inflitto a Marin e Dumon."
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "neutral",
+      "text": "Fammi indovinare. Tu sei quello che me la farà pagare?"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "Oh, sono così terrorizzato!"
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "lose",
+      "text": "Dovresti esserlo!"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "smile",
+      "text": "Che temperamento! Ma che hai, problemi a gestire la rabbia!?"
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "Pensi di essere divertente!?"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "smile",
+      "text": "Sì! Perché è difficile prenderti sul serio!"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "anger",
+      "text": "Ma dal momento che non comprendi il mio sarcasmo, saltiamo alla parte in cui ti finisco!"
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "name": "GripoftheParasite_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_duelacademy",
+      "text": ""
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "alexisrhodesarcv",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Gracias a la información de Dennis, los Lanceros se separaron para salvar a Lulu y Rin."
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "¡Ahí está la torre donde tienen a Lulu como rehén! Voy a entrar."
+    },
+    {
+      "char": "yugo",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "¡Espera!"
+    },
+    {
+      "char": "alexisrhodesarcv",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Yugo? ¿Cómo has llegado aquí?"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "neutral",
+      "text": "El brazalete de Zuzu comenzó a brillar otra vez y aquí estoy."
+    },
+    {
+      "char": "alexisrhodesarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "Eh... olvida que te he preguntado. Me alegra que estés aquí."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "neutral",
+      "text": "¿Dónde es \"aquí\"?"
+    },
+    {
+      "char": "alexisrhodesarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "En la Academia de Duelos."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Acabas de decir Academia de Duelos?"
+    },
+    {
+      "char": "alexisrhodesarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "Sí. Y sabemos dónde está tu querida amiga Rin."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡¿Qué?! ¡Dime dónde está ahora mismo!"
+    },
+    {
+      "char": "alexisrhodesarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "La tienen encerrada en la torre este."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Por qué no lo has dicho antes?"
+    },
+    {
+      "char": "yugo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yusho",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Ellos tienen sus misiones. Te diría que fuéramos y lleváramos a cabo la nuestra."
+    },
+    {
+      "char": "alexisrhodesarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "Sí. ¡Vamos allá!"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "neutral",
+      "text": "Es hora de ir a ver a Leo."
+    },
+    {
+      "char": "alexisrhodesarcv",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yusho",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yugo llegó a la torre este para liberar a Rin."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Rin-Rin!"
+    },
+    {
+      "char": "rin",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "¡¿Yugo?!"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "smile",
+      "text": "Me alegro de que estés bien, Rin. Lo habrás pasado fatal estando cautiva."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "Quiero decir, no tanto como estando lejos de mí... No estoy asumiendo que me extrañaras mucho o desearas que yo hubiera estado aquí contigo... ¿Me extrañaste?"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "smile",
+      "text": ""
+    },
+    {
+      "char": "rin",
+      "pos": "",
+      "image": "neutral",
+      "text": "Piensas demasiado. Por supuesto que deseaba que estuvieras aquí, tonto."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "rin",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Así podría hacer esto! *Empujón*"
+    },
+    {
+      "char": "yugo",
+      "pos": "NONE",
+      "image": "surprise",
+      "text": "¡Aaah!"
+    },
+    {
+      "char": "rin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Por suerte, mi Corredor de Duelo evitó que me cayera... ¡aunque puede que lo haya roto!"
+    },
+    {
+      "char": "rin",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Olvídate de ese trozo de chatarra. ¡Tienes problemas mayores!"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡¿Trozo de chatarra?! Rin-Rin, no puedo creer que hayas dicho esto sobre NUESTRO Corredor de Duelo."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡Construimos la máquina de Duelo definitiva que iba a llevarnos hasta la Copa de la Amistad!"
+    },
+    {
+      "char": "rin",
+      "pos": "",
+      "image": "anger",
+      "text": "Todo eso suena bastante patético. ¿Pero sabes lo que no es patético? ¡Aplastarte!"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "neutral",
+      "text": "¡Vamos a resolver esto a la antigua!"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "neutral",
+      "text": "¡Luchemos!"
+    }
+  ]
+}

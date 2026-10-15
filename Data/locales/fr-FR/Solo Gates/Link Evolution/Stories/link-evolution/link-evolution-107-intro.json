@@ -1,0 +1,101 @@
+{
+  "name": "RiseOfTheSacredBeasts_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_genericoutdoor2",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Le véritable chef de file des Cavaliers de l'Ombre se révéla être Kagemaru, directeur et fondateur de la Duel Academy. Il défia Jaden à un duel, espérant utiliser ses Cartes Bêtes Sacrées pour conquérir le monde."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kagemaru",
+      "pos": "RIGHT",
+      "image": "old_smile",
+      "text": "J'ai construit cette école, et maintenant je suis revenu pour mes Cartes Bêtes Sacrées!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Quoi?"
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "old_smile",
+      "text": "Je suis Kagemaru, Maitre des Jeux de l'Ombre! C'est moi qui était le premier à sceller les cartes ici. C'est moi qui ai donné à Sheppard les sept clés!"
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "old_smile",
+      "text": "Mais ces clés n'ont aucune valeur. Pour déverrouiller les Portails de l'Esprit, l'énergie de duel est tout ce qui est nécessaire. L'énergie que vous dépensez en essayant de protéger ces clés."
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "old_smile",
+      "text": "C'est pourquoi je me suis arrangé pour que tous les meilleurs duellistes du monde viennent ici. J'espérais année après année, classe après classe, qu'un élève arriverait avec assez d'esprit de duel pour déverrouiller le pouvoir des cartes."
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "old_smile",
+      "text": "Mes Cavaliers de l'Ombre ont été envoyés pour vous tester, et un seul a réussi. Quelqu'un avec le potentiel pour enfin débloquer les Bêtes Sacrées et me donner la force pour gouverner le monde!"
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "old_smile",
+      "text": "Mon adversaire sera ... Jaden Yuki!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "surprise",
+      "text": "Excusez-moi? Quoi?"
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "old_smile",
+      "text": "Vous êtes le seul duelliste avec le pouvoir de débloquer les Cartes Bêtes Sacrées! Et si vous refusez, je veillerai à ce que cette île et toutes les personnes qui s'y trouvent s'enfoncent dans les profondeurs de l'océan!"
+    },
+    {
+      "char": "kagemaru",
+      "pos": "FADEOUT",
+      "image": "old_smile",
+      "text": ""
+    },
+    {
+      "char": "kagemaru",
+      "pos": "FADEIN:RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anger",
+      "text": "Vous ne pouvez pas faire ça!"
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "smile",
+      "text": "Je peux faire n'importe quoi avec ces cartes Bêtes Sacrées. Commençons le Jeu des Ombres!"
+    }
+  ]
+}

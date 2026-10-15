@@ -1,0 +1,269 @@
+{
+  "name": "BlindedByTheLight_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_obeliskblue",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Tras derrotar Aster a Jaden, Sartorius viajó a la Academia de Duelos con el fin de evaluar a los alumnos de la escuela."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Mientras en la isla, Satorius se encontró con Chazz Princeton."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "chazzprinceton",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sartoriuskumar",
+      "pos": "LEFT",
+      "image": "",
+      "text": "A mí me conocen como Sartorius. He viajado bastante lejos para conocerte."
+    },
+    {
+      "char": "chazzprinceton",
+      "pos": "",
+      "image": "black_neutral",
+      "text": "¿Sí? ¿Y por qué desea conocerme?"
+    },
+    {
+      "char": "sartoriuskumar",
+      "pos": "",
+      "image": "smile",
+      "text": "Sencillo. Necesito a alguien como tú."
+    },
+    {
+      "char": "sartoriuskumar",
+      "pos": "",
+      "image": "smile2",
+      "text": "Te diré algo, tengo una idea. ¿Por qué no me muestras tú habilidad? Podrías ser mi cliente."
+    },
+    {
+      "char": "sartoriuskumar",
+      "pos": "",
+      "image": "",
+      "text": "Yo manejo duelistas profesionales. ¿Has oído hablar de Aster Phoenix?"
+    },
+    {
+      "char": "chazzprinceton",
+      "pos": "",
+      "image": "black_surprise",
+      "text": "¡¿Los manejas?!"
+    },
+    {
+      "char": "sartoriuskumar",
+      "pos": "",
+      "image": "smile",
+      "text": "Claro. Ahora vamos a ver si estás listo para los profesionales."
+    },
+    {
+      "char": "sartoriuskumar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "chazzprinceton",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Chazz perdió, y Sartorius se hizo cargo de la mente de Chazz usando los poderes misteriosos mágicos de La Luz de la Destrucción. Sartorius también obligó a Chazz a unirse a una siniestra organización, La Sociedad de la de Luz."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Más adelante, Dr. Crowler se sorprendió al enterarse de que el Rector Sheppard había vuelto a anunciar un nuevo torneo."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Gracias por mantener mi asiento calientito mientras he estado fuera, Crowler. Pero ahora estoy de vuelta, y hay asuntos importantes que discutir."
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "¿Qué puedo hacer para ayudarle, señor?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "smile",
+      "text": "Reúna todos los estudiantes. ¡Tengo un anuncio importante que hacer que atañe a todo el mundo! ¡Nuestras vidas cambiarán!"
+    },
+    {
+      "char": "sheppard",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "El recién llegado Rector Sheppard se dirigió a todo el alumnado."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "En primer lugar, ¡me alegro de estar de vuelta! ¡Tengo un regalo especial para todos vosotros!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "¿Un regalo? Tío, ¡qué bien que Sheppard ha vuelto!"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "neutral",
+      "text": "¡Os doy el Torneo de Duelo GX! ¡Un concurso para la próxima generación de expertos duelistas! ¡No se parece en nada a lo que habéis experimentado antes!"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Y comienza ahora mismo!"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "neutral",
+      "text": "¡Duelistas de todo el mundo se darán cita aquí! ¡Tanto para estudiantes como para profesionales!"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "neutral",
+      "text": "Cuando todo se asiente y y el torneo termine sólo un duelista permanecerá, ¡ y se le conocerá como El Mejor del Mundo!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Ese voy a ser yo! ¡Voy a derrotar a todos los profesionales!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Chazz aprovechó el torneo con el fin de desafiar a Jaden en una revancha. Sin embargo, Jaden llegaba tarde a su duelo porque estaba ocupado en busca de la vieja chaqueta de Chazz - su posesión mas preciada de todo el mundo. Jaden esperaba usar la chaqueta para romper el control mental de Chazz."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "chazzprinceton",
+      "pos": "LEFT",
+      "image": "blue_neutral",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "chazzprinceton",
+      "pos": "",
+      "image": "black_smile",
+      "text": "¡¿Cuál es tu problema!? ¡¿Te has olvidado o simplemente eres un gallina?!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anguish",
+      "text": "En realidad, yo estaba revisando tus cosas viejas y perdí la noción del tiempo. Encontré tu vieja chaqueta y pensé que te gustaría probártela de nuevo."
+    },
+    {
+      "char": "chazzprinceton",
+      "pos": "",
+      "image": "black_anger",
+      "text": "¡Guarda eso! ¡Yo sé lo que estás tratando de hacer y no va a funcionar! ¡ya no voy a volver a ser quien era antes!"
+    },
+    {
+      "char": "chazzprinceton",
+      "pos": "",
+      "image": "black_anger",
+      "text": "¡El viejo Chazz ya no existe! ¡He visto la luz!"
+    },
+    {
+      "char": "chazzprinceton",
+      "pos": "",
+      "image": "black_bittersleep",
+      "text": "Pero si eso es cierto, ¿entonces por qué había una parte de mí quería ponerse esa chaqueta?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "bittersleep",
+      "text": "La dejaré aquí por si cambias de opinión, Chazz."
+    },
+    {
+      "char": "chazzprinceton",
+      "pos": "",
+      "image": "black_anger",
+      "text": "¡Está bien! ¡La usaré como trapo para limpiar el polvo después ganarte! ¡Vamos a luchar!"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "name": "ObeliskAssault_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_arcleaguechampionship",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Im weiteren Verlauf der Arc Meisterschaft begegnete Declan einem Mädchen, das Zuzu auffallend ähnlich sah."
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Du bist also Celina … nicht Zuzu Boyle."
+    },
+    {
+      "char": "celina",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Zuzu wer?"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Schon gut. Sie ist nur jemand, dem du sehr ähnlich siehst."
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "neutral",
+      "text": "Und?"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Wir sind uns schon mal begegnet. Ich bin Declan Akaba – Leo Akabas Sohn. Wir haben uns in der Fusionsdimension getroffen."
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Du warst die Duellantin, in der mein Vater das größte Potenzial sah. Hat er dich als Späherin für die bevorstehende Invasion hierher geschickt?"
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "anger",
+      "text": "Niemand hat mich hierher geschickt! Ich gehe, wohin ich will, wann ich es will. Ich unterstehe niemandem!"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ich habe mein Leben einer einzigen Sache gewidmet: den Plan meines Vaters zu durchkreuzen, in andere Dimensionen einzudringen und ein interdimensionales Reich zu erschaffen!"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "smile",
+      "text": "Ich versammle Duellanten, die mir helfen können, unsere Dimension gegen Leo Akaba zu verteidigen. Ich möchte, dass du mir hilfst, Celina."
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "neutral",
+      "text": "Kein Interesse. Ich bin nur hier, um diejenigen zu jagen, die aus der Xyz-Dimension geflohen sind."
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Leo Akaba hat dich vielleicht nicht hierher geschickt, aber eines solltest du bedenken: Wenn du nicht mein Freund bist, bist du mein Feind."
+    },
+    {
+      "char": "celina",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Nach dem Ende der ersten Runde der Junior Arc Meisterschaft wurde das Turnier als Battle Royal fortgesetzt."
+    },
+    {
+      "char": "nico",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "In der nächsten Runde werden die Duellanten sich in der ganzen Stadt duellieren!"
+    },
+    {
+      "char": "nico",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Gut gemacht, Declan. Jetzt kann die Öffentlichkeit nicht mehr den Unterschied zwischen Turnierduellen und Kämpfen gegen Leos Streitkräfte erkennen."
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "",
+      "text": "Richtig. Das bedeutet, dass es keine Panik geben wird. Unsere Gegner können natürlich in Panik geraten, sobald sie erkennen, was wir für sie geplant haben …"
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_paradisecity",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Ein weiterer Duellant der Junior Arc Meisterschaft, Dennis McField, forderte Zuzu zu einem Duell heraus."
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Hallo! Ich habe mich gar nicht vorgestellt. Ich heiße Dennis McField. Ich denke, wir sollten uns duellieren, damit wir bessere Freunde werden können, findest du nicht, Zuzu?"
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Woher weißt du, wer ich bin?"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "smile",
+      "text": "Mein innigster Traum ist es, eines Tages ein großartiger Duelltainer zu werden. Ich kenne die You Show Duellschule und ihre bezauberndste Entertainerin!"
+    },
+    {
+      "char": "celina",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": "Daraus wird nichts! Weil dieses nächste Duell dein letztes sein wird!"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "surprise",
+      "text": "Ich wusste nicht, dass du eine Zwillingsschwester hast!"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Sie sieht wirklich genau aus wie ich! Du musst Lulu sein. Ich bin Zuzu."
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "neutral",
+      "text": "Es ist mir egal, wer du bist. Ich bin nur an diesem Xyz-Flüchtling interessiert."
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "surprise",
+      "text": "Xyz-Flüchtling? Ähm, was ist das?"
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "anger",
+      "text": "Tu nicht so dumm! Ich mache dich platt! Mach dich bereit!"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "neutral",
+      "text": "Dieses Mädchen verwechselt mich ganz offensichtlich. Ein Duelltainer akzeptiert jedoch immer eine Herausforderung, um die Menge zu unterhalten."
+    }
+  ]
+}

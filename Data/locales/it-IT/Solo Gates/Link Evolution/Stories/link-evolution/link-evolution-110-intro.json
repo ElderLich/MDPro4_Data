@@ -1,0 +1,245 @@
+{
+  "name": "ANewBreedOfHero_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_genericoutdoor",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Non appena l'estate finì, Jaden iniziò il secondo anno all'Accademia del Duellante... con un grande cambiamento."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Il Cancelliere Sheppard dovette assentarsi dalla scuola per ragioni sconosciute, quindi il Dottor Crowler sostituì il Cancelliere. Il primo compito del dottor Crowler fu di attendere l'arrivo di uno studente famoso."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Aster Phoenix! Il duellante numero uno in tutto il mondo si è iscritto come matricola nella nostra scuola!"
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "",
+      "image": "smile",
+      "text": "Con una celebrità sotto la mia tutela, sarò famoso! Dopo tutto, Aster Phoenix è conosciuto in tutto il pianeta!"
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Il Dottor Crowler non si rese conto che Aster era già arrivato sull'isola, così Crowler rimase ad aspettare al porto."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "CENTER",
+      "image": "discouragement",
+      "text": "Questo non ha alcun senso. Non si è presentato."
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Dopo aver segretamente condotto alcuni incarichi sull'isola, Aster tornò in città per continuare a duellare professionalmente."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Aster si preparò per duellare contro la nuova star del circuito professionale: Zane Truesdale. Prima del duello, Aster si incontrò con il suo agente Sartorius Kumar."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sartoriuskumar",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "asterphoenix",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Come va?"
+    },
+    {
+      "char": "sartoriuskumar",
+      "pos": "",
+      "image": "",
+      "text": "Vorrei che tu spendessi meno tempo con i tuoi giochi giovanili e più tempo a prepararti per i tuoi duelli."
+    },
+    {
+      "char": "sartoriuskumar",
+      "pos": "",
+      "image": "",
+      "text": "Dovrai affrontare la più grande sfida della tua vita."
+    },
+    {
+      "char": "asterphoenix",
+      "pos": "",
+      "image": "",
+      "text": "Sciocchezze. Sai che vincerò."
+    },
+    {
+      "char": "sartoriuskumar",
+      "pos": "",
+      "image": "",
+      "text": "Sì, le carte predicono la tua vittoria. Tuttavia, Zane è solamente una tappa verso il tuo vero destino."
+    },
+    {
+      "char": "asterphoenix",
+      "pos": "",
+      "image": "",
+      "text": "Potresti dirmi di quale \"destino\" stai parlando?"
+    },
+    {
+      "char": "sartoriuskumar",
+      "pos": "",
+      "image": "",
+      "text": "No, ma lo scoprirai quando arriverà il tuo momento. E fino allora, dovrai completamente fidarti di me."
+    },
+    {
+      "char": "sartoriuskumar",
+      "pos": "",
+      "image": "",
+      "text": "Dopo il tuo incontro con Zane, tornerai all'Accademia del Duellante e sfiderai Jaden Yuki a un duello."
+    },
+    {
+      "char": "sartoriuskumar",
+      "pos": "",
+      "image": "",
+      "text": "Ma per prima cosa, il tuo pubblico ti attende."
+    },
+    {
+      "char": "asterphoenix",
+      "pos": "",
+      "image": "",
+      "text": "Sì. Ho una grande serata davanti a me."
+    },
+    {
+      "char": "asterphoenix",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sartoriuskumar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "zanetruesdale",
+      "pos": "RIGHT",
+      "image": "anguish",
+      "text": ""
+    },
+    {
+      "char": "asterphoenix",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Dopo aver sconfitto Zane, Aster annunciò che il suo prossimo avversario sarebbe stato Jaden Yuki."
+    },
+    {
+      "char": "zanetruesdale",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Così all'Accademia del Duellante, Jaden e Aster si affrontarono!"
+    },
+    {
+      "char": "zanetruesdale",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "asterphoenix",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_genericoutdoor",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Bene! È arrivato il momento di allentarti la cravatta, rimboccarti le maniche e combattere!"
+    },
+    {
+      "char": "asterphoenix",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Ma per favore! Non suderò nemmeno un po’. Preparati alla sconfitta."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "Beh, c'è solo un modo di vedere chi è il migliore. Facciamolo!"
+    }
+  ]
+}

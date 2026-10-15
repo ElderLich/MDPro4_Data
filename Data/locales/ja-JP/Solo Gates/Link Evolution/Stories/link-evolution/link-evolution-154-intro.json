@@ -1,0 +1,449 @@
+{
+  "name": "ClashOfTheEmperors_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_night",
+      "text": ""
+    },
+    {
+      "char": "rio",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "rayshadows",
+      "pos": "LEFT",
+      "image": "evil_neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "バリアンの$R七皇(ななこう)$R全員(ぜんいん)が$R人間(にんげん)の$R姿(すがた)で$R現(あらわ)れた"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rayshadows",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "シャーク！？　なんでお$R前(まえ)がバリアンの$R奴(やつ)らと$R一緒(いっしょ)にいるんだ！"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "",
+      "text": "シャーク…　そんなふうに$R呼(よ)ばれていたのは　$R随分(ずいぶん)$R昔(むかし)の$R事(こと)に$R思(おも)えるぜ"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "anger",
+      "text": "だが$R今(いま)のオレはシャークでも$R凌牙(りょうが)でもねえ　オレはナッシュ…"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "",
+      "text": "バリアンのナッシュだ！"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "",
+      "text": "バリアルフォーゼ！！"
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "RIGHT:FADEIN",
+      "image": "",
+      "text": "$R我(われ)ら　バリアンの$R七(なな)つ$R星(ぼし)"
+    },
+    {
+      "char": "mizar",
+      "pos": "CENTER",
+      "image": "barian_neutral",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "$R真(しん)の$R銀河眼(ギャラクシーアイズ)$R使(つか)い　ミザエル！"
+    },
+    {
+      "char": "mizar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "CENTER",
+      "image": "barian_neutral",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "$R全(すべ)てのものは$R我(わ)が$R手(て)の$R中(なか)　ギラグ！"
+    },
+    {
+      "char": "girag",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alito",
+      "pos": "CENTER",
+      "image": "barian_neutral",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "$R唸(うな)る$R拳(こぶし)が$R神(かみ)をも$R砕(くだ)く　アリト！"
+    },
+    {
+      "char": "alito",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "vector",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "こいつは$R言(い)うまでもねえな…　ベクター！"
+    },
+    {
+      "char": "vector",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "marin",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "$R灼熱(しゃくねつ)の$R太陽(たいよう)すら$R瞬間(しゅんかん)$R凍結(とうけつ)　$R氷(こおり)の$R剣(つるぎ)　メラグ！"
+    },
+    {
+      "char": "marin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "dumon",
+      "pos": "CENTER",
+      "image": "barian_neutral",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "バリアンの$R白(しろ)き$R盾(たて)　ドルベ！"
+    },
+    {
+      "char": "dumon",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "そしてオレがバリアンの$R七皇(ななこう)を$R統(す)べる$R者(もの)　ナッシュだ！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "そんな…　そんな　お$R前(まえ)が…　バリアンのナッシュ！？"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "nash",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "trey",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "quattro",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "quinton",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "バリアンの$R七皇(ななこう)はそれぞれ$R闘(たたか)い　$R遊馬(ゆうま)の$R仲間(なかま)たちを$R倒(たお)した"
+    },
+    {
+      "char": "trey",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "quattro",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "quinton",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "アストラルは$R遊馬(ゆうま)と　バリアンの$R七皇(ななこう)とどう$R闘(たたか)うか$R相談(そうだん)した"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "バリアン$R七皇(ななこう)と$R闘(たたか)わない$R道(みち)　それは　ドン・サウザンドを$R直接(ちょくせつ)　$R我々(われわれ)の$R手(て)で$R倒(たお)す$R事(こと)だ"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "ドン・サウザンド　それはバリアンの$R神(かみ)　$R彼(かれ)の$R力(ちから)は$R遥(はる)か$R昔(むかし)に$R封印(ふういん)された"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "だが　この$R地上(ちじょう)の$R状況(じょうきょう)を$R見(み)る$R限(かぎ)り…　その$R力(ちから)は$R蘇(よみがえ)っているようだ　おそらくドン・サウザンドは\n$R七皇(ななこう)を$R操(あやつ)り　$R自(みずか)らの$R力(ちから)を$R復活(ふっかつ)させた"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "じゃあ　ドン・サウザンドこそが$R黒幕(くろまく)！　そいつを$R倒(たお)せば$R七皇(ななこう)と$R闘(たたか)わなくて$R済(す)むんだな！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_barian",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R遊馬(ゆうま)とアストラル　$R小鳥(ことり)の$R三人(さんにん)は$R飛行船(ひこうせん)でバリアン$R世界(せかい)へと$R向(む)かった"
+    },
+    {
+      "char": "vector",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "donthousand",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "その$R一方(いっぽう)で　ベクターはドン・サウザンドの$R命令(めいれい)で　バリアンの$R七皇(ななこう)$R全員(ぜんいん)を$R吸収(きゅうしゅう)しようと\nしていた"
+    },
+    {
+      "char": "donthousand",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "marin",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "dumon",
+      "pos": "RIGHT",
+      "image": "barian_neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "メラグ　アリト　ギラグ　ドルベはすでにその$R手(て)に$R落(お)ち　$R次(つぎ)にベクターが$R狙(ねら)うのはナッシュだった"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "marin",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "dumon",
+      "pos": "FADEOUT",
+      "image": "barian_neutral",
+      "text": ""
+    },
+    {
+      "char": "vector",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "$R会(あ)いたかったぜ　ナッシュ"
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "$R貴様(きさま)…　よくもメラグとドルベを！"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "neutral",
+      "text": "ああ　いただいちゃいましたよ　それだけじゃねえ　$R既(すで)にギラグとアリトの$R力(ちから)も$R頂戴(ちょうだい)した"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "$R食(く)らい$R過(す)ぎて$R少々(しょうしょう)もたれてたとこだ　$R腹(はら)ごなしにてめえをぶっ$R潰(つぶ)して　$R力(ちから)を$R頂(いただ)くとするぜ"
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "lose",
+      "text": "オレは…　これほどまでに$R誰(だれ)かを$R憎(にく)いと$R思(おも)った$R事(こと)は…　ない！！"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "smile",
+      "text": "いいねえ　その$R面(つら)　たまらねえぜ"
+    },
+    {
+      "char": "nash",
+      "pos": "",
+      "image": "",
+      "text": "ベクターあああああ！！"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "smile",
+      "text": "グチグチ$R話(はな)しててもしょうがねえ！"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "anger",
+      "text": "オレ$R達(たち)の$R勝負(しょうぶ)に$R決着(けっちゃく)つけられんのは　デュエルだけ！　なあ　ナッシュ！！"
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "name": "DuelIdentity_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_pegasuscastle",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "ついにデュエリストキングダム$R決勝(けっしょう)トーナメントの$R日(ひ)がやってきた　$R遊戯(ゆうぎ)も$R城之内(じょうのうち)も$R準備(じゅんび)\n$R万端(ばんたん)だ"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": "…じーちゃん　$R海馬(かいば)くん　そしてモクバくん　$R必(かなら)ず$R助(たす)け$R出(だ)すからね"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEIN:LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "BACK_LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "banditkeith",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R遊戯(ゆうぎ)と$R城之内(じょうのうち)はリングに$R向(む)かう$R途中(とちゅう)で　$R他(ほか)の$R二人(ふたり)の$R決勝(けっしょう)$R出場者(しゅつじょうしゃ)と$R出(で)くわした　$R舞(まい)と\nバンデット・キースだ　バンデット・キースはあらゆる$R手(て)を$R使(つか)って$R決勝戦(けっしょうせん)へとたどり$R着(つ)き　\n$R止(と)まるつもりも$R一切(いっさい)なかった"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R誇(ほこ)り$R高(たか)きデュエリストたちよ！　$R聖(せい)なる$R闘(たたか)いの$R場(ば)にようこそ！　$R今(いま)ここにデュエリストキングダム\n$R優勝者(ゆうしょうしゃ)$R決定戦(けっていせん)トーナメントの$R開始(かいし)を$R宣言(せんげん)しマース"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "smile",
+      "text": "トーナメントに$R優勝(ゆうしょう)した$R者(もの)は$R莫大(ばくだい)な$R賞金(しょうきん)を$R手(て)にし　$R更(さら)には$R私(わたし)への$R挑戦権(ちょうせんけん)も$R得(え)ることが\n$R出来(でき)マース！"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "",
+      "text": "デュエルモンスターズの$R生(う)みの$R親(おや)である$R私(わたし)に$R勝利(しょうり)した$R者(もの)はインダストリアル・\nイリュージョン$R社(しゃ)が$R初代(しょだい)デュエリストキングに$R認定(にんてい)しマース！"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "",
+      "text": "つまり$R誰(だれ)もが$R認(みと)める$R世界(せかい)Ｎｏ．1デュエリストの$R称号(しょうごう)が$R手(て)に$R入(はい)るのデース！"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "smile",
+      "text": "$R世界(せかい)Ｎｏ．1…"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "neutral",
+      "text": "ここに$R残(のこ)ったデュエリストたちなら　$R賞金(しょうきん)よりその$R名誉(めいよ)こそ$R真(しん)に$R手(て)にしたいものでしょう"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "",
+      "text": "フフフ…　おもしれえじゃねえか…"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "…$R賞金(しょうきん)を$R手(て)に$R入(い)れる$R事(こと)が$R出来(でき)れば$R静香(しずか)を$R救(すく)ってやれる"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "smile",
+      "text": "$R果(は)たして$R決勝(けっしょう)トーナメントを$R勝(か)ち$R上(あ)がり$R私(わたし)に$R挑戦(ちょうせん)するのはこの$R中(なか)の$R誰(だれ)なのでしょう"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "ペガサス！　オレは$R必(かなら)ず$R貴様(きさま)を$R倒(たお)し　みんなの$R魂(たましい)を$R解放(かいほう)してみせるぜ！"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R最初(さいしょ)の$R準決勝(じゅんけっしょう)は$R遊戯(ゆうぎ)vs$R舞(まい)だった"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R遊戯(ゆうぎ)と$R仲良(なかよ)くなったとはいえ　$R舞(まい)も$R勝(か)つために$R闘(たたか)っている"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "",
+      "text": "$R強(つよ)い$R奴(やつ)を$R倒(たお)せば$R倒(たお)すほど$R得(え)られるデュエリストの$R快感(かいかん)　あたしはそれを$R求(もと)めてこの$R島(しま)に\nやって$R来(き)た"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "",
+      "text": "あなたと$R知(し)り$R合(あ)い　どんな$R時(とき)でも$R一人(ひとり)きりで$R生(い)きて$R来(き)たあたしに$R仲間(なかま)の$R暖(あたた)かさを$R教(おし)えてくれた"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "",
+      "text": "そしていつしかあなたと$R闘(たたか)うことがあたしの$R夢(ゆめ)となっていたわ"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "",
+      "text": "$R遊戯(ゆうぎ)　あなたの$R存在(そんざい)が$R私(わたし)の$R人生(じんせい)を$R変(か)えてしまったのよ！　でも　$R今(いま)のあなたの$R視線(しせん)はあたしを\n$R捉(とら)えてはいない！"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "",
+      "text": "$R心(こころ)はすでにペガサスとの$R闘(たたか)いに$R縛(しば)られているようね　それは$R裏(うら)を$R返(かえ)せば$R焦(あせ)りや$R苛立(いらだ)ちに\n$R他(ほか)ならない　$R目(め)の$R前(まえ)の$R敵(てき)から$R視線(しせん)を$R逸(そ)らして$R勝(か)てる$R程(ほど)デュエルは$R甘(あま)くはないわ！"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "smile",
+      "text": "$R行(い)くわよ$R遊戯(ゆうぎ)！"
+    }
+  ]
+}

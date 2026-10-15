@@ -1,0 +1,143 @@
+{
+  "name": "TheFinalFaceOff_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_blimp",
+      "text": ""
+    },
+    {
+      "char": "odion",
+      "pos": "BACK_LEFT",
+      "image": "",
+      "text": "マリク$R様(さま)…"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "マリク…"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "RIGHT",
+      "image": "good_sad",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "これで…　$R終(お)わりだ"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_neutral",
+      "text": "…ボクの$R完全(かんぜん)な$R敗北(はいぼく)だ　ファラオよ"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "お$R前(まえ)の$R心(こころ)の$R闇(やみ)は$R葬(ほうむ)られた"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "neutral",
+      "text": "マリク　$R私達(わたしたち)の$R未来(みらい)は$R失(うしな)われてはいなかった"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "smile",
+      "text": "ありがとう　ファラオ"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "いや　お$R前(まえ)は$R自(みずか)らの$R心(こころ)のデュエルフィールドで$R勝利(しょうり)を$R得(え)た"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_neutral",
+      "text": "$R闇(やみ)のゲームで$R負(ま)けた$R君達(きみたち)の$R仲間(なかま)も$R闇(やみ)の$R呪縛(じゅばく)から$R解放(かいほう)され　じきに$R意識(いしき)を$R取(と)り$R戻(もど)すだろう"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "smile",
+      "text": "$R舞(まい)が…"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_smile",
+      "text": "$R遊戯(ゆうぎ)　$R受(う)け$R取(と)ってくれ　ラーの$R翼神竜(よくしんりゅう)を"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_neutral",
+      "text": "そして　$R墓守(はかもり)の$R一族(いちぞく)が$R守(まも)り$R続(つづ)けて$R来(き)た$R王(おう)の$R記憶(きおく)への$R鍵(かぎ)　それはここにある"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "そこに$R記(しる)されているのは$R三千年前(さんぜんねんまえ)に$R王家(おうけ)に$R仕(つか)えた$R墓守(はかもり)の$R予言(よげん)です　$R三(みっ)つの$R神(かみ)…　その$R力(ちから)を\n$R手(て)に$R入(い)れし$R者(もの)　それが$R王(おう)の$R魂(たましい)を$R宿(やど)す$R者(もの)の$R証(あかし)となる"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "$R遊戯(ゆうぎ)…　$R三枚(さんまい)の$R神(かみ)のカードを$R手(て)に$R入(い)れたあなたこそが$R王(おう)の$R証(あかし)であり　ここに$R記(しる)された$R記憶(きおく)の\n$R在(あ)り$R処(か)を$R知(し)る$R事(こと)が$R出来(でき)るのです"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_smile",
+      "text": "これでボクの$R使命(しめい)は$R果(は)たされた　$R最後(さいご)に$R一族(いちぞく)が$R守(まも)り$R続(つづ)けてきた$R残(のこ)りの$R千年(せんねん)アイテムを　\n$R千年(せんねん)ロッドと$R共(とも)に$R受(う)け$R取(と)ってくれ"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "millenniumrod",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "ありがとう！"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "millenniumrod",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "good_smile",
+      "text": "そして　$R千年(せんねん)リングと$R千年眼(ミレニアム・アイ)も"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "millenniumring",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R七(なな)つ$R揃(そろ)った$R千年(せんねん)アイテムと$R三幻神(さんげんしん)を$R手(て)に　とうとう$R遊戯(ゆうぎ)が$R闇(やみ)のゲームを$R終(お)わらせる$R時(とき)がきた！"
+    }
+  ]
+}

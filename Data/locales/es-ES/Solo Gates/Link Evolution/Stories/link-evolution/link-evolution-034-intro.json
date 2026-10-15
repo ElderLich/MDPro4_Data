@@ -1,0 +1,401 @@
+{
+  "name": "DuelingwiththeStars_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_paradisecity",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Después del intento fallido por parte de Sylvio de robar las Cartas de Péndulo de Yuya, Zuzu no perdió de vista al ladrón."
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "He oído que estás planeando vengarte de Yuya. ¡Que sepas que no te lo pienso permitir! En vez de eso... ¡enfréntate a mí, aquí y ahora!"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "sad",
+      "text": "¿Lo dices en serio?"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "neutral",
+      "text": "¿Qué pasa? ¿Te da miedo continuar con tu racha de derrotas?"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "anger",
+      "text": "Acepto el reto, Zuzu."
+    },
+    {
+      "char": "yuto",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Espero no estar interrumpiendo nada."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Yuya?"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "anger",
+      "text": "¿Acaso no ves que estamos ocupados? ¡Estamos a punto de empezar un Duelo!"
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "Exacto... ¡tú y yo!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_darkrebellioncard",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "anger",
+      "text": "Uso una Invocación Xyz y llamo... ¡al Dragón Xyz Rebelión Oscura!"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡Aaah!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "arcv_darkrebellioncard",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_youshowschool",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "La noticia del joven misterioso que atacó a Sylvio se extendió rápidamente y no tardó en llegar a la Escuela de Duelos You Show."
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "Qué raro... ¿Era Yuya? No lo sé..."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "neutral",
+      "text": "Como hoy vamos a aprender sobre las Invocaciones, ¿por qué no nos enseñas a hacer una Invocación Xyz?"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "neutral",
+      "text": "Me temo que no puede ser. ¡No puedo enseñaros algo que no sé! ¿Por qué? ¿Conoces a alguien que la domine, Zuzu?"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "sad",
+      "text": "No... no estoy segura..."
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "¡Eh! ¡Hay gente de Leo que acusa a Yuya de haber hecho daño a Sylvio en un Duelo!"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡¿A Yuya?!"
+    },
+    {
+      "char": "yuya",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "¡¿A mí?!"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "Quizás yo pueda ayudar."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "neutral",
+      "text": "Te conozco... Tú eres Henrietta Akaba."
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Sí, soy la directora del Instituto Leo de Duelos. ¿Qué les parece si tenemos una pequeña charla?"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Me temo que debemos afrontar los hechos. Y no se puede negar que Yuya ha creado un gran alboroto."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "surprise",
+      "text": "Yuya, ¿de verdad fuiste tú?"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "¡No, no, no! ¿Por qué nadie me cree?"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "neutral",
+      "text": "Gong te cree. ¿Quién apoya a Gong?"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "sad",
+      "text": "Sé lo que vieron mis ojos aquel día... Pero, a veces, las apariencias engañan..."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "No pasa nada, Zuzu. Di lo que hay en tu corazón."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "neutral",
+      "text": "¿En mi corazón? Mi corazón dice... ¡que eres inocente!"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Qué bonito, pero eso no cambia nada. A menos que quieran que llame a las autoridades, les recomiendo que escuchen mi propuesta."
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Yuya ridiculizó a uno de nuestros estudiantes! Esto es una cuestión de honor. ¡Un honor que recuperaremos haciendo que nuestros estudiantes se enfrenten! ¡Ganará quién venza en dos de tres Duelos!"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Si tu escuela gana, nos olvidaremos del incidente con Yuya."
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Pero si ganamos nosotros... con efecto inmediato, el Instituto Leo absorberá la Escuela de Duelos You Show."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "anger",
+      "text": "¿Has preparado todo esto simplemente porque quieres quedarte con nuestra escuela?"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "No, pero cuando se presenta una oportunidad así, no voy a resistirme."
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Verás, hay tres métodos de Invocación definitivos: Fusión, Sincronía y Xyz. Pero, al parecer, ahora existe un cuarto método: el Péndulo."
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "sad",
+      "text": "Con el debido respeto, el potencial de la Invocación por Péndulo se desperdicia aquí."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "¡Para ti los Duelos son solo un negocio! Pero aquí, ¡creemos que son un ESPECTÁCULO! Los Duelos son de verdad poderosos cuando se usan para hacer feliz a la gente."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "Pero si crees que la reputación de tu escuela está dañada y que la única manera de restaurarla es luchando, de acuerdo."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Pero seré yo quien luche en ese Duelo!"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "neutral",
+      "text": "¡Gong opina exactamente lo mismo! ¡Y Gong también se ofrece como voluntario!"
+    },
+    {
+      "char": "sora",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Pero tú no perteneces a la Escuela de Duelos You Show."
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "surprise",
+      "text": "!"
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "¡Luchemos!"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "smile",
+      "text": "Parece que tus alumnos han aceptado mis condiciones. ¿Qué me dices?"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "neutral",
+      "text": "Señora directora, lo que digo es que... ¡trato hecho!"
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sora",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "hokuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Los estudiantes que he traído del Instituto Leo son los mejores de sus clases. El que se enfrentará a Yuya será... ¡Dipper!"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "hokuto",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Ese es mi nombre! ¡Ni se te ocurra olvidarlo!"
+    },
+    {
+      "char": "hokuto",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "skipboyle",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "¡Allá vamos! ¡Es hora del espectáculo!"
+    }
+  ]
+}

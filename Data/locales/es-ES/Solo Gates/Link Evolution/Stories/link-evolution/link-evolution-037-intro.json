@@ -1,0 +1,317 @@
+{
+  "name": "ADateWithFate_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_youshowschool",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Aunque Yuya consiguió salvar su escuela, no pudo limpiar su nombre."
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Papá, mejoraré mis habilidades de Duelo. Seré un profesional como tú."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Hola."
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Lárgate, Sylvio."
+    },
+    {
+      "char": "shingo",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Emboscaron a otro duelista ayer. La gente anda diciendo que fuiste tú."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Bueno, pues \"la gente\" no tiene razón! ¿A quién atacaron?"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "sad",
+      "text": "Al profesor Marco... Trabaja en el Instituto Leo. Desde entonces, no tenemos noticias suyas."
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "sad",
+      "text": "Suponía que no era verdad eso de que tú estabas involucrado. Es imposible que vencieras a alguien como Marco, incluso usando un golpe bajo como tu Invocación por Péndulo."
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "¡Un momento! ¿Cómo que \"golpe bajo\"?"
+    },
+    {
+      "char": "shingo",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Bueno, para empezar, tú eres el único que tiene Cartas de Péndulo. ¿De verdad crees que eso es justo?"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "neutral",
+      "text": "De todas formas, eso es algo que cambiará muy pronto. He oído que la Corporación Leo ha empezado a desarrollar Cartas de Péndulo de forma independiente."
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Seré el primero en probarlas cuando las saquen. Entonces, tú y yo nos veremos las caras."
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Te diría de enfrentarnos en el Campeonato de la Liga Junior Arc... pero no podemos. No estás clasificado."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Que no estoy clasifi...? ¡Ah! ¡Es cierto! Para clasificarte, tienes que haber luchado por lo menos en 50 Duelos oficiales y tener un 60 % de victorias. ¡Y yo no tengo suficientes victorias!"
+    },
+    {
+      "char": "shingo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "CENTER",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_paradisecity",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yuya buscó por toda la ciudad a algún duelista dispuesto a enfrentarse a él, pero todo el mundo se negó."
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_youshowschool",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "CENTER",
+      "image": "sad",
+      "text": "¡Nadie quiere luchar conmigo porque se piensan que ya soy profesional!"
+    },
+    {
+      "char": "yuya",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "nico",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "¡Joven Yuya! ¡Qué alegría volver a verte!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "¿Qué estás haciendo aquí?"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Vino a darnos una gran noticia. ¡Te han invitado oficialmente al Campeonato de la Liga Junior Arc de este año!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Qué? ¿De verdad?"
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "¡De verdad de la buena! Después de tu victoria contra el Martillo, ¡la Asociación de Duelo decidió ofrecerte un puesto en el Campeonato!"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "sad",
+      "text": "¿Qué ocurre?"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "Es que... es una oferta muy generosa, pero... me da la sensación de que es como hacer trampa."
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡No, es favoritismo!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "…"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "Necesito que hagas algo por mí."
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "Lo que sea."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "¡Búscame un adversario para que pueda ganar mi puesto de manera justa!"
+    },
+    {
+      "char": "nico",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "skipboyle",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_paradisecity",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Fiel a su palabra, Nico Smiley encontró una adversaria para Yuya: una duelista psíquica."
+    },
+    {
+      "char": "aurasentia",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "¡Las cartas dicen que hoy conoceré a mi duelgemelo! ¿Se parecerá a una superestrella adolescente? ¿O será un hombretón musculoso? ¡¿O quizás un intelectual hogareño con un corazón de oro?!"
+    },
+    {
+      "char": "aurasentia",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Qué raro... Esta es la dirección que me dio Nico para el Duelo... ¡pero esto no es una escuela!"
+    },
+    {
+      "char": "nico",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "Bienvenido, joven. Te he estado esperando. Adelante."
+    },
+    {
+      "char": "nico",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "aurasentia",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "¡Es absolutamente imposible! ¡No puede ser que este duelista idiota sea mi duelgemelo!"
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "shy",
+      "text": "Perdona..."
+    },
+    {
+      "char": "aurasentia",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "¡¿No ves que estoy pensando?!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "Oh, lo siento. Pero... ¿no deberíamos estar luchando?"
+    },
+    {
+      "char": "aurasentia",
+      "pos": "",
+      "image": "neutral",
+      "text": "¡Ah, claro que lucharemos!"
+    },
+    {
+      "char": "aurasentia",
+      "pos": "",
+      "image": "neutral",
+      "text": "¡Será la mejor forma de saber si mi predicción acerca de ti es cierta o no!"
+    }
+  ]
+}

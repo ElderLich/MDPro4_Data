@@ -1,0 +1,383 @@
+{
+  "name": "BattleCityBegins_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_school",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R遊戯(ゆうぎ)はまだ$R見(み)ぬ$R敵(てき)が$R千年(せんねん)パズルを$R狙(ねら)っていることを$R知(し)り$R動揺(どうよう)した　$R自分(じぶん)の$R無防備(むぼうび)さを$R感(かん)じた　\n$R遊戯(ゆうぎ)はパズルについてよく$R知(し)らず　これから$R迫(せま)り$R来(く)る$R危険(きけん)も$R予想(よそう)できなかった"
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "あっ！　$R遊戯(ゆうぎ)！"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "$R杏子(あんず)　あの…　あのさ　$R今度(こんど)の$R日曜(にちよう)ヒマ？"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "$R実(じつ)はさ　もう$R一人(ひとり)のボクが$R最近(さいきん)なんか$R元気(げんき)なくて　ボクにもなんにも$R打(う)ち$R明(あ)けてくんないし…\n$R杏子(あんず)と$R会(あ)えば$R元気(げんき)$R出(で)るかなと$R思(おも)ってさ"
+    },
+    {
+      "char": "teagardner",
+      "pos": "",
+      "image": "surprise",
+      "text": "えっ…　もう$R一人(ひとり)の$R遊戯(ゆうぎ)が？"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "うん　お$R願(ねが)い！"
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "もう$R一人(ひとり)の$R遊戯(ゆうぎ)は$R杏子(あんず)と$R一日(いちにち)を$R過(す)ごした　エジプト$R展(てん)が$R始(はじ)まったばかりの$R童実野(どみの)$R博物館(はくぶつかん)に\n$R行(い)き"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R魔法(まほう)$R使(つか)いとファラオの$R闘(たたか)いを$R描(えが)いた$R古代(こだい)の$R石(いし)を$R見(み)た　ファラオの$R姿(すがた)が$R遊戯(ゆうぎ)によく$R似(に)ている\n$R一方(いっぽう)で　$R魔法(まほう)$R使(つか)いの$R姿(すがた)は$R海馬(かいば)そのものだった"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "BACK_LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R驚(おどろ)いてその$R場(ば)に$R立(た)ちつくしていると　$R怪(あや)しげな$R女(おんな)が$R声(こえ)をかけてきた"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "お$R待(ま)ちしておりました"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "あんたは？"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "$R私(わたし)はイシズ・イシュタール　$R私(わたし)の$R一族(いちぞく)は$R三千年(さんぜんねん)の$R長(なが)き$R月日(つきひ)に$R亘(わた)り　$R王(おう)の$R記憶(きおく)の$R一部(いちぶ)を$R護(まも)り\n$R続(つづ)けてきました"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "millenniumnecklace",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "それは…　$R千年(せんねん)アイテム！"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "この$R千年(せんねん)タウクは$R近(ちか)い$R未来(みらい)を$R見通(みとお)す$R力(ちから)があります　あなたがここに$R来(く)ることはわかって\nいました　そして$R新(あら)たな$R闘(たたか)いが$R始(はじ)まろうとしている$R事(こと)も"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "そう…　あなたは$R自(みずか)らこの$R場所(ばしょ)を$R訪(おとず)れ　$R闘(たたか)いの$R運命(うんめい)を$R選(えら)んだのです"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "あなたは$R自分(じぶん)の$R記憶(きおく)を$R取(と)り$R戻(もど)したがっている…　それには$R七(なな)つの$R千年(せんねん)アイテムを$R全(すべ)て\n$R集(あつ)めなければいけません"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "まわりくどい$R言(い)い$R方(かた)はよしな　あんたはオレの$R敵(てき)なのか？　それとも$R味方(みかた)なのか？"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "sad",
+      "text": "$R私(わたし)の$R千年(せんねん)アイテムはあなたの$R敵(てき)ではありません　しかし　$R私(わたし)には$R見(み)えます　$R間(ま)もなくあなたの\n$R前(まえ)に$R現(あらわ)れる$R敵(てき)　その$R者(もの)こそ$R新(あら)たな$R千年(せんねん)アイテムを$R持(も)つ$R者(もの)"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R新(あら)たな$R千年(せんねん)アイテム？"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "",
+      "text": "これからあなたは$R記憶(きおく)を$R取(と)り$R戻(もど)すための$R闘(たたか)いに$R身(み)を$R投(とう)じる　$R広場(ひろば)に$R行(い)ってみると$R良(よ)いでしょう　\nそこであなたの$R運命(うんめい)が$R切(き)り$R開(ひら)かれるはず"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "",
+      "image": "neutral",
+      "text": "…あとはご$R自分(じぶん)の$R目(め)で$R確(たし)かめてください"
+    },
+    {
+      "char": "ishizuishtar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "イシズの$R言(い)っていた$R闘(たたか)いとは　$R海馬(かいば)$R瀬人(せと)の$R大会(たいかい)　「バトルシティ」だった　$R城之内(じょうのうち)と$R遊戯(ゆうぎ)は$R共(とも)に\n$R招待状(しょうたいじょう)をもらった"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R全(すべ)ての$R参加者(さんかしゃ)には　パズルカードと$R呼(よ)ばれる$R特別(とくべつ)な$R透明(とうめい)のカードが$R与(あた)えられた"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_locatorcards",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R各(かく)デュエルに$R勝(か)った$R者(もの)は　$R敗者(はいしゃ)からパズルカードとレアカードの$R両方(りょうほう)を$R得(え)ることができ　\nパズルカードを$R全(すべ)て$R失(うしな)ったデュエリストは$R失格(しっかく)となる　$R六枚(ろくまい)のパズルカードを$R集(あつ)めた\n$R者(もの)のみが　$R決勝(けっしょう)トーナメントの$R会場(かいじょう)を$R知(し)ることができる"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "seeker",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R大会(たいかい)には　グールズの$R名(な)で$R知(し)られるデュエリストの$R集団(しゅうだん)が$R集(あつ)まった　デュエルモンスターズの\nレアカードを$R盗(ぬす)もうと$R企(たくら)む　$R悪(あく)のデュエリストたちだ"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_redeyes_card",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R城之内(じょうのうち)は　レアハンターと$R呼(よ)ばれるグールズの$R一員(いちいん)に$R敗北(はいぼく)し　$R真紅眼の黒竜(レッドアイズ・ブラックドラゴン)を$R奪(うば)われて\nしまった　カードを$R取(と)り$R戻(もど)すため　$R城之内(じょうのうち)はレアハンターに$R再戦(さいせん)を$R挑(いど)んだ　"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "ようやく$R見(み)つけた！　$R必(かなら)ずバトルシティに$R現(あらわ)れると$R思(おも)ったぜ！"
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "win",
+      "text": "$R負(ま)け$R犬(いぬ)のくせに　$R吠(ほ)えまくることは$R忘(わす)れていないか"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "$R誰(だれ)が$R負(ま)け$R犬(いぬ)だ！"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": "$R城之内(じょうのうち)くん！"
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R武藤(むとう)$R遊戯(ゆうぎ)か　これは$R丁度(ちょうど)いい"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "$R遊戯(ゆうぎ)　この$R野郎(やろう)がオレのレッドアイズを！"
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "win",
+      "text": "ほう　ではお$R前(まえ)が$R再(ふたた)び$R私(わたし)とやるというのかな？　レッドアイズ$R無(な)しのデッキで"
+    },
+    {
+      "char": "seeker",
+      "pos": "",
+      "image": "",
+      "text": "だが　こちらとてレアカードのないお$R前(まえ)になど$R用(よう)はない　$R武藤(むとう)$R遊戯(ゆうぎ)　お$R前(まえ)が$R相手(あいて)をしろ！"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "このデュエル　ボクがうける"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "そして$R城之内(じょうのうち)くんのカードを$R取(と)り$R戻(もど)す！"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEIN:LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "$R貴様(きさま)のような$R街(まち)を$R汚(よご)すゴミは$R今(いま)すぐ$R片付(かたづ)けてやるぜ！"
+    }
+  ]
+}

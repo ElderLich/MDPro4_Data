@@ -1,0 +1,179 @@
+{
+  "name": "TimetoReunite_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_laboratory",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "CENTER",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yuya gewann das Duell, aber der Preis war hoch."
+    },
+    {
+      "char": "yuri",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "So fühlt es sich also an, zu verlieren … so muss sich Yugo jeden Tag fühlen …"
+    },
+    {
+      "char": "sora",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Z-ARC wird also nicht zurückkommen! Nicht heute, nicht morgen – niemals!"
+    },
+    {
+      "char": "sora",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "asterphoenixarcv",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Denn Yuya ist ein Gewinner, kein Verlierer wie du. Nicht wahr, Yuya? Yuya?"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "Ich habe gewonnen, Declan. Du wolltest, dass ich mich aufs Gewinnen konzentriere … und ich habe gewonnen."
+    },
+    {
+      "char": "asterphoenixarcv",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Yuya?!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "anger",
+      "text": "Ich habe gewonnen. Genau wie du es wolltest!"
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "anger",
+      "text": "Und von jetzt an … gibt es keine Showduelle mehr! Ihr wolltet brutalere Duelle, und die habe ich euch gegeben!"
+    },
+    {
+      "char": "asterphoenixarcv",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Was ist hier los?"
+    },
+    {
+      "char": "asterphoenixarcv",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sora",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Nichts Gutes."
+    },
+    {
+      "char": "sora",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "BACK_RIGHT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "BACK_LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_astrographcard",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Astrografzauberer! Ich rufe dich! Nutze deine mystischen Kräfte, um uns zu einer einzigen, unaufhaltsamen Einheit zusammenzufügen!"
+    },
+    {
+      "char": "yugo",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "arcv_astrographcard",
+      "text": ""
+    },
+    {
+      "char": "zarc",
+      "pos": "CENTER:FADEIN",
+      "image": "smile",
+      "text": "Ich bin zurück! Endlich frei!"
+    }
+  ]
+}

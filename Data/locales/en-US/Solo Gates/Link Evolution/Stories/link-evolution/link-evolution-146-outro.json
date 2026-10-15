@@ -1,0 +1,101 @@
+{
+  "name": "CounterOffensive_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_school",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Alito!"
+    },
+    {
+      "char": "alito",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "sad",
+      "text": "Alito, are you ok? Let me help you up."
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "neutral",
+      "text": "Now that duel was truly epic."
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "",
+      "text": "Hey Astral, my Number belongs to you now."
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "",
+      "text": "It's time for me to go back to Barian World. Goodbye..."
+    },
+    {
+      "char": "alito",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_night",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "But Alito did not transport back to Barian World."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alito",
+      "pos": "LEFT:FADEIN",
+      "image": "surprise",
+      "text": "This isn't Barian World! Whoever brought me here, show yourself!"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "RIGHT",
+      "image": "evil_smile",
+      "text": "Hahahaha!"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "surprise",
+      "text": "It's... you!"
+    }
+  ]
+}

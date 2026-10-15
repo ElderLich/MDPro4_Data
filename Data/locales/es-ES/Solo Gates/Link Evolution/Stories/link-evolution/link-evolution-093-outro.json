@@ -1,0 +1,245 @@
+{
+  "name": "WD_JOEY_JoeyWheeler_Valon_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_sanfrancisco",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "valon",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Lo has conseguido. Has ganado. Adiós."
+    },
+    {
+      "char": "maivalentine",
+      "pos": "RIGHT",
+      "image": "alternate_sad",
+      "text": "Es culpa mía."
+    },
+    {
+      "char": "valon",
+      "pos": "",
+      "image": "",
+      "text": "No digas eso, Mai, yo soy el responsable de mi perdición. Pensé que, si ganaba, conseguiría que te olvidaras de Joey Wheeler... pero ahora entiendo por qué significa tanto para ti. El chico tiene un gran corazón."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "valon",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_temple",
+      "text": ""
+    },
+    {
+      "char": "dartz",
+      "pos": "CENTER",
+      "image": "happy",
+      "text": "Mira lo que me ha traído el Oricalcos. Mi antiguo sirviente. Ahora le toca a la señorita Valentine traerme un alma... o entregar la suya. ¡Ja, ja, ja, ja!"
+    },
+    {
+      "char": "dartz",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_sanfrancisco",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "RIGHT",
+      "image": "alternate_sad",
+      "text": "¿Por qué ha hecho algo así? Valon fue quien me dijo que tenía que luchar por mí misma. ¿Y ahora resulta que luchaba contra ti para protegerme?"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_anger",
+      "text": "Qué patético. Tiene lo que se merece."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "¡Oye! Puede que Valon fuera un incordio, pero nadie se merece que le quiten el alma para que un psicópata la tenga cautiva. ¡Da igual de quién se trate!"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_happy1",
+      "text": "¡Ja!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "neutral",
+      "text": "¿Sabes qué, Mai? No entrarás en razón mientras ese Oricalcos te controle la mente. De hecho, ¡la única manera de salvarte que me queda es enfrentarme a ti!"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_anger",
+      "text": "Sálvate a ti mismo, ¡a mí me va bien sin tu ayuda! ¿No has aprendido nada? Si intentas cortarme las alas, ¡te haré sufrir de verdad!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "smile",
+      "text": "Ahora lo entiendo todo, Mai. Te olvidaste de lo que significa batirse en duelo. ¡Voy a recordarte lo que es jugar bien a las cartas!"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_anger",
+      "text": "¡Grrr! Si crees que me vas a dar lecciones sobre el Duelo de Monstruos, ¡pierdes el tiempo!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_neutral",
+      "text": "¡El Sello de Oricalcos!"
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Agotado tras su último enfrentamiento con Valon, Joey no fue capaz de terminar el duelo."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "Felicidades... Has ganado... Estoy demasiado cansado para terminar..."
+    },
+    {
+      "char": "maivalentine",
+      "pos": "RIGHT",
+      "image": "alternate_surprise",
+      "text": "¡Te equivocas! No llegué a atacar, ¡así que no has perdido el duelo! ¡No dejaré que el Oricalcos te lleve, Joey!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "sad",
+      "text": "Es demasiado tarde... Ya he perdido y no hay forma de volver atrás. Solo me alegra que, si uno de nosotros tiene que perder su alma, no seas tú, Mai."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_anger",
+      "text": "¡Joey! ¡Nooooo!"
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Mail se libró de la influencia de Dartz, pero el alma de Joey fue capturada por el Oricalcos."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "RIGHT",
+      "image": "alternate_sad",
+      "text": "¿Cómo he podido ser tan egoísta? Eras el mejor amigo que he tenido, y te lo pagué dejándote por un loco que me prometía poder."
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_anger",
+      "text": "¡Se arrepentirá del día en que conoció a Mai Valentine!"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "¡Increíble!"
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "¿Qué ha pasado?"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Ha perdido el duelo."
+    },
+    {
+      "char": "teagardner",
+      "pos": "",
+      "image": "sad",
+      "text": "Espera. ¿Eso quiere decir que...?"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "sad",
+      "text": "Sí. Ahora su alma le pertenece a Dartz."
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "name": "DoomsdayDuel_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_arena",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Chancellor Sheppard, the chief administrator of Duel Academy, called Jaden, Bastion, Alexis, Chazz, Dr. Crowler, Prof. Banner, and Zane to his office."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "He wanted to warn them about the Shadow Riders and the power of the three Sacred Beast Cards."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Three Sacred \"what\" Cards?!"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Sacred Beast Cards. Due to their immense power and their colossal might, they were hidden here at the Academy."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "You see, this Academy was built in part to protect the Sacred Beast Cards. They were buried deep underground, their powers sealed safely away."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Legend says if these cards ever see the light of day, terrible things will happen..."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Our world will be no more."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "No more?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "So this is why the seven of you are here. To protect these three cards from the wicked ones."
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "zanetruesdale",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "The wicked ones?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "That’s right. Seven duelists known as the Shadow Riders who covet these cards."
+    },
+    {
+      "char": "zanetruesdale",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "professorbanner",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "I have heard of these Shadow Riders. They are no joke. You must be careful."
+    },
+    {
+      "char": "professorbanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Okay, so how do we protect these cards?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "By protecting the seven Spirit Gates. To get to the cards, one must unlock these gates."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "And to unlock them, one must gain the seven keys for the seven gates. That is how we will protect those cards. By protecting the keys."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "gx_spiritkeys",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "And here they are. One for each of you to guard."
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "professorbanner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Children, this is an important responsibility. For me, as well."
+    },
+    {
+      "char": "professorbanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "",
+      "image": "anguish",
+      "text": "We hold the keys? Won’t that make us targets?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "It’s true. With these keys, the Shadow Riders will seek you out."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "gx_spiritkeys",
+      "text": ""
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "chazzprinceton",
+      "pos": "RIGHT",
+      "image": "black_amazed",
+      "text": "Uh, seek us out? You mean TAKE us out."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Only in a duel."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "smile",
+      "text": "Fortunately for our side, the keys can't simply be stolen. An ancient edict commands the keys must be won in a duel. And so, I've called on our school's seven best to take up this challenge and fight the good fight!"
+    },
+    {
+      "char": "sheppard",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "chazzprinceton",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_shadowrealm",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Later that evening, Jaden and Alexis were transported to a volcano where they encountered the first Shadow Rider."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Where are we?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "In one very weird dream."
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Or nightmare!"
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Hahaha! It's neither!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "surprise",
+      "text": "What's going on?"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "smile",
+      "text": "You mean you don't know?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "bittersleep",
+      "text": "Call me a slow learner."
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "Call me Nightshroud! I’ll be the one taking that key you have around your neck!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "surprise",
+      "text": "Wow. You guys don't waste much time, do ya?"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "I’ll get that key, and I’ll get it now. Oh, and just to make sure of that, I brought friends."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anguish",
+      "text": "What's that mean?"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "anger",
+      "text": "Say hello to Syrus and Chumley! Looks like they’re in hot water. Or maybe I should say hot molten lava! But then, such is the nature of a Shadow Game, key-keeper!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anger",
+      "text": "A Shadow Game? Listen, just duel me! But let them go!"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "I don't think so. I need them to ensure a speedy match. After all, that protection orb they're in? Let's just say that it's not exactly built to last."
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "Oh, and I'm afraid that there's more. Also at stake is your soul, which will be sealed in this card when you lose. Of course if I lose, then my soul will be sealed."
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "But hey, let's be honest with ourselves. Me lose? No way. Now then, shall we?"
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "CENTER",
+      "image": "anguish",
+      "text": "You can't agree to this!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anguish",
+      "text": "Tell that to Syrus and Chumley! They’re about to become meatballs in a lava stew! They’re my friends and I’m not gonna let that happen to them! Or us!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anger",
+      "text": "Besides, it’s not like this is my first Shadow Game. I’m just hopin’ it doesn’t hurt as bad as the others!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anger",
+      "text": "Okay pal, you wanna duel? You got it! Let’s throw down! Get your game on!"
+    }
+  ]
+}

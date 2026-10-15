@@ -1,0 +1,101 @@
+{
+  "name": "MimeControl_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_egyptiangodcards",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Marek était en possession de deux parmi les trois cartes Dieux Égyptiens, mais il avait toujours besoin du Puzzle de Millénium pour compléter son plan."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Soudain, Yugi fut défié par un duelliste nommé Strings."
+    },
+    {
+      "char": "strings",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Yugi!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "strings",
+      "pos": "",
+      "image": "",
+      "text": "Prépare-toi à un duel ... et à perdre ton Puzzle."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "Marek!"
+    },
+    {
+      "char": "strings",
+      "pos": "",
+      "image": "win",
+      "text": "Voici mon esclave mental, Strings le Silencieux. Grace à la puissance de ma Baguette du Millennium, il te vaincra."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "Lâche!"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "CENTER",
+      "image": "dark_neutral",
+      "text": "Pourquoi devrais-je perdre mon temps quand je peux te battre en duel avec mes marionnettes mentales ?"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Utiliser le pouvoir de ma Baguette du Millénium n'est aucunement différent de ton utilisation du Puzzle durant tes duels."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEIN:LEFT",
+      "image": "",
+      "text": "Ce n'est pas vrai. Tu forces tes serviteurs à faire ton sale boulot en manipulant leurs esprits contre leur gré. Je fais mes duels avec respect et honneur!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "anger",
+      "text": "Marek! A toi de jouer!"
+    }
+  ]
+}

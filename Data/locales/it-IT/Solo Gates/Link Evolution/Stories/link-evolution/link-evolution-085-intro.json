@@ -1,0 +1,101 @@
+{
+  "name": "MimeControl_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_egyptiangodcards",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Marik aveva due delle tre Carte Divinità Egizie, ma aveva bisogno ancora del Puzzle del Millennio per continuare il suo piano."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Improvvisamente Yugi fu sfidato da un duellante chiamato il Burattinaio."
+    },
+    {
+      "char": "strings",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Yugi!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "strings",
+      "pos": "",
+      "image": "",
+      "text": "Preparati a duellare... e a perdere il tuo Puzzle."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "Marik!"
+    },
+    {
+      "char": "strings",
+      "pos": "",
+      "image": "win",
+      "text": "Ecco il mio schiavo mentale, il Burattinaio Silenzioso. Grazie alla potenza della mia Barra del Millennio lui ti sconfiggerà."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "Codardo!"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "CENTER",
+      "image": "dark_neutral",
+      "text": "Perché dovrei sprecare il mio tempo quando posso duellare attraverso le mie marionette?"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Io Combatto con la potenza della mia Barra del Millennio e tu usi il tuo Puzzle per duellare. Non c'è nessuna differenza."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEIN:LEFT",
+      "image": "",
+      "text": "Non è vero. Tu forzi i tuoi servi per fare il tuo sporco lavoro e prendi il controllo delle loro menti contro la loro volontà. Io duello con rispetto e onore!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "anger",
+      "text": "Marik! Preparati!"
+    }
+  ]
+}

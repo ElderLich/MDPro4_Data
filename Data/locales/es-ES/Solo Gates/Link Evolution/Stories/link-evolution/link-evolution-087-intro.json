@@ -1,0 +1,227 @@
+{
+  "name": "TheAwakeningOfEvil_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_blimp",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Cuando todos estaban esperando a que empezara el siguiente duelo, Yugi volvió a su habitación para descansar. De repente, le sorprendió un hombre vestido con túnica y que llevaba un turbante en la cabeza."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Se llamaba Shadi, y explicó que había venido para aconsejar a Yugi sobre las dificultades que se avecinaban."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "shadi",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Yo soy el Guardián de los siete Objetos Milenarios. Estoy aquí porque he vuelto a notar una alteración en la alineación mística."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_egyptiangodcards",
+      "text": ""
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "",
+      "text": "Tanto los siete Objetos Milenatios como las tres cartas de los Dioses Egipcios se encuentran a bordo de esta nave. Lo que significa que todos los objetos capaces de salvar o de destruir el mundo están justamente aquí."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿En serio?"
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "smile",
+      "text": "La protección del mundo depende de ti, Yugi. Presta atención a lo que te voy a decir - si el control de alguno de los Objetos Milenatios o una de las cartas de los Dioses Egipcios fuese a dar en malas manos, los resultados podrían ser catastróficos. Casi llegó a pasar una vez cuando Pegasus creó el Duelo de Monstruos."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "¿De verdad? Pero, ¿cómo?"
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Todo empezó cuando Maximillion Pegasus llegó por primera vez a Egipto. Estaba buscando la manera de reunirse con su amor perdido. Su búsqueda lo trajo a mí, y yo le concedí el Ojo Milenario, ya que él estaba destinado a poseerlo."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "",
+      "text": "Poco después, se descubrió el origen de los Juegos de las Sombras del antiguo Egipto. Pegasus se obsesionó con los juegos y decidió dedicar su vida a recrearlos."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "",
+      "text": "Durante uno de sus primeros viajes de investigación a las antiguas pirámides, Pegasus planeo localizar las piedras que representaban a los Dioses Monstruo Egipcios de los cuales había leído."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "",
+      "text": "Así que llevé a Pegasus y a su equipo de arqueólogos a una cámara subterránea oculta bajo las arenas del desierto."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "",
+      "text": "Y después de viajar a pie durante horas, el viaje había terminado."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "",
+      "text": "Pegasus entró en la cámara con muy poca luz. Y como le había prometido lo conduje hasta el antiguo lugar donde descansanban las losas de los Dioses Egipcios."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "",
+      "text": "Pegasus encontró lo que había venido a buscar, sin saber que estaba a punto de desatar una fuerza devastadora sin igual."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "anger",
+      "text": "Triunfante, Pegasus volvió a Estados Unidos para diseñar sus cartas basadas en las imágenes que había encontrado en las piedras. Estaba destinado a despertar a los Dioses Monstruo Egipcios… aunque no estaba destinado a controlar su poderosa magia."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Aunque Maximillion Pegasus completó los prototipos de las tres cartas de Dioses Egipcios, viajó de inmediato de vuelta a Egipto para poder encerrarlos en las tumbas junto a las esculturas originales y así aislar al mundo de su poder absoluto."
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "",
+      "text": "Y con la ayuda de Ishizu, Pegasus sello las cartas."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Entonces Marik trató de robarlas?"
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "sad",
+      "text": "Sí. Y si llegara a tener en sus manos las tres cartas, los resultados serían devastadores."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEIN:RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Te puedo asegurar que Marik nunca tendrá los tres Dioses Egipcios!"
+    },
+    {
+      "char": "shadi",
+      "pos": "",
+      "image": "shy",
+      "text": "Mi Faraón, es un honor para mí estar en tu presencia una vez más. Sé que vas a restaurar el orden en el mundo y poner fin a este caos, tal como lo hiciste hace cinco mil años. En ti pongo toda mi fe."
+    },
+    {
+      "char": "shadi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "En ese momento, se oyó por el altavoz que los finalistas debían volver a la pista principal, y Shadi desapareció."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "odion",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "El segundo duelo era entre Marik y Joey. Y como Odion se estaba haciendo pasar por Marik, se puso delante de Joey, listo para batirse en duelo."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Vamos a luchar, Marik!"
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "anger",
+      "text": "Es hora de batirnos en duelo... ¡y destruirte!"
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "",
+      "text": "¡Prepárate para perder!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "¡No te confíes, Marik! ¡No te tengo miedo!"
+    }
+  ]
+}

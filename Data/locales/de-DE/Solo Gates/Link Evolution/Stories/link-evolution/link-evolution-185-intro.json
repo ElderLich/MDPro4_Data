@@ -1,0 +1,749 @@
+{
+  "name": "FuturePath_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_duelinghighway",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Mit Hilfe seiner Freunde verhinderte Yusei, dass der Heilige Tempel auf New Domino City stürzte."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "6 Monate später entwickelte Yusei „Fortune“ – ein Computerprogramm zur sicheren Kontrolle von Ener-D."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "lazar",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Währenddessen wurde Lazar als neuer Bürgermeister von New Domino City vereidigt."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "Als neuer und allererster Bürgermeister dieser wunderbaren Stadt lautet mein erster Befehl, die Stadt ihren Bewohnern zurückzugeben."
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "smile",
+      "text": "Indem wir eine Regierung schaffen, die aus gewählten Amtsträgern besteht."
+    },
+    {
+      "char": "lazar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Wow! Lazar ist Bürgermeister? Das ist ja verrückt … Aber wenn sogar ich der Sektorensicherheit beitreten kann, ist wohl alles möglich!"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_citysquare",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "lazar",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Glückwunsch, Professor Fudo."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Bitte nenne mich nicht „Professor“. Mein Vater ist einer, ich nicht."
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "Kein Grund, sich zu schämen. Du hast die Erwartungen deines Vaters bei Weitem übertroffen. Dein Programm Fortune wird New Domino City mit unbegrenzter Energie versorgen."
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "neutral",
+      "text": "New Domino City wird also der Knotenpunkt sein, der Städte auf der ganzen Welt miteinander verbindet."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "smile",
+      "text": "Ja, jetzt, da das, was Zone vorhergesagt hat, nicht eintreffen wird, sieht die Zukunft wieder rosig aus."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "smile",
+      "text": "Aber das ist nicht nur mein Verdienst. Meine Freunde und ich haben als Team zusammengearbeitet."
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "smile",
+      "text": "Ja, natürlich! Du denkst immer an dein Team."
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "neutral",
+      "text": "Nachdem du das Programm jetzt fertig hast, solltest du dich ein wenig ausruhen. Nimm dir eine Auszeit, bereise die Welt. Entscheide dann, was du in Zukunft tun willst."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Aber ganz ehrlich, ich hoffe, dass du in New Domino City bleibst."
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "Aber das musst du entscheiden. Bis später, Yusei."
+    },
+    {
+      "char": "lazar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Hey, Yusei! Lange nicht gesehen. Du bist wohl zu beschäftigt, um dich mit einem alten Kumpel zu treffen!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "smile",
+      "text": "Tut mir leid. Es hat länger gedauert, als ich gedacht hätte, das Programm fertigzustellen."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "laughter",
+      "text": "Aber du hast es geschafft, oder? Toll, Yusei!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "smile",
+      "text": "Danke. Also, wie geht’s dir?"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "Ugh. Trudge lässt mich Tag und Nacht auf den Straßen patrouillieren. Ich kann mich nicht erinnern, wann ich das letzte Mal mehr als eine Stunde geschlafen habe! Aber hey, ich kann mich nicht beklagen. Wer hätte gedacht, dass ich jemals Polizist werden würde? Diese Stadt hat sich wirklich verändert."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "smile",
+      "text": "Nein, wir haben sie verändert. Gemeinsam. Als Team."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "neutral",
+      "text": "Du hast recht. Team 5D's ist wirklich spitze!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "smile",
+      "text": "Apropos 5D's: Warum treffen wir uns dieses Wochenende nicht mal alle zusammen? Das haben wir lange nicht mehr gemacht."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "laughter",
+      "text": "Tolle Idee! Ich bin mir sicher, dass alle kommen werden … bis auf einen, der irgendwie schwer zu erreichen ist."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Ja … Jack. Hast du immer noch nichts von ihm gehört?"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Leider nein. Ich frage mich, wo er sich herumtreibt? Ich werde ihn anrufen, aber erwartet nicht zu viel."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_duelinghighway",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "greiger",
+      "pos": "RIGHT",
+      "image": "anguish",
+      "text": "Kaum zu glauben, dass du immer noch besser wirst, bei den Duellen."
+    },
+    {
+      "char": "sherryleblanc",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Alle deine Schwächen, und mal ehrlich, du hattest ja eh kaum welche, sind verschwunden. Ich hatte keine Chance."
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Deine Fähigkeiten sind immer nur noch besser geworden. Aber es scheint, als ob du nicht ganz zufrieden bist mit dir, oder?!"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "LEFT",
+      "image": "goodnightssleep",
+      "text": "Nein, ich werde erst dann zufrieden sein, wenn ich einen bestimmten Menschen besiegt habe."
+    },
+    {
+      "char": "greiger",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sherryleblanc",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_yuseihome",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Hey, Yusei!"
+    },
+    {
+      "char": "luna",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Hi!"
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Hast du mich vermisst?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "CENTER",
+      "image": "smile",
+      "text": "Akiza, Leo, Luna! Es ist so schön, euch zu sehen!"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "RIGHT",
+      "image": "bittersleep",
+      "text": "Oh Mann, bin ich hier der Letzte?"
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Crow! Du bist viel zu spät! So spät, dass wir schon nach Hause gehen wollten!"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "anguish",
+      "text": "Wow! So spät schon?!?"
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "",
+      "image": "smile",
+      "text": "War nur Spaß. Wir haben noch gar nicht angefangen."
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Etwas später, am selben Abend …"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "Ja, es ist schon irgendwie toll, in New Domino City für Ruhe und Ordnung zu sorgen, aber …"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Aber?"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Nun …"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "Hmm …"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "neutral",
+      "text": "Das ist nicht so wichtig. Was hast du vor, Akiza? Was wirst du nach deinem Abschluss machen? Ich denke, du solltest in eine Profi-Liga wechseln! Bei deinen Fertigkeiten wird jedes Team froh sein, dich an Bord zu haben!"
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "",
+      "image": "anger",
+      "text": "Über meinen Werdegang entscheide immer noch ich! Ich möchte gar kein Profi werden."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "anger",
+      "text": "Ohh … Tut mir leid, wenn ich da einen Nerv getroffen habe …"
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "",
+      "image": "anger",
+      "text": "Alle sagen mir immer, was ich tun soll. Als hätte ich gar nichts dazu zu sagen."
+    },
+    {
+      "char": "leo",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "Hey, kommt mal alle ein bisschen runter! Luna und ich haben nämlich Neuigkeiten für euch. Unsere Eltern haben uns heute eine Nachricht geschickt."
+    },
+    {
+      "char": "luna",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "Darin stand, dass wir alle wieder zusammenleben sollten."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "neutral",
+      "text": "Das sind doch tolle Neuigkeiten … Warum seid ihr dann so schlecht drauf?"
+    },
+    {
+      "char": "luna",
+      "pos": "RIGHT",
+      "image": "discouragement2",
+      "text": "Weil wir New Domino City verlassen müssen."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Oh …"
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "Leo … Luna …"
+    },
+    {
+      "char": "leo",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "Wir haben uns noch nicht entschieden, ob wir umziehen wollen oder nicht, aber wir fragen uns, was wir tun sollen."
+    },
+    {
+      "char": "luna",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "Weil wir euch alle wirklich gern mögen. Wir möchten New Domino City nicht verlassen. Ich bin ganz verwirrt …"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Crow, Akiza – nun, wie Leo und Luna fragt ihr euch, was ihr aus eurem Leben machen sollt. Sonst würdet ihr euch über so harmlose Fragen nicht so aufregen. Crow, ich weiß, dass du ein Angebot von einer Top-Profi-Liga in Übersee erhalten hast."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "surprise",
+      "text": "Du weißt davon?!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Und Akiza, du wurdest an einer der besten medizinischen Fakultäten der Welt angenommen."
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Woher weißt du das?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Deine Eltern haben es mir erzählt."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "surprise",
+      "text": "Akiza, du wirst Ärztin?"
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Ich … ich weiß nicht. Ich habe mich noch nicht entschieden."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "…"
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Jack?"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": "Wo bist du gewesen?"
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "neutral",
+      "text": "Beim Training."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "anger",
+      "text": "Training für was?"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "anger",
+      "text": "Ich habe eine Einladung von Ride Ace erhalten, der größten Duell-Liga der Welt. Darum werde ich New Domino City verlassen. Weil ich nicht nur der König einer Stadt sein will, sondern der König der ganzen Welt!"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "surprise",
+      "text": "Du wirst nie aufhören, der König sein zu wollen, oder?"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "Natürlich nicht. Würdest du deine Fähigkeiten nicht gegen den Rest der Welt ausprobieren wollen?"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "neutral",
+      "text": "Yusei, ich weiß, dass sie auch dir eine Einladung geschickt haben."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Ja, das haben sie."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "Natürlich haben sie das. Es wäre verrückt, wenn Yusei nicht von jeder Duell-Liga in jedem Land eine Einladung bekommen würde!"
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "LEFT",
+      "image": "discouragement",
+      "text": "Yusei, was wirst du tun?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Ich bin mir nicht sicher. Ich habe mich so auf mein Fortune-Programm konzentriert, dass ich an nichts anderes mehr gedacht habe. Aber jetzt, wo es fertig ist …"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Du weißt vielleicht nicht, was du tun sollst, aber ich weiß es. Wir haben als Team alles erreicht, was wir erreichen konnten. Daher werde ich jetzt mein eigenes Vermächtnis erschaffen!"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "anger",
+      "text": "Ich werde jeden besiegen, der sich mir dabei in den Weg stellt. Sogar Team 5D's!"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Meine Güte, danke."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "Jack, ich fordere dich zu einem Duell heraus!"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "surprise",
+      "text": "Du willst dich mit mir duellieren?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Immer wenn ich mir nicht sicher bin, was ich tun soll, hilft mir ein Duell, einen klaren Kopf zu bekommen."
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "smile",
+      "text": "Also gut. Denn wenn ich es mit der Welt aufnehmen will, muss ich erst einmal gut genug sein, um dich zu besiegen!"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_duelinghighway",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Jack, kaum zu glauben, dass dies unser erstes Duell seit dem Fortune Cup ist."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "Wir haben uns so lange Seite an Seite duelliert, dass ich fast vergessen habe, dass wir früher auch gegeneinander angetreten sind."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "smile",
+      "text": "Sehe ich auch so. Aber die Duelle mit dir statt die gegen dich haben mir immer viel mehr Spaß gemacht!"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ja. Aber wir können nicht in der Vergangenheit leben. Ich habe mich nach einem Duell gegen dich gesehnt, und jetzt ist es so weit!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "Ganz genau! Also lass uns alles geben!"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "anger",
+      "text": "Das musst du mir nicht zweimal sagen!"
+    }
+  ]
+}

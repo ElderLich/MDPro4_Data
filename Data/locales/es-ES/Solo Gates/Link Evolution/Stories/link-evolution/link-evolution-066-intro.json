@@ -1,0 +1,341 @@
+{
+  "name": "TheHeartOfTheCards_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_gamestore",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Esa tarde, Yugi y sus amigos fueron a la tienda de juegos del abuelo. Yugi quería enseñar a sus amigos la preciada posesión de su abuelo."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Abuelo, ¿podrías mostrar a mis amigos tu impresionante carta súper rara?"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "¿Carta Rara? ¿Te refieres a mi carta especial? Hmmmm...."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Por Favor! ¡Por Favor!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Ja ja! ¿Cómo puedo negarme? ¡Estáis de enhorabuena! No saco esta carta muy a menudo."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_blueeyes_card",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "smile",
+      "text": "Listo, aquí está. El \"Dragón Blanco de Ojos Azules\". Tan raro, tan poderoso, ¡nunca la dejo fuera de mis manos!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Esta carta no tiene precio! ¡Hay sólo cuatro de ellos en todo el mundo!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "De repente, su compañero de clase del instituto entró corriendo a la tienda. Su nombre era Seto Kaiba, el joven presidente ejecutivo de KaibaCorp. Había encontrado la carta que estaba buscando."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Nombre el precio del Dragón de Ojos Azules. ¡Puedo pagar cualquier cosa que usted pida!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "Estoy seguro de que puedes, pero esta carta vale más para mí de lo que tú puedas ofrecer."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Viejo tonto!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Kaiba salió enfadado de la tienda del Abuelo. Los chicos se sorprendieron por la obsesión de Kaiba con el Dragón Blanco de Ojos Azules."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Al día siguiente, cuando Yugi volvió a la tienda con sus amigos, se dio cuenta que su abuelo no estaba. Cuando sonó el teléfono, era Kaiba al otro lado, burlándose de Yugi y diciéndole que había secuestrado a su abuelo y se lo había llevado a KaibaCorp."
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_kaibacorp",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yugi y sus amigos se apresuraron a KaibaCorp y encontraron al abuelo tirado en el suelo, derrotado."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Abuelo, ¿estás bien?"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Yugi, he fallado. Quería enseñar a ese niñato, Kaiba, una lección sobre el corazón de las cartas, pero he perdido."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "¡Abuelo!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "¿Cómo se siente el viejo, hmmm?"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Kaiba, ¡no tienes vergüenza! ¿Qué le has hecho?"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Sólo nos hemos enfrentado en un duelo. Y nos apostamos nuestras cartas más valiosas como premio. Pero me imagino que jugar contra un campeón como yo fue simplemente demasiado estímulo para este pobre anciano"
+    },
+    {
+      "char": "teagardner",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Kaiba, ¡debería darte vergüenza!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_blueeyes_card",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Mira qué premio tan bueno me he ganado!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Kaiba levantó la carta Dragón Blanco de Ojos Azules y la rompió por la mitad."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "¡La carta más preciada de mi abuelo!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "",
+      "text": "El Dragón Blanco de Ojos Azules es una carta rara y poderosa, y ésta nunca será usada contra mí."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡Dragón Blanco de Ojos Azules! Mi tesoro..."
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "¡Abuelo! ¡Espera!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "¿Cómo has podido hacer algo así?"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Yugi, toma esto."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "¿Eh? ¿Abuelo?"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "sad",
+      "text": "Construí este deck. Puse mi alma en estas cartas, y yo ya te enseñé todo lo que sé, Yugi. Toma mis cartas y enseña a Kaiba a respetar el corazón de las cartas."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "Está bien, abuelo. ¡Eso haré!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "¿Estás listo para jugar, enano?"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Se te han acabado los jueguecitos, Kaiba!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡¿Eh?!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Kaiba se sorprendió del cambio repentino de Yugi. Parecía que se había convertido en una persona diferente, como si estuviera más seguro y fuera más poderoso que antes."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "anger",
+      "text": "Kaiba, ¡prepárate, porque es el momento de batirnos en duelo!"
+    }
+  ]
+}

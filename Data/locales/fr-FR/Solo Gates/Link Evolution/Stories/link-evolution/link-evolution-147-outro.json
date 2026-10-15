@@ -1,0 +1,113 @@
+{
+  "name": "DualDuel_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Ray, comment as-tu obtenu une carte Barian? Mais qui es-tu?"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Oh, tu verras... à la fin."
+    },
+    {
+      "char": "girag",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Accroche-toi, Ray! Tu dois me dire ce qui s'est passé avec cette carte Barian!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "Tu as des explications à me donner!"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Je travaille avec l'Unité des Crimes Cosmiques Barian."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Impossible! Tu es un Barian?"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "Donc dans le monde des Barians, il y a de bons et de méchants?"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "neutral",
+      "text": "C'est correct, Yuma. Le Monde Barian n'est pas un mauvais endroit, mais certains enfreignent la loi."
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "",
+      "text": "C'est la vérité, et maintenant que tu le sais, nous allons travailler ensemble."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "smile",
+      "text": "Tu es sérieux? Génial!"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "",
+      "text": "Afin de vaincre les Barians, tu auras besoin de cette carte."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "zexal_limitedbariansforcecard",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Incroyable! C'est la Force de Barian Magie-Rang-Plus."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "zexal_limitedbariansforcecard",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rayshadows",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    }
+  ]
+}

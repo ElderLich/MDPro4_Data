@@ -1,0 +1,521 @@
+{
+  "name": "MarkOfTheMonkey_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_shadowrealm",
+      "text": ""
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "CENTER",
+      "image": "anguish",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Cuando Carly se precipitó del edificio del Movimiento Arcadia, fue absorbida por la niebla púrpura y desapareció."
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Poco después, la tierra comenzó a temblar. Carly volvió a aparecer como una Portadora Oscura."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_citysquare",
+      "text": ""
+    },
+    {
+      "char": "sayer",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "¡Fuera de mi edificio!"
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "dark_smile",
+      "text": "Pero estoy aquí para pedirte una revancha, Sayer."
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "surprise",
+      "text": "Debo de estar teniendo visiones... ¿eres tú, Carly?"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡Pero si he visto como te caías!"
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "dark_smile",
+      "text": "Los Portadores Oscuros están reclutando activamente duelistas para unirse a la causa, y han elegido a esta humilde servidora."
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "dark_anger",
+      "text": "Lo cual es una mala noticia para tí."
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "NONE",
+      "image": "dark_neutral",
+      "text": ""
+    },
+    {
+      "char": "sayer",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Sayer y Carly comenzaron un duelo de sombra, y una serie de terremotos siguieron afectando a la torre de Movimiento Arcadia."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Sayer fue derrotado por la Portadora Oscura Carly y aparentemente se precipitó al vacío desde lo más alto de la sede de la Arcadia."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Durante la batalla, Asila Piscu, Inmortal Terrestre fue invocado y comenzó a destruir todo el edificio."
+    },
+    {
+      "char": "bolttanner",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Afortunadamente, Leo, Luna, Bolt, y Tenzen aprovecharon esta oportunidad para escapar de la sede de Arcadia."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Luna!"
+    },
+    {
+      "char": "luna",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "¿Cómo me habéis encontrado?"
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "",
+      "image": "discouragement",
+      "text": "¡Esta es la octava puerta a la que Bolt ha llamado!"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Tengo que romper este cristal para llegar a Leo!"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Leo! ¿Estás bien?"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "anguish",
+      "text": "¿Dónde está Luna? ¿Está bien?"
+    },
+    {
+      "char": "luna",
+      "pos": "",
+      "image": "neutral",
+      "text": "Estoy justo en frente de ti, Leo."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "discouragement2",
+      "text": "¡Estoy tan contenta de que estés a salvo!"
+    },
+    {
+      "char": "luna",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "No es que esté indefensa sin ti."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Entonces, eh,- ¿qué estoy haciendo en esta habitación?"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "neutral",
+      "text": "No lo sé, pero no hablemos de eso ahora."
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Quiero decir, \"¡Vámonos de aquí!\""
+    },
+    {
+      "char": "bolttanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Akiza logró escapar del edificio que se estaba derrumbando con el resto de los amigos de Yusei."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Y el Inmortal Terrestre desapareció junto con el Portador Oscuro."
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "En otro lugar de Neo Domino, Greiger recién detenido fue rescatado sorprendente."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "greiger",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "¿Eh? ¿Quién eres tú?"
+    },
+    {
+      "char": "devack",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "El nombre es Devack."
+    },
+    {
+      "char": "devack",
+      "pos": "",
+      "image": "neutral",
+      "text": "Sé lo que Goodwin te hizo, Greiger. Lo que hizo con tu pueblo."
+    },
+    {
+      "char": "devack",
+      "pos": "",
+      "image": "",
+      "text": "Sé que estás enfadado. Y sé que todavía quieres venganza. Yo puedo ayudarte a conseguir venganza."
+    },
+    {
+      "char": "devack",
+      "pos": "",
+      "image": "smile",
+      "text": "Ven conmigo."
+    },
+    {
+      "char": "devack",
+      "pos": "NONE",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "greiger",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Mientras tanto, Yusei Fudo y el resto de los Portadores se reunieron con Goodwin para hablar sobre los últimos acontecimientos."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Dejadme que os dé una lección de historia. Hace miles de años, se libró una gran guerra y el Dragón Carmesí derrotó al ejército de las sombras."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Temeroso de que las sombras volverían un día para destruir el mundo, el Dragón Carmesí los encerró bajo tierra."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Se tallaron unos símbolos mágicos en la tierra, quedando atrapada su esencia durante milenios."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Con el tiempo, las Sombras se fueron olvidando, y su prisión se convirtió en un destino turístico conocido como las Líneas de Nazca."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Pero las Sombras no estaban dispuestas a permanecer derrotadas. Quieren venganza, y ahora tienen la ayuda de los Portadores Oscuros."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Creo que algunos de vosotros ya habéis experimentado de primera mano a los peligrosos monstruos de los Portadores Oscuros."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Te has de referir a los Inmortales Terrestres."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Sí. Su fuerza es sorprendente, ya que contienen el poder del ejército de las sombras."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": "¡Lo entendemos! ¡Son muy malos! ¡Vamos a eliminarlos!"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Nuestra tarea va mucho más allá de vencer a un enemigo. Es una operación de rescate para todas aquellas personas pobres que han sido corrompidas por los poderes de la oscuridad."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_satellite",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Después de hablar con Goodwin, el equipo de los Portadores se dirigió a Satélite con el fin de detener los Portadores Oscuros."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "El equipo de Portadores se dividió, salieron a luchar contra diferentes Portadores Oscuros, cada uno con sus propias motivaciones."
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "devack",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "El Portador Oscuro Devack le había quitado el Dragón Hada Antiguo a Luna."
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Tratando de encontrar y rescatar a su Dragón Hada Antiguo, Luna se transportó al mundo de los espíritus."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Mientras Leo buscaba a Luna, se encontró con Devack y se vió forzado a luchar contra un Portador Oscuro."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "devack",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "¿Quién eres tú? Tú no eres un Portador. ¿Qué estás haciendo aquí?"
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "¡Estoy aquí para luchar contigo! ¡Si crees que eres lo suficientemente fuerte para ganarme!"
+    },
+    {
+      "char": "devack",
+      "pos": "",
+      "image": "anger",
+      "text": "¿Qué clase de broma es esta? ¿Dónde está la niña? ¿Por qué no está aquí? Le dije que viniera."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Bueno, está ocupada! ¡Vas a tener que luchar en un duelo contra mí, señor!"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "anger",
+      "text": "Puede que no sea un Portador, ¡pero eso no significa que no sepa cómo usar un deck!"
+    },
+    {
+      "char": "devack",
+      "pos": "",
+      "image": "",
+      "text": "Aplaudo tu entusiasmo. Pero me temo que simplemente no tienes el poder para batirte en duelo, chaval."
+    },
+    {
+      "char": "devack",
+      "pos": "",
+      "image": "smile",
+      "text": "Si quieres que te destruya... Entonces que así sea."
+    }
+  ]
+}

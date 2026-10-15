@@ -1,0 +1,251 @@
+{
+  "name": "Battlefronts_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_paradisecity",
+      "text": ""
+    },
+    {
+      "char": "tsukikage",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "celina",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Declan envoie Moon Shadow pour protéger Zuzu et Séléna des Force Obelisk."
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tsukikage",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "Qui étaient ces soldats ?"
+    },
+    {
+      "char": "tsukikage",
+      "pos": "",
+      "image": "neutral",
+      "text": "Des guerriers de la dimension Fusion, envoyés par l'Académie de Duel."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "sad",
+      "text": "Vraiment ?! La dimension Fusion ? Ça doit être pour ça qu'ils nous poursuivaient… Enfin, surtout toi, Lulu ! Comment t'es-tu sauvée ? Tu as dû avoir si peur."
+    },
+    {
+      "char": "celina",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "J'ai une tête à m'appeler Lulu, d'après toi ? Mon nom est Séléna !"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Séléna ?"
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "neutral",
+      "text": "Cependant, tu as raison sur un point, c'est moi que ces imbéciles voulaient capturer. Le Professeur les a envoyés à mes trousses parce que j'ai désobéi à ses ordres."
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "anger",
+      "text": "Des fugitifs de la dimension Xyz se cachent par ici et je vais les retrouver et les anéantir !"
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "neutral",
+      "text": "Alors le Professeur s'apercevra qu'il a fait une erreur en refusant de m'envoyer combattre en première ligne avec les autres !"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "sad",
+      "text": "Et cette \"première ligne\", elle se trouve dans la dimension Xyz ?"
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "smile",
+      "text": "C'est exact. Je voulais me battre pour un univers meilleur. Plus tard, nous assimilerons aussi les dimensions Synchro et Standard jusqu'à ce que toutes ne fassent plus qu'une."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "anger",
+      "text": "Tes amis ne s'en sont pas pris qu'à d'autres duellistes. Ces envahisseurs ont persécuté tout le monde, sans distinction !"
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "surprise",
+      "text": "Tu veux dire, même les simples civils ?"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "sad",
+      "text": "Je connais un duelliste de la dimension Xyz qui se bat pour délivrer sa sœur. Elle a été faite prisonnière par tes camarades !"
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "surprise",
+      "text": "Jamais les duellistes de l'Académie n'auraient fait ça ! Tu es sûre de toi ?"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "sad",
+      "text": "Il s'appelle Shay Obsidian. Va lui demander ce qui est arrivé à sa sœur et à son peuple."
+    },
+    {
+      "char": "celina",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tsukikage",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Pendant ce temps, Dennis rencontre Yuri, originaire de la dimension Fusion."
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Hé salut, c'est toi. Alors dis-moi, comment vas-tu... Yuri ?"
+    },
+    {
+      "char": "yuri",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Tu l'as trouvée ?"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "smile",
+      "text": "Bien sûr que oui ! Zuzu a un sosie. Elle s'appelle Séléna. C'est un peu comme toi et Yuya, vous vous ressemblez beaucoup."
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "neutral",
+      "text": "Yuya ? Qui c'est, celui-là ?"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "neutral",
+      "text": "C'est un duelliste de la dimension Standard."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Menée par Sora, la Force Obelisk sont à la poursuite de Séléna."
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "surprise",
+      "text": "Qu'est-ce que... Séléna est encerclée."
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "surprise",
+      "text": "Que font-ils ici ? Je pensais que le Professeur avait ordonné à moi seul de ramener Zuzu."
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "celina",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "tsukikage",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "tsukikage",
+      "pos": "",
+      "image": "anger",
+      "text": "J'ai promis de protéger Séléna. Duel !"
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "name": "PaniKAttack_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_duelistkingdom",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Cuando Tea, Tristán, y Joey se despertaron, pensaban que el duelo entre Yugi y Bakura había sido sólo un sueño."
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "He soñado que Bakura se volvía completamente loco."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Igual que yo. No vuelvo a dormir con las cartas bajo la almohada."
+    },
+    {
+      "char": "yamibakura",
+      "pos": "RIGHT",
+      "image": "ryo_neutral",
+      "text": "¿Habéis dormido bien, chicos?"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡Ahhhhh! ¡Bakura! ¡No me hagas daño!"
+    },
+    {
+      "char": "teagardner",
+      "pos": "",
+      "image": "smile",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "smile",
+      "text": ""
+    },
+    {
+      "char": "yamibakura",
+      "pos": "",
+      "image": "ryo_smile",
+      "text": "¡Ja ja ja!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "De repente, oyeron un grito que provenía del bosque."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡Parece que es la voz de Mai!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Corrieron hacia el bosque hasta llegar a un claro y vieron como un enorme duelista derrotaba a Mai."
+    },
+    {
+      "char": "yamibakura",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "panik",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "¡Adiós pajaritos!"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "¡Mis Arpías! Han desaparecido."
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "Querrás decir que han sido \"eliminadas\", ¡igual que tú! Ahora dame todas tus Estrellas, ¡pardilla!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "¡Mai! ¿Estás bien?"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "neutral",
+      "text": "¿Te está molestando este payaso?"
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "Exacto - para eso me paga Pegasus. ¡Para recoger toda la basura de la isla y librarme de ella!"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "",
+      "image": "smile",
+      "text": "¿Entonces eres un basurero?"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "anger",
+      "text": "¡No es una broma! Panik es uno de los eliminadores de la isla, y si no os largáis de aquí, ¡os hará lo mismo que a mí!"
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "¡Mira su Guante de Duelista! ¡No le queda ninguna Estrella!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Estás fuera del torneo, Mai?"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "sad",
+      "text": "Sí. Todo ha sido muy rápido. Panik juega de tal manera que simplemente... perdí."
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "¡Ja! ¡Ha sido mi víctima más fácil!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Panik empujó a Mai al suelo."
+    },
+    {
+      "char": "maivalentine",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Cerdo! ¡No hay excusa para empujar una chica!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "He conocido a muchos abusones en mi vida, y temo que sólo hay una forma de pararles los pies. ¡Hay que plantarles cara!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "anger",
+      "text": "A ver si usas tus tácticas de intimidación en contra de mí, Panik. Yo no me asusto fácilmente, sobre todo cuando defiendo a mis amigos."
+    },
+    {
+      "char": "panik",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Yugi, ¿eh? Debe ser mi día de suerte. Pegasus ha prometido un generoso botín a quien te elimine."
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "¿Tu crees que el daría algo más por daños corporales? ¡Ja ja ja!"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Apuesto todas las Estrellas que tengo para recuperar las de Mai."
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "¡Trato hecho! Si ganas, te daré sus ocho Estrellas porque tu apuesta no me importa en absoluto."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Qué quieres decir?"
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "Lo que quiero decir, Yugi, es que en un duelo contra Panik, ¡te juegas mucho más que tus míseras Estrellas!"
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "¡Veo el miedo en tus ojos! ¡Creo que estás empezando a entrar en pánico!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "¿Has terminado de vacilarme, Panik?"
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "La última vez que alguien tuvo el descaro de hablarme así, ¡le partí en dos! ¡Ahora vamos a luchar!"
+    }
+  ]
+}

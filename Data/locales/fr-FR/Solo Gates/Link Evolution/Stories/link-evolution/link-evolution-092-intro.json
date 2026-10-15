@@ -1,0 +1,221 @@
+{
+  "name": "WD_YUGI_SetoKaiba_Alister_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_kaibacorp",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Alors que les monstres sèment la panique dans toute la ville, la population tenait Kaiba et KaibaCorp responsables de cette invasion."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Je pense que quelqu'un essaie de me faire passer pour un idiot. J'ai travaillé dur pour restaurer la réputation de cette entreprise. Cela ne peut plus durer."
+    },
+    {
+      "char": "mokubakaiba",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Seto ! Regarde notre base de données ! Il y a quelqu'un qui rachète toutes les parts de notre entreprise !"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "surprise",
+      "text": "Tu as raison, Makuba ! Si ces chiffres sont exacts, presque la moitié de KaibaCorp vient d'être rachetée par une seule personne... et ce n'est pas fini ! Comment est-ce possible ?"
+    },
+    {
+      "char": "mokubakaiba",
+      "pos": "",
+      "image": "surprise",
+      "text": "Qu'allons-nous faire ?"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Nous devons l'arrêter. S'il achète davantage de parts, il peut prendre le contrôle de toute l'entreprise... Attends ! Il n'y a qu'une seule personne capable d'un coup pareil... Pegasus."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "mokubakaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Seto Kaiba et Makuba se rendent au Royaume des Duellistes pour affronter Pegasus."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_pegasuscastle",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Montre-toi, Pegasus !"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Ha ha ha ha ha ! Ton impatience ne cessera jamais de m'amuser."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Et toi tu es toujours aussi pénible. Que nous veux-tu, Pegasus ?"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "",
+      "text": "Je ne suis plus tout à fait moi-même ces temps-ci..."
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alister",
+      "pos": "FADEIN:RIGHT",
+      "image": "happy1",
+      "text": "En fait, je parle au sens propre du terme !"
+    },
+    {
+      "char": "mokubakaiba",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Qu'est-ce que ça veut dire ?"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "happy2",
+      "text": "Surprise ! J'attends ce jour depuis longtemps, cher Kaiba !"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Je peux savoir qui tu es ?"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "anger",
+      "text": "Mon nom est Amelda ! C'est l'heure du duel ! Cette carte Magie va tout changer ! J'active le Sceau d'Orichalque !"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "surprise",
+      "text": "Qu'est-ce c'est que ça ? Explique-toi immédiatement !"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "",
+      "text": "Nous serons enfermés ici jusqu'à la fin du duel. Une fois que je t'aurai terrassé, je pourrai sortir. Tu n'auras bien sûr pas la même chance, Kaiba !"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "surprise",
+      "text": "Que veux-tu dire par-là ?"
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "anger",
+      "text": "Lorsque tu auras perdu, ton âme sera emprisonnée pour l'éternité !"
+    },
+    {
+      "char": "mokubakaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "Laisse sortir mon frère ! Tu n'as aucune idée de celui à qui tu as affaire."
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "",
+      "text": "Détrompe-toi. Tu n'es qu'un avide petit punk aussi pathétique que son père adoptif."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "Qu'est-ce que tu viens de dire ? Personne ne peut me comparer à lui et en sortir vivant ! Ce n'était qu'une vipère."
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "",
+      "text": "Comme toi."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Mes histoires de famille ne te regardent pas."
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "sad",
+      "text": "Bien au contraire. Elles me regardent de près."
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "shy",
+      "text": "Cela fera 7 ans aujourd'hui. Un jour que je n'oublierai jamais. Des chars sont arrivés et m'ont volé mon frère. J'ai rapidement découvert qui était responsable..."
+    },
+    {
+      "char": "alister",
+      "pos": "",
+      "image": "anger",
+      "text": "Gozaburo Kaiba. C'est ton père qui m'a fait ça. Tu diriges à présent son sinistre empire et tu es donc aussi coupable que lui !"
+    }
+  ]
+}

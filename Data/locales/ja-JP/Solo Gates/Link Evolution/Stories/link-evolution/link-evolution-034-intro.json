@@ -1,0 +1,401 @@
+{
+  "name": "DuelingwiththeStars_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_paradisecity",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R沢渡(さわたり)が$R遊矢(ゆうや)のペンデュラムカードを$R盗(ぬす)むことに$R失敗(しっぱい)した$R後(あと)も　$R柚子(ゆず)は$R沢渡(さわたり)を$R監視(かんし)していた"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "どんな$R手(て)を$R使(つか)っても$R遊矢(ゆうや)を$R倒(たお)すなんて…　$R絶対(ぜったい)にさせない！　$R私(わたし)とデュエルしなさい！"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "sad",
+      "text": "$R柊(ひいらぎ)$R柚子(ゆず)…　なぜ　ここに？"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "neutral",
+      "text": "どうしたの！　$R私(わたし)に$R負(ま)けるのが$R怖(こわ)いの！"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "anger",
+      "text": "$R身(み)の$R程(ほど)$R知(し)らずのその$R態度(たいど)…　$R後悔(こうかい)させてやる！"
+    },
+    {
+      "char": "yuto",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "もう…　$R君(きみ)を$R傷(きず)つけたくない"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "…$R遊矢(ゆうや)？"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "anger",
+      "text": "カッコいいねぇ　だが　そこまでにしておけ　ナイトくん　$R恥(はじ)をかくだけだよ！"
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "デュエル！"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_darkrebellioncard",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "anger",
+      "text": "エクシーズ$R召喚(しょうかん)！　$R漆黒(しっこく)の$R闇(やみ)より　$R愚鈍(ぐどん)なる$R力(ちから)に$R抗(あらが)う　$R反逆(はんぎゃく)の$R牙(きば)！　$R今(いま)$R降臨(こうりん)せよ！\nダーク・リベリオン・エクシーズ・ドラゴン！"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "surprise",
+      "text": "おぐわぁぁぁぁぁぁ！"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "arcv_darkrebellioncard",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_youshowschool",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R謎(なぞ)の$R男(おとこ)が$R沢渡(さわたり)を$R襲(おそ)ったニュースは$R瞬(またた)く$R間(ま)に$R遊勝塾(ゆうしょうじゅく)$R全体(ぜんたい)へと$R広(ひろ)がった"
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "$R遊矢(ゆうや)…　じゃないの？"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "neutral",
+      "text": "お$R父(とう)さん　エクシーズって…　ウチでエクシーズ$R召喚(しょうかん)$R教(おし)えたことってないわよね？"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "neutral",
+      "text": "そ　そりゃないよ…　やったことないものは$R教(おし)えられんし　LDSだって$R最近(さいきん)だろ？　\n$R教(おし)え$R始(はじ)めたのは　なんだよ　$R急(きゅう)にエクシーズなんて？"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "sad",
+      "text": "う　ううん…　ちょっと…"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "おお　$R塾長(じゅくちょう)！　$R遊勝塾(ゆうしょうじゅく)を$R覗(のぞ)く$R怪(あや)しき$R三人(さんにん)の$R男(おとこ)に$R気付(きづ)き$R問(と)い$R詰(つ)めた$R所(ところ)　ゆうべ$R遊矢(ゆうや)が\n$R闇討(やみう)ちしたなどとけしからんことを"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R闇討(やみう)ち？"
+    },
+    {
+      "char": "yuya",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "オレが！？"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "$R説明(せつめい)は　$R私(わたくし)からさせていただきます"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "neutral",
+      "text": "あなたは…　LDSの！？"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "はい…　$R理事長(りじちょう)を$R務(つと)めております　$R赤馬(あかば)$R日美香(ひみか)と$R申(もう)します"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R彼(かれ)らが$R言(い)ったことは$R全(すべ)て$R事実(じじつ)です"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "surprise",
+      "text": "どうなんだ$R遊矢(ゆうや)？　お$R前(まえ)　$R本当(ほんとう)に…"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "やってないよ！　そんなことするわけないじゃないか！"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "neutral",
+      "text": "この$R男(おとこ)・$R権現坂(ごんげんざか)は　$R友(とも)を…　$R遊矢(ゆうや)を$R信(しん)じる！　みんなもそうだろ！？"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "sad",
+      "text": "$R遊矢(ゆうや)…　あれは$R本当(ほんとう)じゃないのね？"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R柚子(ゆず)が$R何(なに)を$R見(み)たか$R知(し)らないけど　オレは$R沢渡(さわたり)を$R襲(おそ)ったりしてない！"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R分(わ)かった　なら$R信(しん)じるわ　$R私(わたし)も$R遊矢(ゆうや)を$R信(しん)じる！"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "あら$R結束(けっそく)が$R固(かた)いこと　これじゃ$R遊矢(ゆうや)$R君(くん)を$R引(ひ)き$R渡(わた)せと$R言(い)っても$R無理(むり)そうね"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "anger",
+      "text": "$R問題(もんだい)はLDSの$R看板(かんばん)に$R泥(どろ)を$R塗(ぬ)られたこと　この$R汚名(おめい)を$R雪(すす)ぐには　$R塾生同士(じゅくせいどうし)　$R闘(たたか)って$R勝(か)つしか\nありません"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "そちらが$R勝(か)てば　$R沢渡(さわたり)$R君(くん)の$R件(けん)は$R不問(ふもん)にします"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "でも　$R我々(われわれ)が$R勝(か)ったなら…　この$R遊勝塾(ゆうしょうじゅく)を$R我(わ)がレオ・デュエルスクールのものにさせて\nいただきます"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "anger",
+      "text": "$R遊勝塾(ゆうしょうじゅく)の$R看板(かんばん)を$R奪(うば)うだと！？　まさか　$R襲撃事件(しゅうげきじけん)も$R全(すべ)てあなたが$R仕組(しく)んだことじゃ！？"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "それはありません　でもチャンスと$R捉(とら)えたことは$R確(たし)かです"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "LDSに$R融合(ゆうごう)　シンクロ　エクシーズに$R続(つづ)く$R第四(だいよん)の$R柱(はしら)ペンデュラムを$R打(う)ち$R立(た)てるチャンスだと"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "sad",
+      "text": "$R今(いま)のままでは$R宝(たから)の$R持(も)ち$R腐(ぐさ)れだと$R思(おも)いませんか　$R柊(ひいらぎ)$R塾長(じゅくちょう)？"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "デュエルはケンカの$R道具(どうぐ)じゃない…　でもオレは　$R遊勝塾(ゆうしょうじゅく)もペンデュラム$R召喚(しょうかん)も　$R他(ほか)の$R誰(だれ)かに\n$R奪(うば)われたくない！"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "$R遊勝塾(ゆうしょうじゅく)は$R父(とう)さんが$R作(つく)り$R上(あ)げた　エンターテイメントデュエルを$R教(おし)える$R塾(じゅく)"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "anger",
+      "text": "$R見(み)る$R人(ひと)みんなを$R楽(たの)しませるデュエルを$R教(おし)える$R塾(じゅく)を　$R金(かね)や$R力(ちから)で$R言(い)う$R事(こと)を$R聞(き)かせようとする\nあんたなんかに$R渡(わた)したくない！"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "neutral",
+      "text": "よく$R言(い)った$R遊矢(ゆうや)！　この$R男(おとこ)・$R権現坂(ごんげんざか)も$R全(まった)く$R同意(どうい)！　$R遊勝塾(ゆうしょうじゅく)を$R守(まも)るため　$R共(とも)に$R闘(たたか)おうぞ$R友(とも)よ！"
+    },
+    {
+      "char": "sora",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "でもキミ　$R部外者(ぶがいしゃ)だよね？"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "surprise",
+      "text": "うっ！"
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "デュエルよ！"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "smile",
+      "text": "どうやら　$R塾生達(じゅくせいたち)の$R気持(きも)ちは$R固(かた)まったようですけど…"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R私(わたし)の$R気持(きも)ちも$R固(かた)まっています　$R遊勝塾(ゆうしょうじゅく)は$R渡(わた)さない！"
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sora",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "hokuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R簡単(かんたん)に$R勝(か)てると$R思(おも)わない$R方(ほう)がいいわ　$R彼(かれ)らは$R我(わ)がLDSが$R誇(ほこ)る$R各(かく)コースのエース　\nその$R中(なか)から$R遊矢(ゆうや)$R君(くん)の$R相手(あいて)をするのは…"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "hokuto",
+      "pos": "",
+      "image": "smile",
+      "text": "LDSエクシーズコース$R所属(しょぞく)　$R志島(しじま)$R北斗(ほくと)！"
+    },
+    {
+      "char": "hokuto",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "skipboyle",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "このデュエル　$R絶対(ぜったい)に$R勝(か)つ！　デュエル！"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "name": "CityScape_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_tops",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "LEFT:FADEIN",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT:FADEIN",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Zuzu und Yugo teleportierten sich in die Synchrodimension."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "smile",
+      "text": "Willkommen in der Synchrodimension!"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Was? Synchrodimension? Aber ich sollte doch an der Battle Royal der Junior Arc Meisterschaft teilnehmen!"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "neutral",
+      "text": "Du bist wie Yuyas Zwilling, ich meine Drilling, ich meine Vierling! Wie war noch gleich dein Name? Yoyo?"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "Yo-Yo!? Mein Name ist Yugo! Du bist wirklich nicht Rin. Rin würde sich niemals bei meinem Namen irren."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "smile",
+      "text": "Keine Sorge. Du wirst dich daran gewöhnen, hier zu sein. Ich erinnere mich, wie ich ausgeflippt bin, als ich in eine andere Dimension geschickt wurde. Das war der Tag, an dem ich Rin verlor. Wir waren unzertrennlich … bis wir getrennt wurden."
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_commons",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "rin",
+      "pos": "CENTER",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yugo erinnerte sich an den Moment, als Rin gefangen genommen wurde."
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "smile",
+      "text": "Du kommst mit mir. Wir können das auf die einfache oder die harte Tour machen … Ich hoffe, du entscheidest dich für Letzteres."
+    },
+    {
+      "char": "rin",
+      "pos": "",
+      "image": "surprise",
+      "text": "!"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": "Lass sie gehen, du Widerling! Tu bloß nix Verrücktes, klar?"
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "neutral",
+      "text": "„Verrückt“ ist mein zweiter Vorname! Bye-bye!"
+    },
+    {
+      "char": "rin",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "Rin!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_clearwingcard",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Woah … Was ist los? Glasflügel-Synchrodrache? Warum glühst du so hell?"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_heartlandcity",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "surprise",
+      "text": "(Und dann war ich plötzlich in der Xyz-Dimension, in einer Stadt namens Heartland City. Der Ort hatte schon bessere Tage gesehen.)"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "arcv_clearwingcard",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": "Du schon wieder! Gib Rin zurück und ich werde dich verschonen."
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "anger",
+      "text": "Soll das eine Drohung sein? Okay, dann mal los!"
+    },
+    {
+      "char": "yuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_tops",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Zurück in der Gegenwart wies Zuzu Yugo auf seinen Fehler hin."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Dieser Typ war Yuto. Er hat Rin nicht. Er hat es zu seiner Mission gemacht, Lulu – die Schwester seines Freundes – zu retten."
+    },
+    {
+      "char": "yuzu",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Bald wurden sie von einem Beamten der Sektorensicherheit unterbrochen."
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "",
+      "image": "neutral",
+      "text": "Zwei „Commons“! Die Villa ist nur für Tops!"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "Ich wusste, wir hätten hier nicht bleiben sollen. Wir sind in einer Sperrzone, nur für Tops. Für uns kein Zutritt."
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "Die Tops sind diejenigen, die den ganzen Reichtum und die Macht in New Domino City besitzen. Wir Commons müssen in den Slums leben."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "sad",
+      "text": "Das ist aber nicht fair."
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "",
+      "image": "anger",
+      "text": "Hier spricht die Sektorensicherheit. Stehen bleiben!"
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Meint ihr etwa, ich würde weglaufen?! Auf gar keinen Fall! Zeit für ein Duell!"
+    }
+  ]
+}

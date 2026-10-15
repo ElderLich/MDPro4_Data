@@ -1,0 +1,287 @@
+{
+  "name": "CityScape_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_tops",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "LEFT:FADEIN",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT:FADEIN",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R柚子(ゆず)とユーゴはシンクロ$R次元(じげん)へとやってきた"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "smile",
+      "text": "ここはシンクロ$R次元(じげん)のシティ　オレの$R地元(じもと)だ"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "ジュニアユース$R選手権(せんしゅけん)のバトルロイヤルは？　$R舞網(まいあみ)チャンピオンシップの！"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R遊矢(ゆうや)にそっくり…　あなたがユーゴ？　それじゃ…　あなたも$R融合(ゆうごう)！？"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "$R誰(だれ)がユーゴーだ！！　オレはユーゴ　\nやっぱりお$R前(まえ)はリンじゃねぇ　リンならオレの$R名前(なまえ)を$R間違(まちが)えるわきゃねーからな"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "smile",
+      "text": "$R驚(おどろ)くのも$R無理(むり)はねぇ　オレだって　$R最初(さいしょ)に$R次元(じげん)を$R飛(と)ばされた$R時(とき)は$R腰(こし)が$R抜(ぬ)けるほど$R驚(おどろ)いたよ　\n…あれはリンが$R連(つ)れ$R去(さ)られた$R時(とき)だった"
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_commons",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "rin",
+      "pos": "CENTER",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "ユーゴはリンが$R捕(つか)まったときのことを$R思(おも)い$R出(だ)していた"
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "smile",
+      "text": "さあ　ボクと$R一緒(いっしょ)に$R行(い)こう　プロフェッサーの$R元(もと)へ"
+    },
+    {
+      "char": "rin",
+      "pos": "",
+      "image": "surprise",
+      "text": "！"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": "テメェ　リンをどこへ$R連(つ)れてく$R気(き)だ！？"
+    },
+    {
+      "char": "yuri",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R魔法(まほう)カード『ヴァイオレット・フラッシュ』$R発動(はつどう)！"
+    },
+    {
+      "char": "rin",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuri",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "リン！！"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_clearwingcard",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "surprise",
+      "text": "クリアウィング？　な　なんで$R光(ひか)って…"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_heartlandcity",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R気(き)が$R付(つ)いた$R時(とき)　オレはエクシーズ$R次元(じげん)のハートランドにいたんだ"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "arcv_clearwingcard",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "anger",
+      "text": "$R見(み)つけたぜ！　もう$R逃(に)がさねーっ！！"
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "anger",
+      "text": "お$R前(まえ)もアカデミアか！？"
+    },
+    {
+      "char": "yuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_tops",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R現在(げんざい)に$R戻(もど)ると　$R柚子(ゆず)はユーゴの$R間違(まちが)いを$R指摘(してき)していた"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "それはユートよ！　ユートはエクシーズ$R次元(じげん)でさらわれたルリを$R助(たす)けようとしてるの！"
+    },
+    {
+      "char": "yuzu",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "すると　$R治安維持局(ちあんいじきょく)のセキュリティが$R邪魔(じゃま)に$R入(はい)った"
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "",
+      "image": "neutral",
+      "text": "そこのコモンズ！　この$R別荘地(べっそうち)はトップス$R専用(せんよう)だぞ！"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "$R薄々(うすうす)$R気(き)づいてたが　$R話(はなし)に$R夢中(むちゅう)になって$R出(で)て$R行(い)くのが$R遅(おく)れた！"
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "sad",
+      "text": "シティでは　$R何(なに)もかもが$R他人(たにん)との$R競争(きょうそう)で$R評価(ひょうか)される　$R最上級(さいじょうきゅう)クラスの$R成功者(せいこうしゃ)であるトップスは\nシティの$R富(とみ)と$R権力(けんりょく)を$R握(にぎ)り　$R敗(やぶ)れた$R者達(ものたち)は$R光(ひかり)の$R無(な)い$R闇(やみ)の$R世界(せかい)…　スラム$R街(がい)に$R住(す)む"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "sad",
+      "text": "そんな！"
+    },
+    {
+      "char": "duelchaser227",
+      "pos": "",
+      "image": "anger",
+      "text": "こちらはセキュリティです　$R今(いま)すぐ$R停(と)まりなさい"
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "",
+      "image": "neutral",
+      "text": "しっかり$R掴(つか)まってろよ$R柚子(ゆず)！　ライディングデュエルがどんなもんか$R見(み)せてやるぜ！！　\nライディングデュエル　アクセラレーション！"
+    }
+  ]
+}

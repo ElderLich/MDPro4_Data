@@ -1,0 +1,191 @@
+{
+  "name": "TheFortuneCupFinale_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_arenahallway",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R黒薔薇(くろばら)の$R魔女(まじょ)とのデュエルの$R後(あと)　$R遊星(ゆうせい)はゴドウィンの$R赤(あか)き$R竜(りゅう)の$R計画(けいかく)を$R知(し)り　ゴドウィンに$R立(た)ち\n$R向(む)かった"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "ゴドウィン…　お$R前(まえ)はオレの$R仲間(なかま)を$R拉致(らち)し　$R大会出場(たいかいしゅつじょう)を$R強要(きょうよう)してきた"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R教(おし)えてもらおうか　そこまでする$R本当(ほんとう)の$R目的(もくてき)は$R何(なん)だ？"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "オレが$R代(か)わりに$R答(こた)えてやる"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "5ds_signermark_jack",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "neutral",
+      "text": "この$R男(おとこ)の$R目的(もくてき)は　この$R痣(あざ)を$R持(も)つ$R者(もの)たちをシティに$R集(あつ)めること"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "5ds_signermark_jack",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "anguish",
+      "text": "そのためにオレもキングとおだてられ　$R利用(りよう)されてきた"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "neutral",
+      "text": "デュエルキングとして$R君臨(くんりん)するのは　ジャック…"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "あなたの$R望(のぞ)みだったではないですか"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "anger",
+      "text": "…$R本当(ほんとう)に$R求(もと)められるキングならな　$R二年前(にねんまえ)　オレはお$R前(まえ)の$R誘(さそ)いに$R乗(の)ってシティに$R来(き)た"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "neutral",
+      "text": "だが　$R本当(ほんとう)の$R目的(もくてき)はオレではなく…　$R遊星(ゆうせい)　お$R前(まえ)だ"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "この$R男(おとこ)は　オレを$R引(ひ)っ$R張(ぱ)り$R出(だ)せば　$R遊星(ゆうせい)もサテライトから$R追(お)ってくる　そう$R考(かんが)えた"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "laughter",
+      "text": "それは$R妙(みょう)ですね　$R彼(かれ)に$R用(よう)があるなら$R直接(ちょくせつ)$R誘(さそ)えばいいだけのこと"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "$R遊星(ゆうせい)は　$R決(けっ)してお$R前(まえ)の$R誘(さそ)いに$R乗(の)る$R相手(あいて)ではない"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "だからお$R前(まえ)はオレを$R利用(りよう)し　オレたちにサテライトから$R抜(ぬ)け$R出(だ)すきっかけを$R与(あた)えた"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "$R人質(ひとじち)を$R解放(かいほう)しろ　$R遊星(ゆうせい)もいまさら$R逃(に)げはしまい"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "オレと$R闘(たたか)うこいつに$R枷(かせ)など$R必要(ひつよう)ない　$R道化(どうけ)の$R報酬(ほうしゅう)としてそのくらいは$R払(はら)ってもよかろう"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "laughter",
+      "text": "それがキングの$R意地(いじ)なら…　いいでしょう"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "そうして$R不動(ふどう)$R遊星(ゆうせい)とジャック・アトラスの$R闘(たたか)いが$R始(はじ)まった！"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "$R遊星(ゆうせい)　このデュエルでどちらが$R真(しん)のキングの$R印(しるし)を$R持(も)つ$R者(もの)なのか　$R決着(けっちゃく)をつける！"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "だが　もう$R一度(いちど)$R赤(あか)き$R竜(りゅう)が$R現(あらわ)れれば　オレたちもただでは$R済(す)まないぞ"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "anger",
+      "text": "$R怖(お)じ$R気(け)づいたか…　そのときは$R赤(あか)き$R竜(りゅう)を$R己(おのれ)の$R力(ちから)にしてみせるまで！"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "デュエル！"
+    }
+  ]
+}

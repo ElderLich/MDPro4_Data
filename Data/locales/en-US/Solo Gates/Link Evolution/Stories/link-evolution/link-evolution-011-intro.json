@@ -1,0 +1,707 @@
+{
+  "name": "SupersensoryShakedown_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_satellite",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Soon after the Fortune Cup ended, Yusei found himself in another duel against a man claiming to be a \"Dark Signer.\""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "After Yusei defeated his foe, he attempted to question him, but the individual had no memory of what had just transpired."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "The man seemed to be under some sort of mind control. However, this was the moment that Yusei met the journalist Carly Carmine."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "RIGHT",
+      "image": "glasses_smile",
+      "text": "Hi! I’m Carly Carmine and I was hoping you’d tell me what it’s like to be the first amateur to take on Domino City’s new champ?"
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "glasses_surprise",
+      "text": "And what happened here with this freaky dude in the hood–Hey, do you hear sirens?"
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "glasses_discouragement",
+      "text": "Who called Security?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "We better get outta here before they start asking questions."
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "glasses_surprise",
+      "text": "B-but my interview!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "We'll finish it later."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Later on, Yusei met up with Rex Goodwin to find answers about the Dark Signers."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Yusei, the time has come for me to tell you the truth."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "5ds_signermark_yusei",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Why don't we start with this mark."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "That is the Mark of the Crimson Dragon. It belongs to those who protect our world from the darkness."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "5ds_signermark_yusei",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "This darkness is dangerous. It can take on many forms, even those of your friends."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "But you will know their identities, for they will have the Mark of the Shadows."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "“Mark of the Shadows?” You must mean the Dark Signers!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Just as you were chosen to protect the light, they choose to protect the darkness."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "They will stop at nothing to annihilate you. To increase their strength, they absorb human souls, even those of the innocent."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "You and your friends must combine your strengths and defeat the Dark Signers."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "And if we can't? What if they release the shadows?"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "If that should happen, well... You’ve already seen a glimpse of our fate."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "After talking with Goodwin, Yusei was dispatched to Satellite in order to seek out the Dark Signers."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "That's when he met an old friend."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "RIGHT",
+      "image": "laughter",
+      "text": "Hey, Yusei!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Good to see you, Crow!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "What have you been up to?"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "laughter",
+      "text": "You know me. Still fighting the good fight. Robbing the rich to feed the poor n’ all that."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "",
+      "text": "So I hear that you're some big shot champion now."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Yeah. Something like that."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Crow, why are the streets so deserted?"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "neutral",
+      "text": "These creepy cats have been coming around lately."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "discouragement",
+      "text": "They spout these wacky teachings, trying to round up followers."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "I better look into this."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Before too long, Crow and Yusei both come face to face with a Dark Signer."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "CENTER",
+      "image": "discouragement",
+      "text": ""
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "RIGHT",
+      "image": "dark_smile",
+      "text": "Yusei!"
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_smile",
+      "text": "And his bird-brained friend!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Kalin Kessler? Is that really you?! I thought you were gone forever!"
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Wrong, Yusei. And while I was away, I made some new friends. I believe you already dueled one of my associates."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "You mean the Dark Signer? You're on their side?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "But you were once our friend!"
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_goodnightssleep",
+      "text": "“Once your friend,” yes. But now... Your enemy!"
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_smile",
+      "text": "Now get ready for the duel of your life!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "He's a Dark Signer. This is what Goodwin was talking about when he said the darkness may come in the form of a friend!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_smile",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_satellite",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anguish",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "During their duel, Kalin summoned Earthbound Immortal Ccapac Apu, and the creature absorbed human souls throughout the arena."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Kalin then used this monster to defeat Yusei. Yusei's friends immediately rushed to Yusei's side."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_citysquare",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Meanwhile, Luna and Leo discussed their next move to help stop the Dark Signers."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Since we fight evil, that means we’re superheroes. And superheroes are always supposed to stick together."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "That's like their most important thing!"
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "I think their superpowers are most important..."
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "",
+      "image": "smile",
+      "text": "Anyway, you’re absolutely right, Leo. Let's stick together right here in this nice cozy mansion."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "What about Akiza?"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "She may be a Signer, but that doesn't mean we can trust her."
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "",
+      "text": "She's part of that weird Arcadia Movement that's got all the psychics."
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Their main objective is to train duelists to inflict real damage."
+    },
+    {
+      "char": "luna",
+      "pos": "LEFT",
+      "image": "discouragement",
+      "text": "But Akiza would never really want to hurt people!"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "",
+      "text": "Who knows. I say we stay as far away as possible."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "discouragement",
+      "text": "But Yanagi agreed that us heroes gotta stick together! What if she needs our help?"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "anger",
+      "text": "Or what if Yusei’s in trouble and we need Akiza’s deck as backup?"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "There’s like a million reasons why this is a good idea!"
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bolttanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Meanwhile Leo, Luna, Bolt, and Tenzen traveled to Arcadia Movement headquarters to get help from Akiza."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sayer",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "You want to see Akiza? She's awfully busy."
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "",
+      "text": "What's so incredibly important that you've come all the way here?"
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "She has the Mark of the Dragon. That means she’s a superhero!"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "Luna and me are superheroes too. We’re going to help our friend Yusei and fight the Dark Signers and save the whole city!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "neutral",
+      "text": "I’ve been monitoring some strange occurrences lately myself. I would love to help you."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "shy",
+      "text": "You would?!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile1",
+      "text": "My Arcadia Movement represents all that is good. I promise you that I'll do everything to stop this threat!"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "All right!"
+    },
+    {
+      "char": "luna",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Thank you!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "neutral",
+      "text": "Now if you'll just excuse me, I'll go get Akiza."
+    },
+    {
+      "char": "sayer",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bolttanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Unfortunately, the entire visit was a trap set up by Sayer. His intention was to test Leo's abilities to find out if they were similar to Luna's."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Where's Luna? Where am I? Why am I chained up with this gizmo on my head?"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "neutral",
+      "text": "That hat detects latent psychic powers, assuming that you have any."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Latent what? You said you were going to get Akiza and help us fight the Dark Signers!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile2",
+      "text": "I will make society pay for how they discriminated and treated psychics throughout time!"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "What are ya gonna do to me?! Take my brain or something?!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile1",
+      "text": "Of course not. You’re here to take a test. To see if you have the power of a psychic duelist."
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile2",
+      "text": "Akiza was just a preview. I have dozens more psychic duelists at my command!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile1",
+      "text": "Psychics can do incredible things with their minds."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Does that mean Akiza’s gonna help you get even? But she’s supposed to be a hero!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile2",
+      "text": "A hero? She doesn’t even know what I’m really doing here! Now, whaddya say we start that test!"
+    }
+  ]
+}

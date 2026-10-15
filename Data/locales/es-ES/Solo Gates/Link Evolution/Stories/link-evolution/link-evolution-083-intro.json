@@ -1,0 +1,191 @@
+{
+  "name": "TheMasterOfMagicians_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_obelisk_card",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "A medida que continuaba el Torneo de Battle City, Marik se enteró de que la carta de Dios Egipcio que estaba buscando había entrado en juego."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "LEFT",
+      "image": "dark_neutral",
+      "text": ""
+    },
+    {
+      "char": "odion",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_surprise",
+      "text": "¿Alguien ha sacado la carta Obelisco el Atormentador?"
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "",
+      "text": "Sí. Hace poco en el torneo de Battle City. Y ya hemos identificado al propietario."
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "",
+      "text": "Seto Kaiba."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Por supuesto."
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "",
+      "text": "¿Cómo lo has sabido, señor?"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Es muy fácil. Mi hermana Ishizu está conspirando en mi contra. Ella fue quien le dio a Kaiba esa carta para detenerme. Debería haber sabido que Ishizu estaba detrás de todo lo de este torneo."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Ella ha usado su Collar Milenario para predecir los acontecimientos del torneo de Battle City. Ishizu sabía que si le daba la carta Obelisco el Atormentador a Kaiba, él organizaría un torneo motivado por conseguir los otros Dioses Egipcios."
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "",
+      "text": "Señor, ¿crees que un grupo de Cazadores Raros debería hacerle una pequeña visita a Kaiba?"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "No. Deja a Kaiba entretenido."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Primero, tengo que debilitar al Faraón."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_anger",
+      "text": "¡Envía a Arkana para que acabe con Yugi Muto!"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "odion",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Más adelante en el torneo de Battle City, un extraño personaje vestido de payaso condujo a Yugi a una guarida secreta llena de artilugios peligrosos."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "arkana",
+      "pos": "RIGHT",
+      "image": "win",
+      "text": "Bienvenido, Yugi Muto. Soy el ilusionista conocido como Arkana, y pronto, ¡tu carta favorita Mago Oscuro jugará para mí!"
+    },
+    {
+      "char": "arkana",
+      "pos": "",
+      "image": "neutral",
+      "text": "Sólo un verdadero maestro de la ilusión merece poseer un Mago Oscuro. Tú nunca vas a entender su verdadero potencial."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "anger",
+      "text": "¡Ya basta, Arkana!"
+    },
+    {
+      "char": "arkana",
+      "pos": "",
+      "image": "win",
+      "text": "Sé que resulta difícil pensar que tu carta favorita esté en el deck de otro duelista. Bueno, ¡te reto a un duelo! ¡El ganador se llevará el Mago Oscuro del perdedor!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Acepto. Has de saber que cuando un duelista construye su deck, elige sus cartas favoritas de muchos tipos diferentes."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "smile",
+      "text": "Pero a veces, ¡la carta puede elegir al duelista! Los dos están conectados, y el duelista puede acceder el verdadero poder de la carta."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ya que ambos están ligados por el corazón de las cartas... ¡Y el Mago Oscuro me ha elegido a mí!"
+    },
+    {
+      "char": "arkana",
+      "pos": "",
+      "image": "win",
+      "text": "¡Ya basta! ¡Vamos a barajar y que comience el espectáculo!"
+    }
+  ]
+}

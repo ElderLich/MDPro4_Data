@@ -1,0 +1,401 @@
+{
+  "name": "TheSparrow_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_school",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "アストラルは$R自分(じぶん)が$R新(あたら)しい$R世界(せかい)に$R段々(だんだん)$R慣(な)れてきていると$R感(かん)じていた"
+    },
+    {
+      "char": "nelsonandrews",
+      "pos": "RIGHT:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "その$R証拠(しょうこ)の$R一(ひと)つとして　アストラルはロビンが$R出演(しゅつえん)する$R人気(にんき)テレビ$R番組(ばんぐみ)の$R素晴(すば)らしい\nアクションに$R夢中(むちゅう)になっていて　$R異(い)$R世界(せかい)から$R来(き)たとされる$R主人公(しゅじんこう)に$R親近感(しんきんかん)を$R持(も)っていた"
+    },
+    {
+      "char": "nelsonandrews",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "テレビが$R何(なに)か$R分(わ)からず　アストラルはロビンの$R助(たす)けを$R借(か)りようと$R遊馬(ゆうま)に$R詰(つ)め$R寄(よ)ったが　\n$R遊馬(ゆうま)は$R相手(あいて)にしなかった　ところが$R次(つぎ)の$R日(ひ)　$R遊馬(ゆうま)は$R友達(ともだち)の$R小鳥(ことり)からとある$R話(はなし)を$R聞(き)いた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "torimeadows",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "ねえねえ　$R遊馬(ゆうま)！　$R聞(き)いた！？"
+    },
+    {
+      "char": "torimeadows",
+      "pos": "",
+      "image": "smile",
+      "text": "$R今(いま)　$R異次元(いじげん)エスパー・ロビンがこの$R街(まち)に$R来(き)てるんですって！"
+    },
+    {
+      "char": "torimeadows",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "なに！？　$R遊馬(ゆうま)　$R会(あ)いに$R行(い)くぞ！　$R彼(かれ)が$R本当(ほんとう)に$R異次元(いじげん)から$R来(き)たなら　$R何(なに)か$R私(わたし)の$R失(うしな)われた$R記憶(きおく)に\nついても$R知(し)っているかも$R知(し)れない！"
+    },
+    {
+      "char": "astral",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "アストラルは$R本気(ほんき)でロビンが$R自分(じぶん)の$R失(うしな)われた$R記憶(きおく)の$R鍵(かぎ)を$R握(にぎ)っているかもしれないと\n$R考(かんが)えている$R一方(いっぽう)で　$R小鳥(ことり)は$R一人(ひとり)のファンとしてロビンを$R一目(ひとめ)$R見(み)たいと$R思(おも)っていた　\n$R遊馬(ゆうま)もしぶしぶロビンを$R見(み)に$R行(い)くことにした"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "torimeadows",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R遊馬(ゆうま)たちはテレビ$R番組(ばんぐみ)のセットに$R忍(しの)び$R込(こ)み　ロビンを$R覗(のぞ)き$R見(み)ていた"
+    },
+    {
+      "char": "astral",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "torimeadows",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "nelsonandrews",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "しかし　ちょっとしたアクシデントで$R遊馬(ゆうま)たちは$R見(み)つかり　$R遊馬(ゆうま)はデュエルデッキを$R落(お)として\nしまった　$R遊馬(ゆうま)たちは$R警備員(けいびいん)に$R追(お)い$R出(だ)されたが　$R突然(とつぜん)ロビンがどこからか$R降(お)りてきて$R遊馬(ゆうま)を\n$R連(つ)れ$R出(だ)した"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "nelsonandrews",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "これは$R君(きみ)のデッキじゃないのか？"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "うわっ！　あぶね～　まさかデッキケース$R落(お)としてたなんて！"
+    },
+    {
+      "char": "nelsonandrews",
+      "pos": "",
+      "image": "",
+      "text": "$R礼(れい)には$R及(およ)ばんよ　ただ$R君(きみ)に$R頼(たの)みがある"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R頼(たの)み？"
+    },
+    {
+      "char": "nelsonandrews",
+      "pos": "",
+      "image": "anger",
+      "text": "オレとデュエルの$R大盤振(おおばんぶ)る$R舞(ま)いをしてくれ！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "smile",
+      "text": "デュエル？　おお　やろうぜ！"
+    },
+    {
+      "char": "nelsonandrews",
+      "pos": "",
+      "image": "smile",
+      "text": "ホント！？　…じゃなかった　$R本当(ほんとう)だな！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "neutral",
+      "text": "ああ！　オレは$R九十九(つくも)$R遊馬(ゆうま)！　$R未来(みらい)のデュエルチャンピオンを$R目指(めざ)してるんだ！"
+    },
+    {
+      "char": "nelsonandrews",
+      "pos": "",
+      "image": "surprise",
+      "text": "そうなんだ！　ねえキミ　ボクと$R友達(ともだち)になってよ！　ボクの$R名前(なまえ)は$R奥平(おくだいら)$R風也(ふうや)"
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R風也(ふうや)は$R友達(ともだち)とのデュエルで$R盛(も)り$R上(あ)がっていたが　$R風也(ふうや)の$R母(はは)が$R二人(ふたり)の$R邪魔(じゃま)をし　$R遊馬(ゆうま)を$R追(お)い\n$R出(だ)してしまった"
+    },
+    {
+      "char": "nelsonandrews",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_night",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "zexal_galaxyqueencard",
+      "text": ""
+    },
+    {
+      "char": "nelsonandrews",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "その$R日(ひ)の$R夜(よる)　ホテルのバルコニーで$R風也(ふうや)は$R不思議(ふしぎ)なナンバーズ　Ｎｏ．８３　ギャラクシー・\nクィーンと$R遭遇(そうぐう)した　$R手(て)に$R取(と)ると　それは$R風也(ふうや)に$R取(と)りつき　$R風也(ふうや)に$R自分(じぶん)が$R本当(ほんとう)に\nロビンなのだと$R信(しん)じ$R込(こ)ませた"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "zexal_galaxyqueencard",
+      "text": ""
+    },
+    {
+      "char": "nelsonandrews",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "torimeadows",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "その$R後(あと)　$R遊馬(ゆうま)と$R小鳥(ことり)はロビンが$R街(まち)で$R暴(あば)れているという$R知(し)らせを$R聞(き)いた　$R小鳥(ことり)は$R遊馬(ゆうま)を$R連(つ)れて　\nロビンを$R捜(さが)し$R走(はし)り$R回(まわ)った"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "なんでオレまで…"
+    },
+    {
+      "char": "torimeadows",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "$R私(わたし)$R一人(ひとり)にパトロールさせるつもり？　$R絶対(ぜったい)にロビンの$R疑(うたが)いを$R晴(は)らすんだから！　きっとアレは\nロビンの$R偽者(にせもの)に$R違(ちが)いないわ！"
+    },
+    {
+      "char": "torimeadows",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "しばらくして　$R遊馬(ゆうま)と$R小鳥(ことり)は$R真夜中(まよなか)の$R路地(ろじ)に$R潜(ひそ)む$R風也(ふうや)に$R遭遇(そうぐう)した"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "nelsonandrews",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "$R風也(ふうや)…　お$R前(まえ)　$R自分(じぶん)が$R何(なに)してるかわかってるのかよ！"
+    },
+    {
+      "char": "nelsonandrews",
+      "pos": "",
+      "image": "anger",
+      "text": "ボクは$R母(かあ)さんの$R期待(きたい)に$R応(こた)えなきゃいけない　$R暗黒帝王(あんこくていおう)デッドマックスたちを$R退治(たいじ)しなきゃ　\nなぜならボクは…　いや　オレは$R本当(ほんとう)の$R異次元(いじげん)エスパー・ロビンだからだ！"
+    },
+    {
+      "char": "nelsonandrews",
+      "pos": "",
+      "image": "anger",
+      "text": "$R遊馬(ゆうま)　なぜオレの$R邪魔(じゃま)をする？　そうか…　お$R前(まえ)も$R暗黒帝王(あんこくていおう)デッドマックスの\n$R手下(てした)だったんだな！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "$R風也(ふうや)…　いいやロビン！　オレとデュエルだ！　お$R前(まえ)の$R目(め)を$R覚(さ)ましてやる！"
+    },
+    {
+      "char": "nelsonandrews",
+      "pos": "",
+      "image": "",
+      "text": "$R受(う)けて$R立(た)とう！　$R遊馬(ゆうま)！　これが$R正義(せいぎ)の$R大盤振(おおばんぶ)る$R舞(ま)いだ！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "オレのかっとビングか　お$R前(まえ)の$R大盤振(おおばんぶ)る$R舞(ま)いか…　デュエル！"
+    }
+  ]
+}

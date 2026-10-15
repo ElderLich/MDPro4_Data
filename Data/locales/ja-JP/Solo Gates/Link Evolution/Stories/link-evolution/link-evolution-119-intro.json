@@ -1,0 +1,149 @@
+{
+  "name": "HangingWithAxel_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_arena",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "LEFT",
+      "image": "",
+      "text": "プロフェッサー・コブラは$R新(あたら)しい$R発明(はつめい)を$R発表(はっぴょう)するため　$R全校(ぜんこう)$R集会(しゅうかい)を$R開(ひら)いた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "gx_biobands",
+      "text": ""
+    },
+    {
+      "char": "theloniousviper",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "$R今日(きょう)は$R諸君(しょくん)に　$R贈(おく)り$R物(もの)がある！"
+    },
+    {
+      "char": "theloniousviper",
+      "pos": "",
+      "image": "neutral",
+      "text": "これは　デスクロージャーデュエル$R用(よう)のデスベルトだ"
+    },
+    {
+      "char": "theloniousviper",
+      "pos": "",
+      "image": "",
+      "text": "デスクロージャーデュエルとは　$R実力公開(じつりょくこうかい)システムともいう！　$R寮(りょう)のカラーや$R学年(がくねん)に\n$R関係(かんけい)なく　オープンにデュエルを$R行(おこな)う$R制度(せいど)だ"
+    },
+    {
+      "char": "theloniousviper",
+      "pos": "",
+      "image": "",
+      "text": "それゆえにデスベルトが$R必要(ひつよう)なのだ！　このベルトからセンターに$R直接(ちょくせつ)デュエルデータが\n$R送(おく)られ　そのレベルが$R検討(けんとう)される　デュエルの$R熱(あつ)さ　$R集中力(しゅうちゅうりょく)　$R決断力(けつだんりょく)といった$R闘(たたか)う$R心(こころ)を$R計(はか)る\n$R装置(そうち)なのだ！"
+    },
+    {
+      "char": "theloniousviper",
+      "pos": "",
+      "image": "anger",
+      "text": "$R諸君(しょくん)は　デュエル・アカデミアのエリートとして　$R闘(たたか)う$R心(こころ)があることを$R証明(しょうめい)する$R義務(ぎむ)がある！"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "gx_biobands",
+      "text": ""
+    },
+    {
+      "char": "theloniousviper",
+      "pos": "",
+      "image": "smile",
+      "text": "デュエルする$R熱(あつ)い$R心(こころ)なき$R者(もの)は　$R在校(ざいこう)する$R必要(ひつよう)なし！　もし$R闘(たたか)う$R心(こころ)がないと$R判断(はんだん)されれば　\nアカデミアを$R去(さ)ってもらう"
+    },
+    {
+      "char": "theloniousviper",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_genericoutdoor",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R一方(いっぽう)　オースチン・オブライエンは$R翔(しょう)を$R捕(つか)まえ　$R人質(ひとじち)にして$R遊城(ゆうき)に\nデスクロージャーデュエルを$R申(もう)し$R込(こ)んだ"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "CENTER",
+      "image": "blue_surprise2",
+      "text": "アニキ！　$R来(き)てくれたんすね"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "あったりまえだ！　オブライエン　お$R前(まえ)　$R翔(しょう)に$R何(なに)してんだ！？"
+    },
+    {
+      "char": "axelbrodie",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "$R呼(よ)び$R出(だ)す$R手間(てま)が$R省(はぶ)けたようだな"
+    },
+    {
+      "char": "axelbrodie",
+      "pos": "",
+      "image": "anger",
+      "text": "$R弟分(おとうとぶん)を$R助(たす)けて$R欲(ほ)しければ　オレとデスデュエルしろ…　とでも$R言(い)おうと$R思(おも)っていたのだが…"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "smile",
+      "text": "なに！　オレとデュエルしたけりゃ　$R直接言(ちょくせつい)えよ！　こんなことしなくても　いつでも\nオッケーなのにさ"
+    },
+    {
+      "char": "axelbrodie",
+      "pos": "",
+      "image": "smile",
+      "text": "いや　いつものお$R前(まえ)では　ダメなんだ…　$R本気(ほんき)のお$R前(まえ)でなければ"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anger",
+      "text": "なに？"
+    },
+    {
+      "char": "axelbrodie",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R十代(じゅうだい)　$R弟分(おとうとぶん)を$R助(たす)けたければオレを$R倒(たお)すんだな"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anger",
+      "text": "$R何(なん)のために　こんなことをするのかは$R知(し)らないが　そのデュエル$R受(う)けてやる！"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "name": "MimeControl_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_egyptiangodcards",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "マリクは$R三幻神(さんげんしん)のうち$R二枚(にまい)を$R所有(しょゆう)していたが　マリクの$R計画(けいかく)には$R千年(せんねん)パズルも$R必要(ひつよう)だった"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R突然(とつぜん)　$R遊戯(ゆうぎ)は$R人形(にんぎょう)と$R呼(よ)ばれるデュエリストの$R挑戦(ちょうせん)を$R受(う)けた"
+    },
+    {
+      "char": "strings",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "$R器(うつわ)の$R遊戯(ゆうぎ)…"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "strings",
+      "pos": "",
+      "image": "",
+      "text": "また$R会(あ)ったね"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "マリク！？"
+    },
+    {
+      "char": "strings",
+      "pos": "",
+      "image": "win",
+      "text": "フフ…　$R覚(おぼ)えていてくれたんだね　そう　この$R人形(にんぎょう)を$R操(あやつ)っているのはこのボク　マリクだよ　\nそしてこの$R寡黙(かもく)な$R人形(にんぎょう)はただの$R器(うつわ)さ"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "$R器(うつわ)！？"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "CENTER",
+      "image": "dark_neutral",
+      "text": "そう！　ボクの$R千年(せんねん)ロッドの$R力(ちから)でこのパントマイマーは$R心(こころ)の$R奥底(おくそこ)にうずくまっている"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "だから$R今(いま)は$R感情(かんじょう)と$R呼(よ)べるものはないに$R等(ひと)しい$R空(から)っぽの$R器(うつわ)さ"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEIN:LEFT",
+      "image": "",
+      "text": "$R千年(せんねん)アイテムの$R力(ちから)を$R利用(りよう)し　$R人々(ひとびと)を$R意(い)のままに$R操(あやつ)る$R貴様(きさま)をオレは$R許(ゆる)さねぇぜ！"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "anger",
+      "text": "$R行(い)くぜマリク！　デュエル！"
+    }
+  ]
+}

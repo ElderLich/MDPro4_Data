@@ -1,0 +1,365 @@
+{
+  "name": "DoomsdayDuel_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_arena",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "デュエル・アカデミアの$R校長(こうちょう)　$R鮫島(さめじま)は　$R十代(じゅうだい)　$R三沢(みさわ)　$R明日香(あすか)　$R万丈目(まんじょうめ)　クロノス　$R大徳寺(だいとくじ)　$R亮(りょう)を\n$R校長(こうちょう)$R室(しつ)へと$R呼(よ)び$R出(だ)した"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "セブンスターズと　$R三幻魔(さんげんま)について$R警告(けいこく)するためだ"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "$R三幻魔(さんげんま)のカード？"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "そうです　この$R島(しま)に$R封印(ふういん)されている　いにしえより$R伝(つた)わる$R三枚(さんまい)のカード"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "そもそもこの$R学園(がくえん)はそのカードが$R封印(ふういん)された$R場所(ばしょ)の$R上(うえ)に$R建(た)っているのです　$R学園(がくえん)の\n$R地下(ちか)$R深(ふか)くにその$R三幻魔(さんげんま)が$R眠(ねむ)っています"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "$R島(しま)の$R伝説(でんせつ)によると　そのカードが$R地上(ちじょう)に$R放(はな)たれるとき　$R世界(せかい)は$R魔(ま)に$R包(つつ)まれ　$R混沌(こんとん)がすべてを\n$R覆(おお)い　$R人々(ひとびと)に$R巣(す)くう$R闇(やみ)が$R解放(かいほう)され…　やがて$R世界(せかい)は$R破滅(はめつ)し　$R無(む)へと$R帰(き)す"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "それほどの$R力(ちから)を$R秘(ひ)めたカードだと$R伝(つた)えられています"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "$R破滅(はめつ)…"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "そして　そのカードの$R封印(ふういん)を$R解(と)こうとする$R者(もの)たちが$R現(あらわ)れたのです"
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "zanetruesdale",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "$R一体(いったい)　$R誰(だれ)が？"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "$R七星王(しちせいおう)　セブンスターズと$R呼(よ)ばれる$R七人(しちにん)のデュエリストです　まったくの$R謎(なぞ)につつまれた\n$R七人(しちにん)ですが　もうすでにその$R一人(ひとり)がこの$R島(しま)に…"
+    },
+    {
+      "char": "zanetruesdale",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "professorbanner",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "！"
+    },
+    {
+      "char": "professorbanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "でも…　どうやって$R封印(ふういん)を$R解(と)こうと？"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "$R三幻魔(さんげんま)のカードは　この$R学園(がくえん)の$R地下(ちか)の$R遺跡(いせき)に$R封印(ふういん)され　$R七精門(しちせいもん)と$R呼(よ)ばれる$R七(なな)つの$R巨大(きょだい)な\n$R石柱(せきちゅう)がそのカードを$R守(まも)っています"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "そして　その$R七(なな)つの$R石柱(せきちゅう)は$R七(なな)つの$R鍵(かぎ)によって$R開(ひら)かれる"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "gx_spiritkeys",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "これがその$R七(なな)つの$R鍵(かぎ)です　…そこで　あなたたちにこの$R七(なな)つの$R鍵(かぎ)を$R守(まも)っていただきたい"
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "professorbanner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "それは$R一大事(いちだいじ)だにゃ"
+    },
+    {
+      "char": "professorbanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "",
+      "image": "anguish",
+      "text": "セブンスターズは　この$R鍵(かぎ)を$R奪(うば)いに…"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "この$R七(なな)つの$R鍵(かぎ)を$R持(も)つデュエリストに　$R彼(かれ)らは$R挑(いど)んできます　あなた$R方(がた)にセブンスターズと$R戦(たたか)う\n$R覚悟(かくご)を$R持(も)っていただけるなら　どうかこの$R鍵(かぎ)を$R受(う)け$R取(と)ってほしい"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "gx_spiritkeys",
+      "text": ""
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "chazzprinceton",
+      "pos": "RIGHT",
+      "image": "black_amazed",
+      "text": "$R守(まも)るといっても　$R一体(いったい)どうやって？"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "もちろん　デュエルです"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "smile",
+      "text": "$R七精門(しちせいもん)の$R鍵(かぎ)を$R奪(うば)うには　デュエルによって$R勝(か)たねばならない　だからこそ$R学園内(がくえんない)でも$R屈指(くっし)の\nデュエリストである　あなた$R方(がた)に$R集(あつ)まってもらったのです"
+    },
+    {
+      "char": "sheppard",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "chazzprinceton",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_shadowrealm",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "その$R日(ひ)の$R夜(よる)　$R十代(じゅうだい)と$R明日香(あすか)は$R突然(とつぜん)$R火山(かざん)にワープし　そこで$R一人目(ひとりめ)のセブンスターズと\n$R出会(であ)った"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "ここは！"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "$R火山(かざん)じゃんか…"
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "だ　$R誰(だれ)！"
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "$R我(わ)が$R名(な)はダークネス…"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "surprise",
+      "text": "ダークネス？"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "smile",
+      "text": "セブンスターズの$R一人(ひとり)"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "bittersleep",
+      "text": "お$R前(まえ)が！"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R遊城(ゆうき)$R十代(じゅうだい)…　$R貴様(きさま)が$R私(わたし)の$R最初(さいしょ)の$R相手(あいて)だ"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "surprise",
+      "text": "…やっぱ　オレが$R一番(いちばん)$R強(つよ)いから？"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R貴様(きさま)からその$R鍵(かぎ)を$R奪(うば)って$R見(み)せよう　$R闇(やみ)のデュエルで"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anguish",
+      "text": "$R闇(やみ)のデュエル？"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "anger",
+      "text": "そう　$R闇(やみ)のデュエルはすでに$R始(はじ)まっている…　もしデュエルが$R長引(ながび)けば　$R翔(しょう)と$R隼人(はやと)はマグマの\n$R中(なか)に…"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anger",
+      "text": "きったねえぞ！　あいつらは　この$R戦(たたか)いに$R何(なん)も$R関係(かんけい)ねえ！"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R生半可(なまはんか)なことは$R言(い)うなよ　$R遊城(ゆうき)$R十代(じゅうだい)"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R七精門(しちせいもん)の$R鍵(かぎ)をかけたこの$R戦(たたか)い　$R貴様(きさま)には$R全能力(ぜんのうりょく)を$R出(だ)し$R切(き)って$R闘(たたか)ってもらう　これはそのために\n$R用意(ようい)した$R舞台(ぶたい)"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R貴様(きさま)と$R私(わたし)　どちらか$R負(ま)けた$R方(ほう)がその$R魂(たましい)をこのカードに$R封印(ふういん)される　お$R互(たが)いの$R魂(たましい)を\nいや　$R命(いのち)をも$R賭(か)けて$R我々(われわれ)はこのデュエルに$R挑(いど)まねばならぬ"
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "CENTER",
+      "image": "anguish",
+      "text": "これって…　$R現実(げんじつ)なの…"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anguish",
+      "text": "まやかしかもしれねえ　だが　オレは$R今(いま)までもこんなデュエルを$R経験(けいけん)してきた…　\n$R負(ま)けたらどうなっていたかは$R知(し)らねえ　もし$R負(ま)ければ$R翔(しょう)や$R隼人(はやと)が…"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anger",
+      "text": "…このデュエル　$R絶対(ぜったい)に$R負(ま)けられない！　$R翔(しょう)！　$R隼人(はやと)！　$R待(ま)ってろ　$R必(かなら)ず$R助(たす)けてやるぜ！"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anger",
+      "text": "$R勝負(しょうぶ)だ　ダークネス！　デュエル！"
+    }
+  ]
+}

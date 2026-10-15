@@ -1,0 +1,593 @@
+{
+  "name": "ArenaOfLostSouls_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_duelistkingdom",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R城之内(じょうのうち)は$R恐怖(きょうふ)の$R中(なか)　$R息(いき)を$R切(き)らして$R走(はし)っていた　$R後(うし)ろをちらりと$R振(ふ)り$R返(かえ)ると　$R背後(はいご)には$R海馬(かいば)の\n$R青眼の白龍(ブルーアイズ・ホワイト・ドラゴン)が　$R猛(もう)スピードで$R迫(せま)っていた！　ドラゴンが$R城之内(じょうのうち)に$R噛(か)みつこうとした　その$R時(とき)\n$R城之内(じょうのうち)は$R悪夢(あくむ)から$R目(め)を$R覚(さ)ました"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "うわっ！　$R夢(ゆめ)か…　クソッ…　オレは$R負(ま)け$R犬(いぬ)なんかじゃねェ！"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "$R朝(あさ)だぜ！　みんな$R起(お)きろ！"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "はりきってるね$R城之内(じょうのうち)くん…"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "smile",
+      "text": "おう！　いよいよ$R大会(たいかい)$R二日目(ふつかめ)だからな　スターチップを$R集(あつ)めてペガサスの$R城(しろ)を$R目指(めざ)すぜ！"
+    },
+    {
+      "char": "yamibakura",
+      "pos": "RIGHT",
+      "image": "ryo_smile",
+      "text": "$R声(こえ)が$R大(おお)きいよ"
+    },
+    {
+      "char": "yamibakura",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "みんな$R起(お)きていたのね"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R杏子(あんず)　おはよう"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "neutral",
+      "text": "あれ　$R孔雀(くじゃく)$R舞(まい)は？"
+    },
+    {
+      "char": "teagardner",
+      "pos": "",
+      "image": "",
+      "text": "これを$R渡(わた)してくれって"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R渡(わた)された$R紙(かみ)には　$R遊戯(ゆうぎ)のスターチップ$R八個(はっこ)を「$R借(か)りた」と$R書(か)いてあった"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "",
+      "image": "sad",
+      "text": "$R借用書(しゃくようしょ)ねえ…"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "そうか　$R舞(まい)さんはやっぱりひとりで…"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "smile",
+      "text": "みんな　$R仕度(したく)はできたな！"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "smile",
+      "text": "うん！"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "よっしゃあ　$R行(い)くぜ！"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "",
+      "image": "neutral",
+      "text": "あと$R何人(なんにん)ぐらいのデュエリストがこの$R島(しま)に$R残(のこ)ってんだろうな"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "$R昨日(きのう)$R強制(きょうせい)$R退去(たいきょ)させられた$R失格者(しっかくしゃ)が$R十数名(じゅうすうめい)…"
+    },
+    {
+      "char": "teagardner",
+      "pos": "",
+      "image": "sad",
+      "text": "きっとプレイヤーキラーの$R犠牲(ぎせい)になった$R参加者(さんかしゃ)もいるはずよ"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "そうすると$R参加者(さんかしゃ)$R四十人(よんじゅうにん)のうち$R半分(はんぶん)$R近(ちか)くが$R失格(しっかく)したことになるね"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "",
+      "image": "",
+      "text": "まだ$R時間(じかん)はある　$R慎重(しんちょう)にスターチップを$R増(ふ)やしていけば$R大丈夫(だいじょうぶ)だろ"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "でもあんまりノンビリはしてられないよ　$R時間切(じかんぎ)れになっちゃったらそれまでだし…"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "$R今(いま)$R残(のこ)っているデュエリスト$R達(たち)は$R一日目(いちにちめ)を$R勝(か)ち$R抜(ぬ)いてきた$R強敵(きょうてき)だしね"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R更(さら)なる$R強敵(きょうてき)…"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "",
+      "image": "smile",
+      "text": "おい$R遊戯(ゆうぎ)　あんまりおどかすと$R城之内(じょうのうち)がビビっちまうぞ"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "$R誰(だれ)がビビってるって　てめー！"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "",
+      "image": "anger",
+      "text": "なにすんだこのヤロー！"
+    },
+    {
+      "char": "teagardner",
+      "pos": "",
+      "image": "anger",
+      "text": "ほら！　ケンカしないの！"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "neutral",
+      "text": "ケッ！　どんな$R強敵(きょうてき)が$R来(こ)ようとオレはぶっ$R倒(たお)す！"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "smile",
+      "text": "うん　その$R意気(いき)だよ　$R城之内(じょうのうち)くん"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "この$R時(とき)$R遊戯(ゆうぎ)たちは　バンデット・キースの$R手下(てした)　ゴースト$R骨塚(こつづか)が$R様子(ようす)を$R観察(かんさつ)していることには\n$R気付(きづ)かなかった　"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bonz",
+      "pos": "",
+      "image": "",
+      "text": "あ～　あいつらはやめといたほうがいいかもなぁ～　オレ$R達(たち)じゃあ$R勝(か)てねえかも…"
+    },
+    {
+      "char": "bonz",
+      "pos": "",
+      "image": "",
+      "text": "あの$R遊戯(ゆうぎ)って$R奴(やつ)　$R海馬(かいば)を$R倒(たお)した$R事(こと)があるんだ　この$R大会(たいかい)でも$R予選(よせん)$R突破(とっぱ)$R確実(かくじつ)って$R言(い)われてるゾ"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "",
+      "text": "$R遊戯(ゆうぎ)だか$R誰(だれ)だかしらねえが　$R城(しろ)に$R行(い)くのはオレ$R達(たち)だぜ　なんも$R心配(しんぱい)はいらねえよ\nこのバンデット・キース$R様(さま)がいる$R限(かぎ)りな！"
+    },
+    {
+      "char": "bonz",
+      "pos": "",
+      "image": "",
+      "text": "あ…　ああ！！"
+    },
+    {
+      "char": "bonz",
+      "pos": "",
+      "image": "win",
+      "text": "$R兄貴(あにき)みてえな$R有名人(ゆうめいじん)と$R出会(であ)えた$R時点(じてん)でオレの$R城(しろ)$R行(い)きは$R決(き)まったようなモンだゾ！"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "smile",
+      "text": "そうさ　お$R前(まえ)みたいな$R半端(はんぱ)な$R奴(やつ)が$R生(い)き$R残(のこ)れたのはオレ$R様(さま)のアドバイスがあったからよ"
+    },
+    {
+      "char": "bonz",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "banditkeith",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "",
+      "text": "($R待(ま)ってろよ　ペガサス…)"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "anger",
+      "text": "(あん$R時(とき)の$R恨(うら)み　$R必(かなら)ず$R晴(は)らしてやっからよ！)"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "",
+      "text": "(あれはオレがペガサスに$R勝負(しょうぶ)を$R申(もう)し$R込(こ)んだ$R時(とき)…)"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "",
+      "text": "($R奴(やつ)は$R挑戦(ちょうせん)を$R受(う)けたと$R思(おも)いきや　$R紙(かみ)になにやら$R文字(もじ)を$R書(か)き　それを$R観客(かんきゃく)にいたガキに$R渡(わた)して\nガキをオレと$R対戦(たいせん)させやがった)"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "",
+      "text": "な…　なに！　ふざけるな　ペガサス！"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "ふざけてなんかいまセーン　この$R少年(しょうねん)が$R私(わたし)の$R代(か)わりにデュエルをするのデース"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "ペガサスはその$R子(こ)どもにメモを$R渡(わた)した"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "",
+      "text": "このメモの$R通(とお)りにすれば$R勝(か)てマース"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "anger",
+      "text": "(オレに$R負(ま)けるのを$R恐(おそ)れて$R逃(に)げたのかとおもった　だが…)"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "キースがカードを$R出(だ)すと　その$R子(こ)どもはメモを$R見(み)て　$R手順(てじゅん)に$R従(したが)った　そうしてキースの$R残(のこ)りの\nライフポイントを$R奪(うば)った　"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "surprise",
+      "text": "まさか　オレの$R手(て)の$R内(うち)を$R全(すべ)て$R見抜(みぬ)いていると$R言(い)うのか！"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "キースは$R子(こ)どもの$R手(て)からメモを$R奪(うば)い$R取(と)った　"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "anger",
+      "text": "$R貸(か)せ！！"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "surprise",
+      "text": "オレのカードが…　$R攻撃(こうげき)パターンが…　$R対処(たいしょ)$R方法(ほうほう)が…　$R全部(ぜんぶ)$R書(か)いてある　ありえねえ！\nオーマイガ！　オーマイガァァ！！"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_duelistkingdom",
+      "text": ""
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "anger",
+      "text": "(ペガサス　てめえがあの$R時(とき)オレに$R大恥(おおはじ)をかかせてくれた$R恨(うら)み…　$R忘(わす)れやしねえぜ！)"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "もう$R一匹(いっぴき)の$R奴(やつ)はどうだ？"
+    },
+    {
+      "char": "bonz",
+      "pos": "LEFT",
+      "image": "",
+      "text": "$R弱(よわ)そうな$R奴(やつ)だったゾ"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "",
+      "text": "よし　ならそっちを$R狙(ねら)うか"
+    },
+    {
+      "char": "bonz",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "banditkeith",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_pegasuscastle",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "さっきから$R他(ほか)のデュエリストが$R見当(みあ)たらねえな"
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "$R森(もり)の$R奥(おく)に$R入(はい)りすぎたんじゃない？"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "LEFT",
+      "image": "",
+      "text": "$R数(かず)が$R減(へ)ったせいで$R残(のこ)りのデュエリストを$R探(さが)すのもひと$R苦労(くろう)だな"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "surprise",
+      "text": "ちょいタイム　ここで$R待(ま)っててくれ"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R城之内(じょうのうち)は$R森(もり)の$R中(なか)へと$R走(はし)って$R行(い)った"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "",
+      "image": "",
+      "text": "おい　いきなりどうしたんだよ？"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "$R自然現象(しぜんげんしょう)！"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R城之内(じょうのうち)が$R森(もり)の$R中(なか)をさまよっていると　$R後(うし)ろから$R何(なに)かが$R聞(き)こえた"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R突然(とつぜん)　$R視界(しかい)が$R真(ま)っ$R暗(くら)になり$R城之内(じょうのうち)は$R意識(いしき)を$R失(うしな)った　$R目(め)を$R覚(さ)ますと　$R城之内(じょうのうち)は$R洞窟(どうくつ)の$R中(なか)にいた　"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_duelistkingdom",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "ん　んんっ…　って　なんだここは！？"
+    },
+    {
+      "char": "bonz",
+      "pos": "RIGHT",
+      "image": "win",
+      "text": "$R墓場(はかば)フィールドにようこそ～"
+    },
+    {
+      "char": "bonz",
+      "pos": "",
+      "image": "",
+      "text": "$R覚悟(かくご)しな　オレがお$R前(まえ)を$R葬(ほうむ)ってやるからよ～！"
+    },
+    {
+      "char": "bonz",
+      "pos": "",
+      "image": "",
+      "text": "デュエルだ！！"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "は　は　$R墓場(はかば)フィールド…"
+    },
+    {
+      "char": "bonz",
+      "pos": "",
+      "image": "",
+      "text": "$R墓場(はかば)フィールドをみて$R気絶(きぜつ)するなんて　こんな$R臆病者(おくびょうもの)$R見(み)たことねえゾ！"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "なんだと！？　$R言(い)っとくけどな　オレは$R墓場(はかば)フィールドをみて$R気(き)を$R失(うしな)ったんじゃねえ　おめえが\n$R気持(きも)ち$R悪(わる)く$R登場(とうじょう)するからだぜ！"
+    },
+    {
+      "char": "bonz",
+      "pos": "",
+      "image": "",
+      "text": "うるせー！　スターチップは$R互(たが)いに$R全賭(ぜんが)けだゾ！"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "neutral",
+      "text": "いきなり$R問答無用(もんどうむよう)のデュエルかよ…"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "どうした　$R怖気(おじけ)づいたか！？"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "sad",
+      "text": "くっ！　こんな$R訳(わけ)のわからねえ$R場所(ばしょ)で…"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "smile",
+      "text": "ふん　$R所詮(しょせん)は$R負(ま)け$R犬(いぬ)か"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R城之内(じょうのうち)は$R海馬(かいば)の$R悪夢(あくむ)を$R思(おも)い$R出(だ)した　"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "ここで$R逃(に)げ$R出(だ)したら$R本当(ほんとう)の$R負(ま)け$R犬(いぬ)になっちまう…"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "$R受(う)けて$R立(た)つぜ！"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "neutral",
+      "text": "デュエル！"
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "name": "TheHeartOfTheCards_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_gamestore",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "That afternoon, Yugi and his friends went to Grandpa's game shop. Yugi wanted to show his friends his grandpa's prized possession."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Gramps, could you show my friends your awesome super rare card?"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Rare card? You mean my special card? Hmmmm...."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "smile",
+      "text": "Please! Please!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "smile",
+      "text": "Ha ha! How can I refuse? You kids are in for a treat! I don’t take this card out too often."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_blueeyes_card",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "smile",
+      "text": "Ready? Here it is. The \"Blue-Eyes White Dragon.\" So rare, so powerful, I never let it leave my hands!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "smile",
+      "text": "This card is priceless! There are only four of them in all the world!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Suddenly, a classmate from school ran into the shop. His name was Seto Kaiba, the young CEO of KaibaCorp. He had found the card he was looking for."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Name your price for that Blue-Eyes. I can pay anything you ask!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "I’m sure you could, but this card is worth more to me than you could ever offer."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "Senile old fool!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Kaiba stormed out of Grandpa's store. The team was disturbed by Kaiba's obsession with Blue-Eyes White Dragon."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "The next day, when Yugi came back to the store with his friends, he found Grandpa was gone. When the phone rang, it was Kaiba on the other end, mocking Yugi that he kidnapped his grandfather and took him to KaibaCorp."
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_kaibacorp",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yugi and his friends rushed to KaibaCorp and found Grandpa laying on the floor, defeated."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Grandpa, are you okay?"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Yugi, I failed. I wanted to teach that boy, Kaiba, a lesson about the heart of the cards, but I lost."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "Grandpa!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "How's the old man feeling, hmmm?"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Kaiba, you sleaze! What have you done to him?"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "We had a duel, that’s all. With each of us putting up our most valuable card as the prize. But I guess playing against a champion like myself was just too much stimulation for the old fool."
+    },
+    {
+      "char": "teagardner",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Kaiba, you should be ashamed of yourself!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_blueeyes_card",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "smile",
+      "text": "Look at the sweet prize I won!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Kaiba held up Grandpa's Blue-Eyes White Dragon and ripped it in half."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Grandpa's most treasured card!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "",
+      "text": "Blue-Eyes White Dragon is a rare and powerful card, and this one will never be used against me."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "My Blue-Eyes White Dragon! My treasure..."
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "Grandpa! Hold on!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "How could you do such a thing?"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Yugi, take this."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "Huh? Grandpa?"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "sad",
+      "text": "I built this deck. I put my soul in these cards, and I taught you everything I know, Yugi. Take my cards and teach Kaiba respect for the heart of the cards."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "Okay, Grandpa. I’ll do it!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Are you ready to play, runt?"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "Playtime is over, Kaiba!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "surprise",
+      "text": "Huh?!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Kaiba was taken aback by Yugi's sudden transformation. It seemed like he had become a different person, as if he was more confident and powerful than before."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "anger",
+      "text": "Kaiba, prepare yourself because it's time to duel!"
+    }
+  ]
+}

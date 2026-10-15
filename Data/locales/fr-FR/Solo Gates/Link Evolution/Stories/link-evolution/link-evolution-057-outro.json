@@ -1,0 +1,119 @@
+{
+  "name": "AllDuelHandsonDeck_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_duelacademy",
+      "text": ""
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Impossible… J'ai fait tout ce que j'ai pu… mais mon maximum n'a pas suffit !"
+    },
+    {
+      "char": "yusho",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Dennis, ne sois pas impoli. Un duel-artiste doit toujours saluer la foule, surtout si elle t'applaudit."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "neutral",
+      "text": "Tu vois, un vrai duel-artiste ne cherche pas à gagner le duel. Il cherche à divertir son public et à le faire sourire."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "smile",
+      "text": "Dennis, viens avec nous."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "neutral",
+      "text": "Nous pouvons arranger l'Académie de Duel ensemble. Apporte des sourires au monde plutôt que de la peur. Comme un vrai duel-artiste."
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "sad",
+      "text": "Après tout ce que j'ai fait et tous les amis que j'ai trahis… Je ne peux plus faire marche arrière."
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Dennis !"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "neutral",
+      "text": "Reculez ! Écoute, Kite. Je sais où se trouve Lulu. Et aussi une fille qui lui ressemble trait pour trait et qui s'appelle Rin."
+    },
+    {
+      "char": "alexisrhodesarcv",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Hé, c'est elle que Yugo cherchait !"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "neutral",
+      "text": "Il y a deux immenses tours à l'Académie de Duel... Vous ne pouvez pas les rater. Rin se trouve dans la tour est, Lulu dans la tour ouest."
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "neutral",
+      "text": "Si le Professeur apprend que je vous l'ai dit, il me fera marcher sur la corde raide sans filet !"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "smile",
+      "text": "Merci pour tout, Yusho. J'espère sincèrement que le spectacle vous a plu."
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Dennis, ne fais pas ça !"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "CENTER",
+      "image": "smile",
+      "text": "Et maintenant, mon chant du cygne, le grand final, le baisser de rideau. En d'autres termes, au revoir à tous !"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_denniscard",
+      "text": ""
+    },
+    {
+      "char": "yusho",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "Dennis !"
+    }
+  ]
+}

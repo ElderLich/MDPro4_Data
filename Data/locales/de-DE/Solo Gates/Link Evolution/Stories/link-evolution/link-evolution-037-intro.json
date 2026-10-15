@@ -1,0 +1,317 @@
+{
+  "name": "ADateWithFate_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_youshowschool",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Obwohl Yuya seine Schule gerettet hatte, gelang es ihm nicht, seinen Namen reinzuwaschen."
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Dad, ich werde meine Duellfähigkeiten verbessern. Ich werde Profi wie du."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Hi."
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Hau ab, Sylvio."
+    },
+    {
+      "char": "shingo",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Ein weiterer Duellant wurde gestern überfallen. Man erzählt sich, dass du dahintersteckst."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "anger",
+      "text": "Und du glaubst alles, was man sich erzählt? Wer wurde angegriffen?"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "sad",
+      "text": "Professor Marco … Er ist Lehrer am Leo Institut. Seitdem hat niemand mehr von ihm gehört."
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "sad",
+      "text": "Ich dachte mir schon, dass die Gerüchte über deine Beteiligung falsch sind. Du könntest unmöglich jemanden wie Marco besiegen, auch nicht mit deiner billigen Pendelbeschwörung."
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Moment mal! Was bitteschön ist so billig an der Pendelbeschwörung?"
+    },
+    {
+      "char": "shingo",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Nun, zunächst mal bist du der Einzige mit Pendelkarten. Was ist daran fair?"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Aber egal, das wird sich bald ändern. Ich habe gehört, dass die Leo Corporation jetzt selbständig Pendelkarten entwickelt."
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ich werde der Erste in der Schlange sein, wenn sie veröffentlicht werden. Und dann werden du und ich das Ganze regeln."
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ich würde ja sagen, lass es uns in der Junior Arc Meisterschaft regeln … aber das geht nicht. Du bist nicht dafür qualifiziert."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "Nicht qualifiziert …? Wow! Er hat absolut recht! Um sich zu qualifizieren, muss man im laufenden Jahr fünfzig Duelle mit einer Siegquote von 60 % vorweisen können. Und ich habe nicht genug Siege!"
+    },
+    {
+      "char": "shingo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "CENTER",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_paradisecity",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yuya durchsuchte die Stadt nach Duellanten, die sich ihm stellen würden, aber alle lehnten ab."
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_youshowschool",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "CENTER",
+      "image": "sad",
+      "text": "Niemand will sich mit mir duellieren, weil jeder denkt, ich wäre schon Profi!"
+    },
+    {
+      "char": "yuya",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "nico",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Yuya, mein Junge! Schön, dich wiederzusehen!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "Was machst du hier?"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Er überbrachte erstaunliche Nachrichten. Du wurdest offiziell eingeladen, an der diesjährigen Junior Arc Meisterschaft teilzunehmen!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "Was? Im Ernst?"
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ganz im Ernst! Nach deinem Sieg gegen den Vorschlaghammer hat dir die Duell-Vereinigung einen Platz in der Meisterschaft angeboten!"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "sad",
+      "text": "Was ist los mit dir?"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "Nun, es ist ein sehr nettes Angebot und alles, aber … es fühlt sich an wie Schummeln …"
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "surprise",
+      "text": "Nein, es ist Bevorzugung!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "…"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "Du musst etwas für mich erledigen."
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "Alles."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "Besorge mir einen Gegner, damit ich meine Teilnahme fair gewinnen kann!"
+    },
+    {
+      "char": "nico",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "skipboyle",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_paradisecity",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Nico Smiley hielt Wort und besorgte Yuya einen Gegner – einen Psi-Duellanten."
+    },
+    {
+      "char": "aurasentia",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "Die Karten sagen, dass ich heute meinen Herzensduellanten treffe! Wird er ein aalglatter Teenie-Idol-Typ sein? Ein muskelbepackter Macho? Ein ungewaschener Nerd mit einem Herzen aus Gold?!"
+    },
+    {
+      "char": "aurasentia",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Das ist seltsam. Hier ist die Adresse, die Nico mir für das Duell gegeben hat … Aber dies ist keine Schule!"
+    },
+    {
+      "char": "nico",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "Willkommen. Ich habe auf dich gewartet. Tritt ein."
+    },
+    {
+      "char": "nico",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "aurasentia",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Das ist absolut unmöglich! Dieser Trottel von einem Duellanten kann auf keinen Fall mein Herzensduellant sein!"
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "shy",
+      "text": "Entschuldigung …"
+    },
+    {
+      "char": "aurasentia",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Siehst du nicht, dass ich nachdenke?"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "Oh, ’tschuldigung. Aber sollten wir uns nicht duellieren?"
+    },
+    {
+      "char": "aurasentia",
+      "pos": "",
+      "image": "neutral",
+      "text": "Oh, wir werden uns duellieren!"
+    },
+    {
+      "char": "aurasentia",
+      "pos": "",
+      "image": "neutral",
+      "text": "So kann ich am besten herausfinden, ob meine Vorahnung über dich zutrifft oder nicht!"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "MimeControl_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "strings",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Ho vinto! È finita!"
+    },
+    {
+      "char": "strings",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "RIGHT:FADEIN",
+      "image": "dark_surprise",
+      "text": "Non può essere! Come ho potuto perdere con una Carta Divinità Egizia nel mio deck?"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_anger",
+      "text": "La pagherai! Lo avrai sconfitto, ma ho un'altra Carta Divinità Egizia molto più potente!"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_anger",
+      "text": "Quindi gustati questa vittoria, mentre puoi... perché sarà l'ultima!"
+    }
+  ]
+}

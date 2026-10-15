@@ -1,0 +1,215 @@
+{
+  "name": "ATriosChallenge_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_arena",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Dr.フェイカーを$R倒(たお)し　スフィア・フィールド$R砲(ほう)は$R破壊(はかい)された"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R施設(しせつ)$R全体(ぜんたい)が$R崩(くず)れ$R始(はじ)め　Dr.フェイカーは$R深(ふか)い$R穴(あな)の$R中(なか)へと$R落(お)ちていった"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "$R父(とう)さん！"
+    },
+    {
+      "char": "drfaker",
+      "pos": "CENTER",
+      "image": "anguish",
+      "text": "カ　カイト…"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "surprise",
+      "text": "くっ　$R届(とど)かない！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "$R掴(つか)まれ！"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R遊馬(ゆうま)！？"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R何故(なぜ)だ　$R九十九(つくも)$R遊馬(ゆうま)　$R何故(なぜ)　お$R前(まえ)は$R私(わたし)を…"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "あんたの$R事(こと)は$R憎(にく)いさ　けど　あんたは$R一所懸命(いっしょけんめい)ハルトを$R生(い)かそうとした"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "きっと$R父(とう)ちゃんなら…　$R仕方(しかた)が$R無(な)いって$R笑(わら)う"
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "anguish",
+      "text": "もう$R良(よ)いのだ　$R遊馬(ゆうま)　$R私(わたし)の$R犯(おか)した$R罪(つみ)は$R大(おお)きい　$R私(わたし)は$R許(ゆる)されるべきではない"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "vetrix",
+      "pos": "RIGHT",
+      "image": "maskoff_neutral",
+      "text": "そうだよ　$R君(きみ)の$R罪(つみ)は$R重(おも)すぎる"
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "anguish",
+      "text": "$R頼(たの)む　バイロン　カイト$R達(たち)に$R罪(つみ)はない　$R悪(わる)いのは$R全(すべ)て$R私(わたし)だ"
+    },
+    {
+      "char": "vetrix",
+      "pos": "",
+      "image": "maskoff_smile",
+      "text": "これが$R私(わたし)の…　$R最後(さいご)の$R力(ちから)だ！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "うわああああああ！"
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "surprise",
+      "text": "うおおおおお！"
+    },
+    {
+      "char": "vetrix",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "drfaker",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "vetrix",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R一瞬(いっしゅん)で　トロンは$R全員(ぜんいん)を$R安全(あんぜん)な$R場所(ばしょ)へと$R送(おく)った"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT:FADEIN",
+      "image": "surprise",
+      "text": "あ　あれ　オレは…"
+    },
+    {
+      "char": "drfaker",
+      "pos": "CENTER:FADEIN",
+      "image": "discouragement",
+      "text": "バイロン…　すまなかった"
+    },
+    {
+      "char": "vetrix",
+      "pos": "RIGHT:FADEIN",
+      "image": "maskoff_shy",
+      "text": "さらばだ　$R友(とも)よ"
+    },
+    {
+      "char": "vetrix",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "discouragement",
+      "text": "すまなかった　$R全(すべ)て$R悪(わる)いのは$R私(わたし)だ　$R私(わたし)なのだ"
+    },
+    {
+      "char": "harttenjo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": ""
+    },
+    {
+      "char": "drfaker",
+      "pos": "",
+      "image": "",
+      "text": "$R許(ゆる)してくれ…　ハルト　カイト"
+    }
+  ]
+}

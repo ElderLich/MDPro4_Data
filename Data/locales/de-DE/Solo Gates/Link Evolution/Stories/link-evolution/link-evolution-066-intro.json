@@ -1,0 +1,341 @@
+{
+  "name": "TheHeartOfTheCards_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_gamestore",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Noch am selben Nachmittag gingen Yugi und seine Freunde zum Spieleladen des Großvaters. Yugi wollte seinen Freunden den kostbarsten Besitz seines Großvater zeigen."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Opa, kannst du meinen Freunden deine superseltene Karte zeigen?"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Seltene Karte? Du meinst, meine ganz spezielle Karte? Hmmm …"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "smile",
+      "text": "Bitte! Och bitte!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "smile",
+      "text": "Ha ha! Wie könnte ich da Nein sagen? Ihr habt Glück, ich hole diese Karte nicht so häufig heraus."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_blueeyes_card",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "smile",
+      "text": "Seid ihr bereit? Hier ist sie, der Blauäugige weiße Drache. So selten, so unglaublich mächtig! Die gebe ich auf keinen Fall her!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "smile",
+      "text": "Diese Karte ist unbezahlbar! Auf der ganzen Welt gibt es nur vier davon!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Plötzlich rannte ein Klassenkamerad aus der Schule in den Laden. Es war Seto Kaiba, der junge CEO von KaibaCorp. Er hatte die Karte gefunden, die er suchte."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Nenne deinen Preis für diesen Blauäugigen. Ich zahle, was immer du verlangst!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "Ich bin sicher, dass du das könntest, aber diese Karte ist für mich mehr wert, als du mir jemals anbieten könntest."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "Seniler alter Narr!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Kaiba stürmte aus Großvaters Laden. Das Team war verstört, wie besessen Kaiba vom Blauäugigen weißen Drachen war."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Am nächsten Tag, als Yugi mit seinen Freunden wieder in den Laden kam, war sein Großvater verschwunden. Das Telefon klingelte, und Kaiba erzählte Yugi spöttisch, dass er seinen Großvater entführt und zur KaibaCorp gebracht hatte."
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_kaibacorp",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yugi und seine Freunde eilten zur KaibaCorp und fanden dort den Großvater am Boden liegend vor, besiegt."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Großvater, alles in Ordnung?"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Yugi, ich habe versagt. Ich wollte diesem Burschen, Kaiba, eine Lektion über das Herz der Karten erteilen, aber ich habe verloren."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "Großvater!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Na, wie geht es dem alten Mann?"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Kaiba, du Widerling! Was hast du mit ihm gemacht?"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Wir hatten ein Duell, das ist alles. Der Einsatz war für jeden von uns seine wertvollste Karte. Aber vermutlich war es dann doch zu viel für den alten Narren, gegen einen Champion wie mich anzutreten."
+    },
+    {
+      "char": "teagardner",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Kaiba, du solltest dich schämen!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_blueeyes_card",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "smile",
+      "text": "Schau dir doch einfach an, was ich gewonnen habe!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Kaiba hielt Großvaters Blauäugigen weißen Drachen hoch und zerriss sie in zwei Hälften."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Großvaters wertvollste Karte!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "",
+      "text": "Der Blauäugige weiße Drache ist eine seltene und mächtige Karte, und jetzt wird er niemals gegen mich verwendet werden."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "Mein Blauäugiger weißer Drache! Mein Schatz …"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "Großvater! Warte!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "Wie konntest du nur so etwas tun?"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Yugi, nimm das hier."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "Hä? Großvater?"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "sad",
+      "text": "Ich habe dieses Deck zusammengestellt. Ich habe meine Seele in diese Karten gesteckt, und ich habe dich alles gelehrt, was ich weiß, Yugi. Nimm meine Karten und zeig Kaiba, was es heißt, das Herz der Karten zu respektieren!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "Gut, Großvater. Das werde ich tun!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Bist du bereit, du Wicht?"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "Der Spaß ist vorbei, Kaiba!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "surprise",
+      "text": "Hä?!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Kaiba war überrascht, wie sehr sich Yugi auf einmal verändert hatte. Es schien, als wäre er zu einer anderen Person geworden, als ob er selbstbewusster und mächtiger wäre als je zuvor."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "anger",
+      "text": "Kaiba, mach dich bereit, denn es ist Zeit für ein Duell!"
+    }
+  ]
+}

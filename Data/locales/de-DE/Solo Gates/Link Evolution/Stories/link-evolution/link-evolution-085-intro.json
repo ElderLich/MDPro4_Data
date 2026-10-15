@@ -1,0 +1,101 @@
+{
+  "name": "MimeControl_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_egyptiangodcards",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Marik war im Besitz von zwei der drei Ägyptischen Götterkarten, aber trotzdem brauchte er das Millenniumspuzzle, um seinen Plan zu vollenden."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Plötzlich wurde Yugi von einem Duellanten namens Strings, der Schweigsame, herausgefordert."
+    },
+    {
+      "char": "strings",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Yugi!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "strings",
+      "pos": "",
+      "image": "",
+      "text": "Bereite dich auf ein Duell vor … und darauf, dein Puzzle zu verlieren."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "Marik!"
+    },
+    {
+      "char": "strings",
+      "pos": "",
+      "image": "win",
+      "text": "Darf ich meine Marionette vorstellen? Strings, der Schweigsame. Dank der Macht meines Millenniumsstabs wird er dich besiegen."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "Feigling!"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "CENTER",
+      "image": "dark_neutral",
+      "text": "Warum soll ich meine Zeit verschwenden, wenn ich über meine Marionetten Duelle mit dir austragen kann?"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Der Kampf mit der Macht meines Millenniumsstabs ist nicht anders, als wenn du dein Puzzle im Duell benutzt."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEIN:LEFT",
+      "image": "",
+      "text": "Das ist nicht wahr. Du zwingst deine Diener, deine Drecksarbeit zu machen, indem du gegen ihren Willen die Kontrolle über ihre Gedanken übernimmst. Ich duelliere mich mit Respekt und Ehre!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "anger",
+      "text": "Marik! Mach deinen Zug!"
+    }
+  ]
+}

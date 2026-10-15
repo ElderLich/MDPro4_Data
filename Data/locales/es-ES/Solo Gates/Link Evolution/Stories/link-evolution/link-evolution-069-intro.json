@@ -1,0 +1,335 @@
+{
+  "name": "AttackFromTheDeep_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_duelistkingdom",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "millenniumpuzzle",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yugi empezó a darse cuenta de la verdad sobre el Puzle del Milenio y su poder. Durante sus duelos, el Puzle le infundía a Yugi con el poder y el alma de un antiguo espíritu. Aunque éste era un tema importante a tener en cuenta, había un asunto menor -aunque no menos importante- con el que había que lidiar primero."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Con tanto duelo ya me ha dado hambre. ¿Se ha acordado alguien de traer comida?"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "Lo siento, Joey."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "sad",
+      "text": "¡¿Cómo hemos podido vernir aquí sin comida?! ¿Cómo vamos a aguantar el resto de la torneo, sin nada que comer?"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "Buena pregunta, Joey. Tanto duelo es bastante agotador, y no he visto ningún restaurante desde que hemos llegado."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "smile",
+      "text": "[sniff] [sniff] Huelo algo que se está cocinando en esa dirección."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Siguieron el olor hasta la playa, donde vieron una fogata en la distancia con pescado asándose a la brasa."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "LEFT_BACK",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "RIGHT_BACK",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Oh vaya, me encanta el pescado a la brasa!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Qué bien huele!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Y seguro que sabe mucho mejor!"
+    },
+    {
+      "char": "teagardner",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Qué te hace pensar que puedes comerte este pescado?"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "¡Hazme caso! ¡Come primero y preguntamos después! ¡Tu estómago me lo agradecerá!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Joey corrió hacia la fogata."
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "",
+      "image": "",
+      "text": "¡Joey diría cualquier cosa para llenar su estómago! Algunas personas no tienen absolutamente ningún auto-control..."
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "",
+      "image": "surprise",
+      "text": "[Gruñido de estómago]"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "",
+      "image": "smile",
+      "text": "Joey, ¡deja algo para mí!"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Tristán echó a correr detrás de Joey. Poco después Yugi y Tea echaron a correr también. Joey cogió uno de los pescados del fuego."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Oh, chicos. Esto tiene una pinta impresionante."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "En cuanto los chicos le hincaron el diente al pescado, emergió del agua un hombre joven con un arpón en la mano."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "makotsunami",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "¡Disfrútad, ladrones de pescado! ¡Porque esta va ser vuestra última cena!"
+    },
+    {
+      "char": "teagardner",
+      "pos": "LEFT_BACK",
+      "image": "surprise",
+      "text": "Sabía que esta era una mala idea.)"
+    },
+    {
+      "char": "makotsunami",
+      "pos": "",
+      "image": "",
+      "text": "¡Cómo os atrevéis a robarme el pescado ladrones oportunistas!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "Eh, relájate, chaval. Que sólo es un poco de pescado."
+    },
+    {
+      "char": "makotsunami",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Un poco de pescado que no os pertenece! ¡Y demostráis no tener ningún honor al robarle la captura a un pescador!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT_BACK",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "¡Espera un segundo! ¿No eres Mako Sunami, el mejor duelista de los mares?"
+    },
+    {
+      "char": "makotsunami",
+      "pos": "",
+      "image": "neutral",
+      "text": "¿Y quién eres tú?"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "Soy Yugi Muto. Perdona lo del pescado."
+    },
+    {
+      "char": "makotsunami",
+      "pos": "",
+      "image": "smile",
+      "text": "¿Eres Yugi Muto, el único duelista que ha derrotado a Seto Kaiba?! ¡Menuda sorpresa!"
+    },
+    {
+      "char": "makotsunami",
+      "pos": "",
+      "image": "",
+      "text": "¡Os pido disculpas! ¡He sido un grosero! Si sois amigos de Yugi Muto, ¡por favor, sentáos y comed lo que queráis!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Se sentaron junto al fuego y compartieron la comida con Mako. Después de la fiesta, le dieron las gracias a Mako y comenzaron a irse... fue entonces cuando Mako arrojó su lanza al suelo frente a ellos."
+    },
+    {
+      "char": "makotsunami",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Yo te he invitado a cenar. ¿Tú podrías honrarme con un duelo?"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "¡Está loco!"
+    },
+    {
+      "char": "makotsunami",
+      "pos": "",
+      "image": "",
+      "text": "No, pero soy un pescador experto... Y vosotros habéis picado en el cebo."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "¿Qué cebo?"
+    },
+    {
+      "char": "makotsunami",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Pues, el pescado, por supuesto! ¡Lo puse ahí para atraeros a los tres! Pero no esperaba que cayera en mis redes Yugi Muto."
+    },
+    {
+      "char": "makotsunami",
+      "pos": "",
+      "image": "",
+      "text": "Ya había pescado a otro duelista hace poco, ¡pero él no era un digno rival! ¡Pero un duelo contra ti, Yugi, sería una verdadera prueba!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "",
+      "text": "Mako Sunami, ¡acepto el reto!"
+    }
+  ]
+}

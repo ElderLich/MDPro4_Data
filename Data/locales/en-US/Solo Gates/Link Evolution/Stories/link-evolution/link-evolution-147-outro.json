@@ -1,0 +1,113 @@
+{
+  "name": "DualDuel_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Ray, how did you have a Barian Card? Just who are you?"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Oh, you'll find out... eventually."
+    },
+    {
+      "char": "girag",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Just hang on there, Ray! You still have to tell me what's up with that Barian Card!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "You've got some explaining to do!"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "discouragement",
+      "text": "I'm with the Barian Cosmic Crime Unit."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "No way! You’re a Barian?!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "So on Barian World, there are good guys and bad guys?"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "neutral",
+      "text": "Correct, Yuma. Barian World isn't an evil place, but some step out of line."
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "",
+      "text": "That's the truth, and now that you know, let's work together."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "smile",
+      "text": "Are you serious? Awesome!"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "",
+      "text": "In order to properly fight the Barians, you'll need this card."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "zexal_limitedbariansforcecard",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "No way! It's Rank-Up-Magic Limited Barian's Force."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "zexal_limitedbariansforcecard",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rayshadows",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    }
+  ]
+}

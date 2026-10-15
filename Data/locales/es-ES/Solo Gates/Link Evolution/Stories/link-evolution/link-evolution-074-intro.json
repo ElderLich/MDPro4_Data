@@ -1,0 +1,299 @@
+{
+  "name": "TheFaceOff_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_pegasuscastle",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Mientras el equipo de Yugi se ocupa de ir superando el torneo, ahora nuestra historia se enfoca en Seto Kaiba por un momento. Como recordaréis, a Seto sólo le habían vencido en Duelo de Monstruos una vez - y había sido Yugi."
+    },
+    {
+      "char": "mokubakaiba",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Seto tenía un hermano pequeño llamado Mokuba."
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Pegasus secuestró a Mokuba y lo encerró en un calabozo para que Seto cayera en una trampa - y funcionó. Cuando Seto se dirigía al calabozo para liberar a su hermano, Pegasus hizo saltar la trampa y atrapó el alma de Mokuba, como había hecho con el abuelo de Yugi."
+    },
+    {
+      "char": "mokubakaiba",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Seto Kaiba, ¿te importa tanto la vida de tu hermano como para tratar de salvar su alma?"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "¡Grr! ¡Tú no eres humano!"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "",
+      "text": "En realidad soy muy humano. Pero con un don extraordinario."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Pegasus le arrojó a Kaiba un puñado de Estrellas."
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "",
+      "text": "Toma. Las necesitarás para batirte en duelo con Yugi."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Por qué haces esto?"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "anger",
+      "text": "Mis razones no son asunto tuyo. Tal vez me guste la lucha, y el constante tira y afloja entre Yugi y tú. O tal vez quiera algo que eres incapaz de comprender."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "Hábla claro. ¿Qué es lo que quieres?"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "neutral",
+      "text": "¿Querer? Quiero ver si eres capaz de vencer al enano de Yugi en un duelo. Y sólo si logras aplastarle y humillarle tendrás la oportunidad de luchar contra mí."
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "",
+      "text": "Entonces, si me ganas, me comprometo a devolver el alma a tu hermano."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "Por ahora, no tengo más remedio que seguirte el juego. Pero pronto, en cuanto gane a Yugi, volveré."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "Y más vale que cumplas tu promesa de devolverle el alma a mi hermano, porque si no, ¡será un gran placer para mí separarte el alma de tu cuerpo a mi manera!"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_duelistkingdom",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Y con eso, Pegasus tenía a otro duelista bajo su control para acabar con Yugi."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Yugi y yo ya tenemos las Estrellas suficientes para entrar al castillo ahora. ¿Verdad, Yugi?"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Sí."
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT_BACK",
+      "image": "",
+      "text": "¡Por fin!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Abuelo, allá voy!"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "¡Chicos, mirad! ¡No os váis a creer quien nos está bloqueando la entrada al castillo!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_pegasuscastle",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡Es Kaiba!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "¡No puedo dejarte pasar, Yugi!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "He ganado diez Estrellas, hazte a un lado."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "Es posible que tengas las Estrellas suficientes para calificarte para las Finales del Reino de los Duelistas, ¡pero no puedo dejarte luchar contra Pegasus! ¡Es mío!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Tú y yo vamos a echar un último duelo, Yugi."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "No pienso batirme en duelo contigo. No tengo porqué."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "Que, ¿ya no confías en que tu llamado “corazón de las cartas” te ayude a ganar? ¡Te da miedo no poder ganarme otra vez, cobarde!"
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT_BACK",
+      "image": "anger",
+      "text": "¡Déjale en paz! ¡No tiene que demostrar nada!"
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "shy",
+      "text": "Yugi, dijiste que ganaste gracias al corazón de las cartas. Y durante mucho tiempo, no supe lo que eso significaba. Pero ahora, creo que lo sé. Y lo sé gracias a Pegasus. Me ha dado una razón para poner mi corazón en las cartas."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "smile",
+      "text": "Por primera vez, ¡puedo luchar con fuego y pasión en mi corazón!"
+    },
+    {
+      "char": "yamibakura",
+      "pos": "RIGHT_BACK",
+      "image": "ryo_surprise",
+      "text": "Yugi, ¡no puedes aceptar este duelo!"
+    },
+    {
+      "char": "yamibakura",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "He cambiado. Merezco una revancha. Dame una oportunidad de jugar contigo ahora, Yugi. Déjame jugar por una buena causa."
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "RIGHT:FADEIN",
+      "image": "",
+      "text": "Kaiba, acepto el duelo. Vamos a ver si has aprendido algo."
+    }
+  ]
+}

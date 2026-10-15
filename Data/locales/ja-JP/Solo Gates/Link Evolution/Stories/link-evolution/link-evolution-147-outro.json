@@ -1,0 +1,113 @@
+{
+  "name": "DualDuel_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "バ　バリアンズカード…　き　$R貴様(きさま)…　$R貴様(きさま)は$R一体(いったい)…"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "いずれ$R分(わ)かるさ…　いずれな"
+    },
+    {
+      "char": "girag",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "ちょっと$R待(ま)ってくれよ　オレ　$R何(なに)がなんだか　さっぱりわかんねぇ"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "$R何(なん)でお$R前(まえ)がバリアンズカードを…"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "discouragement",
+      "text": "$R私(わたし)はバリアンズ・ガーディアンだ　$R君(きみ)たちの$R世界(せかい)で$R言(い)う$R警察(けいさつ)のようなものだ"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "バリアンズ・カーディガン？"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "バリアンに　$R悪(あく)とか$R善(ぜん)とかあるのか？"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R私(わたし)の$R任務(にんむ)は　バリアン$R世界(せかい)$R以外(いがい)の$R場所(ばしょ)にいる$R悪(あく)のバリアンをさがし$R出(だ)し　$R排除(はいじょ)すること"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "",
+      "text": "$R今日(きょう)から$R私(わたし)も$R君(きみ)と$R共(とも)にアストラルを$R守(まも)る　$R今日(きょう)から$R私(わたし)の$R部下(ぶか)として$R頼(たの)むぞ"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "smile",
+      "text": "おう！　…って　$R部下(ぶか)！？　$R相棒(あいぼう)じゃなくて？"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "",
+      "text": "$R部下(ぶか)だ　それと　アストラルを$R守(まも)る$R為(ため)にも　このカードは$R君(きみ)に$R託(たく)そう"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "zexal_limitedbariansforcecard",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "これって…　ランクアップマジック・リミテッド・バリアンズ・フォース！"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "zexal_limitedbariansforcecard",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rayshadows",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    }
+  ]
+}

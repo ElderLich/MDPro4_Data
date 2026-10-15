@@ -1,0 +1,77 @@
+{
+  "name": "BestFriendsBestDuelists_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_pegasuscastle",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Al ganar Joey ante Bandit Keith, había llegado el momento del duelo final del torneo. Eran Joey contra Yugi, dos muy buenos amigos luchando por grandes causas."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "(Pensando) ¡Tengo que ganar este duelo para poder luchar contra Pegasus y salvar a mi abuelo! Pero para llegar a Pegasus, tengo que vencer a mi mejor amigo Joey..."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "(Pensando) Tengo que ganar por mi hermana Serenity."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "Yugi, espero que no te estés pensando dos veces el luchar contra mí."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "Lo siento, Joey. Pero no sé si puedo hacerlo."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Venga, Yugi! Tú mismo dijiste que si terminábamos enfrentándonos entre nosotros, íbamos a dar lo mejor con el máximo honor."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "¡Es la única forma de asegurarnos quién de los dos es el que está mejor preparado para enfrentarse a Pegasus en el duelo final! ¡Así que vamos a luchar!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "Bueno, puede que Joey tenga razón. Aunque yo no quiera pasar por esto, tenemos que hacerlo si queremos vencer a Pegasus."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "¿Entonces qué dices, Yugi? ¡A jugar!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEIN:LEFT",
+      "image": "smile",
+      "text": "Vale, Joey. Ha llegado el momento de luchar."
+    }
+  ]
+}

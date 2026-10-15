@@ -1,0 +1,41 @@
+{
+  "name": "ClashInTheColosseum_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_blimp",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "",
+      "text": "$R海馬(かいば)　$R貴様(きさま)が$R負(ま)けたもの…　それは$R己(おのれ)の$R中(なか)に$R巣喰(すく)う$R憎(にく)しみと$R言(い)う$R魔物(モンスター)だ"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "それを$R全(すべ)て$R打(う)ち$R負(ま)かした$R時(とき)こそ　$R真(しん)のデュエリストへの$R道(みち)が$R開(ひら)かれる！"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEIN:LEFT",
+      "image": "neutral",
+      "text": "さあ　マリクを$R倒(たお)そう！"
+    }
+  ]
+}

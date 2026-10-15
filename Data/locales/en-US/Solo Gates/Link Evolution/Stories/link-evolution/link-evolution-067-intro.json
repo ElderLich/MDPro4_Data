@@ -1,0 +1,341 @@
+{
+  "name": "TheUltimateGreatMoth_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_gamestore",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "After his win against Seto Kaiba, Yugi was puzzled to receive a package from Maximillion Pegasus, the creator of Duel Monsters. Inside the box was a videotape. Yugi inserted the tape into the VCR, and Pegasus's face popped up on the TV screen."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Greetings, little Yugi. I am Maximillion Pegasus. I’ve heard some terribly interesting things about you."
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "",
+      "text": "Your impressive defeat of Seto Kaiba intrigued me so much that I’ve decided to investigate your amazing dueling skills personally! Right here and now, we shall hold a “special” duel."
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_shadowrealm",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Suddenly, strange and arcane magic froze time so that no one could move...except for Yugi."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "This dark dimension we're in is known as the Shadow Realm, a mystical place where incredible monsters can be summoned and the impossible is quite possible."
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "",
+      "text": "Tell me, Yugi. Do you believe there is magic in these cards?"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "anger",
+      "text": "Don’t YOU know? You invented this game!"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "shy",
+      "text": "What if I told you I didn’t?"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "Huh?"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "neutral",
+      "text": "In ancient times, the Egyptians called this the Shadow Game. Powerful pharaohs would hold mystical duels in other dimensions, just as we’re doing now."
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "smile",
+      "text": "But instead of cards, they battled with real monsters and real magic! The magical forces were so powerful that the Egyptians lost control of them and nearly destroyed the entire world."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "It's a good story, but these monsters can't be real."
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "anger",
+      "text": "These monsters are very real... and also quite dangerous! Yugi boy, you really are quite entertaining! The way you scowl and sneer, so defiant and yet helpless... and so completely ignorant of the power of your Millennium Puzzle."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yugi looked down at the Millennium Puzzle that he wore around his neck."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "The power of my Puzzle?"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "neutral",
+      "text": "Five thousand years ago, a powerful Pharaoh locked the magic of the Shadow Games away in seven mystical Millennium Items."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "Seven Items? You’re saying that my Puzzle’s one of them?"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "smile",
+      "text": "Yes! And there are mystical energies locked within it. Magic that could change your life forever if you only knew how to unleash it."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "As the two dueled, it seemed that Pegasus knew every move Yugi was going to make before he did. Despite this disadvantage, Yugi mustered all his skills and nearly won, but Yugi ran out of time when the time limit passed."
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "",
+      "text": "I have taken the measure of your talents this day, Yugi Muto. And when next we duel, we shall play for far higher stakes!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "anger",
+      "text": "I’m done with your games!"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "anger",
+      "text": "Tsk, tsk, tsk. You presume I’m giving you a choice in the matter, but I’m not... for I also possess one of the seven Millennium Items! The all-powerful Millennium Eye!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "millenniumeye",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "A Millennium Eye?"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "smile",
+      "text": "That’s right, Yugi boy! I’ll show you the true extent of its magic. I have found that, given the proper incentive, anyone can be made to play my game!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "The power of the Millennium Eye lashed out and stole Grandpa's soul. Yugi could only watch in horror."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "millenniumeye",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "Yugi!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT:FADEIN",
+      "image": "surprise",
+      "text": "Grandpa!"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "neutral",
+      "text": "We will duel again, Yugi. How else will you ever reclaim your grandfather’s soul?"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yugi had no choice but to compete in Pegasus's Duelist Kingdom tournament so that he could get his grandfather's soul back."
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_duelistkingdom",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "At Duelist Kingdom, each duelist was given two Star Chips which they could wager against other duelists on the island."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Whoever earned ten Star Chips gained entry into the tournament finals where they would compete for the $3 million grand prize and the chance to duel Pegasus himself."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_starchips",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "For his first duel, Yugi faced off against the conniving Weevil Underwood, a duelist with whom he had a bit of history. While riding the boat to Duelist Kingdom, Weevil took Yugi's precious Exodia cards and threw them into the ocean."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "So when Yugi spied Weevil on the island, he chased after him into the woods."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "classic_starchips",
+      "text": ""
+    },
+    {
+      "char": "weevilunderwood",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Welcome, said the spider to the fly. You flew right into my trap!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "It's time you answered for destroying my Exodia cards, Weevil!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "weevilunderwood",
+      "pos": "",
+      "image": "smile",
+      "text": "Can't you let bygones be bygones? Hehehe!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "",
+      "text": "Weevil, it's time to find out if you’re as good at dueling as you are at running away!"
+    },
+    {
+      "char": "weevilunderwood",
+      "pos": "",
+      "image": "shy",
+      "text": "Was I simply running away or cleverly weaving you into my web?"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "It’s time to duel!"
+    }
+  ]
+}

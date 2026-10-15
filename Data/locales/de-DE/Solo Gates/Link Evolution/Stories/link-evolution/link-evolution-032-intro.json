@@ -1,0 +1,455 @@
+{
+  "name": "SwingIntoAction_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_paradisecity",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "ARC-V-Geschichten werden geladen …"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Dies ist die Geschichte von Yuya Sakaki: Für einige ist er ein Held, für andere eine Knalltüte und für wieder andere eine heldenhafte Knalltüte."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Doch vor dem Ende seiner Reise sollte Yuya Sakaki durch mehrere Dimensionen reisen und sich unzähligen Gegnern stellen, um die Welt zu retten."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yuya ahnte jedoch nicht, dass seine epische Geschichte mit einer kleinen Lektion beginnen würde, die er von seinem Vater erhielt …"
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "yusho",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Halte dich an den Rat deines Vaters, Yuya. Versuche zu lachen, wenn dir nach Weinen zumute ist. Wenn du auf Schwierigkeiten stößt … begrüße sie mit einem Lächeln."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "",
+      "text": "Es wird dir die Kraft geben, weiter voranzukommen!"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "",
+      "text": "Das Leben ist ein bisschen wie ein Pendel. Wenn das Pendel in eine Richtung schwingt, kannst du sicher sein, dass es auch in die andere Richtung schwingen wird."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "smile",
+      "text": "Genau wie in einem Duell!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "Einem Duell?"
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "neutral",
+      "text": "Das Wichtigste beim Duellieren ist, an dein Deck zu glauben … und an dich selbst."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "",
+      "text": "Wenn du zurückliegst, kannst du immer noch alles aufholen und das Blatt wenden."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "smile",
+      "text": "Also mache dir niemals zu viele Sorgen. Versuche einfach, das Erlebnis zu genießen. Erinnere dich immer an das, was ich dir gerade gesagt habe, Yuya. Es könnte dir eines Tages helfen …"
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yusho",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_arcleaguechampionship",
+      "text": ""
+    },
+    {
+      "char": "sledgehammer",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Einige Tage später sollte Yusho seinen Titel bei der Action Duel Championship gegen den Herausforderer Nummer eins verteidigen: den Vorschlaghammer."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Allerdings ist Yuyas Vater nicht nur nicht erschienen, er wurde auch nie wieder gesehen. Dieses Ereignis brandmarkte Yusho – und die gesamte Familie Sakaki – als Feiglinge."
+    },
+    {
+      "char": "sledgehammer",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_youshowschool",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Drei Jahre später …\nAuf Skip Boyles You Show Duellschule:"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Okay, Yuya, es ist Zeit, in den Mittelpunkt zu treten und Gong zu zeigen, aus welchem Holz du geschnitzt bist!"
+    },
+    {
+      "char": "yuya",
+      "pos": "CENTER",
+      "image": "smile",
+      "text": "Showtime! Meine Damen und Herren – und Gong – wie wäre es, wenn ich die Show mit einem Nilpferdkarneval eröffne?"
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Hör auf mit den Faxen, Yuya!"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "anger",
+      "text": "Warum musst du immer alles ins Lächerliche ziehen, Yuya?"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "Es ist nichts falsch daran, die Fans zum Lachen zu bringen."
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "neutral",
+      "text": "Als dein Daddy auf dem Spielfeld war, haben alle Fans gelächelt."
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "sad",
+      "text": "Du wirst von den Fans meist nur belächelt. Er war ein Meister des Duelltainments, aber deine Duelle sind für gewöhnlich nur peinlich."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "Nun, wenn du mich fragst, war das letzte Duell meines Vaters auch ziemlich peinlich!"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "anger",
+      "text": "Yuya!"
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "nico",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Schönen Tag zusammen! Ich hoffe, ich störe nicht."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "Wer bist du?"
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ich bin Nico Smiley, Duellmanager und Promoter. Derzeit vertrete ich den amtierenden Action Duel Champion: den Vorschlaghammer!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "Nicht der Vorschlaghammer!"
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "Der Vorschlaghammer veranstaltet einen Tag des Fans im Leo Institut für Duelle. Und er fordert Yuya zu einem Duell Mann gegen Mann heraus."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "Du lädst mich ein … mich mit dem Vorschlaghammer zu duellieren!?"
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "Das ist deine Chance, das Verschwinden deines Vaters wiedergutzumachen."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "anger",
+      "text": "Ich werde Yuya niemals an diesem Duell teilnehmen lassen. Der Junge hat genug gelitten, seit sein Vater verschwunden ist."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "Das ist sehr schade. Denn wenn du zugestimmt hättest, hätte die Leo Corporation deiner Schule das neueste AR-Kampfsystem gespendet …"
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "… kostenlos."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "smile",
+      "text": "Also vollkommen gratis."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "smile",
+      "text": "Abgemacht! Das Duell findet statt!"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Du hast doch gerade gesagt, du würdest Yuya niemals an diesem Duell teilnehmen lassen!"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "sad",
+      "text": "Ähm, nun …"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Ja! Wichtig ist, dass wir Yuya den Rücken stärken!"
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Stimmt’s, Yuya? … Yuya? Er … ist weggelaufen."
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "surprise",
+      "text": "Genau wie sein Vater!"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_arcleaguechampionship",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "nico",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "skipboyle",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Tag des Fans:"
+    },
+    {
+      "char": "nico",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Vor drei Jahren konnte der berühmte Duelltainer Yusho Sakaki seinen Titel nicht gegen den Vorschlaghammer verteidigen!"
+    },
+    {
+      "char": "nico",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Nun wird sein eigener Sohn versuchen, seine Schande vergessen zu machen!"
+    },
+    {
+      "char": "nico",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Glaubst du, Yuya wird auftauchen?"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "neutral",
+      "text": "Wer weiß? Gongs Bauchgefühl sagt, er wird kommen."
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Zur Überraschung vieler Gäste erschien Yuya zu dem Duell. Aber eine noch größere Überraschung stellte sein Aufzug dar: Yuya war als Clown verkleidet."
+    },
+    {
+      "char": "sledgehammer",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Sag mir nicht, du bist der Sohn von Yusho!?"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "smile",
+      "text": "Jup, der einzig Wahre! Und? Bist du bereit, dieses Showfeuerwerk abzubrennen?"
+    },
+    {
+      "char": "sledgehammer",
+      "pos": "",
+      "image": "anger",
+      "text": "Das Lachen wird dir vergehen, wenn der Vorschlaghammer dich zerquetscht!"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "name": "DualDuel_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "girag",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Ray, ¿cómo es que tú tienes una carta Barian? ¿Quién eres?"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Oh, te darás cuenta... con el tiempo."
+    },
+    {
+      "char": "girag",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "¡Aguanta ahí, Ray! Todavía tienes que decirme qué pasa con esa carta de Barian!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "¡Tienes que dar algunas explicaciones!"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Trabajo para la Unidad de Delitos Cósmicos de Barian."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡No me lo puedo creer! ¡¿Eres un Barian?!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "Así que en el Mundo Barian, ¿hay buenos y malos?"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "neutral",
+      "text": "Correcto, Yuma. El Mundo Barian no es un lugar malvado, pero algunos se salen de lo normal."
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "",
+      "text": "Esa es la verdad, y ahora que ya sabes, vamos a trabajar juntos."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "smile",
+      "text": "¿Hablas en serio? ¡Impresionante!"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "",
+      "text": "Para combatir adecuadamente los Barians, necesitarás esta carta."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "zexal_limitedbariansforcecard",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡De ninguna manera! Es la fuerza de Magia de Subida de Rango Fuerza Limitada de Barian."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "zexal_limitedbariansforcecard",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rayshadows",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,749 @@
+{
+  "name": "FuturePath_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_duelinghighway",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Con l'aiuto dei suoi amici, Yusei ha impedito che il Tempio Divino si schiantasse su Nuova Domino."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Passarono sei mesi, e Yusei creò \"Fortune\", un programma informatico progettato per controllare l'Ener-D in modo sicuro."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "lazar",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Nel frattempo, Lazar fu eletta sindaca di Nuova Domino."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "In qualità di nuova e primissima sindaca di questa bellissima città, il mio primo ordine è di restituirla ai suoi cittadini…"
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "smile",
+      "text": "Creando un governo gestito da funzionari eletti."
+    },
+    {
+      "char": "lazar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Wow! Lazar è la sindaca? Pazzesco! Però... in effetti, se io posso diventare un agente della Sector Security, tutto è possibile!"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_citysquare",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "lazar",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Complimenti, Professor Fudo."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Per favore, non chiamarmi \"Professore\". Quello è mio padre, non io."
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "Non c'è bisogno di sentirsi in imbarazzo. Hai superato di gran lunga le aspettative di tuo padre. Il tuo programma Fortune fornirà energia illimitata a Nuova Domino."
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "neutral",
+      "text": "Così la metropoli sarà il centro di collegamento per le città di tutto il mondo."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "smile",
+      "text": "Già, il futuro è roseo ora che il futuro predetto da Zone non diventerà realtà."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "smile",
+      "text": "Però non è tutto merito mio. Io e i miei amici abbiamo collaborato come una squadra."
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "smile",
+      "text": "Sì sì, certo. Sempre a pensare alla tua squadra."
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ora che hai completato il programma, dovresti prenderti una pausa. Respira aria pura, viaggia per il mondo, decidi cosa vuoi fare d'ora in poi."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Anche se... ad essere sincera, spero che resterai a Nuova Domino."
+    },
+    {
+      "char": "lazar",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "Ma la decisione spetta a te. Ci vediamo, Yusei."
+    },
+    {
+      "char": "lazar",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Ehi, Yusei! Non ci vediamo da un pezzo! Troppo impegnato per incontrare il tuo amico?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "smile",
+      "text": "Scusami, ci è voluto più del previsto per terminare il programma."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "laughter",
+      "text": "Però ce l'hai fatta, no? Grande, Yusei!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "smile",
+      "text": "Grazie. E tu? Come vanno le cose?"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "Uff... Trudge mi fa pattugliare le strade giorno e notte. Non ricordo l'ultima volta che ho dormito più di un'ora! Però non mi posso lamentare. Chi avrebbe mai detto che sarei diventato un agente, eh? Questa città è cambiata molto."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "smile",
+      "text": "No, l'abbiamo cambiata noi. Insieme, come una squadra."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "neutral",
+      "text": "Hai ragione.  Il Team 5D's è mitico!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "smile",
+      "text": "A proposito di 5D's, perché non facciamo un raduno questo fine settimana? È passato troppo tempo dall'ultima volta."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "laughter",
+      "text": "Ottima idea! Sicuramente verranno tutti... ad eccezione di un tipo che è difficile da trovare."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Già... Jack. Non hai ancora avuto sue notizie?"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "discouragement",
+      "text": "No. Chissà cosa sta combinando... Proverò a chiamarlo, ma non sperarci troppo."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_duelinghighway",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "greiger",
+      "pos": "RIGHT",
+      "image": "anguish",
+      "text": "Non riesco a credere che tu stia continuando a migliorare nei Duelli."
+    },
+    {
+      "char": "sherryleblanc",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Ogni tuo punto debole, e ne avevi pochissimi, è scomparso. Non avevo speranze."
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "La tua bravura ha raggiunto un nuovo livello. Ma a guardarti, non sei ancora soddisfatto, vero?"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "LEFT",
+      "image": "goodnightssleep",
+      "text": "No. Non sarò soddisfatto finché non avrò sconfitto una certa persona."
+    },
+    {
+      "char": "greiger",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sherryleblanc",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_yuseihome",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Ehi, Yusei!"
+    },
+    {
+      "char": "luna",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Ciao!"
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Ti sono mancata?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "CENTER",
+      "image": "smile",
+      "text": "Akiza, Leo, Luna! Che bello vedervi!"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "RIGHT",
+      "image": "bittersleep",
+      "text": "Ooh, sono l'ultimo arrivato?"
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Crow! Sei in ritardissimo! Così in ritardo che abbiamo già finito di festeggiare e stavamo per tornare a casa!"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "anguish",
+      "text": "Wow! Sono davvero così in ritardo?!"
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "",
+      "image": "smile",
+      "text": "Ti sta prendendo in giro. Non abbiamo ancora cominciato."
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Più tardi quella sera..."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "Sì, è bello vegliare sulla sicurezza di Nuova Domino, però..."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Però cosa?"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Beh..."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "Mmh..."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "neutral",
+      "text": "Non ha importanza. E tu, Akiza? Cosa farai dopo il diploma? Secondo me, dovresti partecipare alle leghe pro! Con la tua abilità, qualsiasi squadra sarebbe fortunata ad averti!"
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "",
+      "image": "anger",
+      "text": "Non scegliere il mio destino al posto mio! Magari non mi interessa la carriera da professionista!"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "anger",
+      "text": "Ehm... Scusa se ho toccato un tasto dolente!"
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "",
+      "image": "anger",
+      "text": "Tutti mi dicono sempre cosa dovrei fare, come se la scelta non spettasse a me!"
+    },
+    {
+      "char": "leo",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "Uhm, volete calmarvi un po'? Io e Luna abbiamo delle novità da raccontarvi. Oggi abbiamo ricevuto un messaggio dai nostri genitori."
+    },
+    {
+      "char": "luna",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "Dicono che dovremmo vivere di nuovo tutti insieme."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "neutral",
+      "text": "Che bella notizia! Perché allora quei musi lunghi?"
+    },
+    {
+      "char": "luna",
+      "pos": "RIGHT",
+      "image": "discouragement2",
+      "text": "Perché dovremo andarcene da Nuova Domino."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Oh..."
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "Leo... Luna..."
+    },
+    {
+      "char": "leo",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "Non abbiamo ancora deciso se trasferirci o no, ma ci stiamo chiedendo cosa fare."
+    },
+    {
+      "char": "luna",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "Perché vi vogliamo bene. Non vogliamo andarcene da Nuova Domino. Sono così confusa..."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Crow, Akiza, anche voi come Leo e Luna vi state chiedendo cosa fare della vostra vita, si vede. Altrimenti, perché vi arrabbiereste tanto per delle domande innocenti? Crow, so che hai ricevuto un'offerta da una delle leghe pro oltreoceano."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "surprise",
+      "text": "Come fai a saperlo?!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "E Akiza, tu sei stata accettata per studiare all'estero presso una delle migliori scuole di medicina al mondo."
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Come lo sai?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Me l'hanno detto i tuoi genitori."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "surprise",
+      "text": "Akiza, vuoi diventare medico?"
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Ecco, io... non lo so. Non ho ancora deciso."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "..."
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Jack?"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": "Dov'eri?"
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "neutral",
+      "text": "Mi stavo allenando."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "anger",
+      "text": "Allenando per cosa?"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "anger",
+      "text": "Ho ricevuto un invito da Ride Ace, la Lega di Duelli più grande del mondo. Quindi me ne andrò da Nuova Domino. Perché non voglio essere soltanto il re di una città, ma del mondo intero!"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "surprise",
+      "text": "Non la smetterai mai di perseguire questo sogno, vero?"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "Certo che no. A te non piacerebbe metterti alla prova contro il resto del mondo?"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "neutral",
+      "text": "Yusei, so che hanno invitato anche te."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Sì, è così."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "Mi sembra ovvio. Sarebbe assurdo se Yusei non ricevesse un invito dalle leghe di Duelli di tutte le nazioni!"
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "LEFT",
+      "image": "discouragement",
+      "text": "Yusei, cos'hai intenzione di fare?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Non ne sono sicuro. Ero così concentrato su Fortune che non ho pensato ad altro. Ma ora che il programma è terminato..."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Forse tu non sai cosa fare, ma io sì. Abbiamo conseguito tutto il possibile come squadra, quindi ora voglio pensare a cosa posso fare per conto mio!"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "anger",
+      "text": "Sconfiggerò chiunque mi ostacoli... anche il Team 5D's!"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Wow, grazie mille!"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "Jack, duelliamo."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "surprise",
+      "text": "Vuoi sfidarmi a un Duello?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Quando non so che strada prendere, duellare mi aiuta sempre a fare chiarezza."
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "smile",
+      "text": "Ottimo. Se voglio battere il mondo, devo essere abbastanza forte da sconfiggere prima te!"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_duelinghighway",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Jack, ti rendi conto che il nostro ultimo Duello è stato alla Fortune Cup?"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "Abbiamo duellato fianco a fianco per così tanto tempo che avevo quasi dimenticato che ci eravamo affrontati."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "smile",
+      "text": "È vero, anch'io. Ma i giorni passati a duellare con te invece che contro di te sono stati i migliori."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "neutral",
+      "text": "Già. Però non possiamo vivere nel passato. Morivo dalla voglia di duellare di nuovo contro di te, e ora il momento è arrivato!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "Giusto! Quindi mettiamocela tutta!"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "anger",
+      "text": "Non me lo farò ripetere due volte!"
+    }
+  ]
+}

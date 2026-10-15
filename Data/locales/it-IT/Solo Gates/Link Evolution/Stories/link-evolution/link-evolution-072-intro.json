@@ -1,0 +1,269 @@
+{
+  "name": "PaniKAttack_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_duelistkingdom",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Quando Tea, Tristan e Joey si svegliarono, pensarono che il duello tra Yugi e Bakura fosse un sogno."
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Ho sognato che Bakura era impazzito."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Anch'io. L'ultima volta che faccio un pisolino con le carte da duellante sotto il mio cuscino."
+    },
+    {
+      "char": "yamibakura",
+      "pos": "RIGHT",
+      "image": "ryo_neutral",
+      "text": "Avete dormito bene, ragazzi?"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "surprise",
+      "text": "Ahhhhh! Bakura! Non farmi del male!"
+    },
+    {
+      "char": "teagardner",
+      "pos": "",
+      "image": "smile",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "smile",
+      "text": ""
+    },
+    {
+      "char": "yamibakura",
+      "pos": "",
+      "image": "ryo_smile",
+      "text": "Ah ah ah!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Improvvisamente, udirono un urlo provenire dal bosco."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "surprise",
+      "text": "Era la voce di Mai!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "La squadra corse attraverso bosco e in una radura, e vide un grande duellante sconfiggere Mai."
+    },
+    {
+      "char": "yamibakura",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "panik",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Ciao ciao, uccellini!"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "Le mie Arpie! Se ne sono andate."
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "Penso che vuoi dire \"eliminate\", proprio come te! Ora consegnami tutte le tue Star Chips, perdente!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "Mai! Stai bene?"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "neutral",
+      "text": "Questo fenomeno da baraccone ti sta importunando?"
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "Proprio così, Pegasus mi paga per sradicare tutta la spazzatura da quest'isola!"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "",
+      "image": "smile",
+      "text": "Proprio come un netturbino."
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "anger",
+      "text": "Questo non è uno scherzo! PaniK è uno degli Eliminatori dell'isola, e se non ve ne andate via di qui, vi farà quello che ha fatto a me!"
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "Guardate il suo Guanto da Duellante! Non ha più nessuna Star Chips!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "Sei fuori dal torneo, Mai?"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "sad",
+      "text": "Lo sono. Tutto è successo così in fretta. Il modo in cui PaniK duella, ho... perso."
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "Ha! Una delle mie vittime più facili!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "PaniK spinse Mai a terra."
+    },
+    {
+      "char": "maivalentine",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "Schifoso! Non ci sono scuse per aver spinto una ragazza!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Ho avuto a che fare con un sacco di bulli nella mia vita, e c’è solo un modo di trattarli. Devi affrontarli!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "anger",
+      "text": "Prova le tue tattiche d'intimidazione contro di me, PaniK. Non mi spavento facilmente, soprattutto quando difendo i miei amici."
+    },
+    {
+      "char": "panik",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Yugi, eh? Deve essere il mio giorno fortunato. Pegasus ha promesso all’Eliminatore una generosa taglia su di te."
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "Pensi che mi darà un bonus se infliggo danni fisici? Ahahah!"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Scommetto tutte le mie Star Chips per rivincere quelle di Mai."
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "Affare fatto! Se vinci, ti darò le sue otto Star Chips perché la tua scommessa non fa alcuna differenza per me."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "Che cosa intendi?"
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "Quello che voglio dire, piccolo Yugi, è che quando duelli contro PaniK, metti in palio molto di più delle tue insignificanti Star Chips!"
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "Vedo che la paura sta crescendo nei tuoi occhi! Ti stai facendo prendere dal panico!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Hai finito di parlare, PaniK?"
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "L'ultima volta che qualcuno ha avuto il coraggio di parlarmi in quel modo, l'ho spezzato in due! Ora duelliamo!"
+    }
+  ]
+}

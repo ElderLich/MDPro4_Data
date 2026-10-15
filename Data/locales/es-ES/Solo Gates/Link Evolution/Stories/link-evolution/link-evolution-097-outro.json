@@ -1,0 +1,383 @@
+{
+  "name": "TheNextKingOfGames_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_arena",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "Left",
+      "image": "smile",
+      "text": "¡Así se juega! Supongo que he pasado la prueba, ¿eh, profe?"
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "Right",
+      "image": "anger2",
+      "text": "¡Imposible! ¡No puede ser que este delincuente me haya derrotado!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Me han admitido en la Academia! ¡Lo conseguí! ¡Lo conseguí!"
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_outsideacademy",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Al derrotar a Dr. Crowler, a Jaden le admitieron en la Academia de Duelos. Al día siguiente, todos se reunieron en el salón principal para la ceremonia de presentación."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "¡Bienvenidos, mis estudiantes! Soy rector Sheppard, el Director. ¡Y Vosotros sois los mejores y más brillantes jóvenes duelistas del mundo!"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "smile",
+      "text": "Ahora, por favor instaláos en vuestros dormitorios asignados. Creo que los váis a encontrar muy cómodos... dependiendo de cómo os hayáis clasificado, por supuesto."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Bueno, no sé si tú también, Sy... pero parece que estoy en el dormitorio Slifer Rojo."
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "RIGHT",
+      "image": "red_smile",
+      "text": "¡Eso es genial! ¡Lo mismo que yo!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "Eh, Bastion. ¿También estás en el Rojo?"
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "Bueno, vamos a ver aquí. Mangas amarillas, botones amarillos... Olvídate."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "surprise",
+      "text": "Oh, ahora lo entiendo. Por eso Sy y yo estamos en el Rojo."
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "",
+      "image": "neutral",
+      "text": "¿En serio?  No me digas que te acabas de enterar."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anguish",
+      "text": "¿Y qué? ¿Pensabas que soy daltónico?"
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "",
+      "image": "",
+      "text": "Pues no. En realidad, no lo pensaba. ¿Eres daltónico?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "smile",
+      "text": "No, ¡pero podría serlo! ¡Nos vemos por ahí en los dormitorios!"
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "",
+      "image": "",
+      "text": "Lo dudo. Vas por el camino equivocado. Tu dormitorio está allá."
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_genericoutdoor",
+      "text": ""
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_surprise",
+      "text": "Esto no es un dormitorio. Es como una caseta con una terraza."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "smile",
+      "text": "¿Estas bromeando conmigo? ¡MIra las vistaa! ¡Este lugar es genial!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "neutral",
+      "text": "¡Aquí está nuestra habitación, Sy!"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_discouragement",
+      "text": "Es un poco pequeña, ¿no?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "smile",
+      "text": "¡Hey, si tú sí que eres pequeño! De todos modos, me gusta. ¡Este va a se nuestro cuartito durante el primer año aquí!"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_neutral",
+      "text": "Es un poco extraño que nos conociéramos en los Exámenes de Acceso, y ahora ¿somos compañeros de cuarto?"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_smile",
+      "text": "¡¿Crees que estábamos conectados de alguna manera en una vida pasada, Jaden?!"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_smile",
+      "text": "Pues tú sabes, ¡¿tu podrías haber sido el Faraón Egipcio y yo el Seto Guardián?!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "bittersleep",
+      "text": "No te ofendas, pero eso suena rarísimo."
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_discouragement2",
+      "text": "Bueno, ¡podría ser verdad!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "Olvídalo. ¡Se rompieron los moldes cuando nos hicieron a los dos!"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_discouragement",
+      "text": "Sí, por razones diferentes. Porque eres un duelista impresionante, y yo soy... ¿qué es lo contrario de impresionante? No-impresionante."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "smile",
+      "text": "Sy, vamos a tener que mejorar tu confianza. Pero primero, ¡vamos a trabajar en este cuartito! ¡Abre las cortinas y deja que entre aire fresco!"
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": "¡Eh! ¡Eso está cerrado por alguna razón!"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_discouragement",
+      "text": "Oh, lo siento."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "Exacto, no te hemos durmiendo ahí en la litera."
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "anger",
+      "text": "¿Quién eres y qué estás haciendo en mi cuarto?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "smile",
+      "text": "Oh, lo siento. Me llamo Jaden Yuki."
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_smile",
+      "text": "Y yo soy Syrus. Somos tus nuevos compañeros de cuarto."
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "neutral",
+      "text": "Claro, así que sois nuevos. Así que os voy a decir cómo funcionan las cosas por aquí."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "surprise",
+      "text": "¿Qué cosas?"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_discouragement",
+      "text": "¿Cómo cuándo va a ser el fin de semana que vengan los padres a visitar?"
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "neutral",
+      "text": "¡Más bien cómo funciona todo el asunto del color! Eso es más importante que cualquier otra cosa."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "neutral",
+      "text": "¿Sí?"
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "",
+      "text": "Tienes tres tipos diferentes de estudiantes aquí. Estudiantes Obelisk Azul, estudiantes Ra Amarillo y estudiantes Slifer Rojo."
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "",
+      "text": "Los azules son los estudiantes de más alto rango. Algunos niños son azules por los grados y otros mediante conexiones."
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "",
+      "text": "Los amarillos son los segundos más altos. En general son estudiantes más jóvenes con mucho potencial."
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "",
+      "text": "Luego estamos nosotros. Los maravillosos Rojos."
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "red_smile",
+      "text": "Los maravillosos... ¡Eso suena súper bien!"
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Como si dijeramos... ¡Es \"maravilloso\" que inútiles como nosotros hayamos llegado hasta aquí!"
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Lo siento pero aquí somos los últimos de la fila. Lo peor de lo peor."
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "professorbanner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Hola chicos. Mi nombre es Profesor Banner. Yo no sólo soy vuestro director en Slifer Rojo, sino también doy clase de alquimia en la Academia de Duelos."
+    },
+    {
+      "char": "professorbanner",
+      "pos": "",
+      "image": "",
+      "text": "También os daréis cuenta de que soy un cocinero excelente . ¡Ya que todos mis estudiantes califican mis deliciosos platos como \"adecuados\"! ¡Venga, vamos a la cafetería - es hora de comer!"
+    },
+    {
+      "char": "professorbanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "syrustruesdale",
+      "pos": "RIGHT",
+      "image": "red_neutral",
+      "text": ""
+    },
+    {
+      "char": "chumleyhuffington",
+      "pos": "",
+      "image": "smile",
+      "text": "Oh... Por cierto, soy Chumley."
+    }
+  ]
+}

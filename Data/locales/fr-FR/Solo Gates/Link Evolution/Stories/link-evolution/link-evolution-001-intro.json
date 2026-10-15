@@ -1,0 +1,245 @@
+{
+  "name": "ReadySetDuel_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "bg_vgs",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Chargement en cours des histoires 5D's..."
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_citysquare",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Jeunes et vieux duellistes, professionnels et grands amateurs, voici le moment que vous attendiez!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Bienvenue à Nouvelle Domino City, patrie du Turbo Duel."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Turbo Duels est une nouvelle forme de duel prenant place sur des motos appelées \"Duel Runners\"."
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_satellite",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Cependant, notre histoire ne commence pas à Nouvelle Domino City. Nous rejoignons notre héros Yusei Fudo dans une des banlieues les plus pauvres, appelée \"Satellite\"."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "notattoo_anguish",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yusei a été lésé par l'invaincu champion de Turbo Duel Jack Atlas."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Ils étaient autrefois des amis, mais Jack vola les deux biens les plus précieux de Yusei: la carte Dragon Poussière d'Étoile et son Duel Runner personnalisé."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Jack quitta Satellite et devint le champion en Turbo Duel à Nouvelle Domino City."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yusei voulait confronter Jack, mais malheureusement, le Secteur Sécurité continuait à se dresser sur son chemin."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "notattoo_neutral",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rallydawson",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "L'ami de Yusei, Rally Dawson, \"trouva\" une puce d'accélération Skylon-30. Yusei avait énormément besoin de cette puce pour le nouveau Duel Runner qu'il construisait."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rallydawson",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Yusei! Hé, Yusei!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "notattoo_neutral",
+      "text": ""
+    },
+    {
+      "char": "rallydawson",
+      "pos": "",
+      "image": "neutral",
+      "text": "Regarde-moi ça!"
+    },
+    {
+      "char": "rallydawson",
+      "pos": "",
+      "image": "",
+      "text": "C'est une puce d'accélération Skylon-30."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "notattoo_neutral",
+      "text": "N'est-ce pas qu'elles sont incroyablement chères? Ne me dis pas que tu as volé ceci."
+    },
+    {
+      "char": "rallydawson",
+      "pos": "",
+      "image": "anger",
+      "text": "Je n'ai rien volé! Je l'ai juste trouvé sur le sol en plein jour."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "notattoo_smile",
+      "text": "Très bien, merci! C'est vraiment ce qu'il me fallait."
+    },
+    {
+      "char": "rallydawson",
+      "pos": "",
+      "image": "smile",
+      "text": "Je savais que tu aimerais cela! Cela va-t-il rendre ton Duel Runner plus rapide?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "notattoo_smile",
+      "text": "Absolument!"
+    },
+    {
+      "char": "rallydawson",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "notattoo_neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Malheureusement, le Secteur Sécurité avait suivi Rally et retrouva rapidement Yusei et ses amis."
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Donc, c'était à Yusei d'affronter le Secteur Sécurité et de sauver ses amis."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "smile",
+      "text": "Je savais que j'aurais dû t'enfermer lorsque tu étais encore enfant. On dirait que je vais enfin accomplir mon souhait!"
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "neutral",
+      "text": "Vas-tu simplifier mon boulot et te rendre paisiblement?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "notattoo_neutral",
+      "text": "D'accord... si tu peux me battre."
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "smile",
+      "text": "Marché conclu."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "notattoo_neutral",
+      "text": ""
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "neutral",
+      "text": "Imbécile."
+    }
+  ]
+}

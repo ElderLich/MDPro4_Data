@@ -1,0 +1,461 @@
+{
+  "name": "TheDragonAwakens_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "La Fête de Duel continua et Kite rendit visite à son frère Hart."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Hart..."
+    },
+    {
+      "char": "harttenjo",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "Comment ça va?"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "J'ai rassemblé plusieurs Numéros pour t'aider."
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "Tu vas te sentir beaucoup mieux en un rien de temps."
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "Je veux juste que tu continues à t'accrocher."
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Tu penses que tu peux faire cela pour moi?"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "harttenjo",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Frère ..."
+    },
+    {
+      "char": "harttenjo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Je dois partir."
+    },
+    {
+      "char": "harttenjo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_night",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "En plongeant dans une sphère de lumière, Hart s'échappa dans les rues de la ville de Heartland."
+    },
+    {
+      "char": "harttenjo",
+      "pos": "RIGHT:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Hart apparut soudain devant Yuma au milieu d'une rue animée."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "harttenjo",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Je connais ce gamin. C'est le petit frère de Kite."
+    },
+    {
+      "char": "harttenjo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "torimeadows",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Où penses-tu qu'il partait?"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Je n'en ai aucune idée. Nous devrions le ramener à Kite, il nous faudra donc le retrouver."
+    },
+    {
+      "char": "torimeadows",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Oui, mais... Tu sais ce qui va se passer si tu rencontres Kite."
+    },
+    {
+      "char": "torimeadows",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Vous allez échanger de gros mots, puis il y aura un duel et... et si tu perds, alors..."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "Que dirais-tu d'attendre de t'inquiéter de cela lorsqu'on le verra?"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "torimeadows",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yuma se mit à la recherche de Hart et le suivit jusqu'au sommet d'une tour mystérieuse."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Au sommet de la tour, Yuma et Hart furent confrontés par Quinton."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Qui es-tu?"
+    },
+    {
+      "char": "quinton",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Je suis l'ami d'Hart."
+    },
+    {
+      "char": "harttenjo",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "quinton",
+      "pos": "",
+      "image": "",
+      "text": "Je suis ici pour vous aider. N'est-ce pas, Hart?"
+    },
+    {
+      "char": "harttenjo",
+      "pos": "",
+      "image": "",
+      "text": "..."
+    },
+    {
+      "char": "quinton",
+      "pos": "",
+      "image": "",
+      "text": "Hart sera parfaitement en sécurité avec moi, je t'assure. Allons-y."
+    },
+    {
+      "char": "harttenjo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "quinton",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Après que Hart fut enlevé par Quinton, Yuma dut faire équipe avec Kite pour le retrouver."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Dis-moi où se trouve Hart!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "Le gars que tu as envoyé est venu dans un hélicoptère pour venir chercher ton frère."
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "Je n'ai envoyé personne pour venir le chercher."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Alors il n'était pas ton ami?"
+    },
+    {
+      "char": "orbital7",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Arrête d'essayer de nous tromper!"
+    },
+    {
+      "char": "orbital7",
+      "pos": "",
+      "image": "",
+      "text": "Nous n'avons pas été créés hier, tu sais."
+    },
+    {
+      "char": "orbital7",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "sad",
+      "text": "C'est ma faute. Je n'aurais pas dû laisser Hart partir."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "sad",
+      "text": "Je suis désolé."
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "Hart ne va pas bien. J'espère le retrouver bientôt."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "Je t'aiderai à le retrouver!"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "C'est mon problème, pas le tien."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "J'ai fait la promesse à Hart que j'aimerais vous réunir tous les deux."
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "discouragement",
+      "text": "...Bien."
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Yuma et Kite finirent par retrouver Quinton et Hart. Quinton était avec ses deux frères, Quattro et Trey."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "quattro",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Ce n'est nul autre que l'infâme Kite. Quel honneur."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "Eh, c'est Quattro!"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "anger",
+      "text": "C'est vous qui avez enlevé mon frère?"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "Où est-il?"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "Détends-toi. Rien de mal ne lui est arrivé."
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "smile2",
+      "text": "Du moins ... pas encore. Hé."
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "Qu'est-ce que ça veut dire?"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "neutral",
+      "text": "Lorsque nous aurons terminé, nous te rendrons Hart... ou du moins ce qui en reste."
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "anger",
+      "text": "Je vais vous écraser, sales types et libérer mon frère!"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "anger",
+      "text": "J'aimerais t'y voir. Trey, attrape-moi ce crétin."
+    },
+    {
+      "char": "quattro",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "trey",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Avec plaisir! Faisons un duel!"
+    }
+  ]
+}

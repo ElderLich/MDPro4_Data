@@ -1,0 +1,365 @@
+{
+  "name": "DoomsdayDuel_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_arena",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Doyen Sheppard, l'administrateur en chef de la Duel Academy, appela Jaden, Bastien, Alexia, Chad, Docteur Crowler, Professeur Banner et Zen dans son bureau."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Il voulait les avertir des Cavaliers de l'Ombre et le pouvoir des trois Cartes Bête Sacrées."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Trois Sacrées \"quelles\" Cartes?!"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Cartes Bêtes Sacrées. En raison de leur immense pouvoir et de leur force colossale, elles étaient cachées ici à l'Academy."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Vous voyez, cette Academy a été construit en partie pour protéger les Cartes Bêtes Sacrées. Elles ont été enterrées profondément sous terre, avec leurs pouvoirs scellés en toute sécurité."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "La légende dit que si jamais ces cartes voyaient la lumière du jour, des choses terribles se produiraient..."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Notre monde n'existerait plus."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "N'existerait plus?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Donc, c'est pourquoi vous avez été convoqués ici, tous les sept. Pour protéger ces trois cartes des méchants."
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "zanetruesdale",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Les méchants?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "C'est vrai. Sept duellistes connus sous le nom de Cavaliers de l'Ombre qui convoitent ces cartes."
+    },
+    {
+      "char": "zanetruesdale",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "professorbanner",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "J'ai entendu parler de ces Cavaliers de l'Ombre. C'est du sérieux. Vous devez être prudent."
+    },
+    {
+      "char": "professorbanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Bon, alors comment pouvons-nous protéger ces cartes?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "En protégeant les sept Portails de l'Esprit. Pour obtenir les cartes, il faudra déverrouiller ces portails."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Et pour les déverrouiller, il faut obtenir les sept clés pour les sept portails. C'est ainsi que nous allons protéger ces cartes. En protégeant les clés."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "gx_spiritkeys",
+      "text": ""
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Et les voici. Une à garder pour chacun de vous."
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "professorbanner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Les enfants, ceci est une responsabilité importante. Pour moi, aussi."
+    },
+    {
+      "char": "professorbanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "",
+      "image": "anguish",
+      "text": "Nous allons porter les clés? Cela ne ferait-il pas de nous des cibles?"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "C'est vrai. Avec ces clés, les Cavaliers de l'Ombre vous poursuivront."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "gx_spiritkeys",
+      "text": ""
+    },
+    {
+      "char": "bastionmisawa",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "chazzprinceton",
+      "pos": "RIGHT",
+      "image": "black_amazed",
+      "text": "Euh, nous poursuivre? Vous voulez dire nous éliminer."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Seulement dans un duel."
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "smile",
+      "text": "Heureusement pour nous, les clés ne peuvent simplement pas être volées. Un ancien décret stipule que les clés doivent être gagnés durant un duel. Et donc, j'ai convoqué les sept meilleurs de notre école pour relever ce défi et combattre courageusement!"
+    },
+    {
+      "char": "sheppard",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "chazzprinceton",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_shadowrealm",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Plus tard ce soir là, Jaden et Alexia furent transportés vers un volcan, où ils rencontrèrent le premier Cavalier des Ombres."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Où sommes-nous?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Dans un rêve très étrange."
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Ou cauchemar!"
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Hahaha! Ce n'est ni l'un ni l'autre!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "surprise",
+      "text": "Que se passe-t-il?"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "smile",
+      "text": "Tu veux dire que tu ne sais pas?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "bittersleep",
+      "text": "Je suis un élève lent."
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "Appelle-moi Masque De La Nuit! Je suis celui qui va te prendre cette clé que tu portes autour de ton cou!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "surprise",
+      "text": "Hou La La. Vous autres ne perdez pas du temps, n'est-ce pas?"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "J'aurai cette clé et je la prendrai maintenant. Oh, et j'ai amené des amis comme renfort."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anguish",
+      "text": "Que veux-tu dire?"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "anger",
+      "text": "Dites bonjour à Syrus et Charlie! On dirait qu'ils sont dans le pétrin. Ou peut-être devrais-je dire dans de la chaude lave en fusion! Mais telle est la nature des Jeux des Ombres, gardien des clés!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anger",
+      "text": "Un Jeu des Ombres? Écoute, bats-toi en duel juste avec moi! Mais laisse-les partir!"
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "Je ne le pense pas. J'ai besoin d'eux pour m'assurer que le match sera rapide. Après tout, ce globe de protection où ils se trouvent? Disons simplement que ce n'est pas exactement construit pour durer."
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "Oh, et j'ai bien peur qu'il y a plus. Ton âme est également en jeu et elle sera scellée dans cette carte si tu perds. Bien sûr, si je perds, alors mon âme sera scellée."
+    },
+    {
+      "char": "atticusrhodes",
+      "pos": "",
+      "image": "neutral",
+      "text": "Mais bon, soyons honnêtes avec nous-mêmes. Moi perdre? Jamais. Maintenant, on commence?"
+    },
+    {
+      "char": "alexisrhodes",
+      "pos": "CENTER",
+      "image": "anguish",
+      "text": "Tu ne dois pas accepter cela!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anguish",
+      "text": "Va dire cela à Syrus et Charlie! Ils sont sur le point de devenir des boulettes de viande dans un ragoût de lave! Ce sont mes amis et je ne vais pas laisser cela leur arriver! Ni à nous!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anger",
+      "text": "En outre, ce n'est pas comme s'il s'agissait de mon premier Jeu des Ombres. J'espère juste que cela ne fera pas aussi mal que les autres!"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "anger",
+      "text": "OK mon pote, tu veux faire un duel? Tu l'auras! Montre-moi ton jeu!"
+    }
+  ]
+}

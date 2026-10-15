@@ -1,0 +1,35 @@
+{
+  "name": "DestinysWill_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_satellite",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "romangoodwin",
+      "pos": "RIGHT",
+      "image": "bittersleep",
+      "text": "Pensi davvero che sia finita?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "romangoodwin",
+      "pos": "FADEOUT",
+      "image": "anger",
+      "text": "Se non sconfiggi tutti i Predestinati Oscuri prima del tramonto, il Re degli Inferi risorgerà!"
+    }
+  ]
+}

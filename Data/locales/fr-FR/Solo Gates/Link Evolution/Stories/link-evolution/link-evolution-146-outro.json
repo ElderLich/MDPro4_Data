@@ -1,0 +1,101 @@
+{
+  "name": "CounterOffensive_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_school",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Alito!"
+    },
+    {
+      "char": "alito",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "sad",
+      "text": "Alito, ça va? Je vais t'aider à te relever."
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ce duel était vraiment épique."
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "",
+      "text": "Eh Astral, Mon Numéro t'appartient maintenant."
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "",
+      "text": "Il est temps pour moi de retourner au Monde Barian. Au Revoir ..."
+    },
+    {
+      "char": "alito",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_night",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Mais Alito ne retourna pas au Monde Barian."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alito",
+      "pos": "LEFT:FADEIN",
+      "image": "surprise",
+      "text": "Ce n'est pas le Monde Barian! Qui que tu sois, toi qui m'as amené ici, montre-toi!"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "RIGHT",
+      "image": "evil_smile",
+      "text": "Hahahaha!"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "surprise",
+      "text": "C'est... toi!"
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "name": "DuelingwiththeStars_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_paradisecity",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Nach Sylvios fehlgeschlagenem Versuch, Yuyas Pendelkarten zu stehlen, behielt Zuzu den Dieb genau im Auge."
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Ich habe gehört, dass du vorhast, dich an Yuya zu rächen – nun, ich werde das nicht zulassen! Duelliere dich stattdessen mit mir, hier und jetzt!"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "sad",
+      "text": "Das ist nicht dein Ernst, oder?"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "neutral",
+      "text": "Was ist los mit dir? Hast du Angst, die nächste Niederlage zu kassieren?"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "anger",
+      "text": "Du kriegst dein Duell, Zuzu."
+    },
+    {
+      "char": "yuto",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Ich hoffe, ich störe nicht."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "Yuya?"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "anger",
+      "text": "Siehst du nicht, dass wir beschäftigt sind? Wir werden uns gleich duellieren!"
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ja … WIR werden uns duellieren."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_darkrebellioncard",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "anger",
+      "text": "Ich beschwöre Finsterer Rebellions-Xyz-Drache als Xyz-Beschwörung!"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Ahh!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "arcv_darkrebellioncard",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_youshowschool",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Die Nachricht vom Angriff des mysteriösen Mannes auf Sylvio verbreitete sich wie ein Lauffeuer bis zur You Show Duellschule."
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "Sehr seltsam … War das Yuya? Ich weiß es einfach nicht …"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "neutral",
+      "text": "Da heute Beschwörungen dran sind, können wir bitte was über Xyz-Beschwörungen lernen?"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "neutral",
+      "text": "Nein, leider nicht. Ich kann doch nicht lehren, was ich nicht weiß! Warum? Kennst du jemanden, der sie beherrscht, Zuzu?"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "sad",
+      "text": "Ich bin mir nicht sicher …"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Hey! Die Typen vom Leo beschuldigen Yuya, ihren Kumpel Sylvio in einem Duell verletzt zu haben!"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "surprise",
+      "text": "Yuya?!"
+    },
+    {
+      "char": "yuya",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Ich?!"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "Vielleicht kann ich etwas Licht ins Dunkel bringen."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ich kenne dich … Du bist Henrietta Akaba …"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ja. Die Vorsitzende des Leo Instituts für Duelle. Wir müssen uns unterhalten."
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ich fürchte, wir müssen uns mit den Fakten auseinandersetzen. Und Fakt ist, dass Yuya einen Skandal ausgelöst hat."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "surprise",
+      "text": "Yuya, hast du das wirklich getan?"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "Nein, nein, nein! Warum glaubt mir niemand?"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "neutral",
+      "text": "Gong glaubt dir. Was ist mit euch anderen? Ihr müsst ihm doch auch glauben?"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "sad",
+      "text": "Ich weiß, was meine Augen an jenem Tag sahen … Aber vielleicht habe ich es mir bloß eingebildet …"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "Es ist okay, Zuzu. Sag einfach, was dein Herz dir sagt."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "neutral",
+      "text": "Mein Herz? Mein Herz sagt … Du bist unschuldig!"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Wie süß. Wenn du nicht willst, dass ich die Behörden hinzuziehe, schlage ich vor, dass du dir meinen Vorschlag anhörst."
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "anger",
+      "text": "Yuya hat unseren Schüler zum Narren gehalten! Jetzt geht es um die Ehre! Wir werden sie wiederherstellen … indem unsere Schüler sich duellieren! Wer zwei von drei Matches gewinnt!"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Wenn eure Schule gewinnt, werde ich den Vorfall mit Yuya vergessen."
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Aber wenn wir das Duell gewinnen … dann übernimmt das Leo Institut die You Show Duellschule mit sofortiger Wirkung."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "anger",
+      "text": "Wurde das alles inszeniert, nur um unsere Schule zu übernehmen?"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Nein, natürlich nicht. Aber wenn ich eine Gelegenheit sehe, packe ich sie beim Schopf."
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Bisher wurden an unserem Institut drei ultimative Beschwörungsmethoden gelehrt: Fusion, Synchro und Xyz. Es ist Zeit, die Pendelbeschwörung als vierte hinzuzufügen."
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "sad",
+      "text": "Bei allem gebotenen Respekt, das Potenzial der Pendelbeschwörung wird hier verschwendet."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "Für dich ist das Duellieren wie ein Geschäft! Aber hier glauben wir, dass es ein SHOW-Geschäft ist! Dann ist das Duellieren am mächtigsten – wenn es eingesetzt wird, um Menschen glücklich zu machen!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "Aber wenn du wirklich um den guten Ruf deiner Schule besorgt bist und nur ein Duell ihn wiederherstellen kann, dann ist das okay."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "anger",
+      "text": "Aber es wird ein Duell mit mir sein!"
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "neutral",
+      "text": "Du sprichst Gong aus der Seele, Yuya! Gong meldet sich auch freiwillig für ein Match!"
+    },
+    {
+      "char": "sora",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Aber du bist kein Mitglied der You Show Duellschule."
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "",
+      "image": "surprise",
+      "text": "!"
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Duellieren wir uns!"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "smile",
+      "text": "Deine Schüler scheinen meinen Bedingungen zugestimmt zu haben, aber was sagst du dazu?"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "neutral",
+      "text": "Frau Vorsitzende … Wir haben einen Deal!"
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "gogenzaka",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sora",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "hokuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Die Schüler, die ich vom Leo Institut mitgebracht habe, sind allesamt Klassenbeste. Yuya kriegt es zu tun mit … Dipper!"
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "hokuto",
+      "pos": "",
+      "image": "smile",
+      "text": "Das ist mein Name! Vergiss ihn ja nicht!"
+    },
+    {
+      "char": "hokuto",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "skipboyle",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "Los geht’s! Showtime!"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "name": "WD_JOEY_JoeyWheeler_MaiValentine_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_ind_illusions",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "LEFT",
+      "image": "alternate_sad",
+      "text": "Ich darf nicht verlieren … Ich kann nicht dorthin zurück … Ich habe alles aufgegeben, nur um Gewinner zu sein …"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Hey, Mai?"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_sad",
+      "text": "Darf nicht verlieren … Gehe nicht dorthin zurück … Muss gewinnen …"
+    },
+    {
+      "char": "rafael",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Tja, sie hat den Verstand verloren. Valon! Was machst du denn?!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "valon",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "Mit diesem Fragment des Orichalcos-Steins breche ich das Siegel!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Joey, alles in Ordnung!? Joey!"
+    },
+    {
+      "char": "rafael",
+      "pos": "",
+      "image": "anger",
+      "text": "Was hast du dir bloß dabei gedacht, Valon? Du hast Meister Dartz verraten und deine eigene Seele riskiert! Und du willst mir ernsthaft erzählen, du hast das alles für irgendein Mädchen getan, Valon?"
+    },
+    {
+      "char": "valon",
+      "pos": "",
+      "image": "anger",
+      "text": "Sie ist nicht nur irgendein Mädchen!"
+    },
+    {
+      "char": "rafael",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "valon",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "NONE",
+      "image": "alternate_neutral",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "CENTER",
+      "image": "sad",
+      "text": "Wo ist Mai? Haben diese Dreckskerle sie mitgenommen?"
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Scheint so."
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Ja, sie ist weg."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": "Oh nein … Ich war so nah dran … Ich hole dich zurück, Mai!"
+    }
+  ]
+}

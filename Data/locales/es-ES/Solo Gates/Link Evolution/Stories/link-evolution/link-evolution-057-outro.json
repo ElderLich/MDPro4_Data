@@ -1,0 +1,119 @@
+{
+  "name": "AllDuelHandsonDeck_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_duelacademy",
+      "text": ""
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Esto no puede ser... He hecho todo lo que he podido, ¡pero no ha sido suficiente!"
+    },
+    {
+      "char": "yusho",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Dennis, no seas grosero. La primera regla de un dueltretenedor es saber que te debes al público, especialmente si te está animando."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "neutral",
+      "text": "Un dueltretenedor de verdad no se centra en ganar el Duelo. Un dueltretenedor auténtico se centra en ganarse al público y arrancarle una sonrisa."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "smile",
+      "text": "Dennis, únete a nosotros."
+    },
+    {
+      "char": "yusho",
+      "pos": "",
+      "image": "neutral",
+      "text": "Podemos arreglar la Academia de Duelos juntos, y hacer que el mundo sonría en lugar de asustarse. Así serás un dueltretenedor de verdad."
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "sad",
+      "text": "Después de todas las cosas que he hecho y los amigos que he traicionado... No hay vuelta atrás..."
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "¡Dennis...!"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "neutral",
+      "text": "¡Atrás! Escucha, Kite. Sé dónde está Lulu. Y también una chica llamada Rin que se parece a ella."
+    },
+    {
+      "char": "alexisrhodesarcv",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "¡Esa es a quien buscaba Yugo!"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "neutral",
+      "text": "Hay dos torres enormes en la Academia de Duelos, es imposible equivocarse. Rin está en la torre este, Lulu en la torre oeste."
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "neutral",
+      "text": "Si el profesor supiera que te lo he dicho, ¡me haría caminar sobre una cuerda sin ningún tipo de protección!"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "smile",
+      "text": "Muchas gracias por todo, maestro. Espero que hayan disfrutado el espectáculo."
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Dennis, ¡no lo hagas!"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "CENTER",
+      "image": "smile",
+      "text": "Y ahora es el momento de mi canto del cisne, la gran final, el telón final... En otras palabras, ¡adiós a todos!"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_denniscard",
+      "text": ""
+    },
+    {
+      "char": "yusho",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "¡Dennis!"
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "name": "TheDragonAwakens_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "カーニバルは$R続(つづ)き　カイトは$R弟(おとうと)のハルトを$R訪(たず)ねていた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "LEFT",
+      "image": "",
+      "text": "ハルト…"
+    },
+    {
+      "char": "harttenjo",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "どうだ$R具合(ぐあい)は？"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "ナンバーズは$R着々(ちゃくちゃく)と$R集(あつ)まりつつある"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "もうすぐだ　もうすぐ…"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "お$R前(まえ)の$R病気(びょうき)を$R治(なお)してやれる"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "discouragement",
+      "text": "もう$R少(すこ)しの$R辛抱(しんぼう)だ…　くっ"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "harttenjo",
+      "pos": "",
+      "image": "discouragement",
+      "text": "$R兄(にい)さん…"
+    },
+    {
+      "char": "harttenjo",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R大丈夫(だいじょうぶ)だ…　なんでもない"
+    },
+    {
+      "char": "harttenjo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_night",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R光(ひかり)の$R球体(きゅうたい)に$R包(つつ)まれたハルトは　ハートランドシティの$R街中(まちなか)へと$R逃(に)げ$R込(こ)んだ"
+    },
+    {
+      "char": "harttenjo",
+      "pos": "RIGHT:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R車(くるま)の$R行(い)き$R交(か)う$R大通(おおどお)りで　ハルトは$R遊馬(ゆうま)の$R前(まえ)に$R現(あらわ)れた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "harttenjo",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "あいつは…　カイトの$R弟(おとうと)！？"
+    },
+    {
+      "char": "harttenjo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "torimeadows",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "この$R子(こ)　$R一体(いったい)どこへ$R向(む)かってたのかしら？"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "neutral",
+      "text": "わっかんねえ…　カイトに$R連絡(れんらく)つけようにも　$R奴(やつ)の$R居場所(いばしょ)なんて$R知(し)らねえしな"
+    },
+    {
+      "char": "torimeadows",
+      "pos": "",
+      "image": "discouragement",
+      "text": "カイトって…　その$R人(ひと)に$R会(あ)ったら　$R遊馬(ゆうま)　デュエルをする$R事(こと)になるかもしれないんでしょ？"
+    },
+    {
+      "char": "torimeadows",
+      "pos": "",
+      "image": "discouragement",
+      "text": "もし$R負(ま)けたりしたら？"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "まあ　そん$R時(とき)はそん$R時(とき)さ"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "torimeadows",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R遊馬(ゆうま)はハルトを$R追(お)い　$R謎(なぞ)の$R塔(とう)の$R頂上(ちょうじょう)までやって$R来(き)た"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R塔(とう)の$R頂上(ちょうじょう)で　$R遊馬(ゆうま)とハルトは$RV(ブイ)に$R出(で)くわした"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "",
+      "text": "だ　$R誰(だれ)だお$R前(まえ)？"
+    },
+    {
+      "char": "quinton",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "ハルト$R様(さま)を　$R望(のぞ)む$R者(もの)"
+    },
+    {
+      "char": "harttenjo",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "quinton",
+      "pos": "",
+      "image": "",
+      "text": "ハルト$R様(さま)もまた　$R私(わたし)を$R望(のぞ)んでいるようだ"
+    },
+    {
+      "char": "harttenjo",
+      "pos": "",
+      "image": "",
+      "text": "…"
+    },
+    {
+      "char": "quinton",
+      "pos": "",
+      "image": "",
+      "text": "$R行(い)きましょう"
+    },
+    {
+      "char": "harttenjo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "quinton",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$RV(ブイ)にハルトを$R連(つ)れ$R去(さ)られた$R遊馬(ゆうま)は　ハルトを$R捜(さが)すためカイトの$R力(ちから)を$R借(か)りる$R必要(ひつよう)があった"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "どこだ！　どこにいる！　ハルトはどこにいる！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "な　なんだよ！　ハルトなら$R家(いえ)に$R帰(かえ)したじゃねえか！"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "なんだと！？"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R迎(むか)えが$R来(き)たんだよ！　$R聞(き)いてねえのか？　お$R前(まえ)らの$R仲間(なかま)だろ"
+    },
+    {
+      "char": "orbital7",
+      "pos": "CENTER",
+      "image": "",
+      "text": "スットボケルナ　トンマ！"
+    },
+    {
+      "char": "orbital7",
+      "pos": "",
+      "image": "",
+      "text": "オ$R前(まえ)ガ　ハルト$R様(さま)ヲサラッタンダロ！"
+    },
+    {
+      "char": "orbital7",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "sad",
+      "text": "$R悪(わる)かった"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "sad",
+      "text": "オレがちゃんと$R確(たし)かめもせずハルトを…"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "ハルトは…　あいつは$R病気(びょうき)なんだ"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "$R待(ま)ってくれ　カイト　ハルトを$R連(つ)れて$R行(い)かれたのはオレの$R責任(せきにん)だ　オレもハルトをさがす！"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "お$R前(まえ)には$R関係(かんけい)ない"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "カイト　オレはハルトに$R約束(やくそく)したんだ　$R必(かなら)ずお$R前(まえ)に$R会(あ)わせてやるって"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "discouragement",
+      "text": "…"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R遊馬(ゆうま)とカイトはついに$RV(ブイ)とハルトの$R居場所(いばしょ)を$R突(つ)き$R止(と)めた　$RV(ブイ)は$R兄弟(きょうだい)の$RIV(フォー)　そして$RIII(スリー)と\n$R一緒(いっしょ)だった"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "quattro",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "フハハハハ！　やっと$R会(あ)えたな　カイト！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "お$R前(まえ)は　$RIV(フォー)！"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "anger",
+      "text": "$R貴様(きさま)らがハルトをさらったのか！"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "ハルトはどこだ！"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "",
+      "text": "$R生(い)きてるから$R大丈夫(だいじょうぶ)だよ"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "smile2",
+      "text": "$R今(いま)のところはな"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "",
+      "text": "なんだと！？"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "neutral",
+      "text": "だが　すぐに$R返(かえ)すワケにはいかねえ　$R今(いま)は$R取(と)り$R込(こ)み$R中(ちゅう)でな"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "",
+      "image": "anger",
+      "text": "ハルトに$R危害(きがい)を$R加(くわ)える$R奴(やつ)は　$R絶対(ぜったい)に$R許(ゆる)さない！"
+    },
+    {
+      "char": "quattro",
+      "pos": "",
+      "image": "anger",
+      "text": "そんなに$R弟(おとうと)を$R助(たす)けたいって$R言(い)うなら　オレ$R達(たち)を$R倒(たお)して$R行(い)きな"
+    },
+    {
+      "char": "quattro",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "trey",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "いくぞ！　デュエル！"
+    }
+  ]
+}

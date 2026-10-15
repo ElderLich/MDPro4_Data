@@ -1,0 +1,593 @@
+{
+  "name": "ArenaOfLostSouls_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_duelistkingdom",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Joey kam völlig außer Atem, als er vor Angst wegrannte. Er schaute kurz hinter sich und sah, wie Kaibas Blauäugiger weißer Drache sich auf ihn stürzte. Er wollte schon nach Joey greifen … als Joey aus seinem Albtraum erwachte."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Ein … Traum? Puh! Kaiba, wir werden sehen, wer hier auf der Insel das Sagen hat."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "Leute, wacht auf!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Joey, was ist los mit dir?"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "smile",
+      "text": "Gar nichts! Ein neuer Turniertag beginnt und ich bin ganz heiß auf ein Duell!"
+    },
+    {
+      "char": "yamibakura",
+      "pos": "RIGHT",
+      "image": "ryo_smile",
+      "text": "Okay, okay, aber schrei hier nicht so rum!"
+    },
+    {
+      "char": "yamibakura",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Hey, Leute, was ist das denn für ein Aufruhr?"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "Guten Morgen, Tea."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "neutral",
+      "text": "Wo ist Mai? Ist sie nicht bei dir?"
+    },
+    {
+      "char": "teagardner",
+      "pos": "",
+      "image": "",
+      "text": "Sie hat gesagt, sie muss gehen. Und ich soll dir diese Nachricht geben, Yugi."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Auf dem Zettel stand, dass Mai sich acht von Yugis Sternenmarken „ausgeliehen“ hat."
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "",
+      "image": "sad",
+      "text": "Na, von diesen Sternenmarken kannst du dich wohl verabschieden."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "Ich weiß nicht, vielleicht können wir Mai doch vertrauen."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "smile",
+      "text": "Und wenn nicht, nun, dann haben wir immer noch uns, oder?!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "smile",
+      "text": "Richtig!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "Also gut. Gehen wir!"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ich frage mich, wie viele Duellanten noch auf der Insel sind."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "Gestern haben sie ein paar Dutzend nach Hause geschickt."
+    },
+    {
+      "char": "teagardner",
+      "pos": "",
+      "image": "sad",
+      "text": "Und ich wette, inzwischen wurden noch mehr eliminiert."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "Und einige von ihnen waren wirklich gute Spieler mit mächtigen Karten. Wir könnten die Nächsten sein."
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "",
+      "image": "",
+      "text": "Auf keinen Fall, Yugi! Diese anderen sind nur auf den Preis aus. Du und Joey, euch geht es um viel mehr."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "Das stimmt. Ich muss Großvater vor Pegasus retten, und Joey braucht das Preisgeld, um seiner Schwester zu helfen."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "",
+      "text": "Die Duellanten, auf die wir heute treffen, werden noch stärker sein, weil sie die erste Runde überstanden haben."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "surprise",
+      "text": "Noch stärker?"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "",
+      "image": "smile",
+      "text": "Pass auf, was du sagst, Yugi. Dem kleinen Joey hier schlottern schon die Knie!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "Wie bitte? Hältst du mich etwas für einen ängstlichen kleinen Welpen?"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "",
+      "image": "anger",
+      "text": "Nun, wenn du dir das Halsband anziehst …"
+    },
+    {
+      "char": "teagardner",
+      "pos": "",
+      "image": "anger",
+      "text": "Also gut, hört auf!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "neutral",
+      "text": "Bringt mir einfach einen Duellanten, und ich mache ihn fertig!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "smile",
+      "text": "Richtig so! Du musst nur fest an dich glauben, Joey!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Sie ahnten nicht, dass sie von einem von Bandit Keiths Kumpanen, Bones, beobachtet wurden."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bonz",
+      "pos": "",
+      "image": "",
+      "text": "Ich habe zwei Duellanten gefunden. Einer ist ein absoluter Idiot. Aber der andere ist wirklich nicht von schlechten Eltern."
+    },
+    {
+      "char": "bonz",
+      "pos": "",
+      "image": "",
+      "text": "Er heißt Yugi und ist derjenige, der Kaiba besiegt hat. Alle glauben, er wird es bis in Pegasus’ Schloss schaffen!"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "",
+      "text": "Yugi? Hm … Ja, ich habe von ihm gehört. Er soll ein harter Brocken sein, zumindest, wenn man seinem Ruf Glauben schenkt."
+    },
+    {
+      "char": "bonz",
+      "pos": "",
+      "image": "",
+      "text": "Ja. Wir haben ihn noch nie in einem Duell gesehen. Woher sollen wir wissen, wie gut Yugi wirklich ist?"
+    },
+    {
+      "char": "bonz",
+      "pos": "",
+      "image": "win",
+      "text": "Außer uns geht niemand ins Schloss! Deshalb habe ich mich mit den brillantesten Duellanten auf der ganzen Insel zusammengetan."
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "smile",
+      "text": "Das stimmt. Wenn du dieses Turnier gewinnen willst, musst du cool bleiben und Bandit Keith das Denken überlassen."
+    },
+    {
+      "char": "bonz",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "banditkeith",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "",
+      "text": "(Zu sich selbst) Hörst du, Pegasus? Bald ist die Zeit der Rache gekommen!"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "anger",
+      "text": "(Zu sich selbst) Rache für die Art und Weise, wie du mich bei der Duel Monsters Intercontinental Championship gedemütigt hast."
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "",
+      "text": "(Zu sich selbst) Am Ende ging es nur um dich und mich, und ich hatte dich genau dort, wo ich dich haben wollte!"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "",
+      "text": "(Zu sich selbst) Ich war mir so sicher, dass ich gewinnen würde. Aber du hast einfach nur etwas auf einen Zettel geschrieben und einen Jungen aus dem Publikum gebeten, das Duell für dich zu übernehmen!"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "",
+      "text": "Hey! Was machst du da? Es ist verboten, um Hilfe zu bitten!"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Ich brauche keine Hilfe. Dich könnte auch ein Kind besiegen, Bandit Keith. Und das werde ich beweisen."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Pegasus gab dem Kind den Zettel."
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "",
+      "text": "Befolge einfach diese Anweisungen. Dann wirst du gewinnen."
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "anger",
+      "text": "(Zu sich selbst) Ich wusste nicht, was ich davon halten soll! Hast du nur versucht, mich zu verunsichern? Oder wolltest du kneifen? Aber es spielte keine Rolle, solange ich das Preisgeld bekam."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Nachdem Bandit Keith eine Karte gespielt hatte, schaute das Kind auf den Zettel, befolgte die Anweisungen … und entfernte die restlichen Life Points von Bandit Keith."
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "surprise",
+      "text": "Wie bitte?! Du kleine Rotznase! Du konntest doch in keinem Fall wissen, dass ich diese Karte spielen würde!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Bandit Keith riss dem Kind den Zettel aus der Hand."
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "anger",
+      "text": "Zeig her!"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "surprise",
+      "text": "Hier steht alles … die Karte, die ich spiele … wie man sie schlagen kann … alles! Neiiiiin!"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_duelistkingdom",
+      "text": ""
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "anger",
+      "text": "(Zu sich selbst) Mag sein, dass du mich besiegt hast, Pegasus. Aber du hast geschummelt. Niemand hält Bandit Keith zum Narren!"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Du sagtest, du hast zwei Duellanten gefunden?"
+    },
+    {
+      "char": "bonz",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Ja. Yugi und einen Trottel namens Joey."
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "",
+      "text": "Gut. Wir werden zuerst den Trottel ausschalten."
+    },
+    {
+      "char": "bonz",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "banditkeith",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_pegasuscastle",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Hast du das gehört? Ich glaube, wir werden verfolgt."
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Ich glaube, du wirst ein wenig paranoid, Joey."
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Seit heute Morgen bist du schon so nervös. Was zum Teufel ist mir dir los?"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "surprise",
+      "text": "Ich sag es euch! Jemand verfolgt uns!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Joey rannte in den Wald."
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "",
+      "image": "",
+      "text": "Wo willst du hin?"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "Ich will SIE verfolgen!"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "teagardner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Als Joey durch den Wald wanderte, glaubte er auf einmal, hinter sich etwas zu hören."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Auf einmal wurde ihm schwarz vor Augen, als er bewusstlos geschlagen wurde. Er wachte in einer Höhle wieder auf."
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_duelistkingdom",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Was ist das für ein Ort?"
+    },
+    {
+      "char": "bonz",
+      "pos": "RIGHT",
+      "image": "win",
+      "text": "Willkommen in der Arena der verlorenen Seelen! Gib die Hoffnung auf, denn hier kommt kein Duellant lebend heraus."
+    },
+    {
+      "char": "bonz",
+      "pos": "",
+      "image": "",
+      "text": "Bereite dich auf dein letztes Duell vor! Diese Arena wird dein Friedhof sein."
+    },
+    {
+      "char": "bonz",
+      "pos": "",
+      "image": "",
+      "text": "Du bist von den Geistern der Toten umringt, Joey. Vor deiner Angst gibt es kein Entrinnen!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "Hä? Wer sagt denn, dass ich Angst habe!"
+    },
+    {
+      "char": "bonz",
+      "pos": "",
+      "image": "",
+      "text": "Du kannst die Wahrheit nicht von den Geistern verbergen, Joey. Sie sehen dich vor Angst erstarrt."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "Na gut, ich hatte Angst. Aber nicht wegen des Friedhofs oder deines pseudo-gruseligen Geplappers! Es ist dein widerlicher Anblick, den ich nicht ertrage!"
+    },
+    {
+      "char": "bonz",
+      "pos": "",
+      "image": "",
+      "text": "Grrr! Setz jetzt deine Sternenmarken ein!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "neutral",
+      "text": "Hey, diesem Duell habe ich nie zugestimmt."
+    },
+    {
+      "char": "banditkeith",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Pech gehabt. Du hast keine Wahl, du Trottel."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "sad",
+      "text": "Es muss einen Weg hier raus geben …"
+    },
+    {
+      "char": "banditkeith",
+      "pos": "",
+      "image": "smile",
+      "text": "Du suchst einen Ausweg? Nun, dann gib mir einfach alle deine Sternenmarken und schleich dich wie ein ängstlicher kleiner Welpe."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Joey erinnerte sich an seinen Albtraum mit Kaiba, und ihm ging ein Licht auf."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "Wenn ich jetzt wegrenne, bin ich wirklich ein ängstlicher kleiner Welpe. Ich muss dich also einfach nur besiegen!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "Vier Sternenmarken!"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "neutral",
+      "text": "Duellieren wir uns!"
+    }
+  ]
+}

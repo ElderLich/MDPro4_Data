@@ -1,0 +1,191 @@
+{
+  "name": "TheMasterOfMagicians_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_obelisk_card",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Pendant que le tournoi continuait à Battle City, Marek apprit que la carte Dieu Égyptien qu'il recherchait avait été jouée."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "LEFT",
+      "image": "dark_neutral",
+      "text": ""
+    },
+    {
+      "char": "odion",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_surprise",
+      "text": "Obelisk, le Tourmenteur a été joué?"
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "",
+      "text": "Oui. Il y a quelque temps à Battle City. Et nous avons identifié le propriétaire de la carte."
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "",
+      "text": "Seto Kaiba."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Bien sûr."
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "",
+      "text": "Comment le savez-vous, monsieur?"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "C'est très simple. Ma sœur Shizu conspire contre moi. Elle a donné à Kaiba cette carte pour m'arrêter. J'aurais dû savoir que Shizu était derrière ce tournoi."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Elle a utilisé son Collier du Millénium pour prédire les événements de Battle City. Shizu savait que si elle donnait la carte Obelisk, le Tourmenteur à Kaiba, il organiserait un tournoi par cupidité pour obtenir les autres cartes Dieux Égyptiens."
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "",
+      "text": "Monsieur, dois-je commander à une équipe de Pilleurs de l'Ombre à payer une petite visite à Kaiba?"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Non. Ne rentre pas dans le jeu de Kaiba."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "D'abord, je vais devoir affaiblir le Pharaon."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_anger",
+      "text": "Envoie Arkana détruire Yugi Muto!"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "odion",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Plus tard dans le tournoi de Battle City, un clown bizarre attira Yugi à un repaire secret rempli de machines dangereuses."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "arkana",
+      "pos": "RIGHT",
+      "image": "win",
+      "text": "Bienvenue, Yugi Muto. Je suis l'illusionniste Arkana, et bientôt, ta carte préférée Magicien Sombre fera des duels pour moi!"
+    },
+    {
+      "char": "arkana",
+      "pos": "",
+      "image": "neutral",
+      "text": "Seul un vrai maître de l'illusion mérite la carte Magicien Sombre. Tu ne comprendras jamais son vrai potentiel."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "anger",
+      "text": "Assez, Arkana!"
+    },
+    {
+      "char": "arkana",
+      "pos": "",
+      "image": "win",
+      "text": "Je sais que ce doit être difficile de penser à ta carte préférée dans le deck d'un autre duelliste. Eh bien, je te défie à un duel! Le gagnant prendra la carte Magicien Sombre du perdant!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Et j'accepte. Tu dois savoir que quand un duelliste construit son deck, il choisit ses favoris parmi de nombreux types de cartes."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "smile",
+      "text": "Mais parfois, une carte peut choisir un duelliste! Les deux sont reliés, et le duelliste peut puiser dans le vrai pouvoir de la carte."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Car ils sont chacun liés par le cœur des cartes ... et Magicien Sombre m'a choisi!"
+    },
+    {
+      "char": "arkana",
+      "pos": "",
+      "image": "win",
+      "text": "Assez! Battons nos decks et que le spectacle commence!"
+    }
+  ]
+}

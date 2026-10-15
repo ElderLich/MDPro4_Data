@@ -1,0 +1,65 @@
+{
+  "name": "RiseOfTheSacredBeasts_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_genericoutdoor2",
+      "text": ""
+    },
+    {
+      "char": "kagemaru",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Impossible! The Sacred Beasts cannot be defeated!"
+    },
+    {
+      "char": "kagemaru",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kagemaru",
+      "pos": "FADEIN:RIGHT",
+      "image": "old_neutral",
+      "text": ""
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "What the– Are you ok?"
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "old_discouragement",
+      "text": "It's true. I'm an old man. Wanting simply what every old man wants... To be young again."
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "old_discouragement",
+      "text": "And harnessing the power of those Sacred Beasts was the only way I found to do it."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "Yeah...and to take over the world."
+    },
+    {
+      "char": "kagemaru",
+      "pos": "",
+      "image": "old_discouragement",
+      "text": "Can't you forgive a decrepit old soul?"
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "",
+      "image": "",
+      "text": "Yeah, I guess... But don’t ya see, ol’ timer? Stealing power from something or someone isn’t any way to feel alive again. You’ve gotta find the strength in yourself!"
+    }
+  ]
+}

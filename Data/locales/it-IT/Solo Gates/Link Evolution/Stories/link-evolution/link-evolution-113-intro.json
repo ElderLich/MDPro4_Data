@@ -1,0 +1,233 @@
+{
+  "name": "GX_LEADERS_MaximillionPegasus_VellianCrowler_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_obeliskblue",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Il Dottor Crowler e il Vice Cancelliere Bonaparte sono piombati nell'ufficio del Cancelliere Sheppard vantandosi delle loro vittorie nel torneo GX."
+    },
+    {
+      "char": "bonaparte",
+      "pos": "LEFT",
+      "image": "happy",
+      "text": "Vedi queste medaglie GX? Dimostrano che sono superiore a te sotto ogni aspetto!"
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Fammi il piacere! Come fai a essere superiore a me se non arrivi neanche a premere i pulsanti dell'ascensore?"
+    },
+    {
+      "char": "bonaparte",
+      "pos": "",
+      "image": "anger",
+      "text": "Questo era un colpo basso, Crowler!"
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "",
+      "image": "smile",
+      "text": "L'unico basso qui sei tu! Talmente basso che quasi quasi ti calpesto!"
+    },
+    {
+      "char": "sheppard",
+      "pos": "CENTER",
+      "image": "discouragement",
+      "text": "Uff... Cosa ho fatto per meritarmi questi due pagliacci?"
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "",
+      "image": "anger",
+      "text": "Guarda qua, tappetto! Io almeno non ho vinto le mie medaglie sfidando le reclute!"
+    },
+    {
+      "char": "bonaparte",
+      "pos": "",
+      "image": "happy",
+      "text": "Certo, perché te le avrebbero date di santa ragione! La tua ultima medaglia l'hai vinta da un moccioso di quattro anni!"
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "",
+      "image": "anger2",
+      "text": "Cinque, prego!"
+    },
+    {
+      "char": "sheppard",
+      "pos": "",
+      "image": "anger",
+      "text": "Ora basta! Andate a far perdere tempo a qualcun altro con le vostre scemenze! E fatelo lontano da qui, perché siete espulsi! Non fatevi più rivedere!"
+    },
+    {
+      "char": "sheppard",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bonaparte",
+      "pos": "",
+      "image": "surprise",
+      "text": "Siamo appena stati..."
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "",
+      "image": "surprise",
+      "text": "...licenziati!"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "gx_outsideacademy",
+      "text": ""
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Forza, si torna all'ufficio di collocamento..."
+    },
+    {
+      "char": "bonaparte",
+      "pos": "",
+      "image": "sad",
+      "text": "È un po' come la caduta di Napoleone. La fine di un'era gloriosa."
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bonaparte",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "FADEIN:CENTER",
+      "image": "smile",
+      "text": "Yuuhuu."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "RIGHT_FRONT",
+      "image": "neutral",
+      "text": "Signor Presidente! Qual buon vento? Qualcosa non va?"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "neutral",
+      "text": "Sono qui proprio per scoprirlo. Mi ha chiamato il Cancelliere Sheppard, e sembrava avesse anche una certa fretta."
+    },
+    {
+      "char": "jadenyuki",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "RIGHT_FRONT",
+      "image": "surprise",
+      "text": "È Maximillion Pegasus! Presidente della Industrial Illusions e creatore di Duel Monsters!"
+    },
+    {
+      "char": "bonaparte",
+      "pos": "",
+      "image": "happy",
+      "text": "Forse stanno assumendo! Pare che la sua azienda offra un'assicurazione sanitaria très magnifique!"
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "",
+      "image": "anguish",
+      "text": "Ci assuma!"
+    },
+    {
+      "char": "bonaparte",
+      "pos": "",
+      "image": "surprise",
+      "text": "Siamo disposti a fare qualsiasi cosa! Anche i centralinisti!"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "neutral",
+      "text": "Le assunzioni sono regolate da procedure ben precise. E adesso sparite!"
+    },
+    {
+      "char": "bonaparte",
+      "pos": "",
+      "image": "sad",
+      "text": "Lei non capisce!"
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Siamo disperati, signor Pegasus!"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "neutral",
+      "text": "Sì, si vede. Vi consiglio di presentare regolare domanda di assunzione."
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "anger",
+      "text": "Per l'ultima volta: lasciatemi andare!"
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "",
+      "image": "anguish",
+      "text": "Mai!"
+    },
+    {
+      "char": "bonaparte",
+      "pos": "",
+      "image": "sad",
+      "text": "Non finché non ci avrà assunti!"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "",
+      "text": "E va bene! Siete assunti!"
+    },
+    {
+      "char": "velliancrowler",
+      "pos": "",
+      "image": "smile",
+      "text": "Evviva!"
+    },
+    {
+      "char": "bonaparte",
+      "pos": "",
+      "image": "happy",
+      "text": "Merci beaucoup!"
+    },
+    {
+      "char": "maximillionpegasus",
+      "pos": "",
+      "image": "smile",
+      "text": "Un momento! Prima, per dimostrare che avete la stoffa, dovrete sconfiggermi!"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "name": "WD_JOEY_JoeyWheeler_MaiValentine_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_ind_illusions",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "LEFT",
+      "image": "alternate_sad",
+      "text": "$R嫌(いや)！　あたしは$R負(ま)けない！"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "$R舞(まい)？"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "alternate_sad",
+      "text": "あたしは…　$R勝(か)つんだ…　$R絶対(ぜったい)に！"
+    },
+    {
+      "char": "rafael",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "このままではまずいな…　ヴァロン！？"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "classic_seal",
+      "text": ""
+    },
+    {
+      "char": "valon",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "オレイカルコスよ　その$R力(ちから)を$R解放(かいほう)せよ！"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "$R城之内(じょうのうち)くん！"
+    },
+    {
+      "char": "rafael",
+      "pos": "",
+      "image": "anger",
+      "text": "オレイカルコスの$R加護(かご)を$R受(う)けている$R我々(われわれ)と$R言(い)えど　$R結界(けっかい)をムリに$R解除(かいじょ)するなど…　$R下手(へた)を\nすると$R命(いのち)はないんだぞ！"
+    },
+    {
+      "char": "valon",
+      "pos": "",
+      "image": "anger",
+      "text": "だからってあのまま$R続(つづ)けさせるわけにはいかないだろうが！"
+    },
+    {
+      "char": "rafael",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "valon",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "maivalentine",
+      "pos": "NONE",
+      "image": "alternate_neutral",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "CENTER",
+      "image": "sad",
+      "text": "$R舞(まい)は？　$R舞(まい)はどうした！？"
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "それが…"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "$R消(き)えちまった"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": "そんな…　ちくしょう！　$R舞(まい)！"
+    }
+  ]
+}

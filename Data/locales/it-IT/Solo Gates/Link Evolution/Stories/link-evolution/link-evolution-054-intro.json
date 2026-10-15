@@ -1,0 +1,179 @@
+{
+  "name": "RushtoRevenge_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_heartlandcity",
+      "text": ""
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yuya e i Lancieri furono teletrasportati alla città di Heartland nella Dimensione Xyz. Ben presto si imbatterono in Kite Tenjo, impegnato a combattere contro la Forza Obelisk."
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "La gente di Heartland viveva in pace... fino al giorno in cui l'Accademia dei Duelli fece irruzione!"
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "Cominciarono l'invasione dalla Dimensione Fusione senza preavviso. Un'invasione che era stata pianificata dal Professore, il capo dell'Accademia dei Duelli."
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "Il giorno in cui la città di Heartland cadde, perdemmo famiglia, amici... tutto quanto..."
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "anger",
+      "text": "Ma io continuerò a combattere e l'Accademia dei Duelli la pagherà cara per ciò che ha fatto alla mia patria!"
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "",
+      "image": "anger",
+      "text": "Gah!"
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "arcv_obeliskforcecard",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Li hai trasformati in 3 carte... come hai potuto?"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "arcv_obeliskforcecard",
+      "text": ""
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "Se lo sono meritato. Chi appartiene all'Accademia dei Duelli è un mio nemico!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "Neanche il peggior nemico merita di avere un trattamento del genere! Come puoi pensare di intrappolare qualcuno in una carta? È orribile!"
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "Non so chi siete e non mi interessa saperlo. Tanto è vero che adesso mi libererò subito di voi in blocco."
+    },
+    {
+      "char": "yuto",
+      "pos": "LEFT:FADEIN",
+      "image": "neutral",
+      "text": "Kite Tenjo, uno dei migliori, se non IL migliore, in tutta Heartland."
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "Ma ora sembra diventato un'altra persona. Il Kite che conoscevo io era sempre sorridente. Ora avverto solo rabbia... Una rabbia così potente che lo sta consumando completamente."
+    },
+    {
+      "char": "yuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "anger",
+      "text": "Hai il coraggio di opporti a me? Devi essere dell'Accademia dei Duelli!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "No, ti do la mia parola!"
+    },
+    {
+      "char": "yuto",
+      "pos": "LEFT:FADEIN",
+      "image": "neutral",
+      "text": "Yuya, per favore, ascoltami. Quando hai duellato con Jack Atlas, durante la battaglia tu sei stato capace di farlo ragionare."
+    },
+    {
+      "char": "yuto",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ma se ci sei riuscito è perché entrambi volevate raggiungere lo stesso obiettivo."
+    },
+    {
+      "char": "yuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "Lo stesso obiettivo?"
+    },
+    {
+      "char": "yuto",
+      "pos": "LEFT:FADEIN",
+      "image": "neutral",
+      "text": "Sì. Volevate che a Nuova Città di Domino trionfasse la pace. Kite, invece, è mosso dalla rabbia e non lotta per la pace. Lui combatte per vendicarsi. E questo rende impossibile qualsiasi dialogo."
+    },
+    {
+      "char": "yuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "Rammenti quello che mi hai detto? \"Usa la tua energia per intrattenere le persone e... farle sorridere.\" È esattamente quello che intendo fare. Quindi, per favore Yuto, mettiti comodo e goditi lo spettacolo!"
+    },
+    {
+      "char": "kitetenjoarcv",
+      "pos": "",
+      "image": "neutral",
+      "text": "Duelliamo!"
+    }
+  ]
+}

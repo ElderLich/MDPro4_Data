@@ -1,0 +1,155 @@
+{
+  "name": "ForeverZEXAL_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_school",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "$R見事(みごと)だったよ　$R遊馬(ゆうま)…"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "neutral",
+      "text": "アストラル…　$R初(はじ)めっからバリアン$R世界(せかい)を$R滅(ほろ)ぼすつもりなんか　$R無(な)かったんだろ　$R別(わか)れの$R時(とき)が\nきたら　オレが$R悲(かな)しむって$R知(し)ってたからわざわざウソをついて…"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "discouragement",
+      "text": "$R憎(にく)まれ$R役(やく)を$R買(か)って$R出(で)れば　$R誰(だれ)も$R悔(く)いのないようこの$R世界(せかい)を$R去(さ)れると$R思(おも)っていたが…　\n$R君(きみ)には$R見透(みす)かされていたか"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "アストラル…"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "sad",
+      "text": "わかってる　$R絶対(ぜったい)$R泣(な)かねえ！"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "smile",
+      "text": "$R私(わたし)は$R君(きみ)の$R笑顔(えがお)が$R大好(だいす)きだった　$R忘(わす)れないでほしい…　その$R笑顔(えがお)を…　かっとビングを"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "neutral",
+      "text": "アストラル！　$R忘(わす)れねえ　お$R前(まえ)の$R事(こと)…　$R絶対(ぜったい)$R忘(わす)れねえええ！"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "smile",
+      "text": "$R私(わたし)も$R決(けっ)して$R忘(わす)れない　$R遊馬(ゆうま)！"
+    },
+    {
+      "char": "astral",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "その$R翌日(よくじつ)　$R遊馬(ゆうま)は$R学校(がっこう)で$R仲間(なかま)たちと$R会(あ)った　$R全(すべ)てはいつも$R通(どお)りに$R戻(もど)った　ただしそこには　\nアストラルの$R姿(すがた)はなかった…"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "アストラルはヌメロン・コードを$R使(つか)って　バリアンの$R七皇(ななこう)を$R人間(にんげん)の$R姿(すがた)に$R戻(もど)したのだ"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "こうしてオレの$R闘(たたか)いは$R終(お)わり　いつもの$R生活(せいかつ)が$R戻(もど)ってきた　ただ$R一(ひと)つ…　あいつがいない$R事(こと)を\n$R除(のぞ)けば"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "zexal_kingskey",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "これは…　$R皇(おう)の$R鍵(かぎ)が$R光(ひか)ってる！？"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "zexal_kingskey",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "いつまでしょぼくれていやがる　$R遊馬(ゆうま)！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "シャーク　カイト…　みんな！"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "アストラル$R世界(せかい)に$R新(あら)たな$R危機(きき)が$R迫(せま)っている"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "なんだって　アストラルが！？"
+    },
+    {
+      "char": "kitetenjo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "smile",
+      "text": "ほら　もたもたすんなよ！　$R行(い)こうぜ！"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "smile",
+      "text": "$R待(ま)ってろよ　アストラル！　かっとビングだ　オレ！！"
+    }
+  ]
+}

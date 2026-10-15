@@ -1,0 +1,101 @@
+{
+  "name": "SearchForShadowsPart3_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_barian",
+      "text": ""
+    },
+    {
+      "char": "rayshadows",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "Yuma..."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Ray?"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "Ray, are you okay?"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "",
+      "text": "I'm more than just okay."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "Ray, what's wrong with you?"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "",
+      "text": "Why, nothing's wrong, Yuma. Nothing at all."
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "anger",
+      "text": "Go Barian Battlemorph!"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "vector",
+      "pos": "RIGHT:FADEIN",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Vector!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "So you disguised yourself as Ray? What did you do with the real Ray, Vector?"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "The real Ray? You mean you still don't get it?"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "I'm Vector, and I'm your little friend Ray too."
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "smile",
+      "text": "The Vector you dueled before was my clone!"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "smile",
+      "text": "The whole time, I, the real Vector, took the form of your very good friend Ray Shadows."
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "name": "ObeliskAssault_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_arcleaguechampionship",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Tandis que le championnat de la ligue ARC continue, Declan se retrouve nez à nez avec une fille ressemblant comme deux gouttes d'eau à Zuzu."
+    },
+    {
+      "char": "declanakaba",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Alors, tu es Séléna… et non pas Zuzu Boyle."
+    },
+    {
+      "char": "celina",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Zuzu... qui ?"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Personne. C'est juste une fille à qui tu ressembles beaucoup."
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "neutral",
+      "text": "Alors, qu'est-ce qu'il y a ?"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Nous nous sommes déjà rencontrés. Je suis Declan Akaba. Le fils de Léo Akaba. Nous nous sommes rencontrés dans la dimension Fusion."
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Tu étais la duelliste que mon père considérait comme la plus prometteuse. T'a-t-il envoyée ici en éclaireuse pour préparer l'invasion à venir ?"
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "anger",
+      "text": "Personne ne m'a envoyée ici ! Je vais où je veux et quand je veux. Je ne réponds aux ordres de personne !"
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "J'ai consacré ma vie à une seule cause... Empêcher mon père d'envahir les autres dimensions pour créer un seul monde suprême."
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "smile",
+      "text": "Je rassemble des duellistes capables de m'aider à défendre notre dimension contre Léo Akaba. Je voudrais que tu nous rejoignes, Séléna."
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ne compte pas sur moi. Je suis venue ici dans l'unique but de ramener ceux qui se sont enfuis de la dimension Xyz."
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ce n'est peut-être pas Léo Akaba qui t'a envoyée ici, mais sois sûre d'une chose. Si tu n'es pas avec moi, alors tu es contre moi."
+    },
+    {
+      "char": "celina",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Le premier tour du Championnat de la Ligue ARC Junior est terminé et le tournoi se poursuit en Bataille royale."
+    },
+    {
+      "char": "nico",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "Pour ce prochain tour, les duellistes s'affronteront dans toute la ville !"
+    },
+    {
+      "char": "nico",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Bravo, Declan. Ainsi, le public ne verra pas la différence entre les affrontements sportifs et les combats contre les forces de Léo."
+    },
+    {
+      "char": "declanakaba",
+      "pos": "",
+      "image": "",
+      "text": "Oui. Comme ça, on évitera tout mouvement de panique. Sauf peut-être de la part de notre ennemi quand il comprendra le sort que nous lui réservons."
+    },
+    {
+      "char": "rileyakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "henriettaakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "declanakaba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_paradisecity",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Dennis McField, un autre duelliste du Championnat de la Ligue ARC Junior, affronte Zuzu en duel."
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Bonjour ! Je ne me suis pas présenté. Je m'appelle Dennis McField. On pourrait s'affronter en duel pour apprendre à se connaître et devenir amis. Qu'en penses-tu, Zuzu ?"
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Comment sais-tu qui je suis ?"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "smile",
+      "text": "Mon rêve le plus cher est de devenir le plus grand duel-artiste. Évidemment, j'ai entendu parler de l'école You Show et de la charmante duelliste qui étudie là-bas."
+    },
+    {
+      "char": "celina",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": "Il n'y aura pas d'autres duels ! Ce prochain duel sera le dernier !"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "surprise",
+      "text": "J'ignorais que tu avais une sœur jumelle !"
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "surprise",
+      "text": "C'est vrai qu'elle me ressemble. Tu dois être Lulu. Moi c'est Zuzu."
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "neutral",
+      "text": "J'en ai rien à faire de toi. Je viens m'occuper de ce fugitif Xyz."
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "surprise",
+      "text": "Fugitif Xyz ? Qu'est-ce que tu veux dire par là ?"
+    },
+    {
+      "char": "celina",
+      "pos": "",
+      "image": "anger",
+      "text": "Pas la peine de jouer les innocents ! Je suis venue te neutraliser ! En garde !"
+    },
+    {
+      "char": "dennismacfield",
+      "pos": "",
+      "image": "neutral",
+      "text": "Visiblement, cette jeune fille me prend pour quelqu'un d'autre. Mais un duel-artiste relève toujours le défi pour divertir son public !"
+    }
+  ]
+}

@@ -1,0 +1,707 @@
+{
+  "name": "SupersensoryShakedown_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_satellite",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "フォーチュンカップが$R終(お)わって$R間(ま)もない$R頃(ころ)　$R遊星(ゆうせい)は「ダークシグナー」と$R名乗(なの)る$R男(おとこ)とデュエルを\nしていた"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R敵(てき)を$R倒(たお)した$R遊星(ゆうせい)は$R話(はなし)を$R聞(き)こうとしたが　その$R男(おとこ)には　それまでの$R記憶(きおく)がなかった"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R男(おとこ)は$R洗脳(せんのう)のような$R何(なに)かでコントロールされていたようだ　しかし$R遊星(ゆうせい)が$R新聞(しんぶん)$R記者(きしゃ)の\nカーリー$R渚(なぎさ)と$R出会(であ)ったのはこの$R時(とき)だった"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "RIGHT",
+      "image": "glasses_smile",
+      "text": "わ　$R私(わたし)は$R新聞記者(しんぶんきしゃ)のカーリー！　ええっと…"
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "glasses_surprise",
+      "text": "い　$R今(いま)のデュエルですけど　いったい$R何(なに)が$R起(お)こってたんですか？　$R実際(じっさい)に$R爆風(ばくふう)が\n$R起(お)こったりとか…"
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "glasses_discouragement",
+      "text": "えっ！？　セキュリティ！"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R今(いま)のデュエルを$R嗅(か)ぎつけたらしいな"
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "glasses_surprise",
+      "text": "えっ…　あっ…　ちょ　ちょっと$R待(ま)って！　まだ$R取材(しゅざい)の$R途中(とちゅう)…"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "あとは$R任(まか)せた"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "その$R後(あと)　$R遊星(ゆうせい)はダークシグナーの$R真相(しんそう)を$R確(たし)かめるため　レクス・ゴドウィンと$R会(あ)った"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "$R遊星(ゆうせい)　$R君(きみ)に$R真実(しんじつ)を$R教(おし)えよう"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "5ds_signermark_yusei",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "お$R前(まえ)の$R言(い)う$R真実(しんじつ)とはこれか？"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "そう　$R五千年(ごせんねん)に$R亘(わた)る$R赤(あか)き$R竜(りゅう)の$R伝説(でんせつ)"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "5ds_signermark_yusei",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "この$R世界(せかい)には　$R信(しん)じられないような$R不可思議(ふかしぎ)な$R運命(うんめい)が$R眠(ねむ)っているのです"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "$R遊星(ゆうせい)　$R君(きみ)も$R出会(であ)ったのでしょう　$R未知(みち)なる$R力(ちから)をもつデュエリスト　ダークシグナーに"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "ダークシグナーを$R知(し)っているのか！？　$R蜘蛛(くも)の$R痣(あざ)を$R持(も)った$R男(おとこ)を！"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "$R五千年前(ごせんねんまえ)の$R戦(たたか)いで$R我(われ)ら$R星(ほし)の$R民(たみ)は$R赤(あか)き$R竜(りゅう)の$R加護(かご)の$R下(もと)　そのしもべたる$R五体(ごたい)の$R竜(りゅう)の$R力(ちから)を$R借(か)りて\n$R邪神(じゃしん)をナスカの$R地(ち)に$R封印(ふういん)し　$R冥界(めいかい)の$R扉(とびら)を$R閉(と)じたのです　その$R後(あと)　$R赤(あか)き$R竜(りゅう)は$R五(いつ)つに$R分(わ)けられ\n$R人間界(にんげんかい)に$R封印(ふういん)されたのです"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "ダークシグナーが$R現(あらわ)れるとき　$R冥界(めいかい)の$R扉(とびら)は$R開(ひら)かれる　$R五千年(ごせんねん)の$R時(とき)を$R経(へ)て　ダークシグナーの\n$R封印(ふういん)は$R弱(よわ)まっています"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "$R冥界(めいかい)の$R扉(とびら)を$R閉(と)じるには　$R門番(もんばん)であるダークシグナーを$R倒(たお)さなければなりません　そのために\n$R私(わたし)はフォーチュンカップを$R開催(かいさい)し　シグナーたちの$R力(ちから)を$R呼(よ)び$R覚(さ)ましました"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "もし　ダークシグナーとの$R闘(たたか)いに$R負(ま)けたら？"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "$R世界(せかい)は$R変(か)わるでしょう　$R黄泉(よみ)の$R国(くに)の$R法則(ほうそく)に$R従(したが)った　$R我々(われわれ)が$R地獄(じごく)と$R呼(よ)ぶ$R世界(せかい)に"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "ゴドウィンとの$R会話(かいわ)の$R後(あと)　$R遊星(ゆうせい)はダークシグナーを$R探(さが)す$R目的(もくてき)で　サテライトに$R派遣(はけん)された"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "そこで　かつての$R仲間(なかま)と$R出会(であ)った"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "RIGHT",
+      "image": "laughter",
+      "text": "$R遊星(ゆうせい)！"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "クロウ！"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "$R久(ひさ)しぶりだな！"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "laughter",
+      "text": "$R帰(かえ)ってきやがったか！"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "",
+      "text": "ヘリが$R見(み)えたんで$R来(き)てみたが　まさかお$R前(まえ)が$R乗(の)っていたとはな　しかもマーカー$R付(つ)きかよ"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "まあな　ラリーたちの$R安全(あんぜん)を$R確認(かくにん)しにきた"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "やけに$R人(ひと)が$R少(すく)ないようだが…"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R最近(さいきん)おかしな$R連中(れんちゅう)が$R現(あらわ)れてな　$R見(み)ろよ"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "discouragement",
+      "text": "あちこちで$R胡散臭(うさんくさ)い$R教(おし)えを$R吹(ふ)き$R込(こ)んでは　$R住人(じゅうにん)たちをサテライトの$R奥(おく)に$R集(あつ)めてるって$R噂(うわさ)だ…\n$R妙(みょう)な$R具合(ぐあい)になってきたぜ　サテライトもよ"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "サテライトの$R奥(おく)？"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R間(ま)もなくして　クロウと$R遊星(ゆうせい)はダークシグナーと$R対面(たいめん)した"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "CENTER",
+      "image": "discouragement",
+      "text": ""
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "RIGHT",
+      "image": "dark_smile",
+      "text": "$R遊星(ゆうせ)ぇ！"
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_smile",
+      "text": "クロウも$R一緒(いっしょ)か！　フフッ　オレがどれほどこの$R時(とき)を$R待(ま)ったか　お$R前達(まえたち)にはわかるまい"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R鬼柳(きりゅう)！？　$R生(い)きていたのか　$R鬼柳(きりゅう)$R京介(きょうすけ)っ！"
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "$R遊星(ゆうせい)　オレは$R貴様(きさま)のおかげで$R地獄(じごく)を$R見(み)て$R来(き)た　$R貴様(きさま)にはこの$R恨(うら)みを$R嫌(いや)と$R言(い)うほど$R味(あじ)わわせて\nやろう！"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R鬼柳(きりゅう)…　$R何故(なぜ)お$R前(まえ)がダークシグナーに！？"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "お$R前(まえ)がサテライトを$R滅(ほろ)ぼす$R者(もの)だというのか！"
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_goodnightssleep",
+      "text": "$R確(たし)かめてみるかぁ？"
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_smile",
+      "text": "ヒャッヒャッヒャ！　ここで$R貴様(きさま)との$R因縁(いんねん)に$R決着(けっちゃく)をつけてやる　これがシグナーと\nダークシグナーの$R闘(たたか)うフィールドだ！"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "ダークシグナー…　まさか　これが$R五千年前(ごせんねんまえ)に$R行(おこな)われていた$R古(いにしえ)の$R戦(たたか)い…"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_smile",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_satellite",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anguish",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "デュエルの$R最中(さいちゅう)に$R鬼柳(きりゅう)は「$R地縛神(じばくしん)　$RＣｃａｐａｃ(コカパク)　$RＡｐｕ(アプ)」を$R召喚(しょうかん)し　$R地縛神(じばくしん)は$R周辺(しゅうへん)にいる$R全(すべ)ての\n$R人間(にんげん)の$R魂(たましい)を$R吸収(きゅうしゅう)してしまった"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R鬼柳(きりゅう)はこの$R地縛神(じばくしん)を$R使(つか)って　$R遊星(ゆうせい)を$R追(お)い$R詰(つ)めた　$R遊星(ゆうせい)の$R仲間(なかま)は$R遊星(ゆうせい)のもとへと$R駆(か)け$R寄(よ)った"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_citysquare",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R一方(いっぽう)で　$R龍可(るか)と$R龍亞(るあ)はダークシグナーを$R止(と)める$R次(つぎ)の$R手(て)を$R考(かんが)えていた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "オレが$R五人目(ごにんめ)のシグナーなんだから　もっとしっかりしなくちゃ　どんなことがあっても$R龍可(るか)の\nことを$R守(まも)ってやらなきゃいけないんだ！"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "$R邪神達(じゃしんたち)と$R戦(たたか)う$R赤(あか)き$R竜(りゅう)って…　つまりシグナーの$R人(ひと)たちは$R全員(ぜんいん)$R仲間(なかま)ってこと？"
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "そういうことになるのう"
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "",
+      "image": "smile",
+      "text": "あんちゃんとジャック　それに$R龍可(るか)ちゃんとアキって$R姉(ねえ)ちゃんか"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "オレもだって！"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "ありえんな　$R十六夜(いざよい)アキが$R仲間(なかま)ならアルカディア・ムーブメントも$R仲間(なかま)ってことになる"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "",
+      "text": "いい$R噂(うわさ)は$R聞(き)かない　なんでもサイコデュエリストを$R集(あつ)めて$R怪(あや)しげな$R研究(けんきゅう)をしているって$R話(はなし)だ"
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "",
+      "image": "neutral",
+      "text": "サイコデュエリストか…　$R希(まれ)にそんな$R能力(のうりょく)を$R持(も)ったデュエリストが$R生(う)まれてくると$R聞(き)いたことが\nあるのう"
+    },
+    {
+      "char": "luna",
+      "pos": "LEFT",
+      "image": "discouragement",
+      "text": "どうしてアキさんはそんなところに？"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "",
+      "text": "さあな　$R何(なに)か$R事情(じじょう)があるのかもしれん"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "discouragement",
+      "text": "ねえねえ　オレたちでアキお$R姉(ねえ)ちゃんに$R協力(きょうりょく)してくれるよう$R頼(たの)んでみようよ"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "anger",
+      "text": "$R変(へん)なことしてるっていうのは　$R全部(ぜんぶ)$R噂(うわさ)なんでしょ"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "$R最初(さいしょ)から$R疑(うたが)ってかかる$R必要(ひつよう)ないんじゃない？"
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bolttanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R一方(いっぽう)　$R龍亞(るあ)　$R龍可(るか)　$R氷室(ひむろ)　$R矢薙(やなぎ)は　アキの$R助(たす)けを$R得(え)るためアルカディア・ムーブメント$R本部(ほんぶ)へと\n$R向(む)かった"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sayer",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "$R面白(おもしろ)い$R話(はなし)ですね"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "",
+      "text": "そのダークシグナーと$R呼(よ)ばれる$R連中(れんちゅう)　このネオ$R童実野(どみの)シティを$R狙(ねら)っていると？"
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "そう　そいつらと$R戦(たたか)うためにシグナーがいるんだ　だからアキ$R姉(ねえ)ちゃんに$R力(ちから)を$R貸(か)して$R欲(ほ)しいんだ"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "きっと$R同(おな)じ$R痣(あざ)を$R持(も)っているお$R姉(ねえ)ちゃんなら　$R遊星(ゆうせい)を$R助(たす)けられるよ"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "neutral",
+      "text": "いいでしょう　$R我々(われわれ)の$R力(ちから)を$R全面的(ぜんめんてき)にお$R貸(か)ししましょう"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "shy",
+      "text": "ほんと！？"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile1",
+      "text": "アルカディア・ムーブメントは$R純粋(じゅんすい)にサイコデュエルの$R研究(けんきゅう)を$R行(おこな)っているのですが…　$R最近(さいきん)は\n$R変(へん)な$R噂(うわさ)を$R立(た)てられて$R困(こま)っていまして　$R我々(われわれ)が$R皆(みな)さんのお$R役(やく)に$R立(た)てるなら$R喜(よろこ)んで"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "やった！"
+    },
+    {
+      "char": "luna",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "よかった～"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "neutral",
+      "text": "そうだ　$R彼女(かのじょ)を$R呼(よ)びましょう　すぐに$R戻(もど)ります　$R失礼(しつれい)"
+    },
+    {
+      "char": "sayer",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bolttanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "しかし　これは$R全(すべ)てディヴァインの$R罠(わな)であった　ディヴァインの$R目的(もくてき)は　$R龍亞(るあ)が$R龍可(るか)と$R同様(どうよう)の\n$R力(ちから)を$R持(も)っているのかどうか　$R試(ため)すことだった"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "なんだよこれ！　オレをどうするつもりだよ！？"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R龍可(るか)ちゃんには$R精霊(せいれい)と$R話(はな)すことができる$R不思議(ふしぎ)な$R能力(のうりょく)がある　$R双子(ふたご)である$R君(きみ)にも$R何(なに)か\n$R能力(のうりょく)が$R眠(ねむ)っているかもしれない　だからおじさんがテストしてやる"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "それじゃあ$R協力(きょうりょく)して　ダークシグナーと$R闘(たたか)うってのは$R嘘(うそ)なのかよ！"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile2",
+      "text": "$R残念(ざんねん)だが　ダークシグナーなんかにはなんの$R興味(きょうみ)もないんだ"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "なんなんだよ　アルカディア・ムーブメントって！"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile1",
+      "text": "おじさんはね　サイコデュエリストは$R鍛(きた)えれば$R立派(りっぱ)な$R兵士(へいし)になると$R思(おも)っているんだ"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile2",
+      "text": "デュエルを$R使(つか)ってサイコデュエリストたちの$R力(ちから)を$R増幅(ぞうふく)させ　$R兵士(へいし)として$R貸(か)し$R出(だ)すのさ"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile1",
+      "text": "$R彼(かれ)らは$R活躍(かつやく)をするだろう　そしてやがて$R世界(せかい)を$R動(うご)かすのはサイコデュエリスト$R達(たち)になる\nどうだい？　おもしろいだろ　これが$R我々(われわれ)が$R受(う)けてきた$R差別(さべつ)に$R対(たい)する$R世(よ)の$R中(なか)への$R復讐(ふくしゅう)だ"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "デュエルを$R戦争(せんそう)に$R使(つか)おうなんて！　アキ$R姉(ねえ)ちゃんもそれを$R知(し)ってて…"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile2",
+      "text": "$R残念(ざんねん)だが$R彼女(かのじょ)はまだ$R知(し)らない　さあ　$R君(きみ)のテストを$R始(はじ)めよう"
+    }
+  ]
+}

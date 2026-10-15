@@ -1,0 +1,521 @@
+{
+  "name": "MarkOfTheMonkey_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_shadowrealm",
+      "text": ""
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "CENTER",
+      "image": "anguish",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Mentre Carly cadeva dal tetto dell'edificio del Movimento Arcadia, fu assorbita da una nebbia viola e scomparve."
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Poco dopo, la terra cominciò a tremare. Carly riapparve come un Predestinato Oscuro."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_citysquare",
+      "text": ""
+    },
+    {
+      "char": "sayer",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Vattene dal mio palazzo!"
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "dark_smile",
+      "text": "Ma io sono qui per chiederti una rivincita, Sayer."
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "surprise",
+      "text": "Devo avere le allucinazioni... Sei tu, Carly?"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "surprise",
+      "text": "Ma sei caduta!"
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "dark_smile",
+      "text": "I Predestinati Oscuri stanno reclutando attivamente i duellanti per la loro causa, ed hanno scelto la sottoscritta."
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "dark_anger",
+      "text": "Sono cattive notizie per te."
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "NONE",
+      "image": "dark_neutral",
+      "text": ""
+    },
+    {
+      "char": "sayer",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Sayer e Carly iniziarono un duello ombra, e una serie di scosse continuarò a far tremare l'edificio del Movimento Arcadia."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Sayer fu sconfitto dal Predestinato Oscuro Carly e cadde dalla cima del quartier generale del Movimento Arcadia."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Durante la battaglia, l'Immortale Terrestre Aslla piscu fu evocato ed iniziò a distruggere l'intero edificio."
+    },
+    {
+      "char": "bolttanner",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Fortunatamente, Leo, Luna, Bolt e Tenzen usarono quest'opportunità per sfuggire dalla sede di Arcadia."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "",
+      "image": "smile",
+      "text": "Luna!"
+    },
+    {
+      "char": "luna",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Come avete fatto a trovarmi?"
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Questa è l'ottava porta che Bolt ha buttato giù!"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "anger",
+      "text": "Ho bisogno di rompere questo vetro per raggiungere Leo!"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "anger",
+      "text": "Leo! Tutto bene?"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "anguish",
+      "text": "Dov'è Luna? Sta bene?"
+    },
+    {
+      "char": "luna",
+      "pos": "",
+      "image": "neutral",
+      "text": "Sono proprio di fronte a te, Leo."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "discouragement2",
+      "text": "Sono così felice che tu sia al sicuro!"
+    },
+    {
+      "char": "luna",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "Non che io sia indifesa senza di te."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Quindi, uh... che cosa sto facendo in questa stanza?"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "neutral",
+      "text": "Non lo so, ma parliamone qualche altra volta."
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Il che significa \"andiamocene fuori di qui!\""
+    },
+    {
+      "char": "bolttanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Akiza riuscì a sfuggire dall'edificio con il resto degli amici di Yusei."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "E l'Immortale Terrestre scomparve insieme al Predestinato Oscuro."
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Altrove a Nuova Domino, il nuovo detenuto Greiger ricevette un soccorso sorprendente."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "greiger",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Eh? Tu chi sei?"
+    },
+    {
+      "char": "devack",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Il mio nome è Devack."
+    },
+    {
+      "char": "devack",
+      "pos": "",
+      "image": "neutral",
+      "text": "So che cosa Goodwin ti ha costretto a fare, Greiger. E quello che ha fatto al tuo villaggio."
+    },
+    {
+      "char": "devack",
+      "pos": "",
+      "image": "",
+      "text": "So che sei arrabbiato e so che vuoi vendicarti. Posso aiutarti a ottenere la tua vendetta."
+    },
+    {
+      "char": "devack",
+      "pos": "",
+      "image": "smile",
+      "text": "Vieni con me."
+    },
+    {
+      "char": "devack",
+      "pos": "NONE",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "greiger",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Nel frattempo, Yusei Fudo e il resto dei Predestinati s'incontrarono con Goodwin per discutere i recenti avvenimenti."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Permettetemi di darvi una lezione di storia. Migliaia di anni fa, una guerra enorme fu combattuta nella quale il Drago Cremisi sconfisse l'Esercito delle Ombre."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Per paura che le Ombre tornassero a distruggere il mondo, il Drago Cremisi le rinchiuse sottoterra."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Dei simboli magici furono scolpiti nella terra, intrappolando la loro essenza per millenni."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Col tempo, le Ombre furono dimenticate e la loro prigione divenne una destinazione turistica conosciuta come le Linee di Nazca."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Ma le Ombre non erano disposte a rimanere sconfitte. Volevano vendicarsi, e ora stanno ricevendo aiuto dai Predestinati Oscuri."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Credo che alcuni di voi abbiano già visto i mostri pericolosi dei Predestinati Oscuri in prima persona."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Ti riferisci agli Immortali Terrestri."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Sì. La loro forza è sconcertante perché contengono il potere dell'Esercito delle Ombre."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": "L'abbiamo capito! Sono malvagi! Distruggiamoli!"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Il nostro compito va ben oltre che eliminare un nemico. Si tratta di un'operazione di salvataggio per tutti quei poveracci che sono stati corrotti dal potere delle tenebre."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_satellite",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Dopo aver parlato con Goodwin, il gruppo dei Predestinati si diresse a Satellite per fermare i Predestinati Oscuri."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Il team dei Predestinati si divise, ciascuno pronto a combattere un Predestinato Oscuro, ognuno con le proprie motivazioni."
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "CENTER",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "devack",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Il Predestinato Oscuro Devack aveva preso l'Antico Drago Fatato tenendolo lontano dalla portata di Luna."
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Nel tentativo di trovare e salvare il suo Antico Drago Fatato, Luna si trasportò nel mondo degli spiriti."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Mentre Leo cercava Luna, incontrò Devack e un duello contro il Predestinato Oscuro iniziò."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "devack",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Tu chi sei? Non sei un Predestinato. Che cosa ci fai qui?"
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Sono qui per duellare con te! Ma solo se pensi di essere abbastanza forte da battermi!"
+    },
+    {
+      "char": "devack",
+      "pos": "",
+      "image": "anger",
+      "text": "Stai scherzando? Dov'è la bambina? Perché non è qui? Le ho detto di venire qui."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "anger",
+      "text": "Beh, lei è occupata! Dovrai duellare con me, tizio!"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "anger",
+      "text": "Non sarò un Predestinato, ma questo non significa che non posso utilizzare un deck al massimo della sua potenza!"
+    },
+    {
+      "char": "devack",
+      "pos": "",
+      "image": "",
+      "text": "Applaudo il tuo entusiasmo. Ma temo che tu non abbia il potere necessario per sconfiggermi, ragazzino."
+    },
+    {
+      "char": "devack",
+      "pos": "",
+      "image": "smile",
+      "text": "Se ti ostini a essere distrutto... così sia."
+    }
+  ]
+}

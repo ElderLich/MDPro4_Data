@@ -1,0 +1,317 @@
+{
+  "name": "ADateWithFate_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_youshowschool",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yuya a réussi à sauver son école, mais pas sa réputation."
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Papa, je vais m'améliorer. Et devenir un professionnel comme toi."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "shingo",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Salut."
+    },
+    {
+      "char": "yuzu",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Va-t'en, Sylvio."
+    },
+    {
+      "char": "shingo",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Un autre duelliste a été pris en embuscade hier. Les gens disent que tu es impliqué."
+    },
+    {
+      "char": "yuzu",
+      "pos": "",
+      "image": "anger",
+      "text": "Eh bien, les gens ont tort ! Qui a été attaqué ?"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "sad",
+      "text": "Professeur Marco. C'est un professeur de l'Institut Léo. Et depuis, personne n'a de ses nouvelles."
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "sad",
+      "text": "Je savais bien que ces rumeurs sur ton compte étaient fausses. Il n'y a aucune chance que quelqu'un comme toi puisse battre Professeur Marco, même avec ta pauvre Invocation Pendule."
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Attends ! C'est quoi le problème avec l'Invocation Pendule ?"
+    },
+    {
+      "char": "shingo",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Pour commencer, tu es le seul à avoir les cartes Pendule. N'est-ce pas injuste ?"
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Peu importe, tout ça va bientôt changer. J'ai entendu dire que l'Institut Léo commençait à développer des cartes Pendule de son côté."
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Je serai en première ligne quand elles sortiront. Et alors toi et moi, on réglera nos comptes."
+    },
+    {
+      "char": "shingo",
+      "pos": "",
+      "image": "neutral",
+      "text": "On aurait pu le faire au Championnat de la Ligue ARC Junior... mais impossible. Tu n'es pas qualifié."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "Je ne suis pas qualifié ? AAAH ! Il a raison en plus ! Pour pouvoir se qualifier et s'inscrire, il faut avoir fait dans l'année un minimum de 50 duels avec un taux de réussite d'au moins 60 %. Je n'ai pas assez de victoires !"
+    },
+    {
+      "char": "shingo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "CENTER",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_paradisecity",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yuya parcourt la ville à la recherche d'un duelliste pour l'affronter, mais tout le monde refusa."
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_youshowschool",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "CENTER",
+      "image": "sad",
+      "text": "Personne ne veut m'affronter, tout le monde pense que je suis déjà un pro !"
+    },
+    {
+      "char": "yuya",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "nico",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Yuya, mon garçon ! Ça me fait plaisir de te revoir !"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "Que fais-tu ici ?"
+    },
+    {
+      "char": "skipboyle",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Il apporte de très bonnes nouvelles. Tu es officiellement invité à participer au Championnat de la Ligue ARC Junior !"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "surprise",
+      "text": "Comment ? C'est vrai ?"
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "Doublement vrai ! Après ta victoire contre La Masse, l'Association de duel a décidé de t'offrir une place dans le championnat."
+    },
+    {
+      "char": "skipboyle",
+      "pos": "",
+      "image": "sad",
+      "text": "C'est quoi le problème ?"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "Eh bien, c'est une superbe opportunité... mais j'aurais l'impression de tricher."
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "surprise",
+      "text": "Non, c'est juste du favoritisme !"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "sad",
+      "text": "…"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "J'ai besoin que vous me rendiez un service."
+    },
+    {
+      "char": "nico",
+      "pos": "",
+      "image": "neutral",
+      "text": "Tout ce que tu veux."
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "Trouvez-moi un adversaire contre qui je puisse gagner proprement !"
+    },
+    {
+      "char": "nico",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "skipboyle",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_paradisecity",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Nico Smiley trouva comme promis un adversaire à Yuya, une duelliste voyant."
+    },
+    {
+      "char": "aurasentia",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "Les cartes disent que je vais rencontrer mon partenaire aujourd'hui ! Une idole des jeunes super stylée ? Un monsieur muscle parfait ? Une fée du logis à la fois intello et branchée avec un cœur en or ?!"
+    },
+    {
+      "char": "aurasentia",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "C'est bizarre. C'est pourtant bien l'adresse que Nico m'a donnée pour le duel. Où est l'école ?"
+    },
+    {
+      "char": "nico",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "Bienvenue, mon garçon. Cela fait un moment que je t'attends. Viens, entre."
+    },
+    {
+      "char": "nico",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "aurasentia",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "C'est impossible ! Cette espèce de misérable duelliste ne peut pas être mon partenaire !"
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "shy",
+      "text": "Excuse-moi..."
+    },
+    {
+      "char": "aurasentia",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Tu ne vois pas que je réfléchis ?!"
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": "Oh, désolé. On pourrait peut-être commencer le duel ?"
+    },
+    {
+      "char": "aurasentia",
+      "pos": "",
+      "image": "neutral",
+      "text": "Tu as raison."
+    },
+    {
+      "char": "aurasentia",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ce sera le meilleur moyen pour moi de savoir si ma prédiction à ton sujet était exacte ou pas."
+    }
+  ]
+}

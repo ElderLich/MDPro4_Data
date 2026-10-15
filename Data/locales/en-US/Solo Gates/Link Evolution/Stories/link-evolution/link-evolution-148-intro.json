@@ -1,0 +1,317 @@
+{
+  "name": "SearchForShadowsPart1_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "An old enemy of Yuma's returned for revenge."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "vector",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "HAHAHAH!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "Who are you?!?"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "neutral",
+      "text": "I am what you dread. My name is Vector."
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "Yuma Tsukumo and Astral, I've come here to destroy you... and your world!"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "It's been a while since we dueled, Yuma."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "I never dueled you in my life!"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "anger",
+      "text": "How quickly we forget. We had lots of fun together when I took over Dr. Faker."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "You were the one who was controlling Dr. Faker?"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "neutral",
+      "text": "That was just a preview!"
+    },
+    {
+      "char": "astral",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rayshadows",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "This is my fault. I'm sorry, Yuma!"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "",
+      "image": "discouragement",
+      "text": ""
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "anger",
+      "text": "I refuse to go away empty-handed, Yuma. I prefer you, but your friend will do."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "Let him go!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "Where are you taking him?"
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "",
+      "text": "This card will give you a clue!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "zexal_masterkeybeetlecard",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "Number 66?"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "zexal_masterkeybeetlecard",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rayshadows",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Save me, Yuma!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "anger",
+      "text": "Ray!"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "vector",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Using the Number Card that Vector gave him, Astral was able to summon an airship that could take everyone to Barian World."
+    },
+    {
+      "char": "astral",
+      "pos": "CENTER",
+      "image": "",
+      "text": "I have determined our destination."
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "The Number Card that Vector left behind became a key which activated the airship."
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "It also generated visual coordinates of a specific location."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "",
+      "text": "What kind of location?"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "My guess... Barian World."
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "",
+      "text": "Vector is telling us to come to him."
+    },
+    {
+      "char": "astral",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_barian",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Yuma and his friends boarded the airship that was supposedly bound for Barian World."
+    },
+    {
+      "char": "dumon",
+      "pos": "",
+      "image": "barian_neutral",
+      "text": ""
+    },
+    {
+      "char": "mizar",
+      "pos": "",
+      "image": "barian_neutral",
+      "text": ""
+    },
+    {
+      "char": "vector",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "However, the ship did not travel there. Instead it appeared in Sargasso, a dimensional wasteland where the Barians were waiting."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yuma, Kite, and Shark were each forced to battle a different Barian Emperor."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "dumon",
+      "pos": "RIGHT",
+      "image": "barian_neutral",
+      "text": "So you are Reginald Kastle."
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "dumon",
+      "pos": "",
+      "image": "barian_win",
+      "text": "My name is Dumon. The one who is about to defeat you."
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "anger",
+      "text": "No, you're just the first Barian I get to beat."
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "",
+      "text": "So bring it on ya costume freak!"
+    }
+  ]
+}

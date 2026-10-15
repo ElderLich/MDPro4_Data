@@ -1,0 +1,707 @@
+{
+  "name": "SupersensoryShakedown_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_satellite",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Kurz nachdem der Fortune Cup beendet war, musste Yusei ein weiteres Duell gegen einen Mann ausfechten, der sich selbst als „Finsterer Auserwählter“ bezeichnete."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Nachdem Yusei seinen Gegner besiegt hatte, versuchte er, ihn zu befragen, aber dieser hatte jegliche Erinnerungen an das verloren, was gerade geschehen war."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Der Mann schien einer Art Gedankenkontrolle zu unterliegen. Das war jedoch just der Moment, als Yusei die Journalistin Carly Carmine kennenlernte."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "RIGHT",
+      "image": "glasses_smile",
+      "text": "Hallo! Ich bin Carly Carmine und ich würde gerne von dir wissen, wie es sich anfühlt, der erste Amateur zu sein, der den Fortune Cup gewonnen hat?"
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "glasses_surprise",
+      "text": "Und was ist mit diesem verrückten Kerl passiert? Hey, hörst du da auch die Sirenen?"
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "glasses_discouragement",
+      "text": "Wer hat den Sicherheitsdienst gerufen?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Wir sollten abhauen, bevor die anfangen, Fragen zu stellen."
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "",
+      "image": "glasses_surprise",
+      "text": "A-Aber mein Interview!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "Das beenden wir später."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "carlycarmine",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Später traf sich Yusei noch mit Rex Goodwin, um mehr über den Finsteren Auserwählten in Erfahrung zu bringen."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Yusei, es ist an der Zeit, dir die Wahrheit zu sagen."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "5ds_signermark_yusei",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Wir beginnen am besten mit dem Mal."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Das ist das Mal des Feuerroten Drachen. Es gehört zu denen, die unsere Welt vor der Finsternis schützen."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "5ds_signermark_yusei",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Diese Finsternis ist ausgesprochen gefährlich. Sie kann viele Formen annehmen, auch die deiner Freunde."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Aber du kannst sie leicht am dem Mal der Schatten erkennen."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "„Mal der Schatten?“ Du meinst die Finsteren Auserwählten!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "So wie du ausgewählt wurdest, das Licht zu schützen, wurden sie auserwählt, die Finsternis zu verteidigen."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Sie werden vor nichts haltmachen, um dich zu vernichten. Wenn sie menschliche Seelen in sich aufnehmen, auch die der Unschuldigen, wird ihre Macht immer stärker."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Du und deine Freunde, ihr müsst eure Kraft zusammentun und gegen die Finsteren Auserwählten angehen."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Und wenn wir das nicht schaffen? Was ist, wenn sie die Schatten freilassen?"
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Wenn das passieren sollte, nun … Du hast ja schon eine Ahnung davon erhalten, wie unser Schicksal dann aussieht."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Nach dem Gespräch mit Goodwin wurde Yusei nach Satellite entsandt, um die Finsteren Auserwählten zu suchen."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Dort traf er einen alten Freund."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "RIGHT",
+      "image": "laughter",
+      "text": "Hallo, Yusei!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Schön dich zu sehen, Crow!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Wie geht es dir? Was hast du so gemacht?"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "laughter",
+      "text": "Du kennst mich. Kämpfe immer noch für das Gute. Beraub die Reichen, um die Armen zu ernähren und sowas alles."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "",
+      "text": "Ich habe gehört, dass du jetzt eine große Nummer bist und sogar Champion."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ja. So in etwa."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Crow, warum sieht es hier so verlassen aus?"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "neutral",
+      "text": "In letzter Zeit kommen viele finstere Typen hierher."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Sie drängen den Leuten ihre Lehren auf und wollen sie an sich binden."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "Hm, das schaue ich mir mal genauer an."
+    },
+    {
+      "char": "crowhogan",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Es dauerte nicht lange, bis Crow und Yusei einen der Finsteren Auserwählten trafen."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "CENTER",
+      "image": "discouragement",
+      "text": ""
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "RIGHT",
+      "image": "dark_smile",
+      "text": "Yusei!"
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_smile",
+      "text": "Und sein erbsenhirniger Freund!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Kalin Kessler? Bist das wirklich du? Oh Mann, und ich dachte, wir wären dich für immer los!"
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Überraschung, Yusei, ich bin noch da. Und während ich fort war, habe ich ein paar neue Freunde kennengelernt. Mit einem davon hast du, glaube ich, schon ein Duell ausgetragen."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Meinst du die Finsteren Auserwählten? Du bist auf ihrer Seite?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "Aber du warst einmal unser Freund!"
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_goodnightssleep",
+      "text": "„Einmal dein Freund“, ja. Aber jetzt … Dein Feind!"
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_smile",
+      "text": "Bereite dich auf das Duell deines Lebens vor!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "Er ist ein Finsterer Auserwählter. Das ist es, was Goodwin meinte, als er sagte, dass die Finsternis auch in Form eines Freundes daherkommen könnte."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "",
+      "image": "dark_smile",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_satellite",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anguish",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Während des Duells rief Kalin Erdgebundener Unsterblicher Ccapac Apu an und die Kreatur absorbierte die menschlichen Seelen in der gesamten Arena."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Kalin verwendete dieses Monster dann, um Yusei zu besiegen. Yuseis Freunde rannten sofort zu ihm."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "kalinkessler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_citysquare",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Gleichzeitig diskutierten Luna und Leo darüber, was sie als nächstes tun könnten, um die Finsteren Auserwählten aufzuhalten."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Da wir das Böse bekämpfen, bedeutet das, dass wir Superhelden sind. Und Superhelden halten immer zusammen."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "Das ist das Wichtigste!"
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "Ich glaube, dass ihre Superkräfte das wichtigste sind …"
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "",
+      "image": "smile",
+      "text": "Wie auch immer, du hast völlig recht, Leo. Lass uns hier in dieser netten, gemütlichen Villa zusammenbleiben."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Was ist mit Akiza?"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "Sie ist vielleicht eine Auserwählte, aber das bedeutet nicht, dass wir ihr vertrauen können."
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "",
+      "text": "Sie ist ein Teil dieser seltsamen Arcadia-Bewegung, die alle irgendwie gaga sind."
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ihr Hauptziel ist es, Duellanten darauf vorzubereiten, wirklichen Schaden zuzufügen."
+    },
+    {
+      "char": "luna",
+      "pos": "LEFT",
+      "image": "discouragement",
+      "text": "Aber Akiza würde das nie wollen, Menschen verletzen!"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "",
+      "text": "Wer weiß das schon. Ich denke, wir sollten uns fernhalten von dem Ganzen."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "discouragement",
+      "text": "Aber Yanagi hat gesagt, dass wir Helden zusammenhalten müssen. Was ist, wenn sie unsere Hilfe benötigt?"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "anger",
+      "text": "Oder was, wenn Yusei in Schwierigkeiten ist, und wir Akizas Deck als Backup brauchen?"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "Es gibt eine Million Gründe, uns mit einzubringen!"
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bolttanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Währenddessen reisten Leo, Luna, Bolt, und Tenzen zum Hauptquartier der Arcadia-Bewegung, um Akiza um Hilfe zu bitten."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "sayer",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Ihr möchtet Akiza sehen? Sie ist wahnsinnig beschäftigt."
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "",
+      "text": "Was ist so wichtig, dass ihr den weiten Weg bis hierher auf euch genommen habt?"
+    },
+    {
+      "char": "leo",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Sie hat das Drachenmal. Das heißt, sie ist eine Superheldin!"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "Luna und ich sind auch Superhelden. Wir werden unserem Freund Yusei im Kampf gegen die Finsteren Auserwählten helfen und die Stadt retten!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "neutral",
+      "text": "Mir sind selbst in letzter Zeit ein paar seltsame Dinge aufgefallen. Ich würde euch gerne helfen."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "shy",
+      "text": "Du würdest?!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile1",
+      "text": "Meine Arcadia-Bewegung repräsentiert alles, was gut ist. Ich verspreche euch, dass ich alles tun werde, um gegen diese Leute anzugehen!"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "smile",
+      "text": "In Ordnung!"
+    },
+    {
+      "char": "luna",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Danke!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "neutral",
+      "text": "Wenn ihr mich jetzt bitte entschuldigt, ich gehe Akiza holen."
+    },
+    {
+      "char": "sayer",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bolttanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "luna",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Leider war der gesamte Besuch eine Falle, die Sayer eingefädelt hatte. Er wollte Leos Fähigkeiten testen, um herauszufinden, ob sie denen von Luna ähneln."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "leo",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Wo ist Luna? Wo bin ich? Warum bin ich angekettet und was soll dieses Ding auf meinem Kopf?"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "neutral",
+      "text": "Die Kappe ermittelt verborgene Psi-Kräfte, also, falls du überhaupt welche hast."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Verborgene was? Du hast gesagt, du würdest Akiza holen und uns im Kampf gegen die Finsteren Auserwählten beistehen!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile2",
+      "text": "Ich werde die Menschen dafür bezahlen lassen, wie schlecht sie Psi-Duellanten im Laufe der Zeit behandelt haben!"
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Was wirst du mit mir machen?! Nimmst du mein Gehirn weg oder so?!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile1",
+      "text": "Natürlich nicht. Du wirst hier nur untersucht. Ich will herausfinden, ob du die Kraft eines Psi-Duellanten in dir hast."
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile2",
+      "text": "Akiza war nur die Vorhut. Mir unterstehen Dutzende von Psi-Duellanten."
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile1",
+      "text": "Duellanten mit Psi-Kräften können mit ihren Gedanken geradezu Unglaubliches bewerkstelligen."
+    },
+    {
+      "char": "leo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Heißt das, Akiza wird dir dabei helfen, Rache zu nehmen? Aber sie soll doch angeblich eine Heldin sein!"
+    },
+    {
+      "char": "sayer",
+      "pos": "",
+      "image": "smile2",
+      "text": "Eine Heldin? Sie weiß nicht einmal, was ich hier wirklich tue! Also, wie sieht es aus? Fangen wir an?!"
+    }
+  ]
+}

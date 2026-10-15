@@ -1,0 +1,191 @@
+{
+  "name": "TheMasterOfMagicians_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_obelisk_card",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Im weiteren Verlauf des Battle City Turniers erfuhr Marik, dass die Ägyptische Götterkarte, die er suchte, gespielt worden war."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "LEFT",
+      "image": "dark_neutral",
+      "text": ""
+    },
+    {
+      "char": "odion",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_surprise",
+      "text": "Obelisk der Peiniger wurde gespielt?"
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "",
+      "text": "Ja. Gerade eben, in Battle City. Und wir haben den Besitzer der Karte identifiziert."
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "",
+      "text": "Seto Kaiba."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Natürlich."
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "",
+      "text": "Woher wusstest du das, Herr?"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Das ist ganz einfach. Meine Schwester Ishizu intrigiert gegen mich. Sie hat Kaiba diese Karte gegeben, um mich aufzuhalten. Ich hätte wissen müssen, dass Ishizu hinter diesem ganzen Turnier steckt."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Sie hat ihre Millenniumskette benutzt, um die Ereignisse von Battle City vorherzusehen. Ishizu wusste, wenn sie Kaiba Obelisk den Peiniger gäbe, würde er aus Gier ein Turnier veranstalten, um an die anderen Ägyptischen Götterkarten zu kommen."
+    },
+    {
+      "char": "odion",
+      "pos": "",
+      "image": "",
+      "text": "Herr, soll ich ein Team von Raritätenjägern anweisen, Kaiba einen kleinen Besuch abzustatten?"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Nein. Lass Kaiba seine Spiele."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_neutral",
+      "text": "Zuerst muss ich den Pharao schwächen."
+    },
+    {
+      "char": "yamimarik",
+      "pos": "",
+      "image": "dark_anger",
+      "text": "Schick Arkana los, um Yugi Muto auszuschalten!"
+    },
+    {
+      "char": "yamimarik",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "odion",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_dominocity",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Im weiteren Verlauf des Battle City Turniers lockte ein seltsamer Clown Yugi in eine geheime Höhle mit gefährlichen Vorrichtungen."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "arkana",
+      "pos": "RIGHT",
+      "image": "win",
+      "text": "Willkommen, Yugi Muto. Ich bin Illusionist, bekannt unter dem Namen Arkana, und bald wird deine Lieblingskarte „Dunkler Magier“ im Duell für mich kämpfen!"
+    },
+    {
+      "char": "arkana",
+      "pos": "",
+      "image": "neutral",
+      "text": "Nur ein wahrer Meister der Illusion verdient es, einen Dunklen Magier zu haben. Du wirst nie sein volles Potential verstehen."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "anger",
+      "text": "Das reicht, Arkana!"
+    },
+    {
+      "char": "arkana",
+      "pos": "",
+      "image": "win",
+      "text": "Ich weiß, es muss schwer sein, sich seine Lieblingskarte im Deck eines anderen Duellanten vorzustellen. Nun, ich fordere dich zu einem Duell heraus! Der Gewinner übernimmt den Dunklen Magier des Verlierers!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Und ich akzeptiere. Du musst Folgendes wissen: Wenn ein Duellant sein Deck erstellt, wählt er seine Favoriten aus vielen verschiedenen Kartentypen."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "smile",
+      "text": "Aber manchmal kann eine Karte einen Duellanten wählen! Die beiden sind miteinander verbunden, und der Duellant kann die wahre Macht der Karte nutzen."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Denn jeder ist an das Herz der Karten gebunden … und der Dunkle Magier hat mich gewählt!"
+    },
+    {
+      "char": "arkana",
+      "pos": "",
+      "image": "win",
+      "text": "Das reicht! Lass uns unsere Decks mischen, und möge die Show beginnen!"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "name": "TheLockdownDuel_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_citysquare",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Soon after his duel with Bolt Tanner, Yusei had an unfortunate run in with the chief of The Facility, Mr. Armstrong."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "I found smuggled magazines in Tanner's cell! You all know that's against the rules, but I know he couldn't have gotten them alone."
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "",
+      "text": "His accomplice has one hour to step forward! After that – everyone here’s gonna pay the price!"
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "",
+      "text": "Don't like it? Then you ought to figure out who helped him out."
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "",
+      "text": "If I were you maggots, I’d start by questioning his friends."
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "neutral",
+      "text": "There’s no need for everyone to suffer! Tanner’s friend just needs to fess up! If he doesn’t, I got no problem putting all of you in permanent lockdown!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "Get real!"
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "",
+      "text": "You got somethin’ you wanna say, newbie?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "There are no magazines! We both know that!"
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "smile",
+      "text": "No magazines, huh? So I'm just punishing Tanner because I feel like it?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "I don’t know why you’re doing this, but I know that Tanner wouldn’t do anything wrong."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "You’re abusing your authority, Armstrong."
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "smile",
+      "text": "I can’t just stand here and let you accuse me of being unfair in front of everyone."
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "neutral",
+      "text": "To prove that I’m a reasonable man, I’ll let you duel me out here where your fellow inmates can watch. And if you win, I’ll pardon Tanner’s offense."
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "",
+      "text": "But if I happen to win the duel..."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "Then no one here but me gets put in lockdown!"
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "anger",
+      "text": "You got a deal!"
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "surprise",
+      "text": "What were you thinking?"
+    },
+    {
+      "char": "bolttanner",
+      "pos": "",
+      "image": "",
+      "text": "You can’t duel him. You don’t have a deck. If you were hoping to use mine, the Chief took my cards from me earlier."
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": "He took mine too. My beloved treasures..."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bolttanner",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tenzenyanagi",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Luckily, with the help of the other inmates in The Facility, Yusei had a little surprise for Mr. Armstrong."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Let's skip ahead to later that night."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Well, here he is – The little punk with the big mouth. And I thought you might back down."
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "",
+      "text": "After all, you're not allowed to have a deck in The Facility. And you need a deck to duel."
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "smile",
+      "text": "Since you’re showing up empty-handed, I win by forfeit. Now get him outta my sight!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "smile",
+      "text": "I have a deck right here."
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "surprise",
+      "text": "Wha–!? What the–!? Where’d you find those cards?"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "You don’t get it. You think we’re a bunch of punks who’ll gladly turn on each other. That’s not how it is. They lent me their cards so that I can take you down!"
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "neutral",
+      "text": "All right then. Even though you’re breaking the rules, I’m willing to uphold my end of the deal."
+    },
+    {
+      "char": "mrarmstrong",
+      "pos": "",
+      "image": "anger",
+      "text": "Guards, prepare the Duel Disks!"
+    }
+  ]
+}

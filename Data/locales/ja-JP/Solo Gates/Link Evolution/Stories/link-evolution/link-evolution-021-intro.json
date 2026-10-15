@@ -1,0 +1,347 @@
+{
+  "name": "TheEdgeOfEliminationPart1_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_citysquare",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "$R牛尾(うしお)$R哲(てつ)はとある$R問題(もんだい)を$R抱(かか)えており　$R遊星(ゆうせい)の$R助(たす)けを$R求(もと)めていた　ネオ$R童実野(どみの)シティの$R海岸(かいがん)で\n$R記憶(きおく)$R喪失(そうしつ)の$R男(おとこ)が$R発見(はっけん)され　この$R男(おとこ)の$R面倒(めんどう)を$R見(み)てくれる$R人間(にんげん)を$R探(さが)していたのだ"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R残念(ざんねん)ながら　ブルーノというその$R男(おとこ)は$R遊星(ゆうせい)たちの$R前(まえ)には$R現(あらわ)れず　こっそりジャックの\nＤ・ホイールをいじっていた"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bruno",
+      "pos": "LEFT",
+      "image": "",
+      "text": "ほら～　いい$R子(こ)ちゃんね　ここの$R汚(よご)れも$R拭(ふ)いてあげるからね　ほら　キレイになった！"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "$R貴様(きさま)！　オレのD・ホイールに$R何(なに)をしている？"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "anger",
+      "text": "さてはD・ホイール$R窃盗団(せっとうだん)の$R残党(ざんとう)か！"
+    },
+    {
+      "char": "bruno",
+      "pos": "",
+      "image": "surprise",
+      "text": "どわっ！"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "anger",
+      "text": "$R二度(にど)とオレのD・ホイールに$R近(ちか)づくな　$R今度(こんど)はこんなものではすまんぞ"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bruno",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "どうしたんだジャックの$R奴(やつ)？"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "CENTER",
+      "image": "discouragement",
+      "text": "ジャックが$R悪(わる)いんじゃないぜ　あいつがホイール・オブ・フォーチュンを$R盗(ぬす)もうとするから"
+    },
+    {
+      "char": "bruno",
+      "pos": "",
+      "image": "surprise",
+      "text": "あっ！　ご　ごめんなさい！　$R凄(すご)いD・ホイールだったから　つい$R触(さわ)りたくなっちゃって！"
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "",
+      "image": "goodnightssleep",
+      "text": "こいつがブルーノだ"
+    },
+    {
+      "char": "tetsutrudge",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R牛尾(うしお)　まさか　お$R前(まえ)がオレたちに$R預(あず)けようとしてたのは…"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "smile",
+      "text": "…わかった　$R後(あと)はオレ$R達(たち)に$R任(まか)せてくれ"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bruno",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_yuseihome",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "その$R後(あと)　$R遊星(ゆうせい)のガレージにて"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": "さあ$R吐(は)け！　オレのホイール・オブ・フォーチュンに$R何(なに)をした！"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "",
+      "text": "どういうことだ　ジャック？"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "ホイール・オブ・フォーチュンのパワーが$R上(あ)がっている！"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "surprise",
+      "text": "なんだと？"
+    },
+    {
+      "char": "bruno",
+      "pos": "",
+      "image": "smile",
+      "text": "ちょっと$R調整(ちょうせい)しただけだよ"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "crowhogan",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "んなバカな！　$R遊星(ゆうせい)がオレたちのD・ホイールのパワーをあげるのにあんだけ\n$R手(て)こずってるってのに　こいつは$R短時間(たんじかん)でそれをやってのけたってか？"
+    },
+    {
+      "char": "crowhogan",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "どうやったのか$R教(おし)えてくれないか？"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "えっと…"
+    },
+    {
+      "char": "bruno",
+      "pos": "",
+      "image": "discouragement",
+      "text": "ボクはブルーノって$R言(い)うんだ"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "ブルーノ　$R牛尾(うしお)は$R君(きみ)が$R記憶喪失(きおくそうしつ)だったと$R言(い)っていたが…"
+    },
+    {
+      "char": "bruno",
+      "pos": "",
+      "image": "",
+      "text": "$R気(き)がついたときは　$R海岸(かいがん)に$R打(う)ち$R上(あ)げられていたんだ"
+    },
+    {
+      "char": "bruno",
+      "pos": "",
+      "image": "smile",
+      "text": "なにも$R思(おも)い$R出(だ)せなくて…　でもD・ホイールをいじったり　デュエルをしてると　$R何(なに)か$R思(おも)い\n$R出(だ)しそうな$R気(き)がするんだ"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "smile",
+      "text": "…そうか"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "smile",
+      "text": "ブルーノ…　$R君(きみ)さえよかったら　しばらくここにいてくれないか？"
+    },
+    {
+      "char": "bruno",
+      "pos": "",
+      "image": "smile",
+      "text": "えっ　いいのかい？"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "",
+      "text": "ああ　WRGPのために$R新(あたら)しいマシンが$R必要(ひつよう)なんだ　ぜひ$R協力(きょうりょく)してほしい"
+    },
+    {
+      "char": "bruno",
+      "pos": "",
+      "image": "smile",
+      "text": "うん！　ボクでよかったら　$R君(きみ)たちの$R夢(ゆめ)を$R叶(かな)える$R手伝(てつだ)いをするよ！"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "bruno",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_arena",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "ついにＷＲＧＰ$R開幕(かいまく)の$R時(とき)がやってきた　どのチームも$R準備(じゅんび)は$R万端(ばんたん)だ"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R最初(さいしょ)の$R対戦(たいせん)は$R遊星(ゆうせい)のチーム・5D's$R対(たい)チーム・ユニコーンだ！"
+    },
+    {
+      "char": "andre",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "akizaizinski",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "andre",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R最初(さいしょ)のデュエリスト　アンドレがジャックとアキを$R倒(たお)し　チーム・ユニコーンは$R早(はや)くも$R大(おお)きく\nリードした"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R脱落(だつらく)の$R危機(きき)に$R追(お)い$R込(こ)まれたチーム・5D'sの$R命運(めいうん)は　$R遊星(ゆうせい)がチーム・ユニコーンのメンバー\n$R三人(さんにん)$R全員(ぜんいん)を$R倒(たお)せるかどうかにかかっていた！"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "name": "ChainGame_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "arcv_commons",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Les esprits de Yuya, Yugo, Yuri et Yuto étant au même endroit, ils sont entrés en transe."
+    },
+    {
+      "char": "yuri",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Ne plus faire ... qu'un."
+    },
+    {
+      "char": "yugo",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Ne plus faire ... qu'un."
+    },
+    {
+      "char": "yuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Ne plus faire ... qu'un."
+    },
+    {
+      "char": "yuya",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Ne plus faire ... qu'un. Je renais maintenant !"
+    },
+    {
+      "char": "yuri",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugo",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuya",
+      "pos": "",
+      "image": "neutral",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Yuya !"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "La voix de Zuzu brise leur transe, et Yuri et Yugo disparaissent."
+    },
+    {
+      "char": "yuya",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuzu",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "CENTER",
+      "image": "anger",
+      "text": "Sans l'aide de Yuri, je ne sais pas si nous pourrons attraper cette fille."
+    },
+    {
+      "char": "obeliskforce",
+      "pos": "",
+      "image": "sad",
+      "text": "Battons en retraite pour le moment."
+    }
+  ]
+}

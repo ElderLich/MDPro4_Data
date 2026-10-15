@@ -1,0 +1,191 @@
+{
+  "name": "TheFortuneCupFinale_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "5ds_arenahallway",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Dopo il duello con la Strega della Rosa Nera, Yusei scoprì i piani di Goodwin per il Drago Cremisi, e lo affrontò."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Sputa il rospo. Mi hai costretto in questo torneo. Mi hai minacciato e hai imprigionato i miei amici."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "neutral",
+      "text": "Voglio sapere la verità. Non duellerò Jack finché non mi dirai perché lo hai fatto."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "RIGHT",
+      "image": "anger",
+      "text": "Yusei, sei stupido? È a causa di questo Marchio."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "5ds_signermark_jack",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "neutral",
+      "text": "Lui vuole il potere del Drago Cremisi, quindi sta cercando di riunire tutti coloro che hanno il Marchio."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "5ds_signermark_jack",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "anguish",
+      "text": "Mi ha portato qui con le menzogne, mi ha manipolato."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "neutral",
+      "text": "Oh, andiamo, mi stai descrivendo in un modo così meschino."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "",
+      "text": "Jack, tu volevi essere il campione del Duello Turbo."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "anger",
+      "text": "Sì, ma volevo GUADAGNARMI il titolo. A questo punto sto iniziando a pensare che stai manipolando il torneo."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "neutral",
+      "text": "Mi hai usato come esca per Yusei."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "Goodwin sapeva che mi avresti attaccato se facevo tutto esattamente come mi ha chiesto."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "laughter",
+      "text": "Non essere ridicolo. Non sapevo nemmeno di Yusei finché non l'hai duellato quella notte nell'arena."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "Vuoi farmi davvero credere che tutto questo è una grande coincidenza?"
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "Ho una richiesta da farti."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "Hai avuto quello che volevi. Yusei è qui, non è vero? Quindi lascia andare i suoi amici."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "",
+      "text": "Voglio che questo duello sia legittimo. Nessuna minaccia, nessun trucco. Solo noi."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "",
+      "image": "laughter",
+      "text": "Se questo è ciò che il mio campione vuole, allora così sia."
+    },
+    {
+      "char": "rexgoodwin",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Così iniziò la battaglia tra Yusei Fudo e Jack Atlas!"
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "jackatlas",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Eccoci qua Yusei. Finalmente ti potrò mostrare chi è definitivamente il migliore."
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "LEFT",
+      "image": "neutral",
+      "text": "Sei sicuro di voler fare questo? Non ne sappiamo molto su questo Drago Cremisi."
+    },
+    {
+      "char": "jackatlas",
+      "pos": "",
+      "image": "anger",
+      "text": "Questo è esattamente ciò di cui stavo parlando, Yusei. Sei un codardo!"
+    },
+    {
+      "char": "yuseifudo",
+      "pos": "",
+      "image": "anger",
+      "text": "Va bene, Jack! Duelliamo!"
+    }
+  ]
+}

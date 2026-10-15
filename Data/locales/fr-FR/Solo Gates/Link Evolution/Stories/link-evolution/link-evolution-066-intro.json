@@ -1,0 +1,341 @@
+{
+  "name": "TheHeartOfTheCards_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_gamestore",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Cet après-midi là, Yugi et ses amis se rendirent à la boutique de jeux de grand-père. Yugi voulait montrer à ses amis la possession tant prisée de son grand-père."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Papy, peux-tu montrer à mes amis ta carte géniale super rare?"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Carte rare ? Tu veux dire ma carte spéciale? Hmmmm ...."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "smile",
+      "text": "S'il te plaît! S'il te plaît!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "smile",
+      "text": "Ha ha! Comment puis-je refuser? Vous les enfants, vous allez vous régaler! Je ne sors pas cette carte trop souvent."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_blueeyes_card",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "smile",
+      "text": "Prêts ? La voici. Le \"Dragon Blanc aux Yeux Bleus.\" Tellement rare, tellement puissante que je ne la laisse jamais sortir de mes mains!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "smile",
+      "text": "Cette carte est inestimable! Il y en a seulement quatre dans le monde entier!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Soudain, leur camarade de classe courut dans la boutique. Son nom était Seto Kaiba, le jeune PDG de KaibaCorp. Il avait trouvé la carte qu'il cherchait."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Nommez votre prix pour ces Yeux Bleus. Je peux payer tout ce que vous demandez!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "Je suis sûr que tu peux payer, mais cette carte a plus de valeur pour moi que tu ne pourrais jamais m'offrir."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "Vieux fou sénile!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Kaiba claqua la porte de la boutique de Papy. L'équipe était perturbée par l'obsession de Kaiba avec le Dragon Blanc aux Yeux Bleus."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Le lendemain, quand Yugi revint à la boutique avec ses amis, il trouva que Papy avait disparu. Lorsque le téléphone sonna, c'était Kaiba à l'autre bout du fil, narguant Yugi en lui disant qu'il avait enlevé son grand-père et l'avait emmené à KaibaCorp."
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_kaibacorp",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yugi et ses amis se précipitèrent à KaibaCorp et trouvèrent Papy sur le sol, affaibli."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Papy, ça va?"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Yugi, j'ai échoué. Je voulais enseigner à ce garçon, Kaiba, une leçon sur le cœur des cartes, mais j'ai perdu."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "Papy!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Comment se sent le vieil homme, humm?"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Kaiba, espèce de fumier! Que lui as-tu fait ?"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Nous avons fait un duel, c'est tout. Avec chacun de nous mettant en en jeu sa carte la plus précieuse. Mais je suppose que jouer contre un champion comme moi était tout simplement une trop grande stimulation pour le vieux fou."
+    },
+    {
+      "char": "teagardner",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Kaiba, tu devrais avoir honte de toi-même!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_blueeyes_card",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "smile",
+      "text": "Regarde le beau prix que j'ai gagné!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Kaiba souleva la carte Dragon Blanc aux Yeux Bleus et la déchira en deux."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "La carte la plus précieuse de Papy!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "",
+      "text": "Le Dragon Blanc aux Yeux Bleus est une carte rare et puissante, et celle-ci ne sera jamais utilisée contre moi."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "Mon Dragon Blanc aux Yeux Bleus! Mon trésor ..."
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "Papy! Attends!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "Comment as-tu pu faire une chose pareille?"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Yugi, prends ceci."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "Hein? Papy?"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "sad",
+      "text": "J'ai construit ce deck. J'ai mis mon âme dans ces cartes, et je t'ai enseigné tout ce que je sais, Yugi. Prends mes cartes et enseigne à Kaiba le respect pour le cœur des cartes."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "OK, Papy. Je te le promets."
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Es-tu prêt à jouer, avorton?"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "La récré est terminée, Kaiba!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "surprise",
+      "text": "Hein ?!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Kaiba était surpris par la transformation soudaine de Yugi. Il semblait qu'il était devenu une personne différente, comme s'il était plus confiant et puissant qu'auparavant."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "anger",
+      "text": "Kaiba, prépare-toi, car il est temps de se battre en duel!"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "name": "WD_YUGI_YamiYugi_Dartz_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_temple",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Du hast verloren, Dartz! Deine Suche ist nach 10.000 Jahren endlich vorbei!"
+    },
+    {
+      "char": "dartz",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": "Das kann nicht sein … Ich war so nah dran! Mir fehlt nur noch eine mächtige Seele, dann kann sich der große Leviathan aus den Tiefen der Erde erheben!"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "Pech gehabt! Unser Duell geht zu Ende. Jetzt musst du die Seelen meiner Freunde und aller anderen, die du gefangen gehalten hast, freilassen!"
+    },
+    {
+      "char": "dartz",
+      "pos": "",
+      "image": "anger",
+      "text": "Grrrr!"
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "dlc_temple",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Dartz ist es nicht gelungen, Yami Yugis Seele zu fangen, aber stattdessen verschmolz Dartz seine eigene Seele mit seinem Leviathan, um das Ungeheuer wiederzubeleben."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Mithilfe des Lichts seiner Freunde holte sich Yugi, seine gestohlenen Ägyptischen Götterkarten zurück und besiegte Dartz und seinen Leviathan ein für alle Mal."
+    },
+    {
+      "char": "dartz",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "He, seht nur! Die Götter haben wohl am Ende doch gewonnen."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Wusste ich es doch! Das heißt, dass alle, die Dartz gefangen hielt, frei sind!"
+    },
+    {
+      "char": "teagardner",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Ist jetzt wirklich alles vorbei?"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEIN:LEFT",
+      "image": "",
+      "text": "Ja, jetzt sind wir in Sicherheit."
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "",
+      "text": "Kommt, lasst uns schnell verschwinden, Leute! Wahrscheinlich versucht zu Hause gerade irgendjemand anders, die Weltherrschaft an sich zu reißen!"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "CENTER",
+      "image": "smile",
+      "text": "Und das Beängstigende ist, dass er vermutlich recht hat!"
+    }
+  ]
+}

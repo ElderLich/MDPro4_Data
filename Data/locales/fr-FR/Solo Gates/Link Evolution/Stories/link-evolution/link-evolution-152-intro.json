@@ -1,0 +1,239 @@
+{
+  "name": "ASeaOfTroubles_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_day",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Yuma et ses amis se rendirent au site suivant. Le dirigeable spatial s'arrêta au milieu de l'océan."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Rio, es-tu sûr que c'est là où se trouvent les ruines?"
+    },
+    {
+      "char": "rio",
+      "pos": "CENTER",
+      "image": "neutral",
+      "text": "Les coordonnées le confirment! C'est certainement le bon endroit."
+    },
+    {
+      "char": "rio",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rio",
+      "pos": "",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "anger",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Rio sembla soudain hypnotisée et elle plongea dans l'océan, et Shark plongea rapidement à sa poursuite."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yuma et Astral se lancèrent derrière eux, et Yuma se réveilla dans un endroit étrange."
+    },
+    {
+      "char": "astral",
+      "pos": "CENTER",
+      "image": "surprise",
+      "text": "Yuma! Réveille-toi, Yuma!"
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "Je suppose que j'ai perdu connaissance."
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "surprise",
+      "text": "Où sommes-nous?"
+    },
+    {
+      "char": "astral",
+      "pos": "",
+      "image": "neutral",
+      "text": "On dirait que nous sommes au fond de l'océan."
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "RIGHT",
+      "image": "neutral",
+      "text": "Rio est ici aussi. Du moins, quelque part par ici."
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "",
+      "text": "Rio a une sorte de pouvoir mystérieux. Elle peut voir des choses que nous ne pouvons pas voir."
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "",
+      "text": "Je ne serais pas surpris qu'elle ait vu ce qui l'a amenée à cet endroit."
+    },
+    {
+      "char": "astral",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Shark, Yuma et Astral furent séparés par un énorme labyrinthe. Finalement, Shark retrouva Rio."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "rio",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "LEFT",
+      "image": "smile",
+      "text": "Rio, tu as retrouvé un des Numéros!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "zexal_abysssplashcard",
+      "text": ""
+    },
+    {
+      "char": "rio",
+      "pos": "RIGHT",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "rio",
+      "pos": "",
+      "image": "surprise",
+      "text": "..."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "zexal_abysssplashcard",
+      "text": ""
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "surprise",
+      "text": "Qu'est-ce qui ne va pas?"
+    },
+    {
+      "char": "rio",
+      "pos": "",
+      "image": "",
+      "text": "Je t'attends depuis un bon moment, Shark."
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "anger",
+      "text": "Attends, tu n'es pas Rio."
+    },
+    {
+      "char": "rio",
+      "pos": "",
+      "image": "",
+      "text": "Non. Mon nom est Abyss."
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "neutral",
+      "text": "Tu es donc un Gardien de Numéro.\nEt tu as utilisé Rio pour nous amener ici, n'est-ce pas?"
+    },
+    {
+      "char": "rio",
+      "pos": "",
+      "image": "",
+      "text": "Tu es ici parce que ton destin est de te battre avec moi."
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "anger",
+      "text": "Je ne sais pas quel est ton but, mais je serai heureux de te battre! Maintenant, laisse partir Rio!"
+    },
+    {
+      "char": "rio",
+      "pos": "",
+      "image": "",
+      "text": "Je le ferai si tu réussis à me vaincre."
+    },
+    {
+      "char": "reginaldkastle",
+      "pos": "",
+      "image": "anger",
+      "text": "Je te battrai! Je ferai tout ce qu'il faut pour reprendre ma sœur!"
+    }
+  ]
+}

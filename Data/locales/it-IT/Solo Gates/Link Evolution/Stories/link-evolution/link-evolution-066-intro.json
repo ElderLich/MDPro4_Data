@@ -1,0 +1,341 @@
+{
+  "name": "TheHeartOfTheCards_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_gamestore",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Quel pomeriggio, Yugi e i suoi amici andarono al negozio del nonno. Yugi voleva mostrare ai suoi amici la preziosa carta del nonno."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Nonno, potresti mostrare ai miei amici la tua carta super rara?"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Carta rara? Vuoi dire la mia carta speciale? Hmmmm...."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "smile",
+      "text": "Per Favore! Per Favore!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "smile",
+      "text": "Ah ah! Come posso rifiutare? Ragazzi preparatevi per una bella sorpresa! Di solito non mostro questa carta."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_blueeyes_card",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "smile",
+      "text": "Pronti? Eccola qui. Il \"Drago Bianco Occhi Blu.\" Così rara, così potente, non l'ho mai lasciata andare via dalle mie mani!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "smile",
+      "text": "Questa carta non ha prezzo! Ce ne sono solo quattro in tutto il mondo!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Improvvisamente un loro compagno di classe entrò nel negozio. Il suo nome era Seto Kaiba, il giovane CEO della Kaiba Corporation. Aveva trovato la carta che stava cercando."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "LEFT",
+      "image": "",
+      "text": "Nomina un prezzo per il Drago Bianco Occhi Blu. Posso pagare qualsiasi cifra!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "Sono sicuro che potresti pagare qualsiasi cifra, ma questa carta vale più per me di quanto tu possa mai offrire."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "anger",
+      "text": "Vecchio sciocco!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Kaiba si precipitò fuori dal negozio del nonno. Il gruppo era inquietato dall'ossessione che Kaiba aveva per lacarta Drago Bianco Occhi Blu."
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Il giorno dopo, quando Yugi tornò al negozio con i suoi amici, non riuscì a trovare il nonno. Quando il telefono squillò Yugi scoprì che Kaiba aveva rapito il nonno e lo aveva portato alla Kaiba Corporation."
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_kaibacorp",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Yugi ed i suoi amici si precipitarono alla Kaiba Corporation e trovarono il nonno sul pavimento, sconfitto."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "Nonno, stai bene?"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Yugi, ho fallito. Volevo insegnare a quel ragazzo una lezione sul cuore delle carte ma ho perso."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "Nonno!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "smile",
+      "text": "Come sta il vecchio, hmmm?"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Kaiba, maledetto! Che cosa gli hai fatto?"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "neutral",
+      "text": "Abbiamo fatto un duello, tutto qui. Ognuno di noi ha messo in palio la nostra carta più preziosa come premio. Ma ovviamente il vecchio non poteva competere contro un vero campione."
+    },
+    {
+      "char": "teagardner",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "Kaiba, dovresti vergognarti di te stesso!"
+    },
+    {
+      "char": "command",
+      "pos": "PROP_ON",
+      "image": "classic_blueeyes_card",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "smile",
+      "text": "Guardate il premio che ho vinto!"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Kaiba mostrò la carta Drago Bianco Occhi Blu dopodiché la fece a pezzi."
+    },
+    {
+      "char": "command",
+      "pos": "PROP_OFF",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "La carta più preziosa del nonno!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "",
+      "text": "La carta Drago Bianco Occhi Blu è una carta rara e potente e questa non potrà mai più essere usata contro di me."
+    },
+    {
+      "char": "setokaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "La mia carta Drago Bianco Occhi Blu! Il mio tesoro..."
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "Nonno! Resisti!"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "Come hai potuto fare una cosa simile?"
+    },
+    {
+      "char": "setokaiba",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "RIGHT",
+      "image": "sad",
+      "text": "Yugi, prendi questo."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "sad",
+      "text": "Eh? Nonno?"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "",
+      "image": "sad",
+      "text": "Yugi, ho costruito questo deck. Ho messo la mia anima dentro queste carte e ti ho insegnato tutto quello che so. Prendi il mio deck e insegna a Kaiba il rispetto per il cuore delle carte."
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "Okay, nonno. Lo farò!"
+    },
+    {
+      "char": "solomonmuto",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "Sei pronto a giocare nanerottolo?"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "anger",
+      "text": "Kaiba il gioco è finito!"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "setokaiba",
+      "pos": "",
+      "image": "surprise",
+      "text": "Uh?"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "Kaiba fu colpito alla sprovvista dall'improvvisa trasformazione di Yugi. Sembrava che fosse diventato una persona diversa, più forte e sicura di se."
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "anger",
+      "text": "Kaiba, preparati a duellare!"
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "name": "PaniKAttack_INTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "classic_duelistkingdom",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R杏子(あんず)　$R本田(ほんだ)　$R城之内(じょうのうち)は$R目(め)を$R覚(さ)ますと　$R遊戯(ゆうぎ)と$R獏良(ばくら)が$R闘(たたか)う$R夢(ゆめ)の$R話(はなし)をした"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "LEFT",
+      "image": "surprise",
+      "text": "ふあああ…　なんか$R長(なが)い$R夢(ゆめ)を$R見(み)ていたような"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "LEFT",
+      "image": "",
+      "text": "そうそう　おっそろしい$R闇(やみ)の$R獏良(ばくら)ってのが$R現(あらわ)れてさ"
+    },
+    {
+      "char": "yamibakura",
+      "pos": "RIGHT",
+      "image": "ryo_neutral",
+      "text": "$R二人(ふたり)ともよく$R寝(ね)れた？"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "",
+      "image": "surprise",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "surprise",
+      "text": "うわっ　$R驚(おどろ)かすなよ！"
+    },
+    {
+      "char": "teagardner",
+      "pos": "",
+      "image": "smile",
+      "text": ""
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "smile",
+      "text": ""
+    },
+    {
+      "char": "yamibakura",
+      "pos": "",
+      "image": "ryo_smile",
+      "text": "ははっ"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R突然(とつぜん)$R森(もり)の$R中(なか)から$R叫(さけ)び$R声(ごえ)が$R聞(き)こえた　"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "surprise",
+      "text": "あの$R声(こえ)は！？"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "$R森(もり)を$R走(はし)り$R抜(ぬ)けた$R先(さき)では　$R体(からだ)の$R大(おお)きなデュエリストが$R舞(まい)を$R倒(たお)したところだった"
+    },
+    {
+      "char": "yamibakura",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "panik",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "ふふふふ…"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "そ　そんな…　$R私(わたし)のハーピィが$R全滅(ぜんめつ)するなんて…"
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "さあ　スターチップを$R全(すべ)て$R渡(わた)せ！　$R貴様(きさま)は$R失格(しっかく)だ！"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "sad",
+      "text": "$R舞(まい)さん！"
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "neutral",
+      "text": "$R無事(ぶじ)か！　$R一体(いったい)$R何(なに)があった！"
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "ほほう　こいつは$R手間(てま)が$R省(はぶ)けた　まさか$R獲物(えもの)のほうからのこのこやって$R来(き)てくれるとはな"
+    },
+    {
+      "char": "tristantaylor",
+      "pos": "",
+      "image": "smile",
+      "text": "$R何(なん)だ　あのごついのは？"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "anger",
+      "text": "$R気(き)をつけて　こいつは$R島(しま)を$R徘徊(はいかい)してデュエリストからスターチップを$R奪(うば)うプレイヤーキラーよ！"
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "$R遊戯(ゆうぎ)！　$R貴様(きさま)もこの$R女(おんな)$R同様(どうよう)$R失格者(しっかくしゃ)にしてやる！　おれと$R勝負(しょうぶ)しろ！"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "",
+      "image": "surprise",
+      "text": "$R舞(まい)さん！"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "",
+      "image": "sad",
+      "text": "$R遊戯(ゆうぎ)　あたしはここまでだ…　あんたと$R闘(たたか)う$R夢(ゆめ)は$R叶(かな)わなかった"
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "フン！　$R負(ま)け$R犬(いぬ)がうだうだ$R言(い)ってやがる"
+    },
+    {
+      "char": "infn8",
+      "pos": "",
+      "image": "",
+      "text": "プレイヤーキラーは$R舞(まい)を$R突(つ)き$R離(はな)す"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "joeywheeler",
+      "pos": "",
+      "image": "anger",
+      "text": "てめえ！　ぶっ$R飛(と)ばしてやる！"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "$R城之内(じょうのうち)くん　ここはボクに$R任(まか)せて！"
+    },
+    {
+      "char": "yugimuto",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "LEFT:FADEIN",
+      "image": "anger",
+      "text": "$R安心(あんしん)しな　$R舞(まい)！　このデカイのをぶっ$R倒(たお)してお$R前(まえ)のスターチップを$R奪(うば)い$R返(かえ)してやるぜ！！"
+    },
+    {
+      "char": "panik",
+      "pos": "RIGHT",
+      "image": "",
+      "text": "$R今(いま)　この$R島(しま)ではオレたちプレイヤーキラーがデュエリスト$R狩(が)りをしている　その$R中(なか)でも\n$R武藤(むとう)$R遊戯(ゆうぎ)…　お$R前(まえ)を$R倒(たお)すのは$R最優先指令(さいゆうせんしれい)だ"
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "まったくオレは$R運(うん)がいいぜ！"
+    },
+    {
+      "char": "maivalentine",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "このデュエル　オレは$R手持(ても)ちのスターチップ$R六個(ろっこ)を$R全(ぜん)$R賭(が)けする！"
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "それじゃあオレはあの$R女(おんな)から$R奪(うば)ったスターチップ$R八(やっ)つを$R全部(ぜんぶ)$R賭(か)けてやる！"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "surprise",
+      "text": "なにっ？"
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "$R足(た)りない$R二個分(にこぶん)はこいつで$R補(おぎな)ってもらうぜ！　お$R前(まえ)がこのデュエルに$R敗(やぶ)れたとき$R地獄(じごく)の$R闇(やみ)の\n$R中(なか)から$R炎(ほのお)が$R襲(おそ)いかかるのだ！"
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "$R逃(に)げようなんて$R考(かんが)えないほうがいいぜ！"
+    },
+    {
+      "char": "yamiyugi",
+      "pos": "",
+      "image": "neutral",
+      "text": "いいだろう　$R受(う)けてやるぜ！　オレは$R貴様(きさま)に$R勝(か)つ！　そして$R貴様(きさま)のその$R薄汚(うすよご)れた$R心(こころ)を$R叩(たた)き$R直(なお)して\nやるぜ！"
+    },
+    {
+      "char": "panik",
+      "pos": "",
+      "image": "",
+      "text": "がははは！　$R御託(ごたく)を$R並(なら)べるのは$R勝(か)ってからにするんだな！　いくぞ$R遊戯(ゆうぎ)！"
+    }
+  ]
+}

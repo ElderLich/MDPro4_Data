@@ -1,0 +1,101 @@
+{
+  "name": "CounterOffensive_OUTRO",
+  "script": [
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_school",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "LEFT",
+      "image": "anger",
+      "text": "¡Alito!"
+    },
+    {
+      "char": "alito",
+      "pos": "RIGHT",
+      "image": "discouragement",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "",
+      "image": "sad",
+      "text": "Alito, ¿estás bien? Deja que te ayude."
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "neutral",
+      "text": "Ese duelo ha sido épico de verdad."
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "",
+      "text": "Eh Astral, ahora mi Número te pertenece."
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "",
+      "text": "Es hora de que me vaya de nuevo al Mundo Barian. Adiós..."
+    },
+    {
+      "char": "alito",
+      "pos": "FADEOUT",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "astral",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "yumatsukumo",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "command",
+      "pos": "BG",
+      "image": "zexal_city_night",
+      "text": ""
+    },
+    {
+      "char": "infn8",
+      "pos": "CENTER",
+      "image": "",
+      "text": "Pero Alito no volvió al Mundo Barian."
+    },
+    {
+      "char": "infn8",
+      "pos": "NONE",
+      "image": "",
+      "text": ""
+    },
+    {
+      "char": "alito",
+      "pos": "LEFT:FADEIN",
+      "image": "surprise",
+      "text": "¡Esto no es el Mundo Barian! ¡Que se muestre quien me haya traído aquí!"
+    },
+    {
+      "char": "rayshadows",
+      "pos": "RIGHT",
+      "image": "evil_smile",
+      "text": "¡Ja ja ja ja!"
+    },
+    {
+      "char": "alito",
+      "pos": "",
+      "image": "surprise",
+      "text": "¡Eres... tú!"
+    }
+  ]
+}
