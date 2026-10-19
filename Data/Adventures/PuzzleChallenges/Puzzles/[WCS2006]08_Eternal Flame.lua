@@ -1,0 +1,23 @@
+Debug.SetAIName("WCS 2006")
+Debug.ReloadFieldBegin(DUEL_ATTACK_FIRST_TURN+DUEL_SIMPLE_AI)
+
+Debug.SetPlayerInfo(0,500,0,0)
+Debug.SetPlayerInfo(1,2100,0,0)
+
+--[[message
+Yu-Gi-Oh! World Championship Tournament 2006
+Eternal Flame
+]]
+
+Debug.AddCard(70828912,0,0,LOCATION_HAND,0,POS_FACEDOWN)
+Debug.AddCard(49398568,0,0,LOCATION_HAND,0,POS_FACEDOWN)
+Debug.AddCard(46918794,0,0,LOCATION_HAND,0,POS_FACEDOWN)
+Debug.AddCard(76075810,0,0,LOCATION_MZONE,1,POS_FACEUP_DEFENSE)
+Debug.AddCard(56094445,0,0,LOCATION_MZONE,2,POS_FACEUP_ATTACK)
+Debug.AddCard(04335645,1,1,LOCATION_MZONE,2,POS_FACEUP_ATTACK)
+Debug.AddCard(33248692,0,0,LOCATION_SZONE,2,POS_FACEDOWN)
+Debug.AddCard(32809211,0,0,LOCATION_GRAVE,0,POS_FACEUP)
+
+Debug.ReloadFieldEnd()
+Debug.ShowHint("Win this turn.")
+aux.BeginPuzzle()
