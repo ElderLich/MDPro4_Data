@@ -1,0 +1,592 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00490396",
+  "sourceBundle": "23f37bec",
+  "sourceSha256": "97eedcd88a5990ea44210b4bd911cd8b36e4567945c2cf3d899ea35e81eaa6c1",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate049/Bg_Sr00490394_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_34",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 25,
+        "zoom": 1.3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "frm": "",
+        "dst": "#525659FF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "――鬼神は去った。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT3001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "少年が繰り出した地の気を宿した拳や、\n少女の操る風や水の気を具現化させた龍の一撃。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT3002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは、鬼神をわずかに\nたじろがせたものの、\n倒すには遠く及ばなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT3003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "戦いは天威流（てんいりゅう）の\n敗北で終わった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT3004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "否、それは戦いですらなかったのだろう。\n鬼神にとっては鬱陶しい羽虫を\n素手で払うのに等しかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT3005"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate049/Bg_Sr00490393_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 60,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "天威流の技を用いて\n龍脈の力を吸いつくそうとする鬼神を\nこのまま見逃すことはできない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT3006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "いずれ再戦し、あの鬼神を\n打ち倒さなければならない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT3007"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 14491,
+        "pos": 5,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 14492,
+        "pos": 6,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "師はその希望を\n若き二人に託した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT3008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "師は語る。\nこれまで告げていなかった\n二つの事を。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT3009"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate049/Bg_Sr00490396_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[0.995941162109375,1.006134033203125,0.16767564415931703,0.16767564415931703,0.146944060921669,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "一つは鬼神の力の正体。\nあれは闇の気。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT3010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『この世に満ちる\n怒りや憎しみといった負の気が集積した\n龍脈の地が必ずある。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT3011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『それが鬼神の力の源であり、\nその場所を探し出すのが\nかの男の行方を負う重要な手がかりとなるだろう。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT3012"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate049/Bg_Sr00490396_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 25,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そしてもう一つは、\n天威流の聖地にして\n禁足地である場所。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT3013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『龍脈の力と真に調和する資格を得た者が訪れたその時、\n「天威無崩（てんいむほう）」の\n境地へ至る一歩を踏み出せる。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT3014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『闇の気と対峙した今の二人ならば\n光の気の龍が姿を現わし、\nさらなる力を得られるであろう。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT3015"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それから二人は師の元を離れ、\n天威流の聖地へと訪れる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT3016"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "幾多の苦難を乗り越えて\nたどりついたその場所で、\n二人は力を合わせ自らの資格を示した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT3017"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_09",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Flash",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "cnt": 1,
+        "color": "#FFFFFFFF"
+      }
+    },
+    {
+      "command": "BgWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "skip": false
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WAFU_EFFECT_02",
+        "vol": 0.4,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": -1,
+        "ignoreSkip": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "二人がこれまでに操ってきたどの龍脈とも異なる、\n強大な力を秘めた光の気「天威龍－アシュナ」が\n龍の姿となって現れた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT3018"
+      }
+    },
+    {
+      "command": "BgWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "skip": false
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate049/Bg_Sr00490394_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 25,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "frmcolor": "",
+        "dstcolor": "#2323234C",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "鬼神が秘めたる真の力を\n二人はまだ知らない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT3019"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "再び相対する時にはおそらく、\nより禍々しい力で\n襲い掛かってくることだろう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT3020"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate049/Bg_Sr00490396_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それに打ち勝つためにも、\n「光の気・アシュナ」の力を得て、\nより強くならなければならない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT3021"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "アシュナに会い、\nそれで彼らの目的が\n達成されたのではない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT3022"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ここから二人の拳士の\n新たな戦いが始まるのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT3023"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_34",
+        "fade": -1
+      }
+    }
+  ]
+}

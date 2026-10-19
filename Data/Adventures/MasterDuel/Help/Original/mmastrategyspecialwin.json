@@ -1,0 +1,52 @@
+{
+  "sourceBundle": "0a1e6f3b",
+  "sourceSha256": "a31b3e7a697f54e46e40b1fefff815d2d410b4ac0d1402d88e0e60ae2d02f2f9",
+  "mma": {
+    "tp": "Pager",
+    "title": {
+      "useId": false,
+      "tid": "",
+      "ja_JP": "クエスト ヘルプ",
+      "en_US": "",
+      "fr_FR": "",
+      "it_IT": "",
+      "de_DE": "",
+      "es_ES": "",
+      "pt_BR": "",
+      "ko_KR": ""
+    },
+    "contents": [
+      {
+        "tp": "HalfImageTextPage",
+        "caption": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_SPECIALWIN_H",
+          "ja_JP": "特殊召喚とは？\r",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "text": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_SPECIALWIN_B",
+          "ja_JP": "「死者蘇生」などの効果や、ルールで決められた特別な方法など、通常召喚以外で、モンスターをフィールドに出す方法があります。\r\nこれらは「特殊召喚」と呼ばれ、条件を満たしていれば、１ターンに２回以上行うこともできるのが最大の特徴です。\r",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "buttons": [],
+        "resourcePath": "Help/Strategy/HelpStrategySpecialWin"
+      }
+    ],
+    "isLoop": false,
+    "startPage": 0
+  }
+}

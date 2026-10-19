@@ -1,0 +1,4580 @@
+{
+  "schemaVersion": 2,
+  "platformIndex": "Solo Gates/BundleIndex.json",
+  "pages": {
+    "rule/summon/link": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_LINK_01_H",
+              "ja_JP": "リンク召喚とは？\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_LINK_01_B",
+              "ja_JP": "リンクモンスターを呼び出す方法です。\r\nリンクモンスターに記されている素材をフィールドにそろえて行います。\r\nリンクモンスターはレベルや守備力がないモンスターで、「リンクマーカー」を持っているのが最大の特徴です。\r\n「リンクマーカー」は指し示す先のゾーンやそのゾーンに置かれているカードに様々な効果を及ぼします。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategyLink_01"
+          },
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_LINK_02_H",
+              "ja_JP": "リンク召喚をやってみよう！\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_LINK_02_B",
+              "ja_JP": "自分のメインフェイズに、自分フィールドから素材となるモンスターを墓地へ送り、その条件に合ったリンクモンスターをエクストラデッキから呼び出します。\r\n１体のモンスターは１つのリンク素材として数えますが、リンクモンスターの場合は、１体でリンクモンスターが持つＬＩＮＫの数のリンク素材として使用する事もできます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategyLink_02"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      }
+    },
+    "rule/summon/pendulum": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_PENDULUM_01_H",
+              "ja_JP": "ペンデュラム召喚とは？\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_PENDULUM_01_B",
+              "ja_JP": "ペンデュラムモンスターを使って、複数のモンスターを同時に特殊召喚することができる方法です。\r\nペンデュラムモンスターには、ペンデュラム召喚で重要になる「ペンデュラムスケール」という数値があるのが特徴で、中には、魔法カードとして扱われている際に使用できる「ペンデュラム効果」を持っているモンスターもいます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategyPendulum_01"
+          },
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_PENDULUM_02_H",
+              "ja_JP": "ペンデュラム召喚をやってみよう！\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_PENDULUM_02_B",
+              "ja_JP": "自分のメインフェイズに、手札からペンデュラムモンスター２体を自分の左右両端の魔法＆罠ゾーンに発動しましょう。\r\nその２体のペンデュラムスケールの数字の間のレベルを持つモンスターを手札から任意の数だけ特殊召喚することができます。\r\n\r\nペンデュラム召喚はシンクロ召喚などと異なり、１ターンに１度のみ行うことができる特殊召喚です。\r\n",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategyPendulum_02"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      }
+    },
+    "rule/summon/synchro": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_SYNCHRO_01_H",
+              "ja_JP": "シンクロ召喚とは？\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_SYNCHRO_01_B",
+              "ja_JP": "シンクロモンスターを呼び出す方法です。\r\nシンクロモンスターに記されている素材を\r\nフィールドにそろえて行います。\r\n素材には「チューナー」と呼ばれるモンスターが必要になりますが、シンクロモンスターによっては、素材のカード名などが決められている場合もあります。\r\n",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategySynchro_01"
+          },
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_SYNCHRO_02_H",
+              "ja_JP": "シンクロ召喚をやってみよう！\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_SYNCHRO_02_B",
+              "ja_JP": "自分のメインフェイズに、「チューナー」と、それ以外のモンスターを自分フィールドから墓地へ送り、レベルの合計に合ったシンクロモンスターをエクストラデッキから呼び出します。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategySynchro_02"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      }
+    },
+    "rule/summon/xyz": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_XYZ_01_H",
+              "ja_JP": "エクシーズ召喚とは？\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_XYZ_01_B",
+              "ja_JP": "エクシーズモンスターを呼び出す方法です。\r\nエクシーズモンスターに記されている素材をフィールドにそろえて行います。\r\n同じレベルのモンスター２体が必要になることが多いですが、３体以上のモンスターが必要であったり、素材の種族や属性などが決められている場合もあります。\r\nまた、エクシーズモンスターはレベルを持たず、代わりに「ランク」を持つという特徴もあります。\r\n",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategyXyz_01"
+          },
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_XYZ_02_H",
+              "ja_JP": "エクシーズ召喚をやってみよう！\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_XYZ_02_B",
+              "ja_JP": "自分のメインフェイズに、自分フィールドの同じレベルのモンスター２体以上を、エクシーズモンスターを出したいゾーンに重ねて、その条件に合ったエクシーズモンスターをエクストラデッキから呼び出します。\r\n\r\n素材として下に重ねられたモンスターはエクシーズモンスターが効果を発動する時などに使われます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategyXyz_02"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      }
+    },
+    "solo/strategy/aboutlink": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_ABOUTLINK_H",
+              "ja_JP": "アドバンス召喚とは？\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_ABOUTLINK_B",
+              "ja_JP": "レベル５以上のモンスターを通常召喚する方法を「アドバンス召喚」といいます。\r\n召喚したいモンスターのレベルによって、決められた数の自分フィールドのモンスターをリリースします。\r\n通常召喚は１ターンに１度ですので、既に通常召喚を行っているターンにアドバンス召喚を行うことはできません。\r\n",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategyAboutLink"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Strategy/HelpStrategyAboutLink"
+    },
+    "solo/strategy/advance": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_ADVANCE_H",
+              "ja_JP": "アドバンス召喚とは？\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_ADVANCE_B",
+              "ja_JP": "レベル５以上のモンスターを通常召喚する方法を「アドバンス召喚」といいます。\r\n召喚したいモンスターのレベルによって、決められた数の自分フィールドのモンスターをリリースします。\r\n通常召喚は１ターンに１度ですので、既に通常召喚を行っているターンにアドバンス召喚を行うことはできません。\r\n",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategyAdvance"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Strategy/HelpStrategyAdvance"
+    },
+    "solo/strategy/atkdefcalc": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_ATKDEFCALC_H",
+              "ja_JP": "アドバンス召喚とは？\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_ATKDEFCALC_B",
+              "ja_JP": "レベル５以上のモンスターを通常召喚する方法を「アドバンス召喚」といいます。\r\n召喚したいモンスターのレベルによって、決められた数の自分フィールドのモンスターをリリースします。\r\n通常召喚は１ターンに１度ですので、既に通常召喚を行っているターンにアドバンス召喚を行うことはできません。\r\n",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategyAtkDefCalc"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Strategy/HelpStrategyAtkDefCalc"
+    },
+    "solo/strategy/battlephase": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_BATTLEPHASE_H",
+              "ja_JP": "アドバンス召喚とは？\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_BATTLEPHASE_B",
+              "ja_JP": "レベル５以上のモンスターを通常召喚する方法を「アドバンス召喚」といいます。\r\n召喚したいモンスターのレベルによって、決められた数の自分フィールドのモンスターをリリースします。\r\n通常召喚は１ターンに１度ですので、既に通常召喚を行っているターンにアドバンス召喚を行うことはできません。\r\n",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategyBattlePhase"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Strategy/HelpStrategyBattlePhase"
+    },
+    "solo/strategy/chain": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_CHAIN_H",
+              "ja_JP": "チェーンとは？\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_CHAIN_B",
+              "ja_JP": "カードの効果の発動に対応して、新たなカードの効果を発動することを「チェーン」と呼びます。\r\n例えばカウンター罠カードは、対応する効果が発動された時に「チェーン」して発動し、相手の効果などを無効にすることができます。\r\n「チェーン」の理解が深まれば、さらに奥深いデュエルを楽しむことができるでしょう。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategyChain"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Strategy/HelpStrategyChain"
+    },
+    "solo/strategy/chainorder": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_CHAINORDER_H",
+              "ja_JP": "アドバンス召喚とは？\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_CHAINORDER_B",
+              "ja_JP": "レベル５以上のモンスターを通常召喚する方法を「アドバンス召喚」といいます。\r\n召喚したいモンスターのレベルによって、決められた数の自分フィールドのモンスターをリリースします。\r\n通常召喚は１ターンに１度ですので、既に通常召喚を行っているターンにアドバンス召喚を行うことはできません。\r\n",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategyChainOrder"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Strategy/HelpStrategyChainOrder"
+    },
+    "solo/strategy/conditionss": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_CONDITIONSS_H",
+              "ja_JP": "特殊召喚とは？\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_CONDITIONSS_B",
+              "ja_JP": "「死者蘇生」などの効果や、ルールで決められた特別な方法など、通常召喚以外で、モンスターをフィールドに出す方法があります。\r\nこれらは「特殊召喚」と呼ばれ、条件を満たしていれば、１ターンに２回以上行うこともできるのが最大の特徴です。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategyConditionSS"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Strategy/HelpStrategyConditionSS"
+    },
+    "solo/strategy/damagestep": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_DAMAGESTEP_H",
+              "ja_JP": "アドバンス召喚とは？\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_DAMAGESTEP_B",
+              "ja_JP": "レベル５以上のモンスターを通常召喚する方法を「アドバンス召喚」といいます。\r\n召喚したいモンスターのレベルによって、決められた数の自分フィールドのモンスターをリリースします。\r\n通常召喚は１ターンに１度ですので、既に通常召喚を行っているターンにアドバンス召喚を行うことはできません。\r\n",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategyDamageStep"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Strategy/HelpStrategyDamageStep"
+    },
+    "solo/strategy/damagetype": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_DAMAGETYPE_H",
+              "ja_JP": "アドバンス召喚とは？\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_DAMAGETYPE_B",
+              "ja_JP": "レベル５以上のモンスターを通常召喚する方法を「アドバンス召喚」といいます。\r\n召喚したいモンスターのレベルによって、決められた数の自分フィールドのモンスターをリリースします。\r\n通常召喚は１ターンに１度ですので、既に通常召喚を行っているターンにアドバンス召喚を行うことはできません。\r\n",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategyDamageType"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Strategy/HelpStrategyDamageType"
+    },
+    "solo/strategy/linkmm": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_LINKMM_H",
+              "ja_JP": "リンク召喚とは？\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_LINKMM_B",
+              "ja_JP": "リンクモンスターを呼び出す方法です。\r\nリンクモンスターに記されている素材をフィールドにそろえて行います。\r\nリンクモンスターはレベルや守備力がないモンスターで、「リンクマーカー」を持っているのが最大の特徴です。\r\n「リンクマーカー」は指し示す先のゾーンやそのゾーンに置かれているカードに様々な効果を及ぼします。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategyLinkMM"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Strategy/HelpStrategyLinkMM"
+    },
+    "solo/strategy/monstereffect": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_MONSTEREFFECT_H",
+              "ja_JP": "モンスター効果とは？\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_MONSTEREFFECT_B",
+              "ja_JP": "カードの枠が黄色の通常モンスター以外のモンスターには、魔法や罠カードのような特別な効果を持ったモンスターがいます。\r\n「カオス・マジシャン」のようにフィールドに存在する間適用される効果や、「幻妖フルドラ」のように発動して使う効果など、効果の使い方も様々です。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategyMonsterEffect"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Strategy/HelpStrategyMonsterEffect"
+    },
+    "solo/strategy/pendulumex": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_PENDULUMEX_H",
+              "ja_JP": "ペンデュラム召喚とは？\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_PENDULUMEX_B",
+              "ja_JP": "ペンデュラムモンスターを使って、複数のモンスターを同時に特殊召喚することができる方法です。\r\nペンデュラムモンスターには、ペンデュラム召喚で重要になる「ペンデュラムスケール」という数値があるのが特徴で、中には、魔法カードとして扱われている際に使用できる「ペンデュラム効果」を持っているモンスターもいます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategyPendulumEX"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Strategy/HelpStrategyPendulumEX"
+    },
+    "solo/strategy/position": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_POSITION_H",
+              "ja_JP": "モンスターの表示形式とは？",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_POSITION_B",
+              "ja_JP": "モンスターには３つの表示形式があります。\n①手札からモンスターを召喚した時などに「表側攻撃表示」になります。攻撃を行う時はこの表示形式にします。\n②手札からモンスターをセットした時などに「裏側守備表示」になります。\n③裏側守備表示のモンスターが相手に攻撃されたり、カードの効果によって表示形式が変更された時などに「表側守備表示」になります。",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategyPosition"
+          },
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_BATTLEDAMAGE_H",
+              "ja_JP": "戦闘ダメージの計算方法とは？",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_BATTLEDAMAGE_B",
+              "ja_JP": "モンスターが戦闘を行う場合に使用する数値は、モンスターの表示形式によって変化します。\n①攻撃表示VS攻撃表示...お互いの攻撃力の数値を比べます。\n②攻撃表示VS守備表示...攻撃表示モンスターの攻撃力と、守備表示モンスターの守備力を比べます。",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategyBattleDamage"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      }
+    },
+    "solo/strategy/rewindatk": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_REWINDATK_H",
+              "ja_JP": "アドバンス召喚とは？\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_REWINDATK_B",
+              "ja_JP": "レベル５以上のモンスターを通常召喚する方法を「アドバンス召喚」といいます。\r\n召喚したいモンスターのレベルによって、決められた数の自分フィールドのモンスターをリリースします。\r\n通常召喚は１ターンに１度ですので、既に通常召喚を行っているターンにアドバンス召喚を行うことはできません。\r\n",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategyRewindAtk"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Strategy/HelpStrategyRewindAtk"
+    },
+    "solo/strategy/specialsummon": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_SPECIALSUMMON_H",
+              "ja_JP": "特殊召喚とは？\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_SPECIALSUMMON_B",
+              "ja_JP": "「死者蘇生」などの効果や、ルールで決められた特別な方法など、通常召喚以外で、モンスターをフィールドに出す方法があります。\r\nこれらは「特殊召喚」と呼ばれ、条件を満たしていれば、１ターンに２回以上行うこともできるのが最大の特徴です。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategySpecialSummon"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Strategy/HelpStrategySpecialSummon"
+    },
+    "solo/strategy/specialwin": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_SPECIALWIN_H",
+              "ja_JP": "特殊召喚とは？\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_SPECIALWIN_B",
+              "ja_JP": "「死者蘇生」などの効果や、ルールで決められた特別な方法など、通常召喚以外で、モンスターをフィールドに出す方法があります。\r\nこれらは「特殊召喚」と呼ばれ、条件を満たしていれば、１ターンに２回以上行うこともできるのが最大の特徴です。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategySpecialWin"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Strategy/HelpStrategySpecialWin"
+    },
+    "solo/strategy/toyourhand": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_TOYOURHAND_H",
+              "ja_JP": "手札を補充しよう！\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_STRATEGY_TOYOURHAND_B",
+              "ja_JP": "モンスターを召喚したり、魔法・罠カードを使ったり、デュエルを進めていくと手札が足りなくなり、苦しい状況になることがあります。\r\nそんな時には、「増援」「サルベージ」などの決められたカードを手札に加える効果や、「成金ゴブリン」などのドローする効果を活用しましょう。\r\n手札を補充することで、状況を打開できる新しい手段が見つかるかもしれません。\r\n",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Strategy/HelpStrategyToYourHand"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Strategy/HelpStrategyToYourHand"
+    },
+    "solo/theme/gate0002_0": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0002_01_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0002_01_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0002_01"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0002_01"
+    },
+    "solo/theme/gate0002_1": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0002_11_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0002_11_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0002_11"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0002_11"
+    },
+    "solo/theme/gate0003_0": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0003_01_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0003_01_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0003_01"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0003_01"
+    },
+    "solo/theme/gate0004": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0004_H",
+              "ja_JP": "「帝王」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0004_B",
+              "ja_JP": "アドバンス召喚をサポートする「帝王」魔法・罠カードを活用して、アドバンス召喚を行い、アドバンス召喚に成功した際に発動する効果によって、フィールドなどに様々な影響を及ぼすのがこのデッキの基本戦術。アドバンス召喚のためのリリースを用意する効果や、アドバンス召喚されたモンスターがいる間に強力な効果を発揮するカードなどもそろっています。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0004"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0004"
+    },
+    "solo/theme/gate0005": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0005_H",
+              "ja_JP": "「帝王」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0005_B",
+              "ja_JP": "アドバンス召喚をサポートする「帝王」魔法・罠カードを活用して、アドバンス召喚を行い、アドバンス召喚に成功した際に発動する効果によって、フィールドなどに様々な影響を及ぼすのがこのデッキの基本戦術。アドバンス召喚のためのリリースを用意する効果や、アドバンス召喚されたモンスターがいる間に強力な効果を発揮するカードなどもそろっています。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0005"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0005"
+    },
+    "solo/theme/gate0006": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0006_H",
+              "ja_JP": "「帝王」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0006_B",
+              "ja_JP": "アドバンス召喚をサポートする「帝王」魔法・罠カードを活用して、アドバンス召喚を行い、アドバンス召喚に成功した際に発動する効果によって、フィールドなどに様々な影響を及ぼすのがこのデッキの基本戦術。アドバンス召喚のためのリリースを用意する効果や、アドバンス召喚されたモンスターがいる間に強力な効果を発揮するカードなどもそろっています。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0006"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0006"
+    },
+    "solo/theme/gate0007": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0007_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0007_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0007"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0007"
+    },
+    "solo/theme/gate0008": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0008_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0008_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0008"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0008"
+    },
+    "solo/theme/gate0009": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0009_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0009_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0009"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0009"
+    },
+    "solo/theme/gate0010": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0010_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0010_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0010"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0010"
+    },
+    "solo/theme/gate0011": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0011_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0011_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0011"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0011"
+    },
+    "solo/theme/gate0012": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0012_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0012_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0012"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0012"
+    },
+    "solo/theme/gate0013": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0013_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0013_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0013"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0013"
+    },
+    "solo/theme/gate0014": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0014_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0014_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0014"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0014"
+    },
+    "solo/theme/gate0015": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0015_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0015_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0015"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0015"
+    },
+    "solo/theme/gate0016": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0016_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0016_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0016"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0016"
+    },
+    "solo/theme/gate0017_0": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0017_01_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0017_01_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0017_01"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0017_01"
+    },
+    "solo/theme/gate0017_1": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0017_11_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0017_11_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0017_11"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0017_11"
+    },
+    "solo/theme/gate0019": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0019_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0019_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0019"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0019"
+    },
+    "solo/theme/gate0023_0": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0023_01_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0023_01_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0023_01"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0023_01"
+    },
+    "solo/theme/gate0023_1": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0023_11_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0023_11_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0023_11"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0023_11"
+    },
+    "solo/theme/gate0024": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0024_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0024_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0024"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0024"
+    },
+    "solo/theme/gate0025": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0025_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0025_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0025"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0025"
+    },
+    "solo/theme/gate0026": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0026_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0026_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0026"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0026"
+    },
+    "solo/theme/gate0027": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0027_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0027_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0027"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0027"
+    },
+    "solo/theme/gate0028": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0028_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0028_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0028"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0028"
+    },
+    "solo/theme/gate0032": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0032_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0032_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0032"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0032"
+    },
+    "solo/theme/gate0033": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0033_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0033_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0033"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0033"
+    },
+    "solo/theme/gate0034": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0034_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0034_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0034"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0034"
+    },
+    "solo/theme/gate0035": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0035_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0035_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0035"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0035"
+    },
+    "solo/theme/gate0036": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0036_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0036_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0036"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0036"
+    },
+    "solo/theme/gate0037": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0037_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0037_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0037"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0037"
+    },
+    "solo/theme/gate0038": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0038_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0038_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0038"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0038"
+    },
+    "solo/theme/gate0039": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0039_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0039_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0039"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0039"
+    },
+    "solo/theme/gate0040": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0040_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0040_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0040"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0040"
+    },
+    "solo/theme/gate0041": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0041_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0041_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0041"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0041"
+    },
+    "solo/theme/gate0042": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0042_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0042_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0042"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0042"
+    },
+    "solo/theme/gate0043": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0043_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0043_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0043"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0043"
+    },
+    "solo/theme/gate0045": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0045_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0045_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0045"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0045"
+    },
+    "solo/theme/gate0046": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0046_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0046_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0046"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0046"
+    },
+    "solo/theme/gate0047": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0047_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0047_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0047"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0047"
+    },
+    "solo/theme/gate0048_0": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0048_01_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0048_01_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0048_01"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0048_01"
+    },
+    "solo/theme/gate0048_1": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0048_11_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0048_11_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0048_11"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0048_11"
+    },
+    "solo/theme/gate0048_2": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0048_21_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0048_21_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0048_21"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0048_21"
+    },
+    "solo/theme/gate0048_3": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0048_31_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0048_31_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0048_31"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0048_31"
+    },
+    "solo/theme/gate0049": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0049_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0049_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0049"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0049"
+    },
+    "solo/theme/gate0050": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0050_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0050_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0050"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0050"
+    },
+    "solo/theme/gate0052": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0052_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0052_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0052"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0052"
+    },
+    "solo/theme/gate0053": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0053_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0053_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0053"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0053"
+    },
+    "solo/theme/gate0054": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0054_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0054_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0054"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0054"
+    },
+    "solo/theme/gate0055": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0055_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0055_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0055"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0055"
+    },
+    "solo/theme/gate0057": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0057_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0057_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0057"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0057"
+    },
+    "solo/theme/gate0059": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0059_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0059_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0059"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0059"
+    },
+    "solo/theme/gate0067": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0067_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0067_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0067"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0067"
+    },
+    "solo/theme/gate0068": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0068_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0068_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0068"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0068"
+    },
+    "solo/theme/gate0070": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0070_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0070_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0070"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0070"
+    },
+    "solo/theme/gate0071": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0071_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0071_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0071"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0071"
+    },
+    "solo/theme/gate0073": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0073_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0073_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0073"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0073"
+    },
+    "solo/theme/gate0074": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0074_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0074_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0074"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0074"
+    },
+    "solo/theme/gate0076_0": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0076_01_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0076_01_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0076_01"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0076_01"
+    },
+    "solo/theme/gate0076_1": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0076_11_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0076_11_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0076_21"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0076_21"
+    },
+    "solo/theme/gate0078": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0078_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0078_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0078"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0078"
+    },
+    "solo/theme/gate0080": {
+      "mma": {
+        "tp": "Pager",
+        "title": {
+          "useId": false,
+          "tid": "",
+          "ja_JP": "クエスト ヘルプ",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": "",
+          "zh_TW": "",
+          "zh_CN": ""
+        },
+        "contents": [
+          {
+            "tp": "HalfImageTextPage",
+            "caption": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0080_H",
+              "ja_JP": "「デミス」「ルイン」デッキの特徴\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "text": {
+              "useId": true,
+              "tid": "IDS_HELP_GATE0080_B",
+              "ja_JP": "どちらも儀式魔法「エンド・オブ・ザ・ワールド」によって呼び出すことができる儀式モンスターです。\r\nライフポイントを払うことで自身以外のフィールドのカードを全て破壊する「デミス」と、戦闘で相手モンスターを破壊することでさらなる攻撃が可能になる「ルイン」、相手フィールドの状況に応じたモンスターを儀式召喚することで、相手に大ダメージを与えます。\r",
+              "en_US": "",
+              "fr_FR": "",
+              "it_IT": "",
+              "de_DE": "",
+              "es_ES": "",
+              "pt_BR": "",
+              "ko_KR": "",
+              "zh_TW": "",
+              "zh_CN": ""
+            },
+            "buttons": [],
+            "resourcePath": "Help/Gate/HelpGate0080"
+          }
+        ],
+        "isLoop": false,
+        "startPage": 0
+      },
+      "resourcePath": "Help/Gate/HelpGate0080"
+    }
+  }
+}

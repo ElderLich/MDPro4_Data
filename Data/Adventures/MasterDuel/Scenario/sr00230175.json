@@ -1,0 +1,513 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00230175",
+  "sourceBundle": "bb14280a",
+  "sourceSha256": "273a24f1b94441c6db94ca4c4a931782cc34e4f98595a3db58947e3140df431d",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "星に眠る力の秘密",
+        "titleId": "IDS_SCENARIOGATE0023_TITLE1001",
+        "path": "Scenarios/Gates/Gate023/Bg_Sr00230175_title",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_07",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate023/Bg_Sr00230175_00",
+        "oscale": 0,
+        "color": "#FFFFFF00",
+        "pos": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "悪夢のような悲劇から、\nいくばくかの年月が経っていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0023_TXT1001"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_05",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 2
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate003/Bg_Sr00030126_05",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "path": "Scenarios/Gates/Gate023/Bg_Sr00230175_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "あの時、アウラムが目を覚ますと\nいつの間にか少女と少女の兄の姿が消えていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0023_TXT1002"
+      }
+    },
+    {
+      "command": "BgWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "skip": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "イヴは本当にいなくなってしまったのか……。",
+        "textId": "IDS_SCENARIOGATE0023_TXT1003",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frm": "",
+        "dst": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "少女を失った悲しみが\nアウラムの心を支配していく。",
+        "textId": "IDS_SCENARIOGATE0023_TXT1004",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "イヴを守ることができなかった。",
+        "textId": "IDS_SCENARIOGATE0023_TXT1005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "もっと自分に力があれば\n彼女を失うこともなかったのに。",
+        "textId": "IDS_SCENARIOGATE0023_TXT1006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "あの戦いはアウラムの心に大きな傷を残していた。",
+        "textId": "IDS_SCENARIOGATE0023_TXT1007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "少女を失い、初めてアウラムは実感した。\n戦うことへの恐怖を。\n大切な人を失う悲しみを。",
+        "textId": "IDS_SCENARIOGATE0023_TXT1008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "そして、大地にはその尖兵たる機怪蟲（クローラー）が蔓延っている。\r\nこの機怪蟲は人が築き上げた建造物などを発見するとたちまち群がり、破壊してしまうという習性を持っていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そのため、旅を再開するまでには、\n多くの時間が必要だった。",
+        "textId": "IDS_SCENARIOGATE0023_TXT1009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、彼にはもう一つ\n気がかりなことがあった。",
+        "textId": "IDS_SCENARIOGATE0023_TXT1010",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate023/Bg_Sr00230175_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_SUZU_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "あの時から\n行方の知れなくなったニンギルス。",
+        "textId": "IDS_SCENARIOGATE0023_TXT1011",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "最愛の妹を失い、絶望に塗りつくされたであろう\n彼の心情を思うと、大きな不安が襲い掛かる。",
+        "textId": "IDS_SCENARIOGATE0023_TXT1012",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate023/Bg_Sr00230175_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 13730,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 13729,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "幼馴染の身を案じたアウラムは、\n彼の行方を追うため\nイムドゥークと共に旅を再開した。",
+        "textId": "IDS_SCENARIOGATE0023_TXT1013",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "有力な手がかりを得られず、焦りも募り始めたある時、\n自らに宿る機界騎士（ジャックナイツ）の\n導きによるものだろうか。",
+        "textId": "IDS_SCENARIOGATE0023_TXT1014",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate023/Bg_Sr00230175_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.4081999361515045,0.4081999361515045,0.16532260179519654,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "アウラムは休眠状態となっていた\n機怪蟲（クローラー）を発見する。",
+        "textId": "IDS_SCENARIOGATE0023_TXT1015",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "わずかな手がかりでも得られればと、\nその機能を回復させ、\n交信を試みるのであった。",
+        "textId": "IDS_SCENARIOGATE0023_TXT1016",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_07",
+        "fade": 2
+      }
+    }
+  ]
+}

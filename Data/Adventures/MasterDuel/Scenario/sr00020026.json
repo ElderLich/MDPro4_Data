@@ -1,0 +1,547 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00020026",
+  "sourceBundle": "2e006f79",
+  "sourceSha256": "8d46490874daa3a062c865328970e3c0f3d3950cf3321f37acd16accef73ce34",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        1,
+        0,
+        "Scenarios/Gates/Gate003/Texcture/Universal/Bg_Sr030011_04",
+        0,
+        "#FFFFFFFF",
+        8
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate002/Bg_Sr00020026_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 3
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_03",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "星遺物を探し求めるアウラムたちの旅が始まった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "星遺物を探し求めるアウラムたちの旅が始まった。",
+        "textId": "IDS_SCENARIOGATE0002_TXT4001",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "世界を救うという使命を負った一行ではあったが、\n里を出たことがなかった若者たちにとって、\n外の世界で見聞きするもの全てが新鮮で鮮烈に感じられた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "世界を救うという使命を負った一行ではあったが、\n初めての外の世界に、\n見聞きするもの全てが新鮮で鮮烈に感じられた。",
+        "textId": "IDS_SCENARIOGATE0002_TXT4002",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "道中では何度となく機怪蟲にも遭遇したが、\n星杯の力を得たアウラムたちは難なくそれらを排除し、\n大きな困難もなく旅は何日も続いた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "道中で何度となく機怪蟲（クローラー）に遭遇するも、\nそれを撃退し、アウラム達の旅は何日にも及んだ。",
+        "textId": "IDS_SCENARIOGATE0002_TXT4003",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        2,
+        0,
+        "Scenarios/Gates/Gate002/Texcture/Universal/Bg_Sr00020026_00",
+        0,
+        "#FFFFFFFF",
+        8
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate002/Bg_Sr00020026_01",
+        "oscale": 0,
+        "color": "#A2B5C05A",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BlurLayer",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "frm": 5,
+        "dst": 5,
+        "target": 20
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 0
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 13088,
+        "pos": 1,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 13087,
+        "pos": 2,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 13089,
+        "pos": 3,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 13086,
+        "pos": 4,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "湿り気を含んだ風がアウラムたちの頬を撫でる。\r\n一行の前には、広大な湿地帯が広がっていた。"
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "星杯の導きとリースの案内に従い、\nどれほど歩いただろうか。\n湿り気を含んだ風がアウラムたちの頬を撫でる。",
+        "textId": "IDS_SCENARIOGATE0002_TXT4004",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BlurLayer",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "frm": 8,
+        "dst": 0,
+        "target": 20
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "そして、そのぬかるんだ台地に沈む巨大な人工物。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "一行の前には、広大な湿地帯が広がっていた。",
+        "textId": "IDS_SCENARIOGATE0002_TXT4005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        4,
+        0,
+        "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      ],
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.3003652095794678,0.3003652095794678,0.0,0.04711246117949486],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その湿地に横たわる巨人\n――これこそが旅の目的の一つ\n「星遺物－『星鎧』」であった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、そのぬかるんだ台地に沈む巨大な人工物。\nその湿地に横たわる巨大な鎧。",
+        "textId": "IDS_SCENARIOGATE0002_TXT4006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "しかし、そこにあったのは星鎧だけではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "――これこそが旅の目的の一つ\n「星遺物－『星鎧』」であった。",
+        "textId": "IDS_SCENARIOGATE0002_TXT4007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_03",
+        "fade": 4
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "しかし、そこにあったのは星鎧だけではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、そこにあったのは星鎧だけではなかった。",
+        "textId": "IDS_SCENARIOGATE0002_TXT4008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 0
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        2,
+        0,
+        "Scenarios/Gates/Gate002/Texcture/Universal/Bg_Sr00020026_01",
+        0,
+        "#FFFFFFFF",
+        8
+      ],
+      "args": {
+        "duration": 3,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate002/Bg_Sr00020026_02",
+        "oscale": 0,
+        "color": "#7D879565",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        5,
+        1,
+        "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      ],
+      "args": {
+        "duration": 15,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[-0.00151824951171875,0.0,0.6062151193618774,0.6062151193618774,0.0,0.09711548686027527],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_13",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "巨人の表面を覆いつくすだけではなく、\nその内部にも蠢く影がある。\r\n虫の死骸に集まる蟻のように、\n機怪蟲がびっしりと星鎧に群がっているのだ。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "鎧の表面を覆いつくすだけではなく、\nその内部にも、うごめく影がある。",
+        "textId": "IDS_SCENARIOGATE0002_TXT4009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その数は無数。\n",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "虫の死骸に集まる蟻のように、\n機怪蟲（クローラー）がびっしりと群がっているのだ。",
+        "textId": "IDS_SCENARIOGATE0002_TXT4010",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "赤い単眼から発せられる奇怪な光が、\nアウラムたちの視界をくまなく埋め尽くしている。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その数は無数。\n 赤い単眼から発せられる怪しい光が、\nアウラムたちの視界を埋め尽くしている。",
+        "textId": "IDS_SCENARIOGATE0002_TXT4011",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "機怪蟲が動き回る金属をこすり合わせるような音は混然一体となり、\n大地が鳴り響いているかのような轟音として耳に届く。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "機怪蟲（クローラー）が動き回り\n金属をこすり合わせるような音は\n大地が鳴り響いているかのような轟音として耳に届く。",
+        "textId": "IDS_SCENARIOGATE0002_TXT4012",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "さらに、これまでに倒してきた機怪蟲とは\n別格の力を持つと思われる上位個体の姿も見える。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "さらに、これまでに倒してきた機怪蟲（クローラー）とは\n別格の力を持つと思われる上位個体の姿がそこにはあった。",
+        "textId": "IDS_SCENARIOGATE0002_TXT4013",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "想像を絶する光景を目の当たりにし、\n正面から機怪蟲の群れを突破するのは無謀だと判断したアウラムたちは、\n機怪蟲を避けながら星鎧の元を目指した。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "想像を絶する光景を目の当たりにし、\n正面から突破するのは\n無謀だと判断したアウラムたち。",
+        "textId": "IDS_SCENARIOGATE0002_TXT4014",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "想像を絶する光景を目の当たりにし、\n正面から機怪蟲の群れを突破するのは無謀だと判断したアウラムたちは、\n機怪蟲を避けながら星鎧の元を目指した。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "リースの誘導に従い、\n接敵を避けながら星鎧の元を目指した。",
+        "textId": "IDS_SCENARIOGATE0002_TXT4015",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_13",
+        "fade": 2
+      }
+    }
+  ]
+}

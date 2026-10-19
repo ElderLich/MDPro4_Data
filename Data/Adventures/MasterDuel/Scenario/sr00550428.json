@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00550428",
+  "sourceBundle": "2c5ca701",
+  "sourceSha256": "e765214f1ea3be0a8552dcfb0bf53f02514c29817b2025aa6669cf19b8296a68",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "戦場に立つ機動兵器",
+        "titleId": "IDS_SCENARIOGATE0055_TITLE1001",
+        "path": "Scenarios/Gates/Gate055/Bg_titile",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate055/Bg_Sr00550428_00a",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「A・O・J（アーリー・オブ・ジャスティス）」と、\n外宇宙からの侵略者「ワーム」の戦いは続いていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT1001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "A・O・Jが開発した傑作機\n「A・O・J カタストル」の投入によって\n戦況は盛り返したように見えた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT1002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、ワームの中にも高い知能を持つ個体や\n大型種が出現するに至り、\nカタストルだけでは対抗できなくなっていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT1003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "より強く。\nより速く。\nより鋭く。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT1004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ひとたび戦地に投入されれば、\nワームを一掃し、必ず帰還し次の戦地に赴く。\nそんな新兵器の開発が急がれた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT1005"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate055/Bg_Sr00550428_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "技術者はさらなる要求に応えるため、\n研究に打ち込む。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT1006"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "望まれた性能を満たすため、\n機体は巨大化・複雑化を\n余儀なくされていく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT1007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そうして様々な機能を盛り込んだものの、\n肥大した機体を動かせるほどの\n精巧な制御ユニットの開発は難航した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT1008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "技術者たちは頭を悩ませた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT1009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "このままでは我々は負ける。\n大地はワームに埋め尽くされる――。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT1010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そこに、一人の技術者が提案した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT1011"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Zene",
+        "path": "Scenarios/Gates/Gate055/Pre_Sr00550428_00",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_SPEAR_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『制御中枢コアとして「ジェネクス」に\n“協力”を要請すればいいのではないか。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT1012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『火や水など、自然の力をコントロールし、\n高いチューニング能力を持つ彼らなら、\n巨大機動兵器も動かせるのではないか――。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT1013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その案は検討されたのち、\nすぐに採用される。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT1014"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Zene",
+        "path": "",
+        "pos": 0,
+        "duration": 3
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "A・O・Jが“保護”した「スペア・ジェネクス」が、\n機動兵器に組み込まれることとなった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT1015"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate055/Bg_Sr00550428_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.22358562052249909,0.22358562052249909,0.2195122241973877,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "スペア・ジェネクスを組み込んだ初の起動試験の際、\nその巨大兵器が動くさまを見た瞬間、\n関係者たちからはどよめきが起こったという。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT1016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "あのように小さな見た目の機械生命が、\nたった一体でこれほど巨大な兵器を動かせるのか――。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT1017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "こうして、圧倒的戦力で敵を撃滅する巨大な機動兵器\n「A・O・J フィールド・マーシャル」は\nひとまずの完成を見た。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT1018"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "fade": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,702 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00400319",
+  "sourceBundle": "76858e04",
+  "sourceSha256": "44dfefbf5e6e166c34bd27206b317fbb080007114a7bd185a088d7c9b5f8c43b",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "愉快な闇の住人たち",
+        "titleId": "IDS_SCENARIOGATE0040_TITLE1001",
+        "path": "Scenarios/Gates/Gate040/Bg_Sr00400319_titile",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_26",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate040/Bg_Sr00400319_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ようこそ、諸君。\n数多の「ゴーストリック」が集う洋館へ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この洋館は町のはずれ、\n小高い丘の上に建っている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ここは昔、ニンゲンが住んでいたが、\nとうにそのニンゲンはいない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "いつからだったか、\n町ではこんなウワサが\n流れていたとも聞いている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1004"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "frm": "",
+        "dst": "#726C78FF"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Hito1",
+        "path": "Scenarios/Gates/Gate040/Pre_Sr00400319_00d",
+        "pos": 0,
+        "duration": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ねえ知ってる？\nあの洋館にはオバケ？\nユーレイ？が出るんだって。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1005"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Hito2",
+        "path": "Scenarios/Gates/Gate040/Pre_Sr00400319_00e",
+        "pos": 0,
+        "duration": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『で、うっかり入ると\nイタズラされてヒドい目に\nあっちゃうらしいんだ――。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1006"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "frm": "",
+        "dst": "#FFFFFFFF"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Hito1",
+        "duration": 1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Hito2",
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らが言うオバケだか\nユーレイだかが何なのか\n私には分からない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "だが、確かにこの洋館には\nニンゲンではないモノが住んでいる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ふむ、どうやら今日は\nニンゲンの訪問者が\nあったようだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1009"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 4,
+        "path": "Scenarios/Gates/Gate040/Bg_Sr00400319_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 50,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "いつもやかましい住人どもが、\n普段以上にはしゃいでいるぞ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1010"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_LAUGHTER",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『アハハハハハハハ！\nあー楽しかったー！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ねえ、見た？\nあのニンゲンのカオ見た？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『アハハハハハハハハ！\nすっごくビックリしてたみたい！\nウワサを聞いて遊びに来てくれたのかなあ？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『でも、せっかく来てくれたのに\nすぐ帰っちゃった！\nんーザンネン！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『アハハハハハハハハ！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "昔はニンゲンも私たちのことを\n知っていたのだがー。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ニンゲンが見間違えた、\n\"オバケ\"や\"ユウレイ\"とは\nどうやら私たちのことらしい。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ニンゲンによっては、私たちのことを\n「ゴーストリック」とも呼んでいる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『アハハハハハハハハ！\n次はどうやって驚かそうね！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1019"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『アハハハハハハハハ！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1020"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "frm": "",
+        "dst": "#8E879CFF"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "label": "Alc",
+        "path": "Scenarios/Gates/Gate040/Pre_Sr00400319_Alc",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Alc",
+        "tmlabel": "label_3"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "やれやれ、本当に騒がしいな。\n声が響いているではないか。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1021"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Alc",
+        "tmlabel": "label_3"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ん？私か？",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1022"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Alc",
+        "tmlabel": "label_5"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ああ、自己紹介が遅れたな。\n私は、「アルカード」だ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1023"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Alc",
+        "tmlabel": "label_3"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ニンゲンがいなくなったこの洋館の主人……\nといったところだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1024"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Alc",
+        "tmlabel": "label_5"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "洋館で騒いでいるのは、\n住むところがなくなったとかどうだとか。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1025"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Alc",
+        "tmlabel": "label_5"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "何かしら適当な理由でいつの間にか集まって\n住み着くようになった居候たちだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1026"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Alc",
+        "tmlabel": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その居候曰く――",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1027"
+      }
+    },
+    {
+      "command": "PrefabWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Alc",
+        "skip": false
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "frm": "",
+        "dst": "#FFFFFFFF"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Alc",
+        "duration": 1
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_BOYOYON",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Obake",
+        "path": "Scenarios/Gates/Gate040/Pre_Sr00400319_obake",
+        "pos": 0,
+        "duration": 0.5
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ボクらが好きなのは\nニンゲンを驚かせるコト！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1028"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ビックリさせるためにいろんなしかけをしたり、\nみんなと遊んだりして、\nニンゲンが来るのを待ってるんだ！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1029"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『むかしみたいに\nニンゲンがいっぱい\n遊びに来てくれたらうれしいな！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1030"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Obake",
+        "duration": 0.5
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "label": "Alc",
+        "path": "Scenarios/Gates/Gate040/Pre_Sr00400319_Alc",
+        "pos": 0,
+        "duration": 0.5
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 0.5
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Alc",
+        "tmlabel": "label_4"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.5,
+        "frm": "",
+        "dst": "#8E879CFF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ううむ……。\n私は静かに、心穏やかに\n棺の中で寝ていたいのだが……。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1031"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Alc",
+        "tmlabel": "label_4"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "あんまりうるさくされるのは、\n少々困るな。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT1032"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_26",
+        "fade": 2
+      }
+    }
+  ]
+}

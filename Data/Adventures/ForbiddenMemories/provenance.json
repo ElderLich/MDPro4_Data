@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "contentOrigin": "MDPro4 authored adaptation",
+  "dialogue": "Original English writing, not extracted PSX dialogue.",
+  "decks": "Authored 40-card modern-rule loaner decks, not original PSX opponent tables.",
+  "rules": "Current ocgcore rules; no PSX fusion table, Guardian Stars or no-Tribute rule.",
+  "field": "Original procedural 3D sandstone/basalt temple, mate bases and grave wells.",
+  "cardDatabaseSha256": "e0f148dbeed76f3162c2b2e24cc01ae833e1349d8045d20ee4c359416b02640c",
+  "deckValidation": [
+    {
+      "path": "Decks/fm-prince.ydk",
+      "main": 40,
+      "extra": 0,
+      "unknownCards": 0,
+      "sha256": "f3eb6f52c3c30a309b6efb830c1f5cc41676e0e86c073b565bd1021ce03eca88"
+    },
+    {
+      "path": "Decks/fm-simon.ydk",
+      "main": 40,
+      "extra": 0,
+      "unknownCards": 0,
+      "sha256": "b13d692bc02eb2d2768782699696a64ad8bfd5fc51c7137bb94a5687ef0ce79f"
+    },
+    {
+      "path": "Decks/fm-jono.ydk",
+      "main": 40,
+      "extra": 4,
+      "unknownCards": 0,
+      "sha256": "84e5bb7ca844a2d441b0d8b74ba1e31982de12d4ca8cf42cdf14241844565642"
+    },
+    {
+      "path": "Decks/fm-seto.ydk",
+      "main": 40,
+      "extra": 0,
+      "unknownCards": 0,
+      "sha256": "6b5c028ddc8c71bdedcc142272db6118fc7da37d9dfe26b14423d2744dd0e962"
+    },
+    {
+      "path": "Decks/fm-teana.ydk",
+      "main": 40,
+      "extra": 0,
+      "unknownCards": 0,
+      "sha256": "21ba132c031098396423881ff177694155d7bf2e4087702e7fa67bd592097499"
+    }
+  ],
+  "originalArtwork": {
+    "schemaVersion": 1,
+    "source": "Yu-Gi-Oh! Forbidden Memories (Europe).bin",
+    "executable": "SLES_039.47",
+    "executableSha256": "49544302dbe341489ae0eaf7888cac002a6160c57454970c434cdcb171d2a40e",
+    "archive": "DATA/WA_MRG.MRG",
+    "archiveSha256": "b0b4ddca3a872e7579343eb18874bc22db0d9a3adf43ca440ab7d8e337a81d7c",
+    "nativeFunctionRam": "0x8002DFD8",
+    "nativeFunctionFileOffset": "0x1E7D8",
+    "backgroundBaseLba": "0x29E8",
+    "typeZeroStrideLba": "0x21",
+    "formatReference": "https://github.com/xan1242/YGOFM-BGEx",
+    "paletteConversion": "RGB555 to RGBA8; 0x8000 transparent black; nonblack STP rejected",
+    "images": [
+      {
+        "path": "palace-night.png",
+        "index": 1,
+        "width": 320,
+        "height": 160,
+        "blockSha256": "151531a1d3bc95b7c275b30553dc77553f333e165f7889844338ce7cac41cbfa",
+        "pngSha256": "9d5b2631934137c9a45e0bb25536085f98a8cb4366097a60b23afc264bee4a2b"
+      },
+      {
+        "path": "palace-courtyard.png",
+        "index": 6,
+        "width": 320,
+        "height": 160,
+        "blockSha256": "03b4e645089bca03c5015fcc177c8808765a55e25b5170b557647842639a8e91",
+        "pngSha256": "9308701e698b82fa7361ad778e3227e1a0d9600105ab4d83b85700e37a200803"
+      },
+      {
+        "path": "festival-plaza.png",
+        "index": 36,
+        "width": 320,
+        "height": 160,
+        "blockSha256": "d0e85e7ce5fa55750bd13d28d30aefa8c75f8af20f646cd8defec822f16cce18",
+        "pngSha256": "9f72ad140665b742a2a36576dbf1437ec613ecddc1df597eff7ad7749fc1d8b5"
+      }
+    ]
+  },
+  "modernArtwork": {
+    "manifest": "Artwork/Modern/generated-art.json",
+    "representation": "Generated raster illustrations referenced to original PSX scene art; character cutouts are 2D, not 3D models."
+  },
+  "festivalSideDuels": {
+    "missions": [
+      "fm-jono-rematch",
+      "fm-teana"
+    ],
+    "prerequisite": "fm-village",
+    "textSource": "Data/locales/<locale>/Solo Gates/Forbidden Memories/Text.json",
+    "locales": [
+      "zh-CN",
+      "zh-TW",
+      "en-US",
+      "fr-FR",
+      "de-DE",
+      "it-IT",
+      "pt-PT",
+      "es-ES",
+      "ja-JP",
+      "ko-KR",
+      "th-TH"
+    ],
+    "note": "Authored optional current-rule duels; Jono rematch reuses the existing deck. Not PSX dialogue or original opponent tables."
+  },
+  "textSource": "Data/locales/<locale>/Solo Gates/Forbidden Memories"
+}

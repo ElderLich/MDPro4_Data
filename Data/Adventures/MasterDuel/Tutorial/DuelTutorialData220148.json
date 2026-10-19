@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "sourceBundle": "38f85d2a",
+  "sourceSha256": "a8597d20670266d2f5ed4251f7535e6fb798913b79943f0a30efe7afbabf2bd2",
+  "runtimeReady": true,
+  "reason": "Original native guidance feature families accepted; original rows retained.",
+  "infoList": [
+    {
+      "startTurn": 0,
+      "startView": 1,
+      "startDelay": 0.0,
+      "centerMessage": [],
+      "useTopMessage": 0,
+      "topMessage": "",
+      "finishTurn": 0,
+      "finishView": 2,
+      "invalidPhase": [],
+      "invalidPhaseMessage": "",
+      "invalidCommand": [],
+      "invalidCommandMessage": "",
+      "effectList": [],
+      "skipCardActivation": 0,
+      "noCancel": 0,
+      "noCancelMessage": "",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": 0,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [],
+      "invalidCardIDMessage": "",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": "solo/strategy/toyourhand"
+    }
+  ],
+  "playClimaxBGM": 1
+}

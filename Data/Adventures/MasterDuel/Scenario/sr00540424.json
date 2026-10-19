@@ -1,0 +1,1064 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00540424",
+  "sourceBundle": "188ac29a",
+  "sourceSha256": "3e915f68956c14787d08a1209236abbbd9167220296d0da7cc6b422312e5d7ff",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate054/Bg_Sr00540421_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 3
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_36",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "今日も今日とて雑務を終えた\n魔轟鬼たちが集まり、\nいつものようにダベっていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2001"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ふー、今日も働いたぜぇ』",
+        "autominsec": 0,
+        "textId": "",
+        "label": "Emo_red",
+        "path": "Scenarios/Gates/Gate054/Emo_red",
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ふー、今日も働いたぜぇ』",
+        "autominsec": 0,
+        "textId": "",
+        "label": "Emo_blue",
+        "path": "Scenarios/Gates/Gate054/Emo_blue",
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ふー、今日も働いたぜぇ』",
+        "autominsec": 0,
+        "textId": "",
+        "label": "Emo_paple",
+        "path": "Scenarios/Gates/Gate054/Emo_paple",
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ふー、今日も働いたぜぇ』",
+        "autominsec": 0,
+        "textId": "",
+        "label": "Emo_black",
+        "path": "Scenarios/Gates/Gate054/Emo_black",
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ふー、今日も働いたぜぇ』",
+        "autominsec": 0,
+        "textId": "",
+        "label": "Emo_green",
+        "path": "Scenarios/Gates/Gate054/Emo_green",
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ふー、今日も働いたぜぇ』",
+        "autominsec": 0,
+        "textId": "",
+        "label": "Emo_orenge",
+        "path": "Scenarios/Gates/Gate054/Emo_orenge",
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ふー、今日も働いたぜぇ』",
+        "autominsec": 0,
+        "textId": "",
+        "label": "Emo_white",
+        "path": "Scenarios/Gates/Gate054/Emo_white",
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ふー、今日も働いたぜぇ』",
+        "autominsec": 0,
+        "textId": "",
+        "label": "Emo_yellow",
+        "path": "Scenarios/Gates/Gate054/Emo_yellow",
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_white",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_B",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『前の騒ぎは久々に面白かったよなー』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2002"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_green",
+        "tmlabel": "Emo04"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_A",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『それってアンドレイス\"さま\"……\nいや、今はもう\"さん\"付けでいいか。\nアンドレイス\"さん\"のカチコミの話？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2003"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_white",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_B",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『そうそう、それ』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2004"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate054/Bg_Sr00540424_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.6288343667984009,0.6288343667984009,0.0,0.1463414579629898],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『アンドレイスさんもスゲーよな。\n第一、第二って、二人の王スルーからの\n絶対神に直でブッ込みだもんよ』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『マジでノーフューチャーすぎる。\nまあ、結局負けちまったんだけど』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『割といいとこまで行ったらしいぜ。\nどーせならジャイアントキリング\n見たかったけどな』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『な、ホントそれな』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2008"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate054/Bg_Sr00540421_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 3
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_black",
+        "tmlabel": "Emo03"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_C",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『…………』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2009"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_orenge",
+        "tmlabel": "Emo04"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_A",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Fuki9",
+        "path": "Scenarios/Gates/Gate054/Pre_Sr00540421_fuki09",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ん？　どうした？　\nまたケルベラルに逃げられた？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2010"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_blue",
+        "tmlabel": "Emo02"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_E",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『あー、アイツはビックリするほど\nヤンチャだもんな』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2011"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_black",
+        "tmlabel": "Emo03"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_C",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Fuki9",
+        "duration": 0.5
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『いやまあ、それはなんとか\n魔界まで連れ戻したんだけどさ……』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2012"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_red",
+        "tmlabel": "Emo05"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_D",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ホントに逃げられてたんかい』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2013"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_orenge",
+        "tmlabel": "Emo04"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_A",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『魔轟神獣は、立ち入り禁止の\n轟界まで行っちまったとか？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2014"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_black",
+        "tmlabel": "Emo02"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_E",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『うーん……その……\nコレ、言っちゃって大丈夫なんかな……』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2015"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_red",
+        "tmlabel": "Emo05"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_D",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『まさか、\n第３階層まで行っちまったんじゃ！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2016"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_yellow",
+        "tmlabel": "Emo02"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_E",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『王たちのいる神界まで行くのは\nさずがにやべーよ』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2017"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_white",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_B",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『オレらだけ自由に行き来を許されてるのは、\n見張りだからだろ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2018"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_black",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_B",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『いや、その逆だよ。\n最下層じゃなくって……』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2019"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_black",
+        "tmlabel": "Emo04"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_A",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『追いかけてたらさ……なんか外？\n地上世界っての？\nオレ、そこに出られちゃったっぽいんだが……』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2020"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_red",
+        "tmlabel": "Emo05"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_D",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『なんそれ!?　マジで!?』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2021"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate054/Bg_Sr00540424_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『うん……なんかさ、\nいつの間にか世界が変わってたのよ。\n明るくて……広くて……』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2022"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『お、おお……』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2023"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate054/Bg_Sr00540421_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 3
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_black",
+        "tmlabel": "Emo04"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_A",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『なあ、これ、報告したほうがいいやつ？\nでもオレの勘違いで怒られんのヤだし……』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2024"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_red",
+        "tmlabel": "Emo02"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_E",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『んーんんー……。\nいや、でもそれは\n黙ってるほうがヤバくねえ？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2025"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_black",
+        "tmlabel": "Emo03"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_C",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『だ、だよな……。\nでもいきなり王クラスに報告すると\nなんか話がデカくなりそうだし……』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2026"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_red",
+        "tmlabel": "Emo04"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_A",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Fuki10",
+        "path": "Scenarios/Gates/Gate054/Pre_Sr00540421_fuki10",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『とりあえず上には\n話しておいたほうがいいんじゃね？\nディアネイラ様あたり？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2027"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_paple",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_B",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『あー、ディアネイラ様か。\nああ見えてオレらみたいな下っ端にも\n良くしてくれるし』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2028"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Fuki10",
+        "duration": 0.5
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_black",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_B",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『……うん、わかった。\nちょっと行ってくるわ』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2029"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate054/Bg_Sr00540424_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "zoom": 1.1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "地上の騒乱が呼び水となったのか、\n「A・O・J（アーリー・オブ・ジャスティス）」による\n次元干渉実験の影響か。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2030"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "“外界への道、通ず”\nこの報に魔轟神界は騒然となる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2031"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "同族以外と殴り合えるのはいつ振りか。\n魔轟神たちは戦いの喜びに打ち震える。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2032"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_09",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "外宇宙からの敵「ワーム」との\n生存をかけた戦いの真っただ中に、\n地上世界へ「魔轟神」が解放される。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2033"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "悪しき神々の出現は、\n原住部族に更なる騒乱を\n巻き起こすのであった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT2034"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_36",
+        "fade": 2
+      }
+    }
+  ]
+}

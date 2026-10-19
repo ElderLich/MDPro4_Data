@@ -1,0 +1,402 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00560435",
+  "sourceBundle": "0c56902d",
+  "sourceSha256": "7957c2cf4098609a136529cca09de398a563d44b80841f283c0586d4c34bb7ea",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "兵器開発の行方",
+        "titleId": "IDS_SCENARIOGATE0056_TITLE1001",
+        "path": "Scenarios/Gates/Gate056/Bg_Sr00560435_titile",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate055/Bg_Sr00550431_02",
+        "oscale": 0,
+        "color": "#9A9A9AFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "驚異的な進化と増殖を繰り返す「ワーム」。\nこれに対抗するため、\n新たな兵器の開発が急がれていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT1001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "先の戦闘における「A・O・J（アーリー・オブ・ジャスティス）\nフィールド・マーシャル」の大破によって、\nA・O・Jはまた認識を改める必要があった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT1002"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Zene",
+        "path": "Scenarios/Gates/Gate055/Pre_Sr00550428_00",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「ジェネクス」を組み込んだ兵器は\nジェネクス用の調整が必要となる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT1003"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Zene",
+        "duration": 3
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "よって、ジェネクスが失われた場合、\n機体が使い物にならなくなる可能性が高い。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT1004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ジェネクスの運用を前提とした兵器の開発は\n大きなリスクを伴った。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT1005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "安定した戦力を維持するためには、\nジェネクスに頼らない兵器を\n開発しなければならない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT1006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そのためには、まず敵であるワームを\n今以上に詳しく知る必要がある。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT1007"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate056/Bg_Sr00560435_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "技術者はワームの星系から\n降りそそいだと思われる\n隕石の調査に乗り出す。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT1008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "慎重に慎重を重ねた調査の結果、\nそこから未知の物質が発見された。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT1009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "凄まじい進化を見せるワーム、\nそれを由来とした物質。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT1010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "これをジェネクスに代わる\n中枢コアとして利用できないか――？",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT1011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "技術者たちは開発に取りかかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT1012"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate056/Bg_Sr00560435_01",
+        "oscale": 0,
+        "color": "#7F7D93FF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 40,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_OP_DEGITAL",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "予想だにしない暴走や事故が起きぬよう、\nコアには何重ものプロテクトが施された。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT1013"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "",
+        "path": "Scenarios/Gates/Gate056/pre_Sr00560435_02",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_11",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その結果として\nついにプロトタイプの完成に至る。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT1014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "高性能ユニットとして開発され、\n高いチューニング能力を誇る「A（アーリー）・マインド」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT1015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その搭載実験では期待以上の成果を見せ、\nA・O・J兵器群の性能は底上げされた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT1016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "こうしてA・O・Jは新たな武器を獲得し、\n再びワームとの戦いに臨む。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT1017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "このA・マインドも\nワームの進化速度に追い越され、\n型落ちとなる日が来るだろう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT1018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それでも、この星から一匹残らず\nワームがいなくなるまで\nA・O・Jは戦い続けるしかないのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT1019"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "fade": 2
+      }
+    }
+  ]
+}

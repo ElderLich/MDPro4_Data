@@ -1,0 +1,577 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00370295",
+  "sourceBundle": "190dceb8",
+  "sourceSha256": "73c379ccbbe10a593dd366580399e54ed995946c697a010452b581b3a8be45dd",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate037/Bg_Sr00370295_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_23",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その日も、街の住人たちは\n防壁の中で生き残るために戦っていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2001"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 12,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "怒涛のように絶え間なく押し寄せ、\n日を追うごとに減るどころか\n数を増しているようにすら見えるヴェンデットの群れ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ヴェンデットの大群が発するうめき声が闇夜に渦を巻き、\nもはや正気を保つのも困難なほどの光景であった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2003"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate037/Bg_Sr00370296_00",
+        "oscale": 0.05,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_10",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,-0.026020804420113565,-0.026020804420113565,0.23577237129211427,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そんな時である。\n死者の群れに、単身で躍り出る影があった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その影がヴェンデットを斬り、",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2005"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2.5,
+        "shakex": false,
+        "shakey": true,
+        "wave": 0.05,
+        "cycle": 0.5,
+        "target": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "刺し、殴り、蹴り、叩き、\n断ち、裂き、砕き、突き、\n打ち、捩じ切り、潰す。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2006"
+      }
+    },
+    {
+      "command": "BgWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "skip": false
+      }
+    },
+    {
+      "command": "ShakeEnd",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "target": 0
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "BgWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "skip": true
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "壁に迫っていた大群を一体残らず狩りつくすと、\nその影は人間たちを振り返りもせず\n風のように去っていった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2007"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate037/Bg_Sr00370296_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「リヴェンデット・スレイヤー」に\n人間を助けたという気はない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ただひたすらに、己の復讐心のためだけに、\n自らの視界に入るヴェンデットを消しているだけだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、何の前触れもなく現れ、\n竜巻のようにヴェンデットを打ち倒していく\nスレイヤーの姿。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは、残された住人たちにとって\n微かな希望の光として映り、\n死者と戦う死者の噂は街中を駆け巡った。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "明けない夜の中で、\n彼の戦いの日々は続く。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "だが、ヴェンデットも一方的に\n狩られているだけではなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その戦いの連続は、\n亡者の側にも新たな変化をもたらしたのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2014"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate037/Bg_Sr00370296_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それまでのヴェンデットは、個体差はあれ\n元となった人間や動物などと\nほぼ変わらない大きさだった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それゆえ倒すまではいかなくとも、\n人間の力だけでも壁に迫る群れを\n食い止められていたのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし「リヴェンデット・スレイヤー」という\n処刑人の出現に脅威を感じ取ったのか、複数の個体が\n融合した大型のヴェンデットが姿を現すようになる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "異形の怪物としか言いようのないその個体は、\n神話に登場する合成獣になぞられ\nこう呼ばれた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「ヴェンデット・キマイラ」。",
+        "autominsec": 3,
+        "textId": "IDS_SCENARIOGATE0037_TXT2019"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは、人々の防衛線を度々脅かした。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0037_TXT2020"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1.5,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate037/Bg_Sr00370296_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "複数のヴェンデットの能力を併せ持つキマイラの力に、\nさしものスレイヤーも苦戦を強いられる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2021"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "かろうじて撃退はできるが、\n完全に沈黙させるまでにはいかない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2022"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし幾度かの戦いを経て、\nスレイヤーはキマイラの体内に\nその行動を統率している核が存在することを見抜く。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2023"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そしてスレイヤーは、\nその唯一にして最大の弱点である核に\n渾身の一撃を叩き込む。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2024"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WAFU_EFFECT_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Flash",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "cnt": 1,
+        "color": "#FF0000FF"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ついに、キマイラは物言わぬ肉塊と化した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2025"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "だが、自らを顧みずに特攻するスレイヤーと、\n怨念の集合体とも言うべき力で街を襲うキマイラの激突は、\n戦いをより惨烈なものへと変えていく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2026"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らの戦いは、ますます人間の身で立ち入るのは\n不可能な段階へと至りつつある。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2027"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "人々はヴェンデットが滅び、\n夜明けが訪れるのを祈るしかなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT2028"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_23",
+        "fade": 2
+      }
+    }
+  ]
+}

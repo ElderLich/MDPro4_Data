@@ -1,0 +1,599 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00100053",
+  "sourceBundle": "a0b78df4",
+  "sourceSha256": "d8e71596b1fcb9282df700c039139e8df2dd8eae66eabe6c2144a2d710d65dd3",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "剣闘獣の栄光",
+        "titleId": "IDS_SCENARIOGATE0010_TITLE1001",
+        "path": "Scenarios/Gates/Gate010/Bg_Sr00100053_tittle",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate010/Bg_Sr00100053_01",
+        "oscale": 0,
+        "color": "#B7AE9EFF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 25,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.6983490586280823,0.6983490586280823,0.0,0.060790274292230609],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "はるか古の時代、世界を統べる大帝国があった。\r\n都市は繁栄し、人々は平和な生活を送っていた。",
+        "textId": "IDS_SCENARIOGATE0010_TXT1001",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "戦争は遠い地での出来事となり、\r\n危険がなくなった貴族たちは、\r\n円形闘技場「コロッセウム」を建造する。",
+        "textId": "IDS_SCENARIOGATE0010_TXT1002",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そこでは「剣闘獣（グラディアルビースト）」が\r\n命尽きるまで闘い続けた。",
+        "textId": "IDS_SCENARIOGATE0010_TXT1003",
+        "autominsec": 3
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、貴族たちの欲望を満たすために\r\n剣闘大会が日夜開催される事となる。",
+        "textId": "IDS_SCENARIOGATE0010_TXT1004",
+        "autominsec": 2
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate010/Bg_Sr00100053_02",
+        "oscale": 0,
+        "color": "#D6CEBFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "#232323FF",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_KANSEI_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "帝国万歳！　\r\n死にゆく勇者たちに敬礼を！",
+        "textId": "IDS_SCENARIOGATE0010_TXT1005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "zoom": 1.5,
+        "curve": "{\"k\":[\"{\\\"p\\\":[-0.00151824951171875,0.002349853515625,0.08136304467916489,0.08136304467916489,0.0,0.028875380754470826],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "合図を皮切りに、己の爪や牙、\r\n与えらえた「闘器」を用い、\r\n激しい戦いが始まる。",
+        "textId": "IDS_SCENARIOGATE0010_TXT1006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「コロッセウム」では観客たちの\r\n熱狂を集めた者こそが称えられた。",
+        "textId": "IDS_SCENARIOGATE0010_TXT1007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そのため「剣闘獣（グラディアルビースト）」たちは、\r\n自らその身を危険にさらし、\r\nより大きな歓声を得ることに歓びを覚えた。",
+        "textId": "IDS_SCENARIOGATE0010_TXT1008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_12",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Fire",
+        "path": "Scenarios/Gates/Gate010/Pr_Sr00100053_00",
+        "pos": 0,
+        "slayer": "CommonOrder1"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "path": "Scenarios/Gates/Gate010/Bg_Sr00100053_02_7",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "繁栄の極みを謳歌していた帝国だったが、\r\n小さな火種をきっかけに滅亡の道を歩む。\r",
+        "textId": "IDS_SCENARIOGATE0010_TXT1009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして帝国の衰退に合わせて、\r\n剣闘大会の開催頻度も減少していった。",
+        "textId": "IDS_SCENARIOGATE0010_TXT1010",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "貴族たちは、闘いの場を失った\r\n「剣闘獣（グラディアルビースト）」たちが反乱する事を恐れ、\n「コロッセウム」に永久の封印を施した。",
+        "textId": "IDS_SCENARIOGATE0010_TXT1011",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate010/Bg_Sr00100053_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Fire"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Mon",
+        "path": "Scenarios/Gates/Gate010/Bg_Sr00100053_02_5",
+        "pos": 0,
+        "slayer": "Default"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Mon",
+        "tmlabel": "label_2"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WHOOSH_05",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "――帝国の滅亡より長い年月がすぎ、\r\n「コロッセウム」は時の流れと共に\r\n朽ち果てようとしていた。",
+        "textId": "IDS_SCENARIOGATE0010_TXT1012",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Mon"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "#FFFFFFFF",
+        "dstcolor": "#FFFFFF00",
+        "target": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "path": "Scenarios/Gates/Gate010/Bg_Sr00100053_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WHOOSH_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかしある日、\r\n風化した血痕が残る地面が光り輝き、\r\n「剣闘獣（グラディアルビースト）」が現れ出でる。",
+        "textId": "IDS_SCENARIOGATE0010_TXT1013",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "誰もいないはずの観客席から、\r\nかつて叫ばれていた合図の声が響く。",
+        "textId": "IDS_SCENARIOGATE0010_TXT1014",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate010/Bg_Sr00100053_05",
+        "oscale": 0.01,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "zoom": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.754971981048584,0.754971981048584,0.0,0.05623100325465202],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "pos": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "帝国万歳！　\r\n死にゆく勇者たちに敬礼を！",
+        "textId": "IDS_SCENARIOGATE0010_TXT1015",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "朽ちた都市に囲まれた「コロッセウム」の中で、\r\n「剣闘獣（グラディアルビースト）」たちは\r\n闘いを繰り返す。",
+        "textId": "IDS_SCENARIOGATE0010_TXT1016",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_KANSEI_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.04,
+        "cycle": 0.05,
+        "target": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして闘いの音に呼応して、\r\n熱狂する貴族たちの歓声が\r\n聞こえてくるのであった。\r",
+        "textId": "IDS_SCENARIOGATE0010_TXT1017",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "fade": 3
+      }
+    }
+  ]
+}

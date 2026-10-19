@@ -1,0 +1,456 @@
+{
+  "schemaVersion": 1,
+  "sourceManifest": "Tools/MasterDuel/Manifest/AssetManifest.Windows.json",
+  "sourceManifestSha256": "0e88bbacb1a34e6ad5a281ac195d2fc1f8c358b3fe4cbd8476c9bbd5838b80b6",
+  "sourceVersion": "Installed Master Duel download set indexed 2026-09-14; distinct from base 2.8 export.",
+  "nativeCommandCounts": {
+    "sr00050019": 26,
+    "sr00050021": 26,
+    "sr00060023": 25,
+    "sr00060025": 30
+  },
+  "supportedCommands": [
+    "BgMove",
+    "BgPlayLabeledTimeline",
+    "BgSet",
+    "BgZoom",
+    "CardFadeIn",
+    "CardFadeOutAll",
+    "ScreenFade",
+    "ShakeStart",
+    "SoundPlay",
+    "SoundStop",
+    "Text",
+    "Title",
+    "Wait"
+  ],
+  "localization": "Original en-US YDLZ+MessagePack values matched by CRC32(native key suffix); original command ordering, no editorial remapping.",
+  "sources": [
+    {
+      "bundleId": "024426ca",
+      "assetName": "assets/resourcesassetbundle/scenarios/gates/scenarioaseets/sr00050021.asset",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/02\\024426ca",
+      "sha256": "ba4849ac73bb07d92411db8c8a0e6531460f2d2cc5f4a7ecc0984a1156af3fa4",
+      "targetKey": "Ignored/024426ca",
+      "dependencies": []
+    },
+    {
+      "bundleId": "0706427a",
+      "assetName": "assets/resourcesassetbundle/sound/audioclip/bgm/bgm_solo_10.wav",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/07\\0706427a",
+      "sha256": "1b2c846ad6f8955b6d9b38d4b70a566e2c65583e23b54d30d0809c634a119694",
+      "targetKey": "Sound/BGM/BGM_SOLO_10.ogg",
+      "dependencies": []
+    },
+    {
+      "bundleId": "0b711307",
+      "assetName": "assets/resourcesassetbundle/scenarios/cardpop/tcg/cardpop13577.png",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/0b\\0b711307",
+      "sha256": "223fddb175b504332c444c78a88660bf79a8149bf37b4da3fb6eeccaffd3582a",
+      "targetKey": "Ignored/0b711307",
+      "dependencies": []
+    },
+    {
+      "bundleId": "0c1cd71e",
+      "assetName": "assets/resourcesassetbundle/scenarios/cardpop/tcg/cardpop13573.png",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/0c\\0c1cd71e",
+      "sha256": "a4aa27743be8362efa15929cf9349b967ff58ca866aed8b47da8b062d46ebbcf",
+      "targetKey": "Ignored/0c1cd71e",
+      "dependencies": []
+    },
+    {
+      "bundleId": "0e8c408a",
+      "assetName": "assets/resourcesassetbundle/scenarios/gates/common/shaders/img_ef_fog00.tga",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/0e\\0e8c408a",
+      "sha256": "03f88382822276698dcc1c6c88af14f37a0638c22ee477dacd486681c79afd22",
+      "targetKey": "Ignored/0e8c408a",
+      "dependencies": []
+    },
+    {
+      "bundleId": "0f0fb0c7",
+      "assetName": "assets/resourcesassetbundle/scenarios/gates/gate005/bg_sr00050019_tittle.png",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/0f\\0f0fb0c7",
+      "sha256": "fa8dc396abef6afa0f2b48e632275cac26c0f9ad00853dde8ef757d818a70f20",
+      "targetKey": "Ignored/0f0fb0c7",
+      "dependencies": []
+    },
+    {
+      "bundleId": "106503bc",
+      "assetName": "assets/resourcesassetbundle/scenarios/gates/gate006/bg_sr00060023_02.prefab",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/10\\106503bc",
+      "sha256": "c9974a954adc05fd6e8c5c6d288d6b0dc07bbf170f94793559fb0ab7682e493a",
+      "targetKey": "Ignored/106503bc",
+      "dependencies": [
+        "0e8c408a",
+        "35414e02",
+        "4971667e"
+      ]
+    },
+    {
+      "bundleId": "10c6fb09",
+      "assetName": "assets/resourcesassetbundle/sound/audioclip/bgm/bgm_solo_08.wav",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/10\\10c6fb09",
+      "sha256": "3294b7778fcdb0d51a9285aebb6d5a1362350f2171798d6d9b89e62713dac63a",
+      "targetKey": "Sound/BGM/BGM_SOLO_08.ogg",
+      "dependencies": []
+    },
+    {
+      "bundleId": "243df1da",
+      "assetName": "assets/resourcesassetbundle/scenarios/gates/gate006/texcture/bg_sr00060023_tittle.png",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/24\\243df1da",
+      "sha256": "8a8e3b4036f81395b10c5117acbe3d0690e7552ab712980ea35de81b87656caa",
+      "targetKey": "Ignored/243df1da",
+      "dependencies": []
+    },
+    {
+      "bundleId": "27b2fd3b",
+      "assetName": "assets/resourcesassetbundle/scenarios/gates/scenarioaseets/sr00050019.asset",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/27\\27b2fd3b",
+      "sha256": "d4f1ba62e16de6e907d4b66ae321506142f60ad2c90999c0581c6c2a715d70fa",
+      "targetKey": "Ignored/27b2fd3b",
+      "dependencies": []
+    },
+    {
+      "bundleId": "283dd7fa",
+      "assetName": "assets/resourcesassetbundle/scenarios/player/cardactor/timeline/scenariocardfadeout.playable",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/28\\283dd7fa",
+      "sha256": "fb4d7d869e8543213831be434fec0166f2e719105656f6d10a8e3df8002db48d",
+      "targetKey": "Ignored/283dd7fa",
+      "dependencies": []
+    },
+    {
+      "bundleId": "2b76731f",
+      "assetName": "assets/resourcesassetbundle/scenarios/gates/gate005/bg_sr00050019_03.prefab",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/2b\\2b76731f",
+      "sha256": "67a75f5d42efcb7939be134c420da68c14eeaeb5b8ea2d84ae491aaba4f491e1",
+      "targetKey": "Ignored/2b76731f",
+      "dependencies": [
+        "0e8c408a",
+        "4971667e"
+      ]
+    },
+    {
+      "bundleId": "2ca4ac1c",
+      "assetName": "assets/resourcesassetbundle/sound/audioclip/se_quest/se_solo_umekigoe_01.wav",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/2c\\2ca4ac1c",
+      "sha256": "3543371db866630ecbd58c97706faa7b5f0fd138ea32f25c33b1d3e3ef47164d",
+      "targetKey": "Ignored/2ca4ac1c",
+      "dependencies": []
+    },
+    {
+      "bundleId": "2cc359a9",
+      "assetName": "assets/resourcesassetbundle/duel/scriptableobject/tutorial/dueltutorialdata50159.asset",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/2c\\2cc359a9",
+      "sha256": "f97e6b87e259a18b8c9083adc477a73d4d9be3a7329b9ed910398ce2ef804f18",
+      "targetKey": "Ignored/2cc359a9",
+      "dependencies": []
+    },
+    {
+      "bundleId": "35414e02",
+      "assetName": "assets/resourcesassetbundle/scenarios/gates/gate006/sr00060023_02timeline.playable",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/35\\35414e02",
+      "sha256": "346aef0c5f92e79db855f767bbfaeb7d77b1f1c720a4ee970433dff21bee2c2f",
+      "targetKey": "Ignored/35414e02",
+      "dependencies": []
+    },
+    {
+      "bundleId": "3992c81e",
+      "assetName": "assets/resourcesassetbundle/duel/scriptableobject/tutorial/dueltutorialdata60160.asset",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/39\\3992c81e",
+      "sha256": "2e7f44fbe3638b16c3081716c8819e1ca58a627b95622e70241761c0eab93c5b",
+      "targetKey": "Ignored/3992c81e",
+      "dependencies": []
+    },
+    {
+      "bundleId": "42899803",
+      "assetName": "assets/resourcesassetbundle/scenarios/gates/scenarioaseets/sr00060025.asset",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/42\\42899803",
+      "sha256": "f9c517c539d6164c695f3db556da550302b12831d7c211b510e69331d77bcc9a",
+      "targetKey": "Ignored/42899803",
+      "dependencies": []
+    },
+    {
+      "bundleId": "4971667e",
+      "assetName": "assets/resourcesassetbundle/scenarios/gates/common/materials/add_starparticle.mat",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/49\\4971667e",
+      "sha256": "176ce3b107354c106493445f63c68a342282e4b6ecdb6c60f99e4483b2df9ac3",
+      "targetKey": "Ignored/4971667e",
+      "dependencies": []
+    },
+    {
+      "bundleId": "4ce858f6",
+      "assetName": "assets/resourcesassetbundle/scenarios/gates/common/shaders/img_fireshader00.tga",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/4c\\4ce858f6",
+      "sha256": "b5f088636dc7979555a2c0c545abde22ff0767637d99730f32de9bed71748b37",
+      "targetKey": "Ignored/4ce858f6",
+      "dependencies": []
+    },
+    {
+      "bundleId": "538f6dae",
+      "assetName": "assets/resourcesassetbundle/texts/en-us/ids_scenariogate0005.bytes",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/53\\538f6dae",
+      "sha256": "d95dd9cc309595f52a47a30b41ac385ff9aa148855b73b77a3175ffa856664a5",
+      "targetKey": "MasterDuel/Not Used/Other/ids_scenariogate0005",
+      "dependencies": []
+    },
+    {
+      "bundleId": "5c714389",
+      "assetName": "assets/resourcesassetbundle/scenarios/gates/gate005/bg_sr00050019_02.prefab",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/5c\\5c714389",
+      "sha256": "56182d4e361b11dfcb4678fa64d218aec92f7b9b9e708460e080b64608459ca0",
+      "targetKey": "Ignored/5c714389",
+      "dependencies": [
+        "0e8c408a"
+      ]
+    },
+    {
+      "bundleId": "6e472713",
+      "assetName": "assets/resourcesassetbundle/texts/en-us/ids_tutorial.bytes",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/6e\\6e472713",
+      "sha256": "b1da980bfaaf58e03ec70a266cf26e2d7b837791e55fa49400cc96bf304fc8c0",
+      "targetKey": "MasterDuel/Not Used/Other/ids_tutorial",
+      "dependencies": []
+    },
+    {
+      "bundleId": "731739ce",
+      "assetName": "assets/resourcesassetbundle/scenarios/player/containers/scenarioplayersetting.asset",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/73\\731739ce",
+      "sha256": "58348149e6b34cbb93e28299540fd6370a2df4e388f8846aa69b6dc63e96a90a",
+      "targetKey": "Ignored/731739ce",
+      "dependencies": []
+    },
+    {
+      "bundleId": "76abb2b5",
+      "assetName": "assets/resourcesassetbundle/images/solo/backgrounds/tcg/background0006.png",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/76\\76abb2b5",
+      "sha256": "6bbc53606a0f2f03d889bef3fa12237249b8c5c21a39626aa94f06e1fd04be51",
+      "targetKey": "Ignored/76abb2b5",
+      "dependencies": []
+    },
+    {
+      "bundleId": "7c762391",
+      "assetName": "assets/resourcesassetbundle/scenarios/cardpop/tcg/cardpop13576.png",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/7c\\7c762391",
+      "sha256": "0d5d9025ed08888be1030a91f22b0715b16716ac36b33142179e2de466732505",
+      "targetKey": "Ignored/7c762391",
+      "dependencies": []
+    },
+    {
+      "bundleId": "8127a17f",
+      "assetName": "assets/resourcesassetbundle/scenarios/gates/gate006/bg_sr00060025_00 1.prefab",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/81\\8127a17f",
+      "sha256": "06bc1c0a63765568433042241caceb68fffba50fc41f8a6a7a31acde47ab9610",
+      "targetKey": "Ignored/8127a17f",
+      "dependencies": [
+        "0e8c408a"
+      ]
+    },
+    {
+      "bundleId": "896c5206",
+      "assetName": "assets/resourcesassetbundle/scenarios/gates/gate006/bg_sr00060023_01.prefab",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/89\\896c5206",
+      "sha256": "b881afb9054fad3971a97b207f7d6fe0347124a80d4133e19e97fb4f610e234f",
+      "targetKey": "Ignored/896c5206",
+      "dependencies": [
+        "0e8c408a"
+      ]
+    },
+    {
+      "bundleId": "8b6fff96",
+      "assetName": "assets/resourcesassetbundle/sound/audioclip/se_quest/se_solo_fire_loop.wav",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/8b\\8b6fff96",
+      "sha256": "cefe11e26fa7070e5692e92e6a5259554389fdd964327ec5208f5fcf27580d30",
+      "targetKey": "Ignored/8b6fff96",
+      "dependencies": []
+    },
+    {
+      "bundleId": "90706564",
+      "assetName": "assets/resourcesassetbundle/scenarios/player/viewer/prefabs/scenario3d.prefab",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/90\\90706564",
+      "sha256": "7d57e993a8f82fd88df612b7ce8ecc2d0834230fecabdccf4d08b7a26753f373",
+      "targetKey": "Ignored/90706564",
+      "dependencies": [
+        "283dd7fa",
+        "313eb29b",
+        "ab320950",
+        "ec3a7a00"
+      ]
+    },
+    {
+      "bundleId": "927842bd",
+      "assetName": "assets/resourcesassetbundle/scenarios/cardpop/tcg/cardpop13574.png",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/92\\927842bd",
+      "sha256": "706466e5e55208fa72a81f059d4af120401534f01d336a7e61a0a3d87a6354f3",
+      "targetKey": "Ignored/927842bd",
+      "dependencies": []
+    },
+    {
+      "bundleId": "9962d7d9",
+      "assetName": "assets/resourcesassetbundle/sound/audioclip/bgm/bgm_solo_17.wav",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/99\\9962d7d9",
+      "sha256": "d856f3c495e480a59ca762c1033f08a6daccedd3ec28f7340834e0d411f664fc",
+      "targetKey": "Sound/BGM/BGM_SOLO_17.ogg",
+      "dependencies": []
+    },
+    {
+      "bundleId": "9bce0e96",
+      "assetName": "assets/resourcesassetbundle/scenarios/cardpop/tcg/cardpop13578.png",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/9b\\9bce0e96",
+      "sha256": "4d6bb0f478c26b3ba99073d45b7d9dd88bc998c36485752b3858190ea98a7145",
+      "targetKey": "Ignored/9bce0e96",
+      "dependencies": []
+    },
+    {
+      "bundleId": "a6b8cfa9",
+      "assetName": "assets/resourcesassetbundle/sound/audioclip/se_quest/se_solo_rain_loop.wav",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/a6\\a6b8cfa9",
+      "sha256": "b834aea430dd9577bb09b122c88ca3ca356e757b5dd5f34e1f5e89516f35ae11",
+      "targetKey": "Ignored/a6b8cfa9",
+      "dependencies": []
+    },
+    {
+      "bundleId": "abea3d36",
+      "assetName": "assets/resourcesassetbundle/scenarios/gates/scenarioaseets/sr00060023.asset",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/ab\\abea3d36",
+      "sha256": "258d7812a9ab420683d18526a3aaa50213b6b9aa7dbb08792ebe499f867ea68b",
+      "targetKey": "Ignored/abea3d36",
+      "dependencies": []
+    },
+    {
+      "bundleId": "aeebaab4",
+      "assetName": "assets/resourcesassetbundle/sound/audioclip/se_quest/se_solo_degital_card_01.wav",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/ae\\aeebaab4",
+      "sha256": "c3a5d12e7e8436cd103d42c7dd5bc06e33d1929a487297c5d84cf2f6ac3c2967",
+      "targetKey": "Ignored/aeebaab4",
+      "dependencies": []
+    },
+    {
+      "bundleId": "b27f22a5",
+      "assetName": "assets/resourcesassetbundle/scenarios/gates/gate005/bg_sr00050019_00.prefab",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/b2\\b27f22a5",
+      "sha256": "4507c006703a065ee1ea68baa23836c50cd9e74e773726207ed7750e91040d33",
+      "targetKey": "Ignored/b27f22a5",
+      "dependencies": [
+        "0e8c408a",
+        "4ce858f6"
+      ]
+    },
+    {
+      "bundleId": "baded545",
+      "assetName": "assets/resourcesassetbundle/scenarios/player/cardactor/prefabs/scenariocardpop.prefab",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/ba\\baded545",
+      "sha256": "5f118edffc0d632cf94c7bbfee7565e7ea4031a146eb0ada99b56d8634ff4f36",
+      "targetKey": "Ignored/baded545",
+      "dependencies": []
+    },
+    {
+      "bundleId": "c5781233",
+      "assetName": "assets/resourcesassetbundle/scenarios/gates/gate005/bg_sr00050019_01.prefab",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/c5\\c5781233",
+      "sha256": "767eb287f582dba9408211b9d78c992c9b443923d09081e56a3eeb58cf8cb909",
+      "targetKey": "Ignored/c5781233",
+      "dependencies": [
+        "0e8c408a"
+      ]
+    },
+    {
+      "bundleId": "ca863c14",
+      "assetName": "assets/resourcesassetbundle/texts/en-us/ids_scenariogate0006.bytes",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/ca\\ca863c14",
+      "sha256": "75d9dcb75cd3a0b5f64cbd04c0e70a97b2fe9302dc41e203e1ec21b05eb313b6",
+      "targetKey": "MasterDuel/Not Used/Other/ids_scenariogate0006",
+      "dependencies": []
+    },
+    {
+      "bundleId": "db003d4c",
+      "assetName": "assets/resourcesassetbundle/scenarios/gates/gate006/bg_sr00060025_00.prefab",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/db\\db003d4c",
+      "sha256": "ffc4b7f6b6e7489bad5e6e2293114c32b526de1eef7c76a7aaf2f5c419dda9ba",
+      "targetKey": "Ignored/db003d4c",
+      "dependencies": [
+        "4ce858f6",
+        "f62bf948"
+      ]
+    },
+    {
+      "bundleId": "dd66d5f8",
+      "assetName": "assets/resourcesassetbundle/scenarios/player/viewer/prefabs/scenarioui.prefab",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/dd\\dd66d5f8",
+      "sha256": "6eba74b912c40ad60c8380700af1975d4a36134e17fc3e03919a8744fab04acc",
+      "targetKey": "Ignored/dd66d5f8",
+      "dependencies": [
+        "06691f7c",
+        "60f481d0",
+        "beb50f7a",
+        "e6004de9",
+        "f1874c5b"
+      ]
+    },
+    {
+      "bundleId": "e57f722b",
+      "assetName": "assets/resourcesassetbundle/scenarios/cardpop/tcg/cardpop13575.png",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/e5\\e57f722b",
+      "sha256": "fbd9e14a3d142226e5e4b0cd1f35fe3d2aa313b0648cac3d87bab9a17e385a4e",
+      "targetKey": "Ignored/e57f722b",
+      "dependencies": []
+    },
+    {
+      "bundleId": "e5bfdf34",
+      "assetName": "assets/resourcesassetbundle/scenarios/player/cardactor/prefabs/scenariocardmodel.prefab",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/e5\\e5bfdf34",
+      "sha256": "113a63984e44ddeb919230c8b56c22bff388f1336035d5fd7d3b3b0fe10f9a20",
+      "targetKey": "Ignored/e5bfdf34",
+      "dependencies": []
+    },
+    {
+      "bundleId": "e9082356",
+      "assetName": "assets/resourcesassetbundle/sound/audioclip/bgm/bgm_solo_12.wav",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/e9\\e9082356",
+      "sha256": "ee4768142a08e41df35b03ae79d3d018b31f1d40ae643c8f2ead5f99e88f0e76",
+      "targetKey": "Sound/BGM/BGM_SOLO_12.ogg",
+      "dependencies": []
+    },
+    {
+      "bundleId": "ec3a7a00",
+      "assetName": "assets/resourcesassetbundle/scenarios/player/cardactor/timeline/scenariocardfadein.playable",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/ec\\ec3a7a00",
+      "sha256": "106a73535a51ec4e09f2473a778b736fe72c23f06c4e270c84902eb19127163d",
+      "targetKey": "Ignored/ec3a7a00",
+      "dependencies": []
+    },
+    {
+      "bundleId": "efa2e30f",
+      "assetName": "assets/resourcesassetbundle/images/solo/backgrounds/tcg/background0005.png",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/ef\\efa2e30f",
+      "sha256": "2fd6c26bd7b4ee0dee4799d77c58468beed60f5db00c2f68d3034449e558f7f0",
+      "targetKey": "Ignored/efa2e30f",
+      "dependencies": []
+    },
+    {
+      "bundleId": "f00f35c4",
+      "assetName": "assets/resourcesassetbundle/texts/en-us/ids_solo.bytes",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/f0\\f00f35c4",
+      "sha256": "a442215fae3440ca637b79502178a0fcedaef182b68b2b4965d7d4c37ee05b45",
+      "targetKey": "MasterDuel/Not Used/Other/ids_solo",
+      "dependencies": []
+    },
+    {
+      "bundleId": "f62bf948",
+      "assetName": "assets/resourcesassetbundle/scenarios/gates/gate006/bg_sr00060025_00timeline.playable",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/f6\\f62bf948",
+      "sha256": "5564f45445e9911d4b15b64810c157d605231de1cae508ab44963c147d1a84c6",
+      "targetKey": "Ignored/f62bf948",
+      "dependencies": []
+    },
+    {
+      "bundleId": "fe6b6290",
+      "assetName": "assets/resourcesassetbundle/scenarios/gates/gate006/bg_sr00060023_00.prefab",
+      "sourceFile": "D:/Programs/Steam/steamapps/common/Yu-Gi-Oh!  Master Duel/LocalData/9c2b57a5/0000/fe\\fe6b6290",
+      "sha256": "c8cc7d8afc0c5e81b29b0b41f1887f0170b0e8209fb65a56989cfc571ed8353c",
+      "targetKey": "Ignored/fe6b6290",
+      "dependencies": [
+        "0e8c408a"
+      ]
+    }
+  ]
+}

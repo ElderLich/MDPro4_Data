@@ -1,0 +1,483 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00370301",
+  "sourceBundle": "ce60dbdf",
+  "sourceSha256": "1625babbbae88a50957b87431b178848aa00adf4bffbbd4c1160156f3febff85",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate037/Bg_Sr00370301_00",
+        "oscale": 0,
+        "color": "#D6D6D6FF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_23",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その身に収まり切れぬほどの怨念を抱えて得た\n「リヴェンデット・エグゼクター」の力が、\n愛する彼女の形をしたモノを次々と切り裂いていく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT5001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "孤独で熾烈な戦いの日々。\nそして「ヴェンデット・バスタード」を取り込み、\nよりヴェンデットの力と怨念に満ちてしまった身体。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT5002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "人の心と、ヴェンデットの怨念。\n本来相容れないはずの二つを併せ持った存在であった彼は、\n心も身体もとうに限界を超えていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT5003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼の中に残る人の心が失われようとも、\n身体が崩れかかっていようとも、\nもう止まれはしない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT5004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼は、自らが持つもの全てを絞り出し、\n一心不乱に戦い続けた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT5005"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_23",
+        "fade": 4
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして。\nヴェンデットの群れ全てが動かなくなった時、\n戦いは終わった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT5006"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate037/Bg_Sr00370301_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_24",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼の背から明るい光が差し込む。",
+        "autominsec": 3,
+        "textId": "IDS_SCENARIOGATE0037_TXT5007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは何日ぶりだったろうか。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0037_TXT5008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "街の住人たちは、久々に見る\n陽光の眩しさに思わず目を細める。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT5009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "長い夜が明け、\n人々が待ち望んでいた太陽が姿を現したのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT5010"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "奪われたロケットペンダントを拾い上げた彼は、\n自らの身体が消えゆくのを感じていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT5011"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_06",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "全てのヴェンデットが倒され、街を包んでいた闇は払われた。\nしかし、それは同じヴェンデットとして存在していた\n彼自身が消える時でもあったのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT5012"
+      }
+    },
+    {
+      "command": "BgWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "skip": false
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate037/Bg_Sr00370295_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 6,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 3.5
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "死者に脅かされ続けた長い夜が終わり、\n生き残った人々に平穏な日々が戻った。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT5013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それでも、多くの命が失われた悲しみは癒えず、\n夜が訪れる度にかつての悪夢に怯える者も少なくない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT5014"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 4,
+        "path": "Scenarios/Gates/Gate037/Bg_Sr00370301_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 35,
+        "zoom": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.28297537565231326,0.28297537565231326,0.13008129596710206,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そんな人々を\n夜の街にそびえる高層ビルから\n見下ろす黒い影が一つ――。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT5015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "夜が明けたあの日に彼を救ったのは、\nこの街で生き残った人々だった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT5016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "復讐のために戦い続けた彼を、\n皆は街を救った英雄、ヒーローとしてたたえた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT5017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "人々が取り戻した希望の心が、\n孤独に戦い続けた死者を気遣う優しい心が、\n闇へと傾きかけていた彼をこの世界に留まらせたのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT5018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "人々の心の支えによって、\n彼は他のヴェンデットのように消えることなく、\n今も生き続けている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT5019"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "もし、またいつか世界が闇で満たされ、\n怪物が姿を見せるようになっても、\n彼はその刃を惜しみなく振るうだろう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT5020"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "今度は復讐のためではなく、\n人々を助け、勇気を与える\n――そのために。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT5021"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_24",
+        "fade": 2
+      }
+    }
+  ]
+}

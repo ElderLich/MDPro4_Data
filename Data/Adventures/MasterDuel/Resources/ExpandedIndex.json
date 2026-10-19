@@ -1,0 +1,921 @@
+{
+  "schemaVersion": 2,
+  "platformIndex": "Solo Gates/BundleIndex.json",
+  "sounds": {
+    "BGM_DUEL_EX_01": {
+      "address": "BGM_DUEL_EX_01"
+    },
+    "BGM_SOLO_01": {
+      "address": "BGM_SOLO_01"
+    },
+    "BGM_SOLO_02": {
+      "address": "BGM_SOLO_02"
+    },
+    "BGM_SOLO_03": {
+      "address": "BGM_SOLO_03"
+    },
+    "BGM_SOLO_04": {
+      "address": "BGM_SOLO_04"
+    },
+    "BGM_SOLO_05": {
+      "address": "BGM_SOLO_05"
+    },
+    "BGM_SOLO_06": {
+      "address": "BGM_SOLO_06"
+    },
+    "BGM_SOLO_07": {
+      "address": "BGM_SOLO_07"
+    },
+    "BGM_SOLO_08": {
+      "address": "BGM_SOLO_08"
+    },
+    "BGM_SOLO_09": {
+      "address": "BGM_SOLO_09"
+    },
+    "BGM_SOLO_10": {
+      "address": "BGM_SOLO_10"
+    },
+    "BGM_SOLO_11": {
+      "address": "BGM_SOLO_11"
+    },
+    "BGM_SOLO_12": {
+      "address": "BGM_SOLO_12"
+    },
+    "BGM_SOLO_13": {
+      "address": "BGM_SOLO_13"
+    },
+    "BGM_SOLO_14": {
+      "address": "BGM_SOLO_14"
+    },
+    "BGM_SOLO_15": {
+      "address": "BGM_SOLO_15"
+    },
+    "BGM_SOLO_16": {
+      "address": "BGM_SOLO_16"
+    },
+    "BGM_SOLO_17": {
+      "address": "BGM_SOLO_17"
+    },
+    "BGM_SOLO_18": {
+      "address": "BGM_SOLO_18"
+    },
+    "BGM_SOLO_19": {
+      "address": "BGM_SOLO_19"
+    },
+    "BGM_SOLO_20": {
+      "address": "BGM_SOLO_20"
+    },
+    "BGM_SOLO_21": {
+      "address": "BGM_SOLO_21"
+    },
+    "BGM_SOLO_22": {
+      "address": "BGM_SOLO_22"
+    },
+    "BGM_SOLO_23": {
+      "address": "BGM_SOLO_23"
+    },
+    "BGM_SOLO_24": {
+      "address": "BGM_SOLO_24"
+    },
+    "BGM_SOLO_25": {
+      "address": "BGM_SOLO_25"
+    },
+    "BGM_SOLO_26": {
+      "address": "BGM_SOLO_26"
+    },
+    "BGM_SOLO_27": {
+      "address": "BGM_SOLO_27"
+    },
+    "BGM_SOLO_28": {
+      "address": "BGM_SOLO_28"
+    },
+    "BGM_SOLO_29": {
+      "address": "BGM_SOLO_29"
+    },
+    "BGM_SOLO_30": {
+      "address": "BGM_SOLO_30"
+    },
+    "BGM_SOLO_31": {
+      "address": "BGM_SOLO_31"
+    },
+    "BGM_SOLO_32": {
+      "address": "BGM_SOLO_32"
+    },
+    "BGM_SOLO_33": {
+      "address": "BGM_SOLO_33"
+    },
+    "BGM_SOLO_34": {
+      "address": "BGM_SOLO_34"
+    },
+    "BGM_SOLO_35": {
+      "address": "BGM_SOLO_35"
+    },
+    "BGM_SOLO_36": {
+      "address": "BGM_SOLO_36"
+    },
+    "BGM_SOLO_37": {
+      "address": "BGM_SOLO_37"
+    },
+    "BGM_SOLO_38": {
+      "address": "BGM_SOLO_38"
+    },
+    "BGM_SOLO_39": {
+      "address": "BGM_SOLO_39"
+    },
+    "BGM_SOLO_40": {
+      "address": "BGM_SOLO_40"
+    },
+    "BGM_SOLO_41": {
+      "address": "BGM_SOLO_41"
+    },
+    "BGM_SOLO_42": {
+      "address": "BGM_SOLO_42"
+    },
+    "BGM_SOLO_43": {
+      "address": "BGM_SOLO_43"
+    },
+    "BGM_SOLO_44": {
+      "address": "BGM_SOLO_44"
+    },
+    "BGM_SOLO_45": {
+      "address": "BGM_SOLO_45"
+    },
+    "BGM_SOLO_GATE078_01": {
+      "address": "BGM_SOLO_GATE078_01"
+    },
+    "BGM_SOLO_GATE078_02": {
+      "address": "BGM_SOLO_GATE078_02"
+    },
+    "BGM_SOLO_GATE078_03": {
+      "address": "BGM_SOLO_GATE078_03"
+    },
+    "BGM_SOLO_GATE078_04": {
+      "address": "BGM_SOLO_GATE078_04"
+    },
+    "SE_SOLO_3S_ALARM": {
+      "address": "SE_SOLO_3S_ALARM"
+    },
+    "SE_SOLO_3S_ATTACK_1": {
+      "address": "SE_SOLO_3S_ATTACK_1"
+    },
+    "SE_SOLO_3S_ATTACK_2": {
+      "address": "SE_SOLO_3S_ATTACK_2"
+    },
+    "SE_SOLO_3S_ATTACK_3": {
+      "address": "SE_SOLO_3S_ATTACK_3"
+    },
+    "SE_SOLO_3S_BUBBLE": {
+      "address": "SE_SOLO_3S_BUBBLE"
+    },
+    "SE_SOLO_3S_CHANGE_1": {
+      "address": "SE_SOLO_3S_CHANGE_1"
+    },
+    "SE_SOLO_3S_CHECK": {
+      "address": "SE_SOLO_3S_CHECK"
+    },
+    "SE_SOLO_3S_CUTIN_1": {
+      "address": "SE_SOLO_3S_CUTIN_1"
+    },
+    "SE_SOLO_3S_CUTIN_2": {
+      "address": "SE_SOLO_3S_CUTIN_2"
+    },
+    "SE_SOLO_3S_CUTIN_3": {
+      "address": "SE_SOLO_3S_CUTIN_3"
+    },
+    "SE_SOLO_3S_CUTIN_4": {
+      "address": "SE_SOLO_3S_CUTIN_4"
+    },
+    "SE_SOLO_3S_CUTIN_5": {
+      "address": "SE_SOLO_3S_CUTIN_5"
+    },
+    "SE_SOLO_3S_DRONE": {
+      "address": "SE_SOLO_3S_DRONE"
+    },
+    "SE_SOLO_3S_FLY_1": {
+      "address": "SE_SOLO_3S_FLY_1"
+    },
+    "SE_SOLO_3S_FLY_2": {
+      "address": "SE_SOLO_3S_FLY_2"
+    },
+    "SE_SOLO_3S_GO": {
+      "address": "SE_SOLO_3S_GO"
+    },
+    "SE_SOLO_3S_MOVE_1": {
+      "address": "SE_SOLO_3S_MOVE_1"
+    },
+    "SE_SOLO_3S_MOVE_3": {
+      "address": "SE_SOLO_3S_MOVE_3"
+    },
+    "SE_SOLO_3S_NOISE_1": {
+      "address": "SE_SOLO_3S_NOISE_1"
+    },
+    "SE_SOLO_3S_NOISE_2": {
+      "address": "SE_SOLO_3S_NOISE_2"
+    },
+    "SE_SOLO_3S_NOISE_3": {
+      "address": "SE_SOLO_3S_NOISE_3"
+    },
+    "SE_SOLO_3S_NOISE_4": {
+      "address": "SE_SOLO_3S_NOISE_4"
+    },
+    "SE_SOLO_3S_ROBOT": {
+      "address": "SE_SOLO_3S_ROBOT"
+    },
+    "SE_SOLO_3S_ROBOT_2": {
+      "address": "SE_SOLO_3S_ROBOT_2"
+    },
+    "SE_SOLO_3S_WINDOW": {
+      "address": "SE_SOLO_3S_WINDOW"
+    },
+    "SE_SOLO_ATTACK_01": {
+      "address": "SE_SOLO_ATTACK_01"
+    },
+    "SE_SOLO_ATTACK_02": {
+      "address": "SE_SOLO_ATTACK_02"
+    },
+    "SE_SOLO_ATTACK_03": {
+      "address": "SE_SOLO_ATTACK_03"
+    },
+    "SE_SOLO_BAKUHATSU_01": {
+      "address": "SE_SOLO_BAKUHATSU_01"
+    },
+    "SE_SOLO_BAKUHATSU_02": {
+      "address": "SE_SOLO_BAKUHATSU_02"
+    },
+    "SE_SOLO_BEE": {
+      "address": "SE_SOLO_BEE"
+    },
+    "SE_SOLO_BONE_01": {
+      "address": "SE_SOLO_BONE_01"
+    },
+    "SE_SOLO_BOYOYON": {
+      "address": "SE_SOLO_BOYOYON"
+    },
+    "SE_SOLO_BUBBLE": {
+      "address": "SE_SOLO_BUBBLE"
+    },
+    "SE_SOLO_COMICAL_CRASH_1": {
+      "address": "SE_SOLO_COMICAL_CRASH_1"
+    },
+    "SE_SOLO_COMICAL_CRASH_2": {
+      "address": "SE_SOLO_COMICAL_CRASH_2"
+    },
+    "SE_SOLO_COMICAL_SHOCK": {
+      "address": "SE_SOLO_COMICAL_SHOCK"
+    },
+    "SE_SOLO_CONGRATULATIONS": {
+      "address": "SE_SOLO_CONGRATULATIONS"
+    },
+    "SE_SOLO_CONTACT": {
+      "address": "SE_SOLO_CONTACT"
+    },
+    "SE_SOLO_CONTROL_02": {
+      "address": "SE_SOLO_CONTROL_02"
+    },
+    "SE_SOLO_CROW": {
+      "address": "SE_SOLO_CROW"
+    },
+    "SE_SOLO_CROWD_LOOP": {
+      "address": "SE_SOLO_CROWD_LOOP"
+    },
+    "SE_SOLO_CUTE_CARD_01": {
+      "address": "SE_SOLO_CUTE_CARD_01"
+    },
+    "SE_SOLO_DEGITAL_CARD_01": {
+      "registry": "SE_SOLO_DEGITAL_CARD_01"
+    },
+    "SE_SOLO_DEGITAL_CARD_01_b": {
+      "address": "SE_SOLO_DEGITAL_CARD_01_B"
+    },
+    "SE_SOLO_DEGITAL_CARD_02": {
+      "address": "SE_SOLO_DEGITAL_CARD_02"
+    },
+    "SE_SOLO_EFFECT_01": {
+      "address": "SE_SOLO_EFFECT_01"
+    },
+    "SE_SOLO_EFFECT_02": {
+      "address": "SE_SOLO_EFFECT_02"
+    },
+    "SE_SOLO_EFFECT_03": {
+      "address": "SE_SOLO_EFFECT_03"
+    },
+    "SE_SOLO_EFFECT_04": {
+      "address": "SE_SOLO_EFFECT_04"
+    },
+    "SE_SOLO_EFFECT_05": {
+      "address": "SE_SOLO_EFFECT_05"
+    },
+    "SE_SOLO_EFFECT_06": {
+      "address": "SE_SOLO_EFFECT_06"
+    },
+    "SE_SOLO_EFFECT_07": {
+      "address": "SE_SOLO_EFFECT_07"
+    },
+    "SE_SOLO_EFFECT_08": {
+      "address": "SE_SOLO_EFFECT_08"
+    },
+    "SE_SOLO_EFFECT_09": {
+      "address": "SE_SOLO_EFFECT_09"
+    },
+    "SE_SOLO_EFFECT_10": {
+      "address": "SE_SOLO_EFFECT_10"
+    },
+    "SE_SOLO_EFFECT_11": {
+      "address": "SE_SOLO_EFFECT_11"
+    },
+    "SE_SOLO_EFFECT_12": {
+      "address": "SE_SOLO_EFFECT_12"
+    },
+    "SE_SOLO_EFFECT_13": {
+      "address": "SE_SOLO_EFFECT_13"
+    },
+    "SE_SOLO_EFFECT_14": {
+      "address": "SE_SOLO_EFFECT_14"
+    },
+    "SE_SOLO_EFFECT_15": {
+      "address": "SE_SOLO_EFFECT_15"
+    },
+    "SE_SOLO_EFFECT_16": {
+      "address": "SE_SOLO_EFFECT_16"
+    },
+    "SE_SOLO_EFFECT_17": {
+      "address": "SE_SOLO_EFFECT_17"
+    },
+    "SE_SOLO_EFFECT_18": {
+      "address": "SE_SOLO_EFFECT_18"
+    },
+    "SE_SOLO_EFFECT_19": {
+      "address": "SE_SOLO_EFFECT_19"
+    },
+    "SE_SOLO_EFFECT_20": {
+      "address": "SE_SOLO_EFFECT_20"
+    },
+    "SE_SOLO_EFFECT_21": {
+      "address": "SE_SOLO_EFFECT_21"
+    },
+    "SE_SOLO_EFFECT_22": {
+      "address": "SE_SOLO_EFFECT_22"
+    },
+    "SE_SOLO_EFFECT_23": {
+      "address": "SE_SOLO_EFFECT_23"
+    },
+    "SE_SOLO_EXS_01": {
+      "address": "SE_SOLO_EXS_01"
+    },
+    "SE_SOLO_EXS_02_foot": {
+      "address": "SE_SOLO_EXS_02_FOOT"
+    },
+    "SE_SOLO_EXS_03": {
+      "address": "SE_SOLO_EXS_03"
+    },
+    "SE_SOLO_EXS_04_card": {
+      "address": "SE_SOLO_EXS_04_CARD"
+    },
+    "SE_SOLO_EXS_05": {
+      "address": "SE_SOLO_EXS_05"
+    },
+    "SE_SOLO_EXS_06": {
+      "address": "SE_SOLO_EXS_06"
+    },
+    "SE_SOLO_EXS_07": {
+      "address": "SE_SOLO_EXS_07"
+    },
+    "SE_SOLO_EXS_09_foot": {
+      "address": "SE_SOLO_EXS_09_FOOT"
+    },
+    "SE_SOLO_FC_01": {
+      "address": "SE_SOLO_FC_01"
+    },
+    "SE_SOLO_FC_02": {
+      "address": "SE_SOLO_FC_02"
+    },
+    "SE_SOLO_FC_03": {
+      "address": "SE_SOLO_FC_03"
+    },
+    "SE_SOLO_FC_04": {
+      "address": "SE_SOLO_FC_04"
+    },
+    "SE_SOLO_FC_05": {
+      "address": "SE_SOLO_FC_05"
+    },
+    "SE_SOLO_FC_06": {
+      "address": "SE_SOLO_FC_06"
+    },
+    "SE_SOLO_FIRE_LOOP": {
+      "registry": "SE_SOLO_FIRE_LOOP"
+    },
+    "SE_SOLO_GATE078_CAT": {
+      "address": "SE_SOLO_GATE078_CAT"
+    },
+    "SE_SOLO_GATE078_COM_FADEIN": {
+      "address": "SE_SOLO_GATE078_COM_FADEIN"
+    },
+    "SE_SOLO_GATE078_COM_FADEOUT": {
+      "address": "SE_SOLO_GATE078_COM_FADEOUT"
+    },
+    "SE_SOLO_GATE078_DISPLAY_OP": {
+      "address": "SE_SOLO_GATE078_DISPLAY_OP"
+    },
+    "SE_SOLO_GATE078_DOOR_OPEN": {
+      "address": "SE_SOLO_GATE078_DOOR_OPEN"
+    },
+    "SE_SOLO_GATE078_ENV01_ROOM01": {
+      "address": "SE_SOLO_GATE078_ENV01_ROOM01"
+    },
+    "SE_SOLO_GATE078_ENV02_ROOM02": {
+      "address": "SE_SOLO_GATE078_ENV02_ROOM02"
+    },
+    "SE_SOLO_GATE078_ENV03_ROOM03": {
+      "address": "SE_SOLO_GATE078_ENV03_ROOM03"
+    },
+    "SE_SOLO_GATE078_ENV04_OUTSIDE": {
+      "address": "SE_SOLO_GATE078_ENV04_OUTSIDE"
+    },
+    "SE_SOLO_GATE078_ENV06_TOWN": {
+      "address": "SE_SOLO_GATE078_ENV06_TOWN"
+    },
+    "SE_SOLO_GATE078_GAUGE": {
+      "address": "SE_SOLO_GATE078_GAUGE"
+    },
+    "SE_SOLO_GATE078_J_MOVE_01": {
+      "address": "SE_SOLO_GATE078_J_MOVE_01"
+    },
+    "SE_SOLO_GATE078_KEYBOARD": {
+      "address": "SE_SOLO_GATE078_KEYBOARD"
+    },
+    "SE_SOLO_GATE078_LINE_02": {
+      "address": "SE_SOLO_GATE078_LINE_02"
+    },
+    "SE_SOLO_GATE078_LINE_03": {
+      "address": "SE_SOLO_GATE078_LINE_03"
+    },
+    "SE_SOLO_GATE078_NOISE": {
+      "address": "SE_SOLO_GATE078_NOISE"
+    },
+    "SE_SOLO_GATE078_N_POSE": {
+      "address": "SE_SOLO_GATE078_N_POSE"
+    },
+    "SE_SOLO_GATE078_SILENCE": {
+      "address": "SE_SOLO_GATE078_SILENCE"
+    },
+    "SE_SOLO_GATE078_SMOKE_EXP": {
+      "address": "SE_SOLO_GATE078_SMOKE_EXP"
+    },
+    "SE_SOLO_HIKARI_01": {
+      "address": "SE_SOLO_HIKARI_01"
+    },
+    "SE_SOLO_HIKARI_02": {
+      "address": "SE_SOLO_HIKARI_02"
+    },
+    "SE_SOLO_HIKARI_03": {
+      "address": "SE_SOLO_HIKARI_03"
+    },
+    "SE_SOLO_HIKARI_04": {
+      "address": "SE_SOLO_HIKARI_04"
+    },
+    "SE_SOLO_JUNGLE_LOOP": {
+      "address": "SE_SOLO_JUNGLE_LOOP"
+    },
+    "SE_SOLO_KAMERA_SHOT_loop": {
+      "address": "SE_SOLO_KAMERA_SHOT_LOOP"
+    },
+    "SE_SOLO_KAMINARI_01": {
+      "address": "SE_SOLO_KAMINARI_01"
+    },
+    "SE_SOLO_KANSEI_01": {
+      "address": "SE_SOLO_KANSEI_01"
+    },
+    "SE_SOLO_KANSEI_LOOP": {
+      "address": "SE_SOLO_KANSEI_LOOP"
+    },
+    "SE_SOLO_KIRAKIRA_01": {
+      "address": "SE_SOLO_KIRAKIRA_01"
+    },
+    "SE_SOLO_KIRAKIRA_02": {
+      "address": "SE_SOLO_KIRAKIRA_02"
+    },
+    "SE_SOLO_KIRAKIRA_03": {
+      "address": "SE_SOLO_KIRAKIRA_03"
+    },
+    "SE_SOLO_KNIF_01": {
+      "address": "SE_SOLO_KNIF_01"
+    },
+    "SE_SOLO_LAUGHTER": {
+      "address": "SE_SOLO_LAUGHTER"
+    },
+    "SE_SOLO_LAUGHTER_2": {
+      "address": "SE_SOLO_LAUGHTER_2"
+    },
+    "SE_SOLO_LIONVOICE": {
+      "address": "SE_SOLO_LIONVOICE"
+    },
+    "SE_SOLO_MOVIESLIDE": {
+      "address": "SE_SOLO_MOVIESLIDE"
+    },
+    "SE_SOLO_NAGURU_01": {
+      "address": "SE_SOLO_NAGURU_01"
+    },
+    "SE_SOLO_NOISE": {
+      "address": "SE_SOLO_NOISE"
+    },
+    "SE_SOLO_NOISE_2": {
+      "address": "SE_SOLO_NOISE_2"
+    },
+    "SE_SOLO_OP_DEGITAL": {
+      "address": "SE_SOLO_OP_DEGITAL"
+    },
+    "SE_SOLO_PENDANT": {
+      "address": "SE_SOLO_PENDANT"
+    },
+    "SE_SOLO_POYON": {
+      "address": "SE_SOLO_POYON"
+    },
+    "SE_SOLO_PROJECTION_LOOP": {
+      "address": "SE_SOLO_PROJECTION_LOOP"
+    },
+    "SE_SOLO_RAINCUTE_LOOP": {
+      "address": "SE_SOLO_RAINCUTE_LOOP"
+    },
+    "SE_SOLO_RAIN_LOOP": {
+      "registry": "SE_SOLO_RAIN_LOOP"
+    },
+    "SE_SOLO_REACTION_A": {
+      "address": "SE_SOLO_REACTION_A"
+    },
+    "SE_SOLO_REACTION_B": {
+      "address": "SE_SOLO_REACTION_B"
+    },
+    "SE_SOLO_REACTION_C": {
+      "address": "SE_SOLO_REACTION_C"
+    },
+    "SE_SOLO_REACTION_D": {
+      "address": "SE_SOLO_REACTION_D"
+    },
+    "SE_SOLO_REACTION_E": {
+      "address": "SE_SOLO_REACTION_E"
+    },
+    "SE_SOLO_REACTION_F": {
+      "address": "SE_SOLO_REACTION_F"
+    },
+    "SE_SOLO_SEA": {
+      "address": "SE_SOLO_SEA"
+    },
+    "SE_SOLO_SENGOKU_LOOP": {
+      "address": "SE_SOLO_SENGOKU_LOOP"
+    },
+    "SE_SOLO_SIREN": {
+      "address": "SE_SOLO_SIREN"
+    },
+    "SE_SOLO_SPEAR_01": {
+      "address": "SE_SOLO_SPEAR_01"
+    },
+    "SE_SOLO_STOP_MONSTER": {
+      "address": "SE_SOLO_STOP_MONSTER"
+    },
+    "SE_SOLO_SUZU": {
+      "address": "SE_SOLO_SUZU"
+    },
+    "SE_SOLO_SUZU_02": {
+      "address": "SE_SOLO_SUZU_02"
+    },
+    "SE_SOLO_SUZU_LOOP": {
+      "address": "SE_SOLO_SUZU_LOOP"
+    },
+    "SE_SOLO_S_ABSORPTION": {
+      "address": "SE_SOLO_S_ABSORPTION"
+    },
+    "SE_SOLO_S_AVIDA": {
+      "address": "SE_SOLO_S_AVIDA"
+    },
+    "SE_SOLO_S_DEMIURGY": {
+      "address": "SE_SOLO_S_DEMIURGY"
+    },
+    "SE_SOLO_S_DINGIRSU": {
+      "address": "SE_SOLO_S_DINGIRSU"
+    },
+    "SE_SOLO_S_DRAGON": {
+      "address": "SE_SOLO_S_DRAGON"
+    },
+    "SE_SOLO_S_GARATEA": {
+      "address": "SE_SOLO_S_GARATEA"
+    },
+    "SE_SOLO_S_GOGOGO": {
+      "address": "SE_SOLO_S_GOGOGO"
+    },
+    "SE_SOLO_S_KIRAKIRA": {
+      "address": "SE_SOLO_S_KIRAKIRA"
+    },
+    "SE_SOLO_S_LAUGHTER": {
+      "address": "SE_SOLO_S_LAUGHTER"
+    },
+    "SE_SOLO_S_LIGHT": {
+      "address": "SE_SOLO_S_LIGHT"
+    },
+    "SE_SOLO_S_SPEAR": {
+      "address": "SE_SOLO_S_SPEAR"
+    },
+    "SE_SOLO_S_SPEARATTACK": {
+      "address": "SE_SOLO_S_SPEARATTACK"
+    },
+    "SE_SOLO_S_YUGO_01": {
+      "address": "SE_SOLO_S_YUGO_01"
+    },
+    "SE_SOLO_S_YUGO_02": {
+      "address": "SE_SOLO_S_YUGO_02"
+    },
+    "SE_SOLO_TORI_LOOP": {
+      "address": "SE_SOLO_TORI_LOOP"
+    },
+    "SE_SOLO_TOWN_LOOP": {
+      "address": "SE_SOLO_TOWN_LOOP"
+    },
+    "SE_SOLO_UMEKIGOE_01": {
+      "registry": "SE_SOLO_UMEKIGOE_01"
+    },
+    "SE_SOLO_UMEKIGOE_02": {
+      "address": "SE_SOLO_UMEKIGOE_02"
+    },
+    "SE_SOLO_UMEKIGOE_03": {
+      "address": "SE_SOLO_UMEKIGOE_03"
+    },
+    "SE_SOLO_UMEKIGOE_04": {
+      "address": "SE_SOLO_UMEKIGOE_04"
+    },
+    "SE_SOLO_WAFU_CARD_01": {
+      "address": "SE_SOLO_WAFU_CARD_01"
+    },
+    "SE_SOLO_WAFU_CARD_02": {
+      "address": "SE_SOLO_WAFU_CARD_02"
+    },
+    "SE_SOLO_WAFU_EFFECT_01": {
+      "address": "SE_SOLO_WAFU_EFFECT_01"
+    },
+    "SE_SOLO_WAFU_EFFECT_02": {
+      "address": "SE_SOLO_WAFU_EFFECT_02"
+    },
+    "SE_SOLO_WAFU_EFFECT_03": {
+      "address": "SE_SOLO_WAFU_EFFECT_03"
+    },
+    "SE_SOLO_WAFU_KATANA_01": {
+      "address": "SE_SOLO_WAFU_KATANA_01"
+    },
+    "SE_SOLO_WHISTLE": {
+      "address": "SE_SOLO_WHISTLE"
+    },
+    "SE_SOLO_WHOOSH_01": {
+      "address": "SE_SOLO_WHOOSH_01"
+    },
+    "SE_SOLO_WHOOSH_02": {
+      "address": "SE_SOLO_WHOOSH_02"
+    },
+    "SE_SOLO_WHOOSH_03": {
+      "address": "SE_SOLO_WHOOSH_03"
+    },
+    "SE_SOLO_WHOOSH_04": {
+      "address": "SE_SOLO_WHOOSH_04"
+    },
+    "SE_SOLO_WHOOSH_05": {
+      "address": "SE_SOLO_WHOOSH_05"
+    },
+    "SE_SOLO_WIND_01": {
+      "address": "SE_SOLO_WIND_01"
+    },
+    "V_GATE078_01_00_00_00": {
+      "address": "V_GATE078_01_00_00_00"
+    },
+    "V_GATE078_01_00_00_01": {
+      "address": "V_GATE078_01_00_00_01"
+    },
+    "V_GATE078_01_00_00_02": {
+      "address": "V_GATE078_01_00_00_02"
+    },
+    "V_GATE078_01_00_00_03": {
+      "address": "V_GATE078_01_00_00_03"
+    },
+    "V_GATE078_01_00_00_04": {
+      "address": "V_GATE078_01_00_00_04"
+    },
+    "V_GATE078_01_00_00_05": {
+      "address": "V_GATE078_01_00_00_05"
+    },
+    "V_GATE078_01_00_00_06": {
+      "address": "V_GATE078_01_00_00_06"
+    },
+    "V_GATE078_01_00_00_07": {
+      "address": "V_GATE078_01_00_00_07"
+    },
+    "V_GATE078_01_00_00_08": {
+      "address": "V_GATE078_01_00_00_08"
+    },
+    "V_GATE078_01_00_00_09": {
+      "address": "V_GATE078_01_00_00_09"
+    },
+    "V_GATE078_01_00_00_10": {
+      "address": "V_GATE078_01_00_00_10"
+    },
+    "V_GATE078_01_00_00_11": {
+      "address": "V_GATE078_01_00_00_11"
+    },
+    "V_GATE078_01_00_00_12": {
+      "address": "V_GATE078_01_00_00_12"
+    },
+    "V_GATE078_01_00_00_13": {
+      "address": "V_GATE078_01_00_00_13"
+    },
+    "V_GATE078_01_00_00_14": {
+      "address": "V_GATE078_01_00_00_14"
+    },
+    "V_GATE078_01_00_00_15": {
+      "address": "V_GATE078_01_00_00_15"
+    },
+    "V_GATE078_01_00_00_16": {
+      "address": "V_GATE078_01_00_00_16"
+    },
+    "V_GATE078_01_00_00_17": {
+      "address": "V_GATE078_01_00_00_17"
+    },
+    "V_GATE078_01_00_00_18": {
+      "address": "V_GATE078_01_00_00_18"
+    },
+    "V_GATE078_01_00_00_19": {
+      "address": "V_GATE078_01_00_00_19"
+    },
+    "V_GATE078_01_00_00_20": {
+      "address": "V_GATE078_01_00_00_20"
+    },
+    "V_GATE078_01_00_00_20_b": {
+      "address": "V_GATE078_01_00_00_20_B"
+    },
+    "V_GATE078_01_00_00_21": {
+      "address": "V_GATE078_01_00_00_21"
+    },
+    "V_GATE078_02_00_00_00": {
+      "address": "V_GATE078_02_00_00_00"
+    },
+    "V_GATE078_02_00_00_01": {
+      "address": "V_GATE078_02_00_00_01"
+    },
+    "V_GATE078_02_00_00_02": {
+      "address": "V_GATE078_02_00_00_02"
+    },
+    "V_GATE078_02_00_00_03": {
+      "address": "V_GATE078_02_00_00_03"
+    },
+    "V_GATE078_02_00_00_04": {
+      "address": "V_GATE078_02_00_00_04"
+    },
+    "V_GATE078_02_00_00_05": {
+      "address": "V_GATE078_02_00_00_05"
+    },
+    "V_GATE078_02_00_00_06": {
+      "address": "V_GATE078_02_00_00_06"
+    },
+    "V_GATE078_02_00_00_07": {
+      "address": "V_GATE078_02_00_00_07"
+    },
+    "V_GATE078_02_00_00_08": {
+      "address": "V_GATE078_02_00_00_08"
+    },
+    "V_GATE078_02_00_00_09": {
+      "address": "V_GATE078_02_00_00_09"
+    },
+    "V_GATE078_02_00_00_10": {
+      "address": "V_GATE078_02_00_00_10"
+    },
+    "V_GATE078_02_00_00_11": {
+      "address": "V_GATE078_02_00_00_11"
+    },
+    "V_GATE078_02_00_00_12": {
+      "address": "V_GATE078_02_00_00_12"
+    },
+    "V_GATE078_02_00_00_13": {
+      "address": "V_GATE078_02_00_00_13"
+    },
+    "V_GATE078_02_00_00_14": {
+      "address": "V_GATE078_02_00_00_14"
+    },
+    "V_GATE078_02_00_00_15": {
+      "address": "V_GATE078_02_00_00_15"
+    },
+    "V_GATE078_02_00_00_16": {
+      "address": "V_GATE078_02_00_00_16"
+    },
+    "V_GATE078_02_00_00_17": {
+      "address": "V_GATE078_02_00_00_17"
+    },
+    "V_GATE078_02_00_00_18": {
+      "address": "V_GATE078_02_00_00_18"
+    },
+    "V_GATE078_02_00_00_19": {
+      "address": "V_GATE078_02_00_00_19"
+    },
+    "V_GATE078_02_00_00_20": {
+      "address": "V_GATE078_02_00_00_20"
+    },
+    "V_GATE078_02_00_00_21": {
+      "address": "V_GATE078_02_00_00_21"
+    },
+    "V_GATE078_02_00_00_22": {
+      "address": "V_GATE078_02_00_00_22"
+    },
+    "V_GATE078_02_00_00_23": {
+      "address": "V_GATE078_02_00_00_23"
+    },
+    "V_GATE078_02_00_00_24": {
+      "address": "V_GATE078_02_00_00_24"
+    },
+    "V_GATE078_02_00_00_25": {
+      "address": "V_GATE078_02_00_00_25"
+    },
+    "V_GATE078_02_00_00_26": {
+      "address": "V_GATE078_02_00_00_26"
+    },
+    "V_GATE078_02_00_00_27": {
+      "address": "V_GATE078_02_00_00_27"
+    },
+    "V_GATE078_02_00_00_28": {
+      "address": "V_GATE078_02_00_00_28"
+    },
+    "V_GATE078_03_00_00_00": {
+      "address": "V_GATE078_03_00_00_00"
+    },
+    "V_GATE078_03_00_00_01": {
+      "address": "V_GATE078_03_00_00_01"
+    },
+    "V_GATE078_03_00_00_02": {
+      "address": "V_GATE078_03_00_00_02"
+    },
+    "V_GATE078_03_00_00_03": {
+      "address": "V_GATE078_03_00_00_03"
+    },
+    "V_GATE078_03_00_00_04": {
+      "address": "V_GATE078_03_00_00_04"
+    },
+    "V_GATE078_03_00_00_05": {
+      "address": "V_GATE078_03_00_00_05"
+    },
+    "V_GATE078_03_00_00_05_b": {
+      "address": "V_GATE078_03_00_00_05_B"
+    },
+    "V_GATE078_03_00_00_06": {
+      "address": "V_GATE078_03_00_00_06"
+    },
+    "V_GATE078_03_00_00_07": {
+      "address": "V_GATE078_03_00_00_07"
+    },
+    "V_GATE078_03_00_00_08": {
+      "address": "V_GATE078_03_00_00_08"
+    },
+    "V_GATE078_03_00_00_09": {
+      "address": "V_GATE078_03_00_00_09"
+    },
+    "V_GATE078_03_00_00_10": {
+      "address": "V_GATE078_03_00_00_10"
+    },
+    "V_GATE078_03_00_00_11": {
+      "address": "V_GATE078_03_00_00_11"
+    },
+    "V_GATE078_03_00_00_12": {
+      "address": "V_GATE078_03_00_00_12"
+    },
+    "V_GATE078_03_00_00_13": {
+      "address": "V_GATE078_03_00_00_13"
+    },
+    "V_GATE078_03_00_00_14": {
+      "address": "V_GATE078_03_00_00_14"
+    },
+    "V_GATE078_03_00_00_15": {
+      "address": "V_GATE078_03_00_00_15"
+    },
+    "V_GATE078_03_00_00_16": {
+      "address": "V_GATE078_03_00_00_16"
+    },
+    "V_GATE078_03_00_00_17": {
+      "address": "V_GATE078_03_00_00_17"
+    },
+    "V_GATE078_03_00_00_18": {
+      "address": "V_GATE078_03_00_00_18"
+    },
+    "V_GATE078_03_00_00_19": {
+      "address": "V_GATE078_03_00_00_19"
+    },
+    "V_GATE078_03_00_00_20": {
+      "address": "V_GATE078_03_00_00_20"
+    },
+    "V_GATE078_03_00_00_21": {
+      "address": "V_GATE078_03_00_00_21"
+    },
+    "V_GATE078_03_00_00_22": {
+      "address": "V_GATE078_03_00_00_22"
+    },
+    "V_GATE078_03_00_00_23": {
+      "address": "V_GATE078_03_00_00_23"
+    },
+    "V_GATE078_03_00_00_24": {
+      "address": "V_GATE078_03_00_00_24"
+    },
+    "V_GATE078_TITLECALL": {
+      "address": "V_GATE078_TITLECALL"
+    }
+  }
+}

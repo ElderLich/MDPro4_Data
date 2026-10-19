@@ -1,0 +1,678 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00120065",
+  "sourceBundle": "18392862",
+  "sourceSha256": "d3f7cdbddecd8058e48abd3bad0f3e92c97730f0807fb604ae26e22609b50afd",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate002/Bg_Sr00020004_00",
+        0,
+        "#42484FFF",
+        1
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate012/Bg_Sr00120067_tittle",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "t": "妖を討つ炎",
+        "scale": 0,
+        "titleId": "IDS_SCENARIOGATE0012_TITLE1001"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_11",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate012/Bg_Sr00120067_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate012/Sr00120067_Fire",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0,
+        "label": "Fire",
+        "slayer": "CommonOrder1"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_SENGOKU_LOOP",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "時は戦国、\r\n各地の英雄たちが、\r\n互いに勢力を振るって対立する時代。",
+        "textId": "IDS_SCENARIOGATE0012_TXT1001",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "我こそが天下統一を果たさんと\r\n様々な国が興っては滅び、\r\n数多の戦が繰り広げられていた。",
+        "textId": "IDS_SCENARIOGATE0012_TXT1002",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "戦火を免れている地など存在せず、\r\n長く続く戦乱は田畑だけではなく、\r\n人の心も荒れ果てさせていたのだ。",
+        "textId": "IDS_SCENARIOGATE0012_TXT1003",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_SENGOKU_LOOP",
+        "fade": 2
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "path": "Scenarios/Gates/Gate012/Bg_Sr00120067_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.19671790301799775,0.19671790301799775,0.10790276527404785,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、世が荒廃すると現れるのが\r\n化け物の類。\r\n妖である。",
+        "textId": "IDS_SCENARIOGATE0012_TXT1004",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "妖は民衆を惑わし、\r\n時には有力者に取り入って\r\nさらなる戦を呼ぶこともあった。\r",
+        "textId": "IDS_SCENARIOGATE0012_TXT1005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その妖との戦いに\r\n生涯を捧げた一人の若き侍がいた。",
+        "textId": "IDS_SCENARIOGATE0012_TXT1006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Don",
+        "path": "Scenarios/Gates/Gate012/Bg_Sr00120067_02",
+        "pos": 0,
+        "slayer": "Default"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_SUZU",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "侍はあらゆる流派の剣術のみならず、\r\n退魔の術をも修めた。",
+        "textId": "IDS_SCENARIOGATE0012_TXT1007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それらの術を融合して練り上げた“不知火流”の技を用い、\r\n志を同じくする者と共に、\r\n“戦”を、人知れず始めたのだ。",
+        "textId": "IDS_SCENARIOGATE0012_TXT1008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "#FFFFFFFF",
+        "dstcolor": "#FFFFFF00",
+        "target": 0
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Don"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate002/Bg_Sr00020004_00",
+        0,
+        "#42484FFF",
+        1
+      ],
+      "args": {
+        "duration": 2,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate012/Bg_Sr00120067_03",
+        "oscale": 0,
+        "color": "#FFFFFF00",
+        "pos": 2
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_UMEKIGOE_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "数多くの妖を斬った侍の名は、\r\n妖の間でさざ波のように広まっていった。",
+        "textId": "IDS_SCENARIOGATE0012_TXT1009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、この小賢しい人間を亡き者とするため、\r\n妖は大軍勢で侍たちを襲撃する。\r\n“不知火流”は一歩も引くことなくこれに立ち向かった。",
+        "textId": "IDS_SCENARIOGATE0012_TXT1010",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "skip": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、いかに強いとはいえ人間である。\r\n最後には力尽き、妖によって\r\n彼の魂は愛刀に封じ込められてしまった。",
+        "textId": "IDS_SCENARIOGATE0012_TXT1011",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "skip": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "一方の妖たちも数を減らし、\r\n妖力の大半を失って再び闇に姿を隠した。",
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "一方の妖たちも数を減らし、\r\n妖力の大半を失って再び闇に姿を隠した。",
+        "textId": "IDS_SCENARIOGATE0012_TXT1012",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "妖は姿を消したが、\r\nいずれ力を蓄え再び現れる時が来る――。",
+        "textId": "IDS_SCENARIOGATE0012_TXT1013",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "skip": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "刀に封じられ魂となった後も、\r\n生き残った同志たちと共に、\r\nその戦いの歴史と“不知火流”の技は後世へと伝えられた。",
+        "textId": "IDS_SCENARIOGATE0012_TXT1014",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "path": "Scenarios/Gates/Gate012/Bg_Sr00120067_05",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Fire"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "若き侍と妖の暗闘から間もなくして、\r\n戦乱の世は明けた。",
+        "textId": "IDS_SCENARIOGATE0012_TXT1015",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "世は平和となり、\r\n戦を知る者も少なくなりつつあった時代。\r\n“不知火流”と妖の戦いは続いていた。",
+        "textId": "IDS_SCENARIOGATE0012_TXT1016",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 12142,
+        "pos": 5,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_WAFU_CARD_01",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "当代の継承者は「不知火の武士」。\r\n戦国時代が終わって久しい世に、\r\n勇猛たる覇気をみなぎらせた若武者だ。",
+        "textId": "IDS_SCENARIOGATE0012_TXT1017",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WAFU_EFFECT_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate012/Bg_Sr00120067_06",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "BgWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "skip": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「不知火流 転生の陣」で、\r\n始祖“不知火”の魂と一体となり、\r\n再び現れた妖との戦いに身を投じるのであった。",
+        "textId": "IDS_SCENARIOGATE0012_TXT1018",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_11",
+        "fade": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00060025",
+  "title": "The Warriors of the Six Elemental Lords — Conclusion",
+  "sourceBundle": "42899803",
+  "sourceSha256": "f9c517c539d6164c695f3db556da550302b12831d7c211b510e69331d77bcc9a",
+  "resourceIndex": "../Resources/Index.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate002/Bg_Sr00020004_00",
+        0,
+        "#42484FFF",
+        1
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate006/Bg_Sr00060025_00 1",
+        "oscale": 0,
+        "color": "#FFFFFF00",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_08",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 13577,
+        "pos": 1,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 13575,
+        "pos": 2,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 13574,
+        "pos": 3,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 13576,
+        "pos": 4,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「エレメントセイバー」は、\n今や祈る者も訪れなくなった神殿を守護している。",
+        "textId": "IDS_SCENARIOGATE0006_TXT2001",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、世界に満ちるエレメントが暴走しないよう、\n日々その力を制御しているのだ。",
+        "textId": "IDS_SCENARIOGATE0006_TXT2002",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 0
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate006/Bg_Sr00060025_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_FIRE_LOOP",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "仮に、炎のエレメントが暴走したとしよう。",
+        "textId": "IDS_SCENARIOGATE0006_TXT2003",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_FIRE_LOOP",
+        "fade": 2
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_RAIN_LOOP",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その場合、「エレメントセイバー」は\n水のエレメントを増強。\n世界中に雨を降らせ、炎を抑える。 ",
+        "textId": "IDS_SCENARIOGATE0006_TXT2004",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "１つのエレメントが過剰となった時は、\n対極に属する力を増大させ、均衡を保つのだ。",
+        "textId": "IDS_SCENARIOGATE0006_TXT2005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_RAIN_LOOP",
+        "fade": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate002/Bg_Sr00020004_00",
+        0,
+        "#42484FFF",
+        1
+      ],
+      "args": {
+        "duration": 2,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate006/Bg_Sr00060023_02",
+        "oscale": 0,
+        "color": "#FFFFFF00",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "mrk": 13574,
+        "pos": 1,
+        "mrk2": 13575,
+        "pos2": 2,
+        "mrk3": 13573,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "se2": "SE_SOLO_DEGITAL_CARD_01",
+        "se3": "SE_SOLO_DEGITAL_CARD_01",
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「エレメントセイバー」は\n「霊神」の権能の一部を受け継いでいるだけで、\n全ての力を行使できるわけではない。\n",
+        "textId": "IDS_SCENARIOGATE0006_TXT2006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "また、その力で\n自らが神であるかのように\n思い上がってもならない。",
+        "textId": "IDS_SCENARIOGATE0006_TXT2007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 0
+      },
+      "args": {}
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "mrk": 13577,
+        "pos": 1,
+        "mrk2": 13578,
+        "pos2": 2,
+        "mrk3": 13576,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "se2": "SE_SOLO_DEGITAL_CARD_01",
+        "se3": "SE_SOLO_DEGITAL_CARD_01",
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "戒め、鍛え、正しきことに力を使う。\n",
+        "textId": "IDS_SCENARIOGATE0006_TXT2008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「エレメントセイバー」たちの\n修練の日々は終わらないのだ。",
+        "textId": "IDS_SCENARIOGATE0006_TXT2009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_08",
+        "fade": 2
+      }
+    }
+  ]
+}

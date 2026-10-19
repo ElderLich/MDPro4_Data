@@ -1,0 +1,725 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00250199",
+  "sourceBundle": "a361bc0f",
+  "sourceSha256": "9538712ee7ee057f4bb31b685928b8f11f62e87b12e72e3baf1d71dd756d92e8",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "熱狂を呼ぶアスリート",
+        "titleId": "IDS_SCENARIOGATE0025_TITLE1001",
+        "path": "Scenarios/Gates/Gate025/Bg_Sr00240192_title",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_15",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate025/Bg_Sr00250192_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 5,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.394774913787842,2.394774913787842,0.0,0.05416666716337204],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "frm": "",
+        "dst": "#FFFFFFFF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ここは遥か彼方、未来の世界。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0025_TXT1001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "退廃的な世相となりつつある中で、\n一攫千金を狙って覇を競い合っている\nプロスポーツプレイヤーたちがいた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0025_TXT1002"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 11322,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "",
+        "mrk2": 11511,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 15497,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 11777,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らは「U.A.（ウルトラアスリート）」と呼ばれ、\nさまざまな競技で活躍する。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0025_TXT1003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その姿に魅了される人は後を絶たない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0025_TXT1004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "今日もまた、ある者はリビングにあるテレビの前で、\nまたある者は選手の視点を体感できるアイカメラ席で。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0025_TXT1005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "幸運にもチケットを手に入れたファンは\n「U.A.スタジアム」へと足を運び、\n他の者と熱狂を共有するのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0025_TXT1006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "今宵も「U.A.（ウルトラアスリート）」の肉体が、\n大歓声に満ちたスタジアムの中で躍動する。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0025_TXT1007"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 2
+      },
+      "args": {}
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "frm": "",
+        "dst": "#879ABCFF"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 11323,
+        "pos": 5,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "多彩な変化球と\n圧倒的剛速球を駆使し、\n相手をねじ伏せる絶対的な存在！",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0025_TXT1008"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_KANSEI_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Spot",
+        "path": "Scenarios/Gates/Gate025/EF_SpotLight",
+        "pos": 0,
+        "slayer": "Default",
+        "duration": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「U.A.パーフェクトエース」。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0025_TXT1009"
+      }
+    },
+    {
+      "command": "CardFadeOut",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 11323
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Spot",
+        "duration": 0.5
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 11510,
+        "pos2": 6,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "芸術的なドリブルと\n正確無比なパスワークを武器とする、\n天性のスーパースター！",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0025_TXT1010"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_KANSEI_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Spot",
+        "path": "Scenarios/Gates/Gate025/EF_SpotLight",
+        "pos": 0,
+        "slayer": "Default",
+        "duration": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「U.A.ファンタジスタ」。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0025_TXT1011"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Spot",
+        "duration": 0.5
+      }
+    },
+    {
+      "command": "CardFadeOut",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 11510
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 11637,
+        "pos": 5,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "攻撃の起点を生み出し、\nチームを勝利へと導く\n沈着冷静な司令塔！",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0025_TXT1012"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_KANSEI_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Spot",
+        "path": "Scenarios/Gates/Gate025/EF_SpotLight",
+        "pos": 0,
+        "slayer": "Default",
+        "duration": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「U.A.フィールドゼネラル」。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0025_TXT1013"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Spot",
+        "duration": 1
+      }
+    },
+    {
+      "command": "CardFadeOut",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 11637
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 11638,
+        "pos2": 6,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "鍛え上げられた肉体がもたらす、\n超人的なダッシュ力と\n鉄壁の守備で相手を封殺！",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0025_TXT1014"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_KANSEI_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Spot",
+        "path": "Scenarios/Gates/Gate025/EF_SpotLight",
+        "pos": 0,
+        "slayer": "Default",
+        "duration": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「U.A.ストロングブロッカー」。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0025_TXT1015"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Spot",
+        "duration": 1
+      }
+    },
+    {
+      "command": "CardFadeOut",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 11638
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 11776,
+        "pos": 5,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "類まれな跳躍力を活かした\nエアリアル＆パワフルな\nシュートで観客を魅了！",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0025_TXT1016"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_KANSEI_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Spot",
+        "path": "Scenarios/Gates/Gate025/EF_SpotLight",
+        "pos": 0,
+        "slayer": "Default",
+        "duration": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「U.A.ドレッドノートダンカー」。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0025_TXT1017"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Spot",
+        "duration": 1
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らはそれぞれに得意とする競技を持つ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0025_TXT1018"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate025/Bg_Sr00250192_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "だが、極限まで鍛え上げられた肉体、\n卓越した技術と能力の数々によって、\n一つの競技に縛られず活躍できるのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0025_TXT1019"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "どんな競技にも挑み、\n人々を熱狂させる彼ら。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0025_TXT1020"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "まさに超人的なアスリートであり、\n未来世界における\nみんなの英雄（ヒーロー）なのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0025_TXT1021"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_15",
+        "fade": 2
+      }
+    }
+  ]
+}

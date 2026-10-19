@@ -1,0 +1,1416 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00780006",
+  "sourceBundle": "4b8325e2",
+  "sourceSha256": "53b47cd8479562f59f0277d671cabc521093e136e97a93f7cec6c236d3e77359",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate078/Bg_Sr00780006_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 2,
+        "tryFullSize": false,
+        "textId": null
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_GATE078_ENV03_ROOM03",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "textId": null,
+        "bg_keep_fadeout": true
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1",
+        "textId": null
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 5,
+        "skip": true
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate078/Bg_Sr00780006_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false,
+        "textId": null
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1",
+        "textId": null
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "text": "小夜丸 『……。』",
+        "text_autosec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_001",
+        "tm_sound_clip": "",
+        "label": "V_GATE078_02_00_00_00",
+        "vol": -1,
+        "sound_margin": 0
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 2,
+        "skip": false
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_GATE078_ENV03_ROOM03",
+        "fade": 3
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_GATE078_COM_FADEIN",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 0,
+        "textId": null
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_GATE078_ENV04_OUTSIDE",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate078/Bg_Sr00780006_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false,
+        "textId": null
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1",
+        "textId": null
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 0,
+        "textId": null
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "小夜丸  『あいたたた……。うぅ、不覚です。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_002",
+        "label": "V_GATE078_02_00_00_01",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": ""
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "sec": 1,
+        "skip": false,
+        "label": "label_2_1",
+        "textId": null
+      }
+    },
+    {
+      "command": "BgWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "skip": false,
+        "textId": null
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2_2",
+        "textId": null
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "小夜丸  『っ！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_003",
+        "label": "V_GATE078_02_00_00_02",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": ""
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_GATE078_ENV04_OUTSIDE",
+        "fade": 3
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_GATE078_04",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate078/Bg_Sr00780006_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false,
+        "textId": null
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1",
+        "textId": null
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "textId": null,
+        "bg_keep_fadeout": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_GATE078_CAT",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 2,
+        "skip": false,
+        "textId": null
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2",
+        "textId": null
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "マスカレーナ 『……はぁ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_004",
+        "label": "V_GATE078_02_00_00_03",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "voice_1_1",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": "voice_1_1"
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1,
+        "skip": true
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate078/Bg_Sr00780006_05",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false,
+        "textId": null
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1",
+        "textId": null
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "マスカレーナ 『ん、こんなんしかないけど。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_005",
+        "label": "V_GATE078_02_00_00_04",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": ""
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate078/Bg_Sr00780006_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0,
+        "tryFullSize": false,
+        "textId": null
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3",
+        "textId": null
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "マスカレーナ\n『命も宝も奪った事なんかないから、勘違いしないで！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_006",
+        "label": "V_GATE078_02_00_00_05",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "voice_2_1",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": "voice_2_1"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate078/Bg_Sr00780006_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false,
+        "textId": null
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3",
+        "textId": null
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "小夜丸 『あ……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_007",
+        "label": "V_GATE078_02_00_00_06",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": ""
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_GATE078_04",
+        "fade": 3
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_GATE078_COM_FADEOUT",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 0,
+        "textId": null
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate078/Bg_Sr00780006_08",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false,
+        "textId": null
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_GATE078_ENV03_ROOM03",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1",
+        "textId": null
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 0,
+        "textId": null
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "小夜丸 『うーん、マスカレーナさんのあの時のあの振る舞い、\nどう見てもイイ人にしか見えません。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_008",
+        "label": "V_GATE078_02_00_00_07",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": ""
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2",
+        "textId": null
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "『極悪人が猫を助けるでしょうか？\nおまけに、バンソーコーまでくれました。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_009",
+        "label": "V_GATE078_02_00_00_08",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": ""
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3",
+        "textId": null
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "『さりとて、司令官に聞いても、よくわからないですし。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_010",
+        "label": "V_GATE078_02_00_00_09",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": ""
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_GATE078_ENV03_ROOM03",
+        "fade": 3
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_GATE078_COM_FADEIN",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 0,
+        "textId": null
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate078/Bg_Sr00780006_09",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false,
+        "textId": null
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 0,
+        "textId": null
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_GATE078_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1",
+        "textId": null
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "小夜丸 『あ！ちょうどよいところに！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_011",
+        "label": "V_GATE078_02_00_00_10",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": ""
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "小夜丸 『司令官にお伺いしたいことがあります！』\nジャスティファイ 『……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_012",
+        "label": "V_GATE078_02_00_00_11",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": ""
+      }
+    },
+    {
+      "command": "VoiceChild",
+      "option": {},
+      "args": {
+        "voice_clip": "",
+        "label": "V_GATE078_02_00_00_12",
+        "vol": -1,
+        "sound_margin": 0,
+        "tm_sound_clip": "",
+        "textId": null
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "小夜丸 『執行対象であるマスカレーナさんのことなのですが、\nどうも極悪人のニオイがしません！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_013",
+        "label": "V_GATE078_02_00_00_13",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": ""
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4"
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "『執行対象とするのは、何かの誤りではないでしょか？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_014",
+        "label": "V_GATE078_02_00_00_14",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": ""
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.5,
+        "path": "Scenarios/Gates/Gate078/Bg_Sr00780006_10",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false,
+        "textId": null
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1",
+        "textId": null
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "ジャスティファイ\n『I：Pマスカレーナの執行は既に承認済みだ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_015",
+        "label": "V_GATE078_02_00_00_15",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": ""
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "小夜丸 『しかし……』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_016",
+        "label": "V_GATE078_02_00_00_16",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": ""
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "ジャスティファイ『そして今の君はS－Forceだ。\n個人の感情に惑わされてはいけない。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_017",
+        "label": "V_GATE078_02_00_00_17",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": ""
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "『S-Forceとしての正義を果たしたまえ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_018",
+        "label": "V_GATE078_02_00_00_18",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": ""
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate078/Bg_Sr00780006_09",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false,
+        "textId": null
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_5",
+        "textId": null
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "小夜丸 『S-Forceとしての正義……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_019",
+        "label": "V_GATE078_02_00_00_19",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": ""
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_GATE078_COM_FADEOUT",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 0,
+        "textId": null
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 3,
+        "se1": "",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": "",
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate078/Bg_Sr00780006_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "tryFullSize": false,
+        "textId": null
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2",
+        "textId": null
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 0,
+        "textId": null
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "小夜丸 『っよし！　わからないなら、調べるまでです！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_020",
+        "label": "V_GATE078_02_00_00_20",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": "sound_1"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate078/Bg_Sr00780006_08",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false,
+        "textId": null
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4",
+        "textId": null
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "bg_keep_fadeout": false
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "小夜丸 『秘技・データバンク侵入解析の術！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_021",
+        "label": "V_GATE078_02_00_00_21",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": ""
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.5,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.8893420696258547,2.8893420696258547,0.0,0.028208741918206216],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "bg_keep_fadeout": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_5",
+        "textId": null
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "『多元均衡？　因果衝突？　浸透回避、究極的未来？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_022",
+        "label": "V_GATE078_02_00_00_22",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": ""
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_6",
+        "textId": null
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "『う～ん、難しくてよくわかりません。\nこれが執行理由に関するデータなのでしょうか？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_023",
+        "label": "V_GATE078_02_00_00_23",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": ""
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_GATE078_01",
+        "fade": 2
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_7"
+      }
+    },
+    {
+      "command": "BgWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "skip": false
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate078/Bg_Sr00780006_14",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false,
+        "textId": null
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_GATE078_DISPLAY_OP",
+        "vol": -1
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_GATE078_DISPLAY_OP",
+        "vol": -2000,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": 0.1,
+        "ignoreSkip": false
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "小夜丸 『緊急招集！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_024",
+        "label": "V_GATE078_02_00_00_24",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": "sound_1"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_GATE078_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate078/Bg_Sr00780006_15",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false,
+        "textId": null
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1",
+        "textId": null
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "textId": null,
+        "bg_keep_fadeout": false
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "小夜丸 『マスカレーナさん……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_025",
+        "label": "V_GATE078_02_00_00_25",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": ""
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_GATE078_DOOR_OPEN",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 2,
+        "skip": false
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate078/Bg_Sr00780006_16",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false,
+        "textId": null
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1",
+        "textId": null
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "ジャスティファイ 『小夜丸、ここで何をしているのだ。』\n小夜丸 『っ！』\n",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_026",
+        "label": "V_GATE078_02_00_00_26",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": "sound_1"
+      }
+    },
+    {
+      "command": "VoiceChild",
+      "option": {},
+      "args": {
+        "voice_clip": "",
+        "label": "V_GATE078_02_00_00_27",
+        "vol": -1,
+        "sound_margin": 0,
+        "tm_sound_clip": "sound_2",
+        "textId": null
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate078/Bg_Sr00780006_17",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false,
+        "textId": null
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "textId": null,
+        "bg_keep_fadeout": false
+      }
+    },
+    {
+      "command": "Voice",
+      "option": {},
+      "args": {
+        "type": 1,
+        "pos": 4,
+        "text": "小夜丸 『司令官！』",
+        "autominsec": 3,
+        "textId": "IDS_SCENARIOGATE0078_C0006_TXT_027",
+        "label": "V_GATE078_02_00_00_28",
+        "vol": -1,
+        "sound_autominsec": 0,
+        "voice_clip": "",
+        "text_autosec": 0,
+        "sound_margin": 0,
+        "tm_sound_clip": ""
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_GATE078_02",
+        "fade": 2
+      }
+    }
+  ]
+}

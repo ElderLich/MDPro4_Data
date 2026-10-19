@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00770007",
+  "sourceBundle": "bed482a5",
+  "sourceSha256": "76fa03a1c6d9d630004d9591e08fc7c63c3b1815eb73e684a1ae4c739904ee52",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate077/Bg_Sr00770007_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_41",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ある日の深夜。\n残業終わりに工場内の立ち入り禁止の\n扉が開いているのを見つける「成金ゴブリン」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT4001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ったく、物騒だな。』\n扉を閉めようと、部屋へ近づくと、\nその中にはなんと「強欲な壺」が。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT4002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『あの壺は……』\n咄嗟にアタリを見回す。\n深夜のため工場には誰もいない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT4003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "かつてのやましい心がムクムク湧き上がる。\n昔の盗む癖が抜けきれなかったゴブリンは、\nとうとう壺を持ち出してしまった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT4004"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate077/Bg_Sr00770007_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "闇マーケットにいくと手際よく換金。\nあぶく銭を手に入れる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT4005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『よしよし。\nあの工場にはまだ何かありそうだな。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT4006"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate077/Bg_Sr00770007_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その後もまじめな従業員を装いつつ\n壺を盗むチャンスを狙っていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT4007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そうとは知らず、勤勉さが認められ、\n新たな仕事も任されるように。\n出世し給料も少しづつ上がっていく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT4008"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate077/Bg_Sr00770007_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "さらに、芝刈りで綺麗に整えた土地が\n高値で売却成功。\n大金を手に入れ、ほくほくのゴブリン。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT4009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『くくく、このカネを元手に\nまたトップまで上り詰められるぞ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT4010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "まさか新たに買う豪邸が不良物件だとは\nこの時知る由もなく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT4011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "何度失敗しても懲りないゴブリンの\n強欲な人生は今後も続いていくのだった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT4012"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_41",
+        "fade": 2
+      }
+    }
+  ]
+}

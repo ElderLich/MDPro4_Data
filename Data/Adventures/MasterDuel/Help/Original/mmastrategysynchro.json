@@ -1,0 +1,81 @@
+{
+  "sourceBundle": "a1ce9590",
+  "sourceSha256": "7d653a0b6b5733ccf6aa6c101a71b3de70efeea218d41a20bd65184d48319da4",
+  "mma": {
+    "tp": "Pager",
+    "title": {
+      "useId": false,
+      "tid": "",
+      "ja_JP": "クエスト ヘルプ",
+      "en_US": "",
+      "fr_FR": "",
+      "it_IT": "",
+      "de_DE": "",
+      "es_ES": "",
+      "pt_BR": "",
+      "ko_KR": ""
+    },
+    "contents": [
+      {
+        "tp": "HalfImageTextPage",
+        "caption": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_SYNCHRO_01_H",
+          "ja_JP": "シンクロ召喚とは？\r",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "text": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_SYNCHRO_01_B",
+          "ja_JP": "シンクロモンスターを呼び出す方法です。\r\nシンクロモンスターに記されている素材を\r\nフィールドにそろえて行います。\r\n素材には「チューナー」と呼ばれるモンスターが必要になりますが、シンクロモンスターによっては、素材のカード名などが決められている場合もあります。\r\n",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "buttons": [],
+        "resourcePath": "Help/Strategy/HelpStrategySynchro_01"
+      },
+      {
+        "tp": "HalfImageTextPage",
+        "caption": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_SYNCHRO_02_H",
+          "ja_JP": "シンクロ召喚をやってみよう！\r",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "text": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_SYNCHRO_02_B",
+          "ja_JP": "自分のメインフェイズに、「チューナー」と、それ以外のモンスターを自分フィールドから墓地へ送り、レベルの合計に合ったシンクロモンスターをエクストラデッキから呼び出します。\r",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "buttons": [],
+        "resourcePath": "Help/Strategy/HelpStrategySynchro_02"
+      }
+    ],
+    "isLoop": false,
+    "startPage": 0
+  }
+}

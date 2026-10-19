@@ -1,0 +1,52 @@
+{
+  "sourceBundle": "291b6f34",
+  "sourceSha256": "18f5881bb654fd667ac143723b72db0118481d29d98cf883d2079b7f4837e2a3",
+  "mma": {
+    "tp": "Pager",
+    "title": {
+      "useId": false,
+      "tid": "",
+      "ja_JP": "クエスト ヘルプ",
+      "en_US": "",
+      "fr_FR": "",
+      "it_IT": "",
+      "de_DE": "",
+      "es_ES": "",
+      "pt_BR": "",
+      "ko_KR": ""
+    },
+    "contents": [
+      {
+        "tp": "HalfImageTextPage",
+        "caption": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_CHAIN_H",
+          "ja_JP": "チェーンとは？\r",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "text": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_CHAIN_B",
+          "ja_JP": "カードの効果の発動に対応して、新たなカードの効果を発動することを「チェーン」と呼びます。\r\n例えばカウンター罠カードは、対応する効果が発動された時に「チェーン」して発動し、相手の効果などを無効にすることができます。\r\n「チェーン」の理解が深まれば、さらに奥深いデュエルを楽しむことができるでしょう。\r",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "buttons": [],
+        "resourcePath": "Help/Strategy/HelpStrategyChain"
+      }
+    ],
+    "isLoop": false,
+    "startPage": 0
+  }
+}

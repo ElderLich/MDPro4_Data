@@ -1,0 +1,475 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00280226",
+  "sourceBundle": "2afc02bd",
+  "sourceSha256": "74c9e3f64ecb4800d3cd9053cd31ae894eb81aa195f71a78ea01d351bfcb5018",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate028/Bg_Sr00280226_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_17",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "frm": "",
+        "dst": "#676767FF"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_BAKUHATSU_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_FIRE_LOOP",
+        "vol": -2000,
+        "fade": 1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは、何の前触れもなく訪れた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT2001"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frm": "",
+        "dst": "#CCCCCCFF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "突如として現れた強大な存在によって、\n里は激しい災禍に包まれたのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT2002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "里を守るため、戦士たちが立ち向かった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT2003"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_FIRE_LOOP",
+        "fade": 2
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate028/Bg_Sr00280226_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "神の力によって悪しきものを滅却すべく、\n当代の神官も鳳凰神を顕現させる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT2004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、災いをもたらした存在の力は\nそれをも上回っていたのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT2005"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_14",
+        "vol": -1
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_FIRE_LOOP",
+        "vol": -2000,
+        "fade": 1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Fire",
+        "path": "Scenarios/Gates/Gate028/Pre_Sr00280226_Fire",
+        "pos": 0,
+        "slayer": "Default",
+        "duration": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate028/Bg_Sr00280226_02_a",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "蒼き鳳凰神の力でも及ばず、\n里は未曽有の危機に襲われた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT2006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "もはや里を守るためには、\n未来の神官となりうる素質を持った\n少女に望みを託すしかない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT2007"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate028/Bg_Sr00280226_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_FIRE_LOOP",
+        "fade": 4
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "神へと声を届かせる言の葉も、\n捧げものも、音楽も舞もなく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT2008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "燃え落ちる里の中で、\n少女はただひたすらに、\n一心不乱に願う。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT2009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "かくして、全身と全霊を注ぎ込んだ\n純粋無垢の祈りは神に届く。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT2010"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Fire",
+        "duration": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_04",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate028/Bg_Sr00280226_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.254033088684082,2.254033088684082,0.0,0.1088709682226181],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "少女が秘めていた魂の力は、\nこれまでにない光熱と神々しさにあふれた\n「焔凰神－ネフティス」を呼び覚ました。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT2011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "金色の炎をまとって羽ばたく赤き鳳凰神は、\n瞬く間に里を包んでいた災いを退ける。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT2012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そうして全てを終わらせると、\n再び神像へと姿を変えたのだった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT2013"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate028/Bg_Sr00280226_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それからいくばくかの月日が流れた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT2014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "平穏を取り戻した里では、\nネフティスを信奉する神事が執り行われている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT2015"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 15509,
+        "pos": 5,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その人々の中には、\n危機の中で希望を託された少女の姿があった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT2016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "以前よりもやや大人びた面持ちになった少女は\nいずれ来る日に備え、務めに励んでいる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT2017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "平和を願う心を胸に、\n今日も祈りを捧げるのであった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT2018"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_17",
+        "fade": 2
+      }
+    }
+  ]
+}

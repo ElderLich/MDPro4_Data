@@ -1,0 +1,402 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00450364",
+  "sourceBundle": "8f95eb0e",
+  "sourceSha256": "8ac4989e1018a61656107a0e0a17fb1f8173e040079d35632c5bb2b6486d51e8",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "舞い降りる六花の精",
+        "titleId": "IDS_SCENARIOGATE0045_TITLE1001",
+        "path": "Scenarios/Gates/Gate045/Bg_Sr00450364_titile",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_29",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate045/Bg_Sr000450364_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 40,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ひらりひらり。\n軽やかに舞い踊る\n花びらのように。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT1001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ふわりふわり。\n淑やかに風を流れる\n花びらのように。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT1002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "冷え冷えとした空を包む雲から、\nさめざめと下りる帳。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT1003"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Yuki",
+        "path": "Scenarios/Gates/Gate045/Pre_Sr00450364_00yousei",
+        "pos": 0,
+        "duration": 10
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_KIRAKIRA",
+        "vol": -2000,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": -1,
+        "ignoreSkip": true
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Yuki",
+        "tmlabel": "label_4"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "氷雪のかけらは\n大地の隅々にまで降りそそぎ、\n世界を白銀に彩る。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT1004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "いずれは解けて\n儚く消え去るものであれ、\nその有り様もまた美しく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT1005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "深々と、\n人知れず密やかに\n咲く花にも下り立つ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT1006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "寒に向かう季節の中で、\n強く、そして気高く\n咲き誇る花たち。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT1007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "花に舞い降りた\n氷のひとひらも、\nはじめは小さなつぼみのひとつ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT1008"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_KIRAKIRA_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Yuki",
+        "tmlabel": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "やがて鮮やかなる\n白姫の結晶となり、\n大輪の花を開く。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT1009"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Yuki",
+        "tmlabel": "label_3"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Yuki",
+        "duration": 3
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 15280,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 15111,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 15117,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 15114,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "花に宿り、\n花より生まれる\n「六花（りっか）」の精。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT1010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "世界に色とりどりの\n花があるように、\n現れる姿もまた千差万別。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT1011"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 0
+      },
+      "args": {}
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "HIme",
+        "path": "Scenarios/Gates/Gate045/P15118",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_KIRAKIRA_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "華やかな傘を手に、\nくるりと見返る麗しの君。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT1012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "秘めたる想いは\n密かに積もる……。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT1013"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_29",
+        "fade": 2
+      }
+    }
+  ]
+}

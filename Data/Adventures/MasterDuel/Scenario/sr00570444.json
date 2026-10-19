@@ -1,0 +1,713 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00570444",
+  "sourceBundle": "09701fcc",
+  "sourceSha256": "faccc91477c70f5bdb42d1d92ae7f512a76a9dfa33d02c5766cbf8af2ff542ef",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate057/Bg_Sr00570441_00",
+        "oscale": 0,
+        "color": "#C2B6CCFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7830,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "",
+        "mrk2": 7828,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 7832,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 7966,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "外なる星から飛来した「ワーム」は\n霞の谷の平穏を脅かしていった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2001"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_DEGITAL_CARD_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7830,
+        "dstmrk": 8121
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7828,
+        "dstmrk": 7957
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_DEGITAL_CARD_01_b",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7832,
+        "dstmrk": 8109
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7966,
+        "dstmrk": 7532
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "住人と鳥獣は、突如として湧き出した外敵を\n次々と打ち倒していく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それでも根絶するには至らない。\n確かに目の前からは消え去ったが、\nワームも谷から出ていったわけではないのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2003"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ここで、複雑に入り組んだ地形、\n晴れることのない霞があだとなる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2004"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "path": "Scenarios/Gates/Gate057/Bg_Sr00570441_00b",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "外へ出られずに居着いたワームが集まり、\n谷のあちこちに巣を作り始めてしまったのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "住人はそれらの巣を発見し次第、\n念入りに焼き尽くした。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2006"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7546,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 7547,
+        "pos2": 2,
+        "se2": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk3": 7831,
+        "pos3": 3,
+        "se3": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk4": 7830,
+        "pos4": 4,
+        "se4": "SE_SOLO_DEGITAL_CARD_01"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それでも日を追うごとに発見される巣は増え続け、\n軍勢となったワームが度々\n居住地に押し寄せるようになる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "なにしろ相手は神出鬼没。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ミスト・ウォームの誘導もままならず、\n住人は外来の敵を谷から追い出すために\n根気よく戦った。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2009"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate057/Bg_Sr00570441_00b",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、\nそれにも限界が来る。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2010"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 8121,
+        "pos2": 0,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "戦士団の団長「霞の谷（ミスト・バレー）の雷神鬼」は、\n霞の谷に住む鳥人と鳥獣だけでは手に負えぬと判断。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "かねてより打診があった\n谷の外の部族との協力を決意する。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2012"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate034/Bg_Sr00340273_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "こうして\n「A・O・J（アーリー・オブ・ジャスティス）」は\n始動した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "A・O・Jの結成によって\n他部族の協力も得られるようになり、\n「霞の谷（ミスト・バレー）」の防衛も格段に向上した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "目につく巣の数も減り、霞の谷の中であれば\nワームに対して優勢を保つ事が可能となった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2015"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.3,
+        "frm": "",
+        "dst": "#6E6982FF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、このままワームの根絶へ向け、\n各部族が攻勢へ移ろうとした矢先\n霞の谷は突如としてA・O・Jの脱退を宣言する。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "なぜそのような決意に至ったのか。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2017"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate055/Bg_Sr00550431_03",
+        "oscale": 0,
+        "color": "#CACFD1FF",
+        "pos": 0,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ある日、戦士団の団長であった「霞の谷の雷神鬼」は\nA・O・Jで、ある実態を知ってしまう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは声なき「ジェネクス」までをも\n利用するという兵器実験だった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2019"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "以降、雷神鬼は態度にこそ出さなかったが、\nA・O・Jの方針に小さな疑念を持つようになる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2020"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それでもワームから世界を守るため、\nひいては谷の平穏を取り戻すためであると\n黙認していた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2021"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ワームを星から追い出すまでであれば、\nその疑念を抱えたままでも\n戦い抜けたはずであった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2022"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_11",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "rei",
+        "path": "Scenarios/Gates/Gate057/Pre_Sr00570444_rei",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、その嫌悪を嗅ぎ取った\n「魔轟神レイヴン」の手に\nかかってしまう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2023"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "rei",
+        "duration": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate057/Bg_Sr00570444_01",
+        "oscale": 0,
+        "color": "#B6A7CAFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.445948839187622,2.445948839187622,0.0,0.11788617819547653],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "レイヴンの手により\n疑念は増幅され、谷に住む者たちに伝播し、\nやがて大きな不信として育ってしまったのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2024"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "レイヴンの目的は何だったのか。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2025"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "A・O・Jを分断し、\nワームに星を支配させるためか。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2026"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "魔轟神たちが本格的な侵攻を開始する前に、\n脅威となりそうな組織の弱体化を図ったのか。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2027"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "おそらく、そのどちらでもない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2028"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ただ、レイヴンは他者が持つ小さな悪感情を育てたら\nどうなるかを見たかっただけであり、\n単なる享楽、愉悦を味わいたいだけ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2029"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "このレイヴンの戯れは\n霞の谷に効果的な打撃を与える結果となった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT2030"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "fade": 2
+      }
+    }
+  ]
+}

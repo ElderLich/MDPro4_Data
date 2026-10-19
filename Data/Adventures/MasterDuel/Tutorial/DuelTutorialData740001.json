@@ -1,0 +1,1432 @@
+{
+  "schemaVersion": 1,
+  "sourceBundle": "fb072eae",
+  "sourceSha256": "9983b96abed09d94e0c8fc8a17224769a66a04372bd34ee23efbf29c31876c6d",
+  "runtimeReady": true,
+  "reason": "Original native guidance feature families accepted; original rows retained.",
+  "infoList": [
+    {
+      "startTurn": 0,
+      "startView": 1,
+      "startDelay": 0.0,
+      "centerMessage": [],
+      "useTopMessage": 0,
+      "topMessage": "",
+      "finishTurn": 0,
+      "finishView": 2,
+      "invalidPhase": [],
+      "invalidPhaseMessage": "",
+      "invalidCommand": [],
+      "invalidCommandMessage": "",
+      "effectList": [],
+      "skipCardActivation": 0,
+      "noCancel": 0,
+      "noCancelMessage": "",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [],
+      "invalidCardIDMessage": "",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": "solo/theme/gate0074"
+    },
+    {
+      "startTurn": 1,
+      "startView": 2,
+      "startDelay": 0.0,
+      "centerMessage": [
+        "GATE0074_01"
+      ],
+      "useTopMessage": 0,
+      "topMessage": "",
+      "finishTurn": 1,
+      "finishView": 4,
+      "invalidPhase": [],
+      "invalidPhaseMessage": "",
+      "invalidCommand": [],
+      "invalidCommandMessage": "",
+      "effectList": [],
+      "skipCardActivation": 0,
+      "noCancel": 0,
+      "noCancelMessage": "",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": 0,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [],
+      "invalidCardIDMessage": "",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": 0,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 4,
+      "startDelay": 0.0,
+      "centerMessage": [
+        "GATE0074_02"
+      ],
+      "useTopMessage": 1,
+      "topMessage": "GATE0074_02",
+      "finishTurn": 1,
+      "finishView": 22,
+      "invalidPhase": [
+        3,
+        4,
+        5
+      ],
+      "invalidPhaseMessage": "GATE0074_02",
+      "invalidCommand": [
+        7,
+        6,
+        2,
+        3
+      ],
+      "invalidCommandMessage": "GATE0074_02",
+      "effectList": [
+        {
+          "effect": 0,
+          "param": 16737
+        },
+        {
+          "effect": 6,
+          "param": 4
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_02",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": 2,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [
+        16736
+      ],
+      "invalidCardIDMessage": "GATE0074_02",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": 0,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 22,
+      "startDelay": 1.0,
+      "centerMessage": [
+        "GATE0074_03"
+      ],
+      "useTopMessage": 1,
+      "topMessage": "GATE0074_03",
+      "finishTurn": 1,
+      "finishView": 13,
+      "invalidPhase": [
+        3,
+        5
+      ],
+      "invalidPhaseMessage": "GATE0074_03",
+      "invalidCommand": [],
+      "invalidCommandMessage": "GATE0074_03",
+      "effectList": [
+        {
+          "effect": 0,
+          "param": 16737
+        },
+        {
+          "effect": 6,
+          "param": 3
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_03",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [
+        16736
+      ],
+      "invalidCardIDMessage": "GATE0074_03",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 13,
+      "startDelay": 0.0,
+      "centerMessage": [],
+      "useTopMessage": 1,
+      "topMessage": "GATE0074_04",
+      "finishTurn": 1,
+      "finishView": 22,
+      "invalidPhase": [
+        3,
+        5
+      ],
+      "invalidPhaseMessage": "GATE0074_04",
+      "invalidCommand": [],
+      "invalidCommandMessage": "GATE0074_04",
+      "effectList": [
+        {
+          "effect": 5,
+          "param": 16736
+        },
+        {
+          "effect": 4,
+          "param": 1
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_04",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [],
+      "invalidCardIDMessage": "GATE0074_04",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 22,
+      "startDelay": 1.0,
+      "centerMessage": [
+        "GATE0074_05"
+      ],
+      "useTopMessage": 1,
+      "topMessage": "GATE0074_05",
+      "finishTurn": 1,
+      "finishView": 23,
+      "invalidPhase": [
+        3,
+        4,
+        5
+      ],
+      "invalidPhaseMessage": "GATE0074_05",
+      "invalidCommand": [],
+      "invalidCommandMessage": "GATE0074_05",
+      "effectList": [
+        {
+          "effect": 8,
+          "param": 0
+        },
+        {
+          "effect": 5,
+          "param": 16741
+        },
+        {
+          "effect": 4,
+          "param": 1
+        },
+        {
+          "effect": 6,
+          "param": 2
+        },
+        {
+          "effect": 6,
+          "param": 12
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_05",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [
+        16740,
+        16742,
+        16743
+      ],
+      "invalidCardIDMessage": "GATE0074_05",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 23,
+      "startDelay": 0.0,
+      "centerMessage": [],
+      "useTopMessage": 1,
+      "topMessage": "",
+      "finishTurn": 1,
+      "finishView": 22,
+      "invalidPhase": [
+        3,
+        4,
+        5
+      ],
+      "invalidPhaseMessage": "",
+      "invalidCommand": [
+        3
+      ],
+      "invalidCommandMessage": "",
+      "effectList": [
+        {
+          "effect": 8,
+          "param": 0
+        },
+        {
+          "effect": 5,
+          "param": 16741
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_05",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [],
+      "invalidCardIDMessage": "",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 22,
+      "startDelay": 0.0,
+      "centerMessage": [],
+      "useTopMessage": 1,
+      "topMessage": "",
+      "finishTurn": 1,
+      "finishView": 23,
+      "invalidPhase": [
+        3,
+        4,
+        5
+      ],
+      "invalidPhaseMessage": "",
+      "invalidCommand": [
+        3
+      ],
+      "invalidCommandMessage": "",
+      "effectList": [
+        {
+          "effect": 8,
+          "param": 0
+        },
+        {
+          "effect": 5,
+          "param": 16741
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_05",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [],
+      "invalidCardIDMessage": "",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 23,
+      "startDelay": 0.0,
+      "centerMessage": [
+        "GATE0074_06",
+        "GATE0074_07"
+      ],
+      "useTopMessage": 1,
+      "topMessage": "GATE0074_07",
+      "finishTurn": 1,
+      "finishView": 14,
+      "invalidPhase": [],
+      "invalidPhaseMessage": "GATE0074_07",
+      "invalidCommand": [],
+      "invalidCommandMessage": "GATE0074_07",
+      "effectList": [
+        {
+          "effect": 0,
+          "param": 0
+        },
+        {
+          "effect": 4,
+          "param": 1
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_07",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [],
+      "invalidCardIDMessage": "GATE0074_07",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 14,
+      "startDelay": 0.0,
+      "centerMessage": [
+        "GATE0074_08",
+        "GATE0074_09",
+        "GATE0074_10"
+      ],
+      "useTopMessage": 1,
+      "topMessage": "GATE0074_10",
+      "finishTurn": 1,
+      "finishView": 13,
+      "invalidPhase": [
+        3,
+        4,
+        5
+      ],
+      "invalidPhaseMessage": "GATE0074_10",
+      "invalidCommand": [],
+      "invalidCommandMessage": "GATE0074_10",
+      "effectList": [
+        {
+          "effect": 0,
+          "param": 16741
+        },
+        {
+          "effect": 4,
+          "param": 1
+        },
+        {
+          "effect": 6,
+          "param": 3
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_10",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [],
+      "invalidCardIDMessage": "GATE0074_10",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 13,
+      "startDelay": 0.0,
+      "centerMessage": [
+        "GATE0074_11"
+      ],
+      "useTopMessage": 1,
+      "topMessage": "GATE0074_11",
+      "finishTurn": 1,
+      "finishView": 24,
+      "invalidPhase": [],
+      "invalidPhaseMessage": "GATE0074_11",
+      "invalidCommand": [],
+      "invalidCommandMessage": "GATE0074_11",
+      "effectList": [
+        {
+          "effect": 4,
+          "param": 1
+        },
+        {
+          "effect": 5,
+          "param": 16737
+        },
+        {
+          "effect": 5,
+          "param": 17427
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_11",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [
+        16736,
+        16738,
+        16739
+      ],
+      "invalidCardIDMessage": "GATE0074_11",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 24,
+      "startDelay": 0.0,
+      "centerMessage": [],
+      "useTopMessage": 1,
+      "topMessage": "GATE0074_11",
+      "finishTurn": 1,
+      "finishView": 24,
+      "invalidPhase": [],
+      "invalidPhaseMessage": "GATE0074_11",
+      "invalidCommand": [],
+      "invalidCommandMessage": "GATE0074_11",
+      "effectList": [
+        {
+          "effect": 4,
+          "param": 1
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_11",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [],
+      "invalidCardIDMessage": "GATE0074_11",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 24,
+      "startDelay": 0.0,
+      "centerMessage": [],
+      "useTopMessage": 1,
+      "topMessage": "GATE0074_11",
+      "finishTurn": 1,
+      "finishView": 14,
+      "invalidPhase": [],
+      "invalidPhaseMessage": "GATE0074_11",
+      "invalidCommand": [],
+      "invalidCommandMessage": "GATE0074_11",
+      "effectList": [
+        {
+          "effect": 4,
+          "param": 1
+        },
+        {
+          "effect": 5,
+          "param": 17427
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_11",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [
+        16736,
+        1673,
+        16738,
+        16739
+      ],
+      "invalidCardIDMessage": "GATE0074_11",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 14,
+      "startDelay": 0.0,
+      "centerMessage": [
+        "GATE0074_12",
+        "GATE0074_13"
+      ],
+      "useTopMessage": 1,
+      "topMessage": "GATE0074_13",
+      "finishTurn": 1,
+      "finishView": 13,
+      "invalidPhase": [
+        3,
+        5
+      ],
+      "invalidPhaseMessage": "GATE0074_13",
+      "invalidCommand": [
+        7
+      ],
+      "invalidCommandMessage": "GATE0074_13",
+      "effectList": [
+        {
+          "effect": 0,
+          "param": 17427
+        },
+        {
+          "effect": 6,
+          "param": 3
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_13",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [],
+      "invalidCardIDMessage": "GATE0074_13",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 13,
+      "startDelay": 0.0,
+      "centerMessage": [],
+      "useTopMessage": 1,
+      "topMessage": "GATE0074_14",
+      "finishTurn": 1,
+      "finishView": 22,
+      "invalidPhase": [
+        3,
+        5
+      ],
+      "invalidPhaseMessage": "GATE0074_14",
+      "invalidCommand": [],
+      "invalidCommandMessage": "GATE0074_14",
+      "effectList": [
+        {
+          "effect": 5,
+          "param": 17427
+        },
+        {
+          "effect": 4,
+          "param": 1
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_14",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [],
+      "invalidCardIDMessage": "GATE0074_14",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 22,
+      "startDelay": 0.0,
+      "centerMessage": [],
+      "useTopMessage": 1,
+      "topMessage": "GATE0074_15",
+      "finishTurn": 1,
+      "finishView": 14,
+      "invalidPhase": [
+        3,
+        5
+      ],
+      "invalidPhaseMessage": "GATE0074_15",
+      "invalidCommand": [],
+      "invalidCommandMessage": "GATE0074_15",
+      "effectList": [
+        {
+          "effect": 5,
+          "param": 16736
+        },
+        {
+          "effect": 4,
+          "param": 1
+        },
+        {
+          "effect": 6,
+          "param": 3
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_15",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [],
+      "invalidCardIDMessage": "GATE0074_15",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 14,
+      "startDelay": 0.0,
+      "centerMessage": [
+        "GATE0074_16"
+      ],
+      "useTopMessage": 1,
+      "topMessage": "GATE0074_16",
+      "finishTurn": 1,
+      "finishView": 22,
+      "invalidPhase": [
+        3,
+        4,
+        5
+      ],
+      "invalidPhaseMessage": "GATE0074_16",
+      "invalidCommand": [],
+      "invalidCommandMessage": "GATE0074_16",
+      "effectList": [
+        {
+          "effect": 8,
+          "param": 0
+        },
+        {
+          "effect": 5,
+          "param": 16740
+        },
+        {
+          "effect": 4,
+          "param": 1
+        },
+        {
+          "effect": 6,
+          "param": 2
+        },
+        {
+          "effect": 6,
+          "param": 12
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_16",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [
+        16740,
+        16742,
+        16743
+      ],
+      "invalidCardIDMessage": "GATE0074_16",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 22,
+      "startDelay": 0.0,
+      "centerMessage": [],
+      "useTopMessage": 0,
+      "topMessage": "",
+      "finishTurn": 1,
+      "finishView": 16,
+      "invalidPhase": [
+        3,
+        4,
+        5
+      ],
+      "invalidPhaseMessage": "",
+      "invalidCommand": [],
+      "invalidCommandMessage": "",
+      "effectList": [],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [],
+      "invalidCardIDMessage": "",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 16,
+      "startDelay": 0.0,
+      "centerMessage": [
+        "GATE0074_17"
+      ],
+      "useTopMessage": 1,
+      "topMessage": "GATE0074_17",
+      "finishTurn": 1,
+      "finishView": 13,
+      "invalidPhase": [
+        3,
+        5
+      ],
+      "invalidPhaseMessage": "GATE0074_17",
+      "invalidCommand": [
+        2
+      ],
+      "invalidCommandMessage": "GATE0074_17",
+      "effectList": [
+        {
+          "effect": 0,
+          "param": 16740
+        },
+        {
+          "effect": 4,
+          "param": 1
+        },
+        {
+          "effect": 6,
+          "param": 3
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_17",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [],
+      "invalidCardIDMessage": "GATE0074_17",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": 0,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "GATE0074_17",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 13,
+      "startDelay": 0.0,
+      "centerMessage": [],
+      "useTopMessage": 1,
+      "topMessage": "GATE0074_18",
+      "finishTurn": 1,
+      "finishView": 14,
+      "invalidPhase": [
+        3,
+        5
+      ],
+      "invalidPhaseMessage": "GATE0074_18",
+      "invalidCommand": [
+        7
+      ],
+      "invalidCommandMessage": "GATE0074_18",
+      "effectList": [
+        {
+          "effect": 0,
+          "param": 4989
+        },
+        {
+          "effect": 6,
+          "param": 12
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_18",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [
+        11205
+      ],
+      "invalidCardIDMessage": "GATE0074_18",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 14,
+      "startDelay": 0.0,
+      "centerMessage": [
+        "GATE0074_19",
+        "GATE0074_20"
+      ],
+      "useTopMessage": 1,
+      "topMessage": "GATE0074_20",
+      "finishTurn": 1,
+      "finishView": 13,
+      "invalidPhase": [
+        3,
+        5
+      ],
+      "invalidPhaseMessage": "GATE0074_20",
+      "invalidCommand": [
+        2
+      ],
+      "invalidCommandMessage": "GATE0074_20",
+      "effectList": [
+        {
+          "effect": 0,
+          "param": 16740
+        },
+        {
+          "effect": 4,
+          "param": 1
+        },
+        {
+          "effect": 6,
+          "param": 3
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_20",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [],
+      "invalidCardIDMessage": "GATE0074_20",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": 1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 1,
+      "blockExtraDeckCommandMessage": "GATE0074_20",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 13,
+      "startDelay": 0.0,
+      "centerMessage": [
+        "GATE0074_21"
+      ],
+      "useTopMessage": 1,
+      "topMessage": "GATE0074_21",
+      "finishTurn": 1,
+      "finishView": 24,
+      "invalidPhase": [],
+      "invalidPhaseMessage": "GATE0074_21",
+      "invalidCommand": [],
+      "invalidCommandMessage": "GATE0074_21",
+      "effectList": [
+        {
+          "effect": 0,
+          "param": 1
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_21",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [
+        0
+      ],
+      "invalidCardIDMessage": "GATE0074_21",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 24,
+      "startDelay": 0.0,
+      "centerMessage": [],
+      "useTopMessage": 1,
+      "topMessage": "GATE0074_21",
+      "finishTurn": 1,
+      "finishView": 24,
+      "invalidPhase": [],
+      "invalidPhaseMessage": "GATE0074_21",
+      "invalidCommand": [],
+      "invalidCommandMessage": "GATE0074_21",
+      "effectList": [
+        {
+          "effect": 4,
+          "param": 1
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_21",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [
+        0
+      ],
+      "invalidCardIDMessage": "GATE0074_21",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 24,
+      "startDelay": 0.0,
+      "centerMessage": [],
+      "useTopMessage": 1,
+      "topMessage": "GATE0074_21",
+      "finishTurn": 1,
+      "finishView": 14,
+      "invalidPhase": [],
+      "invalidPhaseMessage": "GATE0074_21",
+      "invalidCommand": [],
+      "invalidCommandMessage": "GATE0074_21",
+      "effectList": [
+        {
+          "effect": 4,
+          "param": 1
+        },
+        {
+          "effect": 5,
+          "param": 17478
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_21",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [
+        16744,
+        16745,
+        16746,
+        16747
+      ],
+      "invalidCardIDMessage": "GATE0074_21",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 14,
+      "startDelay": 0.0,
+      "centerMessage": [
+        "GATE0074_22",
+        "GATE0074_23"
+      ],
+      "useTopMessage": 1,
+      "topMessage": "GATE0074_23",
+      "finishTurn": 1,
+      "finishView": 22,
+      "invalidPhase": [
+        3,
+        4,
+        5
+      ],
+      "invalidPhaseMessage": "GATE0074_23",
+      "invalidCommand": [
+        7
+      ],
+      "invalidCommandMessage": "GATE0074_23",
+      "effectList": [
+        {
+          "effect": 8,
+          "param": 0
+        },
+        {
+          "effect": 5,
+          "param": 17157
+        },
+        {
+          "effect": 4,
+          "param": 1
+        },
+        {
+          "effect": 6,
+          "param": 2
+        },
+        {
+          "effect": 6,
+          "param": 2
+        },
+        {
+          "effect": 9,
+          "param": 0
+        },
+        {
+          "effect": 6,
+          "param": 12
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_23",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": 1,
+      "invalidStandTypeMessage": "STAND_ATK",
+      "invalidCardID": [
+        17478
+      ],
+      "invalidCardIDMessage": "GATE0074_23",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 22,
+      "startDelay": 0.0,
+      "centerMessage": [],
+      "useTopMessage": 0,
+      "topMessage": "",
+      "finishTurn": 1,
+      "finishView": 16,
+      "invalidPhase": [
+        3,
+        4,
+        5
+      ],
+      "invalidPhaseMessage": "",
+      "invalidCommand": [],
+      "invalidCommandMessage": "",
+      "effectList": [
+        {
+          "effect": 8,
+          "param": 0
+        },
+        {
+          "effect": 5,
+          "param": 17157
+        },
+        {
+          "effect": 4,
+          "param": 1
+        },
+        {
+          "effect": 6,
+          "param": 2
+        },
+        {
+          "effect": 6,
+          "param": 2
+        },
+        {
+          "effect": 9,
+          "param": 0
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 0,
+      "noCancelMessage": "",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": 1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [],
+      "invalidCardIDMessage": "",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 16,
+      "startDelay": 0.0,
+      "centerMessage": [
+        "GATE0074_24"
+      ],
+      "useTopMessage": 1,
+      "topMessage": "GATE0074_24",
+      "finishTurn": 1,
+      "finishView": 13,
+      "invalidPhase": [
+        3,
+        5
+      ],
+      "invalidPhaseMessage": "GATE0074_24",
+      "invalidCommand": [
+        7
+      ],
+      "invalidCommandMessage": "GATE0074_24",
+      "effectList": [
+        {
+          "effect": 0,
+          "param": 17157
+        },
+        {
+          "effect": 4,
+          "param": 1
+        },
+        {
+          "effect": 6,
+          "param": 3
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_24",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [
+        17478
+      ],
+      "invalidCardIDMessage": "GATE0074_24",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": 0,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 13,
+      "startDelay": 0.0,
+      "centerMessage": [],
+      "useTopMessage": 1,
+      "topMessage": "GATE0074_25",
+      "finishTurn": 1,
+      "finishView": 14,
+      "invalidPhase": [
+        3,
+        5
+      ],
+      "invalidPhaseMessage": "GATE0074_25",
+      "invalidCommand": [
+        7
+      ],
+      "invalidCommandMessage": "GATE0074_25",
+      "effectList": [
+        {
+          "effect": 0,
+          "param": 11205
+        },
+        {
+          "effect": 6,
+          "param": 12
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_25",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [],
+      "invalidCardIDMessage": "GATE0074_25",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 14,
+      "startDelay": 0.0,
+      "centerMessage": [
+        "GATE0074_26",
+        "GATE0074_27"
+      ],
+      "useTopMessage": 1,
+      "topMessage": "GATE0074_27",
+      "finishTurn": 1,
+      "finishView": 5,
+      "invalidPhase": [
+        4,
+        5
+      ],
+      "invalidPhaseMessage": "GATE0074_27",
+      "invalidCommand": [
+        3,
+        7,
+        2
+      ],
+      "invalidCommandMessage": "GATE0074_27",
+      "effectList": [
+        {
+          "effect": 4,
+          "param": 0
+        },
+        {
+          "effect": 1,
+          "param": 0
+        },
+        {
+          "effect": 7,
+          "param": 3
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_27",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [
+        17478
+      ],
+      "invalidCardIDMessage": "GATE0074_27",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 5,
+      "startDelay": 0.0,
+      "centerMessage": [
+        "GATE0074_28",
+        "GATE0074_29"
+      ],
+      "useTopMessage": 1,
+      "topMessage": "GATE0074_29",
+      "finishTurn": 1,
+      "finishView": 0,
+      "invalidPhase": [
+        4,
+        5
+      ],
+      "invalidPhaseMessage": "GATE0074_29",
+      "invalidCommand": [],
+      "invalidCommandMessage": "GATE0074_29",
+      "effectList": [
+        {
+          "effect": 6,
+          "param": 0
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 1,
+      "noCancelMessage": "GATE0074_29",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [],
+      "invalidCardIDMessage": "GATE0074_29",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    }
+  ],
+  "playClimaxBGM": 0
+}

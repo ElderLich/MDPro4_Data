@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "sourceBundle": "68ac1753",
+  "sourceSha256": "0e6d9d21eb6ecc556c7ad00cf0a3d8faac6ca99cc8e37ac0c5c4ce1ae372f429",
+  "runtimeReady": true,
+  "reason": "Original native guidance accepted in connected MDPro4; original rows retained.",
+  "infoList": [
+    {
+      "startTurn": 0,
+      "startView": 1,
+      "startDelay": 0.0,
+      "centerMessage": [],
+      "useTopMessage": 0,
+      "topMessage": "",
+      "finishTurn": 0,
+      "finishView": 2,
+      "invalidPhase": [],
+      "invalidPhaseMessage": "",
+      "invalidCommand": [],
+      "invalidCommandMessage": "",
+      "effectList": [],
+      "skipCardActivation": 0,
+      "noCancel": 0,
+      "noCancelMessage": "",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": 0,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [],
+      "invalidCardIDMessage": "",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": "solo/theme/gate0008"
+    },
+    {
+      "startTurn": 1,
+      "startView": 3,
+      "startDelay": 0.0,
+      "centerMessage": [
+        "GATE0008_01",
+        "GATE0008_03"
+      ],
+      "useTopMessage": 1,
+      "topMessage": "GATE0008_03",
+      "finishTurn": 1,
+      "finishView": 17,
+      "invalidPhase": [
+        3,
+        4,
+        5
+      ],
+      "invalidPhaseMessage": "GATE0008_03",
+      "invalidCommand": [
+        7
+      ],
+      "invalidCommandMessage": "GATE0008_03",
+      "effectList": [
+        {
+          "effect": 0,
+          "param": 14847
+        },
+        {
+          "effect": 5,
+          "param": 14849
+        },
+        {
+          "effect": 6,
+          "param": 3
+        },
+        {
+          "effect": 4,
+          "param": 3
+        },
+        {
+          "effect": 9,
+          "param": 0
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 0,
+      "noCancelMessage": "",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": 1,
+      "invalidStandTypeMessage": "STAND_ATK",
+      "invalidCardID": [
+        14849
+      ],
+      "invalidCardIDMessage": "GATE0008_03",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    },
+    {
+      "startTurn": 1,
+      "startView": 17,
+      "startDelay": 0.0,
+      "centerMessage": [
+        "GATE0008_04",
+        "GATE0008_05",
+        "ATTACK_PLAYER"
+      ],
+      "useTopMessage": 1,
+      "topMessage": "ATTACK_PLAYER",
+      "finishTurn": 1,
+      "finishView": 9,
+      "invalidPhase": [
+        4,
+        5
+      ],
+      "invalidPhaseMessage": "PHASE_BATTLE",
+      "invalidCommand": [
+        7
+      ],
+      "invalidCommandMessage": "ATTACK_PLAYER",
+      "effectList": [
+        {
+          "effect": 1,
+          "param": 0
+        },
+        {
+          "effect": 0,
+          "param": 14849
+        },
+        {
+          "effect": 7,
+          "param": 3
+        },
+        {
+          "effect": 6,
+          "param": 0
+        }
+      ],
+      "skipCardActivation": 0,
+      "noCancel": 0,
+      "noCancelMessage": "",
+      "noTrueCancel": 0,
+      "noTrueCancelMessage": "",
+      "invalidStandType": -1,
+      "invalidStandTypeMessage": "",
+      "invalidCardID": [],
+      "invalidCardIDMessage": "",
+      "invalidPulldownTargetMessage": "",
+      "effectSelectionTarget": -1,
+      "invalidEffectSelectionTargetMessage": "",
+      "locationTargetPosition": [],
+      "blockExtraDeckCommand": 0,
+      "blockExtraDeckCommandMessage": "",
+      "helpLabelPath": ""
+    }
+  ],
+  "playClimaxBGM": 0
+}

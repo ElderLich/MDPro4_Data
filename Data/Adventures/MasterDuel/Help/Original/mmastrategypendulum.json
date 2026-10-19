@@ -1,0 +1,81 @@
+{
+  "sourceBundle": "89987913",
+  "sourceSha256": "6261ae7585fa003747430e069fa7c7f2ecec93c9b79adae3f5b2dc76ee27197d",
+  "mma": {
+    "tp": "Pager",
+    "title": {
+      "useId": false,
+      "tid": "",
+      "ja_JP": "クエスト ヘルプ",
+      "en_US": "",
+      "fr_FR": "",
+      "it_IT": "",
+      "de_DE": "",
+      "es_ES": "",
+      "pt_BR": "",
+      "ko_KR": ""
+    },
+    "contents": [
+      {
+        "tp": "HalfImageTextPage",
+        "caption": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_PENDULUM_01_H",
+          "ja_JP": "ペンデュラム召喚とは？\r",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "text": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_PENDULUM_01_B",
+          "ja_JP": "ペンデュラムモンスターを使って、複数のモンスターを同時に特殊召喚することができる方法です。\r\nペンデュラムモンスターには、ペンデュラム召喚で重要になる「ペンデュラムスケール」という数値があるのが特徴で、中には、魔法カードとして扱われている際に使用できる「ペンデュラム効果」を持っているモンスターもいます。\r",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "buttons": [],
+        "resourcePath": "Help/Strategy/HelpStrategyPendulum_01"
+      },
+      {
+        "tp": "HalfImageTextPage",
+        "caption": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_PENDULUM_02_H",
+          "ja_JP": "ペンデュラム召喚をやってみよう！\r",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "text": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_PENDULUM_02_B",
+          "ja_JP": "自分のメインフェイズに、手札からペンデュラムモンスター２体を自分の左右両端の魔法＆罠ゾーンに発動しましょう。\r\nその２体のペンデュラムスケールの数字の間のレベルを持つモンスターを手札から任意の数だけ特殊召喚することができます。\r\n\r\nペンデュラム召喚はシンクロ召喚などと異なり、１ターンに１度のみ行うことができる特殊召喚です。\r\n",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "buttons": [],
+        "resourcePath": "Help/Strategy/HelpStrategyPendulum_02"
+      }
+    ],
+    "isLoop": false,
+    "startPage": 0
+  }
+}

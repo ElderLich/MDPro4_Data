@@ -1,0 +1,674 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00440353",
+  "sourceBundle": "07bc04de",
+  "sourceSha256": "a1ae4d50c9cfbf08465be7840f4f15e516dd5f463a39351927f1bbbedd9ac217",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440353_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_32",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,1.2073619365692139,1.2073619365692139,0.0,0.12195122241973877],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.13010376691818238,0.13010376691818238,0.23577237129211427,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_ATTACK_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "アウラムは\n無差別に襲い来る破壊の力を\n避け、防ぎ、中和。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "暴走する\n「星神器デミウルギア」へと\n迫っていく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "内部へ突入し、\n引き寄せられるように\nその中枢へと辿り着いた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6003"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_HIKARI_04",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440353_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 35,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そこにいたのは、\n彼が知っている妖精の姿ではなく、\nヒトの形をしたリース――",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0044_TXT6004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その意識の残滓であった。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0044_TXT6005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "執念深く神の力を求め続けた彼女を前に、\nアウラムは問いただす。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "なぜこんな事をしたのか。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、目の前のリースが\n応える事は無かった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "かわりに、この中枢に満たされる\nリースの執念と記憶が、\nアウラムの鍵の力を通して流れ込んでくる――",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "”――科学者としての探求心、\n真実への飽くなき欲求。”",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ただ、それだけならば、\n世界はこうなっていなかったのかもしれない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、リースのそれは\n常軌を逸していた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その探求心は英雄譚の裏の顔を解き明かし、\nその欲求は神の力に手を伸ばす事を\nためらわなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6013"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate023/Bg_Sr00230178_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それははたして偶然だったのか、\nそれとも必然だったのか。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6014"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Kagi",
+        "path": "Scenarios/Gates/Gate023/Pre_Sr00230177_00",
+        "pos": 6,
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Kagi",
+        "tmlabel": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "リース、そして“鍵”。\nこれらが一つの発達し切った時代にそろってしまったのが\n全ての災厄の始まりだったのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "さらに、アウラムに流れ込む思念と記憶。\nそれは、悪夢の如きリースの計画だった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6016"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Kagi",
+        "tmlabel": "label_2"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate023/Bg_Sr00230178_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_SUZU_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "”神の力を我が手に。”",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そのために必要なのは\n“鍵”の力の完全なる掌握。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6018"
+      }
+    },
+    {
+      "command": "PrefabWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Kagi",
+        "skip": true
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Kagi",
+        "duration": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate023/Bg_Sr00230177_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_23",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、発達し過ぎた機械の文明により、\nすでに大地の力は失われていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6019"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "リースをはじめ、その時代のヒトは、\n誰も真に星と通じ合う事はできず、\n”鍵”の継承者に足りえなかったのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6020"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "frm": "",
+        "dst": "#667784FF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ならば、この文明は\n滅びなければならない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6021"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate023/Bg_Sr00230179_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "リースは「機械騎士計画（プロジェクト・ジャックナイツ）」を\n利用し、自らの死をも計画に組み込んで\n世界に破滅をもたらした。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6022"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate023/Bg_Sr00230179_05",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして途方もない程の長い時間をかけて、\n大地の再生と、その地に息づく生命、\n真に星と通じ合う”鍵”の継承者を待ち続け――",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6023"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WHOOSH_05",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate002/Bg_Sr00020006_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 8,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 0
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "――ついに、その時をむかえた。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0044_TXT6024"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440353_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "イヴと出会った時のリースの歓喜、\nイヴを乗っ取る時のリースの高揚を感じ取り、\n”鍵”を握るアウラムの手は怒りと哀しみに震える。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6025"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "最初から最後まで、リースにあったのは\n探求心と執着心だった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6026"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、何の犠牲をもいとわないそれは、\n手段として文明を滅ぼし、\nあまりに多くの命をもてあそぶ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6027"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "悪意がなくとも\n悪魔の所業だったのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT6028"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_32",
+        "fade": 2
+      }
+    }
+  ]
+}

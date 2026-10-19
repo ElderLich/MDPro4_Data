@@ -1,0 +1,646 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00490394",
+  "sourceBundle": "cdfd1ac0",
+  "sourceSha256": "35996aae22df740f5a7ab867283720fc62b5f28f7aa795a7cba2570ec9605d22",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate049/Bg_Sr00490393_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_34",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 40,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Book",
+        "path": "Scenarios/Gates/Gate049/Pre_Sr00490394_00",
+        "pos": 0,
+        "duration": 3
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "口伝、\nあるいは書として残る\n天威流（てんいりゅう）の歴史。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT2001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それには天威無崩(てんいむほう）の境地についてや、\n歴代の拳士の修練の方法といったものが\n記されている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT2002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ただ、それだけではない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT2003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "過去に天威流のあり方をめぐって\n起きた争いの記録も\nつぶさに残されていたのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT2004"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_04",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Book",
+        "duration": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate049/Bg_Sr00490394_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 40,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.41743892431259158,0.41743892431259158,0.19105690717697144,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "――かつて、天威流で技を磨き、\n己の肉体を鍛え上げた一人の男がいた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT2005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "熊と見紛うほどの屈強な体から繰り出される拳は、\n大地の気との調和を目指すものとは程遠く、\nすべてを力でねじ伏せようとする拳だった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT2006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "当時の者は、技と体が優れていても\n心が伴わない彼のありようを\n『鬼神』と称するようになった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT2007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "いつしか「鬼神」は「天威無崩」とは異なる道\n「天威無双（てんいむそう）」を唱えるようになった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT2008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "大地の気との調和を目指すものとは程遠く、\n己が力として取り込んで\n究極の個を目指す覇の道。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT2009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その思想は、自己を高めるためであれば\n龍脈の力を枯らすことすら\n厭わないものだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT2010"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "frm": "",
+        "dst": "#8C747AFF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "あまりにも異端すぎる考えに\n同調する者はおらず、\n程なくして彼は破門される。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT2011"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frm": "",
+        "dst": "#000000FF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして『鬼神』と呼ばれた男は、\nそれ以降の天威流の歴史から姿を消した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT2012"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "path": "Scenarios/Gates/Gate049/Bg_Sr00490393_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 50,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Book",
+        "path": "Scenarios/Gates/Gate049/Pre_Sr00490394_00",
+        "pos": 0,
+        "duration": 3
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "天威流において、龍脈とは\n強くなるための道具ではなく、\n己と自然が対話をなすための架け橋である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT2013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「天威無双」の否定は当然であり、\n己を律し、自然と向き合うことは\n重要な戒めの一つとして後世の者へ受け継がれてきた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT2014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "\"「鬼神」のような過ちを\n二度と犯してはならない。\"",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT2015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "天威流の技を受け継ぐのは、\nその志をも受け継ぐことであったのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT2016"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、その過去に切り捨てられたはずの闇は、\n突如として若き使い手たちの前に現れた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT2017"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.2,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Book",
+        "duration": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate049/Bg_Sr00490394_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 50,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "岩を削りだしたような肉体。\n蛇のようにのたうつ蓬髪。\nそこから伸びる二本の角。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT2018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、腕と肩を覆う硬質の鱗。\nそれは、龍を取り込んで己の力にした体現。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT2019"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "さらに全身から放たれる\n禍々しい気魄。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT2020"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その姿はまさしく『鬼神』であった。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0049_TXT2021"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『最強たるは\"天威無崩\"にあらず。\n我が\"天威無双\"なり』",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0049_TXT2022"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは恩讐によるものか。\nはたまた、自らの道を証明せんとするものか。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0049_TXT2023"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "どちらかは分からない。\nあるいは、\nその両方であったかもしれない。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0049_TXT2024"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "人の寿命を超えた\n永い時を経て、\n再び現れた鬼神。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0049_TXT2025"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "遠い過去から天威流へ\n挑戦状が叩きつけられた。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0049_TXT2026"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "鬼神の復活は\n「天威無双」の復活と同じこと。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0049_TXT2027"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "これ以上龍脈の力を悪用させないためにも、\n天威流はこの戦いに応じるしかない。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0049_TXT2028"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WAFU_EFFECT_03",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate049/Bg_Sr00490394_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.1,
+        "cycle": 0.05,
+        "target": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "悪しき伝承によってのみ知る『鬼神』に、\n少年と少女の技が叩き込まれる。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0049_TXT2029"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "だが数十、数百の拳打を浴びた鬼神は\n身じろぎもしない。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0049_TXT2030"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "zoom": 1.3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,3.4224936962127687,3.4224936962127687,0.0,0.0934959277510643],\\\"m\\\":0}\",\"{\\\"p\\\":[1.004058837890625,1.0062980651855469,0.01924935169517994,0.01924935169517994,0.2398374080657959,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "鬼神は技で応じるまでもなく、\n強靭な肉体のみで\nそれらをすべて受けきって見せたのである。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0049_TXT2031"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_34",
+        "fade": 2
+      }
+    }
+  ]
+}

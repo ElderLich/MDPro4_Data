@@ -1,0 +1,385 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00190107",
+  "sourceBundle": "d67fb5ee",
+  "sourceSha256": "117a961483ba33298c26d9415672a4bdb6f375d83848694c7f284aca535a7aca",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "宣告者の導き",
+        "path": "Scenarios/Gates/Gate019/Bg_Sr00190107_tittle",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "titleId": "IDS_SCENARIOGATE0019_TITLE1001"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_09",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate002/Bg_Sr00020004_00",
+        0,
+        "#42484FFF",
+        1
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate019/Bg_Sr00190107_00",
+        "oscale": 0,
+        "color": "#99ADB900",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 23,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,-0.023162489756941797,-0.023162489756941797,0.0,0.10182370990514755],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "神々による支配は終わり、\n人間が大地を制する時代となって長い年月がたった。",
+        "textId": "IDS_SCENARIOGATE0019_TXT1001",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "数多の神々は地上から去ったとはいえ、\n姿を変えながら世界を見守り、\n神を信じ続けている人々も多い。",
+        "textId": "IDS_SCENARIOGATE0019_TXT1002",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "とある大陸にある辺境、\nそこに古くから住む人々が信仰する神があった。",
+        "textId": "IDS_SCENARIOGATE0019_TXT1003",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Star",
+        "path": "Scenarios/Gates/Common/Effect/EF_Star00",
+        "pos": 0,
+        "slayer": "Default"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その神こそ翼を広げ、\n全身から鮮やかな光を放つ御霊――\n「宣告者（デクレアラー）」である。",
+        "textId": "IDS_SCENARIOGATE0019_TXT1004",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Star"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate019/Bg_Sr00190107_01",
+        "oscale": 0,
+        "color": "#C6BDD1FF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その地方に住む人々の中には\n「宣告者（デクレアラー）」を見たり、\n 声を聞いたりした者が少数ながら存在する。",
+        "textId": "IDS_SCENARIOGATE0019_TXT1005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7673,
+        "pos": 1,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "絵に描かせると、その姿はさまざまなのだが、\n間違いなく「宣告者（デクレアラー）」だったと彼らは断言する。",
+        "textId": "IDS_SCENARIOGATE0019_TXT1006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "mrk2": 6693,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "身にまとう雰囲気、後光は、\n自分が心に思い描いていた\n天使そのものであったと語るのだ。",
+        "textId": "IDS_SCENARIOGATE0019_TXT1007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 6692,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "また、声を聞いたという者が言うには、\n実際に音として聞こえたのではない。",
+        "textId": "IDS_SCENARIOGATE0019_TXT1008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 7674,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": " 耳ではなく、その言葉の意味が\n直接頭に入ってくる感覚だったという。",
+        "textId": "IDS_SCENARIOGATE0019_TXT1009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、どんな時に「宣告者（デクレアラー）」の姿を\n見たり声を聞いたりしたのかと尋ねると、\n 彼らの答えは不思議と一致する。",
+        "textId": "IDS_SCENARIOGATE0019_TXT1010",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "己の罪を告白し、ゆるしを請うた時であると。",
+        "textId": "IDS_SCENARIOGATE0019_TXT1011",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "誰もがその直後に気を失ったと語るが、\n 目覚めた時は“ゆるされた”という安堵感で\n全身が満ち足りていたという。",
+        "textId": "IDS_SCENARIOGATE0019_TXT1012",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "これら体験者の話をにわかには信じがたい、\nという者もいる。",
+        "textId": "IDS_SCENARIOGATE0019_TXT1013",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それでも「宣告者（デクレアラー）」の存在は、\n人々の多くに信仰されている。",
+        "textId": "IDS_SCENARIOGATE0019_TXT1014",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_09",
+        "fade": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00230177",
+  "sourceBundle": "551a4926",
+  "sourceSha256": "857a4790d5e77885f6958ce8ac8e32cb2923c8ab6f5943293b845680031ef738",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate002/Bg_Sr00020004_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_03",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この星に隠された秘密とは何か。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0023_TXT3001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "一つは、この星に語り継がれる創星記。\n遠い過去より伝わる物語。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0023_TXT3002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "もう一つは、この星が繁栄を極め、\n人類が支配者であった時代の記憶――。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0023_TXT3003"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 2,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate002/Bg_Sr00020004_00",
+        0,
+        "#42484FFF",
+        1
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate023/Bg_Sr00230177_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BlurLayer",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "frm": 0,
+        "dst": 5,
+        "target": 10
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 6,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "遥か昔、天の運行を司る神がいた。",
+        "textId": "IDS_SCENARIOGATE0023_TXT3004",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BlurLayer",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frm": 5,
+        "dst": 1,
+        "target": 10
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "神は眷属である竜を使いとし、\n破壊と再生による\n天の維持を使命としていた。",
+        "textId": "IDS_SCENARIOGATE0023_TXT3005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_05",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate002/Bg_Sr00020004_00",
+        0,
+        "#42484FFF",
+        1
+      ],
+      "args": {
+        "duration": 3,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate023/Bg_Sr00230177_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、その破壊の力は行使されるたびに増大し、\nいつしか双方の均衡は\n大きく崩れてしまった。",
+        "textId": "IDS_SCENARIOGATE0023_TXT3006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ひとたび荒ぶると、\n守るべき天をも滅ぼさんまでに\n強大となってしまった破壊の力。",
+        "textId": "IDS_SCENARIOGATE0023_TXT3007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "世界は機界騎士（ジャックナイツ）と呼ばれる七騎の機械生命体によって統治されていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "神は自らの手による天の運行は\nこれ以上不可能と判断する。",
+        "textId": "IDS_SCENARIOGATE0023_TXT3008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frm": "",
+        "dst": "#BE313192"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "そして、大地にはその尖兵たる機怪蟲（クローラー）が蔓延っている。\r\nこの機怪蟲は人が築き上げた建造物などを発見するとたちまち群がり、破壊してしまうという習性を持っていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "創造の力をもって\n幾重もの固い地殻の檻を生み出し、\n破壊の力をその中心に閉じ込めた。",
+        "textId": "IDS_SCENARIOGATE0023_TXT3009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate002/Bg_Sr00020004_00",
+        0,
+        "#42484FFF",
+        1
+      ],
+      "args": {
+        "duration": 3,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate023/Bg_Sr00230177_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_ATTACK_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,1.4118345975875855,1.4118345975875855,0.0,0.1260162591934204],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "行き場を失った破壊の力は燃え上がり、\n煮えたぎる地核へと変貌。",
+        "textId": "IDS_SCENARIOGATE0023_TXT3010",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その奔流は大地を通じて\n創造の力と溶け合い、\n地表へと流れ出した。",
+        "textId": "IDS_SCENARIOGATE0023_TXT3011",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "鬱蒼とした木々が茂り、\n昼間でも薄暗い森――“星辰の森”と呼ばれる奥地。\r\nそこに人々がひっそりと暮らす隠れ里のひとつがあった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、生と死を繰り返す小さき存在、\n生命が大地に誕生したのだった。",
+        "textId": "IDS_SCENARIOGATE0023_TXT3012",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "kagi",
+        "path": "Scenarios/Gates/Gate023/Pre_Sr00230177_00",
+        "pos": 0,
+        "slayer": "Default",
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "kagi",
+        "tmlabel": "label_1"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_KIRAKIRA_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "そこで暮らす大人たちの表情は一様にして、暗い。\r\nそれも無理のないことだろう。\n生まれた時から暗い森の中に隠れ住み、大半は里を出ることなく一生を終える。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "神は、己の最後の残滓を１つの“鍵”に変え、\n大地に芽吹いた生命に託して消滅する。",
+        "textId": "IDS_SCENARIOGATE0023_TXT3013",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "鬱蒼とした木々が茂り、\n昼間でも薄暗い森――“星辰の森”と呼ばれる奥地。\r\nそこに人々がひっそりと暮らす隠れ里のひとつがあった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それから幾星霜もの時の中で、破壊の力が\n地表へと顕現することはあった。",
+        "textId": "IDS_SCENARIOGATE0023_TXT3014",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "鬱蒼とした木々が茂り、\n昼間でも薄暗い森――“星辰の森”と呼ばれる奥地。\r\nそこに人々がひっそりと暮らす隠れ里のひとつがあった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "だが、そのたびに小さな生命たちは\n鍵を用いて、竜と共に\nこれを押しとどめてきた。",
+        "textId": "IDS_SCENARIOGATE0023_TXT3015",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "鬱蒼とした木々が茂り、\n昼間でも薄暗い森――“星辰の森”と呼ばれる奥地。\r\nそこに人々がひっそりと暮らす隠れ里のひとつがあった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "いつしか“鍵”は剣に、\n破壊の力は“大いなる闇”と呼び名を変え、\n“星の勇者”の英雄譚として語り継がれるようになった。",
+        "textId": "IDS_SCENARIOGATE0023_TXT3016",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "kagi",
+        "tmlabel": "label_2"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.18110430240631104,0.18110430240631104,0.0,0.10162601619958878],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "鬱蒼とした木々が茂り、\n昼間でも薄暗い森――“星辰の森”と呼ばれる奥地。\r\nそこに人々がひっそりと暮らす隠れ里のひとつがあった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "“星明かりの勇者\n掲げし剣に光を束ね\n大いなる闇を討ち払わん”",
+        "textId": "IDS_SCENARIOGATE0023_TXT3017",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_03",
+        "fade": 2
+      }
+    }
+  ]
+}

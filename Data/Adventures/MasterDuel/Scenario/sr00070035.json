@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00070035",
+  "sourceBundle": "66f280f2",
+  "sourceSha256": "82c28e222ae5b19d34734f9542601a230b8cd1c677ba88bdc65c7e2c9a25deb7",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "破滅と終焉",
+        "titleId": "IDS_SCENARIOGATE0007_TITLE1001",
+        "path": "Scenarios/Gates/Gate007/Bg_Sr00070035_tittle",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_08",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate002/Bg_Sr00020004_00",
+        0,
+        "#42484FFF",
+        1
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate007/Bg_Sr00070035_00",
+        "oscale": 0,
+        "color": "#FFFFFF00",
+        "pos": 8
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "世界が滅びを迎える時、\r\nそれを見届ける２つの存在があるという。",
+        "textId": "IDS_SCENARIOGATE0007_TXT1001",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate007/Bg_Sr00070035_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.5,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.45851200819015505,0.45851200819015505,0.0,0.06686930358409882],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0023574829101563,0.16866929829120637,0.16866929829120637,0.06990879774093628,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "1つ目は、世界を黄金の光で包み、\r\n世に幕を引く赤の存在。",
+        "textId": "IDS_SCENARIOGATE0007_TXT1002",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "赤き衣を纏う、\r\n中性的な雰囲気を持つ女神。\r",
+        "textId": "IDS_SCENARIOGATE0007_TXT1003",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "神ではあるが信徒はいない。\r\nそれも当然だ。",
+        "textId": "IDS_SCENARIOGATE0007_TXT1004",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "女神「ルイン」が訪れた世界は\r\n破滅に向かうのだから。",
+        "textId": "IDS_SCENARIOGATE0007_TXT1005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その神を崇拝し、\r\n信仰する知的生命そのものが\r\n消え去るのだから。",
+        "textId": "IDS_SCENARIOGATE0007_TXT1006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate007/Bg_Sr00070035_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.5,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[-0.00151824951171875,0.0,0.3373739719390869,0.3373739719390869,0.0,0.06980133056640625],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.19002662599086762,0.19002662599086762,0.07446807622909546,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "2つ目は世界を青き炎に包み、\r\n大地を打ち砕く黒の存在。",
+        "textId": "IDS_SCENARIOGATE0007_TXT1007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "黒き甲冑に身を包む、\r\n大柄で屈強な魔王。",
+        "textId": "IDS_SCENARIOGATE0007_TXT1008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "王ではあるが臣下はいない。\r\nそれも当然だ。",
+        "textId": "IDS_SCENARIOGATE0007_TXT1009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "魔王「デミス」が訪れた世界には\r\n終焉がもたらされるのだから。",
+        "textId": "IDS_SCENARIOGATE0007_TXT1010",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その王に仕え、\r\n敬う生命そのものが\r\n根こそぎ滅ぶのだから。",
+        "textId": "IDS_SCENARIOGATE0007_TXT1011",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_08",
+        "fade": 2
+      }
+    }
+  ]
+}

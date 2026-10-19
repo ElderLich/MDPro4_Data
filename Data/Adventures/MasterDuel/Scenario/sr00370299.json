@@ -1,0 +1,522 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00370299",
+  "sourceBundle": "10bb8293",
+  "sourceSha256": "e589b1103a4ef7f9660161847cfeaa653b22c7f7087f990ec779093b41650fe6",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate037/Bg_Sr00370299_00",
+        "oscale": 0,
+        "color": "#728D9AFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_23",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "満身創痍となった「リヴェンデット・スレイヤー」は、\n捨てられた人形のように地面に転がっていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT4001"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate037/Bg_Sr00370299_01",
+        "oscale": 0.05,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WAFU_EFFECT_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「ヴェンデット・バスタード」は、\nその身と比べて酷く矮小な復讐者を掴み上げる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT4002"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして他のヴェンデットや死者にしていたように、\nその力を取り込むべく胸から亡者の手を伸ばす。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT4003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "意識が闇に沈もうとする中、\nスレイヤーの目に鈍く光る\nロケットペンダントが映った。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT4004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そうだ、まだ誓いを果たしていない。\nこの傷ついた身体でも、\nまだ復讐の炎をたぎらせることができる――。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT4005"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_HIKARI_04",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.3,
+        "frmcolor": "",
+        "dstcolor": "#9A0000FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate037/Bg_Sr00370299_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#9A000000",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.05,
+        "cycle": 0.1,
+        "target": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "バスタードに取り込まれそうになる寸前、\n最後の力を振り絞ったスレイヤーは\nバスタードの胸からコアを引きずり出す。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT4006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、逆にコアを介して\nバスタードの怨念の力を取り込んでいく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT4007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "力の流れは逆転した。\nスレイヤーに力が満ちていくのと同時に、\n力を奪われつつあるバスタードの身体が崩壊を始める。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT4008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "戦いの趨勢は決したかと思われたその時、\n予想外のことが起こる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT4009"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_PENDANT",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "BgWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "skip": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "力を奪われまいともがいていたコアの手が、\nスレイヤーのロケットペンダントにかする。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT4010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その瞬間、バスタードの残骸、\nそして周囲にはびこっていたヴェンデットたちが\n一斉に姿を変えたのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT4011"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_04",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.3,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate037/Bg_Sr00370299_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BlurLayer",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "frm": 0,
+        "dst": 5,
+        "target": 20
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 2,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 1
+      }
+    },
+    {
+      "command": "BlurLayer",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "frm": 5,
+        "dst": 0,
+        "target": 20
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "形を変えた姿、\nそれは生前のスレイヤーが愛したその人であった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT4012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ロケットペンダントを通じてスレイヤーが人間だった頃の\n残滓を感知したコアは、彼の最愛の女性を象り、\nその戦う意思を削ごうとしたのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT4013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "夢を見ているのだろうか。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT4014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "いや、違う。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT4015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "愛した彼女はもういない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT4016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "これは、\n自分を惑わせようとする\n卑劣な……罠だ！",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT4017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "大切な想いを汚され、\nさらなる激情が彼を塗りつぶす。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT4018"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_10",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#B70000FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate037/Bg_Sr00370299_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#B7000000",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.5153372287750246,2.5153372287750246,0.0,0.10975609719753266],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 3
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、スレイヤーの身は、\n「リヴェンデット・エグゼクター」として\nより強大な力を持った姿へと覚醒する。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT4019"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_23",
+        "fade": 2
+      }
+    }
+  ]
+}

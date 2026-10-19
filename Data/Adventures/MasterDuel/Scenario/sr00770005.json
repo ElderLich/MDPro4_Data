@@ -1,0 +1,495 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00770005",
+  "sourceBundle": "50dae389",
+  "sourceSha256": "a376692227315a22ae26d2eb627a3607f051051aac851fbbe6735e363b218e6f",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate077/Bg_Sr00770005_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_41",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": " かつて住んでいた家の隣にあるボロ小屋に住み始めた\n「成金ゴブリン」。\n『ここをオレ様の新たな出発地とする！！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT3001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ボロボロに砕け散った壺をなんとか修復。\n丁寧に磨きながら夢に思いを馳せていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT3002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『この壺のように、オレ様もまた蘇るのだ。\n人生は何度でもやり直せる。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT3003"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate077/Bg_Sr00770005_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ゴブリンは魔界の闇工場で真面目に働き始める。\n工場で働く傍ら様々な副業にも挑んでいった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT3004"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Mado1",
+        "path": "Scenarios/Gates/Gate077/Pre_Sr00770005_01_a",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ある時は金魚すくい。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT3005"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Mado1",
+        "duration": 1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Mado2",
+        "path": "Scenarios/Gates/Gate077/Pre_Sr00770005_01_b",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そしてある時は大道芸人",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT3006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『寄ってらっしゃい！見てらっしゃい！\nこの壺から……っあ、いたた、いたたた！！\nやめろ！！苦しい！！助けてくれー！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT3007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "大道芸の経験などもちろんなく、あっけなく失敗。\n大切な壺も割れてしまう。\n『オレ様の壺がぁぁあ！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT3008"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate077/Bg_Sr00770003_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Mado2",
+        "duration": 1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Mado3",
+        "path": "Scenarios/Gates/Gate077/Pre_Sr00770005_01_c",
+        "pos": 0,
+        "duration": 3
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "悲しみに沈み歩いていると、一つの壺が目に留まる。\n『なんと美しい！　この輝きはオレ様のためにある！\nこの壺をもらおう！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT3009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "一瞬でその壺に心を奪われたゴブリンは\n少しづつ貯めていた、なけなしの金で一点買い。\n貯金を使い果たし、またしても一文無しに。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT3010"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Mado3",
+        "duration": 1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Mado4",
+        "path": "Scenarios/Gates/Gate077/Pre_Sr00770005_01_d",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『だれか、この哀れなオレ様に\n恵みを施してくれませんか？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT3011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ひもじくなったゴブリンが物乞いをしていると\n買ったばかりの壺の取っ手が、取れてしまった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT3012"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Mado4",
+        "duration": 1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Mado5",
+        "path": "Scenarios/Gates/Gate077/Pre_Sr00770005_01_e",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『くそ、この不良品が！』\nすぐさま店にクレームをいれ、\n新しい壺と交換してもらう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT3013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "交換した新しい壺を見ていると、\nふと、あることを思いつく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT3014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『待てよ、この壺。片側だけ見れば\n強欲な壺に見える。\n……くく、いいこと思いついた。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT3015"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Mado5",
+        "duration": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate077/Bg_Sr00770005_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "なんとあろうことか店の前で\n手に入れたばかりの壺を売り始めた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT3016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『どうだ、この貴重で高価な壺。\n特別に店で買うより安くするぞ？』\n『それ、強欲な壺？いくらだい？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT3017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『はぁ、なんてやつだ。』\nあきれた店主の溜息が聞こえてくる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT3018"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "path": "Scenarios/Gates/Gate077/Bg_Sr00770005_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1,
+        "skip": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そんなゴブリンも、たまの休みには家のお手入れ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT3019"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "のびきった雑草をとったり、家に侵入してくる獣を\n追い払って過ごしていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT3020"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_41",
+        "fade": 2
+      }
+    }
+  ]
+}

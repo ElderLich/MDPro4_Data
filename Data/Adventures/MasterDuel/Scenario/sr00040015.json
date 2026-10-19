@@ -1,0 +1,539 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00040015",
+  "sourceBundle": "136498a0",
+  "sourceSha256": "45059296cf972acaec1480b575f741c3f51ceeb5ef8b581895135acc3e860dd6",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "電脳世界に潜む光虫",
+        "path": "Scenarios/Gates/Gate004/Bg_Sr00040015_tittle",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "titleId": "IDS_SCENARIOGATE0004_TITLE1001"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate002/Bg_Sr00020004_00",
+        0,
+        "#42484FFF",
+        1
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate004/Bg_Sr40001_00",
+        "oscale": 0,
+        "color": "#FFFFFF00",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "電脳ネットワークの急速な進歩は、\n大きな恩恵を人々にもたらした。",
+        "textId": "IDS_SCENARIOGATE0004_TXT1001",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "今となっては我々の生活に\n無くてはならないものとなっている。",
+        "textId": "IDS_SCENARIOGATE0004_TXT1002",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、その急速すぎる進歩・変化は、\nネットワークの片隅にいくつもの\n小さな”不具合”を残していった。",
+        "textId": "IDS_SCENARIOGATE0004_TXT1003",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "初期は大した影響もなく、\n単なる意味のないデータであった。",
+        "textId": "IDS_SCENARIOGATE0004_TXT1004",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ところが、その”不具合”は\nデータの集積と学習を重ねていった。",
+        "textId": "IDS_SCENARIOGATE0004_TXT1005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_OP_DEGITAL",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして我々が気付いた時には、\nまるで昆虫のような姿を獲得していたのだ。",
+        "textId": "IDS_SCENARIOGATE0004_TXT1006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 12305,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 12306,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 12307,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 15714,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その目的は増殖及び進化のようだ\nと専門家は分析する。",
+        "textId": "IDS_SCENARIOGATE0004_TXT1007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "不思議なのは、異なる性質にも関わらず、\nまるで単一の種のように\n同じ目的を持って活動している点だ。",
+        "textId": "IDS_SCENARIOGATE0004_TXT1008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "ARI",
+        "path": "Scenarios/Gates/Gate004/Pre_Sr00040015_03",
+        "pos": 0,
+        "slayer": "Default"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "ARI",
+        "tmlabel": "label_1"
+      }
+    },
+    {
+      "command": "PrefabWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "ARI",
+        "skip": false
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 6,
+        "frmcolor": "",
+        "dstcolor": "#00224D43",
+        "target": 1
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "ARI",
+        "tmlabel": "label_3"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "我々の世界ではアリがアブラムシからミツを得るため、\nアブラムシの天敵であるテントウムシを\n追い払うという共生関係が見られる。",
+        "textId": "IDS_SCENARIOGATE0004_TXT1009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、アブラムシとアリは\nあくまで別の種であり、\nそれぞれの目的は一致していない。",
+        "textId": "IDS_SCENARIOGATE0004_TXT1010",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "”不具合”は元々ひとつのデータから生まれたもので、\n形状が違いすぎるためだけに\n別の種に見えているだけなのだろうか。",
+        "textId": "IDS_SCENARIOGATE0004_TXT1011",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "ARI",
+        "tmlabel": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "今となっては、\nそれを調べるのには膨大な時間がかかるだろう。",
+        "textId": "IDS_SCENARIOGATE0004_TXT1012",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "何にせよ、\nネットワークに広がる”不具合”は\n見逃せないものとなっている。",
+        "textId": "IDS_SCENARIOGATE0004_TXT1013",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#00224D00",
+        "target": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_DEGITAL_CARD_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardFadeOut",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 15714
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 12305,
+        "dstmrk": 12327
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 12307,
+        "dstmrk": 12328
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 12306,
+        "dstmrk": 12326
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ネットワーク管理者たちは\n急激な成長・進化を遂げた“不具合”を\n「電子光虫（デジタル・バグ）」と呼称。",
+        "textId": "IDS_SCENARIOGATE0004_TXT1014",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "”不具合”を解消するために動き出す。",
+        "textId": "IDS_SCENARIOGATE0004_TXT1015",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_01",
+        "fade": 3
+      }
+    }
+  ]
+}

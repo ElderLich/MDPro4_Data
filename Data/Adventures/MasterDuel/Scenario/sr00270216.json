@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00270216",
+  "sourceBundle": "8381c6af",
+  "sourceSha256": "26ac963aa7fed0d86d1f77d8cd943b5cfe463823a5d6e68a2d50d87c2f0336d6",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate027/Bg_Sr00270215_01",
+        "oscale": 0,
+        "color": "#C5B9A7FF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "重々しい雰囲気の中、\n調査報告会が始まった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0027_TXT2001"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate027/Bg_Sr00270216_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Wait"
+      }
+    },
+    {
+      "command": "BgWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "skip": true
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "――File No.0028「未界域のツチノコ」",
+        "textId": "IDS_SCENARIOGATE0027_TXT2002",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_MOVIESLIDE",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "In"
+      }
+    },
+    {
+      "command": "BgWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "skip": false
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 12,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.18429136276245118,0.18429136276245118,0.0,0.17916665971279145],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "平原・湿原に生息。\n胴体が膨らんだ蛇のような見た目で、\n脱皮なども行うようだ。",
+        "textId": "IDS_SCENARIOGATE0027_TXT2003",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "実際の個体の発見には至らなかったが、\nこの皮は回収に成功したので、\n分析によってさらなる発見があるかもしれない。",
+        "textId": "IDS_SCENARIOGATE0027_TXT2004",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "skip": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Out"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate002/Bg_Sr00020004_00",
+        0,
+        "#42484FFF",
+        1
+      ],
+      "args": {
+        "duration": 0.3,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate027/Bg_Sr00270216_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Wait"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "――File No.0159「未界域のサンダーバード」",
+        "textId": "IDS_SCENARIOGATE0027_TXT2005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_MOVIESLIDE",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "In"
+      }
+    },
+    {
+      "command": "BgWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "skip": false
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 25,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.4063860774040222,0.4063860774040222,0.0,0.16249999403953553],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "島の空を周回している巨大な怪鳥で、\n色鮮やかな羽毛に覆われている。",
+        "textId": "IDS_SCENARIOGATE0027_TXT2006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "世界は機界騎士（ジャックナイツ）と呼ばれる七騎の機械生命体によって統治されていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "翼を広げた全幅は中型の航空機を彷彿とさせ、\n隊員が発見した中でも最大級の体躯を持つ生物。",
+        "textId": "IDS_SCENARIOGATE0027_TXT2007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "そして、大地にはその尖兵たる機怪蟲（クローラー）が蔓延っている。\r\nこの機怪蟲は人が築き上げた建造物などを発見するとたちまち群がり、破壊してしまうという習性を持っていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "電気を帯びているらしく、\n身体の表面に紫電を走らせている姿も\n確認されている。",
+        "textId": "IDS_SCENARIOGATE0027_TXT2008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "獲物を見つけると上空から急降下し、\n鋭い鉤爪で襲いかかってくる。",
+        "textId": "IDS_SCENARIOGATE0027_TXT2009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "我々も遭遇したが、\n何とか近くにあった洞窟に避難して\n事なきを得た。",
+        "textId": "IDS_SCENARIOGATE0027_TXT2010",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "skip": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Out"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate027/Bg_Sr00270216_3",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.5327414274215698,0.5327414274215698,0.0,0.14166666567325593],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "鬱蒼とした木々が茂り、\n昼間でも薄暗い森――“星辰の森”と呼ばれる奥地。\r\nそこに人々がひっそりと暮らす隠れ里のひとつがあった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その際に落としていった羽根の１枚を\n回収したものがこちらである。",
+        "textId": "IDS_SCENARIOGATE0027_TXT2011",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "鬱蒼とした木々が茂り、\n昼間でも薄暗い森――“星辰の森”と呼ばれる奥地。\r\nそこに人々がひっそりと暮らす隠れ里のひとつがあった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "報告会はまだまだ続いているが、\nここまでの報告を受けた出席者の反応は様々だ。",
+        "textId": "IDS_SCENARIOGATE0027_TXT2012",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "鬱蒼とした木々が茂り、\n昼間でも薄暗い森――“星辰の森”と呼ばれる奥地。\r\nそこに人々がひっそりと暮らす隠れ里のひとつがあった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "未知の生物の痕跡に\n目を輝かせる研究者もいる。",
+        "textId": "IDS_SCENARIOGATE0027_TXT2013",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "鬱蒼とした木々が茂り、\n昼間でも薄暗い森――“星辰の森”と呼ばれる奥地。\r\nそこに人々がひっそりと暮らす隠れ里のひとつがあった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "一方、探検隊を送り出した学術機関の支援者たちは、\n想像以上に危険な生物が活動するあの島を、\n今後どうすべきか考えあぐねているようであった。",
+        "textId": "IDS_SCENARIOGATE0027_TXT2014",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "fade": 2
+      }
+    }
+  ]
+}

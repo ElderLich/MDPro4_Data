@@ -1,0 +1,380 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00050021",
+  "title": "The Absolute Monarch — Conclusion",
+  "sourceBundle": "024426ca",
+  "sourceSha256": "ba4849ac73bb07d92411db8c8a0e6531460f2d2cc5f4a7ecc0984a1156af3fa4",
+  "resourceIndex": "../Resources/Index.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate002/Bg_Sr00020004_00",
+        0,
+        "#42484FFF",
+        1
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate005/Bg_Sr00050019_00",
+        "oscale": 0,
+        "color": "#9F898900",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_10",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 6,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "破壊の概念たる「帝王」たちの進撃は続く。",
+        "textId": "IDS_SCENARIOGATE0005_TXT2001",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "もういくつの世界を滅ぼしてきただろうか。",
+        "textId": "IDS_SCENARIOGATE0005_TXT2002",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate005/Bg_Sr00050019_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.7218078374862671,0.7218078374862671,0.0,0.06534954160451889],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "轟雷、氷雪、溶岩、地殻変動。\r\nありとあらゆる破壊の形が世界を襲う。",
+        "textId": "IDS_SCENARIOGATE0005_TXT2003",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「帝王」たちは、進撃しながらも、\r\nさらなる力を手にし、\r\n破壊の限りを尽くしていく。",
+        "textId": "IDS_SCENARIOGATE0005_TXT2004",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その力はすべてのものに、等しく降り注ぐ。",
+        "textId": "IDS_SCENARIOGATE0005_TXT2005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「帝王」たちが破壊しているものを、\r\n判別できているのか、知る由もない。",
+        "textId": "IDS_SCENARIOGATE0005_TXT2006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ただひたすらに、淡々と、\r\n己の視界に入り込んだものを、\r\n風景もろとも破壊しながら前進しているだけだ。",
+        "textId": "IDS_SCENARIOGATE0005_TXT2007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_10",
+        "fade": 4
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate005/Bg_Sr00050019_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.5968795418739319,0.5968795418739319,0.0,0.05927051603794098],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.15518909692764283,0.15518909692764283,0.0759878158569336,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、破壊されつくした地に、\r\n天から降り立つ創造者がいた。",
+        "textId": "IDS_SCENARIOGATE0005_TXT2008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_17",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「天帝アイテール」。\r",
+        "textId": "IDS_SCENARIOGATE0005_TXT2009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "消滅を待つばかりの世界に\r\n訪れる奇跡のような救いだ。",
+        "textId": "IDS_SCENARIOGATE0005_TXT2010",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この光り輝く存在を「帝王」の\r\n一部として数えていいのかは分からない。",
+        "textId": "IDS_SCENARIOGATE0005_TXT2011",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "創造者が降り立った世界は緩やかに再生を始める。",
+        "textId": "IDS_SCENARIOGATE0005_TXT2012",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この再生した世界も、いつかまた\r\n破壊の「帝王」たちに壊される日がくるのだろう。",
+        "textId": "IDS_SCENARIOGATE0005_TXT2013",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "だが、「天帝アイテール」は何の見返りもなく、\r\n崩壊した世界を再誕の光で満たしていくのだ。\r",
+        "textId": "IDS_SCENARIOGATE0005_TXT2014",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_12",
+        "fade": 3
+      }
+    }
+  ]
+}

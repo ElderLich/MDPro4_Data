@@ -1,0 +1,671 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00020008",
+  "sourceBundle": "fb8e20fc",
+  "sourceSha256": "4d1e19dd65e45e572c42b74f10cb6f10995a317c4348ae8566d117c02d1292b3",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate003/Texcture/Universal/Bg_Sr030011_04",
+        0,
+        "#FFFFFFFF",
+        8
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate002/Bg_Sr00020006_03",
+        "oscale": 0,
+        "color": "#7C878EFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_03",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "人類を守りたい。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "人類を守りたい。",
+        "textId": "IDS_SCENARIOGATE0002_TXT3001",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "妖精リースの切実な願いを受け、\nアウラムたちは彼女に力を貸すと約束した。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "妖精リースの切実な願いを受け、\nアウラムたちは彼女に力を貸すと約束した。",
+        "textId": "IDS_SCENARIOGATE0002_TXT3002",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_03",
+        "fade": 2
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_UMEKIGOE_03",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate002/Bg_Sr00020008_00",
+        "oscale": 0,
+        "color": "#B5B4C884",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.5,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "リースを伴ってひとまず里へと戻ろうとする途中、\nアウラムたちの前に数体の機怪蟲が立ちふさがる。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "リースを伴ってひとまず里へと戻ろうとする途中、\nアウラムたちの前に\n数体の機怪蟲（クローラー）が立ちふさがる。",
+        "textId": "IDS_SCENARIOGATE0002_TXT3003",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_10",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "リースを伴ってひとまず里へと戻ろうとする途中、\nアウラムたちの前に数体の機怪蟲が立ちふさがる。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "覚醒した力を身に纏い、\n機怪蟲（クローラー）の前に出る\nアウラム、ニンギルス、イムドゥーク。",
+        "textId": "IDS_SCENARIOGATE0002_TXT3004",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "リースを伴ってひとまず里へと戻ろうとする途中、\nアウラムたちの前に数体の機怪蟲が立ちふさがる。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "守るべきものを背にし、\n張りつめた空気が漂う。",
+        "textId": "IDS_SCENARIOGATE0002_TXT3005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "リースを伴ってひとまず里へと戻ろうとする途中、\nアウラムたちの前に数体の機怪蟲が立ちふさがる。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "冷や汗がアウラムの顎を伝わって落ち、\n森の土をなお湿らせる。",
+        "textId": "IDS_SCENARIOGATE0002_TXT3006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "リースを伴ってひとまず里へと戻ろうとする途中、\nアウラムたちの前に数体の機怪蟲が立ちふさがる。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "緊張がピークに達したその時、\n機怪蟲（クローラー）の強固な外骨格に向かって\n一斉に攻撃をしかけた。",
+        "textId": "IDS_SCENARIOGATE0002_TXT3007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_ATTACK_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.2,
+        "cycle": 0.2,
+        "target": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "cnt": 0,
+        "duration": 0.5,
+        "frmcolor": "#930000FF",
+        "dstcolor": "#FFFFFF00",
+        "target": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_10",
+        "fade": 4
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "リースを伴ってひとまず里へと戻ろうとする途中、\nアウラムたちの前に数体の機怪蟲が立ちふさがる。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "敵の金属の体を、アウラムの剣が断ち、\nニンギルスの槍が貫き、\nイムドゥークの爪牙が引き裂く。",
+        "textId": "IDS_SCENARIOGATE0002_TXT3008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        1,
+        0,
+        "Scenarios/Gates/Gate003/Texcture/Universal/Bg_Sr030011_05",
+        0,
+        "#FFFFFFFF",
+        8
+      ],
+      "args": {
+        "duration": 1,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate002/Bg_Sr00020004_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Ball",
+        "path": "Scenarios/Gates/Gate002/EF_Ball",
+        "pos": 0,
+        "slayer": "Default"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_12",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        13088,
+        1
+      ],
+      "args": {
+        "mrk": 13088,
+        "pos": 1,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        13086,
+        3
+      ],
+      "args": {
+        "mrk": 13086,
+        "pos": 3,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        13089,
+        4
+      ],
+      "args": {
+        "mrk": 13089,
+        "pos": 2,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        13089,
+        4
+      ],
+      "args": {
+        "mrk": 13087,
+        "pos": 4,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "イヴとリースを後ろに下げ、\n油断なく構えるアウラムとニンギルス、イムドゥーク。\r\n彼らは機怪蟲と幾度も戦った経験があった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ほどなくして、戦いは終わった。",
+        "textId": "IDS_SCENARIOGATE0002_TXT3009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "しかし、普段は群れからはぐれた単機を相手にしていただけであり、\n複数体を同時に相手するのは初めてだった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "リースを介して星杯から授けられた力は、\nそれを得た当人たちの予想以上に\n大きなものだったのだ。",
+        "textId": "IDS_SCENARIOGATE0002_TXT3010",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "しかし、普段は群れからはぐれた単機を相手にしていただけであり、\n複数体を同時に相手するのは初めてだった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "自らの身体に宿った星杯の力に\n驚きを隠せないアウラムたち。",
+        "textId": "IDS_SCENARIOGATE0002_TXT3011",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        2,
+        0,
+        "Scenarios/Gates/Gate003/Texcture/Universal/Bg_Sr030011_04",
+        0,
+        "#FFFFFFFF",
+        8
+      ],
+      "args": {
+        "duration": 2,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate002/Bg_Sr00020008_02",
+        "oscale": 0,
+        "color": "#BBCAD9FF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.4803459346294403,0.4803459346294403,0.0,0.06382978707551956],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.08464856445789337,0.08464856445789337,0.08358663320541382,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "リースを介して星杯から授けられた力は、\nそれを得た当人たちの予想以上に大きなものだったのだ。\n",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "リースの話では、\n世界には星杯と同等の力を持つ星遺物が\nあと６つ残っている。",
+        "textId": "IDS_SCENARIOGATE0002_TXT3012",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "自らの身体に宿った星杯の力に驚きを隠せないアウラムたち。\r\nリースの話では、世界には\n星杯と同等の力を持つ星遺物があと６つ残っている。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それらを入手できれば、機怪蟲（クローラー）はおろか\n世界を支配している機界騎士（ジャックナイツ）を\n打ち倒すことすら不可能ではないという。",
+        "textId": "IDS_SCENARIOGATE0002_TXT3013",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "自らの身体に宿った星杯の力に驚きを隠せないアウラムたち。\r\nリースの話では、世界には\n星杯と同等の力を持つ星遺物があと６つ残っている。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この情報は森の隠れ里に住んできた者たちにとって、\n大きな希望の光となった。",
+        "textId": "IDS_SCENARIOGATE0002_TXT3014",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Ball"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        1,
+        0,
+        "Scenarios/Gates/Gate003/Texcture/Universal/Bg_Sr030011_09",
+        0,
+        "#FFFFFFFF",
+        8
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate002/Bg_Sr00020026_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        5,
+        2,
+        "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      ],
+      "args": {
+        "duration": 5,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "frmcolor": "#232323FF",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 0.5
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "星辰の森の若者たちはリースの言葉と星杯の導きに従い、\n里を出て次なる星遺物を求める旅に出るのであった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "アウラムたちは、リースの言葉と星杯の導きに従い、\n里を出て次なる星遺物を求める旅に出るのであった。",
+        "textId": "IDS_SCENARIOGATE0002_TXT3015",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_12",
+        "fade": 2
+      }
+    }
+  ]
+}

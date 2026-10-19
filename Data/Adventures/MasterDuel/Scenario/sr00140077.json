@@ -1,0 +1,496 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00140077",
+  "sourceBundle": "606c8daf",
+  "sourceSha256": "8b212fefbaa0ea8ea722b08f08e9be27e8ef77ce8b6d971a9538052d0c75ae9d",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "秘境に生きる蒸気竜",
+        "titleId": "IDS_SCENARIOGATE0014_TITLE1001",
+        "path": "Scenarios/Gates/Gate014/Bg_Sr00140077_tittle",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate002/Texcture/Universal/Bg_Sr00020026_01",
+        0,
+        "#FFFFFFFF",
+        8
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate014/Bg_Sr00140077_00",
+        "oscale": 0,
+        "color": "#FFFFFF00",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.75377357006073,0.75377357006073,0.0,0.05319149047136307],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_BAKUHATSU_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "星鎧を目の前にして、\nアウラムたちは機怪蟲の群れに行く手を阻まれてしまう。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "美しい水のあふれる大河、\n様々な生き物が生息する森、\n煮えたぎるマグマを抱く火山……。",
+        "textId": "IDS_SCENARIOGATE0014_TXT1001",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 12134,
+        "pos": 1,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "mrk2": 12136,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 12137,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 12132,
+        "pos4": 4,
+        "se1": "",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "倒しても倒しても仲間の残骸を踏み越えて新たな一群が現れ、\n一行は苦戦を強いられる。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そこは大自然の恵みに満ちた秘境だ。\nこの地に、独自の生態を持つ\n機械竜たちが生きている。",
+        "textId": "IDS_SCENARIOGATE0014_TXT1002",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「ダイナミスト」と呼ばれる彼らの特徴は、\n内蔵する蒸気機関によって\n大きな身体を活動させている点だ。",
+        "textId": "IDS_SCENARIOGATE0014_TXT1003",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "大自然の中で生存競争に勝ち残ったのは、\n環境に適合した身体を\n備えていたからだといえる。",
+        "textId": "IDS_SCENARIOGATE0014_TXT1004",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "今回はその「ダイナミスト」の\n秘められた生態に迫るとしよう。",
+        "textId": "IDS_SCENARIOGATE0014_TXT1005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate014/Bg_Sr00140077_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_UMEKIGOE_04",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "穏やかな流れの河を航行するのは、\n首長竜「ダイナミスト・プレシオス」。",
+        "textId": "IDS_SCENARIOGATE0014_TXT1006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "尾にある給水管から吸い上げた水で\nエネルギーを生み出す。",
+        "textId": "IDS_SCENARIOGATE0014_TXT1007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは自重を支えるホバーユニットの\n調整エネルギーになるだけではない。",
+        "textId": "IDS_SCENARIOGATE0014_TXT1008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "前に進むこともできず、\nかといって撤退するのも今となっては不可能に近い",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "吸い上げた水と放出する蒸気のバランスが、\n河の氾濫を防ぐ役割を担っている。",
+        "textId": "IDS_SCENARIOGATE0014_TXT1009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "前に進むこともできず、\nかといって撤退するのも今となっては不可能に近い",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "これは結果的に、陸地に生きる仲間たちを\n水害から守っていることにつながっているのだ。",
+        "textId": "IDS_SCENARIOGATE0014_TXT1010",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate014/Bg_Sr00140077_03",
+        "oscale": 0,
+        "color": "#B9C7E0FF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WHOOSH_05",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "力尽きるまで戦うしかないのかと思ったその時。\nリースが今にも倒れそうなアウラムたちに向かって叫ぶ。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "大空を自由自在に飛び回るのは、\n翼竜の「ダイナミスト・プテラン」だ。",
+        "textId": "IDS_SCENARIOGATE0014_TXT1011",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "機怪蟲の上位体、\nエクスクローラーを倒せば\n機怪蟲たちの動きを止められるはず――。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "両翼のタービンが空気中の水分をかき集め、\n高速飛行のためのエネルギーを生み出す。",
+        "textId": "IDS_SCENARIOGATE0014_TXT1012",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "機怪蟲の上位体、\nエクスクローラーを倒せば\n機怪蟲たちの動きを止められるはず――。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "放出される水蒸気は大気によって冷やされ、\nそれが雨雲となって大地を潤すのだ。",
+        "textId": "IDS_SCENARIOGATE0014_TXT1013",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "機怪蟲の上位体、\nエクスクローラーを倒せば\n機怪蟲たちの動きを止められるはず――。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "現在確認されている「ダイナミスト」の中で、\n水上や空を活動領域としているものは珍しい。",
+        "textId": "IDS_SCENARIOGATE0014_TXT1014",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "機怪蟲の上位体、\nエクスクローラーを倒せば\n機怪蟲たちの動きを止められるはず――。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "次回は、多くの「ダイナミスト」がいる地上に\n目を向けてみよう。",
+        "textId": "IDS_SCENARIOGATE0014_TXT1015",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "fade": 3
+      }
+    }
+  ]
+}

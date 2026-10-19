@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "master-duel-local-stories",
+  "category": "training",
+  "locale": "en-US",
+  "contentOrigin": "Supplemental MDPro4 challenges using current card rules",
+  "characters": {
+    "narrator": {
+      "portraits": {}
+    }
+  },
+  "series": [
+    {
+      "id": "md-monarch",
+      "coverCard": 23064604,
+      "trainingGroup": "challenges",
+      "missions": [
+        {
+          "id": "md-monarch-practice",
+          "order": 1,
+          "coverCard": 9748752,
+          "kind": "puzzle",
+          "ready": true,
+          "prerequisites": [],
+          "puzzle": "Puzzles/monarch.lua"
+        }
+      ]
+    },
+    {
+      "id": "md-elements",
+      "coverCard": 45702014,
+      "trainingGroup": "challenges",
+      "missions": [
+        {
+          "id": "md-elements-practice",
+          "order": 1,
+          "coverCard": 83032858,
+          "kind": "puzzle",
+          "ready": true,
+          "prerequisites": [],
+          "puzzle": "Puzzles/elements.lua"
+        }
+      ]
+    }
+  ]
+}

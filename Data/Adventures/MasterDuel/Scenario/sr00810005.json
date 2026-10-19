@@ -1,0 +1,1164 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00810005",
+  "sourceBundle": "2ecca4fc",
+  "sourceSha256": "0965580142f9adc3463aeafa4fb901ccb87191405f178db82f0dc73ce5b8758b",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Bg_Sr00810005_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_43",
+        "vol": -1
+      },
+      "ver": 0
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "激戦区となった、あるビル街。\nチーム「リリウム」は、\n激しい戦闘を繰り広げていた。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_001",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "突如として現れた、\n竜騎士のような風貌の悪魔と、その配下たち。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_002",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "あまりにも強大な力に、\n一同は苦戦を強いられていた。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_003",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "これほどの力が、予兆もなく現れるなんて……\n何故でしょう。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_TALK_004",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810002_sof_normal",
+        "chara_icon_label": "C01",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "ソフィア",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_001"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "他の悪魔たちは、私たちが抑えるわ。\n二人は、あの竜騎士のような悪魔をお願い！",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_TALK_005",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810002_ire_angry",
+        "chara_icon_label": "C02",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "イレーヌ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_002"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "任せて！",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_TALK_006",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810002_eri_normal",
+        "chara_icon_label": "C04",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "エリス",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_004",
+        "text_autosec": "1"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "私が、あの竜騎士に接近して\n隙を作ります。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_TALK_007",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810002_sut_normal",
+        "chara_icon_label": "C03",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "ステラ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_003"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "エリスお姉さまは、\nその隙に一気に攻めてください。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_TALK_008",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_name": "ステラ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_003",
+        "chara_icon": "",
+        "chara_icon_label": "C03",
+        "chara_icon_actor_ctrls": []
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "わかった。お願い！",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_TALK_009",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "",
+        "chara_icon_label": "C04",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "エリス",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_004"
+      }
+    },
+    {
+      "command": "TextClose",
+      "option": {},
+      "args": {}
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "頼もしい姉妹（スール）であるステラの背中を見て、\nエリスは、ふと――\n昔の記憶を思い出していた。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_010",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_GATE078_COM_FADEIN",
+        "vol": -1
+      },
+      "ver": 0
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_43",
+        "fade": 2
+      },
+      "ver": 0
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Bg_Sr00810005_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Ball",
+        "path": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/EF_Ball_white",
+        "target": "BackUI",
+        "locater": "Locator_Default",
+        "pos": "0",
+        "duration": 0
+      },
+      "ver": 1
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "bg_keep_fadeout": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_45",
+        "vol": -1
+      },
+      "ver": 0
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "『この闘いが終わったら正式に\n“姉妹（スール）の契り”を交わしましょう』",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_011",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "かつて未熟だったエリスが成長し、\n周囲からも認められる存在になってきた頃、\nそう告げた女性がいた。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_012",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "彼女の名は――マルファ。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_013",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "エリスの先輩にあたり、\n組織の深部にも関わる\nエクソシスターの一人。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_014",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "凛とした美しい佇まい。\n「ミカエリス」をも凌ぐ力を持つ彼女は、\n誰もが憧れる存在だった。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_015",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "“姉妹（スール）\"を……？\n私で、よいのですか。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_016",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "",
+        "chara_icon_label": "",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "",
+        "chara_name_id": ""
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "もちろんだ。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_TALK_017",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810005_mal_normal",
+        "chara_icon_label": "C05",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "マルファ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_006"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "私は、\"エリス\"と姉妹になりたい。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_TALK_018",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "",
+        "chara_icon_label": "C05",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "マルファ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_006"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "この世界から悪を祓い、誰もが笑顔でいられる――\nそんな、当たり前の平和な世界を、共に取り戻そう。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_TALK_019",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "",
+        "chara_icon_label": "C05",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "マルファ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_006"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "エリスとならできる。\n私は、そう信じてる。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_TALK_020",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "",
+        "chara_icon_label": "C05",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "マルファ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_006"
+      }
+    },
+    {
+      "command": "TextClose",
+      "option": {},
+      "args": {}
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_23",
+        "vol": -1
+      },
+      "ver": 0
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      },
+      "ver": 0
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "しかし――\nその願いが叶うことはなかった。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_021",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "戦いの最中、\nマルファは行方不明となってしまったのだ。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_022",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "果たされなかった約束。\n深い悲しみに包まれるエリス。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_023",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "マルファを失うということは、\n必然的にエリス一人が最前線で\n先陣を切ることを意味していた。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_024",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "精神的にも、肉体的にも、\nその負担は彼女に重くのしかかる。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_025",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "そんな折、エリスのパートナーとなる\n新たなエクソシスターが配属された。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_026",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "本日より、この地区を担当いたします。\nステラと申します。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_TALK_027",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810005_sut_happy",
+        "chara_icon_label": "C03_happy",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "ステラ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_003"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "先輩方のお役に立てるよう、誠心誠意、務めて参ります。\nどうぞ、よろしくお願いいたします。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_TALK_028",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "",
+        "chara_icon_label": "C03_happy",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "ステラ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_003"
+      }
+    },
+    {
+      "command": "TextClose",
+      "option": {},
+      "args": {}
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "一人で先陣を切り、\n戦い続けてきたエリスにとって、\nステラの存在は大きかった。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_029",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "高速移動を得意とするステラは、\n先陣を任されるエリスとの相性が良かったのだ。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_030",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "誰よりも早く敵陣へと突撃し、\n幾度となく、エリスを救った。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_031",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "二人はすぐに打ち解け、\n自然と心を通わせるようになる。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_032",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "いつも優しく、笑顔で接し、\nエリスの深い悲しみにも寄り添いながら、\n「我らの悪を去らせ」と祈ってくれたステラ。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_033",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "やがて、\nエリスとステラは契りを交わす。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_034",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "今では互いに欠かすことのできない、\n姉妹（スール）となった。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_035",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_GATE078_COM_FADEOUT",
+        "vol": -1
+      },
+      "ver": 0
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Ball",
+        "duration": 0
+      },
+      "ver": 1
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Bg_Sr00810005_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 1
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "（ステラと一緒なら、どんな強敵とだって戦える。）",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_TALK_036",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810002_eri_normal",
+        "chara_icon_label": "C04",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "エリス",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_004"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "（お姉さまが夢見ていた、\n平和な世界を――必ず実現するんだ。）",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_TALK_037",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "",
+        "chara_icon_label": "C04",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "エリス",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_004"
+      }
+    },
+    {
+      "command": "TextClose",
+      "option": {},
+      "args": {}
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "エリスは決意を新たにし、\n目の前に立ちはだかる強敵を睨みつけた。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_038",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "契りを交わしたステラとエリスは、\n普段以上の力を発揮し、\n悪魔をあと一歩のところまで追い詰める。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_039",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "悪魔を祓うべく、\n最後の一撃を放とうとした、その瞬間。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_040",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "悪魔の鎧が、音を立てて剥がれ落ちた。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_041",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_16",
+        "vol": -1
+      },
+      "ver": 0
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_45",
+        "fade": 2
+      },
+      "ver": 0
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.1,
+        "cycle": 0.1,
+        "target": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 2,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Bg_Sr00810005_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      },
+      "ver": 0
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "bg_keep_fadeout": false
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Ball",
+        "path": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/EF_Ball_white",
+        "target": "BackUI",
+        "locater": "Locator_Default",
+        "pos": "0",
+        "duration": 0
+      },
+      "ver": 1
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_44",
+        "vol": -1
+      },
+      "ver": 0
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "鎧の内から現れたのは――\nずっと探し続けていた存在。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_042",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "「マルファ……おねえ……さま？」",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_TALK_043",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810002_eri_sad",
+        "chara_icon_label": "C04_sad",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "エリス",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_004"
+      }
+    },
+    {
+      "command": "TextClose",
+      "option": {},
+      "args": {}
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "いままで戦ってきた敵の正体を知り、\nエリスは言葉を失う。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_044",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "その隙に、姿を変えたマルファは、\n刃のただ一振りで、\n二人を圧倒していった。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_045",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "エリスを庇うため、前に出たステラは、\nマルファに追い詰められてしまう。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_046",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      },
+      "ver": 0
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "cnt": 1,
+        "color": "#FFFFFFFF",
+        "duration": 0.1,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.1,
+        "cycle": 0.1,
+        "target": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_ATTACK_3",
+        "vol": -1
+      },
+      "ver": 0
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.2,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Bg_Sr00810005_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.5,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "bg_keep_fadeout": false
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "bg_keep_fadeout": true
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 2,
+        "skip": true
+      },
+      "ver": 0
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "冷たい視線。\n凶刃が、無情にも突き付けられる。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_047",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "その瞳から、光は失われていた。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_048",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "かつて優しく、頼もしく、\n誰もが憧れた彼女の姿は、\nもう、そこにはない。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_049",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "エリスお姉さまは……ずっとあなたを心配して、\nずっとあなたを想って、探し続けていたんです。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_TALK_050",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810005_sut_normal",
+        "chara_icon_label": "C03_2",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "ステラ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_003"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "どんなに傷ついても……、どんなに辛くても……\n戦うことを、やめずに。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_TALK_051",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "",
+        "chara_icon_label": "C03_2",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "ステラ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_003"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "あなたが夢見た世界を、\nつくるんだって……",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_TALK_052",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "",
+        "chara_icon_label": "C03_2",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "ステラ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_003"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "それなのに……なぜ……。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_TALK_053",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "",
+        "chara_icon_label": "C03_2",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "ステラ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_003"
+      }
+    },
+    {
+      "command": "TextClose",
+      "option": {},
+      "args": {}
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "悲しみと絶望の果てに、\nステラの頬を、\n一筋の涙が静かに伝った。",
+        "textId": "IDS_SCENARIOGATE0081_C0005_TXT_054",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_44",
+        "fade": 2
+      },
+      "ver": 0
+    }
+  ]
+}

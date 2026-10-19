@@ -1,0 +1,938 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00230184",
+  "sourceBundle": "4b8b0453",
+  "sourceSha256": "5b0f8189fcda23b08ece8c8897a4aa7f7287ab15bf3a45387d1c2b01e72f7ff0",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate023/Bg_Sr00230180_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_21",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 13761,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 13729,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ニンギルスの下へと向かおうとする\n「パラディオン」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0023_TXT7001"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 13932,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 13902,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_ATTACK_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.5,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.2,
+        "cycle": 0.2,
+        "target": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、その前に\n無数の機械兵器・オルフェゴールが\n立ちはだかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0023_TXT7002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "オルフェゴールの大群に\n苦戦を強いられる。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7003",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "frm": "",
+        "dst": "#737D87FF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その激戦の最中で、アウラムは\n「オルフェゴール・バベル」の内部から\n自身と同じ “鍵”の力を感じ取る。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7004",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_SUZU",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Hito",
+        "path": "Scenarios/Gates/Gate023/Pre_Sr00230184_hito",
+        "pos": 0,
+        "duration": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "機械人形が、わずかに継承した “鍵”の力を使い、\n「オルフェゴール・バベル」を起動させていたのだ。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Hito",
+        "duration": 2
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WHOOSH_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate023/Bg_Sr00230184_00",
+        "oscale": 0.01,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Star",
+        "path": "Scenarios/Gates/Common/Effect/EF_Star01Yellow",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "shakex": false,
+        "shakey": true,
+        "wave": 0.01,
+        "cycle": 0.05,
+        "target": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 8,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "輝きを放ちながら、\n塔はまるでほどけていくかのように\nその全容を展開させ天へと伸びていく。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 2,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 13730,
+        "pos2": 1,
+        "se2": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk3": 13931,
+        "pos3": 2,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "起動を阻むべく、\n機械人形の元へと迫るアウラムの前に、\n他でもない、ニンギルスが立ちはだかった。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "あの悪夢の日から、年月を経ての再会。\n戦いの喧騒の中、二人の視線がぶつかり合う。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "ShakeEnd",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "target": 0
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.5,
+        "frm": "",
+        "dst": "#C7C8B2FF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "世界は機界騎士（ジャックナイツ）と呼ばれる七騎の機械生命体によって統治されていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "アウラムは問う。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "そして、大地にはその尖兵たる機怪蟲（クローラー）が蔓延っている。\r\nこの機怪蟲は人が築き上げた建造物などを発見するとたちまち群がり、破壊してしまうという習性を持っていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "なぜ、星の脅威となる”大いなる闇”に\n手を出そうとしたのか。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7010",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "なぜ、天に届かせるような塔や、\n機械兵器の軍勢を作り上げたのか。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7011",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ニンギルスは答える。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7012",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "すべてイヴのためだと。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7013",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Star",
+        "duration": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate023/Bg_Sr00230184_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,1.383435606956482,1.383435606956482,0.0,0.09756097197532654],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.07186681777238846,0.07186681777238846,0.3414633870124817,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ニンギルスの真の目的。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7014",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは、バベルを起動させることにより\n天空から「星遺物－『星杖』」を打ち下ろして\n地殻を破壊すること。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7015",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それにより、\n地中に眠る「星遺物－『星櫃』」を目覚めさせ、\nその生と死を司る権能をもってイヴの魂を復活。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7016",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "さらに地殻に封じられた\n『大いなる闇』の力を解放し、\nイヴを新たな神として再誕させることであった。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7017",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate023/Bg_Sr00230184_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.02,
+        "cycle": 0.2,
+        "target": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.5326597094535828,0.5326597094535828,0.0,0.13821138441562653],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "真の目的を知ったアウラムは、\n彼を止めるために剣を振るう。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7018",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ニンギルスは退くことなく、槍を振るう。\n立ち塞がる者がたとえ、だれであろうとも。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7019",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "ShakeEnd",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "target": 0
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.5,
+        "frm": "",
+        "dst": "#A2B2B1FF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ニンギルスが妹を\n誰よりも大切に想っていたことは\n分かっていた。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7020",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "だからといって彼女を想ってのことが、\n星を脅かすようなことであっていいのか。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7021",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "アウラムには、蘇ったイヴが\n笑顔を見せてくれるとは思えなかった。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7022",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "だが、ニンギルスにとっては\nイヴが生きていてくれることが\n何よりの願い。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7023",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それが、たとえ\n世界を敵に回すことになろうとも。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7024",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "どちらも己が信じる道を突き進んできた。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7025",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "互いの信念がぶつかり合い、\n戦いが一進一退の様相を呈している中。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7026",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_09",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate023/Bg_Sr00230184_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「オルフェゴール・バベル」は起動してしまう。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7027",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 8,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そしてついに、\n星杖は打ち下ろされる。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7028",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_14",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.08,
+        "cycle": 0.2,
+        "target": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "天より放たれた星杖は大地を貫き、\nその衝撃が星を鳴動させた。",
+        "textId": "IDS_SCENARIOGATE0023_TXT7029",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_21",
+        "fade": 2
+      }
+    }
+  ]
+}

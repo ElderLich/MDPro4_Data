@@ -1,0 +1,816 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00440354",
+  "sourceBundle": "99d8917d",
+  "sourceSha256": "37647ce014635ba8ba54d7ff17d3d44771f568fbff00f8bd12af2dc56dbbd50d",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440354_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_32",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "パラディオン、\n星遺物、\nそしてイヴ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "幾度も幾度も自らの本性を\n潜ませ、隠し、\nついにリースは神の力へとたどり着いた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7002"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440350_05",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_DEMIURGY",
+        "vol": -2000,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": -1,
+        "ignoreSkip": true
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「星神器デミウルギア」。\nそれはあらゆる神の原型。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0044_TXT7003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そこに満たされた意志に呼応して\n神の所業を成せる器\n――神化（しんか）のプログラム。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "かつて神となった者は、\n増大した破壊の力を制御できず、\n最後は“鍵”を残して消滅した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そうならぬよう、\nリースは周到に計画した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7006"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_DEMIURGY",
+        "fade": 2
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440349_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "群知能を有するクローラーを統合し、\n神の力の完全なる制御と行使を可能にする。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7007"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.5,
+        "frm": "",
+        "dst": "#63737BFF"
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 0.5
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そのはずだったのだ。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0044_TXT7008"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440354_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 25,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,-0.06707566231489182,-0.06707566231489182,0.0,0.18292683362960816],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "イヴやイムドゥークの、\n命を投げ打つ心の強さ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "機械人形に生まれた奇跡。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0044_TXT7010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ニンギルスの強靭な信念。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0044_TXT7011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして悲しみを乗り越えて人々を束ね、\n継承者としての覚醒に至ったアウラム。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "想いが一つずつ繋がり、積み重なって、\nその計画を阻んだことを、\nリースは最後まで理解できなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7013"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440353_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 8,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440354_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_11",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "消えていくリースの残滓。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "残された強大な力の器。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "アウラムは継承者として\n選択を迫られる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7016"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440352_06",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_14",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.2,
+        "cycle": 0.2,
+        "target": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1.5,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "既に、リースの邪念に感応したデミウルギアは暴走し、\n振りまかれる暴威によって\n大地は破壊し尽くされていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "かつての神が、地核として封じた破壊の力は\n今ふたたび膨れ上がる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、地殻として生命を守っていた\n創造の力は、今にも失われようとしていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7019"
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.1,
+        "cycle": 0.05,
+        "target": 0
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "frm": "",
+        "dst": "#8C8382FF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "蘇る旅の記憶。\n仲間たちとの思い出。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7020"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "真に“鍵”の継承者となった自分に\nできることは何か。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0044_TXT7021"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "悠久にも思えた一瞬の後、\nアウラムは決断する。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7022"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_LIGHT",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440354_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,-0.17413873970508576,-0.17413873970508576,0.0,0.21138212084770204],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼の意志に呼応するかのように\n解放される“鍵”の力。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7023"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それはアウラムとデミウルギアを輝く光に変え、\n一つの存在へと同化させていく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7024"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "滅びゆく世界の中、\nここに新たなる神、\n「双星神 a－vida」が誕生した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7025"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "人智を超える力と、神の座を手に入れたアウラムは、\nゆっくりと右手の“鍵”を振り上げ、\n神命を下す。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7026"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼が出した選択は――",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7027"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "\"――この星遺物を巡る戦いで失われた\n全ての命を取り戻す事。\"",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7028"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "\"そして、神の力を巡る争いを\n二度と繰り返させないためにも、\n自らが神となり、神を終わらせる事\"だった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7029"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "相反するかのような二つの命令は、\n願いだった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7030"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "神として許されざる行いかもしれない。\n人として罪深き行いかもしれない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7031"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_HIKARI_04",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Flash",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "cnt": 1,
+        "color": "#FFFFFFFF"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440354_05",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "shakex": false,
+        "shakey": true,
+        "wave": 0.05,
+        "cycle": 0.1,
+        "target": 0
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_AVIDA",
+        "vol": -2000,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": -1,
+        "ignoreSkip": true
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それでもアウラムは選択し、\n「双星神 a－vida」はプログラムを起動する。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7032"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "崩壊する大地が輝く粒子へと姿を変え、\n「双星神 a－vida」の元へ集っていく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT7033"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_LIGHT",
+        "vol": -1
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_AVIDA",
+        "fade": 1
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_32",
+        "fade": 2
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1.5,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、全てが光に包まれた――。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0044_TXT7034"
+      }
+    }
+  ]
+}

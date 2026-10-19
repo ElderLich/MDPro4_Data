@@ -1,0 +1,386 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00380304",
+  "sourceBundle": "3c5ab881",
+  "sourceSha256": "5a55cb7b5ccd5d2c25cf7848699b79a97401e70c044c315f919245c9ceafcad2",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "現世を謀る妖",
+        "titleId": "IDS_SCENARIOGATE0038_TITLE1001",
+        "path": "Scenarios/Gates/Gate038/Bg_Sr3800_titile",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_11",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate038/Bg_Sr3800_00",
+        "oscale": 0,
+        "color": "#D6D6D6FF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 8,
+        "frmcolor": "#232323FF",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『嗚呼……忌まわしや……忌まわしや……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT1001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "薄暗く、よどんだ空気が漂う穴倉の底で、\n呪いに満ちた怨嗟の声が幾重にも響く。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT1002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『嗚呼……忌まわしや……口惜しや……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT1003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そこは幽世（かくりよ）。\n人の世では負とされるものが渦巻く場所。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT1004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "死者のみならず、\n様々なものがうごめく幽世（かくりよ）において、\n妖は大きな力を持つ存在である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT1005"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 14038,
+        "pos": 1,
+        "se1": "SE_SOLO_WAFU_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 14040,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 14042,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 14039,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その中でも特に恐るべき妖力を持つに至ったものは\n「魔妖（まやかし）」と呼ばれていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT1006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らほどの力を持たない並の妖では、\n現世（うつしよ）に降り立つのもままならない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT1007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "幽世は狭く、暗い。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT1008"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 14041,
+        "pos": 6,
+        "se1": "SE_SOLO_WAFU_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "魔妖（まやかし）の頭首たる\n「麗の魔妖－妖狐(うるわしのまやかし－ようこ)」は\n人間の住む広大な世界を手中に収めんと、\n繰り返し現世へ攻め入ってきた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT1009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、現世には時を経ても、魔妖（まやかし）を破ろうと\n“不知火流（しらぬいりゅう）”を名乗る者たちが\n常在していた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT1010"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate038/Bg_Sr3800_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ある者は神仏への祈りで妖を祓い、\nまたある者は炎の刀で妖を切り伏せる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT1011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "長い戦いの中で、\n現世を魔妖（まやかし）のものとする寸前まで\n迫ったこともあった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT1012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、その時でさえ最後には\n“不知火流（しらぬいりゅう）”に\n妨げられたのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT1013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "次は、次こそはと。",
+        "autominsec": 3,
+        "textId": "IDS_SCENARIOGATE0038_TXT1014"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "path": "Scenarios/Gates/Gate038/Bg_Sr3800_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "魔妖（まやかし）は失った力を取り戻し、\n再び好機が訪れるのを\n虎視眈々と狙っている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT1015"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_11",
+        "fade": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,593 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00390315",
+  "sourceBundle": "6f2690e6",
+  "sourceSha256": "e8a509cac4b2a0d891f7125da2d8b7f0fbf94562acffb2ba79d804e9c243a0a3",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate026/Bg_Sr00260206_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_16",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "時は流れ、\n六武衆の一人であった「シエン」は父の跡を継ぎ、\n「大将軍 紫炎（シエン）」を名乗るようになる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT3001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、紫炎（シエン）の下には、\n新たに選び出された六武衆が集っていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT3002"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_09",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Roku",
+        "path": "Scenarios/Gates/Gate026/Pre_Sr00260206_01",
+        "pos": 0,
+        "duration": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らは絶対の忠誠を誓い、\n軍の要として戦っている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT3003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "また、大将軍になる前、共に戦場を駆けた\n武士（もののふ）たちも、\n様々な形で活躍を続けていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT3004"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate039/Bg_Sr00390315_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Roku",
+        "duration": 1
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 9313,
+        "pos": 5,
+        "se1": "SE_SOLO_WAFU_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "背中に備えた副腕を自在に操り、\n”四本腕の鬼神”と恐れられた「カゲキ」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT3005"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WAFU_CARD_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 9313,
+        "dstmrk": 7276
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "長らく戦場で活躍していたが、\n後に戦での負傷から六武衆を退き、\n軍の侍従として銃後の守りにつくことになる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT3006"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 9311,
+        "pos": 6,
+        "se1": "SE_SOLO_WAFU_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "”魂ごと斬られる”と敵を震え上がらせ、\n流麗な剣技で激戦をくぐり抜けてきた\n「キザン」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT3007"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WAFU_CARD_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 9311,
+        "dstmrk": 7145
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼は御前試合での勝利を契機に、\n次代の六武衆となる人材の\n発掘・育成を任せられた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT3008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「六武衆の師範」として、\n後年になってもその剣の腕は\n衰えを見せなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT3009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼によって鍛えられた、\n新たな六武衆の活躍は、\nそれを裏付けていると言えるだろう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT3010"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 9312,
+        "pos": 5,
+        "se1": "SE_SOLO_WAFU_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "”猪突猛進”と言われるほど、\n物怖じせずに敵軍と渡り合った\n「エニシ」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT3011"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WAFU_CARD_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 9312,
+        "dstmrk": 7297
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "エニシは「紫炎の参謀」が隠居する際、\n彼が行っていた内政を取りまとめ、\n紫炎（シエン）に進言を行う役目を引き継いだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT3012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "老中という役職に就き、\n戦場を離れた後も\n彼の戦いは続いている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT3013"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 9315,
+        "pos": 6,
+        "se1": "SE_SOLO_WAFU_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "戦の中だけでなく、時には密偵のように\n隠密な行動で敵を討つ仕事を担った\n「ミズホ」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT3014"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WAFU_CARD_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 9315,
+        "dstmrk": 7853
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼女は夫婦の契りを結んでいた\n「シナイ」の死後に、\n出家した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT3015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、紫炎（シエン）に仇なす者へは、\n現役のころと変わらぬ手際で\n仕事を行っている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT3016"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate039/Bg_Sr00390311_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7276,
+        "pos": 1,
+        "se1": "SE_SOLO_WAFU_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 7145,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 7297,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 7853,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "かつて紫炎（シエン）と共に\n戦場を駆けた六武衆たち。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT3017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、新たな六武衆をはじめとする\n新世代の家臣たち。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT3018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「大将軍 紫炎（シエン）」は多くの家臣に支えられ、\n天下統一の覇業を目指す戦いを続けているのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT3019"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_16",
+        "fade": 2
+      }
+    }
+  ]
+}

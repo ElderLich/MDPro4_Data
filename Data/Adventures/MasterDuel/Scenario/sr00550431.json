@@ -1,0 +1,1007 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00550431",
+  "sourceBundle": "4c9b2ee4",
+  "sourceSha256": "348f7b3d25b25ff1339c5834c1324c9ee5b5d5f56622ee26d3e4d902f234d84e",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate055/Bg_Sr00550431_00",
+        "oscale": 0.05,
+        "color": "#808BA6FF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "幾度かの起動試験を経たのち、\n「A・O・J（アーリー・オブ・ジャスティス）\nフィールド・マーシャル」は直ちに戦地へと投入された。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2001"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Zene",
+        "path": "Scenarios/Gates/Gate055/Pre_Sr00550428_01",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_CONTROL_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "戦場での指令を翻訳して伝送するため、\n“通信機”として「ジェネクス・コントローラー」を\n現地に同行させる方式が採用された。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2002"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "path": "Scenarios/Gates/Gate055/Bg_Sr00550431_00",
+        "oscale": 0.05,
+        "color": "#FFFFFFFF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "target": 0,
+        "duration": 0,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.03,
+        "cycle": 0.05
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_BAKUHATSU_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_GOGOGO",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Zene",
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "戦場に出たフィールド・マーシャルの活躍は\n凄まじかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "群がる「ワーム」をものともせず\n一方的に踏みにじる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "これまでの苦戦が悪い夢だったのかと\n思われるほどの活躍を見せ、\nたちまち勢力図が塗り替えられていった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "戦場に出れば連戦連勝。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "次々と大きな戦果を挙げていく新兵器に\n兵たちの士気は上がり、その目には\n新たな希望の象徴として頼もしく映っていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ただ、無敵にも思えるとはいえ、\n戦いに出れば損傷は免れない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2008"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate055/Bg_Sr00550428_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "破壊された装甲や焼き付いた砲身は\n交換さえすれば、次の戦場へと赴くことができる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2009"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Sepe",
+        "path": "Scenarios/Gates/Gate055/Pre_Sr00550428_00",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、その巨大な機体を制御する、\n中枢コア「スペア・ジェネクス」だけは\n安易に交換できない.",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2010"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Sepe",
+        "duration": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "外観は無傷でも、連戦に次ぐ連戦で\nスペア・ジェネクスは深く、静かに、\nそして確実に損耗していった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2011"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate034/Bg_Sr00340272_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7973,
+        "pos": 0,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その日も、\nフィールド・マーシャルは戦場に立つ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そこは戦略図における重要な地点であり、\n数ある激戦区のひとつ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この日のワームの抵抗は\nいつになく苛烈であった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2014"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 8406,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 7550,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 7957,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 7539,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "フィールド・マーシャルだけではなく、\n原住部族の連合軍も各々の役割を果たし、\n奮闘した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2015"
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 8406,
+        "dstmrk": 7547
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_DEGITAL_CARD_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7550,
+        "dstmrk": 7831
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_DEGITAL_CARD_01_b",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7957,
+        "dstmrk": 7546
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_DEGITAL_CARD_01_b",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7539,
+        "dstmrk": 7544
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_DEGITAL_CARD_01_b",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、展開していた陣形の僅かな隙を突かれ、\nその綻びにワームが大挙して押し寄せる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "このまま進撃されれば、\nジェネクス・コントローラーがいる本営へと\nワームが殺到するだろう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは、自然を汚染するワームを排除すべきと\n認識していたジェネクスの\n最優先コマンドだったのか。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "あるいは、孤独な戦場で唯一の話し相手であった\nジェネクス・コントローラーを守るためだったのか。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2019"
+      }
+    },
+    {
+      "command": "CardFadeOut",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7973
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "フィールド・マーシャルは即座に前線を離れ、\n包囲が破れた箇所へと急行する。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2020"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate055/Bg_Sr00550431_01",
+        "oscale": 0.1,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.1,
+        "cycle": 0.05,
+        "target": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_14",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、自らの巨体を防塞として\nワームの侵攻を防ぎ、\nなりふり構わず捨て身の攻撃を続けた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2021"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "戦いは終わり、\nワームの大群は退けられた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2022"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate055/Bg_Sr00550431_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "拠点での敗戦を覚悟していたA・O・Jであったが、\nかろうじて避けられたようだった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2023"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "とはいえ、失ったものは大きい。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2024"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "大破したフィールド・マーシャルの機体は、\n戦闘が終わった今でもまだ熱を帯び、\n陽炎が周囲の景色を歪めている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2025"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そんな身動きの取れなくなった\nフィールド・マーシャルに近づく\n小さな影がひとつ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2026"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate055/Bg_Sr00550431_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ジェネクス・コントローラーが\n機体内部にたどり着くと、\nそこには横たわるスペア・ジェネクスの姿があった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2027"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "機能停止まで\nもう数十秒といったところだろう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2028"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate055/Bg_Sr00550431_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_SPEAR_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_SUZU_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その貴重な残り時間を使い、\nスペア・ジェネクスは\n一輪の白い花を差し出す。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2029"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ジェネクス・コントローラーが受け取ると\nスペア・ジェネクスは静かに\nそして完全に沈黙した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2030"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 2,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate055/Bg_Sr00550431_05",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate055/Bg_Sr00550431_05",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "path": "Scenarios/Gates/Gate055/Bg_Sr00550431_05",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 0.5
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_SUZU",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは漏れ出た冷却水だろうか。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2031"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ジェネクス・コントローラーの目からは\nきらきらと光る液体が流れ出していた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0055_TXT2032"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "fade": 2
+      }
+    }
+  ]
+}

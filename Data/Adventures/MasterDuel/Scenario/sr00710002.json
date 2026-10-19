@@ -1,0 +1,696 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00710002",
+  "sourceBundle": "41fe838a",
+  "sourceSha256": "6244ea0980b3acd2aeeb74009b4b45f753a42fe06d8dd8e399f1407e013d7503",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710002_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "t": "閃刀を託されし少女",
+        "titleId": "IDS_SCENARIOGATE0071_TITLE1001",
+        "scale": 0,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710002_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_38",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "そこでは長きに渡って、紛争が続いていた。",
+        "autominsec": 3,
+        "textId": "IDS_SCENARIOGATE0071_TXT1001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "なぜ闘っているのか、どうしてこの紛争が始まったのか。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0071_TXT1002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "その原因を正確に理解している者も、\nすでにほんの一握りだ。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT1003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "果てのない闘いがもたらしたのは、戦争の効率化である。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0071_TXT1004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "いかに少ない損害で最大の戦果が得られるかが\n追求されていった。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT1005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "その結果、戦場はドローンなどの無人機が支配するに至り、\n各国はその性能の強化と行動ルーチンの最適化に\n心血を注いでいた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT1006"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_DRONE",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1,
+        "skip": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "そんな中にあって、強大な軍事帝国に対抗するために\n開発された超兵器「閃刀（せんとう）」は、\n一人の少女に託された。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT1007"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710002_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "その少女――「レイ」は\n開発者が目を見張る潜在能力を発揮。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT1008"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Bubble",
+        "path": "Scenarios/Gates/Gate071/Pre_Sr00710002_02",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_BUBBLE",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "skip": false
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.1,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710002_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "歴史や戦術、そして閃刀という技術、\n同年代の少女が数年かけて理解するような\n情報を数日で理解していく。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT1009"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Bubble",
+        "duration": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710002_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 3,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_CUTIN_3",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "pos": 2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.716564178466797,2.716564178466797,0.0,0.10162601619958878],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "それに加え、閃刀によって驚異的な運動能力を\n得た彼女は、ほんの数刻前に知った情報を、\nすぐさま実践・行動に反映できるほど。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT1010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "歴戦の兵でも攻略が難しいとされる訓練を\nいとも容易くクリアしてみせ、類稀な才能を見せた。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT1011"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710002_05",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_ROBOT_2",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "こうしてレイは自国の民を守るべく、\n「閃刀姫（せんとうき）」として、\n紛争地域に身を投じることとなる。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT1012"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710002_06",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_38",
+        "fade": 3
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_ALARM",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "その日もレイが訓練に励んでいたところに、\n敵国が攻め込んできたというアラートが鳴り響く。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT1013"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_39",
+        "vol": -1
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_CHANGE_1",
+        "vol": 0.7,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": -1,
+        "ignoreSkip": false
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.3,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710002_07",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "レイは即刻、閃刀を起動。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0071_TXT1014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "その身をベーススーツに包むと、\nすぐさま単身で飛び立っていった。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT1015"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710002_08",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": true
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_FLY_1",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "上空を一直線に飛び、戦場へと向かうレイ。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0071_TXT1016"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Kumo",
+        "path": "Scenarios/Gates/Gate071/Pre_Sr00710002_08",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Kumo",
+        "tmlabel": "label_1"
+      }
+    },
+    {
+      "command": "PrefabWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Kumo",
+        "skip": false
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Kumo",
+        "skip": false,
+        "tmlabel": "label_1_loop"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710002_09",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Kumo",
+        "tmlabel": "label_2"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "そろそろ到着ね――。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0071_TXT1017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "そう、ひとりごちたレイの目の前に、\n敵と思われる大群が姿を現す。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT1018"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "BgWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "skip": false
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Kumo",
+        "duration": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_CUTIN_1",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.5,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710002_10",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.5,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1.5,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.874671459197998,2.874671459197998,0.0,0.08536585420370102],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "いつものように使命感に燃え、\nいつも通りに抜かりなく闘いへと臨むレイ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT1019"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "しかし、この日の戦闘が\n彼女の運命を大きく変えることとなる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT1020"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_39",
+        "fade": 3
+      }
+    }
+  ]
+}

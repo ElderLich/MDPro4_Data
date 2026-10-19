@@ -1,0 +1,538 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00470381",
+  "sourceBundle": "1bbc616f",
+  "sourceSha256": "dfd41d9aa28328c1209be135898f6360b82b0b7d0513cf4cd0ebefe45c9f6e69",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "LoadGroup_Begin",
+      "option": {},
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate047/Bg_Sr00470378_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Ryu",
+        "path": "Scenarios/Gates/Gate047/Pre_Sr00470378_Doragon8",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "LoadGroup_End",
+      "option": {},
+      "args": {}
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "地中世界で生きる者たちが畏れる\n「サブテラーマリス」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その存在は様々な部族を通じて\n言い伝えられている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2002"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Ryu",
+        "duration": 2
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate047/Bg_Sr00470381_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 2,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "地中世界の各地で見られる、\n硬い岩盤と、それにより守られた空洞。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その多くは自然に生まれた地形だが、\n一部はこの世界に生きる者たちが\n住処を求め道を拓いて出来たものだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2004"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate047/Bg_Sr00470381_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そういった開拓者たちにとって恐ろしいのが、\n地中の岩肌や崖のような場所に身を潜める\n「サブテラーマリス・ジブラタール」である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "岩を組み上げたような身体を持ち、\n関節と思わしき部位から\n流れ出る黒い粘液。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その液体に自由を奪われたが最後、\nその巨躯による攻撃を防ぐ術はない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「ジブラタール」を目撃した者によれば、\n鋭く光る赤い目、そして巨岩の塊が\nああも機敏に動くものかと恐怖したという。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この限られた世界において、\n他にも様々な場所を根城にする\n竜たちがいる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2009"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate047/Bg_Sr00470381_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 3,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 25,
+        "pos": 2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "空洞の空を影で覆い、雷を降らせる\n「サブテラーマリス・ボルティニア」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この世界にも鳥や飛竜など、\n翼を持って羽ばたく生物は少なくない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし「ボルティニア」は\nそれらとは明らかに異なる生態を持つ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "翼があるのに羽ばたくことはせず、\nまるで宙を浮くように\n地中世界の空を自在に飛び回るのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その身体は常に雷を帯びており、\n近づいた者は動きを縛られ、\n命すら奪われてしまう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2014"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate047/Bg_Sr00470381_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 25,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "危険なのは空だけではない。\n地中奥深くにも、竜は潜んでいる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "角と爪で地中を掘り進む\n「サブテラーマリス・リグリアード」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "視力は退化しているようだが、\n五対の髭で周囲の状況を把握。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "敵意を向けるものを\n敏感に察知し、\n執拗につけ狙う。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「リグリア―ド」が通った後は\n異常な陥没や隆起が生じる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2019"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "不運にもこの邪竜の通り道となって\n壊滅した集落もあった、と言われている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2020"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この地中世界には、\n火山も存在する。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2021"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate047/Bg_Sr00470381_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 8,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 40,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.08232009410858154,0.08232009410858154,0.22357726097106934,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "火山灰や溶岩が辺りを灰色に染めあげ、\n溶岩流に巻き込んだものを焼き尽くす。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2022"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その火山の中には、もしかしたら\n「サブテラーマリス・バレスアッシュ」が\n身を潜めているかもしれない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2023"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "体内に高熱のマグマを宿し、\n歩く火山のような姿の「バレスアッシュ」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2024"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "常に活性化しているわけではなく、\n休眠状態となっていることもあるようだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2025"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この竜の生態と火山の自然現象を\n一緒くたにして考えることはできない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2026"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、火山の近くに住処を構える部族には、\nそれとは異なる言い伝えも残されている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2027"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『火山の噴火は\n「バレスアッシュ」が動き出す前兆だ――』と。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT2028"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "fade": 2
+      }
+    }
+  ]
+}

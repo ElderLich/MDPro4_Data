@@ -1,0 +1,1003 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00500400",
+  "sourceBundle": "d851c2c1",
+  "sourceSha256": "b5a2c691b88dc75cab38324a2b3a78525cc54706f20806a18069c7c3ae750552",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate050/Bg_Sr00500400_titile",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "t": "志の剣　～Xーセイバー～",
+        "titleId": "IDS_SCENARIOGATE0050_TITLE1001",
+        "scale": 0,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate034/Bg_Sr00340272_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "type": 0,
+        "text": "宇宙を漂流し、\n星を喰らいつくす\n侵略生物「ワーム」の襲来。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "type": 0,
+        "text": "それに対抗するべく結成された正義の同盟\n「A・O・J（アーリー・オブ・ジャスティス）」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "type": 0,
+        "text": "その中心となった四部族――",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1003"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "mrk": 8406,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "type": 0,
+        "text": "強大な力を持つ氷龍を信仰する\n「氷結界」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1004"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 7957,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "霧深い谷の一帯を支配する\n「霞の谷（ミスト・バレー）」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1005"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 7550,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "身にまとう炎で全てを焼き尽くす\n「フレムベル」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1006"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 7539,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして傭兵団に端を発する\n「X－セイバー」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ワームとの戦いが激化する中で\nX－セイバーは苦境に立たされていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1008"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate034/Bg_Sr00340272_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7547,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 7546,
+        "pos2": 2,
+        "se2": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk3": 8256,
+        "pos3": 3,
+        "se3": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk4": 7544,
+        "pos4": 4,
+        "se4": "SE_SOLO_DEGITAL_CARD_01"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ワームの中で高度な知能を獲得した個体の出現により、\n数で攻めてくるだけであった侵略生物は\n統率された群れへと変貌した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "より手強い軍勢となりつつあった\nワームとの戦いは、\n歴戦の戦士たちの中にも多くの負傷者を出した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1010"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7824,
+        "pos": 5,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "中には戦いで傷ついた身体を\n機械の義肢で補い、傷が癒えるのも待たずに\n戦いに臨む者もあった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1011"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_DEGITAL_CARD_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7824,
+        "dstmrk": 7539
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『戦局を打開するために、\n新たな作戦を立てねばならない。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "X－セイバーを率いる「総剣司令 ガトムズ」は、\n次の戦いに向けた作戦を練りながら、\n今の状況を過去と重ね合わせていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1013"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate050/Bg_Sr00500400_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1.5,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ここはX－セイバーの拠点。\nX－セイバーが操る武器に\n大いなる力を与える祭壇がある。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そこに突き立てられた\n一振りの剣――\nその持ち主のことを否が応でも思い出す。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ガトムズの手にする剣。\nその元々の持ち主は\n彼ではなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1016"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 2,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate050/Bg_Sr00500400_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "zoom": 2.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ワームの襲来よりも昔、\n各部族の勢力争いが\n続いていた時代。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "とある男が立ち上げた傭兵団\n「X－セイバー」があった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その中心となる男の名は\n「X－セイバー ソウザ」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1019"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 70,
+        "zoom": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.12576687335968018,0.12576687335968018,0.0,0.1463414579629898],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "二振りの剣を操り、\n多くの敵を切り伏せてきた\nその男の実力は本物だった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1020"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "はぐれ者たちには、\n他の部族のように代々守り続けてきた土地も、\n寄る辺となる血縁もない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1021"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "戦乱の中を生き残るため、\n彼と共に戦いへ身を投じる者は\n少なくなかったのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1022"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "かつてのガトムズも\nその一人だった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1023"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ガトムズはソウザを\n誰よりも高く評価していた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1024"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "粗野で屈強な傭兵たちを従える\n強さ、その行動力を。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1025"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その一方、\nガトムズはソウザの欠点も\n分かっていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1026"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "勝利のために部下を犠牲にするような\n乱暴さ・非情さを\n隠そうともしないところだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1027"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "生き残るために集まった\n集団とはいえ、時に仲間を\n大切にする心も必要になる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1028"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "傭兵団に加わったガトムズは\nそれ以来、己の全てをもって\n傭兵団で力を示した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1029"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして組織のナンバー２となり、\nソウザと傭兵たちを繋ぐ役目を\n担ってきた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1030"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "荒々しい気性を持ったソウザを中心として\nここまでの集団が\n形成されるに至ったのは、",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1031"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ソウザの圧倒的な強さと\nその緩衝役として組織の形を整えていった\nガトムズの尽力。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1032"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その２つが\nあってこそであった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1033"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_23",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ところが、そんなガトムズの献身は\n団の中でソウザに付き従うものと\nガトムズを慕う者による対立を生んでしまう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1034"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ソウザの荒っぽさを補うため\n副官として身を砕いていた\nガトムズ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1035"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そんな彼をリーダーとして\n支持する者が増えていったのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1036"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "中には、あのような粗暴な男より\n貴方に団を率いて欲しい、\nと直接進言する者も出てきた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1037"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『今、この戦乱の世で分裂したら\n我々のような傭兵はどうなる。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1038"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『それこそ、分かれた傭兵団が\n四方から喰いちぎられて\n消滅するだけではないか――。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1039"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ガトムズ自身もソウザの気性に\n閉口することは度々あった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1040"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それでも彼が持つ生命力の力強い輝き、\n生き残るために自ら戦うという理念には\n共感を覚える部分も多かったのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1041"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "表面上は穏やかに見えていたが、\n時が経つにつれ互いにもう一方の\n派閥への不満は膨らむばかり。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1042"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "このままでは分裂か共倒れか……。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1043"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "団内に漂う一触即発の空気が\n隠しようもなくなったころに\n事件は起きた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1044"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "とある作戦中に\nソウザが失踪したのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1045"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_11",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Ken",
+        "path": "Scenarios/Gates/Gate050/Pre_Sr00500400_02",
+        "pos": 0,
+        "duration": 2
+      }
+    },
+    {
+      "command": "BlurLayer",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "frm": 0,
+        "dst": 3,
+        "target": 20
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ガトムズは仲間と共に行方を捜索したが、\n唯一発見できたのは彼が持つ剣、\nその一振りのみ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1046"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "刀身には刃こぼれもなく、\nその周囲にも戦闘特有の\n乱れた様子もない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1047"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "つまり\n“剣を残して忽然と消えた”\nとしか思えない状況だった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1048"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それ以上の手がかりは見つからず、\nガトムズは捜索の続行を断念する。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1049"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そしてガトムズはもう一つの\n大きな決断も迫られていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1050"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは団の精神的支柱である\nソウザを失った傭兵団を\nこの先どうまとめ上げるのか――。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT1051"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "fade": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00450367",
+  "sourceBundle": "169cbab4",
+  "sourceSha256": "346f93cfc55eca73c0a532ce9e6f9ce792fcb34e1f1629ca9be08b3752d2704d",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate045/Bg_Sr00450367_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_29",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "path": "",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,-0.05589638650417328,-0.05589638650417328,0.0,0.2195121943950653],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.920803189277649,1.920803189277649,0.1788617968559265,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "こんこんと降る雪空の下、\n歌を口ずさむ精が二人。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT2001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "恥じらうように瞳を閉じ、\nそれでいて気品のある歌声。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT2002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "謙虚ながらも、\n広い世界への\n愛に満ちた歌声。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT2003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "重なり合う歌は\n朗らかで心地よく、\n幸せの大切さを伝えるように響き渡る。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT2004"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate045/Bg_Sr00450367_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "陽の光が絢爛にきらめき、\nうつむきがちな花がほころぶ園で、\n互いを見つめる二人の精。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT2005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "生まれ落ちたこの世界の希望、\nそれと共にあろうと導く手。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT2006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "不安な心を慰めてくれる輝き、\nそれに応えようとする手。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT2007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "手に手を取る姿は美しく、\nいかなる逆境にも\n立ち向かう勇気を教えてくれる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT2008"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate045/Bg_Sr00450367_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,1.5478999614715577,1.5478999614715577,0.0,0.15853658318519593],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "うすらい流れる時の中で、\n華麗な足取りで舞い遊ぶ二人の精。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT2009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "はじまりの一歩は大胆に、\n握り合う手に\n信頼を抱いて踊る。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT2010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "遠慮がちな足取りでも、\n握り合う手に\n憧れを秘めて踊る。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT2011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "振るわれる傘は世界を広げ、\n悲しみに暮れず\n生きていく道を拓く。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT2012"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate045/Bg_Sr000450364_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ゆらりゆらり。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT2013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "色とりどりに輝く\n雪の華に震える\nあなたの心。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT2014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ちらりちらり。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT2015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "あなたの\n秘めたる想いは\n見えますか……？",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0045_TXT2016"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_29",
+        "fade": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,501 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00560437",
+  "sourceBundle": "e258f101",
+  "sourceSha256": "358e25a709d94f253367e1e5d191fa1f7af798010d56e0095173abddc3ab321a",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate056/Bg_Sr00560435_01",
+        "oscale": 0,
+        "color": "#C2B6CCFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "frmcolor": "",
+        "dstcolor": "#35353551",
+        "target": 1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Pre",
+        "path": "Scenarios/Gates/Gate056/pre_Sr00560435_02",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「A（アーリー）・マインド」の成功を機に、\n敵の力を利用した兵器の開発は\n進められていった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT2001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "我々はもっと「ワーム」を知らなければならない。\n外宇宙からもたらされる未知の物質が\n今以上に必要なのだ――。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT2002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そうした方針が主軸となりつつあったため、\nワームの捕獲を目的とした兵器が\n続々と開発されるようになった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT2003"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Pre",
+        "duration": 2
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7963,
+        "pos": 5,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ワームの撃破を主目的としつつも、\n捕獲も可能な兵器。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT2004"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 7961,
+        "pos2": 6,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "捕獲のため、ワームを弱らせて\n無力化する兵器。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT2005"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate056/Bg_Sr00560437_01",
+        "oscale": 0,
+        "color": "#BBA9CCFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "zoom": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_05",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "また、別の技術者は対象を\n別次元へ消し飛ばすという\n新たな発想に基づいた兵器の開発に着手した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT2006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それが完成すれば一気に劣勢を\n覆せると期待されていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT2007"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "frm": "",
+        "dst": "#656565FF"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし性能を発揮させるほどの出力が得られず、\n最終的に開発は中断された。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT2008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『敵を捕らえ、その力を利用するのは危険では。』\n『それに傾倒していたら、いつしか\n取り返しのつかない事故が起きるのではないか――。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT2009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "A・O・J（アーリー・オブ・ジャスティス）内部からも\nそんな声が出るのも無理はなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT2010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『これはすべて、最終的に我々が勝つためである。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT2011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『現時点で我々が負けずに踏みとどまるためには、\nこれしか策がない――。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT2012"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate056/Bg_Sr00560437_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "こうして捕獲したワームの物質や情報から\n新たな兵器が量産されていった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT2013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "次々と作られていく機体は\nその形状も次第に最適化されていく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT2014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "完成した兵器が、極めて宇宙的な――\nワームに似た外観となるのは皮肉な話である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT2015"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "A・O・Jの技術者たちが成功と失敗を繰り返す間も、\nワームの侵攻が止まることはなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT2016"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "path": "Scenarios/Gates/Gate056/Bg_Sr00560437_05",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この地上世界での騒乱によるものか。\nあるいはA・O・Jによる次元干渉実験によるものか。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT2017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「A・O・J フィールド・マーシャル」の大破した地で、\n不穏な動きがあった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT2018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "太古の昔に封印された悪しき神々の世界との間に、\n空間の裂け目が生じたのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT2019"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "これを皮切りに、\n世界は更なる混乱の渦へと巻き込まれていく――。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0056_TXT2020"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "fade": 2
+      }
+    }
+  ]
+}

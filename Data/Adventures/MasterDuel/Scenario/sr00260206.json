@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00260206",
+  "sourceBundle": "a7fade5e",
+  "sourceSha256": "ba9389ab5580dd61a339059328935a17128dfcd7f0ea820ded67a0baa7ae5350",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "天下に轟く忠義の侍",
+        "titleId": "IDS_SCENARIOGATE0026_TITLE1001",
+        "path": "Scenarios/Gates/Gate026/Bg_Sr00260206_tittle",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_16",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate026/Bg_Sr00260206_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "各々が天下統一という野望を抱き、\n争いを繰り広げていた戦国の世。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT1001"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そんな混沌とした時代の中にあって\n持ち前の才覚と才知を武器に、\n天下人に最も近い者として名を馳せた武将がいた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT1002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その名は「大将軍 紫炎（シエン）」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT1003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "激しく燃え盛る野心を持ちながら\n冴え冴えとした眼差しで世を見据える。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT1004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "他を従えるカリスマ性を兼ね備える\n稀代の名将であった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT1005"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_13",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate026/Bg_Sr00260206_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 8,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "戦場では真紅の甲冑をまとい、\n時に自ら陣頭指揮を取ることもあった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT1006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その魔人のごとき眼光に\n射すくめられた敵兵は\n逃げることもままならず。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT1007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "紫炎（シエン）は巻藁を切って捨てるかのように\n悠々と前進していったという。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT1008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "このように無類の強さを誇る\n紫炎（シエン）だったが、\nすでに個人が国を支配できる時代ではない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT1009"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "frm": "",
+        "dst": "#988E9AFF"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "BlurLayer",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "frm": 0,
+        "dst": 2,
+        "target": 20
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "",
+        "path": "Scenarios/Gates/Gate026/Pre_Sr00260206_01",
+        "pos": 0,
+        "slayer": "Default",
+        "duration": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼も多くの家臣に支えられていたのだ。",
+        "autominsec": 4,
+        "textId": "IDS_SCENARIOGATE0026_TXT1010"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_16",
+        "fade": 2
+      }
+    }
+  ]
+}

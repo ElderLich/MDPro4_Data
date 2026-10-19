@@ -1,0 +1,443 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00340276",
+  "sourceBundle": "5927c85c",
+  "sourceSha256": "3af2bbccddceee293789a1e5698b1a0664e08a3943e54d4eb54fa7c4a9d37dc2",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate034/Bg_Sr00340276_00c",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "各部族が独自に開発し、戦場へ送り出された\n「A・O・J（アーリー・オブ・ジャスティス）」の兵器だったが、\n投入直後は期待通りの性能を発揮した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT3001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、ある程度の時期が過ぎると\n目覚ましい戦果を挙げられなくなっていく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT3002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それはなぜか。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT3003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ワームがそれらの兵器にすら適応してしまうからだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT3004"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate034/Bg_Sr00340276_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "氷結界（ひょうけっかい）が開発した\n「A・O・J アンノウン・クラッシャー」が放つ冷気。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT3005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、フレムベルの「A・O・J ルドラ」の炎に対しては\n極低温・超高温に耐えるワームが産まれた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT3006"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate034/Bg_Sr00340276_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "霞の谷（ミスト・バレー）が作り上げた\n「A・O・J クラウソラス」は\n上空からの奇襲を目的としていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT3007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、侵略者は擬態能力を身に着けて\nその目を欺いた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT3008"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate034/Bg_Sr00340276_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「X（エックス）－セイバー」が製造した\n「A・O・J サウザンド・アームズ」の斬撃。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT3009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それには、刃を通さないほどに硬化した皮膚や\n分裂・再生能力を持つものが現れた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT3010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "同盟は存亡の危機を打開するために\n協力を誓ったはずだった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT3011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、元々は争っていたのが尾を引き、\n部族間で見解の相違や足並みの乱れが\n多くなっていたのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT3012"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "frm": "",
+        "dst": "#6A7882FF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "このままでは敗北する。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0034_TXT3013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "侵略者に対抗するために、\n我々は真に結束しなければならない。\nそうでなければ何のための同盟なのか。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT3014"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate034/Bg_Sr00340272_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 8406,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 7550,
+        "pos2": 2,
+        "se2": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk3": 7957,
+        "pos3": 3,
+        "se3": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk4": 7539,
+        "pos4": 4,
+        "se4": "SE_SOLO_DEGITAL_CARD_01"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "４つの部族は過去のわだかまりを捨て、\n本当の意味で協力しあった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT3015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そうして各部族の技術者たちは、\nこれまでの兵器の長所や短所、\nワームの特性などを解析。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT3016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "近距離戦における攻撃性能と制圧力。\n防衛線や乱戦における防御性能。\n距離を取る目標に対する機動性能。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT3017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "さらに、規格の統一による量産性。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT3018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "技術の粋を結集し、\n全てを必要十分に備えた驚異の兵器が誕生する。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT3019"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate034/Bg_Sr00340276_04a",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「A・O・J カタストル」。",
+        "autominsec": 3,
+        "textId": "IDS_SCENARIOGATE0034_TXT3020"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "結果として、\nこの兵器はこれまでにない傑作機として仕上がった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT3021"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "実戦での性能や信頼性が証明されるとすぐに量産が始まり、\n前線に立つ部族たちを大いに助けることとなる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT3022"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ワームの侵攻は日を追うごとに激しさを増し、\n戦いは大陸全土に広がっていく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT3023"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "終わりの見えない戦いではあったが、\n「A・O・J」の結束はこの星に生きる部族たちにとって\n大きな希望となるのだった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT3024"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "fade": 2
+      }
+    }
+  ]
+}

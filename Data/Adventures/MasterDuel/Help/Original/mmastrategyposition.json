@@ -1,0 +1,81 @@
+{
+  "sourceBundle": "fd63fd46",
+  "sourceSha256": "6b16e86c6aa8638f75aefa244efd98c454f9de65959a276cef0e0d48a6dd3b66",
+  "mma": {
+    "tp": "Pager",
+    "title": {
+      "useId": false,
+      "tid": "",
+      "ja_JP": "クエスト ヘルプ",
+      "en_US": "",
+      "fr_FR": "",
+      "it_IT": "",
+      "de_DE": "",
+      "es_ES": "",
+      "pt_BR": "",
+      "ko_KR": ""
+    },
+    "contents": [
+      {
+        "tp": "HalfImageTextPage",
+        "caption": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_POSITION_H",
+          "ja_JP": "モンスターの表示形式とは？",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "text": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_POSITION_B",
+          "ja_JP": "モンスターには３つの表示形式があります。\n①手札からモンスターを召喚した時などに「表側攻撃表示」になります。攻撃を行う時はこの表示形式にします。\n②手札からモンスターをセットした時などに「裏側守備表示」になります。\n③裏側守備表示のモンスターが相手に攻撃されたり、カードの効果によって表示形式が変更された時などに「表側守備表示」になります。",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "buttons": [],
+        "resourcePath": "Help/Strategy/HelpStrategyPosition"
+      },
+      {
+        "tp": "HalfImageTextPage",
+        "caption": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_BATTLEDAMAGE_H",
+          "ja_JP": "戦闘ダメージの計算方法とは？",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "text": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_BATTLEDAMAGE_B",
+          "ja_JP": "モンスターが戦闘を行う場合に使用する数値は、モンスターの表示形式によって変化します。\n①攻撃表示VS攻撃表示...お互いの攻撃力の数値を比べます。\n②攻撃表示VS守備表示...攻撃表示モンスターの攻撃力と、守備表示モンスターの守備力を比べます。",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "buttons": [],
+        "resourcePath": "Help/Strategy/HelpStrategyBattleDamage"
+      }
+    ],
+    "isLoop": false,
+    "startPage": 0
+  }
+}

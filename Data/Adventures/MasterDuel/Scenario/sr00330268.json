@@ -1,0 +1,556 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00330268",
+  "sourceBundle": "15a4080a",
+  "sourceSha256": "acc5294c3e468fffa8fbdb661766eea97d4a3918db44709a57a89ee73ff46b3d",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate033/Bg_Sr00330268_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_16",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "高天原(タカマガハラ）へ戻った\n武神帝の三人が見たのは、瘴気（しょうき）によって\n憎悪に支配されたヒルメの姿だった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT4001"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "frm": "",
+        "dst": "#685978FF"
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 0.5
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 10620,
+        "pos": 1,
+        "se1": "SE_SOLO_WAFU_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 0.8
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_WAFU_CARD_01",
+        "mrk2": 10754,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 0.8
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_WAFU_CARD_01",
+        "mrk2": 0,
+        "pos2": 6,
+        "se2": "",
+        "mrk3": 10913,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "黒き姫神の強権により、\n武神帝たちに貸与されていた\n武神器が本来の持ち主の元へ戻る。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT4002"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WAFU_CARD_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 10620,
+        "dstmrk": 10814
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 10754,
+        "dstmrk": 10872
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 10913,
+        "dstmrk": 10987
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "すると、\n武神器がいかなる時も発していた柔らかな光が\nまるで墨が広がるように黒く染まっていった",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT4003"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.3,
+        "frmcolor": "",
+        "dstcolor": "#223322FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate033/Bg_Sr00330268_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、それらを身にまとったヒルメは\n闇の最高神・アマテラスとして降臨した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT4004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "かつてその身から発せられていた\n慈愛の光は失われ、\n世界は日食のごとき闇に包まれる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT4005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "天と地の命運をかけた決戦の幕が上がる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT4006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その激しい攻防は高天原(タカマガハラ）を\n破壊してしまわんばかりだった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT4007"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate033/Bg_Sr00330268_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "zoom": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "三人の武神帝は攻守の要となる武神器――\nムラクモとヤサカニ、ヤタを失い、\n苦戦を強いられていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT4008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "戦いを前にして大幅に力を削がれた三人だったが、\n彼らの闘志は失われていない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT4009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "武神帝たちはそれぞれが持つ神剣――\n「ハバキリ」と「オハバリ」、「ヤツカ」の力を\n結集して反撃に出る。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT4010"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WAFU_KATANA_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Flash",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "cnt": 1,
+        "color": "#9A0000FF"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "frm": "",
+        "dst": "#232323FF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、\nその神剣の力を託されたスサノヲの一閃が\nついに闇を切り裂く。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT4011"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "yami",
+        "path": "Scenarios/Gates/Common/Effect/EF_Dark",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "アマテラスは倒れ、\n彼女と黒く染まった武神器に宿る瘴気も打倒されたのであった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT4012"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate033/Bg_Sr00330263_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "",
+        "path": "Scenarios/Gates/Common/Effect/EF_BallGold",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "yami",
+        "duration": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "こうして天と地、\nすべての世界を巻き込んだ\nヒルコの野望は潰えた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT4013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "だが、高天原(タカマガハラ）の神々には、\nまだするべきことが多く残されている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT4014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "高天原(タカマガハラ）の再建と、\n地上世界の救済。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT4015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "神としての務めを果たすため、\n彼らの新たな戦いが始まるのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT4016"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_16",
+        "fade": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "sourceBundle": "a3dfab46",
+  "sourceSha256": "b617157a2c2ebe0ec1bee421b34de9c45dea2a9f97a3737a9b555d02825f4ab0",
+  "mma": {
+    "tp": "Pager",
+    "title": {
+      "useId": false,
+      "tid": "",
+      "ja_JP": "クエスト ヘルプ",
+      "en_US": "",
+      "fr_FR": "",
+      "it_IT": "",
+      "de_DE": "",
+      "es_ES": "",
+      "pt_BR": "",
+      "ko_KR": ""
+    },
+    "contents": [
+      {
+        "tp": "HalfImageTextPage",
+        "caption": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_ADVANCE_H",
+          "ja_JP": "アドバンス召喚とは？\r",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "text": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_ADVANCE_B",
+          "ja_JP": "レベル５以上のモンスターを通常召喚する方法を「アドバンス召喚」といいます。\r\n召喚したいモンスターのレベルによって、決められた数の自分フィールドのモンスターをリリースします。\r\n通常召喚は１ターンに１度ですので、既に通常召喚を行っているターンにアドバンス召喚を行うことはできません。\r\n",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "buttons": [],
+        "resourcePath": "Help/Strategy/HelpStrategyAdvance"
+      }
+    ],
+    "isLoop": false,
+    "startPage": 0
+  }
+}

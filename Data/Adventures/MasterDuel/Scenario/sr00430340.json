@@ -1,0 +1,400 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00430340",
+  "sourceBundle": "358eb835",
+  "sourceSha256": "1326bbc8d821fec0b7cd53b61e78976a8c6bf7219543fb63c3453f9681e26f14",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "ミュートリア・ミューテーション",
+        "titleId": "IDS_SCENARIOGATE0043_TITLE1001",
+        "path": "Scenarios/Gates/Gate043/Bg_Sr00430340_title",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_28",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate043/Bg_Sr00430340_00",
+        "oscale": 0,
+        "color": "#BBC5C8FF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "宇宙に満ちる多くの謎。\n未知なる存在と力。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT1001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "時には奇跡、時には魔術と呼ばれ畏怖されながらも、\n人類は飽くなき探求心を抱き、科学技術を駆使して、\nその真実を解き明かしてきた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT1002"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、この世の神秘が尽きる事はない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT1003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そしてまた新たな謎が、\nこの星へと墜ちてくる……。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT1004"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#FF2525FF",
+        "target": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_BAKUHATSU_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate043/Bg_Sr00430340_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#FF252500",
+        "target": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『惑星外より落下する物体を観測。\n対応可能な所員は落下予測地点へ向かい、\n未確認物体を調査せよ』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT1005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『了解。直ちに現場へ急行する。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT1006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "荒野の地に落下した未確認物体。\nこれは、他星系からの\nコンタクトであるかもしれない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT1007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "謎に満ちたこの存在を解明すべく、\n世界中から各分野のエキスパートが召集される。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT1008"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate043/Bg_Sr00430340_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 45,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そうして結成された解析チームは、\n落下地点を仮設ドームで覆い、\nこの物体の観測・調査を開始した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT1009"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Hito1",
+        "path": "Scenarios/Gates/Gate043/Pre_Sr00430344_00",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_NOISE",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『この部分は目か？\n金属のように硬質な部位や、\n人間の臓器のように軟質な部位をあわせ持っている。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT1010"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Hito2",
+        "path": "Scenarios/Gates/Gate043/Pre_Sr00430344_01",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『部位ごとに構成物質に違いはあるが、\n有機体ではありそうだ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT1011"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Hito3",
+        "path": "Scenarios/Gates/Gate043/Pre_Sr00430344_02",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『これは……\n知性を有していると考えて\nよいのだろうか？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT1012"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Hito1",
+        "duration": 1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Hito2",
+        "duration": 1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Hito3",
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "時が経ち、\n様々な観測・調査が進んだ結果……。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT1013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この物体、いや、この生物は、\nこの星にない特異な性質を持っていることが分かった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT1014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この生物の生態を解き明かすことで、\n新たな知見を得られるかもしれない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT1015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "人間たちは、この物体を「ミュートリア」と呼称し、\n専門の研究機関「ミュートリア進化研究所」を設立。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT1016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "さらなる観測・調査を進めるのだった……。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0043_TXT1017"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_28",
+        "fade": 2
+      }
+    }
+  ]
+}

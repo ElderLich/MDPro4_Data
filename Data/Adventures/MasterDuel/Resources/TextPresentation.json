@@ -1,0 +1,117 @@
+{
+  "sourceBundle": "dd66d5f8",
+  "sourceSha256": "6eba74b912c40ad60c8380700af1975d4a36134e17fc3e03919a8744fab04acc",
+  "lineFade": {
+    "duration": 0.6000000238418579,
+    "easing": 0,
+    "style": 0,
+    "from": 0.0,
+    "to": 1.0,
+    "curve": {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 1.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": 1.0,
+          "inSlope": 1.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    }
+  },
+  "fontSize": 30.0,
+  "lineWait": 0.2,
+  "lineWaitEvidence": "2.8.0 ScenarioTextPlayer.<yPlay>d__14.MoveNext RVA 0x9a4ea0, literal 0x3e4ccccd after Tween.TargetPlayLabel; only when line count > 1.",
+  "centerSize": {
+    "x": 1020.0,
+    "y": 830.0
+  },
+  "lineSpacing": 40.0,
+  "screenFlash": {
+    "label": "Flash",
+    "duration": 0.05000000074505806,
+    "easing": 0,
+    "style": 2,
+    "setupWait": 0.0,
+    "startDelay": 0.0,
+    "from": 0.0,
+    "to": 1.0,
+    "curve": {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 1.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": 1.0,
+          "inSlope": 1.0,
+          "outSlope": 0.0,
+          "weightedMode": 0,
+          "inWeight": 0.0,
+          "outWeight": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2,
+      "m_RotationOrder": 4
+    },
+    "ignoreTimeScale": true,
+    "isRecusive": false,
+    "sourcePathId": -5101062775828726320,
+    "deactivateOnFinish": true,
+    "runtimeDuration": 0.2,
+    "runtimeDurationEvidence": "ScenarioBehavior_Flash.ProgressInit sets each Flash tween duration to 0.2 seconds; PingPong completes after two legs."
+  },
+  "subtitle": {
+    "anchorMin": {
+      "x": 0.5,
+      "y": 0.0
+    },
+    "anchorMax": {
+      "x": 0.5,
+      "y": 0.0
+    },
+    "anchoredPosition": {
+      "x": 0.0,
+      "y": 173.0
+    },
+    "sizeDelta": {
+      "x": 1020.0,
+      "y": 830.0
+    },
+    "pivot": {
+      "x": 0.5,
+      "y": 0.0
+    },
+    "sourceGroupPathId": 4399965467510690697,
+    "sourceTemplatePathId": -5304349527027693259,
+    "fontSize": 30.0,
+    "templateSize": {
+      "x": 178.02000427246094,
+      "y": 30.010000228881836
+    },
+    "childAlignment": 7,
+    "spacing": 40.0,
+    "fadeDuration": 0.6000000238418579
+  }
+}

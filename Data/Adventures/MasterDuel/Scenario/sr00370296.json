@@ -1,0 +1,325 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00370296",
+  "sourceBundle": "80049f02",
+  "sourceSha256": "397d411e1e58232d8ab2e33cdc80e535f31472189659d07ec186882c6bd3b81b",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate037/Bg_Sr00370295_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_23",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_5"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "街の各所で人々を脅かしていた「ヴェンデット・キマイラ」は、\n「リヴェンデット・スレイヤー」によって\n次々と倒されていった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT3001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、その度重なる激闘が\nさらなる脅威を呼び込むこととなる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT3002"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Fire",
+        "path": "Scenarios/Gates/Gate012/Sr00120067_Fire",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate037/Bg_Sr00370297_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_05",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ある日、常とは比較にならないほどの怨念を感知し、\nスレイヤーは急ぎその場所へと駆けつける。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT3003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そこに広がっていたのは人々が善戦し、\nキマイラの侵攻にも耐えきっていたはずの防衛線が\n破られた光景だった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT3004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "守備の要であった装甲車や壁も無残に破壊され、\n多くの人々が骸をさらしている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT3005"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "zoom": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "pos": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "群れを率いていたのは、\nキマイラに倍する以上の体躯を\n禍々しい鎧で包んだ怨念の塊。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT3006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは、これまでスレイヤーに倒されたヴェンデットの怨念が\n一つとなって生まれた\n「ヴェンデット・バスタード」だった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT3007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "燃え上がるスレイヤーへの復讐心は強大な力となり、\n周囲に破壊と死をまき散らしていく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT3008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "全てのヴェンデットを滅ぼそうとする\nスレイヤーの復讐心と、\nそのスレイヤーを滅ぼそうとするバスタードの怨念。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT3009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "負の意志が形となって\n顕現した者同士の死闘が始まった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT3010"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate037/Bg_Sr00370297_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 13208,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 13534,
+        "pos": 2,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "想像を絶し、バスタードの力は絶大だった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT3011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "周囲のヴェンデットのみならず、\nその場で命を落とした人々をもヴェンデット化して取り込み、\nバスタードは無尽蔵に力を増大させていく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT3012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "どれほど憎悪の炎を燃やしても、\n復讐の刃は敵に通らない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT3013"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_ATTACK_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Flash",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "cnt": 1,
+        "color": "#B20101FF"
+      }
+    },
+    {
+      "command": "CardFadeOut",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "mrk": 13208
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "最後にはその圧倒的なバスタードの力になす術なく、\nスレイヤーは叩き伏せられてしまう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0037_TXT3014"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_23",
+        "fade": 2
+      }
+    }
+  ]
+}

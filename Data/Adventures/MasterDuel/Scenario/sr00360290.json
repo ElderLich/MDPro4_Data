@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00360290",
+  "sourceBundle": "54071387",
+  "sourceSha256": "36641013570976e5133ac1ccb32818347eb67bff5a04327148f54e096c85b89a",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate036/Bg_Sr00360290_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_18",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 0,
+        "frm": "",
+        "dst": "#9CAAB7FF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "騎甲虫（ビートルーパー）には\n様々な種が存在し、それぞれ得意な戦場が存在した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT2001"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "frm": "",
+        "dst": "#FFFFFFFF"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 12,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "鉄球のような姿へ形態変化する甲虫と、\nそれを戦場まで運ぶ甲虫。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT2002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "２体の息の合ったコンビネーションが光る\n「騎甲虫アサルト・ローラー」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT2003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らが投入された降下作戦では\n石造りの壁を易々と破壊するなど、\n大きな戦果を挙げてきた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT2004"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate036/Bg_Sr00360290_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "荒地など足場の悪い戦場では、\n空中戦を得意とする\n「空殺舞隊」の活躍がめざましい。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT2005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "可燃性のりんぷんをまき散らし、\n火種を投下して辺りを火に包む爆撃兵\n「騎甲虫スケイル・ボム」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT2006"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 12,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.5030674934387207,0.5030674934387207,0.0,0.08536585420370102],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "先陣を切っては、広範囲をかく乱した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT2007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "残った目標には\n「騎甲虫スティンギー・ランス」が、\n毒槍の強襲で致命傷を与える。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT2008"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate036/Bg_Sr00360290_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "騎甲虫（ビートルーパー）の中でも\n特に注目すべきは、\nやはり最大戦力たる巨大甲虫たちだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT2009"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 16942,
+        "pos": 5,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "遠距離からの砲撃を得意とし、\n射手の攻撃と巨砲の一撃で勝利を手にする\n「重騎甲虫マイティ・ネプチューン」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT2010"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 16943,
+        "pos": 6,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "攻撃目標を焦土へと変えてしまう程の\nエネルギーを主砲から撃ち出す\n「超騎甲虫アブソリュート・ヘラクレス」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT2011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "いずれも\n「大騎甲虫インヴィンシブル・アトラス」に\n勝るとも劣らない戦力の要である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT2012"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.3177270293235779,0.3177270293235779,0.07723575830459595,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "騎甲虫（ビートルーパー）が勝利した時、\nその地は彼らの生活圏となる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT2013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らは多くの仲間たちと共に生きていくために、\n広大な土地や豊かな自然を求めているのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT2014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、また新たな戦いの地へ\n騎甲虫（ビートルーパー）たちは\n降り立っていく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT2015"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_18",
+        "fade": 2
+      }
+    }
+  ]
+}

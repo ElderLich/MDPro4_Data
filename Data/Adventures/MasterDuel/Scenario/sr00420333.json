@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00420333",
+  "sourceBundle": "dea656f8",
+  "sourceSha256": "7d92d230a0de5eee79f4f979c5537950df9c679c58681b561401b6e520d8757c",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "同調する機械生命",
+        "titleId": "IDS_SCENARIOGATE0042_TITLE1001",
+        "path": "Scenarios/Gates/Gate042/Bg_Sr00420333_titile",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate042/Bg_Sr00420333_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 25,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "他の原住部族の文明社会とは\n長きにわたり切り離されて暮らす存在があった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT1001"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その名は「ジェネクス」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT1002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "水、火、風といった自然の力を利用したエネルギー、\nそれらをコントロールする力を持った機械生命である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT1003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らはその力を用いて自然環境を改善し、\nあたかも星そのものを癒やすかのような\n活動を黙々と続けていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT1004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この星に生きる原住部族に\nその存在を知る者は少なく、\nその生態の多くが謎に包まれたジェネクス。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT1005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その目的は何なのか？\nいつからこの星に存在していたのか？",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT1006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「A・O・J（アーリー・オブ・ジャスティス）」の\n一部の技術者は、彼らの力に目を付け、\n密かに観測を開始した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT1007"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate034/Bg_Sr00340272_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "一方その頃、宇宙からの侵略生物である\n「ワーム」と「A・O・J」との戦いは\n厳しさを増していた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT1008"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7552,
+        "pos": 5,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「A・O・J カタストル」をはじめとする兵器が\n各地の戦場に投入され、\n一定以上の戦果を挙げてはいた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT1009"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7547,
+        "pos": 2,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 7831,
+        "pos2": 4,
+        "se2": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、「ワーム・イーロキン」や\n「ワーム・イリダン」といった大型種の出現によって、\nその勢いにも陰りが見え始めていたのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT1010"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "A・O・Jの技術者のみならず、\n前線で戦う兵たちも、\n戦いの泥沼化を予感していた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT1011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "A・O・Jの技術者たちも現状を打破すべく、\n様々な技術開発・研究を進めていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT1012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そんな時である。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0042_TXT1013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ジェネクスの調査を\n担当していた者から報告が届く。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT1014"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate042/Bg_Sr00420333_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_09",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ジェネクスとワームが接触、\n戦いを始めた――。』と。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT1015"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "fade": 2
+      }
+    }
+  ]
+}

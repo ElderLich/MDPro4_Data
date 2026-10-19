@@ -1,0 +1,464 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00400322",
+  "sourceBundle": "ca7a044f",
+  "sourceSha256": "1c98506b2b3bc87b0e12874f19c5daf6498d9adb54345806330d70ae6a9c8449",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate040/Bg_Sr00400319_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_26",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ん、なんだ？\n何か質問があるのか？",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT2001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「ゴーストリック」の全員が\n洋館にいるかどうかだと？",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT2002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "いや、ほかの場所にもいるようだ。\n町の博物館に住んでいる者もいると\n聞いている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT2003"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 10939,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 10911,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「デュラハン」や「マミー」なんかは、\n展示物に化けてジッとし、夜になったら、\nそこらへんをウロウロしているらしい。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT2004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "博物館には珍しいものが展示されてるから\n夜でも見物に来るニンゲンがいるようだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT2005"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate040/Bg_Sr00400322_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この前、\n『見物にきてた”ケイビインサン”を驚かせた』と\n嬉しそうに話していたぞ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT2006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『かくれんぼみたいで楽しい！』とか\n言っていたが……。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT2007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その時に「マミー」が何やら\nニンゲンのものを\n壊してしまったようだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT2008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ニンゲンにはバレてないからセーフ！』\nとか言ってはいたが、\n魔女にはしっかり怒られてたな。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT2009"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "path": "Scenarios/Gates/Gate040/Bg_Sr00400322_01",
+        "oscale": 0,
+        "color": "#B4A3C8FF"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ニンゲンの大きな祭りなどがある日は、\n居候たちもこの洋館を飛び出して\n町に行っている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT2010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "私は遠くから眺めるだけだが、\n町中が賑やかに飾り立てられ、夜になっても\n仮装したニンゲンたちが楽しそうにしていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT2011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "普段は驚かされると慌てて逃げだすニンゲンだが、\nその日は逃げずにニコニコしていたらしい。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT2012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "驚かせた本人たちが不思議そうにしていたぞ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT2013"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate040/Bg_Sr00400319_00",
+        "oscale": 0.1,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "さて……今宵は少し長く\nしゃべりすぎたようだ。\n私はそろそろ眠るとしよう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT2014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "まだ話し足りないなら、\n起きている者としてくれ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT2015"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_LAUGHTER_2",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "では……\n静かな良き夜を……。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT2016"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 10909,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 10747,
+        "pos2": 2,
+        "se2": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk3": 10751,
+        "pos3": 3,
+        "se3": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk4": 16819,
+        "pos4": 4,
+        "se4": "SE_SOLO_DEGITAL_CARD_01"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『あれ？\nニンゲン？\nニンゲンがいるの？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT2017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『アハハハハハハ！\nねえ、キミもボクたちと遊ばない？\nアハハハハハハハハハハ！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT2018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『遊んでくれないと……\nイタズラしちゃうぞ！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT2019"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_LAUGHTER",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.1,
+        "cycle": 0.1,
+        "target": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『アハハハハハハハハハハハハハハ！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0040_TXT2020"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_26",
+        "fade": 2
+      }
+    }
+  ]
+}

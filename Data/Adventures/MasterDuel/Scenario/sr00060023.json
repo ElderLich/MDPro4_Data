@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00060023",
+  "title": "The Warriors of the Six Elemental Lords",
+  "sourceBundle": "abea3d36",
+  "sourceSha256": "258d7812a9ab420683d18526a3aaa50213b6b9aa7dbb08792ebe499f867ea68b",
+  "resourceIndex": "../Resources/Index.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "六霊神の戦士",
+        "path": "Scenarios/Gates/Gate006/Texcture/Bg_Sr00060023_tittle",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "titleId": "IDS_SCENARIOGATE0006_TITLE1001"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate002/Bg_Sr00020004_00",
+        0,
+        "#42484FFF",
+        1
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate006/Bg_Sr00060023_00",
+        "oscale": 0,
+        "color": "#FFFFFF00",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_08",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "世界を構成する６つのエレメント。\r\nすなわち、地・水・炎・風。\r\nそして光と闇。",
+        "textId": "IDS_SCENARIOGATE0006_TXT1001",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それらは６体の「霊神」によってもたらされていた。",
+        "textId": "IDS_SCENARIOGATE0006_TXT1002",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "６つのエレメントが均衡していれば世界は平穏だ。\r\n しかし、そのバランスが崩れた時、\r\n「霊神」は現れる。",
+        "textId": "IDS_SCENARIOGATE0006_TXT1003",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_UMEKIGOE_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate006/Bg_Sr00060023_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.5,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 0.5,
+        "shakex": false,
+        "shakey": true,
+        "wave": 1,
+        "cycle": 0.1,
+        "target": 0
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "人の目に見えるほどに存在密度を増した「霊神」。 \r\nそれは災害に等しい。 ",
+        "textId": "IDS_SCENARIOGATE0006_TXT1004",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "これまでにも何度か「霊神」は現れ、\r\n世界に天変地異をもたらしていた。",
+        "textId": "IDS_SCENARIOGATE0006_TXT1005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate006/Bg_Sr00060023_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "古代の人々は、\r\n度々引き起こされる災害を鎮めるため、\r\n神殿を建造。\r",
+        "textId": "IDS_SCENARIOGATE0006_TXT1006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "人々は祈り続けた。  \r\nだが、「霊神」にはその願いを解する機能はない。",
+        "textId": "IDS_SCENARIOGATE0006_TXT1007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ところが、彼らの必死な祈りは、\r\n数百年の時を経て奇跡的に届いたのだ。",
+        "textId": "IDS_SCENARIOGATE0006_TXT1008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは「霊神」とは関係なく、\r\n人々を不憫に思った別の\r\n何かによる作用だったのかもしれない。",
+        "textId": "IDS_SCENARIOGATE0006_TXT1009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "mrk": 13573,
+        "pos": 3,
+        "mrk2": 13574,
+        "pos2": 1,
+        "mrk3": 13576,
+        "pos3": 2,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "se2": "SE_SOLO_DEGITAL_CARD_01",
+        "se3": "SE_SOLO_DEGITAL_CARD_01",
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「霊神」は、数人の人間を選んだ。",
+        "textId": "IDS_SCENARIOGATE0006_TXT1010",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 0
+      },
+      "args": {}
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "mrk": 13577,
+        "pos": 1,
+        "mrk2": 13575,
+        "pos2": 2,
+        "mrk3": 13578,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "se2": "SE_SOLO_DEGITAL_CARD_01",
+        "se3": "SE_SOLO_DEGITAL_CARD_01",
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らの名は「エレメントセイバー」。\r\n「霊神」に仕え、\r\nエレメントの力を制御する存在である。",
+        "textId": "IDS_SCENARIOGATE0006_TXT1011",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_08",
+        "fade": 2
+      }
+    }
+  ]
+}

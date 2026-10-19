@@ -1,0 +1,460 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00240195",
+  "sourceBundle": "97b7d994",
+  "sourceSha256": "f435774c0962698052a921bf27deb45a720fdd4b8801a77bd680aca2a496a869",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate024/Bg_Sr00240192_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_20",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "占い師の話は続きます。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT2001"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WHOOSH_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate024/Bg_Sr00240195_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 12,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.041120998561382297,0.041120998561382297,0.14919352531433106,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "太陽の紋様が昇る鏡に導かれた世界は\n光に満ちるきらびやかな地。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT2002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そこは、自らも清らかな存在となり\n聖獣や光の騎士、乙女たちが生きる\n美しい世界です。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT2003"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_05",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate024/Bg_Sr00240195_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 8,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "一方、月の紋様が昇る鏡に導かれた世界は\n深き闇に包まれた地。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT2004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そこは、自らも負の感情に囚われた存在となり、\n魔獣や闇の騎士、死神たちが生きる\n恐ろしい世界です。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT2005"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_06",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate024/Bg_Sr00240195_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "zoom": 1.4,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.299999952316284,2.299999952316284,0.0,0.1875],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.31428569555282595,0.31428569555282595,0.4375,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "夢の支配者はこの二つの夢の世界を巧みに操り、\n幾度も人々を夢の世界へと誘います。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT2006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "人々が見る夢は力の源。\n夢を見せ、夢を通して\n人々の心を支配していくのです。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT2007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "夢に魅了され、夢と現の境を見失ってしまった者は、\n二度と目覚めないと言われています。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT2008"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "frm": "",
+        "dst": "#A4A0B7FF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『それでは、私はどうなってしまうのでしょう。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT2009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "不安に駆られた来訪者が、\n占い師に尋ねる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT2010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『大丈夫、恐れることはありません。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT2011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『二つの夢の世界にまつわる話は、\n古くから言い伝えられています。\n現代でも、それを体験をする人は少なくありません。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT2012"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate024/Bg_Sr00240195_03",
+        "oscale": 0,
+        "color": "#B4AEA1FF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『その中でも、最も不思議で謎に満ちた体験をしたのは、\nとある子供たちだったと聞き及んでいます。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT2013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『それでも、夢にとらわれることなく\n目覚めた後、自分たちが見た夢の世界を\n楽しく語らっていたそうです。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT2014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『夢の中での体験が力の源となるのは、\nあなたにとっても同じです。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT2015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『恐れず自信をもつことが\n夢の支配者に対抗しうる\n大きな力になるでしょう。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT2016"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate024/Bg_Sr00240192_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "来訪者は安堵の表情を浮かべ\n訪れた時とはいくらか正気を取り戻した様子で、\n占い師の前から去っていった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT2017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "――もしかしたら、あなたが今宵見る夢も\n夢の支配者によって見せられた夢かもしれません。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT2018"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_20",
+        "fade": 2
+      }
+    }
+  ]
+}

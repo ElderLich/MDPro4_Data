@@ -1,0 +1,452 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00530417",
+  "sourceBundle": "188e1cf3",
+  "sourceSha256": "e43c0e58a96619c2fb9ccc0127ff9ea251dbabe250176d774050089cfa9029ee",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate053/Bg_Sr00530417_00",
+        "oscale": 0.05,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_37",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Pre0",
+        "path": "Scenarios/Gates/Gate053/Pre_Sr00530414",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 50,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "長らく平和だった「ナチュルの森」にも\nついに「ワーム」が現れてしまった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT2001"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7830,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "はじめそれは、森において、\n小さな異物にすぎなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT2002"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "住民たちはこれまでと同様に、\n異邦の者を追い返す。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT2003"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7546,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 7544,
+        "pos2": 2,
+        "se2": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk3": 8113,
+        "pos3": 3,
+        "se3": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk4": 7832,
+        "pos4": 4,
+        "se4": "SE_SOLO_DEGITAL_CARD_01"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "だが、侵入者は途絶えることはなく\n日を追うごとにその数は増していく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT2004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "\"このままでは森が侵略者の波に\n吞まれてしまう――。\"",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT2005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そこで、森を侵す「ワーム」の掃討を\n引き受けた者たちがいた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT2006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ナチュルの森において最も力ある存在。\n「守護獣」たちである。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT2007"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Pre0",
+        "duration": 0
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "frm": "",
+        "dst": "",
+        "path": "Scenarios/Gates/Gate053/Bg_Sr00530417_00 1",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.08536583185195923,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "戦いは、日を追うごとに\n激しさを増していた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT2008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "守護獣の一体、「ナチュル・ガオドレイク」は\n戦闘の合間に、過ぎ去った平穏な日々を懐かしむ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT2009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "もう、幾日このような戦いを続けているのだろうか。\n地に腹を付けて眠れなくなって久しい。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT2010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ガオドレイクの持つ強靱な牙と爪の前では、\n森を襲う「ワーム」も敵ではなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT2011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、その数があまりにも多すぎる。\nそしてその侵攻に絶え間がない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT2012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「ナチュル・ビースト」や「ナチュル・パルキオン」は、\nもちろんのこと、普段はあまり動かない\n「ナチュル・ランドオルス」さえ奮戦を続けていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT2013"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate053/Bg_Sr00530417_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Hachi",
+        "path": "Scenarios/Gates/Gate053/Pre_Sr00530417_00",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_BEE",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "一息つく間もなく、\n「ナチュル・ホーストニードル」たちの羽音が\n再度、森にこだます。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT2014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ワームの大群が\n押し寄せてきたことを報せる伝令だ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT2015"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 8119,
+        "pos": 6,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "木々の不穏なざわめきに視線を向け\n臨戦体制をとるガオドレイク。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT2016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "断続的な戦いで疲労は蓄積し、\nその力も十全とは呼べない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT2017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それでも、ガオドレイクは戦う。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT2018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "美しい森を守るため。\n平和に暮らす住処を守るため。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT2019"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_LIONVOICE",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.1,
+        "cycle": 0.1,
+        "target": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「ナチュル」の獅子は自らを鼓舞するように\n一際大きな声で吼えると、\n大地を削りながら「ワーム」の群れに突進していった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT2020"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_37",
+        "fade": 2
+      }
+    }
+  ]
+}

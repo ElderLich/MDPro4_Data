@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00350283",
+  "sourceBundle": "93b509ac",
+  "sourceSha256": "72a61802cd74bfd0c5dbcadc3c35aa38894cf43d7a6020c5a58ea7fc7bca31e1",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate035/Bg_Sr00350280_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_09",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "",
+        "path": "Scenarios/Gates/Gate035/Buble",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "流浪の民だった「水精鱗（マーメイル）」が\n様々な地を巡りながらも生きながらえてきたのは、\n彼らを率いる王族の存在によるところが大きい。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0035_TXT2001"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 10409,
+        "pos": 5,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "当代の王族の柱となっているのが、女王たる\n「水精鱗（マーメイル）－アビストリーテ」である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0035_TXT2002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "安寧を求める彼らであったが、\n生きていくためには大きな戦いを\n避けられぬ状況もあった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0035_TXT2003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そんな時は女王を支える側近、\n近衛戦士たちが民を守ってきたのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0035_TXT2004"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 2
+      },
+      "args": {}
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 10242,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 10393,
+        "pos2": 2,
+        "se2": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk3": 10597,
+        "pos3": 3,
+        "se3": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk4": 10471,
+        "pos4": 4,
+        "se4": "SE_SOLO_DEGITAL_CARD_01"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "鮫の歯を彷彿とさせるノコギリを振るう\n「水精鱗（マーメイル）－メガロアビス」を筆頭に、\nその勇ましさと強さは民に安堵と希望を与えている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0035_TXT2005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "有事に備えて設けられている近衛戦士だが、\n彼らには民を守るほかにも隠された使命があった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0035_TXT2006"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate035/Bg_Sr00350283_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは、一族に伝わる宝――\n魔力を宿す３つの鎧「アビスケイル」と、\n黄金の腕輪を守ることだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0035_TXT2007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "特に黄金の腕輪の伝承は、\n水精鱗（マーメイル）の民にも広まっている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0035_TXT2008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "\"世界を制する力を秘めし黄金の腕輪。\n身に着けたものは強大な力を手にし、\n水精鱗（マーメイル）の王となる――”",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0035_TXT2009"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#000533FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、腕輪の真の力と所在を知るのは\n女王・アビストリーテのみとされ、\nその多くが謎に包まれたまま。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0035_TXT2010"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#000533FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate035/Bg_Sr00350280_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#00053300",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "女王・アビストリーテは、\nそれらの宝が持つ力の行使を望んではいない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0035_TXT2011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "流浪の民であった水精鱗（マーメイル）が\nついにたどり着いた安住の地「レミューリア」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0035_TXT2012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "過ぎたる力を隠し、\nこの地で民が長く平和に暮らす――",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0035_TXT2013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼女はそれを願い続けているのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0035_TXT2014"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_09",
+        "fade": 2
+      }
+    }
+  ]
+}

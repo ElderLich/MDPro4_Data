@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00260211",
+  "sourceBundle": "20857abc",
+  "sourceSha256": "d10ef4585295b5f7bf239a1116e35330a6a619c12490b257bc3543d4e46be8b0",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate026/Bg_Sr00260211_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_16",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "紫炎（シエン）は六武衆に\n絶大な信頼を置いている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT4001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らには、部隊の将たる証、\nまた信頼の証として、名馬や名工の手による\n新たな甲冑などを惜しみなく授けた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT4002"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 50,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "六武衆の強さの秘密は、\n一人一人の強さだけではない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT4003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「我が主に天下を取らせる」という\n目的のために集った背中を預けられるほどの信頼。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT4004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それによって築き上げられた、\n一糸乱れぬ必勝の連携にあるといえるだろう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT4005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "六武衆が馳せ参じた戦は連戦連勝である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT4006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "戦場において、彼らの参戦を知った味方の士気は\n大いに上がり、逆に敵軍からは\n合戦前に逃亡する兵が出るほどだった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT4007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "だが、天下統一の道のりは険しい。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT4008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らの戦いは今後も続くのであった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT4009"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_16",
+        "fade": 2
+      }
+    }
+  ]
+}

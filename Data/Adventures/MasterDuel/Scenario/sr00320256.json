@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00320256",
+  "sourceBundle": "e4515f7e",
+  "sourceSha256": "25b05096d152f44f80868ce16cb52c714149ee6671fb03ccddd30c931cb4f4be",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate032/Bg_Sr00320256_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_22",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "frm": "",
+        "dst": "#92B0C8FF"
+      }
+    },
+    {
+      "command": "BlurLayer",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "frm": 4,
+        "dst": 4,
+        "target": 20
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "label": "Mob",
+        "path": "Scenarios/Gates/Gate032/Pre_Sr00320255_mob",
+        "pos": 0,
+        "duration": 0.5
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_CONGRATULATIONS",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Mob",
+        "tmlabel": "jump"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『おっ、祝砲の音が聞こえてきたな。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT2001"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Mob",
+        "tmlabel": "waiwai"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『そろそろ進水式が始まるみてーだ。\nオイラたちも盛大に盛り上げないとな！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT2002"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Mob",
+        "duration": 0.5
+      }
+    },
+    {
+      "command": "BlurLayer",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 8,
+        "frm": 4,
+        "dst": 0,
+        "target": 20
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 8,
+        "frm": "",
+        "dst": "#FFFFFFFF"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『オイラたちの団では進水式を終えたら、\nそのまま試しで近場を流すのが通例になってんだ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT2003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ちょっとしたお祝いも兼ねて\n航海するような感じだな。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT2004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『あれは青髭さんが作った新しい船、\nリュース号だ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT2005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『団員もいっぱい乗られるし、\n見つけた財宝もたくさん積めるんだ。\nスゲーよな。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT2006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ほかにもいろんな船があっけど、\n代表的な船は知っといた方がイイな。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT2007"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate032/Bg_Sr00320256_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『あの角の付いた船がプレンネ号だ。\nスピードと砲台の火力がウリよ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT2008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『晴れの日に手近なとこへ\n航海に出る時はコイツの出番だ。\nただ、燃料切れを起こすことも多いんだよな。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT2009"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate032/Bg_Sr00320256_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『あっちの黒い船はメルケ号。\n闇夜に紛れて航行する時に乗る船だ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT2010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『が、真っ暗な海を進むのは\nハッキリいって超ムズい。\nほかの船とキッチリ連携しないといけねーしな。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT2011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『なもんで、そんな時は大声で歌って\n自分たちの位置を知らせんのよ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT2012"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "frm": "",
+        "dst": "#A8BBC5FF"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Mob",
+        "path": "Scenarios/Gates/Gate032/Pre_Sr00320255_mob",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Mob",
+        "tmlabel": "jump"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_POYON",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『……ん？　何だ？\n歌ってたら闇に\n紛れられねえんじゃないかって？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT2013"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Mob",
+        "tmlabel": "big"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ノリがワリィぜ兄弟！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT2014"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Mob",
+        "tmlabel": "onp"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『たしかに、海は色んな危険が潜む\n超おっかねー場所だ。それでもオイラたちは陽気に\n海へと繰り出すんだよ！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT2015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『それに、どんなにラクショーっぽい航海でも、\nキャプテンたちはマンガイチのための\n作戦を事前に用意してる。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT2016"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Mob",
+        "tmlabel": "jump2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『仲間を大切にするキャプテンだからこそ、\nそういうところはしっかりやってんだよな。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT2017"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate032/Bg_Sr00320256_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 0
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1,
+        "skip": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『さて、船が戻ってくるまでオイラたちは留守番だ。\n留守番つっても掃除に宴の準備……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT2018"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Mob",
+        "tmlabel": "big"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『やることはいくらでもあっぞ兄弟！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT2019"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Mob",
+        "tmlabel": "jump2",
+        "skip": true
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_22",
+        "fade": 2
+      }
+    }
+  ]
+}

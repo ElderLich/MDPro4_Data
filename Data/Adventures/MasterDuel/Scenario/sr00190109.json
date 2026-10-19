@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00190109",
+  "sourceBundle": "31c798e9",
+  "sourceSha256": "b028844b3f774c9ea21d0c9832f1c2c0e38fa396877142567574253bb4eab2fd",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate002/Bg_Sr00020004_00",
+        0,
+        "#42484FFF",
+        1
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate019/Bg_Sr00190109_00",
+        "oscale": 0,
+        "color": "#FFFFFF00",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_09",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1,
+        "skip": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その辺境には「宣告者（デクレアラー）」が\n祭られている神殿がある。",
+        "textId": "IDS_SCENARIOGATE0019_TXT2001",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この神殿がいつから建っていたのか、\n今では知る者もない。",
+        "textId": "IDS_SCENARIOGATE0019_TXT2002",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは古びているが手入れは行き届いており、\n神聖かつ荘厳な雰囲気を発散している。",
+        "textId": "IDS_SCENARIOGATE0019_TXT2003",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 16,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ただ、人によってその造りに\nやや違和感のようなものを感じるだろう。",
+        "textId": "IDS_SCENARIOGATE0019_TXT2004",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは神を祭る場所として建てられたのではなく、\n何かを囲み、“神殿”という形で\n覆った印象を受けるのだ。",
+        "textId": "IDS_SCENARIOGATE0019_TXT2005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "神殿の中央部は隠されており、\nそこには神の像があるという。",
+        "textId": "IDS_SCENARIOGATE0019_TXT2006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "path": "Scenarios/Gates/Gate019/Bg_Sr00190109_01",
+        "oscale": 0,
+        "color": "#C4B8CFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 35,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、その内部に出入りできるのは、\nごく一部の神官と「神巫（ディヴァイナー）」だけだ。",
+        "textId": "IDS_SCENARIOGATE0019_TXT2007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「宣告者の神巫（デクレアラー・ディヴァイナー）」。\n「宣告者（デクレアラー）」からの神託を得る者である。",
+        "textId": "IDS_SCENARIOGATE0019_TXT2008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼女はある年齢を境に\n何者かの“声”を聞くようになったという。",
+        "textId": "IDS_SCENARIOGATE0019_TXT2009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "いくつもの調査・検証を経て、\nその声は「宣告者（デクレアラー）」のものだと\n神官は断定した。",
+        "textId": "IDS_SCENARIOGATE0019_TXT2010",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「神巫（ディヴァイナー）」は人々を統べる者ではない。\n 神託を人々に正しく伝え、\n人々を厄災から守る役割を担う。",
+        "textId": "IDS_SCENARIOGATE0019_TXT2011",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その確かな力と人々との結びつきが、\n「神巫（ディヴァイナー）」という役を\n後世まで引き継がせているのだ。",
+        "textId": "IDS_SCENARIOGATE0019_TXT2012",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、一人の少女が\n新たな「神巫（ディヴァイナー）」として\nこの先も神々と人々をつないでいく。",
+        "textId": "IDS_SCENARIOGATE0019_TXT2013",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_09",
+        "fade": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00770003",
+  "sourceBundle": "b9b946bc",
+  "sourceSha256": "003bed81bfb67923b2f3caa54a6e7dab31a65c5d8ae93a12bcdafd7756c9a645",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate077/Bg_Sr00770003_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_41",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "一夜にして一文無しになった「成金ゴブリン」。\n施してもらったカネも尽き、\n返済期限が迫るもあてがない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT2005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "途方に暮れ街を彷徨っていると、\n店に陳列された強欲な壺が目に留まった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT2006"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Mado1",
+        "path": "Scenarios/Gates/Gate077/Pre_Sr00770003_02_a",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『そういえば昔、家に強盗が入ったことがあったな。\nあの時の一部だけでも取り戻してやる。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT2007"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Mado1",
+        "duration": 1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Mado2",
+        "path": "Scenarios/Gates/Gate077/Pre_Sr00770003_02_b",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "崖っぷちに立たされていたゴブリンは\nとうとう悪事に手を染めてしまう。\n店に入ると隙を狙い、壺に手を伸ばした。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT2008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『しめしめ、マヌケな店主で助かったぜ。』\n壺を抱きかかえると急いで店の外へ逃げていった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT2009"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Mado3",
+        "path": "Scenarios/Gates/Gate077/Pre_Sr00770003_02_c",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Mado2",
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "犯罪で一度味をしめたら\nそう簡単に足を洗えるわけもなく\n次々と盗みを働いていく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT2010"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Mado3",
+        "duration": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate077/Bg_Sr00770003_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "盗んだ壺は借金の代わりに権力者へ差し出した。\n『貴重なこの壺をぜひともアナタ様に。\n日頃の感謝のしるしです。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT2011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ほう、強欲な壺か。どれどれ……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT2012"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.5,
+        "frm": "",
+        "dst": ""
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし壺の取っ手が取れてしまい、\n怒った権力者は借用書を突き付けゴブリンに迫った。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT2013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『高価な壺をよこしたと思ったら、壊れものじゃないか！\nこんなガラクタいらん！　それより早くカネを返せ！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT2014"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "権力者に追い返されたゴブリン、\n今度は盗んだ店の店主に見つかってしまう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT2015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『あのぉ、これで何とか。』\n許しを請うため差し出したガラクタを\n見た店主は怒り心頭。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT2016"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_COMICAL_CRASH_2",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『こんなもので補えるかー！』\n『ふぎゃぁぁっーーー！！』\n壺をゴブリンに投げつけると、バラバラに砕け散った。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT2017"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate077/Bg_Sr00770003_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Kon",
+        "path": "Scenarios/Gates/Gate077/Pre_Sr00770003_04",
+        "pos": 0,
+        "duration": 0.5
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "行くあても、カネも何もなく、\nボロボロの姿で街を彷徨うゴブリン。\n『ハラ、減ったなぁ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT2018"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_HIKARI_03",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "",
+        "path": "Scenarios/Gates/Gate077/Pre_Sr00770003_04_b",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "目の前には、キラキラと輝くショーウィンドウ。\nその奥には、おいしそうなハンバーグを\n口いっぱいほおばる少年の姿が見える。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT2019"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その姿を幼いころの自分に重ね、\nかつてみた少年の頃の夢を思い出す。\n『悪いことはやめて、一からやりなおそう……』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT2020"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "純粋な少年の心を取り戻したゴブリン。\n新たな決意を胸に前へと歩きだす。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT2021"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_41",
+        "fade": 2
+      }
+    }
+  ]
+}

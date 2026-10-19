@@ -1,0 +1,504 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00440351",
+  "sourceBundle": "e9b265f2",
+  "sourceSha256": "5da1b83e4da416077d815d11c62607de2f38276431a30a6d5fc08830c35835ec",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440349_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 3
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_32",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ニンギルスは\n機械人形に移植した“鍵”を使い、\n竜と化した「星遺物」をコントロール。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT4001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "イヴの魂を\n復活させようとしていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT4002"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.5,
+        "frm": "",
+        "dst": "#6A84A4FF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、結果として蘇ったのは\nイヴの魂ではない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT4003"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440349_01",
+        "oscale": 0,
+        "color": "#81949AFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "あの時にイヴの身体と精神を支配していた\nリースのものだった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT4004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "絶望しかけたニンギルスだったが、\n奇跡のような光景を目の当たりにする。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0044_TXT4005"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440350_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_KIRAKIRA_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "青く輝く竜が飛来し、\nイヴの亡骸と一体化したのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT4006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その姿は彼が誰よりも大切に\n想っていた妹にほかならなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT4007"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440350_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "目の前で起こっていることは夢か？\n本当に現実なのか？",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT4008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "一体、何が起きたというのだ？",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT4009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ふと、ニンギルスは自身の魂に\n微かに触れる意思を感じ取る。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT4010"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440351_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "か細く消えゆく想いのカケラ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT4011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは、イヴのために創り上げた\n魂の器――。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT4012"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_SUZU",
+        "vol": -2000,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": 0.5,
+        "ignoreSkip": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "機械人形の最後の残滓であった。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0044_TXT4013"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "魂の容れ物として作られた\n機械の体。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT4014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、移植された感能力の影響か、\n“鍵”の力を発現させたせいなのか――",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT4015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そこにはいつしか、\nイヴでもリースでもない\n意志が生まれていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT4016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この意志は何者なのか、\n人と同じものなのか、\nそれは人形にもわからなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT4017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "わからなかったが、それでも、\n人形は主（あるじ）を想ったのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT4018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "蘇ったリースがイヴの魂を\n消滅させようとしたその時。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT4019"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_HIKARI_03",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "人形はイヴの魂を、星辰の森にある\n「星遺物－『星杯』」に転送させ――\n自らの魂を身代わりにし、消滅した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT4020"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは奇しくも、リースがかつて\n人類を欺いた行為と同じであった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT4021"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、自らの身を挺した人形の意志は\nイヴと見紛う程であり、\nリースは最後までそれに気づく事はなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT4022"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440351_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "消えゆく想いに触れたニンギルス。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0044_TXT4023"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼はイヴと機械人形、\nガラテアの飾り紐を握りしめ、\n新たな決意と共に立ち上がる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT4024"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_32",
+        "fade": 2
+      }
+    }
+  ]
+}

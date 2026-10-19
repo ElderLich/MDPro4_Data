@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00780009",
+  "sourceBundle": "db3c3873",
+  "sourceSha256": "1953ae265d7ae7d0479e2a02066bbc6115af06c93f05913cd666b80c930f602c",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "MovieCreate",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "chapterID": "780009",
+        "URL": "",
+        "skipTime": 10,
+        "retryWait": 1,
+        "limitError": 30
+      }
+    }
+  ]
+}

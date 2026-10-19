@@ -1,0 +1,551 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00470382",
+  "sourceBundle": "82b530d5",
+  "sourceSha256": "79f6c5e891bef8aaf5d5a161f5e558c63c2737f9bdd0730d885ba3ff8f0d070a",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate047/Bg_Sr00470382_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Buble",
+        "path": "Scenarios/Gates/Gate035/Buble",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 25,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "地中世界においても、\n水は生命にとって必要なものだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "様々な動植物に潤いと、\n生きる力を与えてくれる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その水の源流の一つに、\n巨大な地底湖がある。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3003"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Dora",
+        "path": "Scenarios/Gates/Gate047/Pre_Sr00470382_Doragon1",
+        "pos": 0,
+        "duration": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そこにいるのは“湖の主”と呼ばれる\n「サブテラーマリス・アクエドリア」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "湖底に身を潜めると、\nその擬態を見抜くのは\n他の水棲生物でも難しい。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ひとたび動き出すと、四本の角が赤く発光。\n狙い定めた獲物に一瞬で食らいつく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "湖を住処にしているため\n度々目撃されてもおかしくないはずだが、\nその姿が確認されることは稀であった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『湖底には別の場所につながる\n水路のようなものが\nあるのかもしれない。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そんな噂もあるが、\nその真相にたどりついた者はいない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3009"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Buble",
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Dora",
+        "duration": 2
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate047/Bg_Sr00470382_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "地中世界にも寒暖はあり、水源の一つに、\n凍り付いて氷原となっている場所がある。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その氷原を根城としている\n竜がいる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "氷竜\n「サブテラーマリス・グライオース」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "全身は氷で覆われ\n胴体には生命の輝きを体現するかのように\n光り輝く球体がある。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その神秘的な姿に魅入られ近づき\n命を落とした者もいるほどだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3014"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate047/Bg_Sr00470382_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 3
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "pos": 2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "シャンバラの都を築いた知的種族は、\n墓を作り死者を弔うのが常だ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『危険とも隣り合わせの世界で、\n死は安寧を与えてくれるのだろうか……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "生きる者にそんな疑問を抱かせるのが\n「サブテラーマリス・アルラボーン」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "死してなお、\n骨となり動き続ける邪竜。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "とある言い伝えによれば、\n「アルラボーン」が喰らうのは\n死者の魂だという。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3019"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "時折その身体が鈍く、\n赤く光るのは、\n喰われた魂の嘆きなのだと。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3020"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 2,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "さらに、\nこれら七頭を統べる\n竜の伝説がある。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3021"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate047/Bg_Sr00470382_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "邪竜の王\n「サブテラーマリス・エルガウスト」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3022"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "他の邪竜と比べ\nその言い伝えに\n具体的なものはない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3023"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "曰く。\n『悪霊のような、闇に満ち満ちた竜の王が\nこの世界を支配している。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3024"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "曰く。\n『邪竜の王がいるから、他の邪竜が\n地中世界の支配域を広げようとしないのだ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3025"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "曰く。\n『王に力を示そうと、邪竜たちがこの世界に\n“厄災”をもたらしている。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3026"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その姿に限らず、\n言い伝えの形も様々だ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3027"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "地中世界に生きる者は\nこれらの“厄災”から逃れたいと願いながら、\n日々恐怖と向き合い暮らしている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3028"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『いつの日かこの“厄災”を\n討ち払ってくれる者がいるかもしれない。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3029"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そんな英雄の出現に、\nかすかな希望を託しながら――。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT3030"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "fade": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "source": "Resources/prefabs/ui/tutorial/TutorialNavigatorUI.prefab",
+    "sourceVersion": "2.8.0",
+    "sourceSha256": "18d9489fc71779752603d404971df3c370cd43362af2197d5c9f9599711ad9a4",
+    "target": "Assets/Resources/MasterDuel/Adventure/TutorialNavigatorUI.prefab",
+    "targetSha256": "831b9d414d652e2a7405c797a748c6eb8fc5aa825e9e1266e404a30049902d2a",
+    "remaps": [
+      {
+        "source": "fileID: -765806418, guid: d3e719b59ab71ba3f6b398058c866280",
+        "target": "fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc",
+        "count": 4
+      },
+      {
+        "source": "fileID: 1741964061, guid: d3e719b59ab71ba3f6b398058c866280",
+        "target": "fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18",
+        "count": 2
+      },
+      {
+        "source": "fileID: 1297475563, guid: d3e719b59ab71ba3f6b398058c866280",
+        "target": "fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775",
+        "count": 2
+      },
+      {
+        "source": "fileID: 1679637790, guid: d3e719b59ab71ba3f6b398058c866280",
+        "target": "fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126",
+        "count": 1
+      },
+      {
+        "sourceGuid": "cf592852fdcc9b8468e281dfe5a39e2f",
+        "target": "Assets/Addressables/Icon/GUI/Common/Windows/GUI_Message_Base.png",
+        "targetGuid": "ed67ab3dd222ec14595bf611f64c2301",
+        "count": 2
+      },
+      {
+        "sourceGuid": "7b41efc6815142540b98763d93938932",
+        "target": "Assets/Addressables/Icon/GUI/Controls/Buttons/GUI_alpha_PagingWindow_Arrow21.png",
+        "targetGuid": "58524a190e6646d429b6c75fdee0dbc9",
+        "count": 1
+      },
+      {
+        "sourceGuid": "23557e5445f16cd42872f1f2e0a6428c",
+        "target": "Assets/Addressables/Icon/GUI/Controls/Buttons/GUI_alpha_PagingWindow_Arrow22.png",
+        "targetGuid": "adf016c82ff94dc4ab46cfa3296abaa0",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "source": "Resources/prefabs/duel/ui/TutorialEffectUI.prefab",
+    "sourceVersion": "2.8.0",
+    "sourceSha256": "3cde76d49334ceae6e315db25f302df8d47f77de6fab630e402264252ffd585d",
+    "target": "Assets/Resources/MasterDuel/Adventure/TutorialEffectUI.prefab",
+    "targetSha256": "bf33353d73b40422bb9eb979d845de68c547431291525f3ad5539c4e0e1fc390",
+    "remaps": [
+      {
+        "source": "fileID: -765806418, guid: d3e719b59ab71ba3f6b398058c866280",
+        "target": "fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc",
+        "count": 15
+      },
+      {
+        "sourceGuid": "d0e0e8e9d5e7b584abe56b83ddcc2294",
+        "target": "Assets/Addressables/Icon/GUI/Duel/Tutorial/GUI_Duel_TutorialEffectUI_Circle_0.png",
+        "targetGuid": "2f627d26ae87f324c8c498a579be9067",
+        "count": 4
+      },
+      {
+        "sourceGuid": "c235b8910c2ac754a93bf31b8f7ba5ad",
+        "target": "Assets/Addressables/Icon/GUI/Duel/Tutorial/GUI_Duel_TutorialEffectUI_Circle_1.png",
+        "targetGuid": "27b491ebb8edc3c4093b43cb53af690d",
+        "count": 2
+      },
+      {
+        "sourceGuid": "66191171e996c594da0b9f5f122c68e6",
+        "target": "Assets/Addressables/Icon/GUI/Duel/Tutorial/GUI_Duel_TutorialEffectUI_Rect_0.png",
+        "targetGuid": "689da0797bd832141888b6c680e4cd89",
+        "count": 6
+      },
+      {
+        "sourceGuid": "8ec7426150802eb4aa8f605ae6ab12a0",
+        "target": "Assets/Addressables/Icon/GUI/Duel/Tutorial/GUI_Duel_TutorialEffectUI_Rect_1.png",
+        "targetGuid": "2a447926fed72884ca51518d0af46507",
+        "count": 3
+      }
+    ]
+  }
+]

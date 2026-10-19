@@ -1,0 +1,554 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00430344",
+  "sourceBundle": "32e37c2c",
+  "sourceSha256": "a78e3a3ad9d49d44121b6ef4ac7806d1d850e6e8881fb6e3ad2c7a23c12cdd51",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate043/Bg_Sr00430344_00",
+        "oscale": 0,
+        "color": "#AF9AB4FF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_28",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_SIREN",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ある時、「ミュートリア進化研究所」に\n警報音が、けたたましく鳴り響いた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT3001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "第一報は「ミュートリア」が自らの意志で培養器を破壊、\n他の個体もそれに追随する動きを\n見せているというものだった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT3002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "培養器を抜けだした「ミュートリア」たちは、\n研究所内の様々なものを取り込み、\n急激な進化を始めてしまった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT3003"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 15570,
+        "pos": 5,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "あるものは、別のエリアで管理されていた\n動物たちを取り込み、\n獣のような姿に。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT3004"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 15778,
+        "pos2": 6,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "またあるものは、ロボットアームや培養器など、\n研究所の設備の一部を取り込み、\n機械化した姿に。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT3005"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate043/Bg_Sr00430344_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "次報は、ミュートリアたちによって\n防衛システムが破壊され、これ以上は研究所内での\n対処が不可能と判断されたものだった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT3006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それに加えて、本研究所の破棄と、\n全所員の速やかな退去も通告された。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT3007"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Hito1",
+        "path": "Scenarios/Gates/Gate043/Pre_Sr00430344_00",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『我々の研究の成果が……！\nだから危険だと言ったのだ！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT3008"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Hito2",
+        "path": "Scenarios/Gates/Gate043/Pre_Sr00430344_01",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『なんて素晴らしい日なんだ！\nこの星の体系では起こりえないはずの進化の瞬間を、\nこの目で見届けることができるとは！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT3009"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Hito3",
+        "path": "Scenarios/Gates/Gate043/Pre_Sr00430344_02",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『急いで、シャッターを下ろせ！\n逃げ遅れるなよ！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT3010"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Hito1",
+        "duration": 1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Hito2",
+        "duration": 1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Hito3",
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "暴走としか言えないほどの進化と破壊を続ける\nミュートリアたちの目を逃れるように、所員たちは、\n研究所を脱出するべく死に物狂いで通路を駆ける。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT3011"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate043/Bg_Sr00430344_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そうしている間にも、\nミュートリアたちの進化は\n次の段階へと進んでいた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT3012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「ミュートリア」同士が取り込み合い、\nそれぞれの進化の過程で得てきたものを集約。\nより巨大な生命体へと姿を変えていく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT3013"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1.5,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate043/Bg_Sr00430344_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.8126046657562258,2.8126046657562258,0.0,0.08943089097738266],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.3658536672592163,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "研究所を破壊しつくし、\nそれをも超える大きさへと\n進化を遂げたミュートリア。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT3014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "こうして産声を上げた驚異の生物に対して、\nもはや人間たちになす術はないのだろうか……？",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT3015"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Hito1",
+        "path": "Scenarios/Gates/Gate043/Pre_Sr00430344_04",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_NOISE",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frm": "",
+        "dst": "#A398ABFF"
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ミュートリアには多くの謎が残されているが、\n少なくとも、その進化を促すことは\n極めて危険であると断言する。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT3016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『人類にとって有益な情報となることを信じ、\nここに研究記録を残す。\n残された人類の健闘を祈る──。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT3017"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "label": "White",
+        "path": "Scenarios/Gates/Gate043/Pre_Sr00430344_05",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "White",
+        "tmlabel": "label_1"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_28",
+        "fade": 0.5
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_NOISE_2",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "プツ",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT3018"
+      }
+    },
+    {
+      "command": "PrefabWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "White",
+        "skip": false
+      }
+    }
+  ]
+}

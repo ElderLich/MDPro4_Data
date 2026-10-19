@@ -1,0 +1,431 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00590004",
+  "sourceBundle": "d525cc75",
+  "sourceSha256": "dab2524d633d507cb6b01ad18b3d4406a43c0be50142203416c966eb6e6bbf7e",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate059/Bg_Sr00590004_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_FC_02",
+        "vol": -2000,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": 0.5,
+        "ignoreSkip": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『最近は「ワーム」との戦いも\n激化しててタイヘンだよねー。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT2001"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『あ、そうそう。ボクら「フレムベル」は\n「A・O・J（アーリー・オブ・ジャスティス）」\nにも協力してるんだよ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT2002"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ていうか、\nそもそも結成にかかわってんの。\n知ってた？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT2003"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『今では、ほかの部族とおんなじ戦場で\n戦うのはもちろん、ワームをやっつける\n機械なんかも作ってる。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT2004"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_5"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate059/Bg_Sr00590004_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『「A（アーリー）・ボム」ってのがあってさ、\n地面をコロコロしたり\n空中をフワフワしてるんだけど。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT2005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ワームが触った瞬間に……ドカン！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT2006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『中に圧縮して封じ込められてた\nフレムベルの炎が爆発して\nワームを倒すんだ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT2007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『他にも、大きいのから小さいのまで、\nいろんな部品を作るのにも\n協力してるって聞いたな。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT2008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ま、A・O・Jがここまで戦えてるのも\nボクらフレムベルの力が\nあってこそだよね～。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT2009"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate054/Bg_Sr00540424_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_09",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『あとは最近、空間にできた\n裂け目がどうのこうのとかで、\n悪魔が出てきちゃったんだって。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT2010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『で「ジュラック」が住んでるあたりに\n出没し始めたらしいんだ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT2011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ホントなー、\nジュラックも大変だとは思うけどさー。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT2012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ボクらとおんなじ炎の部族だし？\nここぞという時にはハデに\nブチかましてくれるんじゃないかな！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT2013"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate059/Bg_Sr00590004_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1",
+        "tmlabel": ""
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_FC_04",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ボクらはとりあえず\n目の前のワームだよなー……って。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT2014"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ん、どうした？道がわかったのか？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT2015"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_FC_03",
+        "vol": -2000,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": 1,
+        "ignoreSkip": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『そっか、ここまでくればもう大丈夫だな。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT2016"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_FC_06",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『それじゃあ、またなー！\nもう迷子になるなよ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT2017"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_5"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "fade": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,953 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00520410",
+  "sourceBundle": "bb8aa0e0",
+  "sourceSha256": "ad100e5cfb9a095d6a90525c0b136777c5ccc3508ab323f70d9b8b34a84de3f7",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate052/Bg_Sr00520407_08",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_35",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 40,
+        "zoom": 1.4,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "type": 0,
+        "text": "『荒れ狂う嵐の中にあっても、\n煌々と輝く島を見た――。』",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0052_TXT2001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "type": 0,
+        "text": "そんな船乗りの証言から、\n黄金の島の存在は広まっていった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "type": 0,
+        "text": "噂を聞きつけた海賊、\n遠い海から来た制服軍。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "type": 0,
+        "text": "エルドリクシルの呪いは分け隔てなく、\n生けるもの全てに降りそそぐ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "黄金の性質、\nそれは“不変”。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "エルドリクシルの呪いによって\nその身体は朽ちることなく、\n意思無き亡者と化すのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "多くの人間が島に送りこまれたが、\n彼らが財宝を手にして戻ってきたという話は\n全くと言っていいほどなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "いつしか島は、酒場で語られるおとぎ話となり\n「帰らずの都」「呪われしエルドランド」\nと呼ばれるようになる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そしてまた、\n新たな犠牲者となるであろう\n一団が島に上陸した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2009"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate052/Bg_Sr00520410_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らはとある王国によって遣わされ、\n島の調査に来た学者たちと、\nその護衛として雇われた傭兵の一団だ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2010"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Man",
+        "path": "Scenarios/Gates/Gate052/Pre_Sr00520410_01",
+        "pos": 0,
+        "duration": 5
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_11",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「男」は、\nその傭兵の中の一人であった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "静かで寡黙であったが、強靭な武力を持ち、\nその瞳の奥には確固たる\n自我の光が鋭く灯っていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2012"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Man",
+        "duration": 3
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 15128,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 15130,
+        "pos2": 2,
+        "se2": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk3": 15129,
+        "pos3": 3,
+        "se3": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「男」は島に巣食う獣や、\n呪いを浴びた成れ果ての亡者たち。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "絶え間なく襲い来るそれらを、\nただひたすらに、黙々と、\n斬り伏せながら進んでゆく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2014"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate052/Bg_Sr00520407_07",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ついに城門にたどり着き、\n振り返った時、\nそこには誰も残っていなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "黄金の呪いに飲み込まれてしまったのか。\nいや、もしかしたら、亡者と化した彼らとは気づかず、\n斬り伏せてしまったのかもしれない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "もはや護るべき雇い主はいない。\nしかし、「男」は前に進み、入城を果たした。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2017"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.8,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate052/Bg_Sr00520410_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_05",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#2323237D",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "城の中に生き物の気配はない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2018"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 8,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "frm": "",
+        "dst": "#FFFFFFFF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "地下へとたどり着いた「男」は、\n宙に浮き、禍々しく輝く紅い魔石を見た。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2019"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「男」には錬金術に関する知識はない。\nそれでも、それを見ただけで\nこれがこの島を覆う呪いの元凶であると理解した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2020"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「男」は魔石に手を伸ばし、\n触れた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2021"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_HIKARI_04",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#FF0000FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "#FF0000FF",
+        "dstcolor": "#890202FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate052/Bg_Sr00520410_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その瞬間、これまでに魔石が取り込んだ\n幾千もの魂の叫びが男に流れ込む。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2022"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "frmcolor": "",
+        "dstcolor": "#89020200",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『いやだ、死にたくない……。』\n『憎い、生きている人間が憎い……。』\n『金だ金！　ヒヒヒ、金金カネ金……！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2023"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、それら欲望の邪念にさらされても\n「男」の魂は揺らがない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2024"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして「男」は、強靭な自我を以って、\nこれまで内に秘めてきた強大な我欲を解放し、\n欲望の邪念を丸ごと飲み込んだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2025"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_DINGIRSU",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 8,
+        "zoom": 1.1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "skip": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この日、「黄金卿エルドリッチ」が\n世に生まれ落ちる。",
+        "autominsec": 3,
+        "textId": "IDS_SCENARIOGATE0052_TXT2026"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate052/Bg_Sr00520410_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "思えば、主もいない城に\n何故玉座が用意されていたのか。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2027"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "いつの日か、このような人間が島に訪れるのを\nエルドリクシルこそが\n欲していたとでもいうのか。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2028"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "黄金郷の主となった男は、\nそうするのが当然というように\nそこへ腰かけるのだった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2029"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate052/Bg_Sr00520410_05",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "もうどれほどの年月を\nこうしているのだろうか。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2030"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "不変の存在となった黄金卿にとって、\n時間という概念はすでに意味がない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2031"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "あの日からも変わらず、\n黄金郷の噂を聞きつけた人間が島に訪れ、\nその全てをエルドリクシルの生け贄としてきた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2032"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "黄金卿は欲していた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2033"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "さらなる力を、\nさらなる富を、\nさらなる命を。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2034"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "さらなる闘争を、\nさらなる勝利を、\nそして、さらなる欲望を。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2035"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その魂の咆哮に応えるかのように、\nエルドリクシルは妖しく輝く。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2036"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate052/Bg_Sr00520410_06",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.1,
+        "cycle": 0.1,
+        "target": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WAFU_EFFECT_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "黄金卿は「エルドランド」が内包する\n力の全てを自らに集約させる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2037"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "狂気の魔王と化した黄金卿は、\nこうして外界へと進出を始めた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2038"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "人々はまだ知らない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2039"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "自らの身に黄金の脅威が\n迫っていることを――。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT2040"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_35",
+        "fade": 2
+      }
+    }
+  ]
+}

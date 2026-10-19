@@ -1,0 +1,555 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00340272",
+  "sourceBundle": "5e4a0c45",
+  "sourceSha256": "ad42c95312fa45d2bc3a25f751488d80703ffa73adfe0d2c64d9b89cc86ce65e",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "正義の同盟",
+        "titleId": "IDS_SCENARIOGATE0034_TITLE1001",
+        "path": "Scenarios/Gates/Gate034/Bg_Sr00340272_title",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate034/Bg_Sr00340272_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その星では己の版図を広げて大陸を征服すべく、\n地上に生きる各部族が争いを繰り広げていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT1001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし互いに抜きんでた武力を持たぬがため、\n拮抗した勢力同士の戦いに決着はつかない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT1002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "長きにわたる闘争は、この先の何世代も、\nともすると永遠に続くのではないかとさえ思われた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT1003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ところが、その争いは\n意外な形で終結を迎えることになる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT1004"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_14",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.3,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate034/Bg_Sr00340272_01",
+        "oscale": 0.02,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.6,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.8,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.2,
+        "cycle": 0.1,
+        "target": 1,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00"
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.3,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.2,
+        "cycle": 0.1,
+        "target": 0
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,-0.10408271104097367,-0.10408271104097367,0.23577237129211427,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは外宇宙から飛来した\n巨大隕石であった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT1005"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7830,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 7546,
+        "pos2": 3,
+        "se2": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk3": 7828,
+        "pos3": 2,
+        "se3": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk4": 7966,
+        "pos4": 4,
+        "se4": "SE_SOLO_DEGITAL_CARD_01"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その隕石に付着していた有機物、\nそれが環境に適応して増殖・進化を開始。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT1006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "宇宙を漂流し星を喰らいつくす侵略生物「ワーム」が、\n星に住む者たちの意志など関係なしに侵攻を始めたのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT1007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "外宇宙から来た侵略者の出現に、\nそれぞれの部族は休戦協定を結ぶ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT1008"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate034/Bg_Sr00340272_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして各々が部族の土地を守るため、\nワームとの戦いに臨んだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT1009"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7548,
+        "pos": 5,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 5,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 8406,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 5,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 7813,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "氷の聖獣を信仰する部族である\n「氷結界（ひょうけっかい）」は、\n「氷結界の龍 ブリューナク」を解放して対抗。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT1010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "氷龍の巻き起こす凍気が\nワームを押し返した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT1011"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_DEGITAL_CARD_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7548,
+        "dstmrk": 7550
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7813,
+        "dstmrk": 7820
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 8406,
+        "dstmrk": 8527
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "紅蓮の炎を操る戦士団「フレムベル」。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0034_TXT1012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "戦士長「フレムベル・ウルキサス」が\n中心となって戦い、\n押し寄せる大群を焼却した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT1013"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_DEGITAL_CARD_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7550,
+        "dstmrk": 7957
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7820,
+        "dstmrk": 8121
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 8527,
+        "dstmrk": 8109
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "人と鳥の力をあわせ持つ\n「霞の谷（ミスト・バレー）」の守護者。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT1014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "霧で侵略者を惑わし、\n谷への侵入を阻止した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT1015"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_DEGITAL_CARD_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7957,
+        "dstmrk": 7539
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 8121,
+        "dstmrk": 7551
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 8109,
+        "dstmrk": 7824
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「総剣司令 ガトムズ」が率いる剣士衆\n「X（エックス）－セイバー」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT1016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "少数精鋭ながらも\n無数の宇宙的生命を斬り伏せた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0034_TXT1017"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "fade": 2
+      }
+    }
+  ]
+}

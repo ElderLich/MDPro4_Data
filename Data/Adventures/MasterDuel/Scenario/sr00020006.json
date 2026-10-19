@@ -1,0 +1,942 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00020006",
+  "sourceBundle": "1c360dfb",
+  "sourceSha256": "abb6ed8cb3f9697b0ad430e9cfb56ac93b5bfb392202f5d5284491493e822356",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate003/Texcture/Universal/Bg_Sr030011_04",
+        0,
+        "#FFFFFFFF",
+        8
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate002/Bg_Sr00020004_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "",
+        "path": "Scenarios/Gates/Gate002/EF_Ball",
+        "pos": 0,
+        "slayer": "Default"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        1,
+        "",
+        "#BDC9D6FF"
+      ],
+      "args": {
+        "duration": 1,
+        "frm": "",
+        "dst": "#BDC9D6FF"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_03",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "既に日は落ち、星明りだけが頼りだった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "既に日は落ち、星明りだけが頼りだった。\n木々と土の匂いを含んだ空気はひんやりと冷たい。",
+        "textId": "IDS_SCENARIOGATE0002_TXT2001",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 0
+      },
+      "params": [
+        13057,
+        3
+      ],
+      "args": {
+        "mrk": 13057,
+        "pos": 1,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "足元すら定かではない森の中を、\nイヴは導かれているかのように迷うことなく奥へと進んでいく。\r",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "足元すら定かではない森の中を、\nイヴは導かれるように進んでいく。\n",
+        "textId": "IDS_SCENARIOGATE0002_TXT2002",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        13058,
+        2
+      ],
+      "args": {
+        "mrk": 13058,
+        "pos": 2,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        13059,
+        4
+      ],
+      "args": {
+        "mrk": 13059,
+        "pos": 3,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        13059,
+        4
+      ],
+      "args": {
+        "mrk": 13060,
+        "pos": 4,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "アウラムたちは見失わないよう、\n木の根に足を取られながらも彼女を追っていった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "アウラムたちは見失わないよう、\n機怪蟲（クローラー）に警戒しつつ彼女を追った。",
+        "textId": "IDS_SCENARIOGATE0002_TXT2003",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その時、短い悲鳴と共に目の前からイヴの姿が消える。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その時、短い悲鳴と共に\n目の前からイヴの姿が消える。",
+        "textId": "IDS_SCENARIOGATE0002_TXT2004",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "params": [],
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        2,
+        0,
+        "Scenarios/Gates/Gate002/Texcture/Universal/Bg_Sr00020006_02",
+        0,
+        "#FFFFFFFF",
+        1
+      ],
+      "args": {
+        "duration": 2,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate002/Bg_Sr00020006_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "慌てて見失った場所に駆け寄ると、\nそう高くはない崖の下に転んだイヴの姿があった。\r\n",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "慌てて見失った場所に駆け寄ると、\nそう高くはない崖の下に転んだイヴの姿があった。\n",
+        "textId": "IDS_SCENARIOGATE0002_TXT2005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "\rイヴは声のする方向に夢中になるあまり、\n踏み出した先に地面がないことに気づいていなかったようだ。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "イヴは声のする方向に夢中になるあまり、\n踏み出した先に地面がないことに気づいていなかったようだ。",
+        "textId": "IDS_SCENARIOGATE0002_TXT2006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        5,
+        0,
+        "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      ],
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "アウラムたちは崖を下り、\nイヴに怪我がないことを確認して安堵したその時。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "アウラムたちは崖を下り、\nイヴに怪我がないことを確認して安堵したその時。",
+        "textId": "IDS_SCENARIOGATE0002_TXT2007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らの目の前に、奇妙な形をした建造物が現れていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らの目の前に、\n奇妙な形をした建造物が現れていた。",
+        "textId": "IDS_SCENARIOGATE0002_TXT2008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "最初からそこにあれば、\n崖の上から見た時に気付かないはずがない。\r\nしかし、その建造物は何百年も前からそこに存在していたかのように、\n木々に埋もれツタが絡まっている。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "最初からあれば、気付かないはずがないのに、\n何百年も前からそこに存在していたかのように、\n木々に埋もれ蔦が絡まっている。",
+        "textId": "IDS_SCENARIOGATE0002_TXT2009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "恐る恐る近づくアウラムたち。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "恐る恐る近づくアウラムたち。",
+        "textId": "IDS_SCENARIOGATE0002_TXT2010",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_HIKARI_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Flash",
+      "option": {
+        "async": 0
+      },
+      "params": [
+        2
+      ],
+      "args": {
+        "cnt": 2
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "#FFFFFFFF",
+        "dstcolor": "#FFFFFF00",
+        "target": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        1,
+        0,
+        "Scenarios/Gates/Gate003/Texcture/Universal/Bg_Sr030011_02",
+        0,
+        "#FFFFFFFF",
+        1
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate002/Bg_Sr00020006_02",
+        "oscale": 0.1,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "shakex": false,
+        "shakey": true,
+        "wave": 0.3,
+        "cycle": 0.2,
+        "target": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        5,
+        0,
+        "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      ],
+      "args": {
+        "duration": 5,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "するとイヴの手にする杖が眩く輝き、それに呼応するかのように建造物が鳴動する。。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "するとイヴの手にする杖が輝き、\nそれに呼応するかのように建造物が鳴動する。",
+        "textId": "IDS_SCENARIOGATE0002_TXT2011",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "建造物が放った強大な光は周囲の木々を吹き飛ばし、\n閃光が全てを覆い隠した。\r\n\n",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "建造物が放った光は周囲の木々を吹き飛ばし、\n閃光が全てを覆い隠した。\n",
+        "textId": "IDS_SCENARIOGATE0002_TXT2012",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 0
+      },
+      "params": [
+        1,
+        "",
+        "#FFFFFFFF"
+      ],
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0.1,
+        0,
+        "Scenarios/Gates/Gate003/Texcture/Universal/Bg_Sr030011_07",
+        0,
+        "#FFFFFFFF",
+        1
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate002/Bg_Sr00020004_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        1,
+        "#FFFFFFFF",
+        "#00000000"
+      ],
+      "args": {
+        "duration": 1,
+        "frmcolor": "#FFFFFFFF",
+        "dstcolor": "#00000000",
+        "target": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "瞼を閉じていても突き刺さってくるような光が収束する。\r\nアウラムたちが目を開けると、\nそこにはひらひらと宙を舞う妖精が現れていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "瞼を閉じていても\n容赦なく突き刺さってくるような光が収束する。",
+        "textId": "IDS_SCENARIOGATE0002_TXT2013",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        13061,
+        1
+      ],
+      "args": {
+        "mrk": 13061,
+        "pos": 2,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "驚く彼らをよそに、妖精は話し出す。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "アウラムたちが目を開けると、\nひらひらと宙を舞う妖精が現れていた。\n\n",
+        "textId": "IDS_SCENARIOGATE0002_TXT2014",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "驚く彼らをよそに、妖精は話し出す。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "驚く彼らをよそに、妖精は話し出す。",
+        "textId": "IDS_SCENARIOGATE0002_TXT2015",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "自分の名前はリース。\r\n先ほどの光を放った建造物「聖遺物－『星杯』」に\n封じられていた精霊であること。\r",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "自分は「星杯の妖精リース」。\n光を放った建造物「聖遺物－『星杯』」に\n封じられていた精霊であること。",
+        "textId": "IDS_SCENARIOGATE0002_TXT2016",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "かつて人類を導く使命を負っていたが、\n機界騎士によって阻まれてしまったこと。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "かつて人類を導く使命を負っていたが、\n機界騎士（ジャックナイツ）によって阻まれてしまったこと。",
+        "textId": "IDS_SCENARIOGATE0002_TXT2017",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "幾年月もの間、星杯を起動させるに足る人物\n――「星の勇者」の資質を持つ者を待ち続けていたこと。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "幾年月もの間、\n星杯を起動させるに足る人物\n――“星の勇者”の資質を持つ者を待ち続けていたこと。",
+        "textId": "IDS_SCENARIOGATE0002_TXT2018",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "そして――",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして――",
+        "textId": "IDS_SCENARIOGATE0002_TXT2019",
+        "autominsec": 2.5
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "params": [],
+      "args": {}
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_HIKARI_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        2,
+        "#FFFFFFFF",
+        "#FFFFFF00"
+      ],
+      "args": {
+        "duration": 2,
+        "frmcolor": "#FFFFFFFF",
+        "dstcolor": "#FFFFFF00",
+        "target": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        "Cut05",
+        "Scenarios/Gates/Gate003/Sr030011_Pre05",
+        0,
+        "Default"
+      ],
+      "args": {
+        "label": "Cut05",
+        "path": "Scenarios/Gates/Gate002/Bg_Sr00020006_03",
+        "pos": 0,
+        "slayer": "Default",
+        "duration": 0,
+        "oscale": 0,
+        "color": "#FFFFFFFF"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "zoom": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "世界を救うため、あなたたちの力を貸してほしい。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "あなた達こそ“星の勇者”。",
+        "textId": "IDS_SCENARIOGATE0002_TXT2020",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "リースの話に戸惑いを隠せないアウラムたちだったが、\n彼女の真剣な表情から協力することを決意する。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "散らばってしまった星の光を束ね、\n“大いなる闇”から世界を救うため、\nどうか私に力を貸して。",
+        "textId": "IDS_SCENARIOGATE0002_TXT2021",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "リースは感謝し、これから必要になるからと、\n星杯の力を彼らに授けるのだった。\r\n",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "リースの話に戸惑いを隠せないアウラムたちだったが、\n彼女の真剣な表情から協力することを決意する。",
+        "textId": "IDS_SCENARIOGATE0002_TXT2022",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_10",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate002/Bg_Sr00020006_04",
+        "oscale": 0,
+        "color": "#B9CBD1FF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "",
+        "path": "Scenarios/Gates/Common/Effect/EF_Star00",
+        "pos": 0,
+        "slayer": "Default"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 6,
+        "zoom": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,3.1712470054626467,3.1712470054626467,0.0,0.03495440632104874],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "リースは感謝し、これから必要になるからと、\n星杯の力を彼らに授けるのだった。\r\n",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らの答えにリースは微笑むと、\n覚醒した星杯の力を彼らに授けるのだった。",
+        "textId": "IDS_SCENARIOGATE0002_TXT2023",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_03",
+        "fade": 2
+      }
+    }
+  ]
+}

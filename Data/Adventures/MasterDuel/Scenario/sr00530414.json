@@ -1,0 +1,689 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00530414",
+  "sourceBundle": "81874d49",
+  "sourceSha256": "0ba77e362ec0f661325179468e6f0abb92941d80601af3700802d92ed630653c",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate053/Bg_Sr00530414_titile",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "t": "「ナチュルの森に住まう生命」",
+        "titleId": "IDS_SCENARIOGATE0053_TITLE1001",
+        "scale": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_09",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate053/Bg_Sr00530414_00",
+        "oscale": 0.05,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Pre0",
+        "path": "Scenarios/Gates/Gate053/Pre_Sr00530414",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 50,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その星の大地にあって、\n雲海のごとく広がる「ナチュルの森」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そこは昆虫や植物、岩石など、\n大地より生まれた命で賑わう\n広大な土地であった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "戦乱とは無縁で平和な森であったが、\n時に人間が迷い込むこともある。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、そこは争いを好まぬ\n穏やかな気質の住人たちだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1004"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 8102,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 8401,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 7945,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 8244,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "植物の「ナチュル」が茂みを作って道をふさぎ、\n岩石の「ナチュル」が\n危険な崖や穴をふさいで道を作る。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "迷い人が森の奥深くに入り込まないよう、\nそれとなく出口まで誘導していた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "迷い人が純真な子供であれば\n「ナチュル」自身が姿を見せ、\n道案内をすることもあった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1007"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.5,
+        "frm": "",
+        "dst": "#7D877EFF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その一方で、悪意があって森へと\n踏み入ってくる者もいる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1008"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Pre2",
+        "path": "Scenarios/Gates/Gate053/Pre_Sr00530414_002",
+        "pos": 0,
+        "duration": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "森に住む守護獣、その身体の一部を\n手にしようとする不届き者だ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1009"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Pre1",
+        "path": "Scenarios/Gates/Gate053/Pre_Sr00530414_001",
+        "pos": 0,
+        "duration": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "\"曰く、それには不思議な力が宿っており、\n手に入れた者に神のごとき力を与える――。\"",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1010"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Pre3",
+        "path": "Scenarios/Gates/Gate053/Pre_Sr00530414_003",
+        "pos": 0,
+        "duration": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "\"曰く、それはあらゆる病魔を追い払い、\n不老不死の霊薬の材料となる――。\"",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1011"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Pre4",
+        "path": "Scenarios/Gates/Gate053/Pre_Sr00530414_004",
+        "pos": 0,
+        "duration": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "\"曰く、それを売れば人の生を三度繰り返しても\nまだ使い切れぬほどの大金が手に入る――。\"",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らはどこで聞きつけたのか\n真偽すら定かではない噂を信じ、\n森へ侵入してくるのである。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1013"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Pre1",
+        "duration": 1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Pre2",
+        "duration": 1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Pre3",
+        "duration": 1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Pre4",
+        "duration": 1
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.5,
+        "frm": "",
+        "dst": "#FFFFFFFF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そういった邪な狙いを持つ輩であれば、\n森の住人たちも容赦はしない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "少々手荒な手段を用いてでも\nお帰りいただくのが常だ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "とはいえ、大怪我をさせたり、\n死に至らしめることはない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1016"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 8569,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "例えば、喉の渇きを覚えた侵入者たちが、\n「ナチュル・ストロベリー」に手を伸ばす。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1017"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 8399,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "すると、その陰に隠れていた\n「ナチュル・ホーストニードル」がブスリ！",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1018"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 8101,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "驚いて逃げ出したその先には\n「ナチュル・スパイダーファング」の\n仕掛けていた網が！",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1019"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 8960,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "宙ぶらりんで身動きが取れない侵入者めがけ、\n「ナチュル・バンブーシュート」がタックル!!",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1020"
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.1,
+        "cycle": 0.1,
+        "target": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "侵入者たちは\n身体のあちこちをさすりながら\n一目散に逃げ出すのであった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1021"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate053/Bg_Sr00530414_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 25,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「ナチュル」には小柄な者も多く\nその力は強力とは言い難い。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1022"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そのため、同じ森に暮らす住人同士\nお互い助け合うことで\n外敵から身を守っているのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1023"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そしてそれは何百年、何千年と続く\n森の豊かさと平和に繋がっていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1024"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、それを脅かす\n来訪者が現れた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1025"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frm": "",
+        "dst": "#69829CFF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "外宇宙からの侵略者\n「ワーム」である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0053_TXT1026"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_09",
+        "fade": 2
+      }
+    }
+  ]
+}

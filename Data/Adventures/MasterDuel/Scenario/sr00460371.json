@@ -1,0 +1,693 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00460371",
+  "sourceBundle": "a1445410",
+  "sourceSha256": "29f1b43d4b634902012d5a5298c10db6bac38113c289f451e952091f9dbf953b",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate046/Bg_Sr00460371_titile",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "t": "次元の監視者「S－Force」",
+        "titleId": "IDS_SCENARIOGATE0046_TITLE1001",
+        "scale": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_30",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate046/Bg_Sr00460371_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "高次の科学力を擁する秘密結社\n「S－Force（セキュリティ・フォース）」。　",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その構成員であるエージェントたちは、\n犯罪や災害を未然に防ぐために\n活動している。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その活動領域は、様々な次元や\n時間軸に及んでおり、全貌は\nエージェントたちにすら明かされていない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それでも、新人には、\n先任のエージェントより、\n組織について最低限の説明が行われていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1004"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.8,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate046/Bg_Sr00460371_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "label": "Chara00",
+        "path": "Scenarios/Gates/Gate046/Pre_Sr00460371_Face",
+        "pos": 4,
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face001"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_CONTACT",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『新人エージェントの皆さん！\n「S－Force」へようこそ！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1005"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『任務にあたる前に、\n私たちの組織について理解を深めてもらうため、\nこの場が用意されました。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1006"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face022"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『私が本日の案内役\n「乱破小夜丸(らっぱちよまる)」です。\n宜しくお願いします。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1007"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『本日ここに集まっている皆さんも、\nエージェントになった経緯は\n様々だと思います。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1008"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face061"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『何らかの事件に巻き込まれたり、\nスカウトされたり。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1009"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face061"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『自分のしたい事と、\n「S－Force」の活動目的が\n一致していたり……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1010"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face072"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『組織間の盟約に\n従っている人も\nいるかもしれません。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1011"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face022"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『私は、里長からの命を受けて、\nこちらに身を置くことになりました。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1012"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WHOOSH_05",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Win0",
+        "path": "Scenarios/Gates/Gate046/Pre_Sr00460371_win0",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Win1",
+        "path": "Scenarios/Gates/Gate046/Pre_Sr00460371_win1",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Win2",
+        "path": "Scenarios/Gates/Gate046/Pre_Sr00460371_win2",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『加えて、皆さんは、\n「S－Force」の活動で必要となる能力も\n持っているはずです。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1013"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『私たちに与えられる任務は、\nそれぞれの能力や適性に合わせて\n決まることが多いです。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1014"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『私の場合、手裏剣や、\nどんな所でも隠れられる\n隠密の技が得意です！忍なので！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1015"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Win0",
+        "duration": 1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Win1",
+        "duration": 1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Win2",
+        "duration": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『私たちの基地である、\nこの「ブリッジヘッド」では、\n多くの次元・時間を観測しています。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1016"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『観測の結果、\n対応しなければならない問題が見つかった時に、\n任務にあたります。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1017"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate046/Bg_Sr00460371_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face071"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『「ジャスティファイ」司令官の作戦に基づき\n選出されたメンバーが\nワープゲートを使って出動します。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1018"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face061"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『任務の内容は、\n災害への対応や人命救助。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1019"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『犯罪などを未然に防ぐために必要な\n執行対象の追跡・捕獲など\n様々です。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1020"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face051"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『いつ任務にあたることになるかは\n誰にもわかりません。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1021"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face072"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『だからこそ、\nいつでも出動できるよう\n鍛えて準備しておくことが大事なんです。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1022"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate046/Bg_Sr00460371_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『そのための便利な施設が\nここには、たくさんあります。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1023"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『まだ時間もありますし、\n次のお話を始める前に\n少し訓練をしていきましょう！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1024"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face021"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『備えあれば患いなし、です！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT1025"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_30",
+        "fade": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "mdpro3-training",
+  "category": "training",
+  "locale": "en-US",
+  "contentOrigin": "Original MDPro4 lessons using current ocgcore rules",
+  "series": [
+    {
+      "id": "first-steps",
+      "coverCard": 60800381,
+      "trainingGroup": "tutorial",
+      "missions": [
+        {
+          "id": "normal-summon",
+          "order": 1,
+          "coverCard": 69140098,
+          "kind": "puzzle",
+          "ready": true,
+          "prerequisites": [],
+          "puzzle": "Puzzles/normal-summon.lua"
+        },
+        {
+          "id": "tribute-summon",
+          "order": 2,
+          "coverCard": 70781052,
+          "kind": "puzzle",
+          "ready": true,
+          "prerequisites": [
+            "normal-summon"
+          ],
+          "puzzle": "Puzzles/tribute-summon.lua"
+        },
+        {
+          "id": "synchro-summon",
+          "order": 3,
+          "coverCard": 60800381,
+          "kind": "puzzle",
+          "ready": true,
+          "prerequisites": [
+            "tribute-summon"
+          ],
+          "puzzle": "Puzzles/synchro-summon.lua"
+        }
+      ]
+    }
+  ]
+}

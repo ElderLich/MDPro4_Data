@@ -1,0 +1,658 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00030124",
+  "sourceBundle": "fcac4dd2",
+  "sourceSha256": "41618597dec2cbd586ef84ba76654adeaf576a4b5d69ac2e964503a286d22618",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate002/Texcture/Universal/Bg_Sr00020026_01",
+        0,
+        "#FFFFFFFF",
+        8
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate003/Bg_Sr00030124_00",
+        "oscale": 0,
+        "color": "#AAC1C800",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_04",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 13571,
+        "pos": 2,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 13570,
+        "pos": 1,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "倒しても倒しても仲間の残骸を踏み越えて新たな一群が現れ、\n一行は苦戦を強いられる。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "星辰の森の里に伝わり、イヴが持っていた祭器の杖。\nそれは星の命運を分かつ鍵であり、\n星遺物を起動させる力を秘めていた。",
+        "textId": "IDS_SCENARIOGATE0003_TXT4001",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "咄嗟の判断で、アウラムに継承されたものの、\n正統継承者であるイヴからではなく、\n機界騎士（ジャックナイツ）を介したものであった。",
+        "textId": "IDS_SCENARIOGATE0003_TXT4002",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そのため鍵の継承権は、\n一対の剣と同じく二分されてしまったのだ。",
+        "textId": "IDS_SCENARIOGATE0003_TXT4003",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_SUZU_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardFadeOut",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 13571
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "自身の中に眠るイヴにも\n継承権が残っていることを知ったイヴリースは、\nアウラムよりも先に星槍の力を手に入れようと飛び去った。",
+        "textId": "IDS_SCENARIOGATE0003_TXT4004",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そうはさせまいと後を追うアウラム。",
+        "textId": "IDS_SCENARIOGATE0003_TXT4005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate003/Bg_Sr00030124_01",
+        "oscale": 0,
+        "color": "#BE9D72FF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.5862683057785034,0.5862683057785034,0.0,0.06838905811309815],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかしそこに、イヴリースが、\n機界騎士（ジャックナイツ）たちから奪ったコアを使い\n生み出した 魔獣・トロイメアたちが立ちはだかった。",
+        "textId": "IDS_SCENARIOGATE0003_TXT4006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "トロイメアの力は凄まじく、\n新たな力を得たばかりのアウラムは\n六頭の魔獣に防戦を強いられる。",
+        "textId": "IDS_SCENARIOGATE0003_TXT4007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "前に進むこともできず、\nかといって撤退するのも今となっては不可能に近い",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そこに、\nイムドゥークを伴って駆けつけた\nニンギルスが言い放つ。",
+        "textId": "IDS_SCENARIOGATE0003_TXT4008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate003/Bg_Sr00030009_02",
+        "oscale": 0.1,
+        "color": "#F5BAA31B",
+        "pos": 0
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 13059,
+        "pos": 5,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 13060,
+        "pos": 6,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "前に進むこともできず、\nかといって撤退するのも今となっては不可能に近い",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ここは抑える。\nお前は先に行け――。",
+        "textId": "IDS_SCENARIOGATE0003_TXT4009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "前に進むこともできず、\nかといって撤退するのも今となっては不可能に近い",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "低く、確固たる意志が込められた声だった。",
+        "textId": "IDS_SCENARIOGATE0003_TXT4010",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "力尽きるまで戦うしかないのかと思ったその時。\nリースが今にも倒れそうなアウラムたちに向かって叫ぶ。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "既に星杯の力を失っていたニンギルスは、\n自分ではイヴリースに追いついても\n止めることはできないと悟っていたのだ。",
+        "textId": "IDS_SCENARIOGATE0003_TXT4011",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 0
+      },
+      "args": {}
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 13059,
+        "pos": 1,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "mrk2": 13597,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 13601,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 13602,
+        "pos4": 4,
+        "se1": "",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "機怪蟲の上位体、\nエクスクローラーを倒せば\n機怪蟲たちの動きを止められるはず――。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "何か言いかけたアウラムの返事を待たず、\nニンギルスは槍を手に\n魔獣たちの前へとおどり出る。",
+        "textId": "IDS_SCENARIOGATE0003_TXT4012",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "機怪蟲の上位体、\nエクスクローラーを倒せば\n機怪蟲たちの動きを止められるはず――。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "力を失なってなお、\n鬼神のごとき槍捌きを見せるニンギルス。",
+        "textId": "IDS_SCENARIOGATE0003_TXT4013",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "#BE0000FF",
+        "dstcolor": "#BE000000",
+        "target": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_ATTACK_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.3,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.3,
+        "cycle": 0.2,
+        "target": 0
+      }
+    },
+    {
+      "command": "CardFadeOut",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 13597
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "機怪蟲の上位体、\nエクスクローラーを倒せば\n機怪蟲たちの動きを止められるはず――。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「トロイメア・マーメイド」が撃破され、\n 魔獣たちの首は一斉に槍使いへと向けられる。",
+        "textId": "IDS_SCENARIOGATE0003_TXT4014",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "機怪蟲の上位体、\nエクスクローラーを倒せば\n機怪蟲たちの動きを止められるはず――。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "本来ならば誰よりも先に\n自分が実の妹の元へ向かいたいであろう。",
+        "textId": "IDS_SCENARIOGATE0003_TXT4015",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate003/Bg_Sr00030124_02",
+        "oscale": 0.05,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.5,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "リースは戦いの最中で、\nエクスクローラーが機怪蟲の司令塔であることを見抜いたのだ。\r\nその洞察をアウラムたちは信じ、\n包囲の隙を突いてエクスクローラーに肉迫する。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そのニンギルスの決意を背に受け、\nアウラムはイヴリースを追い星槍へと走る。",
+        "textId": "IDS_SCENARIOGATE0003_TXT4016",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.414046049118042,2.414046049118042,0.0,0.041033435612916949],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.04,
+        "cycle": 0.05,
+        "target": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その背後では、\n孤軍奮闘しるニンギルスの叫びが\n雄々しく響き渡っていた。",
+        "textId": "IDS_SCENARIOGATE0003_TXT4017",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_04",
+        "fade": 2
+      }
+    }
+  ]
+}

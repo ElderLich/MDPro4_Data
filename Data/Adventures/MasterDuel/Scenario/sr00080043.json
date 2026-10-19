@@ -1,0 +1,412 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00080043",
+  "sourceBundle": "428024d1",
+  "sourceSha256": "706a61570b51d9092e139984e98c19ad1c6b577b135165c9d9f2982ff7f87175",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate008/Bg_Sr00080041_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_17",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 8,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,1.5989136695861817,1.5989136695861817,0.0,0.050151973962783816],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Ball",
+        "path": "Scenarios/Gates/Common/Effect/EF_BallGold",
+        "pos": 0,
+        "slayer": "Default"
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「メガリス」の台座は、別の世界を繋ぐ扉、\r\nあるいは別の生物を結びつける\r\n杭のような役割を果たしているのかもしれない。\r",
+        "textId": "IDS_SCENARIOGATE0008_TXT2001",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate008/Bg_Sr00080043_00",
+        "oscale": 0,
+        "color": "#E5E1DBFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WHOOSH_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「メガリス・オフィエル」の台座より現れし、\r\n 二対の翼を持つ大天使「メガリス・ファレグ」。",
+        "textId": "IDS_SCENARIOGATE0008_TXT2002",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「オフィエル」の持つ雰囲気から一変、\r\n 兜と盾を身に着け、槍を構える猛々しい天使だ。",
+        "textId": "IDS_SCENARIOGATE0008_TXT2003",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate008/Bg_Sr00080043_01",
+        "oscale": 0,
+        "color": "#D1C8C8FF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_11",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「メガリス・ハギト」の台座より現れし、\r\n 四枚の翼を持つ大悪魔「メガリス・ベトール」。",
+        "textId": "IDS_SCENARIOGATE0008_TXT2004",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "まがまがしい黄金の角を生やし、\r\n強固な肉体を持った悪魔だ。",
+        "textId": "IDS_SCENARIOGATE0008_TXT2005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate008/Bg_Sr00080043_02",
+        "oscale": 0,
+        "color": "#C0B8B8FF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_12",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「メガリス・オク」の台座から現れし、\r\n 多頭の竜「メガリス・アラトロン」。",
+        "textId": "IDS_SCENARIOGATE0008_TXT2006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その勢いは世界を平らげ、\r\n全てを飲み込まんとしているかのようだ。",
+        "textId": "IDS_SCENARIOGATE0008_TXT2007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "これらは「メガリス」が秘める力によって\r\n生まれたものの一つの形であると言えよう。",
+        "textId": "IDS_SCENARIOGATE0008_TXT2008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それだけではない。",
+        "textId": "IDS_SCENARIOGATE0008_TXT2009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_13",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate008/Bg_Sr00080043_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 3,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,3.2918813228607179,3.2918813228607179,0.0,0.050151973962783816],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.02928095869719982,0.02928095869719982,0.08054709434509278,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この「メガリス」は残骸となってもなお、\r\nある種の力場を創り出すほどの力を持っている。",
+        "textId": "IDS_SCENARIOGATE0008_TXT2010",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "どのように造られたのか、\r\n秘めたる力の正体は何なのか。\r\n 多くの謎に包まれた存在である「メガリス」。",
+        "textId": "IDS_SCENARIOGATE0008_TXT2011",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_14",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate008/Bg_Sr00080043_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.13794556260108949,0.13794556260108949,0.0,0.06838905811309815],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,-0.02544017881155014,-0.02544017881155014,0.09270519018173218,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その謎を解く鍵となるのは、\r\n 「メガリス」を通じて\r\n彼方より現れるもの、なのかもしれない。",
+        "textId": "IDS_SCENARIOGATE0008_TXT2012",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 2,
+        "frmcolor": "#23232300",
+        "dstcolor": "#232323FF",
+        "target": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_17",
+        "fade": 3
+      }
+    }
+  ]
+}

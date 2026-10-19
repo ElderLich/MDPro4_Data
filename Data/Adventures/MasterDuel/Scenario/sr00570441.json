@@ -1,0 +1,582 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00570441",
+  "sourceBundle": "791aeb43",
+  "sourceSha256": "04865c4cf452784cd225a445d69c70fbac6cee17627fbffd3bfc4cb4999996f7",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "霞の谷の守護者たち ",
+        "titleId": "IDS_SCENARIOGATE0057_TITLE1001",
+        "path": "Scenarios/Gates/Gate057/Bg_Sr00570441_titile",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate057/Bg_Sr00570441_00",
+        "oscale": 0,
+        "color": "#C2B6CCFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "大地を切り裂くように延々と続く\n「霞の谷（ミスト・バレー）」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT1001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "谷には常に霞がかかっており、\nその全容は把握できない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT1002"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 8110,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "",
+        "mrk2": 7956,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 7816,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 7817,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そこに住むのは谷の合間を\n自由に行き来する鳥獣と、\nその身体に鳥の特徴を色濃く残した鳥人だ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT1003"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_DEGITAL_CARD_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 8110,
+        "dstmrk": 8121
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7956,
+        "dstmrk": 7957
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_DEGITAL_CARD_01_b",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7816,
+        "dstmrk": 8109
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7817,
+        "dstmrk": 7532
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らは優秀な戦士ではあったが\n支配欲や領土拡大といった野心はない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT1004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "谷に伝わる風習と文化を厳格に守り、\n谷に生まれ谷で死ぬのを良しとする\n気高き一族である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT1005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "霞の谷の環境は厳しく、\n全容はつかめない土地である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT1006"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 0
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate057/Bg_Sr00570441_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それでも、各部族が覇を競う\n群雄割拠の時代であったため、\n攻め込んでくる集団は少なからずあった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT1007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それが少人数であれば\n谷の住人である彼らは何もしない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT1008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "なぜなら谷は、深く入り組み、\n常に霞がかかっている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT1009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そのため部外者は居住区にたどり着くのはおろか、\n出ることすら不可能だからだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT1010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "侵入者は放っておけば\n住人が手を下すまでもなく、\n憐れな末路をたどる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT1011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "幸運にも――いや、不幸にも生活圏へと\n迷い込むものがあれば、霞の谷が誇る少数精鋭の\n戦士団や鳥獣によって撃退されるのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT1012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "時には複数の蛮族が手を組み、\n大規模の戦力となって\n攻め込んでくることもあった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT1013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それが谷の戦士団と鳥獣たちの手に余るものであれば、\n彼らは「ミスト・ウォーム」をけしかける。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT1014"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate057/Bg_Sr00570441_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ミスト・ウォームとは\n太古から谷に住んでいる超巨大生物だ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT1015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "複数の個体が確認されているが群れることはなく、\nそれぞれが決まった経路を数十年、\n数百年単位で巡回している。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT1016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "旧くからいる巨大生物ではあるが\n意思の疎通は不可能で、\nその生態についてもよく分かっていない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT1017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ただ、それらが特定の音や光に反応するため、\n住人は笛や鏑矢、強烈な閃光を放つ玉を用いて\n誘導するのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT1018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "これは本来、ミスト・ウォームが移動する経路上に作られた\n居住地などを迂回させるために発案された術であった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT1019"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、戦乱の世にあってはそれが利用され、\n愚かな敵対者はこの巨獣に\n踏みつぶされ、蹴散らされるのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT1020"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "こうして、霞の谷の平穏は\n長きに渡って守られてきた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT1021"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "frm": "",
+        "dst": "#7C748EFF"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7830,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 7966,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 7832,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "",
+        "mrk2": 7828,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そこに現れたのが、\n外なる星から飛来した「ワーム」である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0057_TXT1022"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "fade": 2
+      }
+    }
+  ]
+}

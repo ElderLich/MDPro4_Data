@@ -1,0 +1,81 @@
+{
+  "sourceBundle": "fdfbdbb3",
+  "sourceSha256": "c877e5ef709befbfe42017e880795c305878bacf441adf5e9684506717a4e00a",
+  "mma": {
+    "tp": "Pager",
+    "title": {
+      "useId": false,
+      "tid": "",
+      "ja_JP": "クエスト ヘルプ",
+      "en_US": "",
+      "fr_FR": "",
+      "it_IT": "",
+      "de_DE": "",
+      "es_ES": "",
+      "pt_BR": "",
+      "ko_KR": ""
+    },
+    "contents": [
+      {
+        "tp": "HalfImageTextPage",
+        "caption": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_LINK_01_H",
+          "ja_JP": "リンク召喚とは？\r",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "text": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_LINK_01_B",
+          "ja_JP": "リンクモンスターを呼び出す方法です。\r\nリンクモンスターに記されている素材をフィールドにそろえて行います。\r\nリンクモンスターはレベルや守備力がないモンスターで、「リンクマーカー」を持っているのが最大の特徴です。\r\n「リンクマーカー」は指し示す先のゾーンやそのゾーンに置かれているカードに様々な効果を及ぼします。\r",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "buttons": [],
+        "resourcePath": "Help/Strategy/HelpStrategyLink_01"
+      },
+      {
+        "tp": "HalfImageTextPage",
+        "caption": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_LINK_02_H",
+          "ja_JP": "リンク召喚をやってみよう！\r",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "text": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_LINK_02_B",
+          "ja_JP": "自分のメインフェイズに、自分フィールドから素材となるモンスターを墓地へ送り、その条件に合ったリンクモンスターをエクストラデッキから呼び出します。\r\n１体のモンスターは１つのリンク素材として数えますが、リンクモンスターの場合は、１体でリンクモンスターが持つＬＩＮＫの数のリンク素材として使用する事もできます。\r",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "buttons": [],
+        "resourcePath": "Help/Strategy/HelpStrategyLink_02"
+      }
+    ],
+    "isLoop": false,
+    "startPage": 0
+  }
+}

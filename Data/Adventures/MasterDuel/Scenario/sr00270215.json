@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00270215",
+  "sourceBundle": "1a889715",
+  "sourceSha256": "b303d8d4eb8ad7cdb2cb2669865cb701511e3efa0cc6082e21a3f9b5e3e6e119",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate027/Bg_Sr00270215_title",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "t": "未界域調査報告ファイル",
+        "titleId": "IDS_SCENARIOGATE0027_TITLE1001",
+        "scale": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate027/Bg_Sr00270215_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_JUNGLE_LOOP",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.6,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "“現代に残された最後の秘境”とされる\n未開の孤島が存在する。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0027_TXT1001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その島は失われた伝説の大陸になぞらえて\n「ユーマリア大陸」とも呼ばれていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0027_TXT1002"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.27916663885116579,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_JUNGLE_LOOP",
+        "fade": 4
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "島の周囲には海流や不安定な気候もあり、\n人類の侵入を拒んでいるかのようだった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0027_TXT1003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そのため生態系はおろか、\nこれまで島の全貌を知ることすらできずにいた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0027_TXT1004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ところが、その島へ\n探検隊が密かに派遣されており、\nつい先日に帰還を果たしたというのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0027_TXT1005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "さらに、彼らによる調査報告会が\n行われることも明らかになる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0027_TXT1006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その情報をつかんだ多くのメディアは、\n世紀の大発見を期待し、\n取材を申し込んだのであった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0027_TXT1007"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate027/Bg_Sr00270215_01",
+        "oscale": 0,
+        "color": "#C5B9A7FF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "調査報告会は始まったものの、\n雰囲気は重々しかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0027_TXT1008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "なぜなら、これらの報告を行う\n探検隊員たちの様子が\nおかしかったからだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0027_TXT1009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "包帯を巻いた隊員の姿は痛々しく、\n中には現地でどのような恐ろしい体験をしたのか、\n焦点の定まらぬ目で身体を震わせている者の姿もある。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0027_TXT1010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らはユーマリア大陸で何を見て、\nどのような危険に遭遇したというのだろうか。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0027_TXT1011"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "fade": 2
+      }
+    }
+  ]
+}

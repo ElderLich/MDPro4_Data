@@ -1,0 +1,701 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00440350",
+  "sourceBundle": "9eb55564",
+  "sourceSha256": "15ad560cecf8520991bffb06c0782a8a56185b5c438c2fe2f4934527c017594b",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440350_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_31",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "オルフェゴールとの戦い、\nそして大地の崩壊に巻き込まれ、\n既に満身創痍だったパラディオン。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "さらに、彼らの前に立ちはだかった\n「星遺物の守護竜メロダーク」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "もはや“大いなる闇”が\nリースの手に渡るのを\n防ぐ手立てはないのか。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0044_TXT3003"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440350_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_KIRAKIRA",
+        "vol": -1
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_31",
+        "fade": 5
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "アウラムが屈しかけたその時、\nイドリースの前に\n一体の竜が飛来する。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "星辰の森から現れた\n「守護竜ユスティア」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3005"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_32",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440350_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "青い輝きを放つその竜は力を解放し\nイドリースに吸収されていた\nイヴの身体を引きはがした。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3006"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_YUGO_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その瞬間、輝きはさらに強さを増し、\n眩い閃光が辺りを埋め尽くす。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3007"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440350_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 1
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_KIRAKIRA",
+        "vol": -2000,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": -1,
+        "ignoreSkip": true
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "光が収束した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3008"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,-0.10976018011569977,-0.10976018011569977,0.0,0.22357723116874696],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.28297537565231326,0.28297537565231326,0.19512194395065309,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "アウラムが瞼を開くと、\nそこには一人の少女が降り立っていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その優しい眼差しを\n見間違えるはずもない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ニンギルスの妹。\nそして自分の幼馴染の少女。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "里での暮らし。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「星遺物」を探し求める旅。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "これまで様々な苦楽を共にした、\nアウラムが良く知るイヴだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "リースが消滅させたはずのイヴが、\nそこに立っていたのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "再会を果たしたアウラムとイヴ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、それを喜ぶ間も無く、\n異変は起こった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3017"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440350_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.05,
+        "cycle": 0.05,
+        "target": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_GOGOGO",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "星遺物の力を宿したイドリースの身は、\n“鍵”とその継承者であるイヴを失い、\n暴走と崩壊を始めたのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3018"
+      }
+    },
+    {
+      "command": "ShakeEnd",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "target": 0
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 14285,
+        "pos2": 3,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 13730,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 14268,
+        "pos": 6,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "アウラムとイヴは、イドリースと同様に\n力が暴走し苦しむメロダークに向き直る。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3019"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "死の力に呑まれた仲間を救うため、\n彼らは力を合わせてイムドゥークの魂を\n呼び起そうと試みた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3020"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_DEGITAL_CARD_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 14268,
+        "dstmrk": 14282
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "二人の呼びかけは、\nメロダークの死の力をはねのけ、\n奥底に沈んでいたイムドゥークの魂を目覚めさせる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3021"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "覚醒したイムドゥークは生の力を増幅させ、\n聖なる竜「星杯の守護竜アルマドゥーク」へと\n進化を果たしたのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3022"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その間にもイドリースの暴走と\n崩壊は続いている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3023"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 0
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440350_05",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そしてとうとう「機怪神エクスクローラー」によって\n掘り起こされた大地の底から\n異形の物体が姿を表した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3024"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_DEMIURGY",
+        "vol": -2000,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": -1,
+        "ignoreSkip": true
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それを見たイヴは言う。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3025"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "あれこそが“大いなる闇”の正体。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3026"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "神の力の体現者――「星神器デミウルギア」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT3027"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_DEMIURGY",
+        "fade": 2
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_32",
+        "fade": 2
+      }
+    }
+  ]
+}

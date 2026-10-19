@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "platformIndex": "Solo Gates/BundleIndex.json",
+  "assets": {
+    "Scenarios/Gates/Gate005/Bg_Sr00050019_tittle": {
+      "bundle": "0f0fb0c7",
+      "asset": "assets/resourcesassetbundle/scenarios/gates/gate005/bg_sr00050019_tittle.png"
+    },
+    "Scenarios/Gates/Gate005/Bg_Sr00050019_00": {
+      "bundle": "b27f22a5",
+      "asset": "assets/resourcesassetbundle/scenarios/gates/gate005/bg_sr00050019_00.prefab"
+    },
+    "Scenarios/Gates/Gate005/Bg_Sr00050019_01": {
+      "bundle": "c5781233",
+      "asset": "assets/resourcesassetbundle/scenarios/gates/gate005/bg_sr00050019_01.prefab"
+    },
+    "Scenarios/Gates/Gate005/Bg_Sr00050019_02": {
+      "bundle": "5c714389",
+      "asset": "assets/resourcesassetbundle/scenarios/gates/gate005/bg_sr00050019_02.prefab"
+    },
+    "Scenarios/Gates/Gate005/Bg_Sr00050019_03": {
+      "bundle": "2b76731f",
+      "asset": "assets/resourcesassetbundle/scenarios/gates/gate005/bg_sr00050019_03.prefab"
+    },
+    "Scenarios/Gates/Gate006/Texcture/Bg_Sr00060023_tittle": {
+      "bundle": "243df1da",
+      "asset": "assets/resourcesassetbundle/scenarios/gates/gate006/texcture/bg_sr00060023_tittle.png"
+    },
+    "Scenarios/Gates/Gate006/Bg_Sr00060023_00": {
+      "bundle": "fe6b6290",
+      "asset": "assets/resourcesassetbundle/scenarios/gates/gate006/bg_sr00060023_00.prefab"
+    },
+    "Scenarios/Gates/Gate006/Bg_Sr00060023_01": {
+      "bundle": "896c5206",
+      "asset": "assets/resourcesassetbundle/scenarios/gates/gate006/bg_sr00060023_01.prefab"
+    },
+    "Scenarios/Gates/Gate006/Bg_Sr00060023_02": {
+      "bundle": "106503bc",
+      "asset": "assets/resourcesassetbundle/scenarios/gates/gate006/bg_sr00060023_02.prefab"
+    },
+    "Scenarios/Gates/Gate006/Bg_Sr00060025_00 1": {
+      "bundle": "8127a17f",
+      "asset": "assets/resourcesassetbundle/scenarios/gates/gate006/bg_sr00060025_00 1.prefab"
+    },
+    "Scenarios/Gates/Gate006/Bg_Sr00060025_00": {
+      "bundle": "db003d4c",
+      "asset": "assets/resourcesassetbundle/scenarios/gates/gate006/bg_sr00060025_00.prefab"
+    },
+    "scenarios/player/cardactor/prefabs/scenariocardmodel": {
+      "bundle": "e5bfdf34",
+      "asset": "assets/resourcesassetbundle/scenarios/player/cardactor/prefabs/scenariocardmodel.prefab"
+    },
+    "scenarios/player/cardactor/prefabs/scenariocardpop": {
+      "bundle": "baded545",
+      "asset": "assets/resourcesassetbundle/scenarios/player/cardactor/prefabs/scenariocardpop.prefab"
+    },
+    "scenarios/player/cardactor/timeline/scenariocardfadein": {
+      "bundle": "ec3a7a00",
+      "asset": "assets/resourcesassetbundle/scenarios/player/cardactor/timeline/scenariocardfadein.playable"
+    },
+    "scenarios/player/cardactor/timeline/scenariocardfadeout": {
+      "bundle": "283dd7fa",
+      "asset": "assets/resourcesassetbundle/scenarios/player/cardactor/timeline/scenariocardfadeout.playable"
+    },
+    "scenarios/cardpop/tcg/cardpop13573": {
+      "bundle": "0c1cd71e",
+      "asset": "assets/resourcesassetbundle/scenarios/cardpop/tcg/cardpop13573.png"
+    },
+    "scenarios/cardpop/tcg/cardpop13574": {
+      "bundle": "927842bd",
+      "asset": "assets/resourcesassetbundle/scenarios/cardpop/tcg/cardpop13574.png"
+    },
+    "scenarios/cardpop/tcg/cardpop13575": {
+      "bundle": "e57f722b",
+      "asset": "assets/resourcesassetbundle/scenarios/cardpop/tcg/cardpop13575.png"
+    },
+    "scenarios/cardpop/tcg/cardpop13576": {
+      "bundle": "7c762391",
+      "asset": "assets/resourcesassetbundle/scenarios/cardpop/tcg/cardpop13576.png"
+    },
+    "scenarios/cardpop/tcg/cardpop13577": {
+      "bundle": "0b711307",
+      "asset": "assets/resourcesassetbundle/scenarios/cardpop/tcg/cardpop13577.png"
+    },
+    "scenarios/cardpop/tcg/cardpop13578": {
+      "bundle": "9bce0e96",
+      "asset": "assets/resourcesassetbundle/scenarios/cardpop/tcg/cardpop13578.png"
+    }
+  },
+  "sounds": {
+    "BGM_SOLO_10": {
+      "address": "BGM_SOLO_10"
+    },
+    "BGM_SOLO_17": {
+      "address": "BGM_SOLO_17"
+    },
+    "BGM_SOLO_12": {
+      "address": "BGM_SOLO_12"
+    },
+    "BGM_SOLO_08": {
+      "address": "BGM_SOLO_08"
+    },
+    "SE_SOLO_UMEKIGOE_01": {
+      "registry": "SE_SOLO_UMEKIGOE_01"
+    },
+    "SE_SOLO_DEGITAL_CARD_01": {
+      "registry": "SE_SOLO_DEGITAL_CARD_01"
+    },
+    "SE_SOLO_FIRE_LOOP": {
+      "registry": "SE_SOLO_FIRE_LOOP"
+    },
+    "SE_SOLO_RAIN_LOOP": {
+      "registry": "SE_SOLO_RAIN_LOOP"
+    }
+  },
+  "cardMrks": [
+    13573,
+    13574,
+    13575,
+    13576,
+    13577,
+    13578
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00140079",
+  "sourceBundle": "87d4a0a8",
+  "sourceSha256": "7d49eb9a76fd25e53f3c6109401faf950c59772376a57090f6e058964d2e3e42",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate002/Texcture/Universal/Bg_Sr00020026_01",
+        0,
+        "#FFFFFFFF",
+        8
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate014/Bg_Sr00140077_00",
+        "oscale": 0,
+        "color": "#FFFFFF00",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 6,
+        "zoom": 1.3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.00151824951171875,0.0,0.737127959728241,0.737127959728241,0.0,0.06088421493768692],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "星鎧を目の前にして、\nアウラムたちは機怪蟲の群れに行く手を阻まれてしまう。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "今度は地上を見てみよう。\r\nここでは多くの「ダイナミスト」の姿が確認できる。",
+        "textId": "IDS_SCENARIOGATE0014_TXT2001",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate002/Texcture/Universal/Bg_Sr00020026_01",
+        0,
+        "#FFFFFFFF",
+        8
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate014/Bg_Sr00140079_00",
+        "oscale": 0.01,
+        "color": "#C5C5C500",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_UMEKIGOE_04",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.5,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "shakex": false,
+        "shakey": true,
+        "wave": 0.05,
+        "cycle": 0.05,
+        "target": 0
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.75377357006073,0.75377357006073,0.0,0.05319149047136307],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "倒しても倒しても仲間の残骸を踏み越えて新たな一群が現れ、\n一行は苦戦を強いられる。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "土煙をあげて大地を疾走する\r\n「ダイナミスト・ケラトプス」と\r\n「ダイナミスト・ステゴザウラー」。",
+        "textId": "IDS_SCENARIOGATE0014_TXT2002",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "これは競っているのではなく、\r\n縄張りを守るために巡回しているのが\r\nその実態に近い。",
+        "textId": "IDS_SCENARIOGATE0014_TXT2003",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「ケラトプス」は身体に備えた鋭い角などで\r\n噴火などによって落ちてきた大岩を破砕し、\r\n仲間たちが生きる土地を整える。",
+        "textId": "IDS_SCENARIOGATE0014_TXT2004",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「ステゴザウラー」は背中に並ぶ\r\n剣状のヒレを使い、\r\n周囲の気候を観測する。",
+        "textId": "IDS_SCENARIOGATE0014_TXT2005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "気温や風の変化など、\r\nこの土地に危険が迫っていないかを\r\n探るのだ。",
+        "textId": "IDS_SCENARIOGATE0014_TXT2006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "ShakeEnd",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "target": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_BAKUHATSU_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate014/Bg_Sr00140079_01",
+        "oscale": 0.01,
+        "color": "#E0B6B2B5",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.7020440101623535,0.7020440101623535,0.0,0.06382978707551956],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「ダイナミスト」たちが生きる\r\nこの秘境において最も過酷な場所。\r\nそれがこの火山帯である。",
+        "textId": "IDS_SCENARIOGATE0014_TXT2007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ここでは「ダイナミスト」のボスを争う大型種が\r\nにらみを利かせている。",
+        "textId": "IDS_SCENARIOGATE0014_TXT2008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "前に進むこともできず、\nかといって撤退するのも今となっては不可能に近い",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それが「ダイナミスト・スピノス」と\r\n「ダイナミスト・レックス」だ。",
+        "textId": "IDS_SCENARIOGATE0014_TXT2009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "前に進むこともできず、\nかといって撤退するのも今となっては不可能に近い",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "どちらも蒸気機関からのエネルギーを\r\n電気に変える機能を持ち、 そのパワーは\r\n他の「ダイナミスト」を凌駕するほどだ。",
+        "textId": "IDS_SCENARIOGATE0014_TXT2010",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "力尽きるまで戦うしかないのかと思ったその時。\nリースが今にも倒れそうなアウラムたちに向かって叫ぶ。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ライバルのような関係性の２体だが、\r\n外敵の侵入を察知した時は\r\nテリトリーを守るため共に全力で戦う。",
+        "textId": "IDS_SCENARIOGATE0014_TXT2011",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "機怪蟲の上位体、\nエクスクローラーを倒せば\n機怪蟲たちの動きを止められるはず――。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それがボスたる彼らの役目なのだ。",
+        "textId": "IDS_SCENARIOGATE0014_TXT2012",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "機怪蟲の上位体、\nエクスクローラーを倒せば\n機怪蟲たちの動きを止められるはず――。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "このように「ダイナミスト」は\r\n各々の特性を活かした役目を果たしながら、\r\n秘境の地で生き続けている。",
+        "textId": "IDS_SCENARIOGATE0014_TXT2013",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "fade": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,933 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00810002",
+  "sourceBundle": "b0a8315f",
+  "sourceSha256": "c97a6c10569859c15a7ac8360ac824db6a3620ea2b8017fd9e499b90bf0a6409",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Bg_Sr00810002_00_a",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_43",
+        "vol": -1
+      },
+      "ver": 0
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Ball",
+        "path": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/EF_Ball_blue",
+        "target": "BackUI",
+        "locater": "Locator_Default",
+        "pos": "0",
+        "duration": 0
+      },
+      "ver": 1
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EXS_05",
+        "vol": -1
+      },
+      "ver": 0
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "悪魔を滅する方法は、大きくわけて二つ存在する。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_001",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "一つは、悪魔の真名を唱え、魂を摘み取る方法。\nそしてもう一つは、\n力をもって、憑依体の奥底に潜む魂そのものを破壊すること。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_002",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "聖なる武器を携えた少女たちは、\n悪魔と対峙し、その姿から真名を探り出す。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_003",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "有翼と……蛇の尾を持つ狼……？",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_TALK_004",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810002_sof_normal",
+        "chara_icon_label": "c01_icon",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "ソフィア",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_001"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "ソフィアちゃん、この姿って――",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_TALK_005",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810002_ire_normal",
+        "chara_icon_label": "c02_icon",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "イレーヌ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_002"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "三十五体目の悪魔……\nマルコシアス！",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_TALK_006",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810002_sof_angry",
+        "chara_icon_label": "c01_icon_angry",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "ソフィア",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_001"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Ball",
+        "duration": 0
+      },
+      "ver": 1
+    },
+    {
+      "command": "TextClose",
+      "option": {},
+      "args": {}
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EXS_06",
+        "vol": -1
+      },
+      "ver": 0
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "bg_keep_fadeout": false
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "悪魔の真名を突き止めた二人は、\n悪魔怪人を囲い込むと、\nその名を唱えた。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_007",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "苦痛から逃れようと暴れる身体を、\n聖武具の力で押さえ込む二人。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_008",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "……っ、もう少しです。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_TALK_009",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810002_sof_sad",
+        "chara_icon_label": "C01_icon_sad",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "ソフィア",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_001"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "逃がさないわよ！",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_TALK_010",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810002_ire_angry",
+        "chara_icon_label": "C02_icon_angry",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "イレーヌ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_002"
+      }
+    },
+    {
+      "command": "TextClose",
+      "option": {},
+      "args": {}
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "やがて、\n悪魔の魂が完全に引き抜かれると、\n憑依体は、ぴたりと動きを止める。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_011",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.2,
+        "path": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Bg_Sr00810001_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EXS_07",
+        "vol": -1
+      },
+      "ver": 0
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "bg_keep_fadeout": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "しかし、その隙を突くように、\n多数の悪魔が一斉に襲いかかってきた。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_012",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "真名を明かそうにも、\n激しい攻撃に、防戦一方となる二人。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_013",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "イレーヌ姉さま、数が多すぎます。\nここは一度引いて、応援を呼びましょう！",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_TALK_014",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810002_sof_sad",
+        "chara_icon_label": "C01_icon_sad",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "ソフィア",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_001"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "ええ……、それがいいわ。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_TALK_015",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810002_ire_angry",
+        "chara_icon_label": "C02_icon_sad",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "イレーヌ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_002"
+      }
+    },
+    {
+      "command": "TextClose",
+      "option": {},
+      "args": {}
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WAFU_EFFECT_02",
+        "vol": -1
+      },
+      "ver": 0
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.2,
+        "cycle": 0.2,
+        "target": 0
+      },
+      "ver": 0
+    },
+    {
+      "command": "Talk",
+      "option": {},
+      "args": {
+        "chara_icon": "",
+        "chara_icon_label": "C01_icon_sad",
+        "chara_icon_actor_ctrls": [],
+        "chain_text": false,
+        "chara_name": "ソフィア",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_001",
+        "text": "っく！　イレーヌ姉さま。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_TALK_016"
+      },
+      "ver": 0
+    },
+    {
+      "command": "ShakeEnd",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "target": 0
+      },
+      "ver": 0
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "ソフィアちゃん！！",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_TALK_017",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_name": "イレーヌ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_002",
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810002_ire_angry",
+        "chara_icon_label": "C02_icon_angry",
+        "chara_icon_actor_ctrls": []
+      }
+    },
+    {
+      "command": "TextClose",
+      "option": {},
+      "args": {}
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      },
+      "ver": 0
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.1,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      },
+      "ver": 0
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 1
+      },
+      "ver": 0
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 16741,
+        "pos": 5,
+        "se1": "SE_SOLO_EXS_04_card",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "よかった、間に合いました。\nお怪我はありませんか？",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_TALK_018",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810002_sut_normal",
+        "chara_icon_label": "C03",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "ステラ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_003"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "ステラちゃん、ありがとう。\n大丈夫よ。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_TALK_019",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810002_ire_happy",
+        "chara_icon_label": "C02_icon_happy",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "イレーヌ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_002"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 16740,
+        "pos": 6,
+        "se1": "SE_SOLO_EXS_04_card",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "二人とも、離れててごめん！\nもう大丈夫だから！",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_TALK_020",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810002_eri_normal",
+        "chara_icon_label": "C04",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "エリス",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_004"
+      }
+    },
+    {
+      "command": "TextClose",
+      "option": {},
+      "args": {}
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "エリスはその圧倒的な力を以って\n真名を解き明かすことなく、\n憑依体の奥底に潜みし魂を破壊していった。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_021",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4"
+      },
+      "ver": 0
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "しかし、倒しても倒しても、\n新たな悪魔が現れる。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_022",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "――必ず、生きて帰る。\n子供たちとも、そう約束したから",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_023",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "戦いは熾烈を極め、日が昇るまで続いた。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_024",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_43",
+        "fade": 2
+      },
+      "ver": 0
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {},
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Bg_Sr00810002_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_45",
+        "vol": -1
+      },
+      "ver": 0
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "bg_keep_fadeout": false
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 1
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1,
+        "skip": false
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "夜明けの光とともに、\n四人の少女たちは拠点のある\nビル群へ向かっていた。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_025",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EXS_09_foot",
+        "vol": -1
+      },
+      "ver": 0
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "遠くから近づいてくる彼女たちの\n姿に気づいた子供が、\n真っ先に声をあげた。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_026",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "みんなー！姉さんたちが帰ってきたぞ！\nチーム「リリウム」の勝利だ！",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_TALK_027",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_name": "子供たち",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_005"
+      }
+    },
+    {
+      "command": "TextClose",
+      "option": {},
+      "args": {}
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "四人が無事に帰還したことを喜び、\n子供たちが駆け寄ってくる。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_028",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_name": "",
+        "chara_name_id": ""
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "ただいまー！\n今日も悪魔を祓ったよ！もう大丈夫！",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_TALK_029",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810002_eri2_normal",
+        "chara_icon_label": "C04",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "エリス",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_004"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "よかった……。\n今日も無事みんなの笑顔が見られて。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_TALK_030",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810002_sut2_normal",
+        "chara_icon_label": "C03",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "ステラ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_003"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "……騒ぎすぎです。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_TALK_031",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810002_sof2_normal",
+        "chara_icon_label": "C01",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "ソフィア",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_001"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_5"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "まぁまぁ、ソフィアちゃんもほら、\n一緒に手をふって。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_TALK_032",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810002_ire2_normal",
+        "chara_icon_label": "C02",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "イレーヌ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_002"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "……いいですよ、私は。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_TALK_033",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810002_sof2_normal",
+        "chara_icon_label": "C01",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "ソフィア",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_001"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "おなかぺこぺこだよ。\nごはんの時間が待ち遠しいね！",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_TALK_034",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810002_eri2_normal",
+        "chara_icon_label": "C04",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "エリス",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_004"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "もう、エリス姉さまったら。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_TALK_035",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Swap/Ico_Sr00810002_sut2_normal",
+        "chara_icon_label": "C03",
+        "chara_icon_actor_ctrls": [],
+        "chara_name": "ステラ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_003"
+      }
+    },
+    {
+      "command": "TextClose",
+      "option": {},
+      "args": {}
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "一時の休息の後、\n少女たちは再び戦いへと\n身を投じることとなる。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_036",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "エクソシスターの活躍とは裏腹に、\n悪魔の闇は刻一刻と\n深くなっていくのであった。",
+        "textId": "IDS_SCENARIOGATE0081_C0002_TXT_037",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_45",
+        "fade": 2
+      },
+      "ver": 0
+    }
+  ]
+}

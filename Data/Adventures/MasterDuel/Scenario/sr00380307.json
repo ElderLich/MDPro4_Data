@@ -1,0 +1,414 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00380307",
+  "sourceBundle": "a553e93b",
+  "sourceSha256": "b0ea19e840d798ec5537823ab5e9abdd91f91ab33f113662a564838009abb2ec",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate038/Bg_Sr3800_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_11",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "frmcolor": "#232323FF",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_UMEKIGOE_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "どこからか\n野心に満ちた憤怒の唸り声が届く。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT2001"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_HIKARI_04",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Flash",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "cnt": 1,
+        "color": "#CC0707FF"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Fire",
+        "path": "Scenarios/Gates/Gate012/Sr00120067_Fire",
+        "pos": 0,
+        "duration": 0.5
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『我ら幽世（かくりよ）の焔が、\n小賢しき灯火を滅する時ぞ……！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT2002"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate038/Bg_Sr3801_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 40,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "幽世（かくりよ）で生まれた「魔妖（まやかし）」たち。\n未だ現世（うつしよ）を掌中に収めるのは叶わずにいた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT2003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "だが、積年の悲願を果たすべく、\n魔妖（まやかし）も人の世の変化に合わせて\n様々な策を講じている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT2004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "強大な妖力を持つ魔妖（まやかし）であっても、\n現世で十全の力を発揮できるのは\n夜の帳が下りている間のみ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT2005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "魔妖（まやかし）にとって陽の光は\n忌むべきものであり、現世を手にするには、\nそこを常夜の世界に変える必要がある。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT2006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "昼間はその身を人の姿に変え、\n現世に住まう人間――\nそして“不知火流”（しらぬいりゅう）の動向を探る。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT2007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "時には愚かな人間を騙し、\n懐柔し、自らの力を高める糧とする。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT2008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そうして妖力を蓄え、\n来たるべき時に現世へ大侵攻をかけるのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT2009"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Fire",
+        "duration": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate038/Bg_Sr3800_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "さて――\nあの“不知火流”（しらぬいりゅう）との激戦から\nどのくらいの月日が流れたのだろうか。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT2010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "すでに魔妖（まやかし）の脅威が\n人々の記憶からも\n薄れつつあった頃である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT2011"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate038/Bg_Sr3801_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.5,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "zoom": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "“不知火流（しらぬいりゅう）”の社が破壊され、\n魔妖（まやかし）の封印が解かれた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT2012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それを行ったのは、\n先の戦いの後も\n現世に残り身を潜めていた魔妖（まやかし）――",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT2013"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_04",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「氷の魔妖－雪女（つららのまやかし　ゆきおんな）」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT2014"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "path": "Scenarios/Gates/Gate038/Bg_Sr3801_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "魔妖（まやかし）の頭首\n「麗の魔妖－妖狐(うるわしのまやかし－ようこ)」が、\n記憶と妖力が不完全なまま現世へと舞い戻る。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT2015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "魔妖（まやかし）復活の時は、近い……。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0038_TXT2016"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "",
+        "path": "Scenarios/Gates/Gate012/Sr00120067_Fire",
+        "pos": 0,
+        "duration": 0.5
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは、いつか来るであろう魔妖（まやかし）と\n“不知火流（しらぬいりゅう）”との\n新たな戦いの始まりでもあるのだ。",
+        "autominsec": 3,
+        "textId": "IDS_SCENARIOGATE0038_TXT2017"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_11",
+        "fade": 2
+      }
+    }
+  ]
+}

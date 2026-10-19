@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "tool": "built-in image_gen.imagegen",
+  "created": "2026-09-23",
+  "backgrounds": [
+    {
+      "id": "palace-night",
+      "path": "Artwork/Modern/palace-night.png",
+      "reference": "Artwork/palace-night.png",
+      "prompt": "Use case: style-transfer. Asset type: polished 16:9 landscape background for a Yu-Gi-Oh! Forbidden Memories opening chapter visual novel. Input image: exact original PSX palace-night background, used as the architectural and composition reference. Reimagine this same ancient Egyptian palace entrance as modern high-resolution hand-painted game art with anime-adventure art direction. Keep the frontal symmetrical broad sandstone temple, two tall obelisks framing the distant building, monumental columns, warm golden open doorway at center, pairs of reclining stone guardian sphinxes, braziers, palm silhouettes and deep starry indigo night. Give the stone convincing weathered carved detail, subtle turquoise accents, restrained warm flame lighting, atmospheric depth and a crisp richly painted finish. Wide 16:9 composition, ideally 2048x1152. Clear lower third suitable for dialogue UI. No people, no cards, no UI, no title, no letters, no watermark. Preserve the reference location's recognizability rather than redesigning it as a different palace. This is a new raster illustration, not a 3D model.",
+      "sha256": "ddf4acbf2f0133b8534ecf6f8a29488d5f2af1e3a57dc4a1f498a8e834e2d24f",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "accepted": true,
+      "referenceSha256": "9d5b2631934137c9a45e0bb25536085f98a8cb4366097a60b23afc264bee4a2b"
+    },
+    {
+      "id": "palace-courtyard",
+      "path": "Artwork/Modern/palace-courtyard.png",
+      "reference": "Artwork/palace-courtyard.png",
+      "prompt": "Use case: style-transfer. Asset type: polished 16:9 landscape story background for the Yu-Gi-Oh! Forbidden Memories palace opening. Input image: original PSX palace-courtyard corridor, architectural and composition reference. Create a modern high-resolution painted game illustration of this SAME place at night. Keep the strong one-point perspective: tall tightly spaced monumental cold blue stone columns receding on the right; warm gold carved Egyptian relief wall on the left; repeated gleaming guardian statues and small fire braziers along the left; dark corridor converging at center back; moon and faint stars in the open strip of sky above. Preserve the reference's asymmetric composition and characteristic gold-versus-moonlight contrast. Rich sandstone detail, convincing shadow depth, elegant precise painterly anime-adventure art, atmosphere without hiding the architecture. Wide 16:9 ideally 2048x1152, clear walkable lower foreground for dialogue overlay. No people, no cards, no title, no UI, no watermark. This is a new raster recreation, not a 3D model.",
+      "sha256": "4b95ad5182c320f38429ff74b427bd19bf2f44ea62ab465fe0e7c064c5f76692",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "accepted": true,
+      "referenceSha256": "9308701e698b82fa7361ad778e3227e1a0d9600105ab4d83b85700e37a200803",
+      "repair": {
+        "prompt": "Use case: precise-object-edit. Edit the supplied palace courtyard image. Fix ONLY the golden scepters held by the Anubis guardian statues along the LEFT wall. Several foreground and middle statues have a crook/head that stops above the hand or a shaft disconnected across the two hands. Every statue must hold ONE physically continuous slender gold staff: the curved crook at top joins an uninterrupted straight shaft, the shaft visibly continues into and out of BOTH gripping hands and continues downward to its base near the pedestal. Match the continuous staff construction visible on the distant statues. Correct each broken or missing shaft segment and align the grip naturally. Keep every statue's pose, body, head, position and scale unchanged. Preserve all columns, architecture, carvings, braziers, moon, stars, perspective, colors, material shading and lighting exactly as in the input. No new objects, no people, no UI, no text. Targeted repair, not a new illustration. Same full 16:9 composition and resolution.",
+        "input": "Artwork/Modern/palace-courtyard.png",
+        "rejectedSha256": "2784d87a6618e80110aec094c5520d56e42ae700fb09a9e61dfe768bea992862",
+        "reason": "User identified disconnected scepters on foreground and middle guardian statues."
+      }
+    },
+    {
+      "id": "festival-plaza",
+      "path": "Artwork/Modern/festival-plaza.png",
+      "reference": "Artwork/festival-plaza.png",
+      "prompt": "Use case: style-transfer. Asset type: premium 16:9 visual-novel story background for Yu-Gi-Oh! Forbidden Memories. Input image: original PSX village plaza at night, use as the location and composition reference. Modernize this exact place into a richly painted high-resolution game illustration. Preserve the broad symmetrical village square, a low central raised platform with shallow steps and solitary tall obelisk in the distance, four large warm braziers, low flat-roofed sandstone houses to either side, palm trees and hanging pennants, deep starry indigo sky. Clean open paved foreground large enough for the Jono/Teana/Seto dialogue sprites. Convey a quiet festival night using warm windows and small lantern accents, retaining the reference's layout. Detailed hand-painted stonework, warm fire against cool blue moonlight, premium anime adventure environment style consistent with a modern Forbidden Memories recreation. Wide 16:9, ideally 2048x1152. No people, no cards, no title, no UI, no watermark, no modern buildings. New 2D raster art, not a 3D model.",
+      "sha256": "cff81fcdad851aee29862f3980f9931131dee053592d6ee90dae20363a700705",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "accepted": true,
+      "referenceSha256": "9f72ad140665b742a2a36576dbf1437ec613ecddc1df597eff7ad7749fc1d8b5"
+    }
+  ],
+  "portraits": [
+    {
+      "id": "fm-simon",
+      "path": "Artwork/Modern/Portraits/simon-neutral.png",
+      "reference": "Artwork/References/simon.png",
+      "prompt": "Use case: identity-preserve. Asset type: transparent PNG character portrait sprite for a premium Yu-Gi-Oh! Forbidden Memories visual novel. Input reference is the ORIGINAL Simon Muran illustration from the game. Redraw Simon in modern high-resolution polished anime game illustration while keeping him instantly recognizable: small elderly court adviser, expressive eyes beneath a tall cylindrical sandy tan wrapped hat with gold emblem and tiny green detail, face largely hidden by wrapped sandy tan robes and his blue-gloved raised hand, layered tan shawl and voluminous cloak; other blue-gloved hand resting on curved magenta-and-gold staff. Preserve original costume colors and old scholarly personality. Compose ONE character, from full hat down to mid-thigh, facing slightly toward viewer-left, relaxed wise neutral expression, all hat, both shoulders and hands inside the image with generous clear margin. Vertical canvas roughly 2:3. Intricate clean linework, richly shaded cloth, coherent anatomy, elegant warm/cool lighting matching moonlit Egyptian palace backgrounds. TRUE transparent alpha background, no colored rectangle, no environment, no floor, no cast shadow, no white matte, no text, no watermark. This is a new 2D painted sprite, not a 3D character.",
+      "source": "Artwork/Modern/Portraits/simon-neutral.png",
+      "sha256": "77dd16af19a2290482f6912a53cccb4627c059d7053352363f91215dbea684f5",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "accepted": true,
+      "referenceSha256": "0116f0f5759f74b2acb1e5b64783c7e8b930ebca6a75130b6cc1a097e31e29c2",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 575529,
+      "generationInputSha256": "508ce295edec35fd9981fb022294ba3841240238ded2d084109d6df9a5478d1a",
+      "referenceNote": "Generation input has exact same RGB as decoded original reference; reference extraction now makes black transparent instead of the opaque black inspection backdrop."
+    },
+    {
+      "id": "fm-jono",
+      "path": "Artwork/Modern/Portraits/jono-neutral.png",
+      "reference": "Artwork/References/jono.png",
+      "prompt": "Create an isolated production character sprite of Jono from Yu-Gi-Oh! Forbidden Memories, using ONLY the BLOND BOY on the LEFT of the reference image. There must be NO other character, NO background at all. Actual transparent alpha channel PNG output, transparent corners and transparent silhouette gaps. Character from the top of hair to mid-thigh, fully inside image with 8% margin above and at sides. Jono has angular cheerful anime eyes, sandy golden blond shaggy side-swept hair, light cream ancient Egyptian short-sleeved tunic with dark green zigzag collar and matching narrow trim. Friendly confident half-smile, one hand on hip, other loosely holding one facedown card. Warm fair skin. Recognizable original costume and face, not modern Joey's school uniform. Premium modern clean anime game linework and soft detailed cel shading. Waist-up visual-novel sprite isolated with NO environment, NO shadow, NO colored haze, NO text or watermark. Do not copy Seto standing on the right of the reference. Output transparent PNG, not a rectangular painted illustration.",
+      "source": "Artwork/Modern/Portraits/jono-neutral.png",
+      "sha256": "80512fcdf4b58f8a26701f33f2fa8e5e75a4136adf504c66258e5bb71b35c1cd",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "accepted": true,
+      "referenceSha256": "83331521d35de9513ac1e82ff128b9b7cbe868df7fc6bc479205cb0557662138",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 739227,
+      "generationInputSha256": "cd1a7c2cc5b1d89fe1c2cd11f893ed8df21ead3ee4d5e83dca9ac2deb8106b4f",
+      "referenceNote": "Generation input has exact same RGB as decoded original reference; reference extraction now makes black transparent instead of the opaque black inspection backdrop."
+    },
+    {
+      "id": "fm-seto",
+      "path": "Artwork/Modern/Portraits/seto-neutral.png",
+      "reference": "Artwork/References/seto.png",
+      "prompt": "Use case: identity-preserve. Asset type: modern high-resolution character portrait for Yu-Gi-Oh! Forbidden Memories, based on the original young priest Seto in this exact reference. ONE character only, upper body down to mid-thigh, no crop of tall headdress or shoulders. Keep Seto's recognizable stern youthful anime face, narrow blue eyes, brown hair/fringe, tall purple Egyptian priest headdress with turquoise oval jewel and gold horizontal wing ornaments, gold neck rings, sleeveless deep purple robe, broad gold collar with the original ankh-like centerpiece, gold armbands and wrist guards. Upright dignified posture with one bent arm, looking slightly toward viewer-left. Premium clean anime game ink lines, sophisticated soft cel-shaded volumes, detailed purple cloth and aged gold. Maintain original design rather than modern white-coat Seto Kaiba. Completely flat PURE white (#FFFFFF) background, no haze, no gradient, no shadows behind him, no props beyond his costume, no text, no watermark. Generous white margin around all top and side silhouette. Portrait canvas about2:3. This is a 2D illustration for later authorized cutout processing.",
+      "source": "Artwork/Modern/Portraits/seto-neutral.png",
+      "sha256": "4d324184dcdf17ef8b081363126338eb699acc923d7f3683f41d9b3bb01d32e4",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "accepted": true,
+      "referenceSha256": "a82f90df85751cdf2f962329da1d38949bad13e902dc44807b3b47d6a3a31b17",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 779254,
+      "generationInputSha256": "4b4db6586aa5b742071c35740e59323334c1cd5be707ceb595fc1115ee4aeac5",
+      "referenceNote": "Generation input has exact same RGB as decoded original reference; reference extraction now makes black transparent instead of the opaque black inspection backdrop."
+    },
+    {
+      "id": "fm-teana",
+      "path": "Artwork/Modern/Portraits/teana-neutral.png",
+      "reference": "Artwork/References/teana.png",
+      "prompt": "Use case: identity-preserve. Asset type: transparent character sprite for a modern Yu-Gi-Oh! Forbidden Memories visual novel. Reference: extract of the ORIGINAL PSX scene; use ONLY the young woman on the RIGHT, Teana, not Seto on the left. Recreate Teana alone with her recognizable shoulder-length auburn brown bob, large friendly blue anime eyes, cream sleeveless dress, pink draped cape/shawl, angular gold and turquoise Egyptian collar. Upper body to mid-thigh, full hair and shoulders safely within image, relaxed warm smiling expression, body angled slightly viewer-right. Modern premium anime game illustration, elegant precise linework and shaded fabric, original character identity and costume. Isolate character with genuine transparent alpha background, no other person, no environment, no letters or watermark. Vertical2:3 canvas, modest original costume, composed conversational pose.",
+      "source": "Artwork/Modern/Portraits/teana-neutral.png",
+      "referenceIndex": 41,
+      "sha256": "a276cb4a8ea81d3e1948cf772a11a79ea577af4ff1a3f0646762e1706c1f42b8",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "accepted": true,
+      "referenceSha256": "a755804449ada69307bae6d23879224b95511db769f399ffb1d2110d4867727b",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 714085,
+      "generationInputSha256": "8e5546f0f8982bcafff3177c68fb0bee696a2c01376aab9726c43dd1148d0b4f",
+      "referenceNote": "Generation input has exact same RGB as decoded original reference; reference extraction now makes black transparent instead of the opaque black inspection backdrop."
+    },
+    {
+      "id": "fm-prince",
+      "path": "Artwork/Modern/Portraits/prince-neutral.png",
+      "reference": "Artwork/References/prince.png",
+      "prompt": "Use case: identity-preserve. Asset type: transparent character sprite for a modern Yu-Gi-Oh! Forbidden Memories opening chapter visual novel. Reference: original PSX scene; use ONLY the young Prince Atem on the LEFT, not the enormous armored enemy on the right. Create the recognizable young Prince with dramatic angular black hair tipped magenta and gold blond bangs, sharp violet anime eyes, dark sleeveless Egyptian tunic with magenta trim, purple royal cape flowing over his shoulders, golden collar and armbands. Calm determined expression facing slightly viewer-right; relaxed conversational posture with hands gently at waist. Upper body to mid-thigh, all hair points and shoulders inside canvas with clear margins. Premium polished anime game linework and sophisticated soft cel shading, accurate original royal costume rather than school uniform. ONE character alone, genuine transparent PNG alpha, no backdrop, no environment, no large opponent, no modern Duel Disk, no text, no watermark. Vertical2:3 canvas.",
+      "source": "Artwork/Modern/Portraits/prince-neutral.png",
+      "referenceIndex": 36,
+      "sha256": "0e22f6bfbba25c84bfa39df99bb5618362289b852511d33362ec87572fcb7ebd",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "accepted": true,
+      "referenceSha256": "d2456eba75b9a3e55dbf2dd5f1b5ebadcd8ae976363d165eaede2f963d745fe7",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "fullyTransparentPixels": 661969,
+      "generationInputSha256": "c3b19e6944c93a2a6dc1d8516530f74504ab894cdfdef76f3af477600e642a3e",
+      "referenceNote": "Generation input has exact same RGB as decoded original reference; reference extraction now makes black transparent instead of the opaque black inspection backdrop."
+    }
+  ],
+  "representation": "Generated raster illustrations referenced to original PSX scene art; character cutouts are 2D, not 3D models.",
+  "postprocessing": "Generated RGB and original generated alpha preserved exactly. User authorized local background removal, but channel inspection and light/dark composite review showed it was unnecessary. Inline imagegen preview had misleadingly shown RGB behind transparent pixels."
+}

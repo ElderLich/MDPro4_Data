@@ -1,0 +1,342 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00580001",
+  "sourceBundle": "982f114a",
+  "sourceSha256": "418b10c046a342242fe39350d0886fc58e874163f15ae5c086c8a4bebccb4cb2",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "AOJ④（仮",
+        "titleId": "IDS_SCENARIOGATE0058_C0001_TITLE_001",
+        "path": "Scenarios/Gates/Gate058/Bg_Sr00580001_titile",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "vol": -1,
+        "titleId": null
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate042/Bg_Sr00420333_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false,
+        "titleId": null
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2",
+        "titleId": null
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 25,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "bg_keep_fadeout": false,
+        "titleId": null
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "大陸全土で「ワーム」との激戦が繰り広げられている中、\n「ジェネクス」たちも独自に戦いを続けていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0001_TXT_001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そしてワームとの戦闘が激化するにつれ、\nジェネクス自身にも変革が起こり始める。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0001_TXT_002"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3",
+        "textId": null
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 8106,
+        "pos": 5,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": "",
+        "textId": null
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 5,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 8120,
+        "pos2": 6,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": "",
+        "textId": null
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "日々変化していく敵に対し\nより戦闘向きで直接的な機能を備えた姿へと\n改修・進化していったのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0001_TXT_003"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "textId": null
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "一方のA・O・Jでも、\nより強力な兵器が求められていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0001_TXT_004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "先の「W星雲隕石」を解析して得られたデータは、\nA・O・Jに様々な革新的技術をもたらしていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0001_TXT_005"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Ore",
+        "path": "Scenarios/Gates/Gate056/pre_Sr00560435_02",
+        "pos": 0,
+        "duration": 0.5,
+        "textId": null
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その最たるものが「A・マインド」による\n兵器群の思考強化である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0001_TXT_006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "さらにA・O・Jが目指していたのが\n新たなエネルギー炉の開発。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0001_TXT_007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "高出力・半永久的に稼働する炉を完成させ、\n現状を一気に覆すのを期待していた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0001_TXT_008"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Ore",
+        "path": "",
+        "pos": 0,
+        "duration": 0.5,
+        "textId": null
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate058/Bg_Sr00580001_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0,
+        "tryFullSize": false,
+        "textId": null
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "bg_keep_fadeout": false,
+        "textId": null
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_DEMIURGY",
+        "vol": -1,
+        "textId": null
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そうして作られたひとつが\n「レアル融合炉」だった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0001_TXT_009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、これはなぜか動作が安定せず、\n実戦投入には程遠い。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0001_TXT_010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "調子よく動いていたのにもかかわらず\n急に出力が下がったり、\nかと思えば異常な暴走を引き起こしたり。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0001_TXT_011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『これが完成すれば戦いも\n有利になるはずなのだが――。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0001_TXT_012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "前線の兵だけではなく、\nその彼らを助けるために\n後方の技術者も日夜奮闘していた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0001_TXT_013"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "fade": 2,
+        "textId": null
+      }
+    }
+  ]
+}

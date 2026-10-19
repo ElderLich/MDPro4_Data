@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00260208",
+  "sourceBundle": "4042f359",
+  "sourceSha256": "c0d797f613c5a773b10363c8fcd77c78729ab08a385af1d25d1666af8ae554f0",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate026/Bg_Sr00260208_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_16",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "六武衆は優れた武勇を誇るだけでなく、\n義に固く情にあつい。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT3001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "強い心と信念、\nそして主君への揺るぎない忠誠心を\n持った猛者である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT3002"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 6966,
+        "pos": 5,
+        "se1": "SE_SOLO_WAFU_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "静かなる水面の如き集中力で、\n数間先の的を射貫く弓の名手\n「六武衆－ヤイチ」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT3003"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 6967,
+        "pos": 6,
+        "se1": "SE_SOLO_WAFU_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "特別な調合で威力を増した火薬の扱いに長け、\n敵の守りを砕く\n「六武衆－カモン」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT3004"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WAFU_CARD_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 6966,
+        "dstmrk": 6963
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "敵陣を突破し、\n地を穿つほどの鋭い槍技を放つ\n「六武衆－ヤリザ」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT3005"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WAFU_CARD_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 6967,
+        "dstmrk": 6965
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "長短二振りの刀を操り、\n風のように敵を翻弄する\n「六武衆－ニサシ」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT3006"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WAFU_CARD_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 6963,
+        "dstmrk": 6964
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "相対する敵を逃さない、\n薙刀の一閃が光る\n「六武衆－ザンジ」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT3007"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WAFU_CARD_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardSwap",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 6965,
+        "dstmrk": 6968
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "三尺を超える刃を振るい、\n闇に隠れた敵をも切り伏せる\n「六武衆－イロウ」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT3008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それぞれが精強な\n武士（もののふ）でありながら、\n専属の部隊を率いる優れた将である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0026_TXT3009"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_16",
+        "fade": 2
+      }
+    }
+  ]
+}

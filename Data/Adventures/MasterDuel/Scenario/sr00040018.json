@@ -1,0 +1,657 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00040018",
+  "sourceBundle": "6dd5e41d",
+  "sourceSha256": "dbec88c66f76b93e932edff54f55f1d07797eaf1214dbc8e6e7f2babb8348d5e",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 0
+      },
+      "params": [
+        2,
+        0,
+        "Scenarios/Gates/Gate004/Texcture/Universal/Bg_Sr40001_title",
+        0,
+        "#FFFFFFFF",
+        8
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate004/Bg_Sr40001_00",
+        "oscale": 0.1,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 12327,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_02",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "",
+        "mrk2": 12328,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 12326,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "電脳ネットワークの急速な進歩は、大きな恩恵を多くの人々にもたらした。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「電子光虫（デジタル・バグ）」は\n電脳ネットワークを食い荒らす害虫である。",
+        "textId": "IDS_SCENARIOGATE0004_TXT2001",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "しかし、その急速すぎる進歩・変化は、\nネットワークの片隅に幾つもの小さな”不具合（バグ）”を残していった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そう結論付けた管理者たちは、\n大規模な駆除計画を実行に移す。",
+        "textId": "IDS_SCENARIOGATE0004_TXT2002",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.1,
+        "cycle": 0.05,
+        "target": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_HIKARI_04",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "#FF0000FF",
+        "dstcolor": "#FF000000",
+        "target": 0
+      }
+    },
+    {
+      "command": "CardFadeOut",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 12327
+      }
+    },
+    {
+      "command": "CardFadeOut",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 12328
+      }
+    },
+    {
+      "command": "CardFadeOut",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 12326
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "いつしか、その”不具合（バグ）”でしかなかったデータたちは、",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "大多数の技術者が動員されたこの計画は成功し、\n「電子光虫（デジタル・バグ）」は駆逐された。",
+        "textId": "IDS_SCENARIOGATE0004_TXT2003",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "HOME",
+        "path": "Scenarios/Gates/Gate004/Pre_Sr40001_00",
+        "pos": 0,
+        "slayer": "Default"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "HOME",
+        "tmlabel": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "ネットワークを行き交う多数のデータから、\n集積・学習を重ね、まるで昆虫のような姿を獲得。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "”不具合”は解消され、平和が戻った。",
+        "textId": "IDS_SCENARIOGATE0004_TXT2004",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "HOME",
+        "tmlabel": "label_2"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_5"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "「電子光虫」（デジタル・バグ）と呼ばれるようになった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、それも束の間であった。\n電脳ネットワークは、計画以前にも増して\n障害が発生するようになったのだ。",
+        "textId": "IDS_SCENARIOGATE0004_TXT2005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "「電子光虫」（デジタル・バグ）と呼ばれるようになった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "削除しきれなかった\n「電子光虫（デジタル・バグ）」が\nまだ残っていたのか――。",
+        "textId": "IDS_SCENARIOGATE0004_TXT2006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "ネットワークの管理者たちは危機感を覚え、\n不具合解消のための策を講じるために動き出す。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そう思った管理者たちは、徹底的なスキャンを行った。",
+        "textId": "IDS_SCENARIOGATE0004_TXT2007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_6",
+        "tmlabel": ""
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "HOME2",
+        "path": "Scenarios/Gates/Gate004/Pre_Sr40001_01",
+        "pos": 0,
+        "slayer": "Default"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "HOME2",
+        "tmlabel": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "しかし、単なる「不具合」ではなくなった\n”光虫（バグ）”の成長・進化は止まらない…。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "当然ながら「電子光虫（デジタル・バグ）」は見つからない。\nそうしている間にも、障害の波は広がっていく。",
+        "textId": "IDS_SCENARIOGATE0004_TXT2008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "しかし、単なる「不具合」ではなくなった\n”光虫（バグ）”の成長・進化は止まらない…。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この世界中で起きている問題の原因は何だ？\n障害が起きる前と後で\n何が大きく変わったというのだ？",
+        "textId": "IDS_SCENARIOGATE0004_TXT2009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "しかし、単なる「不具合」ではなくなった\n”光虫（バグ）”の成長・進化は止まらない…。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "答えは明白だった。\n「電子光虫（デジタル・バグ）」がいるか、いないか。",
+        "textId": "IDS_SCENARIOGATE0004_TXT2010",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "しかし、単なる「不具合」ではなくなった\n”光虫（バグ）”の成長・進化は止まらない…。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "管理者たちは悩みに悩んだ末、\n保存していた「電子光虫（デジタル・バグ）」の\nデータをネットワークに解放する。",
+        "textId": "IDS_SCENARIOGATE0004_TXT2011",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 12306,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 12307,
+        "pos2": 2,
+        "se2": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk3": 15714,
+        "pos3": 3,
+        "se3": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk4": 12943,
+        "pos4": 4,
+        "se4": "SE_SOLO_DEGITAL_CARD_01"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "HOME",
+        "tmlabel": "label_1"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_7"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "しかし、単なる「不具合」ではなくなった\n”光虫（バグ）”の成長・進化は止まらない…。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "すると、たちまち致命的な障害が\n解消されていったではないか。",
+        "textId": "IDS_SCENARIOGATE0004_TXT2012",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "HOME2",
+        "tmlabel": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "しかし、単なる「不具合」ではなくなった\n”光虫（バグ）”の成長・進化は止まらない…。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "考えられる答えはひとつ。",
+        "textId": "IDS_SCENARIOGATE0004_TXT2013",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "しかし、単なる「不具合」ではなくなった\n”光虫（バグ）”の成長・進化は止まらない…。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「電子光虫（デジタル・バグ）」は\n致命的な障害を修復し\nネットワークの安定に一役買っていた――。",
+        "textId": "IDS_SCENARIOGATE0004_TXT2014",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "しかし、単なる「不具合」ではなくなった\n”光虫（バグ）”の成長・進化は止まらない…。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "これではまるで、\nヒトと「電子光虫（デジタル・バグ）」は\n相利共生の関係になっているではないか。",
+        "textId": "IDS_SCENARIOGATE0004_TXT2015",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "しかし、単なる「不具合」ではなくなった\n”光虫（バグ）”の成長・進化は止まらない…。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ヒトはミツバチに住む場所を\n提供することで、ハチミツを得る。",
+        "textId": "IDS_SCENARIOGATE0004_TXT2016",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "しかし、単なる「不具合」ではなくなった\n”光虫（バグ）”の成長・進化は止まらない…。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "これと同様、「電子光虫（デジタル・バグ）」に\n電脳ネットワークを提供することで、\n障害を解消していたのだ。",
+        "textId": "IDS_SCENARIOGATE0004_TXT2017",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "HOME"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "HOME2"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate004/Bg_Sr00040018_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "しかし、単なる「不具合」ではなくなった\n”光虫（バグ）”の成長・進化は止まらない…。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "以降、目に見える障害を起こすものは\n削除されるが、徹底的に駆除することは\n避けられるようになった。",
+        "textId": "IDS_SCENARIOGATE0004_TXT2018",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "しかし、単なる「不具合」ではなくなった\n”光虫（バグ）”の成長・進化は止まらない…。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ヒトは「電子光虫（デジタル・バグ）」と\n一応の共生を選んだのだ。",
+        "textId": "IDS_SCENARIOGATE0004_TXT2019",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_01",
+        "fade": 3
+      }
+    }
+  ]
+}

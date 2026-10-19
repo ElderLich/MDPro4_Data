@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00280223",
+  "sourceBundle": "5a96f632",
+  "sourceSha256": "9527044f265b164bd99e5388a95744dd0ae3eb9024aba4cd0b99b8cff190a4f3",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "鳳凰神の信奉者たち（仮）",
+        "titleId": "IDS_SCENARIOGATE0028_TITLE1001",
+        "path": "Scenarios/Gates/Gate028/Bg_Sr00280223_title",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate028/Bg_Sr00280223_00",
+        "oscale": 0,
+        "color": "#605D5DFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_17",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_04",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「ネフティスの鳳凰神」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT1001"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate028/Bg_Sr00280223_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Star",
+        "path": "Scenarios/Gates/Common/Effect/EF_Star01Yellow",
+        "pos": 0,
+        "slayer": "Default",
+        "duration": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "地上へ降りてきた太陽とも\n見紛うほどに輝く身体を持ち、\n炎をまとって現れる神である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT1002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "乾いた風が吹き、砂漠が広がるその地では、\nこの鳳凰の神が信奉されている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT1003"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate028/Bg_Sr00280223_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Star",
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "",
+        "path": "Scenarios/Gates/Common/Effect/EF_BallGold",
+        "pos": 0,
+        "slayer": "Default",
+        "duration": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そこに住む人々の中には、\n代々この神を具現化する力を持つ神官がいた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT1004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "神官は強い魂の力を持ち、\n儀式にのっとった願いや祈りを捧げることで\nネフティスを顕現させ、様々な奇跡を起こす。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT1005"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.6694478392601013,0.6694478392601013,0.0,0.31188616156578066],\\\"m\\\":0}\",\"{\\\"p\\\":[0.3232155442237854,0.623964786529541,1.3649475574493409,1.3649475574493409,0.3333333432674408,0.3333333432674408],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.3145161271095276,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "鳳凰神への信仰が厚い人々は、\n神官の一族を中心として\n砂漠の地に巨大な神像を祀って聖地とした。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT1006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "また、それを見守る神に感謝しながら、\n各々の力で日々を懸命に\n生きていく地として里を築き上げた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0028_TXT1007"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_17",
+        "fade": 2
+      }
+    }
+  ]
+}

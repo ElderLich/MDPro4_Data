@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00410326",
+  "sourceBundle": "f077e9e6",
+  "sourceSha256": "838889c05875e68ff026f243fbe4aa9a5012da326ed4e215c88e526a4f168d46",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "聖夜竜の伝説",
+        "titleId": "IDS_SCENARIOGATE0041_TITLE1001",
+        "path": "Scenarios/Gates/Gate041/Bg_Sr00410326_titile",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_27",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate041/Bg_Sr00410326_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "聖なる夜。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0041_TXT1001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ある者は家族と、\nまたある者は大切な人と共に過ごし、\n星空に祈りを捧げる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0041_TXT1002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "世界中が幸福に満ちるこの夜には、\n遠い昔から語り継がれる伝説があった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0041_TXT1003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "聖夜竜の伝説。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0041_TXT1004"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Dora",
+        "path": "Scenarios/Gates/Gate041/Pre_Sr00410326_Dorago",
+        "pos": 0,
+        "duration": 3
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_KIRAKIRA_01",
+        "vol": -2000,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "――聖なる竜は星のまたたく美しき夜に現れる。\n白き衣を身にまとう騎士を従えしその姿。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0041_TXT1005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "\"良きもの\"へは導（しるべ）となる祝福を授け、\n\"悪しきもの\"へは邪を焼き払う聖なる炎をもたらす――",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0041_TXT1006"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Dora",
+        "duration": 3
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "親から子へ、子から孫へ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0041_TXT1007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "聖なる竜から祝福を授けられるよう、\n清く正しく生きて欲しい。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0041_TXT1008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そんな願いを込め、\n子々孫々語り継がれる伝説。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0041_TXT1009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "何も知らぬ人々にとっては\n単なるおとぎ話の類である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0041_TXT1010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、そこには\n隠された真実があったのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0041_TXT1011"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_27",
+        "fade": 2
+      }
+    }
+  ]
+}

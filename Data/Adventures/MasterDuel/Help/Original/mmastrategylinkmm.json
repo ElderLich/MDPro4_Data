@@ -1,0 +1,52 @@
+{
+  "sourceBundle": "d28a1546",
+  "sourceSha256": "3c323db818a6c44f0a77228974dcb67e694e2d0b9f814372984eac6d6eaa7e96",
+  "mma": {
+    "tp": "Pager",
+    "title": {
+      "useId": false,
+      "tid": "",
+      "ja_JP": "クエスト ヘルプ",
+      "en_US": "",
+      "fr_FR": "",
+      "it_IT": "",
+      "de_DE": "",
+      "es_ES": "",
+      "pt_BR": "",
+      "ko_KR": ""
+    },
+    "contents": [
+      {
+        "tp": "HalfImageTextPage",
+        "caption": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_LINKMM_H",
+          "ja_JP": "リンク召喚とは？\r",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "text": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_LINKMM_B",
+          "ja_JP": "リンクモンスターを呼び出す方法です。\r\nリンクモンスターに記されている素材をフィールドにそろえて行います。\r\nリンクモンスターはレベルや守備力がないモンスターで、「リンクマーカー」を持っているのが最大の特徴です。\r\n「リンクマーカー」は指し示す先のゾーンやそのゾーンに置かれているカードに様々な効果を及ぼします。\r",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "buttons": [],
+        "resourcePath": "Help/Strategy/HelpStrategyLinkMM"
+      }
+    ],
+    "isLoop": false,
+    "startPage": 0
+  }
+}

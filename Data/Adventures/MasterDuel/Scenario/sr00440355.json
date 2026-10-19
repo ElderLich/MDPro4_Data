@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00440355",
+  "sourceBundle": "eedfa1eb",
+  "sourceSha256": "ec311b6ad304b1c062a3b1cf2fdddf9d2e5b96abef0412326ea66d49b5efc445",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate023/Bg_Sr00230177_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_33",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_5"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "あの戦いから、\nどれだけの時が流れただろうか。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT8001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「星遺物」を巡る戦い。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT8002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、その最中で\n星と生命の再生を願い、\n姿を消したアウラム。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0044_TXT8003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "神の破壊の力によって\n滅びを迎えるはずだった星。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT8004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "だが、その破壊の痕は\n幻だったかのように消えている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT8005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "星は緑があふれる大地と、\nそれにつながる生命が息づく\n元の姿を取り戻していた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT8006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "アウラムがいなくなったこの星で\nイヴの元に遺されたものがある。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT8007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは星の命運を左右する“鍵”であり、\n星遺物の力の結晶でもあった一振りの剣――",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT8008"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_HIKARI_03",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440355_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「星遺物－『星鍵』」。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0044_TXT8009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "イヴは、アウラムが遺した\n剣を携えて旅に出た。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT8010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "大切な人が残してくれた\n星の姿を\nその目に焼き付けるために。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT8011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "旅を続けるイヴの傍らには\nイムドゥークがいる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT8012"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440355_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、彼女たちの姿を\n離れた場所から見守る者――\nニンギルスがいた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT8013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼はアウラムの願いを受け継ぐ者として、\nイヴとこの星を守る騎士として\n生まれ変わったのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT8014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "平和となったこの世界で陰ながら\nイヴを支えると決めた彼のそばには、\n妖精・ガラテアの姿もあった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT8015"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440355_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "星の光に優しく照らされた世界で、\nふと手にした剣が瞬くかのように\n微かな光を放つ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT8016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その光の行先を追うように、\nイヴとイムドゥークは空を見上げた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT8017"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_KIRAKIRA",
+        "vol": -2000,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": -1,
+        "ignoreSkip": true
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この世界は\nどこへ向かっていくのだろう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT8018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "でも、世界には\nたくさんの希望があふれている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT8019"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この輝きを信じて、\n遺された星遺物の導く先へと\n彼女は歩き続ける――。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT8020"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_KIRAKIRA",
+        "fade": 1
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_33",
+        "fade": 3
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 2,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 0
+      }
+    }
+  ]
+}

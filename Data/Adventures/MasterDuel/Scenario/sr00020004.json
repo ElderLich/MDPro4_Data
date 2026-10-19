@@ -1,0 +1,725 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00020004",
+  "sourceBundle": "f2386cd7",
+  "sourceSha256": "843afeb07783fd95de25f89c364bcaec61c9f0aae31173fc918f7c62b7a38341",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "星遺物に選ばれしもの",
+        "path": "Scenarios/Gates/Gate002/Texcture/Universal/Bg_Sr00020004_tittle",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "titleId": "IDS_SCENARIOGATE0002_TITLE1001"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate002/Bg_Sr00020004_00",
+        0,
+        "#42484FFF",
+        1
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate002/Bg_Sr00020004_00",
+        "oscale": 0,
+        "color": "#42484FFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_10",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この星の支配者は人類ではなかった。",
+        "textId": "IDS_SCENARIOGATE0002_TXT1001",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        1,
+        "",
+        "#BDC9D6FF"
+      ],
+      "args": {
+        "duration": 1,
+        "frm": "",
+        "dst": "#BDC9D6FF"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        10,
+        0,
+        "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.03396226465702057,0.03396226465702057,0.0,0.40730661153793337],\\\"m\\\":0}\",\"{\\\"p\\\":[0.12433802336454392,0.1594122350215912,1.4192533493041993,1.4192533493041993,0.565223753452301,0.22266344726085664],\\\"m\\\":0}\",\"{\\\"p\\\":[0.5364840626716614,0.7731186151504517,1.3015782833099366,1.3015782833099366,0.3333333432674408,0.3333333432674408],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.032115593552589419,0.032115593552589419,1.0,0.0],\\\"m\\\":0}\"]}"
+      ],
+      "args": {
+        "duration": 6,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[-0.00151824951171875,0.0,0.2732158899307251,0.2732158899307251,0.0,0.5161562561988831],\\\"m\\\":0}\",\"{\\\"p\\\":[0.5942414402961731,0.6929363012313843,1.1536951065063477,1.1536951065063477,0.3333333432674408,0.16786961257457734],\\\"m\\\":0}\",\"{\\\"p\\\":[0.9984855651855469,0.9976425170898438,0.1460585743188858,0.1460585743188858,0.19925448298454286,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "世界は機界騎士（ジャックナイツ）と呼ばれる七騎の機械生命体によって統治されていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "世界は機界騎士（ジャックナイツ）と呼ばれる\n七騎の機械生命体によって統治されていた。",
+        "textId": "IDS_SCENARIOGATE0002_TXT1002",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        1,
+        0,
+        "Scenarios/Gates/Gate002/Bg_Sr00020004_01",
+        0,
+        "#FFFFFFFF",
+        2
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate002/Bg_Sr00020004_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 4,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        8,
+        3,
+        "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      ],
+      "args": {
+        "duration": 15,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "そして、大地にはその尖兵たる機怪蟲（クローラー）が蔓延っている。\r\nこの機怪蟲は人が築き上げた建造物などを発見するとたちまち群がり、破壊してしまうという習性を持っていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、大地は\nその兵たる機怪蟲（クローラー）であふれている。",
+        "textId": "IDS_SCENARIOGATE0002_TXT1003",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "そして、大地にはその尖兵たる機怪蟲（クローラー）が蔓延っている。\r\nこの機怪蟲は人が築き上げた建造物などを発見するとたちまち群がり、破壊してしまうという習性を持っていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "機怪蟲（クローラー）は、\n人間が築き上げた建造物などを発見すると\nたちまち群がり、破壊してしまうという習性を持っていた。",
+        "textId": "IDS_SCENARIOGATE0002_TXT1004",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らに感情はないのであろう。\n",
+        "textId": "IDS_SCENARIOGATE0002_TXT1005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らに感情はないのであろう。\r\nその徹底して無慈悲な装置の前に人類はなすすべなく、\nそれら機械生命体の目から逃れるように隠れ住むのを余儀なくされていたのである。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "無慈悲な機械の前になすすべなく\n人類は隠れ住むのを余儀なくされていたのである。",
+        "textId": "IDS_SCENARIOGATE0002_TXT1006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate002/Bg_Sr00020004_02",
+        0,
+        "#BDC9D600",
+        8
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate002/Bg_Sr00020004_02",
+        "oscale": 0,
+        "color": "#BDC9D6FF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        3,
+        "#232323FF",
+        "#23232300"
+      ],
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        "",
+        "Scenarios/Gates/Gate002/EF_Ball",
+        0,
+        "Default"
+      ],
+      "args": {
+        "label": "",
+        "path": "Scenarios/Gates/Gate002/EF_Ball",
+        "pos": 0,
+        "slayer": "Default"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_10",
+        "fade": 3
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "鬱蒼とした木々が茂り、\n昼間でも薄暗い森――“星辰の森”と呼ばれる奥地。\r\nそこに人々がひっそりと暮らす隠れ里のひとつがあった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "木々が茂り、\n昼間でも薄暗い森――“星辰の森”と呼ばれる場所。",
+        "textId": "IDS_SCENARIOGATE0002_TXT1007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_03",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "鬱蒼とした木々が茂り、\n昼間でも薄暗い森――“星辰の森”と呼ばれる奥地。\r\nそこに人々がひっそりと暮らす隠れ里のひとつがあった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そこに、人々がひっそりと暮らす\n隠れ里のひとつがあった。",
+        "textId": "IDS_SCENARIOGATE0002_TXT1008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "鬱蒼とした木々が茂り、\n昼間でも薄暗い森――“星辰の森”と呼ばれる奥地。\r\nそこに人々がひっそりと暮らす隠れ里のひとつがあった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "里は結界で守られ、\n外敵からの感知・侵入を防いでいる。",
+        "textId": "IDS_SCENARIOGATE0002_TXT1009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "そこで暮らす大人たちの表情は一様にして、暗い。\r\nそれも無理のないことだろう。\n生まれた時から暗い森の中に隠れ住み、大半は里を出ることなく一生を終える。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "代々受け継がれる祭器によって生み出される\nこの結界は強固であり、\nこれまでも破られた事はない。",
+        "textId": "IDS_SCENARIOGATE0002_TXT1010",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "そんな生活が何代も続いており、大人たちは年を重ねるにつれ諦観の境地に至るのだ。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それでも、民はいつ来るかもわからない\n脅威への不安を拭い去れずにいた。",
+        "textId": "IDS_SCENARIOGATE0002_TXT1011",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "そんな閉塞感の漂う里の中にあって、果敢にも機怪蟲に挑む若者がいた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そんな閉塞感の漂う里の中にも、\n果敢に機怪蟲（クローラー）に挑む者がいた。",
+        "textId": "IDS_SCENARIOGATE0002_TXT1012",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        13058,
+        1
+      ],
+      "args": {
+        "mrk": 13058,
+        "pos": 1,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        13059,
+        3
+      ],
+      "args": {
+        "mrk": 13059,
+        "pos": 3,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "アウラムとニンギルス。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "アウラムとニンギルス。",
+        "textId": "IDS_SCENARIOGATE0002_TXT1013",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        13057,
+        2
+      ],
+      "args": {
+        "mrk": 13057,
+        "pos": 2,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "彼らが必死に戦う理由。\r\nそれは里における当代の巫女であり、ニンギルスの妹でもあるイヴの存在だった。\n",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らが必死に戦う理由。\nそれは里における当代の巫女であり、\nニンギルスの妹でもあるイヴの存在だった。",
+        "textId": "IDS_SCENARIOGATE0002_TXT1014",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "里の巫女に代々受け継がれし祭器の杖。\r\nそれは巫女であるイヴとの感応によって強固な結界を生み、\nそれが今日まで里の平穏を守ってきたのだ。\n\n",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "巫女は生まれながらに神通力の持ち主であり、\n祭器との感応によって結界を生み出す事ができる。",
+        "textId": "IDS_SCENARIOGATE0002_TXT1015",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "しかし日に日に活発となる機怪蟲の脅威に、いやが上にも巫女への負担は増していく。\r\n健気にも気丈な振る舞いを見せるイヴに、ほんの少しでも安らぎを与えたい。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "イヴの力は歴代の中も強力だったが、\n日に日に増す外敵の脅威はそれを凌駕していた。",
+        "textId": "IDS_SCENARIOGATE0002_TXT1016",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "しかし日に日に活発となる機怪蟲の脅威に、いやが上にも巫女への負担は増していく。\r\n健気にも気丈な振る舞いを見せるイヴに、ほんの少しでも安らぎを与えたい。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "健気にも気丈な振る舞いを見せるイヴの負担を\n少しでも減らしたい。",
+        "textId": "IDS_SCENARIOGATE0002_TXT1017",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "そんな思いからアウラムとニンギルスは一匹でも多くの機怪蟲を減らすため、\n子竜のイムドゥークを伴って結界の外へ繰り出すのだった。\n",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "アウラムとニンギルスは\n一匹でも多くの機怪蟲（クローラー）を減らすため、\n結界の外へ繰り出すのだった。",
+        "textId": "IDS_SCENARIOGATE0002_TXT1018",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "そんなある日、イヴは森の奥からかすかに人の声のようなものを聞く。\r\nアウラムとニンギルスにはそんな声など聞こえない。\r\nしかし、イヴは今こうしてる間にも聞こえてくるのだと口にする。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そんなある日、イヴは森の奥から、\nかすかに人の声のようなものを聞く。",
+        "textId": "IDS_SCENARIOGATE0002_TXT1019",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "そんなある日、イヴは森の奥からかすかに人の声のようなものを聞く。\r\nアウラムとニンギルスにはそんな声など聞こえない。\r\nしかし、イヴは今こうしてる間にも聞こえてくるのだと口にする。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "アウラムとニンギルスには声など聞こえない。\nしかし、イヴは今こうしてる間にも\n聞こえてくるのだと口にする。",
+        "textId": "IDS_SCENARIOGATE0002_TXT1020",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        13060,
+        4
+      ],
+      "args": {
+        "mrk": 13060,
+        "pos": 4,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "放っておけば一人ででも森に入っていきそうな雰囲気のイヴを心配し、\nアウラムとニンギルス、そしてイムドゥークは森の奥地へと足を踏み入れるのだった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "放っておけば一人ででも森に入っていきそうなイヴを心配し、\nアウラムとニンギルス、そして子竜イムドゥークは、\n森の奥地へと足を踏み入れるのだった。",
+        "textId": "IDS_SCENARIOGATE0002_TXT1021",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        5,
+        2,
+        "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      ],
+      "args": {
+        "duration": 1.5,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_03",
+        "fade": 2
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 0
+      },
+      "params": [
+        1.5,
+        "",
+        "#000000FF"
+      ],
+      "args": {
+        "duration": 1.5,
+        "frmcolor": "",
+        "dstcolor": "#000000FF",
+        "target": 0
+      }
+    }
+  ]
+}

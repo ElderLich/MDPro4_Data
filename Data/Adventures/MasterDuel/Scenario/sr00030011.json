@@ -1,0 +1,554 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00030011",
+  "sourceBundle": "a62980a9",
+  "sourceSha256": "ab2e0d952d7bf69a4e075154b7a829831a03f21f78a12adf5c390e069dcf7966",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate002/Texcture/Universal/Bg_Sr00020026_01",
+        0,
+        "#FFFFFFFF",
+        8
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate003/Bg_Sr00030011_01",
+        "oscale": 0.01,
+        "color": "#B6C6CC00",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_05",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "shakex": false,
+        "shakey": true,
+        "wave": 0.03,
+        "cycle": 0.2,
+        "target": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "星鎧を目の前にして、\nアウラムたちは機怪蟲の群れに行く手を阻まれてしまう。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "機界騎士（ジャックナイツ）の力を結集した\n「星痕の機界騎士（せいこんのジャックナイツ）」に対し、\nアウラムたちは善戦していた。",
+        "textId": "IDS_SCENARIOGATE0003_TXT2001",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "ShakeEnd",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "target": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "#FFFFFFFF",
+        "dstcolor": "#FFFFFF00",
+        "target": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate002/Texcture/Universal/Bg_Sr00020026_01",
+        0,
+        "#FFFFFFFF",
+        8
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate003/Bg_Sr00030011_02",
+        "oscale": 0.1,
+        "color": "#B6C6CCFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_ATTACK_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.2,
+        "cycle": 0.2,
+        "target": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "倒しても倒しても仲間の残骸を踏み越えて新たな一群が現れ、\n一行は苦戦を強いられる。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "一進一退を繰り返す攻防の最中、\nニンギルスは渾身の力と共に槍の一撃を放つ。",
+        "textId": "IDS_SCENARIOGATE0003_TXT2002",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、その一撃は\n「星痕の機界騎士（せいこんのジャックナイツ）」に\n受け流され、背後の壁に大きな穴をあけた。",
+        "textId": "IDS_SCENARIOGATE0003_TXT2003",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "既に脆くなっていた遺跡は\n衝撃に耐えかね、倒壊を始める。",
+        "textId": "IDS_SCENARIOGATE0003_TXT2004",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "立ち込める砂塵が視界を奪う中、ニンギルスは\n「星痕の機界騎士（せいこんのジャックナイツ）」に\n悟られぬよう、妖精リースに目配せをする。",
+        "textId": "IDS_SCENARIOGATE0003_TXT2005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "path": "Scenarios/Gates/Gate003/Bg_Sr00030011_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "前に進むこともできず、\nかといって撤退するのも今となっては不可能に近い",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それを受けたリースは小さく頷くと、\n密かに戦線から離れていった。",
+        "textId": "IDS_SCENARIOGATE0003_TXT2006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "前に進むこともできず、\nかといって撤退するのも今となっては不可能に近い",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それはあらかじめリースの提案していた、合図。\n彼女が単独で施設内に潜入し、\nイヴを助け出すという作戦だったのだ。",
+        "textId": "IDS_SCENARIOGATE0003_TXT2007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate003/Bg_Sr00030011_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "前に進むこともできず、\nかといって撤退するのも今となっては不可能に近い",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "施設内を飛び回り、\n遂にイヴの元へとたどり着くリース。",
+        "textId": "IDS_SCENARIOGATE0003_TXT2008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate003/Bg_Sr00030011_07",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "力尽きるまで戦うしかないのかと思ったその時。\nリースが今にも倒れそうなアウラムたちに向かって叫ぶ。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "イヴはリースの無事な姿を見ると、\n安堵のため息を漏らした。",
+        "textId": "IDS_SCENARIOGATE0003_TXT2009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "機怪蟲の上位体、\nエクスクローラーを倒せば\n機怪蟲たちの動きを止められるはず――。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "だが、アウラムたちが\n機界騎士（ジャックナイツ）と交戦中だと知ると、\n捕らわれている間に感じた疑念をリースに投げかけた。",
+        "textId": "IDS_SCENARIOGATE0003_TXT2010",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate003/Bg_Sr00030011_06",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 6,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "機怪蟲の上位体、\nエクスクローラーを倒せば\n機怪蟲たちの動きを止められるはず――。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "もしかしたら私たちは間違っていて、\n機界騎士（ジャックナイツ）とは\n戦うべきではないかもしれない。",
+        "textId": "IDS_SCENARIOGATE0003_TXT2011",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "リースは戦いの最中で、\nエクスクローラーが機怪蟲の司令塔であることを見抜いたのだ。\r\nその洞察をアウラムたちは信じ、\n包囲の隙を突いてエクスクローラーに肉迫する。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "真実を知るためにも今すぐ戦いを止めなければ――。",
+        "textId": "IDS_SCENARIOGATE0003_TXT2012",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_05",
+        "fade": 4
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate003/Bg_Sr00030011_05",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 7,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.1633562594652176,0.1633562594652176,0.08662611246109009,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 2
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_05",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "リースは戦いの最中で、\nエクスクローラーが機怪蟲の司令塔であることを見抜いたのだ。\r\nその洞察をアウラムたちは信じ、\n包囲の隙を突いてエクスクローラーに肉迫する。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そう口にしたイヴの前で、\n背を向けていたリースがゆっくりと振り返る。\n初めて出会った時、愛らしく笑いかけてくれた妖精の笑顔。",
+        "textId": "IDS_SCENARIOGATE0003_TXT2013",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_13",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "エクスクローラーの抵抗は激しいものだったが、\n最後の力を振り絞ってそれを打ち倒す。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それが黒く、まがまがしく変貌していた。",
+        "textId": "IDS_SCENARIOGATE0003_TXT2014",
+        "autominsec": 3
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 6,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "司令塔が崩れ落ちるのと同時に、\n周囲一帯のアウラムたちを囲んでいた機怪蟲も動きを止めたのであった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "恐怖を感じたイヴは思わず悲鳴を上げようとしたが、\nそれすらも叶わず意識は深い闇に沈んでいった。",
+        "textId": "IDS_SCENARIOGATE0003_TXT2015",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_13",
+        "fade": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,700 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00390311",
+  "sourceBundle": "684b54ff",
+  "sourceSha256": "e0606d2dde8c2fabcffece6b6682c6cb079edd83cd4442bf6907b3d78b17d009",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "昔日の武士たち",
+        "titleId": "IDS_SCENARIOGATE0039_TITLE1001",
+        "path": "Scenarios/Gates/Gate039/Bg_Sr00390311_titile",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_16",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate039/Bg_Sr00390311_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "frm": "",
+        "dst": "#9586B2FF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "これは、「大将軍 紫炎（シエン）」が若かりし頃、\n天下人に近い者として名を馳せるより前の話――。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1001"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frm": "",
+        "dst": "#FFFFFFFF"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "戦国の世に、綺羅星のごとく\n戦場を駆ける者たちがあった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "戦は連戦連勝、\n破竹の勢いで領土を拡大していったその国。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "国を治め、軍を率いていた将軍の才覚もさることながら、\n特に際立っていたのはその配下たる六人の将である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1004"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Roku",
+        "path": "Scenarios/Gates/Gate039/Pre_Sr00390311_00",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "人呼んで「六武衆（ろくぶしゅう）」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "獅子奮迅の活躍を見せた彼らは、\nいつしか“かの将軍に六武衆あり”と、\nその名を近隣諸国に知れ渡らせた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "六武衆と共に戦場へ立ち、\n常勝を続けていた将軍だったが、\nひとつ不安の種もあった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1007"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Roku",
+        "duration": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate039/Bg_Sr00390311_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "いつのころからか、\n将軍の身体には病魔が巣食っていたのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それでも、将軍はごく一部の側近以外にはそれを隠し、\n休む間もなく精力的に国を治め、\n病を振り払うかのように激しい戦を続けていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『上様はいつお休みになられているのか分からぬ。』\n『将軍の寝顔を見た者などおらぬであろうよ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "兵や民が口にする冗談めかした戯言も広まっていたある日、\nついにその無理がたたった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1011"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "とある大きな戦を控えていた時期に\n将軍は倒れ、\n不慮の死を遂げたのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『今、他国に父の死を知られるわけにはいかぬ――。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1013"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 9332,
+        "pos": 5,
+        "se1": "SE_SOLO_WAFU_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "六武衆の一人でもあり、\n将軍の息子であった「シエン」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1014"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate039/Bg_Sr00390311_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "シエンは父の死を隠したまま、\nその名代として軍を率い戦に赴く。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "攻め込む先は霞城から\n東方に位置する山合いの国。\nその拠点となる敵国の城だった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "地形の分析、兵力、戦略。\nいずれも抜かりなく、\n今回も勝利は間違いないかと思われた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし――。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1018"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.5,
+        "path": "Scenarios/Gates/Gate039/Bg_Sr00390311_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "シエンたちの進軍は\n敵に見抜かれていたのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1019"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_SENGOKU_LOOP",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Fire",
+        "path": "Scenarios/Gates/Gate012/Sr00120067_Fire",
+        "pos": 0,
+        "duration": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "山の木々に待ち伏せていた敵部隊が、\nシエンと六武衆に襲い掛かった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1020"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "奮闘する六武衆だったが、\nこれまでにない苦戦を強いられる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1021"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "勢いを増して攻めてくる敵兵を前に、\nシエンはついに自軍へ退却を命じた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1022"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、ここで\n統率に大きな乱れが生じた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1023"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "何しろ、連戦連勝で負け知らずだった兵たちである。\n大多数の兵は、退却戦の経験などあるはずもない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1024"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかも奇襲による混乱、\n常とは異なる者の指揮と、\n難局に難局が重なっている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1025"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "次々と討ち取られていく兵に士気は下がり、\nこのままでは敗走かと思われたその時。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1026"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_SENGOKU_LOOP",
+        "fade": 2
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_WAFU_CARD_01",
+        "mrk2": 9314,
+        "pos2": 6,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "シエンと並走していた六武衆の一人\n「シナイ」が、突如ぐるりと反転する。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1027"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、シエンに具申した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1028"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ここは我が隊が殿（しんがり）を務める。\n本隊は生き延び、何としても国へ戻られよ――。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1029"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "六武衆の中にあって一番の益荒男。\n寡黙だが、没した父が\n最も信頼していた武士（もののふ）。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1030"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "シナイの目に決死の覚悟を見たシエンは、\n改めて全軍に退却の号令をかける。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1031"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そんなシエンの姿を見たシナイは、\n面頬の中で静かに、\n満足げに微笑んだかのようだった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1032"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Fire",
+        "duration": 0
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 2
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate039/Bg_Sr00390311_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 0.8
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 8,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "こうして、シエンと六武衆は\nかろうじて国へと逃げ延びた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1033"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、シエンが戦で受けた傷も癒え始めた頃となっても、\nついぞシナイとその部隊の兵は一人も戻ることはなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1034"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "父である将軍を失い、\nさらには六武衆の一角をも失ってしまった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1035"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この戦はシエンにとっても、残された六武衆にとっても、\n決して忘れられぬ苦い敗北となったのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT1036"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_16",
+        "fade": 2
+      }
+    }
+  ]
+}

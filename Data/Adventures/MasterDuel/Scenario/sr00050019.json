@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00050019",
+  "title": "The Absolute Monarch",
+  "sourceBundle": "27b2fd3b",
+  "sourceSha256": "d4f1ba62e16de6e907d4b66ae321506142f60ad2c90999c0581c6c2a715d70fa",
+  "resourceIndex": "../Resources/Index.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "絶対なる帝王",
+        "path": "Scenarios/Gates/Gate005/Bg_Sr00050019_tittle",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "titleId": "IDS_SCENARIOGATE0005_TITLE1001"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_10",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate002/Bg_Sr00020004_00",
+        0,
+        "#42484FFF",
+        1
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate005/Bg_Sr00050019_00",
+        "oscale": 0,
+        "color": "#FFFFFF00",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "frmcolor": "",
+        "dstcolor": "#232323DE",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この世界には、破壊という概念そのものが\r\n形になった存在がいた。\r",
+        "textId": "IDS_SCENARIOGATE0005_TXT1001",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "frmcolor": "#232323DE",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 40,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.49206167459487917,0.49206167459487917,0.0,0.062310028821229938],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.43857699632644656,0.43857699632644656,0.06990879774093628,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その存在の堂々たる佇まい、立ち振る舞いは、\r\nさながら「帝王」のようであった。",
+        "textId": "IDS_SCENARIOGATE0005_TXT1002",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その「帝王」たちが何を目的として\r\n世界を破壊し続けているのかは誰にも分からない。",
+        "textId": "IDS_SCENARIOGATE0005_TXT1003",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ただひたすらに、超常の力を振るい、\r\n視界にあるもの全てを無に返す。",
+        "textId": "IDS_SCENARIOGATE0005_TXT1004",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "雷鳴をとどろかし、\r\n木々を凍てつかせる。",
+        "textId": "IDS_SCENARIOGATE0005_TXT1005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "山を煮えたぎらせ、\r\n大地を砕く。",
+        "textId": "IDS_SCENARIOGATE0005_TXT1006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "嵐を巻き起こし、\r\n底知れない闇に沈める。",
+        "textId": "IDS_SCENARIOGATE0005_TXT1007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "世界は荒れ狂い、暴威にさらされた。",
+        "textId": "IDS_SCENARIOGATE0005_TXT1008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして破壊するものがなくなると、\r\nさらなる破壊を求めて\r\n次なる地へと進軍するのだ。",
+        "textId": "IDS_SCENARIOGATE0005_TXT1009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この破壊を目の当たりにして、\r\n恐れを抱かない者はいない。\r",
+        "textId": "IDS_SCENARIOGATE0005_TXT1010",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それ以前に、そこに居合わせた者は、\r\n一瞬で消滅する運命にあるのだが。",
+        "textId": "IDS_SCENARIOGATE0005_TXT1011",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate005/Bg_Sr00050019_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.5774462819099426,0.5774462819099426,0.0,0.06534954160451889],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.348382830619812,0.348382830619812,0.07446807622909546,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、\r\nこの世界の破壊者の中には、\r\n始まりたる存在がいる。",
+        "textId": "IDS_SCENARIOGATE0005_TXT1012",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "他の破壊者を平伏させるほどの\r\n圧倒的な威圧感と、桁違いの力を宿す。\r",
+        "textId": "IDS_SCENARIOGATE0005_TXT1013",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「冥帝エレボス」。",
+        "textId": "IDS_SCENARIOGATE0005_TXT1014",
+        "autominsec": 3
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "その星の支配者は人類ではなかった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "玉座に座り、闇の中にあってなお、\r\n強い闇を漂わせる「冥帝エレボス」は、\r\nさも当然かのように世界の壊滅を眺める。",
+        "textId": "IDS_SCENARIOGATE0005_TXT1015",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_10",
+        "fade": 2
+      }
+    }
+  ]
+}

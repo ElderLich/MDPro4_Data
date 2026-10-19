@@ -1,0 +1,822 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00440352",
+  "sourceBundle": "70bb3448",
+  "sourceSha256": "df9d47e08fb296d91017a041309e47d64f21d3f7b7e18734253051bf0929cb42",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440350_05",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 3
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_DUEL_EX_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_DEMIURGY",
+        "vol": -2000,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": -1,
+        "ignoreSkip": true
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ついに姿を現した“大いなる闇”\n神の力の体現者「星神器デミウルギア」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "圧倒的な存在を前にして\nアウラムが思い出したのは\n“星の勇者の伝説”の一節だった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5002"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_DEMIURGY",
+        "fade": 2
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440352_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "大いなる闇”に対抗するため\nアウラムはイヴやパラディオンの仲間に\n考えを伝える。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0044_TXT5003"
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_ABSORPTION",
+        "vol": -2000,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": -1,
+        "ignoreSkip": true
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それはかつて「蒼穹の機界騎士（ジャックナイツ）」が\n試みたものの、不完全なまま\n終わってしまった『“鍵”の継承』――",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、この場に集った\n全ての星遺物の力をも\n一つに合わせる事であった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "継承者であるイヴと仲間たちの協力のもと\n全ての力が一つになろうとしていく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、アウラムたちの狙いを察した\n「夢幻転星イドリース」は、\n暴走しながらもそれを阻止せんと襲いかかる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "アウラムやイヴを守ろうとする\nイムドゥークやパラディオンの仲間たちだったが、\n狂乱するイドリースの猛攻は凄まじかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5008"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.5,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440351_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そこに、飾り紐を握りしめ\n確固たる決意を込めた足取りで\n歩み出る者がいた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5009"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440352_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ニンギルスである。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5010"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_SPEAR",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440352_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼は周囲に散らばっていた\n「バベル」や「オルフェゴール」の残骸を集約させ\n巨大な槍を錬成。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5011"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.5,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440352_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.666257619857788,2.666257619857788,0.0,0.12195122241973877],\\\"m\\\":0}\",\"{\\\"p\\\":[0.5546865463256836,1.0392788648605347,0.26339107751846316,0.26339107751846316,0.3333333432674408,0.3333333432674408],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.006134033203125,-0.15092478692531587,-0.15092478692531587,0.4564245939254761,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_SPEARATTACK",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Flash",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "cnt": 1,
+        "color": "#FF0101FF"
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.2,
+        "cycle": 0.2,
+        "target": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "怒りの一撃をイドリースに叩きこむ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5012"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440352_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "さらにニンギルスは自身の全力を振り絞り\n最大最後の錬成を行う。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5013"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_DINGIRSU",
+        "vol": -2000,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": -1,
+        "ignoreSkip": true
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは、神となって再誕したイヴを\n守り続けるために用意していた姿。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "全ての「オルフェゴール」、\nそして自らをも組み込んだ巨神――\n「宵星の機神(シーオルフェゴール）ディンギルス」であった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5015"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440352_05",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 14267,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "神の力を求め、\n狂気の中を迷走するイドリース。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5016"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 14288,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "一方、機神となった身で剛槍を\n振るうニンギルスに迷いなどない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その勇戦奮闘により、\nイドリースの身体は崩壊を速めていく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それでも、リースの邪悪な意思だけは\n執念深く神の座を追い求め続けた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5019"
+      }
+    },
+    {
+      "command": "CardFadeOut",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 14267
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "理性を失っていたリースは、\n「機怪神（デウス）エクスクローラー」を通じ\n自らの魂を星神器に強引に組み込む。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5020"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440352_06",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.05,
+        "cycle": 0.02,
+        "target": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_14",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "邪悪な意志に感応した\nデミウルギアは暴走を始める。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5021"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その強大な神の力は漏れ出す余波だけで\n星の破壊を加速させていった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5022"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440352_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "“鍵”の継承を進めるアウラムとイヴ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5023"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、その二人を守る仲間たち。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5024"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "もはや星の崩壊は避けられない状況であった。\nそれでも、誰一人として諦める者はいなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5025"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WHOOSH_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "一人一人が全身全霊を賭して、\n強大な神の力に抗う。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5026"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、ついにその時が来た。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5027"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_09",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.3,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440352_07",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,-0.027948269620537759,-0.027948269620537759,0.2195122241973877,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 8,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 1
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "“鍵”の継承は成功し、\n星遺物の力を束ねたアウラムは\n悠久の彼方より伝わる“星の勇者”――",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5028"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「双穹の騎士アストラム」として覚醒した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5029"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "“星明かりの勇者\n　掲げし剣に光を束ね\n　大いなる闇を討ち祓わん”",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT5030"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_DUEL_EX_01",
+        "fade": 2
+      }
+    }
+  ]
+}

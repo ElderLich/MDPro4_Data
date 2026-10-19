@@ -1,0 +1,1365 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00540421",
+  "sourceBundle": "68e03615",
+  "sourceSha256": "bf6da842b178a8a7f6276e1a8c300e5433b21cc25d1d756a5b415275e40c4bf5",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate054/Bg_Sr00540421_titile",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "t": "封印されし魔界の神々",
+        "titleId": "IDS_SCENARIOGATE0054_TITLE1001",
+        "scale": 0,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_36",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate054/Bg_Sr00540421_000",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 2,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 60,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "荒涼とした風景が広がる閉じた世界。\n昼夜の区別はなく、あたりは常に薄暗い。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "空気はまとわりつくような湿り気を帯び、\n熟れすぎた果実のような甘い腐臭が微かに混じる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1002"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 8093,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 8394,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 8715,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 8236,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ここは「魔轟神」が住まう魔轟神界。\n彼らはかつて戦いに敗れ、\n外界から隔絶する空間に封じ込められた古き神々だ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らは善神ではない。\n悪しき闘神である。\nゆえに封印された。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "外界との出入りを封じられ、\n暇と力を持て余した者は何をするか。\n彼らが行きついたのはやはり闘争であった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "互いに互いを打ち倒しては力を蓄え、\n同族内での序列を上げるのに傾倒したのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "魔轟神界は「魔界」「轟界」「神界」と\n３つの階層にわかれており、\n序列が上がる程、より深い階層にいくことができる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そのため、最下層の「神界」を\n誰もが狙って躍起になっていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし数百年に及ぶ内部闘争を経た今となっては、\nその序列の変動も滅多に起きなくなっている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1009"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "長きに渡り“三人の王”――",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1010"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 8117,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk3": 8415,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "第一位の王「魔轟神ヴァルキュルス」\n第二位の王「魔轟神レイジオン」",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1011"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 8258,
+        "pos": 6,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、絶対神「魔轟神レヴュアタン」が\n頂点として君臨していた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1012"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate054/Bg_Sr00540421_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 3,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "なお、彼ら魔轟神の使い魔として\n働くのが「魔轟鬼」である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "魔轟神間の情報伝達や魔轟神獣の世話、\nその他こまごまとした雑用が彼らの仕事だ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らは仕事が終わると仲間同士で集まり、\n情報交換・共有を行う。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "……とまあ、そういえばらしく聞こえるのだが、\n要は下っ端が集まって、ダベっているだけではある。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1016"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ふー、今日も働いたぜぇ』",
+        "autominsec": 0,
+        "textId": "",
+        "label": "Emo_red",
+        "path": "Scenarios/Gates/Gate054/Emo_red",
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ふー、今日も働いたぜぇ』",
+        "autominsec": 0,
+        "textId": "",
+        "label": "Emo_blue",
+        "path": "Scenarios/Gates/Gate054/Emo_blue",
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ふー、今日も働いたぜぇ』",
+        "autominsec": 0,
+        "textId": "",
+        "label": "Emo_paple",
+        "path": "Scenarios/Gates/Gate054/Emo_paple",
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ふー、今日も働いたぜぇ』",
+        "autominsec": 0,
+        "textId": "",
+        "label": "Emo_black",
+        "path": "Scenarios/Gates/Gate054/Emo_black",
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ふー、今日も働いたぜぇ』",
+        "autominsec": 0,
+        "textId": "",
+        "label": "Emo_green",
+        "path": "Scenarios/Gates/Gate054/Emo_green",
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ふー、今日も働いたぜぇ』",
+        "autominsec": 0,
+        "textId": "",
+        "label": "Emo_orenge",
+        "path": "Scenarios/Gates/Gate054/Emo_orenge",
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ふー、今日も働いたぜぇ』",
+        "autominsec": 0,
+        "textId": "",
+        "label": "Emo_white",
+        "path": "Scenarios/Gates/Gate054/Emo_white",
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ふー、今日も働いたぜぇ』",
+        "autominsec": 0,
+        "textId": "",
+        "label": "Emo_yellow",
+        "path": "Scenarios/Gates/Gate054/Emo_yellow",
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_red",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_B",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ふー、今日も働いたぜぇ』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1017"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_blue",
+        "tmlabel": "Emo03"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_C",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『魔界の魔轟神獣の世話、\nあれマジきちーよ』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1018"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Fuki2",
+        "path": "Scenarios/Gates/Gate054/Pre_Sr00540421_fuki02",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_paple",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_B",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『お前今日も、ノズチに絡まれてたもんな』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1019"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_blue",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_B",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_paple",
+        "tmlabel": "Emo03"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_C",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Fuki2",
+        "duration": 1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Fuki1",
+        "path": "Scenarios/Gates/Gate054/Pre_Sr00540421_fuki01",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『そういうお前は、ガナシアに踏まれてたしな』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1020"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Fuki1",
+        "duration": 1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Fuki3",
+        "path": "Scenarios/Gates/Gate054/Pre_Sr00540421_fuki03",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_green",
+        "tmlabel": "Emo03"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_C",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『オルトロの鳴き声が、轟界まで響いてるって、\n苦情きたんだけど。そんなの言われたって\nどうしようもねーっての。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1021"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_orenge",
+        "tmlabel": "Emo02"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_E",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Fuki4",
+        "path": "Scenarios/Gates/Gate054/Pre_Sr00540421_fuki04",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ミーズトージの孫だろ。\n神界帰りを狙う前に魔術とやらで\nなんとかしてほしいよな』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1022"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Fuki3",
+        "duration": 0.5
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Fuki4",
+        "duration": 0.5
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_red",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_blue",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_black",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_green",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_orenge",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_paple",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_white",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_yellow",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_F",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ガヤガヤガヤ",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1023"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_red",
+        "tmlabel": "Emo04"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_A",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『なあなあ、お前は、\n三人の王で誰推しよ？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1024"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_paple",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_B",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Fuki5",
+        "path": "Scenarios/Gates/Gate054/Pre_Sr00540421_fuki05",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『いやー、やっぱレヴュアタンさまっしょ。\nオレらが生まれる前から、ずっとテッペンやってるって話だろ？\nちょっと凄すぎん？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1025"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_red",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_B",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『あー、レヴュアタンさまなー。\nあのお方はマジ強ェってハナシよな』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1026"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_paple",
+        "tmlabel": "Emo04"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_A",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Fuki5",
+        "duration": 0.5
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『そういうお前は誰推し？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1027"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_red",
+        "tmlabel": "Emo06"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_D",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Fuki6",
+        "path": "Scenarios/Gates/Gate054/Pre_Sr00540421_fuki06",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『そりゃあヴァルキュルスさまよ。\nあの堂々とした風格、超シブいだろ……（うっとり）』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1028"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Fuki6",
+        "duration": 0.3
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_black",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_B",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Fuki7",
+        "path": "Scenarios/Gates/Gate054/Pre_Sr00540421_fuki07",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『オレは断然レイジオンさま！\nなんつーかこう“持ってる”カンジするんだよ！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1029"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_red",
+        "tmlabel": "Emo04"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_A",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『持ってる……って何が？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1030"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_black",
+        "tmlabel": "Emo02"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_E",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Fuki7",
+        "duration": 0.5
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『何って……華があるっつーか、常にみなぎってるっつーか……\nとにかく！　凄くすごいだろ！\nパ、パワー？　パゥワー!!　的な？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1031"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_paple",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_B",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Fuki8",
+        "path": "Scenarios/Gates/Gate054/Pre_Sr00540421_fuki08",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『あ、そうそう。\n凄くすごいっていえば\nこの間レイヴンさんがさー……』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1032"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_black",
+        "tmlabel": "Emo05"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_D",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Fuki8",
+        "duration": 0.5
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『おい！\n何勝手に話題変えてるワケぇ!?』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1033"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_F",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_yellow",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_black",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_blue",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_green",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_orenge",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_paple",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_red",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_white",
+        "tmlabel": "Emo01"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らの議論はいつもこんな具合で、\n着地点のないふわふわした話が繰り返される。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1034"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そしてダベりは、\nいつもお決まりのフレーズで締めくくられる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1035"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Emo_red",
+        "tmlabel": "Emo03"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_REACTION_C",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『なんかまた、面白れえことでも起きねえかな……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1036"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そう、この想いは魔轟鬼だけのものではない。\n魔轟神界に蔓延する倦怠は、\nすべての魔轟神が何百年、何千年と抱いている感情なのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0054_TXT1037"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_36",
+        "fade": 2
+      }
+    }
+  ]
+}

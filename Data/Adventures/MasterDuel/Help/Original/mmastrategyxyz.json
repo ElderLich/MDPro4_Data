@@ -1,0 +1,81 @@
+{
+  "sourceBundle": "dd7f74d7",
+  "sourceSha256": "0a9cee8179355110216771a8fc4fab511fee3e298b538dbebce3d40225cbc54e",
+  "mma": {
+    "tp": "Pager",
+    "title": {
+      "useId": false,
+      "tid": "",
+      "ja_JP": "クエスト ヘルプ",
+      "en_US": "",
+      "fr_FR": "",
+      "it_IT": "",
+      "de_DE": "",
+      "es_ES": "",
+      "pt_BR": "",
+      "ko_KR": ""
+    },
+    "contents": [
+      {
+        "tp": "HalfImageTextPage",
+        "caption": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_XYZ_01_H",
+          "ja_JP": "エクシーズ召喚とは？\r",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "text": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_XYZ_01_B",
+          "ja_JP": "エクシーズモンスターを呼び出す方法です。\r\nエクシーズモンスターに記されている素材をフィールドにそろえて行います。\r\n同じレベルのモンスター２体が必要になることが多いですが、３体以上のモンスターが必要であったり、素材の種族や属性などが決められている場合もあります。\r\nまた、エクシーズモンスターはレベルを持たず、代わりに「ランク」を持つという特徴もあります。\r\n",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "buttons": [],
+        "resourcePath": "Help/Strategy/HelpStrategyXyz_01"
+      },
+      {
+        "tp": "HalfImageTextPage",
+        "caption": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_XYZ_02_H",
+          "ja_JP": "エクシーズ召喚をやってみよう！\r",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "text": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_XYZ_02_B",
+          "ja_JP": "自分のメインフェイズに、自分フィールドの同じレベルのモンスター２体以上を、エクシーズモンスターを出したいゾーンに重ねて、その条件に合ったエクシーズモンスターをエクストラデッキから呼び出します。\r\n\r\n素材として下に重ねられたモンスターはエクシーズモンスターが効果を発動する時などに使われます。\r",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "buttons": [],
+        "resourcePath": "Help/Strategy/HelpStrategyXyz_02"
+      }
+    ],
+    "isLoop": false,
+    "startPage": 0
+  }
+}

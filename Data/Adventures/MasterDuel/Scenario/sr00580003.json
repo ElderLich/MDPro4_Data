@@ -1,0 +1,460 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00580003",
+  "sourceBundle": "76217066",
+  "sourceSha256": "ab4f6b5a4a1469cf95fbb2b00bca034ddf25632410b6c4102af23e9f291ef58e",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate058/Bg_Sr00580003_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "frm": "",
+        "dst": "#5C6873FF",
+        "bg_keep_fadeout": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「A・O・J（アーリー・オブ・ジャスティス）」による\n「ジェネクス」の監視・調査は続いていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0003_TXT_001"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "frm": "",
+        "dst": "#FFFFFFFF",
+        "bg_keep_fadeout": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そんなある日のことである。\n調査員は脚部を破損して\n動けなくなっているジェネクスを発見した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0003_TXT_002"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "調査員が歩み寄ると、ジェネクスは、\n当然のように威嚇の姿勢を示す。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0003_TXT_003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "調査員は怯むことなく、破損個所を確認。\n実験も兼ねて、修理をおこなった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0003_TXT_004"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "程なくしてジェネクスは\n自力で立ち上がれるようになると、\n逃げるように去っていく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0003_TXT_005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "サンプルデータ収集のため、\nその後も、壊れかけたジェネクスをみつけると、\n様々な修理を試すようになっていった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0003_TXT_006"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate058/Bg_Sr00580003_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それからしばらくしてのこと。\n今度は、機能停止寸前となっている\nジェネクスを発見した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0003_TXT_007"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "これまでのような修理では\nどうにもならない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0003_TXT_008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ふと、調査員はA・O・Jで開発中の\nエネルギー炉のことを思い出す。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0003_TXT_009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『まだ未完成だとは聞いているが、\nそれを使って\nジェネクスを再起させることはできないだろうか――。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0003_TXT_010"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate058/Bg_Sr00580003_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "すぐに移送の手続きが行われ、\nジェネクスにレアル融合炉の\n移植が行われる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0003_TXT_011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "移植から一晩が経ち、\n実験は失敗かと\n諦めかけたその時。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0003_TXT_012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ジェネクスはおもむろに起き上がると、\n自力で研究所から脱出していった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0003_TXT_013"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Garasu",
+        "path": "Scenarios/Gates/Gate058/Pre_Sr00580003_01",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_LIGHT",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate058/Bg_Sr00580003_05",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Garasu",
+        "duration": 3
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "bg_keep_fadeout": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ジェネクスの身体に搭載されたレアル融合炉の\n光輪は眩しく輝き稼働している――。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0003_TXT_014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その姿を見た技術者は推測する。\n『やはり、我々が作り上げた\nレアル融合炉は不完全だった。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0003_TXT_015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、それがジェネクスに移植されたことにより、\n不具合が解消され、\nついに真の性能を発揮したのだと。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0003_TXT_016"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate058/Bg_Sr00580003_06",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "bg_keep_fadeout": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "これを契機に、レアル融合炉を用いた\n半永久的に活動するエネルギー兵器の\n開発・実験は加速していく事となる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0003_TXT_017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、その実験に使われるジェネクスの\n『軍事転用計画』も、\n同時に推進されていくのだった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0058_C0003_TXT_018"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "fade": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "sourceBundle": "4b8d9342",
+  "sourceSha256": "ad02f99b74534cc3a1a825c4af56451fa16b073d7efd9ecee732a4b3ff5fe1c4",
+  "mma": {
+    "tp": "Pager",
+    "title": {
+      "useId": false,
+      "tid": "",
+      "ja_JP": "クエスト ヘルプ",
+      "en_US": "",
+      "fr_FR": "",
+      "it_IT": "",
+      "de_DE": "",
+      "es_ES": "",
+      "pt_BR": "",
+      "ko_KR": ""
+    },
+    "contents": [
+      {
+        "tp": "HalfImageTextPage",
+        "caption": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_MONSTEREFFECT_H",
+          "ja_JP": "モンスター効果とは？\r",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "text": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_MONSTEREFFECT_B",
+          "ja_JP": "カードの枠が黄色の通常モンスター以外のモンスターには、魔法や罠カードのような特別な効果を持ったモンスターがいます。\r\n「カオス・マジシャン」のようにフィールドに存在する間適用される効果や、「幻妖フルドラ」のように発動して使う効果など、効果の使い方も様々です。\r",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "buttons": [],
+        "resourcePath": "Help/Strategy/HelpStrategyMonsterEffect"
+      }
+    ],
+    "isLoop": false,
+    "startPage": 0
+  }
+}

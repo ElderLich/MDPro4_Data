@@ -1,0 +1,477 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00430341",
+  "sourceBundle": "428988a3",
+  "sourceSha256": "072add528ec8df6afbab1d2b1792250f745c75bf94e224de8f5de59de4b9f35d",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate043/Bg_Sr00430341_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_28",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "frm": "",
+        "dst": "#847693FF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「ミュートリア進化研究所」では、\n観測・調査をより精密に行うべく、\n日夜様々な研究が続けられている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT2001"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "frm": "",
+        "dst": "#FFFFFFFF"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その第一段階として、\n生物構造の解析が進んだ事で、\n「ミュートリア」の培養に成功。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT2002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "現在では、最初の個体から培養した、\n複数のミュートリアを管理している。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT2003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "人の手により新たに誕生した\n様々なミュートリア。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT2004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "個体差はあるものの、\n共通する性質・特性などの\n解明は進んでいた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT2005"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Hito1",
+        "path": "Scenarios/Gates/Gate043/Pre_Sr00430344_01",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『見ろ、他の個体と\n反応し合うかのような\n動きが見られるぞ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT2006"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Hito2",
+        "path": "Scenarios/Gates/Gate043/Pre_Sr00430344_00",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ミュートリア独自の意思疎通の\n手段があるのだろうか。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT2007"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Hito1",
+        "duration": 1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Hito2",
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ミュートリアと人間との対話は\n今のところ成立していない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT2008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、感応のような現象で\nミュートリア同士が反応を起こす様子は\n実験の中で幾度も確認できた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT2009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "研究員は、この生命体を解き明かすため、\nあらゆる手段を講じ、試行を繰り返していく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT2010"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate043/Bg_Sr00430341_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "現在、研究所で最も注目を集めている\nミュートリアの特性の１つが、\"進化\"である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT2011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "研究の過程で、ミュートリアと\n様々な生物や物質を、\n接触させる試みが行われた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT2012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "大きな反応が得られない事例も多々あったが、\n反射作用を起こし、\n急激な進化をとげる事例も確認されている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT2013"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate043/Bg_Sr00430341_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "直近で発見された事例では、\n高いエネルギーを秘めた水晶体との\n接触で起こった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT2014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "接触した水晶を取り込み、\n体表面が硬質化。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT2015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "取り込んだエネルギーの増幅と放出まで起こし、\n暴走するような動きすら見せていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT2016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "研究所の防衛システムによって、\n何とか鎮めることはできたが、進化が進めば\n手に負えない状況となる可能性も否定できない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT2017"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate043/Bg_Sr00430341_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.5,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "一部の研究員からは\n危険を訴える声もあった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT2018"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "label": "Hito1",
+        "path": "Scenarios/Gates/Gate043/Pre_Sr00430344_00",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『過剰な反射作用が再び起こった時、\n我々がこの生物を制御できる確証はない。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT2019"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "label": "Hito2",
+        "path": "Scenarios/Gates/Gate043/Pre_Sr00430344_03",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『今すぐにでも研究を止めるべきだ。\nこれ以上続ければ、我々の研究が\n人類を滅ぼすことになりかねない。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT2020"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Hito1",
+        "duration": 1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Hito2",
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、秘められた謎を解き明かしたい、\nこの生物の全てを知りたいという多くの意志が\nそれを上回り、研究は継続されることになった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT2021"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "だが、その危険が\nまもなく現実になろうとしていることに、\n気づいている者はいなかった……。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0043_TXT2022"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_28",
+        "fade": 2
+      }
+    }
+  ]
+}

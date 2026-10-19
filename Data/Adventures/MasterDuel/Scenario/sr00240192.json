@@ -1,0 +1,465 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00240192",
+  "sourceBundle": "09d34c37",
+  "sourceSha256": "3f3e4bc9f6b43fb1a6ee4d6277fb845940383c350b4c5a74365cb3dfb416989d",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate024/Bg_Sr00240192_title",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "t": "夢の支配者",
+        "titleId": "IDS_SCENARIOGATE0024_TITLE1001",
+        "scale": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate024/Bg_Sr00240192_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_20",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "とある街の片隅。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT1001"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "街の喧騒も遠くに聞こえる\n大通りから外れたその裏路地に\n来訪者が一人、夢現な様子でさまよっていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT1002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "どこからかその者を呼び止めるように、\n重々しい声が掛かる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT1003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『もし……、そこのあなた。\n不思議な夢に囚われてはいませんか？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT1004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "来訪者が振り向くと、そこには\n占い師の姿があった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT1005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "占い師は来訪者を\n自らの前へと招き寄せ、\n導くように語り掛ける。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT1006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ここを訪れるのは、夢の迷い人ばかり……。\n私はあなたと同じような眼をした人間を\n数多く見てきました。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT1007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『さぁ、話してください。\nあなたが夢で見たことのすべてを……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT1008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "まるで全てを見透かしたような\n不気味な雰囲気に戸惑いながらも、来訪者は\n促されるままに、夢の中での体験を話し始めた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT1009"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 2,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate024/Bg_Sr00240192_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 8,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "来訪者からの話を最後まで聞き終えると、\nそれまで黙っていた占い師が語り始める――。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT1010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『夢には「吉夢」――幸せを導く縁起の良い夢と、\n「凶夢」――災い引き寄せてしまう縁起の悪い夢、\nこの二つがあるとされています。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT1011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『そして、人々が見る夢は全て\n夢の支配者によってコントロールされているという\n言い伝えがあります。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT1012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『あなたの見た夢も、\n 夢の支配者が見せた夢かもしれません。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT1013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "占い師は真に迫った様子で告げる。\nただならぬ気配に来訪者は固唾を吞んだ。\n厳かな空気の中で、占い師は話を続ける。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT1014"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_03",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "zoom": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.353658527135849],\\\"m\\\":0}\",\"{\\\"p\\\":[0.48382294178009035,0.07135892659425736,0.4615830183029175,0.4615830183029175,0.38666000962257388,0.36997735500335696],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.6464025974273682,1.6464025974273682,0.1341463327407837,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 0.5
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate024/Bg_Sr00240192_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[-0.00406646728515625,0.0,3.244185209274292,3.244185209274292,0.0,0.08130065351724625],\\\"m\\\":0}\",\"{\\\"p\\\":[0.14271768927574159,0.798744797706604,0.7423341274261475,0.7423341274261475,1.0,0.18821221590042115],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,-0.012269973754882813,-0.012269973754882813,0.5,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 1
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "夢の支配者は、\n「吉夢」を見せる際には天使のように。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT1015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「凶夢」を見せる際には悪魔のように、\n姿を変えて現れます。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT1016"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.2757619619369507,0.2757619619369507,0.0,0.16249999403953553],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "夢の支配者に遣わされた使徒が\n現世に現れると、寝所に不思議な鏡を置き\n夢の世界へと誘うのです。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT1017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その鏡はこの世界と夢の世界をつなぐ神秘の扉。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT1018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "鏡に描かれた太陽と月の紋様、\nどちらが天に昇るかによって\n導かれる夢の世界が変わります。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT1019"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "太陽の紋様が昇るなら吉夢の世界へ。\n月ならば凶夢の世界へ導かれます。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT1020"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_11",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "kagami",
+        "path": "Scenarios/Gates/Gate024/Pre_Sr00240192_kagami",
+        "pos": 0,
+        "slayer": "Default",
+        "duration": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "あなたが、訪れた世界はどちらでしょう？",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0024_TXT1021"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_20",
+        "fade": 2
+      }
+    }
+  ]
+}

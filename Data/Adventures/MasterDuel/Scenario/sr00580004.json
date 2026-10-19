@@ -1,0 +1,442 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00580004",
+  "sourceBundle": "e845e5c5",
+  "sourceSha256": "8a457bb0af72752556ff2affba9d74da4db6248e15d6f32a3d5ad8304947fecb",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate058/Bg_Sr00580004_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "bg_keep_fadeout": false
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "「レアル融合炉」を得て\n「レアル・ジェネクス」となった一団は、\n「ワーム」との戦いで大きな戦果を挙げていった。",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_001",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "彼らは「A・O・J（アーリー・オブ・ジャスティス）」の\n指揮下には入らず独自に活動していた。",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_002",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "しかし、戦場での共闘を重ねるうちに互いに互いを\n“頼もしい友軍”として認識するようになっていた。",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_003",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate058/Bg_Sr00580004_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "bg_keep_fadeout": false
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "一方のワームも進化を重ね、\n極めて高い知能を有する個体が発生していた。",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_004",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "それらは大群をまとめ、軍隊のように各地へと侵攻。\n司令塔となる上位存在によって意思統一された\nワームの軍勢は更なる脅威となった。",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_005",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "この変化は、長きに渡る戦いで\nワームが原住部族の用兵を\n学習・模倣したものだったのだろう。",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_006",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "つまり戦略という型に\n当てはめられるようになったため、ある程度は\nその出現や動きも予測できるようになったのだ。",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_007",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "そのような背景もあり、A・O・Jと\nレアル・ジェネクスの連合軍は\n各地で善戦を繰り広げるようになる。",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_008",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "その結果、いつごろからか\nワームの出現は散発的になっていった。",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_009",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "このまま押さえ込めるのであれば、\nすべてのワームをこの星から追い出せるのではないか――。",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_010",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "やや楽観ともいえる論も出始めるが、\nそれを疑問視する意見もまだまだ多い。",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_011",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate056/Bg_Sr00560435_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "bg_keep_fadeout": false
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "bg_keep_fadeout": false
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "そこに、ワームの住む星系から飛来した物質、\nそれを独自に調べていた研究者がとある説を唱えた。",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_012",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "『ワームにおける侵略の最終段階。』",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_013",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "『それは惑星を覆いつくすほどに増えたワームが\n溶け合ってひとつに融合し、\n星そのものが新たなワームになるのではないか。』",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_014",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "『もしそうならば、その惑星レベルの巨大なワームが\n侵略に加わる可能性がある。』",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_015",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.3,
+        "frm": "",
+        "dst": "#7D7D7DFF",
+        "bg_keep_fadeout": false
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "この説にA・O・Jの面々は戦慄する。",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_016",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "『それが事実だった場合、今のままでは最終的に敗北する。\nこれから起こるであろう最終決戦に向け、\nすぐに準備を始めるべきだ。』",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_017",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "A・O・Jは方針を転換する。",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_018",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate058/Bg_Sr00580004_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "bg_keep_fadeout": false
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "戦力の逐次投入でいたずらに消耗するのではなく、\n圧倒的火力で敵を撃破するという、\n必勝を目的とした究極兵器建造計画が立案される。",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_019",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "この一大計画のために他の兵器の生産は縮小され、\n新たな巨大兵器の建造が開始された。",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_020",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "それと同時に、ワームの出現位置を予測するための\n偵察機も同時に開発される。",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_021",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Je",
+        "path": "Scenarios/Gates/Gate055/Pre_Sr00550428_01",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_SPEAR_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "なお、その切り札となる巨大兵器の制御中枢には\n「ジェネクス・コントローラー」の搭載が決定した。",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_022",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "しかし、先の戦いにおける\n「A・O・J フィールド・マーシャル」のような\n予期せぬ動作が懸念となった。",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_023",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "それは結果的に多くの兵の命を救ったとはいえ\n前線において指揮下から外れるのは\n非常に危険なことである。",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_024",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "そのため、A・O・Jの技術者たちは\nジェネクス・コントローラーの思考能力を排除し、\n機能を純化させた。",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_025",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Je",
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "こうして決戦兵器の建造は着々と進み、\n決戦の日は迫っていた。",
+        "textId": "IDS_SCENARIOGATE0058_C0004_TXT_026",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "fade": 2
+      }
+    }
+  ]
+}

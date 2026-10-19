@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00770001",
+  "sourceBundle": "57b72790",
+  "sourceSha256": "e7cfecb3a495c2bd72eb060ed356cfdf161bb49663ccbc99b1dc9c6fed09135d",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "波瀾万丈なるゴブリンの転落人生",
+        "titleId": "IDS_SCENARIOGATE0077_TITLE1001",
+        "path": "Scenarios/Gates/Gate077/Bg_Sr00770001_titile",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_41",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate077/Bg_Sr00770001_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "バブル景気に沸いていたころ。\n何もかもが輝いて見えるこの時代。\n世間は浮かれ、誰もが夢を見ていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT1001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その波にのり、一代で財を成すことに成功した\n「成金ゴブリン」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT1002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "株や土地で儲けては、夜の街を豪遊。\nカネを落としては拾わせる遊びをし、\n成金ぶりを披露していた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT1003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ほ～ら、やさしくてビッグなオレ様が恵んでやろう。\nカネが欲しいか？　そらやるぞ！』\n『あ、ありがとうございます。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT1004"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frm": "",
+        "dst": "#877C7CFF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし永遠に続くと思われた好景気が終わりを告げる。\nバブルがはじけると、あっという間に世間は闇に包まれた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT1005"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_COMICAL_CRASH_1",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.2,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.1,
+        "cycle": 0.1,
+        "target": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.2,
+        "path": "Scenarios/Gates/Gate077/Bg_Sr00770001_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ゴブリンの会社もバブル崩壊のアオリを受け倒産。\n『オ、オレ様の会社がぁぁぁぁああ！　オーマイガッ!!』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT1006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "後に残ったのは多くの債務だけ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT1007"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate077/Bg_Sr00770001_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それでも何とかやりくりできないかと、\n必死に計算、仕切り直そうと努力する。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT1008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『このカネは買い付けに回して、こっちは換金。\nここをこうすれば、もう少しなんとか……』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT1009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "だが努力もむなしく、\n追い打ちをかけるように株価が大暴落。\n一夜明けると一文無しとなっていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT1010"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_COMICAL_SHOCK",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Gob",
+        "path": "Scenarios/Gates/Gate077/Pre_Sr00770001_02_1",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『うぎゃぁぁあああ！\nウ、ウソだと言ってくれー！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT1011"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Gob",
+        "duration": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate077/Bg_Sr00770001_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "今日を生きるカネさえ無くなってしまった。\nプライドもすべて捨て、\n権力者に施しを受けるために跪く。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT1012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『どうか、お恵みを……』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT1013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "かつて自分がやっていた下品な施しを\n今度は自分が受ける側になるとは。\nだが、今はしかたがない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT1014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "カネのありがたみを\n身をもって体験したゴブリンであった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0077_TXT1015"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_41",
+        "fade": 2
+      }
+    }
+  ]
+}

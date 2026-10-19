@@ -1,0 +1,1451 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00810001",
+  "sourceBundle": "29a160e5",
+  "sourceSha256": "aa46c661d75d11bced0e346774dbc07a21fa56f8c4e7e1ddadd1599c06534b0d",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "魔を祓う救乙女",
+        "titleId": "IDS_SCENARIOGATE0081_C0001_TITLE_001",
+        "path": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Bg_Sr00810001_titile",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      },
+      "ver": 0
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_42",
+        "vol": -1
+      },
+      "ver": 0
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Bg_Sr00810001_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Ball",
+        "path": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/EF_Ball_blue",
+        "target": "BackUI",
+        "locater": "Locator_Default",
+        "pos": "0",
+        "duration": 0,
+        "t": "title",
+        "titleId": "",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "tryFullSize": false
+      },
+      "ver": 1
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "bg_keep_fadeout": false
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "遥か昔――\n世にのさばっていた悪魔たちは、\n大戦の末、天の使者によって討ち滅ぼされた。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_001",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "しかし、邪悪なる魂は滅びきらず、\n長き時を経て、少しずつ力を取り戻す。\nそして、生命に取り憑くことで再び現世へと蘇る。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_002",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "復活した悪魔の力に抗えず、\n人類は、衰退の一途を辿っていった。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_003",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      },
+      "mute": true
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "天の使者は、人類の窮状を憂い、\n各地の聖堂で祈りを捧げる少女たちに、\n救いを齎した。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_004",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Eri",
+        "path": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Pre_Sr00810001_00",
+        "target": "BackUI",
+        "locater": "Locator_Default",
+        "pos": "0",
+        "duration": 1
+      },
+      "ver": 1
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EXS_01",
+        "vol": -1
+      },
+      "ver": 0
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "少女たちは、使者より聖具を授かり、\n天の加護という奇跡のもと、\n悪魔を祓う力を得る。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_005",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "彼女たちは「救乙女（エクソシスター）」と呼ばれ\n悪魔への対抗組織を結成。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_006",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "人類の存亡を懸けた、\n反撃を開始した。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_007",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Eri",
+        "duration": 0
+      },
+      "ver": 1
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Ball",
+        "duration": 0
+      },
+      "ver": 1
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Bg_Sr00810001_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "bg_keep_fadeout": false
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "昼から夜に移り変わり、薄暗くなる夕刻。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_008",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "逢魔時となる、まさに夜が訪れるその時、\n悪魔たちは活動を開始する。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_009",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "様々な生物に取り憑き、\n仮初の肉体を得た悪魔は、\n人類へと襲い掛かった。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_010",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      },
+      "mute": true
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "日に日に拡大する悪魔の活動を抑えるため、\nエクソシスターたちは、現場へと向かった。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_011",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "ここは、特に強力な悪魔が\nのさばる危険区域。\n一瞬の油断が、命取りとなる場所だ。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_012",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "この区域を任されているのが、\nチーム「リリウム」の四人であった。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_013",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {},
+      "args": {
+        "label": "c01",
+        "path": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Spine/Sp810001_01_sof/Sp810001_01_sof",
+        "target": "BG",
+        "locater": "Locator_03_Default",
+        "pos": "right",
+        "duration": 0.2
+      },
+      "ver": 1
+    },
+    {
+      "command": "PrefabActorCtrlSet",
+      "option": {},
+      "args": {
+        "label": "c01",
+        "actor_ctrls": [
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": true,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "eye_1_loop",
+            "sub_value": ""
+          },
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 1,
+            "anim_loop": false,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Animation",
+            "main_value": "mouth_1_loop2",
+            "sub_value": "",
+            "ctrl_type": "SetMouthShape"
+          }
+        ]
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "このあたりも大分やられてしまいました。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_TALK_014",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_name": "ソフィア",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_001",
+        "actor_ctrls": [],
+        "c_label": "c01"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {},
+      "args": {
+        "label": "c02",
+        "path": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Spine/Sp810001_01_ire/Sp810001_01_ire",
+        "target": "BG",
+        "locater": "Locator_03_Default",
+        "pos": "left",
+        "duration": 0.2
+      },
+      "ver": 1
+    },
+    {
+      "command": "PrefabActorCtrlSet",
+      "option": {},
+      "args": {
+        "label": "c02",
+        "actor_ctrls": [
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": true,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "eye_sad_loop",
+            "sub_value": ""
+          },
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 1,
+            "anim_loop": false,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Animation",
+            "main_value": "mouth_1",
+            "sub_value": "",
+            "ctrl_type": "SetMouthShape"
+          }
+        ]
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "みんなちゃんと避難できてると、\nいいんだけど……。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_TALK_015",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "c_label": "c02",
+        "actor_ctrls": [],
+        "chara_name": "イレーヌ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_002"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "c01",
+        "duration": 0.2
+      },
+      "ver": 1
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {},
+      "args": {
+        "c_label": "c03",
+        "actor_ctrls": [],
+        "chain_text": false,
+        "chara_name": "ステラ",
+        "chara_name_id": "",
+        "text": "",
+        "textId": "",
+        "label": "c03",
+        "path": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Spine/Sp810001_01_stu/Sp810001_01_stu",
+        "target": "BG",
+        "locater": "Locator_03_Default",
+        "pos": "right",
+        "duration": 0.2
+      },
+      "ver": 1
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "子供たちは、拠点に避難してもらっています。\n夜が明けたら、A地区へ移動した方がよいかもしれません。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_TALK_016",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "c_label": "c03",
+        "actor_ctrls": [
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": true,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "eye_2_loop",
+            "sub_value": ""
+          },
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": false,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "1",
+            "sub_value": "",
+            "ctrl_type": "SetMouthShape"
+          },
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": false,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "",
+            "sub_value": "",
+            "ctrl_type": "SetLipsyncSource"
+          }
+        ],
+        "chara_name": "ステラ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_003"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "c02",
+        "duration": 0.2
+      },
+      "ver": 1
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "c04",
+        "path": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Spine/Sp810001_01_eri/Sp810001_01_eri",
+        "target": "BG",
+        "locater": "Locator_03_Default",
+        "pos": "left",
+        "duration": 0.2
+      },
+      "ver": 1
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "みんなのお気に入りの公園が\nある場所なのに……",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_TALK_017",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "c_label": "c04",
+        "actor_ctrls": [
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": true,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "eye_sad",
+            "sub_value": ""
+          },
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": false,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "1",
+            "sub_value": "",
+            "ctrl_type": "SetMouthShape"
+          }
+        ],
+        "chara_name": "エリス",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_004"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "許せない！絶対祓ってやるんだから。\nこれ以上、みんなの大切な場所を奪わせない！",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_TALK_018",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "c_label": "c04",
+        "actor_ctrls": [
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": true,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "eye_angry",
+            "sub_value": ""
+          }
+        ],
+        "chara_name": "エリス",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_004"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "エリスお姉さま……。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_TALK_019",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "c_label": "c03",
+        "actor_ctrls": [
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": false,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "",
+            "sub_value": ""
+          },
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": true,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "eye_2_loop",
+            "sub_value": ""
+          },
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": false,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "1",
+            "sub_value": "",
+            "ctrl_type": "SetMouthShape"
+          }
+        ],
+        "chara_name": "ステラ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_003"
+      }
+    },
+    {
+      "command": "TextClose",
+      "option": {},
+      "args": {}
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "ねぇ、なんか、物音しない？\nあっちの方！",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_TALK_020",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "c_label": "c04",
+        "actor_ctrls": [],
+        "chara_name": "エリス",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_004"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "c04",
+        "duration": 0.1
+      },
+      "ver": 1
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EXS_02_foot",
+        "vol": -1
+      },
+      "ver": 0
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "タタタタ――",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_TALK_021",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_name": "",
+        "chara_name_id": ""
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "エリスお姉さま。待ってください。\n一人で移動するのは危険です！",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_TALK_022",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "c_label": "c03",
+        "actor_ctrls": [
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": true,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "eye_1_loop",
+            "sub_value": ""
+          },
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": false,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "1",
+            "sub_value": "",
+            "ctrl_type": "SetMouthShape"
+          }
+        ],
+        "chara_name": "ステラ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_003"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "c01",
+        "path": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Spine/Sp810001_01_sof/Sp810001_01_sof",
+        "target": "BG",
+        "locater": "Locator_03_Default",
+        "pos": "center",
+        "duration": 0.2
+      },
+      "ver": 1
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "c02",
+        "path": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Spine/Sp810001_01_ire/Sp810001_01_ire",
+        "target": "BG",
+        "locater": "Locator_03_Default",
+        "pos": "left",
+        "duration": 0.2
+      },
+      "ver": 1
+    },
+    {
+      "command": "PrefabActorCtrlSet",
+      "option": {},
+      "args": {
+        "label": "c02",
+        "actor_ctrls": [
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": true,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "1",
+            "sub_value": "",
+            "ctrl_type": "SetMouthShape"
+          },
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": true,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "eye_happy_loop",
+            "sub_value": "",
+            "ctrl_type": "SetAnim"
+          }
+        ]
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "ここは二手に分かれましょう。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_TALK_023",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_name": "ソフィア",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_001",
+        "c_label": "c01",
+        "actor_ctrls": [
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": false,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "1",
+            "sub_value": "",
+            "ctrl_type": "SetMouthShape"
+          },
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": true,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "eye_1_loop",
+            "sub_value": ""
+          }
+        ]
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "私たちは、このあたりを調べます。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_TALK_024",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "c_label": "c01",
+        "actor_ctrls": [],
+        "chara_name": "ソフィア",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_001"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "ステラちゃんたちも、気を付けてね。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_TALK_025",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "c_label": "c02",
+        "actor_ctrls": [
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": true,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "eye_sad_loop",
+            "sub_value": ""
+          }
+        ],
+        "chara_name": "イレーヌ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_002"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "ステラー、何やってるの？\n早く、こっちこっちー！",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_TALK_026",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_icon": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Icon/Ico_Sr00810001_eri",
+        "chara_name": "エリス",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_004",
+        "chara_icon_label": "icon04",
+        "chara_icon_actor_ctrls": [
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": false,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "TMLipsync",
+            "sub_value": "idle",
+            "ctrl_type": "SetMouthShape"
+          }
+        ]
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "エリスお姉さま。\n置いていかないでください。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_TALK_027",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "c_label": "c03",
+        "actor_ctrls": [
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": true,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "eye_2_loop",
+            "sub_value": ""
+          },
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": false,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "1",
+            "sub_value": "",
+            "ctrl_type": "SetMouthShape"
+          }
+        ],
+        "chara_name": "ステラ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_003"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "c03",
+        "duration": 0.1
+      },
+      "ver": 1
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EXS_02_foot",
+        "vol": -1
+      },
+      "ver": 0
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "タタタタ――",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_TALK_028",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_name": "",
+        "chara_name_id": ""
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "c01",
+        "duration": 0.2
+      },
+      "ver": 1
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {},
+      "args": {
+        "label": "c01",
+        "path": "Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Spine/Sp810001_01_sof/Sp810001_01_sof",
+        "target": "BG",
+        "locater": "Locator_03_Default",
+        "pos": "right",
+        "duration": 0.5
+      },
+      "ver": 1
+    },
+    {
+      "command": "PrefabActorCtrlSet",
+      "option": {},
+      "args": {
+        "label": "c01",
+        "actor_ctrls": [
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": true,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "eye_1_loop",
+            "sub_value": ""
+          }
+        ]
+      }
+    },
+    {
+      "command": "PrefabActorCtrlSet",
+      "option": {},
+      "args": {
+        "label": "c02",
+        "actor_ctrls": [
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": true,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "eye_happy_loop",
+            "sub_value": ""
+          },
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 1,
+            "anim_loop": false,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Animation",
+            "main_value": "mouth_2",
+            "sub_value": "",
+            "ctrl_type": "SetMouthShape"
+          }
+        ]
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "エリスちゃんは、今日もがむしゃらね。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_TALK_029",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "c_label": "c02",
+        "actor_ctrls": [
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": true,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "eye_happy_loop",
+            "sub_value": ""
+          }
+        ],
+        "chara_name": "イレーヌ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_002"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EXS_03",
+        "vol": -1
+      },
+      "ver": 0
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.2,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.1,
+        "cycle": 0.1,
+        "target": 0
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "ガタッ――",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_TALK_030",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "chara_name": "",
+        "chara_name_id": ""
+      }
+    },
+    {
+      "command": "PrefabActorCtrlSet",
+      "option": {},
+      "args": {
+        "label": "c01",
+        "actor_ctrls": [
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": false,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "",
+            "sub_value": ""
+          },
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 1,
+            "anim_loop": false,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "",
+            "sub_value": ""
+          },
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": true,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "eye_2_loop",
+            "sub_value": ""
+          },
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 1,
+            "anim_loop": false,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Animation",
+            "main_value": "mouth_1_loop",
+            "sub_value": "",
+            "ctrl_type": "SetMouthShape"
+          }
+        ]
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "この気配……！\nイレーヌ姉さま気を付けて。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_TALK_031",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "c_label": "c01",
+        "actor_ctrls": [],
+        "chara_name": "ソフィア",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_001"
+      }
+    },
+    {
+      "command": "TextClose",
+      "option": {},
+      "args": {}
+    },
+    {
+      "command": "PrefabActorCtrlSet",
+      "option": {},
+      "args": {
+        "label": "c02",
+        "actor_ctrls": [
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": true,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "",
+            "sub_value": ""
+          },
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 0,
+            "anim_loop": true,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Slot",
+            "main_value": "eye_angry_loop",
+            "sub_value": ""
+          },
+          {
+            "ctrl_mode": "SetAnim",
+            "anim_index": 1,
+            "anim_loop": false,
+            "blend_duration": -1,
+            "blend_mode": 2,
+            "delay": 0,
+            "sub_type": "Animation",
+            "main_value": "mouth_1",
+            "sub_value": "",
+            "ctrl_type": "SetMouthShape"
+          }
+        ]
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "ソフィアちゃん、準備はいい？",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_TALK_032",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "c_label": "c02",
+        "actor_ctrls": [],
+        "chara_name": "イレーヌ",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_002"
+      }
+    },
+    {
+      "command": "Talk",
+      "args": {
+        "text": "抜かりはありません。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_TALK_033",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0,
+        "actor_ctrls": [],
+        "chara_name": "ソフィア",
+        "chara_name_id": "IDS_SCENARIOGATE0081_TALKER_001",
+        "c_label": "c01"
+      }
+    },
+    {
+      "command": "TextClose",
+      "option": {},
+      "args": {}
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "c01",
+        "tmlabel": "label_2"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "c02",
+        "tmlabel": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "二人は、首飾り型の聖具を手に取り、\n祈りを捧げる。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_034",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_PENDANT",
+        "vol": -1
+      },
+      "ver": 0
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "聖具は光を放ち、\n武器へと変貌した。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_035",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "解き放たれた聖水は、\n救いの象徴を形づくり、\n二人の身を包み込む。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_036",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "c01",
+        "tmlabel": "label_3"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "c01",
+        "duration": 0.5
+      },
+      "ver": 1
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 16743,
+        "pos": 6,
+        "se1": "SE_SOLO_EXS_04_card",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "金の星を守護する神の優美さを宿す使者の力――\n「エクソシスター・アソフィール」。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_037",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "c02",
+        "duration": 0.5
+      },
+      "ver": 1
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 16742,
+        "pos": 5,
+        "se1": "SE_SOLO_EXS_04_card",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "月を守護する神の言葉を伝える使者の力――\n「エクソシスター・ジブリーヌ」。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_038",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "それぞれの武器を携え、\n二人は悪魔怪人へと立ち向かう。",
+        "textId": "IDS_SCENARIOGATE0081_C0001_TXT_039",
+        "chain_text": false,
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_42",
+        "fade": 2
+      },
+      "ver": 0
+    }
+  ]
+}

@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00490393",
+  "sourceBundle": "53998f63",
+  "sourceSha256": "519110c5b609cfe1d176642e4b5f135d758f34d1f5697f4fa19eb0804754f401",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "天威の境地",
+        "titleId": "IDS_SCENARIOGATE0049_TITLE1001",
+        "path": "Scenarios/Gates/Gate049/Bg_Sr00490393_titile",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_34",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate049/Bg_Sr00490393_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この世界には、大地を伝う\n大自然の気の流れがある。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT1001"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WAFU_EFFECT_02",
+        "vol": 0.4,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": -1,
+        "ignoreSkip": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "流れはいくつにも分かれ、また寄り集まり\n満ち満ちた気は時に\n龍の似姿となって現われた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT1002"
+      }
+    },
+    {
+      "command": "BgWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "skip": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その気の流れを「龍脈（りゅうみゃく）」と呼び、\n龍が顕現するほどの力場、「龍脈の地」から気を引き出して\n力や技に昇華する拳士がいた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT1003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らの流派の名を\n「天威流（てんいりゅう）」という。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT1004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "天威流の極意。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT1005"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WHOOSH_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは大地の気と調和し、\n心・技・体を鍛え上げた先にある境地\n「天威無崩（てんいむほう）」に至ることとされる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT1006"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "path": "Scenarios/Gates/Gate049/Bg_Sr00490393_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 50,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "龍脈に秘められているのは、\n自然の大いなる力そのもの。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT1007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "大地に眠る膨大な力を乱さず、壊さずに御し、\n人と自然が新たな形で結びつくのを\n目指した流派である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT1008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "\"天威流の長い歴史において、\n天威無崩の境地にたどりついた者がいた。\"\nという記録は残っているが、ほぼ伝説に近い。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT1009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ただ、修行の末に龍脈を開き、\nその境地への一歩を踏み出した者は\n少なからず存在した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT1010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "さらなる高みを目指して歴代の拳士たちは\n果てなき修練を続け、\nその教えは連綿と受け継がれてきた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT1011"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate049/Bg_Sr00490393_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "当代においては、\n修行の中で龍脈を操る力を開花させた\n若者が二人いる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT1012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "一人は、\n拳撃を得意とする少年。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT1013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "まだ修行の途上ではあったが、\n自らの拳に龍脈の気を乗せ、\n地の気「天威龍－アーダラ」との調和を成し遂げた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT1014"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate049/Bg_Sr00490393_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 25,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "もう一人は、\n彼の姉弟子にあたる少女。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT1015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "扇を用いて気の流れを操り、\n龍を顕現させる才に長けていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT1016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "水の気「天威龍－シュターナ」。\n火の気「天威龍－マニラ」。\n風の気「天威龍－ナハタ」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT1017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "三つもの龍脈の気を同時に\n御するに至った彼女は、当代で最も\n『天威無崩』の境地に近いと目されている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT1018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "同じ時代、同じ場所にこのような傑出した才が二人も現れ、\n歴史に新たな名を刻むかもしれない彼らの存在は、\n天威流の未来に希望をもたらした。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0049_TXT1019"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_34",
+        "fade": 2
+      }
+    }
+  ]
+}

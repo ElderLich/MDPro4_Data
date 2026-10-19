@@ -1,0 +1,335 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00330264",
+  "sourceBundle": "1c124421",
+  "sourceSha256": "b4105ae22c6bcac4c920ad03be6152617e483a64921275a8555419eb0c3b413f",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate033/Bg_Sr00330263_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_16",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 80,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 10660,
+        "pos": 5,
+        "se1": "SE_SOLO_WAFU_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ある時、ヒルメの元に呼び出されたスサノヲは、\n武神器の力を悪用し、地上世界に住む民を\n苦しめているとの疑いをかけられる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT2001"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "frm": "",
+        "dst": "#9390A1FF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "事実無根の疑いに弁明するスサノヲだったが、\nそれすらも逆に彼女の怒りを買ってしまう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT2002"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_16",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate033/Bg_Sr00330264_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その結果、スサノヲは\nその力を五つの武神器に封印され、\n地上世界へと追放されてしまった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT2003"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 2,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate033/Bg_Sr00330264_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "地上で目を覚ましたスサノヲは、\nその力の大半を失っていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT2004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "自らにかけられた疑いを晴らすため、\nそして、\n共に地上へ落とされた武神器を探すため、",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT2005"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 10619,
+        "pos": 5,
+        "se1": "SE_SOLO_WAFU_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "スサノヲは自らの名を隠し、\nヤマトと名乗って旅に出たのだった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT2006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "地上を旅するヤマトは、\n各地で様々な人に出会った。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT2007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ある者は、天から落ちてきた光の場所をヤマトに示し、\n地上へ落とされた武神器を捜索する助けとなってくれた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT2008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ある者は、天災に見舞われ\n日々口にする糧にすら困っていたのにもかかわらず、\n見ず知らずの旅人であるヤマトに食事を振舞ってくれた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT2009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ある者は、天上の神々へ祈りを欠かさずにいた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT2010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、昨今はその祈りに\n神々が救いの手を差し伸べてくれるどころか、\nさらなる苦難に晒されている辛さを語った。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT2011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "旅の中でヤマトが見たのは、\n天上世界の横暴により苦しむ人々の姿だった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT2012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "天上世界で果たしてきた務めが\n人々を苦しめているのではないか――",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT2013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "天上世界はいつから\n誤った道に進んでしまったのか――",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT2014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ヤマトは疑念を抱きながらも、\n旅を続けるのだった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT2015"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_16",
+        "fade": 2
+      }
+    }
+  ]
+}

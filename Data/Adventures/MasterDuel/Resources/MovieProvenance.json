@@ -1,0 +1,485 @@
+{
+  "schemaVersion": 1,
+  "movies": {
+    "780001": {
+      "resource": {
+        "path": "Playback/780001-daba265fa19afef3.webm",
+        "sha256": "daba265fa19afef3302f87a6faee38288afd0402e1e85d52b35961a0803bfd5c",
+        "bytes": 32981284,
+        "durationSeconds": 127.843,
+        "originalPath": "Original/780001.webm",
+        "originalSha256": "7d4bf8d99db0158b80dd41e2f3d9a24d2cb9dd60e455a05a5dfb2aeb8875eeea",
+        "originalBytes": 32696978,
+        "originalDurationSeconds": 127.836,
+        "baseVolume": 0.8
+      },
+      "downloadObservedUtc": "2026-09-27T07:23:01.211226Z",
+      "derivationReportSha256": "b38d46c8ffae7b5e0ca94a5cd82fca7afd7ef78568f5fea8bdfd93d4454f796e",
+      "videoPackets": {
+        "original": 3065,
+        "derived": 3065,
+        "identicalOrderedPayloads": true,
+        "ptsOffsetRangeSeconds": [
+          0.006999999999990791,
+          0.007000000000005002
+        ],
+        "firstOriginal": {
+          "pts_time": "0.000000",
+          "dts_time": "0.000000",
+          "duration_time": "0.041000",
+          "size": "6318",
+          "data_hash": "SHA256:f45ca349bf4e5c2c5569afb5c9cac8b81fb3b67b5289ee46a60d9325d2c44a86"
+        },
+        "firstDerived": {
+          "pts_time": "0.007000",
+          "dts_time": "0.007000",
+          "duration_time": "0.041000",
+          "size": "6318",
+          "data_hash": "SHA256:f45ca349bf4e5c2c5569afb5c9cac8b81fb3b67b5289ee46a60d9325d2c44a86"
+        }
+      },
+      "audioConversion": "Opus to Vorbis; VP8 payloads retained",
+      "runtimeAccepted": false,
+      "controlsAccepted": false,
+      "availabilityChanged": false
+    },
+    "780005": {
+      "resource": {
+        "path": "Playback/780005-e061fe4b7f436a24.webm",
+        "sha256": "e061fe4b7f436a240c4530033f73caa358613106b31e3bd014e8cafdf0abb8ae",
+        "bytes": 32088826,
+        "durationSeconds": 90.305,
+        "originalPath": "Original/780005.webm",
+        "originalSha256": "b8d4c8081659b7288ef8be8a82472a34a8c4579ec75922021d65559ef62fe4a0",
+        "originalBytes": 31915412,
+        "originalDurationSeconds": 90.299,
+        "baseVolume": 0.8
+      },
+      "downloadObservedUtc": "2026-09-27T07:30:13.664659+00:00",
+      "derivationReportSha256": "5934b3e856722c6fe71958be370ed445112953f38eabcdafe4490bff5337ce44",
+      "videoPackets": {
+        "original": 2165,
+        "derived": 2165,
+        "identicalOrderedPayloads": true,
+        "ptsOffsetRangeSeconds": [
+          0.006999999999990791,
+          0.007000000000005002
+        ],
+        "firstOriginal": {
+          "pts_time": "0.000000",
+          "dts_time": "0.000000",
+          "duration_time": "0.041000",
+          "size": "212947",
+          "data_hash": "SHA256:15bf45a5ba136e425afaad75f3b431aa337c7e7b7640e401289438f4933578c9"
+        },
+        "firstDerived": {
+          "pts_time": "0.007000",
+          "dts_time": "0.007000",
+          "duration_time": "0.041000",
+          "size": "212947",
+          "data_hash": "SHA256:15bf45a5ba136e425afaad75f3b431aa337c7e7b7640e401289438f4933578c9"
+        }
+      },
+      "audioConversion": "Opus to Vorbis; VP8 payloads retained",
+      "runtimeAccepted": false,
+      "controlsAccepted": false,
+      "availabilityChanged": false
+    },
+    "710001": {
+      "resource": {
+        "path": "Playback/710001-e204ca242f803c5f.webm",
+        "sha256": "e204ca242f803c5ffa82c1e88fbb9d077fa4664deb5a765c4e2ae2aaac8f766e",
+        "bytes": 21360235,
+        "durationSeconds": 53.06,
+        "originalPath": "Original/710001.webm",
+        "originalSha256": "32c8c5fcfad2d6ea9068f16b25b4f7f355f930e42ca05b1015eb96240dfd2f79",
+        "originalBytes": 21186046,
+        "originalDurationSeconds": 53.053,
+        "baseVolume": 0.8
+      },
+      "downloadObservedUtc": "2026-09-27T07:31:53.979057+00:00",
+      "derivationReportSha256": "04faf5cc13eadfe7cd8024b39ca2d96eeea42aee4d08f3d74d8c73d4bd2b9ccd",
+      "videoPackets": {
+        "original": 1272,
+        "derived": 1272,
+        "identicalOrderedPayloads": true,
+        "ptsOffsetRangeSeconds": [
+          0.006999999999997897,
+          0.007000000000005002
+        ],
+        "firstOriginal": {
+          "pts_time": "0.000000",
+          "dts_time": "0.000000",
+          "duration_time": "0.041000",
+          "size": "3528",
+          "data_hash": "SHA256:84de5e0edd64239e8651c67d1cafba7115cb3f4651f890cb34dd7c9d77376ca0"
+        },
+        "firstDerived": {
+          "pts_time": "0.007000",
+          "dts_time": "0.007000",
+          "duration_time": "0.041000",
+          "size": "3528",
+          "data_hash": "SHA256:84de5e0edd64239e8651c67d1cafba7115cb3f4651f890cb34dd7c9d77376ca0"
+        }
+      },
+      "audioConversion": "Opus to Vorbis; VP8 payloads retained",
+      "runtimeAccepted": false,
+      "controlsAccepted": false,
+      "availabilityChanged": false
+    },
+    "710005": {
+      "resource": {
+        "path": "Playback/710005-fa6a458ab8bf7eb1.webm",
+        "sha256": "fa6a458ab8bf7eb162bf947dfab17fe7a5e98bf044e8bd61fd643a99854d242c",
+        "bytes": 61117977,
+        "durationSeconds": 90.097,
+        "originalPath": "Original/710005.webm",
+        "originalSha256": "3de5b04af11191872e37b229197ea522c698b5cd3613a2d4a0646f9552136ba3",
+        "originalBytes": 60881744,
+        "originalDurationSeconds": 90.09,
+        "baseVolume": 0.8
+      },
+      "downloadObservedUtc": "2026-09-27T07:51:06.349893+00:00",
+      "derivationReportSha256": "88346345fe7e37583ee329898624fd2fe6759f0b5eb179cec27bc7ccb2a5cb53",
+      "videoPackets": {
+        "original": 2160,
+        "derived": 2160,
+        "identicalOrderedPayloads": true,
+        "ptsOffsetRangeSeconds": [
+          0.006999999999990791,
+          0.007000000000005002
+        ],
+        "firstOriginal": {
+          "pts_time": "0.000000",
+          "dts_time": "0.000000",
+          "duration_time": "0.041000",
+          "size": "3528",
+          "data_hash": "SHA256:84de5e0edd64239e8651c67d1cafba7115cb3f4651f890cb34dd7c9d77376ca0"
+        },
+        "firstDerived": {
+          "pts_time": "0.007000",
+          "dts_time": "0.007000",
+          "duration_time": "0.041000",
+          "size": "3528",
+          "data_hash": "SHA256:84de5e0edd64239e8651c67d1cafba7115cb3f4651f890cb34dd7c9d77376ca0"
+        }
+      },
+      "audioConversion": "Opus to Vorbis; VP8 payloads retained",
+      "runtimeAccepted": false,
+      "controlsAccepted": false,
+      "availabilityChanged": false
+    },
+    "710010": {
+      "resource": {
+        "path": "Playback/710010-0bbe80d7786fce72.webm",
+        "sha256": "0bbe80d7786fce72d9ef87b22e786e82ccf6b4f7bec237a0e31e85138f8162a4",
+        "bytes": 111293459,
+        "durationSeconds": 120.131,
+        "originalPath": "Original/710010.mp4",
+        "originalSha256": "585dc5c6c3d101ff7f1fa1b9f5d86c9f61754997a58e26182f18b666b95d7b43",
+        "originalBytes": 64882103,
+        "originalDurationSeconds": 120.12,
+        "baseVolume": 0.8
+      },
+      "derivationReportSha256": "b2feb32da6339d7ce45c7abdf213c5730646c4324e3053e7d3f66482c58c2064",
+      "videoPackets": {
+        "original": 2880,
+        "derived": 2880,
+        "identicalOrderedPayloads": false,
+        "comparison": "Video codec re-encoded; decoded frame counts and sorted presentation times preserved within WebM timestamp quantization. No lossless/pixel identity claim.",
+        "ptsOffsetRangeSeconds": [
+          0.0025419999999911624,
+          0.003500000000002501
+        ]
+      },
+      "runtimeAccepted": false,
+      "controlsAccepted": false,
+      "availabilityChanged": false,
+      "sourceKind": "original-cached-VideoClip-with-compatibility-copy",
+      "cachedVideoClip": {
+        "manifest": "Tools/MasterDuel/Manifest/AssetManifest.Switch.json",
+        "manifestSha256": "633876a74c09e3ecaa1451f2d5c02424f40cb9494fd769e1a8a74f7cc98b12e8",
+        "bundleId": "23a1e603",
+        "sourceBundleSha256": "524459222b179aef9b6bf5c10b2850b44514d04fa3f82357bb2baa9efb325da9",
+        "videoClipPathId": "8805015958632627201",
+        "originalAsset": "assets/resourcesassetbundle/scenarios/gates/gate071/movie/switch/sr00710010.mp4",
+        "externalResource": {
+          "m_Source": "archive:/CAB-c8b4d7cb844ac9075b2f8baaecf43d88/CAB-c8b4d7cb844ac9075b2f8baaecf43d88.resource",
+          "m_Offset": 0,
+          "m_Size": 64882103
+        },
+        "payloadSha256": "585dc5c6c3d101ff7f1fa1b9f5d86c9f61754997a58e26182f18b666b95d7b43"
+      },
+      "extractionObservedUtc": "2026-09-29T19:55:56.832965+00:00",
+      "audioConversion": "AAC to Vorbis; original MP4 retained",
+      "videoConversion": "H264 to VP8; explicit lossy compatibility encode",
+      "frameSequence": {
+        "originalFrames": 2880,
+        "derivedFrames": 2880,
+        "width": 1280,
+        "height": 720,
+        "frameRate": "24000/1001",
+        "ptsOffsetRangeSeconds": [
+          0.0025419999999911624,
+          0.003500000000002501
+        ],
+        "passed": true
+      },
+      "priorPlaybackProof": {
+        "resource": {
+          "path": "Original/710010.mp4",
+          "sha256": "585dc5c6c3d101ff7f1fa1b9f5d86c9f61754997a58e26182f18b666b95d7b43",
+          "bytes": 64882103,
+          "durationSeconds": 120.12,
+          "originalPath": "Original/710010.mp4",
+          "originalSha256": "585dc5c6c3d101ff7f1fa1b9f5d86c9f61754997a58e26182f18b666b95d7b43",
+          "originalBytes": 64882103,
+          "originalDurationSeconds": 120.12,
+          "baseVolume": 0.8
+        },
+        "derivationReportSha256": "a5cff06bcef68341ec7a37526e046b815505c70b9b78c4863e3e70f2f6f79917",
+        "videoPackets": {
+          "original": 2880,
+          "derived": 2880,
+          "identicalOrderedPayloads": true,
+          "comparison": "Same byte-identical original file is used for playback; no remux or encode.",
+          "orderedPacketReceipt": "710010.video-packets.json",
+          "orderedPacketReceiptSha256": "a8e2768840f5e035325e5ab785e78ca8b3a216059fadbee4e79d842ea195aa4b",
+          "ptsOffsetRangeSeconds": [
+            0,
+            0
+          ],
+          "firstOriginal": {
+            "pts_time": "0.000000",
+            "dts_time": "-0.041708",
+            "duration_time": "0.041708",
+            "size": "245",
+            "data_hash": "SHA256:53e117e3512f881089769c56db0285845dce32f50676831a16b210480e4e3984"
+          },
+          "firstDerived": {
+            "pts_time": "0.000000",
+            "dts_time": "-0.041708",
+            "duration_time": "0.041708",
+            "size": "245",
+            "data_hash": "SHA256:53e117e3512f881089769c56db0285845dce32f50676831a16b210480e4e3984"
+          }
+        },
+        "runtimeAccepted": false,
+        "controlsAccepted": false,
+        "availabilityChanged": false,
+        "sourceKind": "original-cached-VideoClip",
+        "cachedVideoClip": {
+          "manifest": "Tools/MasterDuel/Manifest/AssetManifest.Switch.json",
+          "manifestSha256": "633876a74c09e3ecaa1451f2d5c02424f40cb9494fd769e1a8a74f7cc98b12e8",
+          "bundleId": "23a1e603",
+          "sourceBundleSha256": "524459222b179aef9b6bf5c10b2850b44514d04fa3f82357bb2baa9efb325da9",
+          "videoClipPathId": "8805015958632627201",
+          "originalAsset": "assets/resourcesassetbundle/scenarios/gates/gate071/movie/switch/sr00710010.mp4",
+          "externalResource": {
+            "m_Source": "archive:/CAB-c8b4d7cb844ac9075b2f8baaecf43d88/CAB-c8b4d7cb844ac9075b2f8baaecf43d88.resource",
+            "m_Offset": 0,
+            "m_Size": 64882103
+          },
+          "payloadSha256": "585dc5c6c3d101ff7f1fa1b9f5d86c9f61754997a58e26182f18b666b95d7b43"
+        },
+        "extractionObservedUtc": "2026-09-29T19:55:56.832965+00:00",
+        "audioConversion": "None; original H264/AAC MP4 retained byte-for-byte"
+      }
+    },
+    "780009": {
+      "resource": {
+        "path": "Playback/780009-d3e8a4edff13f6d2.webm",
+        "sha256": "d3e8a4edff13f6d27c4ef106826667b7ab79fa9f0b32034befe2d4256968e994",
+        "bytes": 172935671,
+        "durationSeconds": 206.979,
+        "originalPath": "Original/780009.mp4",
+        "originalSha256": "cc7c3a9ddf91b05df05e71a244580f144e4b2ceb73df7639229136b2c388d02c",
+        "originalBytes": 111803520,
+        "originalDurationSeconds": 206.957,
+        "baseVolume": 0.8
+      },
+      "derivationReportSha256": "d3cc401faf7fc4eb778a71160084aa3d2060061fa3d180f894fa209664959b55",
+      "videoPackets": {
+        "original": 4962,
+        "derived": 4962,
+        "identicalOrderedPayloads": false,
+        "comparison": "Video codec re-encoded; decoded frame counts and sorted presentation times preserved within WebM timestamp quantization. No lossless/pixel identity claim.",
+        "ptsOffsetRangeSeconds": [
+          0.0025419999999769516,
+          0.003500000000002501
+        ]
+      },
+      "runtimeAccepted": false,
+      "controlsAccepted": false,
+      "availabilityChanged": false,
+      "sourceKind": "original-cached-VideoClip-with-compatibility-copy",
+      "cachedVideoClip": {
+        "manifest": "Tools/MasterDuel/Manifest/AssetManifest.Switch.json",
+        "manifestSha256": "633876a74c09e3ecaa1451f2d5c02424f40cb9494fd769e1a8a74f7cc98b12e8",
+        "bundleId": "c7f60e2e",
+        "sourceBundleSha256": "fb71e286c304cb444c3c222edfac2d2c39d03fcac2d57aaa8bae20dc5425ae6c",
+        "videoClipPathId": "-6595702327478604171",
+        "originalAsset": "assets/resourcesassetbundle/scenarios/gates/gate078/movie/switch/sr00780009.mp4",
+        "externalResource": {
+          "m_Source": "archive:/CAB-73c668c425a7a1be6af093d45c3f3047/CAB-73c668c425a7a1be6af093d45c3f3047.resource",
+          "m_Offset": 0,
+          "m_Size": 111803520
+        },
+        "payloadSha256": "cc7c3a9ddf91b05df05e71a244580f144e4b2ceb73df7639229136b2c388d02c"
+      },
+      "extractionObservedUtc": "2026-09-29T19:55:59.654190+00:00",
+      "audioConversion": "AAC to Vorbis; original MP4 retained",
+      "videoConversion": "H264 to VP8; explicit lossy compatibility encode",
+      "frameSequence": {
+        "originalFrames": 4962,
+        "derivedFrames": 4962,
+        "width": 1280,
+        "height": 720,
+        "frameRate": "24000/1001",
+        "ptsOffsetRangeSeconds": [
+          0.0025419999999769516,
+          0.003500000000002501
+        ],
+        "passed": true
+      },
+      "priorPlaybackProof": {
+        "resource": {
+          "path": "Original/780009.mp4",
+          "sha256": "cc7c3a9ddf91b05df05e71a244580f144e4b2ceb73df7639229136b2c388d02c",
+          "bytes": 111803520,
+          "durationSeconds": 206.95675,
+          "originalPath": "Original/780009.mp4",
+          "originalSha256": "cc7c3a9ddf91b05df05e71a244580f144e4b2ceb73df7639229136b2c388d02c",
+          "originalBytes": 111803520,
+          "originalDurationSeconds": 206.957,
+          "baseVolume": 0.8
+        },
+        "derivationReportSha256": "1096cb09227195198b05205864beb29ff24a8468645a1772fe4c2773622b5f6d",
+        "videoPackets": {
+          "original": 4962,
+          "derived": 4962,
+          "identicalOrderedPayloads": true,
+          "comparison": "Same byte-identical original file is used for playback; no remux or encode.",
+          "orderedPacketReceipt": "780009.video-packets.json",
+          "orderedPacketReceiptSha256": "1c2c6e9f01db016d9b557bd8d9b4f1c20dfdf14b62b605c4e2850ba2291782ac",
+          "ptsOffsetRangeSeconds": [
+            0,
+            0
+          ],
+          "firstOriginal": {
+            "pts_time": "0.000000",
+            "dts_time": "-0.041708",
+            "duration_time": "0.041708",
+            "size": "67184",
+            "data_hash": "SHA256:56212c027ddc6da54ea6d2514497f690bf46f8608489b67fc079322e412402b8"
+          },
+          "firstDerived": {
+            "pts_time": "0.000000",
+            "dts_time": "-0.041708",
+            "duration_time": "0.041708",
+            "size": "67184",
+            "data_hash": "SHA256:56212c027ddc6da54ea6d2514497f690bf46f8608489b67fc079322e412402b8"
+          }
+        },
+        "runtimeAccepted": false,
+        "controlsAccepted": false,
+        "availabilityChanged": false,
+        "sourceKind": "original-cached-VideoClip",
+        "cachedVideoClip": {
+          "manifest": "Tools/MasterDuel/Manifest/AssetManifest.Switch.json",
+          "manifestSha256": "633876a74c09e3ecaa1451f2d5c02424f40cb9494fd769e1a8a74f7cc98b12e8",
+          "bundleId": "c7f60e2e",
+          "sourceBundleSha256": "fb71e286c304cb444c3c222edfac2d2c39d03fcac2d57aaa8bae20dc5425ae6c",
+          "videoClipPathId": "-6595702327478604171",
+          "originalAsset": "assets/resourcesassetbundle/scenarios/gates/gate078/movie/switch/sr00780009.mp4",
+          "externalResource": {
+            "m_Source": "archive:/CAB-73c668c425a7a1be6af093d45c3f3047/CAB-73c668c425a7a1be6af093d45c3f3047.resource",
+            "m_Offset": 0,
+            "m_Size": 111803520
+          },
+          "payloadSha256": "cc7c3a9ddf91b05df05e71a244580f144e4b2ceb73df7639229136b2c388d02c"
+        },
+        "extractionObservedUtc": "2026-09-29T19:55:59.654190+00:00",
+        "audioConversion": "None; original H264/AAC MP4 retained byte-for-byte"
+      }
+    }
+  },
+  "sourceManifestSha256": "407ddcd1f5f3255c5e0a7f97e214a409e184770c4b93f780e0541f0174ff98ff",
+  "historicalIndexSourceManifestSha256": "0e88bbacb1a34e6ad5a281ac195d2fc1f8c358b3fe4cbd8476c9bbd5838b80b6",
+  "originalUiBundles": [
+    {
+      "id": "06691f7c",
+      "sha256": "608395b5e57f2f8b007b53c6ddf92206d7aefa2c63b3e36d49fa63be6d58363c",
+      "dependencies": []
+    },
+    {
+      "id": "312674e9",
+      "sha256": "ef9f82f2f892e93d2dc7419e6f4aa31ad181b0463c92238a91e9d2173efb5936",
+      "dependencies": []
+    },
+    {
+      "id": "43192856",
+      "sha256": "a819553cc87228bb669718c27ea276ed05fdb0f54d96786e6bb6aaee579a9ffe",
+      "dependencies": [
+        "e6004de9"
+      ]
+    },
+    {
+      "id": "60f481d0",
+      "sha256": "ff8126bf8cdc33c199db82e531862931ce45b8ef6448feb10a251de3ad1f2b69",
+      "dependencies": []
+    },
+    {
+      "id": "7426fde9",
+      "sha256": "9fa527272cdb60e07aef039c8ee4d0e861ac48b56357ba7f79dc0d0938bad8dd",
+      "dependencies": [
+        "312674e9",
+        "ac45f503"
+      ]
+    },
+    {
+      "id": "ac45f503",
+      "sha256": "0c0b4adc273eea690690316fc51ac6d80dd230f1cb5af44dc7a106ab3a7e6e58",
+      "dependencies": []
+    },
+    {
+      "id": "b17019a9",
+      "sha256": "6ca51ab4d4406eecd18246b500a7a9920685a498eae0980dca8518c5a6eddec7",
+      "dependencies": [
+        "06691f7c",
+        "60f481d0"
+      ]
+    },
+    {
+      "id": "beb50f7a",
+      "sha256": "4ea7e57a93c129eb12de14c6244dabfd6610ecc46cf18696c24391f4642da7a5",
+      "dependencies": []
+    },
+    {
+      "id": "dd66d5f8",
+      "sha256": "6eba74b912c40ad60c8380700af1975d4a36134e17fc3e03919a8744fab04acc",
+      "dependencies": [
+        "06691f7c",
+        "60f481d0",
+        "beb50f7a",
+        "e6004de9",
+        "f1874c5b"
+      ]
+    },
+    {
+      "id": "e6004de9",
+      "sha256": "12875ce5718c07da2910f453c26fcea6612bd3616bf33d8af27e6ea5dde6c1a5",
+      "dependencies": []
+    },
+    {
+      "id": "f1874c5b",
+      "sha256": "c70ca871816f74f33a6a9f3027f5a8826e201d91cba7f311f2b92283c1ab2b5e",
+      "dependencies": []
+    }
+  ],
+  "scope": "Resources only; original files retained, any video/audio-transcoded playback copies explicit. No runtime/control/listening/chapter acceptance or availability change.",
+  "mediaRoot": "Video/Solo Gates",
+  "mediaIndex": "Video/Solo Gates/MovieIndex.json",
+  "mediaPlatformIndependent": true,
+  "uiPlatform": "StandaloneWindows64"
+}

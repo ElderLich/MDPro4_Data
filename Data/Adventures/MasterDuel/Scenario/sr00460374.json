@@ -1,0 +1,931 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00460374",
+  "sourceBundle": "d12ea09f",
+  "sourceSha256": "d8a9e86f4c22c54025c590ff34e15fbcb20d4dbfd9a8778e178b0b6a55a137a0",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate046/Bg_Sr00460371_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_30",
+        "vol": -1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_CONTACT",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "label": "Chara00",
+        "path": "Scenarios/Gates/Gate046/Pre_Sr00460371_Face",
+        "pos": 4,
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face022"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『訓練お疲れ様でした！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2001"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face061"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『どうです？\nどんなふうに任務を進めていくのか、\nイメージはできましたか？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2002"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『私は忍なので、1人で任務をこなせる自信はありますが、\n司令官の指示で先輩エージェントの方々と\n一緒に出動することが多いんです。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2003"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face071"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『皆さんもしばらくの間は\n同じような形で\n任務にあたると思います。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2004"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『なのでここからは、\n頼れる先輩エージェントの方々を\nご紹介しますね！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2005"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.8,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 0
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face003"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate046/Bg_Sr00460374_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 0
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『まずは、先ほどもお名前を出しましたが、\n「S－Force」の全ての作戦を決めている\n「ジャスティファイ」司令官です。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2006"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face061"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『指令が下された時に、\nお声を聞くことはあるのですが……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2007"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face052"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『実は、\nお顔を見たことがないんです。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2008"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face081"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『いつもあの重そうなスーツを\n着ておられるのでしょうか？\n……謎です。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2009"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate046/Bg_Sr00460374_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『次は「ラプスウェル」さん。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2010"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face051"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『初めてお会いした時には\n空を飛んだり、ビームを出したりと\n色々驚きました。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2011"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『でも、見た目と違って\nとても礼節を重んじる方なんです。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2012"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face061"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『任務のことだけでなく、\n色々なことを\n丁寧に教えてくださいましたし。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2013"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『「ジャスティファイ」司令官の次くらいに\n古くから「S－Force」にいるようで、\nどこか遠い次元から来たらしいです。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2014"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_CONTACT",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Charm",
+        "path": "Scenarios/Gates/Gate046/Pre_Sr00460374_01",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face061"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『そうそう、\n私がつけているこのメタルチャーム！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2015"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face021"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『「ラプスウェル」さんが\n「基地の売店で売ってます」と\n教えてくれたんです。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2016"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『私も真似して買ってしまいました。\nどうです？\n目立ちますし、カッコイイですよね？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2017"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Charm",
+        "duration": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate046/Bg_Sr00460374_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『続いて「プロフェッサー」さん。\n科学部門を統括する凄い博士です。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2018"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『任務をサポートする「ドッグ・タッグ」など、\nたくさんのメカや設備を開発しています。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2019"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『さきほどの訓練施設も\n「プロフェッサー」さんが\nいつの間にか作っていた施設の１つですね。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2020"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face101"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ただ、他にも基地内を勝手に改造してるらしく、\n部屋の場所や通路の行き先が変わっていたりして、\n苦情が出ていることもあります。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2021"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate046/Bg_Sr00460374_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『最後に「プラ＝ティナ」さん。\n不思議な能力を持ったお姉さんです。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2022"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face071"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『次元に干渉できるくらいの凄い能力を\n持っているらしいのですが、\n「ジャスティファイ」司令官と同じくらい謎の多い方です。』\t",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2023"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face072"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『でも、一つだけ\n分かっていることがあります。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2024"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face091"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『普段は穏やかな方なのですが、\n怒るとものすごく怖いです。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2025"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face081"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『覚えておいてください。\n「プラ＝ティナ」さんは\n絶対に怒らせてはいけません。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2026"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face001"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate046/Bg_Sr00460371_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『今ご紹介した先輩方は\nただ沢山の任務をこなしてる\nだけではないんです。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2027"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『他の先輩方より\n多くのことを知った上で任務に\nあたっているようにも感じています。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2028"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.8,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 0
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "duration": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate046/Bg_Sr00460371_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Chara00",
+        "path": "Scenarios/Gates/Gate046/Pre_Sr00460371_Face",
+        "pos": 4,
+        "duration": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_CONTACT",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face003"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『他にも、私がお会いしたことがな……いえ、\n紹介しきれないくらい、多くの先輩エージェントが\nここでは活躍されています。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2029"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face071"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『私も先輩方に負けないように、\nもっと任務をこなして、\n世のため人のため悪を成敗していこうと思います！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2030"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『皆さんも得意の能力を活かして\n任務にあたってくださいね！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2031"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Chara00",
+        "tmlabel": "face021"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『本日のご案内は以上です！\nお疲れ様でした！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0046_TXT2032"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_30",
+        "fade": 2
+      }
+    }
+  ]
+}

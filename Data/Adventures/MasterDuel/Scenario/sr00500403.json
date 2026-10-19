@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00500403",
+  "sourceBundle": "4158937b",
+  "sourceSha256": "3a02ae140f1f67a11ec268169fb8d4fbb93421023229a021b67a3bd4df76a5bf",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate050/Bg_Sr00500400_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "type": 0,
+        "text": "「X－セイバー ソウザ」を\n失った影響は計り知れない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT2001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "type": 0,
+        "text": "しかし共に闘い生き残るため、苦楽を共にしてきた\n傭兵団が瓦解するようなことがあれば、\nさらに多くの命が失われるだろう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT2002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "type": 0,
+        "text": "「ガトムズ」は\nソウザが残した傭兵団を\n受け継ごうと決意した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT2003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "type": 0,
+        "text": "ソウザが築き上げたものを\nさらに磨き上げ、\n次代へとつなぐために。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT2004"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "frm": "",
+        "dst": "#B4B4B4FF"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WHOOSH_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Gato",
+        "path": "Scenarios/Gates/Gate050/Pre_Sr00500403_00",
+        "pos": 0,
+        "duration": 3
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それから後、\nガトムズは傭兵団「X－セイバー」の\n新たな指令となった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT2005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『大陸の荒くれ者だった傭兵団。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT2006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『それを、仲間同士で結束し、\n互いの技を磨きあい、志をもって戦う\n剣術組織へと変えねばならない。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT2007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ガトムズは決意した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT2008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "特に剣技に秀でた十人の精鋭を頂点とし、\nそれぞれが数十名の兵士を率いて戦いを勝利に導き、\n全員で生還するのを目指す組織。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT2009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この組織の変化に同意できず離脱する者もあったが、\nガトムズはそれを咎めはせず、\n去る者を追わなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT2010"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Gato",
+        "duration": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate050/Bg_Sr00500403_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.3476481437683107,2.3476481437683107,0.0,0.10975609719753266],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "結果として多くの者は残り、\n新たな組織として\n生まれ変わったのた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT2011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "総司令たるガトムズを筆頭に、\n副指令「X－セイバー ウルベルム」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT2012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "また、精鋭たちの活躍により「X－セイバー」は\n大陸でも有数の剣術組織へと成長。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT2013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "拠点を設け、地域一帯を\n統治するまでに至る。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT2014"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate050/Bg_Sr00500400_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 2,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 7539,
+        "pos4": 6,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『かつても、組織の再編に伴って\n戦い方を変える必要があった。\n今回も同じことだ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT2015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "圧倒的物量に加え、統率された動きという\n新たな武器を手にしたワームの群れに対抗するため、\nこちらも新たな戦術を築き上げる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT2016"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate050/Bg_Sr00500403_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ガトムズは精鋭の\n再選抜を行った。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT2017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして「A・O・J（アーリー・オブ・ジャスティス）」で\n培われた技術を取り入れた装備と、\n連携を重視した新しい戦術の導入を仲間たちに促した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT2018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "精鋭十名には以前から組織に属していた者、\n新たに加わった者、\nいずれからも分け隔てなく秀でた者が選ばれた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT2019"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "２つの「X」で連携して戦う。\n「X」を超える「X」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT2020"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.3,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate050/Bg_Sr00500403_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それらの強い意思表示として組織名も\n「XX－セイバー」と改めたガトムズは、\n新体制でワームを迎え撃つ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT2021"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "こうして、剣と志を受け継ぐ者たちの\n新たな戦いが始まった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0050_TXT2022"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "fade": 2
+      }
+    }
+  ]
+}

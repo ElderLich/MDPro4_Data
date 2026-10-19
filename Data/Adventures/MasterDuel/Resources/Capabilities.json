@@ -1,0 +1,3327 @@
+{
+  "schemaVersion": 1,
+  "platform": "StandaloneWindows64",
+  "scenarios": {
+    "sr00050021": {
+      "ready": true,
+      "reasons": [],
+      "commands": 26,
+      "missingTextIds": []
+    },
+    "sr00580006": {
+      "ready": true,
+      "reasons": [],
+      "commands": 90,
+      "missingTextIds": []
+    },
+    "sr00440353": {
+      "ready": true,
+      "reasons": [],
+      "commands": 62,
+      "missingTextIds": []
+    },
+    "sr00570444": {
+      "ready": true,
+      "reasons": [],
+      "commands": 60,
+      "missingTextIds": []
+    },
+    "sr00240192": {
+      "ready": true,
+      "reasons": [],
+      "commands": 42,
+      "missingTextIds": []
+    },
+    "sr00350280": {
+      "ready": true,
+      "reasons": [],
+      "commands": 49,
+      "missingTextIds": []
+    },
+    "sr00560435": {
+      "ready": true,
+      "reasons": [],
+      "commands": 36,
+      "missingTextIds": []
+    },
+    "sr00370299": {
+      "ready": true,
+      "reasons": [],
+      "commands": 48,
+      "missingTextIds": []
+    },
+    "sr00030126": {
+      "ready": true,
+      "reasons": [],
+      "commands": 56,
+      "missingTextIds": []
+    },
+    "sr00270219": {
+      "ready": true,
+      "reasons": [],
+      "commands": 57,
+      "missingTextIds": []
+    },
+    "sr00040015": {
+      "ready": true,
+      "reasons": [],
+      "commands": 39,
+      "missingTextIds": []
+    },
+    "sr00330268": {
+      "ready": true,
+      "reasons": [],
+      "commands": 49,
+      "missingTextIds": []
+    },
+    "sr00450367": {
+      "ready": true,
+      "reasons": [],
+      "commands": 28,
+      "missingTextIds": []
+    },
+    "sr00120065": {
+      "ready": true,
+      "reasons": [],
+      "commands": 53,
+      "missingTextIds": []
+    },
+    "sr00540424": {
+      "ready": true,
+      "reasons": [],
+      "commands": 105,
+      "missingTextIds": []
+    },
+    "sr00530417": {
+      "ready": true,
+      "reasons": [],
+      "commands": 39,
+      "missingTextIds": []
+    },
+    "sr00370295": {
+      "ready": true,
+      "reasons": [],
+      "commands": 54,
+      "missingTextIds": []
+    },
+    "sr00270215": {
+      "ready": true,
+      "reasons": [],
+      "commands": 22,
+      "missingTextIds": []
+    },
+    "sr00760004": {
+      "ready": true,
+      "reasons": [],
+      "commands": 32,
+      "missingTextIds": []
+    },
+    "sr00470381": {
+      "ready": true,
+      "reasons": [],
+      "commands": 48,
+      "missingTextIds": []
+    },
+    "sr00330264": {
+      "ready": true,
+      "reasons": [],
+      "commands": 28,
+      "missingTextIds": []
+    },
+    "sr00020006": {
+      "ready": true,
+      "reasons": [],
+      "commands": 60,
+      "missingTextIds": []
+    },
+    "sr00260211": {
+      "ready": true,
+      "reasons": [],
+      "commands": 13,
+      "missingTextIds": []
+    },
+    "sr00230176": {
+      "ready": true,
+      "reasons": [],
+      "commands": 33,
+      "missingTextIds": []
+    },
+    "sr00490396": {
+      "ready": true,
+      "reasons": [],
+      "commands": 54,
+      "missingTextIds": []
+    },
+    "sr00050019": {
+      "ready": true,
+      "reasons": [],
+      "commands": 26,
+      "missingTextIds": []
+    },
+    "sr00340273": {
+      "ready": true,
+      "reasons": [],
+      "commands": 38,
+      "missingTextIds": []
+    },
+    "sr00810001": {
+      "ready": false,
+      "reasons": [
+        "Native actor contract unavailable: 'scenarios/gates/gate081/<_card_illust_>/ef_ball_blue'",
+        "Native actor contract unavailable: 'scenarios/gates/gate081/<_card_illust_>/pre_sr00810001_00'",
+        "Native actor contract unavailable: 'scenarios/gates/gate081/<_card_illust_>/spine/sp810001_01_eri/sp810001_01_eri'",
+        "Native actor contract unavailable: 'scenarios/gates/gate081/<_card_illust_>/spine/sp810001_01_ire/sp810001_01_ire'",
+        "Native actor contract unavailable: 'scenarios/gates/gate081/<_card_illust_>/spine/sp810001_01_sof/sp810001_01_sof'",
+        "Native actor contract unavailable: 'scenarios/gates/gate081/<_card_illust_>/spine/sp810001_01_stu/sp810001_01_stu'",
+        "Native prefab arguments require additional support.",
+        "Native resource not installed: Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Bg_Sr00810001_00",
+        "Native resource not installed: Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Bg_Sr00810001_01",
+        "Native resource not installed: Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Bg_Sr00810001_titile",
+        "Native resource not installed: Scenarios/Gates/Gate081/<_CARD_ILLUST_>/EF_Ball_blue",
+        "Native resource not installed: Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Pre_Sr00810001_00",
+        "Native resource not installed: Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Spine/Sp810001_01_eri/Sp810001_01_eri",
+        "Native resource not installed: Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Spine/Sp810001_01_ire/Sp810001_01_ire",
+        "Native resource not installed: Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Spine/Sp810001_01_sof/Sp810001_01_sof",
+        "Native resource not installed: Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Spine/Sp810001_01_stu/Sp810001_01_stu",
+        "Unsupported native command: PrefabActorCtrlSet",
+        "Unsupported native command: Talk",
+        "Unsupported native command: TextClose",
+        "Missing native English text: IDS_SCENARIOGATE0081_C0001_TXT_003",
+        "Missing native English text: IDS_SCENARIOGATE0081_C0001_TXT_010"
+      ],
+      "commands": 88,
+      "missingTextIds": [
+        "IDS_SCENARIOGATE0081_C0001_TXT_003",
+        "IDS_SCENARIOGATE0081_C0001_TXT_010"
+      ]
+    },
+    "sr00280226": {
+      "ready": true,
+      "reasons": [],
+      "commands": 42,
+      "missingTextIds": []
+    },
+    "sr00550428": {
+      "ready": true,
+      "reasons": [],
+      "commands": 30,
+      "missingTextIds": []
+    },
+    "sr00020026": {
+      "ready": true,
+      "reasons": [],
+      "commands": 35,
+      "missingTextIds": []
+    },
+    "sr00810005": {
+      "ready": false,
+      "reasons": [
+        "Native actor contract unavailable: 'scenarios/gates/gate081/<_card_illust_>/ef_ball_white'",
+        "Native prefab arguments require additional support.",
+        "Native resource not installed: Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Bg_Sr00810005_00",
+        "Native resource not installed: Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Bg_Sr00810005_01",
+        "Native resource not installed: Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Bg_Sr00810005_02",
+        "Native resource not installed: Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Bg_Sr00810005_03",
+        "Native resource not installed: Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Bg_Sr00810005_04",
+        "Native resource not installed: Scenarios/Gates/Gate081/<_CARD_ILLUST_>/EF_Ball_white",
+        "Unsupported native command: Talk",
+        "Unsupported native command: TextClose"
+      ],
+      "commands": 99,
+      "missingTextIds": []
+    },
+    "sr00190109": {
+      "ready": true,
+      "reasons": [],
+      "commands": 20,
+      "missingTextIds": []
+    },
+    "sr00430344": {
+      "ready": true,
+      "reasons": [],
+      "commands": 51,
+      "missingTextIds": []
+    },
+    "sr00150085": {
+      "ready": true,
+      "reasons": [],
+      "commands": 49,
+      "missingTextIds": []
+    },
+    "sr00430340": {
+      "ready": true,
+      "reasons": [],
+      "commands": 37,
+      "missingTextIds": []
+    },
+    "sr00130071": {
+      "ready": true,
+      "reasons": [],
+      "commands": 70,
+      "missingTextIds": []
+    },
+    "sr00380304": {
+      "ready": true,
+      "reasons": [],
+      "commands": 31,
+      "missingTextIds": []
+    },
+    "sr00780007": {
+      "ready": true,
+      "reasons": [],
+      "commands": 87,
+      "missingTextIds": []
+    },
+    "sr00230185": {
+      "ready": true,
+      "reasons": [],
+      "commands": 41,
+      "missingTextIds": []
+    },
+    "sr00520407": {
+      "ready": true,
+      "reasons": [],
+      "commands": 69,
+      "missingTextIds": []
+    },
+    "sr00260208": {
+      "ready": true,
+      "reasons": [],
+      "commands": 23,
+      "missingTextIds": []
+    },
+    "sr00500403": {
+      "ready": true,
+      "reasons": [],
+      "commands": 46,
+      "missingTextIds": []
+    },
+    "sr00710002": {
+      "ready": true,
+      "reasons": [],
+      "commands": 67,
+      "missingTextIds": []
+    },
+    "sr00080043": {
+      "ready": true,
+      "reasons": [],
+      "commands": 31,
+      "missingTextIds": []
+    },
+    "sr00430341": {
+      "ready": true,
+      "reasons": [],
+      "commands": 43,
+      "missingTextIds": []
+    },
+    "sr00060025": {
+      "ready": true,
+      "reasons": [],
+      "commands": 30,
+      "missingTextIds": []
+    },
+    "sr00710006": {
+      "ready": true,
+      "reasons": [],
+      "commands": 67,
+      "missingTextIds": []
+    },
+    "sr00100055": {
+      "ready": true,
+      "reasons": [],
+      "commands": 32,
+      "missingTextIds": []
+    },
+    "sr00780006": {
+      "ready": true,
+      "reasons": [],
+      "commands": 117,
+      "missingTextIds": []
+    },
+    "sr00230184": {
+      "ready": true,
+      "reasons": [],
+      "commands": 68,
+      "missingTextIds": []
+    },
+    "sr00550431": {
+      "ready": true,
+      "reasons": [],
+      "commands": 89,
+      "missingTextIds": []
+    },
+    "sr00230180": {
+      "ready": true,
+      "reasons": [],
+      "commands": 64,
+      "missingTextIds": []
+    },
+    "sr00780002": {
+      "ready": true,
+      "reasons": [],
+      "commands": 80,
+      "missingTextIds": []
+    },
+    "sr00770005": {
+      "ready": true,
+      "reasons": [],
+      "commands": 45,
+      "missingTextIds": []
+    },
+    "sr00490393": {
+      "ready": true,
+      "reasons": [],
+      "commands": 37,
+      "missingTextIds": []
+    },
+    "sr00360290": {
+      "ready": true,
+      "reasons": [],
+      "commands": 32,
+      "missingTextIds": []
+    },
+    "sr00230177": {
+      "ready": true,
+      "reasons": [],
+      "commands": 41,
+      "missingTextIds": []
+    },
+    "sr00170095": {
+      "ready": true,
+      "reasons": [],
+      "commands": 35,
+      "missingTextIds": []
+    },
+    "sr00770001": {
+      "ready": true,
+      "reasons": [],
+      "commands": 31,
+      "missingTextIds": []
+    },
+    "sr00110061": {
+      "ready": true,
+      "reasons": [],
+      "commands": 35,
+      "missingTextIds": []
+    },
+    "sr00340276": {
+      "ready": true,
+      "reasons": [],
+      "commands": 38,
+      "missingTextIds": []
+    },
+    "sr00280223": {
+      "ready": true,
+      "reasons": [],
+      "commands": 21,
+      "missingTextIds": []
+    },
+    "sr00340272": {
+      "ready": true,
+      "reasons": [],
+      "commands": 48,
+      "missingTextIds": []
+    },
+    "sr00170099": {
+      "ready": true,
+      "reasons": [],
+      "commands": 21,
+      "missingTextIds": []
+    },
+    "sr00140077": {
+      "ready": true,
+      "reasons": [],
+      "commands": 33,
+      "missingTextIds": []
+    },
+    "sr00410329": {
+      "ready": true,
+      "reasons": [],
+      "commands": 33,
+      "missingTextIds": []
+    },
+    "sr00030123": {
+      "ready": true,
+      "reasons": [],
+      "commands": 62,
+      "missingTextIds": []
+    },
+    "sr00070035": {
+      "ready": true,
+      "reasons": [],
+      "commands": 21,
+      "missingTextIds": []
+    },
+    "sr00390311": {
+      "ready": true,
+      "reasons": [],
+      "commands": 63,
+      "missingTextIds": []
+    },
+    "sr00540421": {
+      "ready": true,
+      "reasons": [],
+      "commands": 131,
+      "missingTextIds": []
+    },
+    "sr00760001": {
+      "ready": true,
+      "reasons": [],
+      "commands": 39,
+      "missingTextIds": []
+    },
+    "sr00330265": {
+      "ready": true,
+      "reasons": [],
+      "commands": 40,
+      "missingTextIds": []
+    },
+    "sr00160091": {
+      "ready": true,
+      "reasons": [],
+      "commands": 63,
+      "missingTextIds": []
+    },
+    "sr00040018": {
+      "ready": true,
+      "reasons": [],
+      "commands": 49,
+      "missingTextIds": []
+    },
+    "sr00370294": {
+      "ready": true,
+      "reasons": [],
+      "commands": 57,
+      "missingTextIds": []
+    },
+    "sr00390315": {
+      "ready": true,
+      "reasons": [],
+      "commands": 50,
+      "missingTextIds": []
+    },
+    "sr00440352": {
+      "ready": true,
+      "reasons": [],
+      "commands": 73,
+      "missingTextIds": []
+    },
+    "sr00320259": {
+      "ready": true,
+      "reasons": [],
+      "commands": 31,
+      "missingTextIds": []
+    },
+    "sr00580003": {
+      "ready": true,
+      "reasons": [],
+      "commands": 42,
+      "missingTextIds": []
+    },
+    "sr00400319": {
+      "ready": true,
+      "reasons": [],
+      "commands": 68,
+      "missingTextIds": []
+    },
+    "sr00090047": {
+      "ready": true,
+      "reasons": [],
+      "commands": 30,
+      "missingTextIds": []
+    },
+    "sr00570441": {
+      "ready": true,
+      "reasons": [],
+      "commands": 47,
+      "missingTextIds": []
+    },
+    "sr00160089": {
+      "ready": true,
+      "reasons": [],
+      "commands": 27,
+      "missingTextIds": []
+    },
+    "sr00110059": {
+      "ready": true,
+      "reasons": [],
+      "commands": 40,
+      "missingTextIds": []
+    },
+    "sr00700506": {
+      "ready": true,
+      "reasons": [],
+      "commands": 67,
+      "missingTextIds": []
+    },
+    "sr00320255": {
+      "ready": true,
+      "reasons": [],
+      "commands": 53,
+      "missingTextIds": []
+    },
+    "sr00570445": {
+      "ready": true,
+      "reasons": [],
+      "commands": 48,
+      "missingTextIds": []
+    },
+    "sr00370296": {
+      "ready": true,
+      "reasons": [],
+      "commands": 28,
+      "missingTextIds": []
+    },
+    "sr00530414": {
+      "ready": true,
+      "reasons": [],
+      "commands": 56,
+      "missingTextIds": []
+    },
+    "sr00330263": {
+      "ready": true,
+      "reasons": [],
+      "commands": 30,
+      "missingTextIds": []
+    },
+    "sr00470382": {
+      "ready": true,
+      "reasons": [],
+      "commands": 49,
+      "missingTextIds": []
+    },
+    "sr00270216": {
+      "ready": true,
+      "reasons": [],
+      "commands": 36,
+      "missingTextIds": []
+    },
+    "sr00760007": {
+      "ready": true,
+      "reasons": [],
+      "commands": 40,
+      "missingTextIds": []
+    },
+    "sr00140079": {
+      "ready": true,
+      "reasons": [],
+      "commands": 29,
+      "missingTextIds": []
+    },
+    "sr00070037": {
+      "ready": true,
+      "reasons": [],
+      "commands": 30,
+      "missingTextIds": []
+    },
+    "sr00440348": {
+      "ready": true,
+      "reasons": [],
+      "commands": 55,
+      "missingTextIds": []
+    },
+    "sr00450364": {
+      "ready": true,
+      "reasons": [],
+      "commands": 35,
+      "missingTextIds": []
+    },
+    "sr00350283": {
+      "ready": true,
+      "reasons": [],
+      "commands": 28,
+      "missingTextIds": []
+    },
+    "sr00240195": {
+      "ready": true,
+      "reasons": [],
+      "commands": 41,
+      "missingTextIds": []
+    },
+    "sr00580001": {
+      "ready": true,
+      "reasons": [],
+      "commands": 28,
+      "missingTextIds": []
+    },
+    "sr00440354": {
+      "ready": true,
+      "reasons": [],
+      "commands": 74,
+      "missingTextIds": []
+    },
+    "sr00440350": {
+      "ready": true,
+      "reasons": [],
+      "commands": 62,
+      "missingTextIds": []
+    },
+    "sr00090049": {
+      "ready": true,
+      "reasons": [],
+      "commands": 26,
+      "missingTextIds": []
+    },
+    "sr00100053": {
+      "ready": true,
+      "reasons": [],
+      "commands": 47,
+      "missingTextIds": []
+    },
+    "sr00460371": {
+      "ready": true,
+      "reasons": [],
+      "commands": 68,
+      "missingTextIds": []
+    },
+    "sr00250199": {
+      "ready": true,
+      "reasons": [],
+      "commands": 61,
+      "missingTextIds": []
+    },
+    "sr00590001": {
+      "ready": true,
+      "reasons": [],
+      "commands": 61,
+      "missingTextIds": []
+    },
+    "sr00380307": {
+      "ready": true,
+      "reasons": [],
+      "commands": 38,
+      "missingTextIds": []
+    },
+    "sr00230186": {
+      "ready": true,
+      "reasons": [],
+      "commands": 36,
+      "missingTextIds": []
+    },
+    "sr00030011": {
+      "ready": true,
+      "reasons": [],
+      "commands": 40,
+      "missingTextIds": []
+    },
+    "sr00260206": {
+      "ready": true,
+      "reasons": [],
+      "commands": 26,
+      "missingTextIds": []
+    },
+    "sr00060023": {
+      "ready": true,
+      "reasons": [],
+      "commands": 25,
+      "missingTextIds": []
+    },
+    "sr00080041": {
+      "ready": true,
+      "reasons": [],
+      "commands": 34,
+      "missingTextIds": []
+    },
+    "sr00420336": {
+      "ready": true,
+      "reasons": [],
+      "commands": 23,
+      "missingTextIds": []
+    },
+    "sr00810002": {
+      "ready": false,
+      "reasons": [
+        "Native actor contract unavailable: 'scenarios/gates/gate081/<_card_illust_>/ef_ball_blue'",
+        "Native prefab arguments require additional support.",
+        "Native resource not installed: Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Bg_Sr00810001_01",
+        "Native resource not installed: Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Bg_Sr00810002_00_a",
+        "Native resource not installed: Scenarios/Gates/Gate081/<_CARD_ILLUST_>/Bg_Sr00810002_04",
+        "Native resource not installed: Scenarios/Gates/Gate081/<_CARD_ILLUST_>/EF_Ball_blue",
+        "Unsupported native command: Talk",
+        "Unsupported native command: TextClose"
+      ],
+      "commands": 81,
+      "missingTextIds": []
+    },
+    "sr00030009": {
+      "ready": true,
+      "reasons": [],
+      "commands": 36,
+      "missingTextIds": []
+    },
+    "sr00230179": {
+      "ready": true,
+      "reasons": [],
+      "commands": 61,
+      "missingTextIds": []
+    },
+    "sr00710010": {
+      "ready": true,
+      "reasons": [],
+      "commands": 1,
+      "movieChapters": [
+        710010
+      ],
+      "missingTextIds": []
+    },
+    "sr00170097": {
+      "ready": true,
+      "reasons": [],
+      "commands": 38,
+      "missingTextIds": []
+    },
+    "sr00770003": {
+      "ready": true,
+      "reasons": [],
+      "commands": 37,
+      "missingTextIds": []
+    },
+    "sr00230175": {
+      "ready": true,
+      "reasons": [],
+      "commands": 38,
+      "missingTextIds": []
+    },
+    "sr00520410": {
+      "ready": true,
+      "reasons": [],
+      "commands": 86,
+      "missingTextIds": []
+    },
+    "sr00770007": {
+      "ready": true,
+      "reasons": [],
+      "commands": 21,
+      "missingTextIds": []
+    },
+    "sr00230178": {
+      "ready": true,
+      "reasons": [],
+      "commands": 43,
+      "missingTextIds": []
+    },
+    "sr00020120": {
+      "ready": true,
+      "reasons": [],
+      "commands": 58,
+      "missingTextIds": []
+    },
+    "sr00400322": {
+      "ready": true,
+      "reasons": [],
+      "commands": 41,
+      "missingTextIds": []
+    },
+    "sr00490394": {
+      "ready": true,
+      "reasons": [],
+      "commands": 58,
+      "missingTextIds": []
+    },
+    "sr00370301": {
+      "ready": true,
+      "reasons": [],
+      "commands": 45,
+      "missingTextIds": []
+    },
+    "sr00260207": {
+      "ready": true,
+      "reasons": [],
+      "commands": 20,
+      "missingTextIds": []
+    },
+    "sr00460374": {
+      "ready": true,
+      "reasons": [],
+      "commands": 93,
+      "missingTextIds": []
+    },
+    "sr00780005": {
+      "ready": true,
+      "reasons": [],
+      "commands": 1,
+      "movieChapters": [
+        780005
+      ],
+      "missingTextIds": []
+    },
+    "sr00360287": {
+      "ready": true,
+      "reasons": [],
+      "commands": 28,
+      "missingTextIds": []
+    },
+    "sr00130073": {
+      "ready": true,
+      "reasons": [],
+      "commands": 40,
+      "missingTextIds": []
+    },
+    "sr00590004": {
+      "ready": true,
+      "reasons": [],
+      "commands": 42,
+      "missingTextIds": []
+    },
+    "sr00780001": {
+      "ready": true,
+      "reasons": [],
+      "commands": 1,
+      "movieChapters": [
+        780001
+      ],
+      "missingTextIds": []
+    },
+    "sr00710009": {
+      "ready": true,
+      "reasons": [],
+      "commands": 160,
+      "missingTextIds": []
+    },
+    "sr00190107": {
+      "ready": true,
+      "reasons": [],
+      "commands": 26,
+      "missingTextIds": []
+    },
+    "sr00500400": {
+      "ready": true,
+      "reasons": [],
+      "commands": 85,
+      "missingTextIds": []
+    },
+    "sr00710001": {
+      "ready": true,
+      "reasons": [],
+      "commands": 1,
+      "movieChapters": [
+        710001
+      ],
+      "missingTextIds": []
+    },
+    "sr00780009": {
+      "ready": true,
+      "reasons": [],
+      "commands": 1,
+      "movieChapters": [
+        780009
+      ],
+      "missingTextIds": []
+    },
+    "sr00150083": {
+      "ready": true,
+      "reasons": [],
+      "commands": 59,
+      "missingTextIds": []
+    },
+    "sr00420333": {
+      "ready": true,
+      "reasons": [],
+      "commands": 30,
+      "missingTextIds": []
+    },
+    "sr00710005": {
+      "ready": true,
+      "reasons": [],
+      "commands": 1,
+      "movieChapters": [
+        710005
+      ],
+      "missingTextIds": []
+    },
+    "sr00580008": {
+      "ready": true,
+      "reasons": [],
+      "commands": 42,
+      "missingTextIds": []
+    },
+    "sr00560437": {
+      "ready": true,
+      "reasons": [],
+      "commands": 44,
+      "missingTextIds": []
+    },
+    "sr00320256": {
+      "ready": true,
+      "reasons": [],
+      "commands": 49,
+      "missingTextIds": []
+    },
+    "sr00470378": {
+      "ready": true,
+      "reasons": [],
+      "commands": 22,
+      "missingTextIds": []
+    },
+    "sr00250202": {
+      "ready": true,
+      "reasons": [],
+      "commands": 38,
+      "missingTextIds": []
+    },
+    "sr00580004": {
+      "ready": true,
+      "reasons": [],
+      "commands": 41,
+      "missingTextIds": []
+    },
+    "sr00440351": {
+      "ready": true,
+      "reasons": [],
+      "commands": 46,
+      "missingTextIds": []
+    },
+    "sr00700509": {
+      "ready": true,
+      "reasons": [],
+      "commands": 74,
+      "missingTextIds": []
+    },
+    "sr00440355": {
+      "ready": true,
+      "reasons": [],
+      "commands": 35,
+      "missingTextIds": []
+    },
+    "sr00410326": {
+      "ready": true,
+      "reasons": [],
+      "commands": 19,
+      "missingTextIds": []
+    },
+    "sr00390312": {
+      "ready": true,
+      "reasons": [],
+      "commands": 24,
+      "missingTextIds": []
+    },
+    "sr00020004": {
+      "ready": true,
+      "reasons": [],
+      "commands": 43,
+      "missingTextIds": []
+    },
+    "sr00120067": {
+      "ready": true,
+      "reasons": [],
+      "commands": 51,
+      "missingTextIds": []
+    },
+    "sr00020008": {
+      "ready": true,
+      "reasons": [],
+      "commands": 45,
+      "missingTextIds": []
+    },
+    "sr00030124": {
+      "ready": true,
+      "reasons": [],
+      "commands": 44,
+      "missingTextIds": []
+    },
+    "sr00440349": {
+      "ready": true,
+      "reasons": [],
+      "commands": 54,
+      "missingTextIds": []
+    }
+  },
+  "tutorials": {
+    "10001": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        9,
+        17
+      ],
+      "rows": 8,
+      "sourceKind": "2.8.0-base-player-asset",
+      "sourceAsset": "Resources/duel/scriptableobject/tutorial/DuelTutorialData10001.asset",
+      "sourceSha256": "da33794d38c36dc3e740755cee2a8ecd3436bb9cbfd3438341cb34f7806bdf3b",
+      "missingTextIds": []
+    },
+    "10002": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15
+      ],
+      "rows": 10,
+      "sourceKind": "2.8.0-base-player-asset",
+      "sourceAsset": "Resources/duel/scriptableobject/tutorial/DuelTutorialData10002.asset",
+      "sourceSha256": "f060f511b5e6b9dad73153d630a6c797508966fa8a1aebb49648415905a0ac62",
+      "missingTextIds": []
+    },
+    "10003": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2
+      ],
+      "rows": 1,
+      "sourceKind": "2.8.0-base-player-asset",
+      "sourceAsset": "Resources/duel/scriptableobject/tutorial/DuelTutorialData10003.asset",
+      "sourceSha256": "5be13069c321d99559dbe816d917f07a3b53cee37bd7a55cacd29ddfa1955596",
+      "missingTextIds": []
+    },
+    "140168": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        9,
+        16,
+        17,
+        18
+      ],
+      "rows": 6,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0014"
+      ],
+      "missingTextIds": []
+    },
+    "670500": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9,
+        13,
+        14,
+        16,
+        17,
+        20
+      ],
+      "rows": 15,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "decision-highlight",
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0067"
+      ],
+      "missingTextIds": []
+    },
+    "570442": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        13,
+        14,
+        16,
+        22,
+        23
+      ],
+      "rows": 15,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0057"
+      ],
+      "missingTextIds": []
+    },
+    "480388": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9,
+        14,
+        20,
+        22
+      ],
+      "rows": 6,
+      "missingTextIds": []
+    },
+    "450365": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9,
+        14,
+        16
+      ],
+      "rows": 9,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0045"
+      ],
+      "missingTextIds": []
+    },
+    "760002": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        13,
+        14,
+        16,
+        22,
+        24
+      ],
+      "rows": 33,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0076_0"
+      ],
+      "missingTextIds": []
+    },
+    "330266": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9,
+        14,
+        16
+      ],
+      "rows": 11,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "card-arrow",
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0033"
+      ],
+      "missingTextIds": []
+    },
+    "540422": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9,
+        14,
+        16,
+        17,
+        22,
+        23
+      ],
+      "rows": 18,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0054"
+      ],
+      "missingTextIds": []
+    },
+    "300243": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        0,
+        1,
+        2,
+        4,
+        14
+      ],
+      "rows": 3,
+      "missingTextIds": []
+    },
+    "530415": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        9,
+        13,
+        14,
+        16,
+        17,
+        22,
+        23
+      ],
+      "rows": 16,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0053"
+      ],
+      "missingTextIds": []
+    },
+    "270217": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        9,
+        14,
+        22
+      ],
+      "rows": 7,
+      "missingTextIds": []
+    },
+    "130167": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9,
+        16,
+        17,
+        22
+      ],
+      "rows": 8,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0013"
+      ],
+      "missingTextIds": []
+    },
+    "90163": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        9,
+        13,
+        17,
+        22
+      ],
+      "rows": 8,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0009"
+      ],
+      "missingTextIds": []
+    },
+    "170171": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9,
+        16,
+        17
+      ],
+      "rows": 6,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0017_0"
+      ],
+      "missingTextIds": []
+    },
+    "490394": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        9,
+        14,
+        16
+      ],
+      "rows": 10,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0049"
+      ],
+      "missingTextIds": []
+    },
+    "810003": {
+      "ready": false,
+      "reasons": [
+        "Original native tutorial initial state is not projected.",
+        "Original tutorial guide payload is not runtime-pinned.",
+        "Unsupported native tutorial view."
+      ],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        10,
+        13,
+        14,
+        16,
+        22,
+        23,
+        24,
+        26
+      ],
+      "rows": 44,
+      "hostSupported": false,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0074"
+      ],
+      "missingTextIds": []
+    },
+    "50159": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        22,
+        23
+      ],
+      "rows": 6,
+      "missingTextIds": []
+    },
+    "280224": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        9,
+        14,
+        16
+      ],
+      "rows": 9,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0028"
+      ],
+      "missingTextIds": []
+    },
+    "430342": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        9,
+        14,
+        23
+      ],
+      "rows": 8,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0043"
+      ],
+      "missingTextIds": []
+    },
+    "220144": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2
+      ],
+      "rows": 1,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core",
+        "selected-deck-tutorial"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "ownDeckStartAccepted": true,
+      "helpLabels": [
+        "solo/strategy/advance"
+      ],
+      "missingTextIds": []
+    },
+    "30156": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        9,
+        16,
+        17
+      ],
+      "rows": 7,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0003_0"
+      ],
+      "missingTextIds": []
+    },
+    "220140": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        16,
+        17
+      ],
+      "rows": 6,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "multipage-help",
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "rule/summon/synchro"
+      ],
+      "missingTextIds": []
+    },
+    "220148": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2
+      ],
+      "rows": 1,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core",
+        "selected-deck-tutorial"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "ownDeckStartAccepted": true,
+      "helpLabels": [
+        "solo/strategy/toyourhand"
+      ],
+      "missingTextIds": []
+    },
+    "60160": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        10,
+        17,
+        22
+      ],
+      "rows": 9,
+      "missingTextIds": []
+    },
+    "220141": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9,
+        13,
+        16
+      ],
+      "rows": 6,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "multipage-help",
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "rule/summon/xyz"
+      ],
+      "missingTextIds": []
+    },
+    "500401": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        9,
+        14,
+        16,
+        22,
+        23
+      ],
+      "rows": 10,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0050"
+      ],
+      "missingTextIds": []
+    },
+    "220145": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2
+      ],
+      "rows": 1,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "multipage-help",
+        "native-guide-core",
+        "protector-help",
+        "selected-deck-tutorial"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "ownDeckStartAccepted": true,
+      "helpLabels": [
+        "solo/strategy/position"
+      ],
+      "missingTextIds": []
+    },
+    "520408": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        12,
+        13,
+        14,
+        22,
+        23
+      ],
+      "rows": 10,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0052"
+      ],
+      "missingTextIds": []
+    },
+    "180173": {
+      "ready": false,
+      "reasons": [
+        "Original native tutorial help is not installed: solo/theme/gate0018",
+        "Original native tutorial initial state is not projected.",
+        "Original tutorial guide payload is not runtime-pinned."
+      ],
+      "views": [
+        1,
+        2,
+        4,
+        8,
+        9
+      ],
+      "rows": 3,
+      "hostSupported": false,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0018"
+      ],
+      "missingTextIds": []
+    },
+    "730001": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        13,
+        14,
+        17,
+        22,
+        23
+      ],
+      "rows": 20,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0073"
+      ],
+      "missingTextIds": []
+    },
+    "150169": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        16,
+        17,
+        18
+      ],
+      "rows": 7,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0015"
+      ],
+      "missingTextIds": []
+    },
+    "230182": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9,
+        14,
+        16
+      ],
+      "rows": 11,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0023_0"
+      ],
+      "missingTextIds": []
+    },
+    "220149": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2
+      ],
+      "rows": 1,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core",
+        "selected-deck-tutorial"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "ownDeckStartAccepted": true,
+      "helpLabels": [
+        "solo/strategy/chain"
+      ],
+      "missingTextIds": []
+    },
+    "340274": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9,
+        14,
+        16
+      ],
+      "rows": 9,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core",
+        "protector-help"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0034"
+      ],
+      "missingTextIds": []
+    },
+    "40158": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        16,
+        17
+      ],
+      "rows": 7,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0004"
+      ],
+      "missingTextIds": []
+    },
+    "80162": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        3,
+        9,
+        17
+      ],
+      "rows": 3,
+      "missingTextIds": []
+    },
+    "680502": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9,
+        13,
+        14,
+        16,
+        17,
+        22,
+        23
+      ],
+      "rows": 16,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0068"
+      ],
+      "missingTextIds": []
+    },
+    "370296": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8,
+        12,
+        14
+      ],
+      "rows": 8,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0037"
+      ],
+      "missingTextIds": []
+    },
+    "120166": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        9,
+        17,
+        22,
+        23
+      ],
+      "rows": 8,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0012"
+      ],
+      "missingTextIds": []
+    },
+    "300242": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        0,
+        1,
+        2,
+        4,
+        11,
+        13,
+        14
+      ],
+      "rows": 5,
+      "missingTextIds": []
+    },
+    "410327": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9,
+        13,
+        14,
+        23
+      ],
+      "rows": 12,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core",
+        "protector-help"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0041"
+      ],
+      "missingTextIds": []
+    },
+    "300246": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8,
+        10
+      ],
+      "rows": 5,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/strategy/damagestep"
+      ],
+      "missingTextIds": []
+    },
+    "390313": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        13,
+        14,
+        16,
+        23
+      ],
+      "rows": 10,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0039"
+      ],
+      "missingTextIds": []
+    },
+    "160170": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        16,
+        17,
+        22
+      ],
+      "rows": 8,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0016"
+      ],
+      "missingTextIds": []
+    },
+    "70161": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        13,
+        17,
+        21,
+        23
+      ],
+      "rows": 12,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0007"
+      ],
+      "missingTextIds": []
+    },
+    "320257": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9,
+        14,
+        22,
+        23
+      ],
+      "rows": 14,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "card-arrow",
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0032"
+      ],
+      "missingTextIds": []
+    },
+    "470379": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9,
+        14
+      ],
+      "rows": 10,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core",
+        "protector-help"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0047"
+      ],
+      "missingTextIds": []
+    },
+    "480389": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        14
+      ],
+      "rows": 9,
+      "missingTextIds": []
+    },
+    "300244": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8,
+        9,
+        12
+      ],
+      "rows": 6,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/strategy/rewindatk"
+      ],
+      "missingTextIds": []
+    },
+    "760005": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        13,
+        14,
+        22,
+        23,
+        24
+      ],
+      "rows": 24,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0076_1"
+      ],
+      "missingTextIds": []
+    },
+    "300248": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "rows": 2,
+      "missingTextIds": []
+    },
+    "800004": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        0,
+        1,
+        4,
+        5,
+        7,
+        11,
+        13,
+        14,
+        16,
+        20,
+        22,
+        23,
+        24,
+        25
+      ],
+      "rows": 40,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [],
+      "missingTextIds": []
+    },
+    "20151": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        9,
+        16,
+        21,
+        23
+      ],
+      "rows": 6,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0002_0"
+      ],
+      "missingTextIds": []
+    },
+    "240193": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9,
+        13,
+        14,
+        17
+      ],
+      "rows": 10,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0024"
+      ],
+      "missingTextIds": []
+    },
+    "350281": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        9,
+        14,
+        22,
+        23
+      ],
+      "rows": 9,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0035"
+      ],
+      "missingTextIds": []
+    },
+    "20155": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        16,
+        17
+      ],
+      "rows": 7,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0002_1"
+      ],
+      "missingTextIds": []
+    },
+    "300254": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16,
+        17
+      ],
+      "rows": 6,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/strategy/aboutlink"
+      ],
+      "missingTextIds": []
+    },
+    "480387": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13
+      ],
+      "rows": 7,
+      "missingTextIds": []
+    },
+    "300250": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        0,
+        1,
+        2,
+        4,
+        14,
+        16,
+        18
+      ],
+      "rows": 6,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/strategy/pendulumex"
+      ],
+      "missingTextIds": []
+    },
+    "380305": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        10,
+        14,
+        22,
+        23
+      ],
+      "rows": 17,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0038"
+      ],
+      "missingTextIds": []
+    },
+    "220147": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2
+      ],
+      "rows": 1,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core",
+        "selected-deck-tutorial"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "ownDeckStartAccepted": true,
+      "helpLabels": [
+        "solo/strategy/monstereffect"
+      ],
+      "missingTextIds": []
+    },
+    "360288": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        9,
+        14,
+        16,
+        22,
+        23
+      ],
+      "rows": 14,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0036"
+      ],
+      "missingTextIds": []
+    },
+    "230188": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        9,
+        14,
+        16,
+        17
+      ],
+      "rows": 12,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core",
+        "protector-help"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0023_1"
+      ],
+      "missingTextIds": []
+    },
+    "420334": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        13,
+        14,
+        16,
+        22,
+        23
+      ],
+      "rows": 17,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core",
+        "pulldown-restrictions"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0042"
+      ],
+      "missingTextIds": []
+    },
+    "220143": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9,
+        16
+      ],
+      "rows": 8,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "multipage-help",
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "rule/summon/link"
+      ],
+      "missingTextIds": []
+    },
+    "550429": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        10,
+        13,
+        14,
+        16,
+        19,
+        22,
+        23
+      ],
+      "rows": 57,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "command-menu-begin",
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0055"
+      ],
+      "missingTextIds": []
+    },
+    "110165": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        10,
+        16,
+        17,
+        22,
+        23
+      ],
+      "rows": 8,
+      "missingTextIds": []
+    },
+    "170172": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        9,
+        13,
+        14,
+        16,
+        17,
+        23
+      ],
+      "rows": 11,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0017_1"
+      ],
+      "missingTextIds": []
+    },
+    "690504": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        12,
+        13,
+        14,
+        22,
+        23
+      ],
+      "rows": 9,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0052"
+      ],
+      "missingTextIds": []
+    },
+    "400320": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        9,
+        14,
+        16,
+        22
+      ],
+      "rows": 10,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core",
+        "protector-help"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0040"
+      ],
+      "missingTextIds": []
+    },
+    "780003": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        0,
+        1,
+        4,
+        5,
+        7,
+        9,
+        13,
+        14,
+        16,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "rows": 30,
+      "missingTextIds": []
+    },
+    "460372": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        9,
+        14,
+        16,
+        23
+      ],
+      "rows": 11,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0046"
+      ],
+      "missingTextIds": []
+    },
+    "590002": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        13,
+        14,
+        16,
+        17,
+        22,
+        23,
+        24
+      ],
+      "rows": 26,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0059"
+      ],
+      "missingTextIds": []
+    },
+    "220142": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        9,
+        16,
+        18
+      ],
+      "rows": 6,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "multipage-help",
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "rule/summon/pendulum"
+      ],
+      "missingTextIds": []
+    },
+    "260209": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        9,
+        14,
+        16
+      ],
+      "rows": 10,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0026"
+      ],
+      "missingTextIds": []
+    },
+    "710003": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        13,
+        14,
+        17,
+        22,
+        23
+      ],
+      "rows": 22,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0071"
+      ],
+      "missingTextIds": []
+    },
+    "220146": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2
+      ],
+      "rows": 1,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core",
+        "selected-deck-tutorial"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "ownDeckStartAccepted": true,
+      "helpLabels": [
+        "solo/strategy/specialsummon"
+      ],
+      "missingTextIds": []
+    },
+    "700507": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        13,
+        14,
+        22,
+        23
+      ],
+      "rows": 22,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0070"
+      ],
+      "missingTextIds": []
+    },
+    "250200": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        9,
+        10,
+        13,
+        14,
+        22
+      ],
+      "rows": 11,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0025"
+      ],
+      "missingTextIds": []
+    },
+    "190174": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        7,
+        9,
+        13,
+        14,
+        15,
+        17
+      ],
+      "rows": 5,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0019"
+      ],
+      "missingTextIds": []
+    },
+    "300251": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        16,
+        17
+      ],
+      "rows": 6,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/strategy/linkmm"
+      ],
+      "missingTextIds": []
+    },
+    "480386": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        12,
+        20
+      ],
+      "rows": 5,
+      "missingTextIds": []
+    },
+    "300241": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        16
+      ],
+      "rows": 7,
+      "missingTextIds": []
+    },
+    "300245": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        12,
+        14
+      ],
+      "rows": 7,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/strategy/atkdefcalc"
+      ],
+      "missingTextIds": []
+    },
+    "800005": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        0,
+        1,
+        4,
+        5,
+        7,
+        13,
+        14,
+        16,
+        20,
+        22,
+        23,
+        24,
+        25
+      ],
+      "rows": 56,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [],
+      "missingTextIds": []
+    },
+    "740001": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        13,
+        14,
+        16,
+        22,
+        23,
+        24
+      ],
+      "rows": 30,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0074"
+      ],
+      "missingTextIds": []
+    },
+    "300249": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        0,
+        1,
+        2,
+        4,
+        14
+      ],
+      "rows": 4,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/strategy/conditionss"
+      ],
+      "missingTextIds": []
+    },
+    "100164": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        14,
+        16,
+        17,
+        20,
+        22,
+        23
+      ],
+      "rows": 11,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core",
+        "protector-help"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0010"
+      ],
+      "missingTextIds": []
+    },
+    "800001": {
+      "ready": true,
+      "reasons": [],
+      "views": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        13,
+        14,
+        16,
+        22,
+        23,
+        24
+      ],
+      "rows": 21,
+      "hostSupported": true,
+      "requiredFamilies": [
+        "native-guide-core"
+      ],
+      "pendingFamilies": [],
+      "acceptanceScope": "Source-pinned guide using accepted reusable native behavior families.",
+      "wholeChapterWinClaimed": false,
+      "helpLabels": [
+        "solo/theme/gate0080"
+      ],
+      "missingTextIds": []
+    }
+  },
+  "duels": {
+    "480390": {
+      "ready": true,
+      "reasons": [],
+      "nativeSetupAccepted": true,
+      "nativeResultAccepted": true,
+      "ownDeckStartAccepted": true
+    },
+    "580005": {
+      "ready": true,
+      "reasons": [],
+      "nativeSetupAccepted": true,
+      "nativeResultAccepted": true
+    }
+  },
+  "sourceManifestSha256": "3e752dcd96d5b56532b1e91e7f9b28f7a7bab79bbe2bf648db563d4d658df388",
+  "note": "Ready means supported data; runtime acceptance is recorded separately. Imported is not equivalent to full native-engine parity."
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "forbidden-memories",
+  "category": "stories",
+  "locale": "en-US",
+  "contentOrigin": "MDPro4 recreation with current card rules",
+  "series": [
+    {
+      "id": "fm-opening",
+      "thumbnail": "Artwork/Modern/palace-night.png",
+      "coverCard": 46986414,
+      "missions": [
+        {
+          "id": "fm-palace",
+          "order": 1,
+          "playerDeck": "Decks/fm-prince.ydk",
+          "opponentDeck": "Decks/fm-simon.ydk",
+          "intro": "Stories/fm-palace-intro.json",
+          "outro": "Stories/fm-palace-outro.json",
+          "thumbnail": "Artwork/Modern/palace-courtyard.png",
+          "coverCard": 13039848,
+          "prerequisites": [],
+          "fieldTheme": "forbidden-memories",
+          "lifePoints": 8000,
+          "kind": "duel",
+          "ready": true
+        },
+        {
+          "id": "fm-village",
+          "order": 2,
+          "playerDeck": "Decks/fm-prince.ydk",
+          "opponentDeck": "Decks/fm-jono.ydk",
+          "intro": "Stories/fm-village-intro.json",
+          "outro": "Stories/fm-village-outro.json",
+          "thumbnail": "Artwork/Modern/festival-plaza.png",
+          "coverCard": 88819587,
+          "prerequisites": [
+            "fm-palace"
+          ],
+          "fieldTheme": "forbidden-memories",
+          "lifePoints": 8000,
+          "kind": "duel",
+          "ready": true
+        },
+        {
+          "id": "fm-priest",
+          "order": 3,
+          "playerDeck": "Decks/fm-prince.ydk",
+          "opponentDeck": "Decks/fm-seto.ydk",
+          "intro": "Stories/fm-priest-intro.json",
+          "outro": "Stories/fm-priest-outro.json",
+          "thumbnail": "Artwork/Modern/festival-plaza.png",
+          "coverCard": 5053103,
+          "prerequisites": [
+            "fm-village"
+          ],
+          "fieldTheme": "forbidden-memories",
+          "lifePoints": 8000,
+          "kind": "duel",
+          "ready": true
+        },
+        {
+          "id": "fm-teana",
+          "order": 4,
+          "playerDeck": "Decks/fm-prince.ydk",
+          "opponentDeck": "Decks/fm-teana.ydk",
+          "thumbnail": "Artwork/Modern/festival-plaza.png",
+          "coverCard": 12493482,
+          "prerequisites": [
+            "fm-village"
+          ],
+          "fieldTheme": "forbidden-memories",
+          "lifePoints": 8000,
+          "kind": "duel",
+          "ready": true,
+          "intro": "Stories/en-US/fm-teana-intro.json",
+          "outro": "Stories/en-US/fm-teana-outro.json"
+        },
+        {
+          "id": "fm-jono-rematch",
+          "order": 5,
+          "playerDeck": "Decks/fm-prince.ydk",
+          "opponentDeck": "Decks/fm-jono.ydk",
+          "thumbnail": "Artwork/Modern/festival-plaza.png",
+          "coverCard": 88819587,
+          "prerequisites": [
+            "fm-village"
+          ],
+          "fieldTheme": "forbidden-memories",
+          "lifePoints": 8000,
+          "kind": "duel",
+          "ready": true,
+          "intro": "Stories/en-US/fm-jono-rematch-intro.json",
+          "outro": "Stories/en-US/fm-jono-rematch-outro.json"
+        }
+      ]
+    }
+  ],
+  "characters": {
+    "fm-prince": {
+      "portraits": {
+        "neutral": "Artwork/Modern/Portraits/prince-neutral.png"
+      }
+    },
+    "fm-simon": {
+      "portraits": {
+        "neutral": "Artwork/Modern/Portraits/simon-neutral.png"
+      }
+    },
+    "fm-jono": {
+      "portraits": {
+        "neutral": "Artwork/Modern/Portraits/jono-neutral.png"
+      }
+    },
+    "fm-teana": {
+      "portraits": {
+        "neutral": "Artwork/Modern/Portraits/teana-neutral.png"
+      }
+    },
+    "fm-seto": {
+      "portraits": {
+        "neutral": "Artwork/Modern/Portraits/seto-neutral.png"
+      }
+    }
+  },
+  "backgrounds": {
+    "festival-plaza": "Artwork/Modern/festival-plaza.png",
+    "palace-courtyard": "Artwork/Modern/palace-courtyard.png",
+    "palace-night": "Artwork/Modern/palace-night.png"
+  }
+}

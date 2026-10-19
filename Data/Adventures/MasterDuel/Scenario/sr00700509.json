@@ -1,0 +1,779 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00700509",
+  "sourceBundle": "ed87b159",
+  "sourceSha256": "c5c93ca3a9e557bc2ca170a493da79ed6fa1f2ab631adbe9e1610026c05735c8",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate070/bg_Sr00700506_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_36",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 25,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "frmcolor": "",
+        "dstcolor": "#000000AC",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "0時の針が過ぎる頃、\n月夜に照らされた影が二つ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "多くの命が眠るこの墓場で、\n今宵も奇妙な会話が繰り広げられる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2002"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#00000000",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_BONE_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『……んん？　ええっと……。\nアタシを起こしたのはあなたですか？\nはあ……はい……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2003"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『話、ですか。\nアタシなんて一介の「ワイト」ですが……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2004"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『……じゃあ、アタシが昔、\n大きな戦いに参加した時の話でも……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2005"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『え？　別の話がいいって？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2006"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_5"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『えー、ではアタシの家族の\n話でもしましょうかね。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2007"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate070/bg_Sr00700509_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『女房は結構いいとこのお嬢様で、\nアタシみたいなもんには\nもったいないくらいの美人なんですよ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ま、お嬢様だけあって\nワガママなところもあるんですが、\nそこもカワイイっていうか……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『いやはやお恥ずかしい。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2010"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate070/bg_Sr00700509_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『実は子供もいましてね、\n上が息子で下が娘なんですけど。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『この息子がアタシと妻のどちらに似たんだか、\nなかなかのやんちゃ坊主で。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ここ最近はどこで覚えてきたんだか\n「将来、ボクは王サマになるんだ！」なんてのが口癖で。\nいやはや頼もしい限りですな。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2013"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate070/bg_Sr00700509_05",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『まあ、その息子が口にする王サマ……\n「ワイトキング」ですか。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ワイトの中のワイト、\nなんて言えば聞こえもいいですが、\nああ見えて意外と気苦労も多いですからなあ……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『あっ、いえいえ。\n聞いた話です。\nあくまでもね、これは聞いたハナシですから……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2016"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate070/bg_Sr00700509_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『で、下の娘ですよ。\nアタシが男親だからってのもあるかもしれませんが、\nこれがもう可愛くて可愛くて。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『こんな可愛くて可憐なワイトほかにいる？\nって本気で思ってますからね。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ちょっと身体が弱いのが心配っちゃあ心配なんですが、\n上のお兄ちゃんがよく面倒を見てくれてまして。\n二人ともいい子ですよ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2019"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate070/bg_Sr00700509_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 3
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『あとは犬を何匹か飼ってるんですけど、\nこれがもう、みんなウソみたいに元気で。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2020"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『もうあちこち走り回って大変なんですよ。\nどこの犬もこういうカンジなんですかね？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2021"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『……犬による？\nああ、そういうもんですか。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2022"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『散歩に連れてくと、何が楽しいんだか\nアタシの足の骨を加えてピューっと\n走って行っちゃうことがあって。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2023"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『やたらすばしっこいし、\n取り返すのに苦労するんですよこれが。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2024"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『何度かそういうことがあって、\nついにはアタシが追っかけるんじゃなくて、\n飽きて骨を口から離すのを待つようになりましたけどね……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2025"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate070/bg_Sr00700506_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_5"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_BONE_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『そういえば家族で旅行に\n行ったこともありましたねえ。\n……ええ、旅行ですけど、変ですか？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2026"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『……そんな、あなた。\nワイトだからって墓場から\n出られないってこともないでしょうに。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2027"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate070/bg_Sr00700509_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ただ、やましいことなんかなにもないのに、\n空港で色々と引っかかっちゃいまして……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2028"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『トラブル続きで“ホネが折れた”なーんてね。\nイッツワイトジョーク！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2029"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ま、それはそれとして\n旅行は普通に楽しかったですけどね。\n子供も喜んでましたよ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2030"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate070/bg_Sr00700506_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_BONE_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『さて、こんなところですかねえ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2031"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『いえいえ、\nアタシばっかり話してしまって。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2032"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_5"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『次にお会いすることがあれば、\nぜひ、あなたの話もお聞きしたいですなあ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2033"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_6"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『アタシはもうひと眠りさせてもらいますよ。\nはい、それじゃおやすみなさい。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT2034"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_7"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frm": "",
+        "dst": "#232323FF"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_36",
+        "fade": 2
+      }
+    }
+  ]
+}

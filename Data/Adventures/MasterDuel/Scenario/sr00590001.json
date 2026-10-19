@@ -1,0 +1,620 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00590001",
+  "sourceBundle": "a54f38fa",
+  "sourceSha256": "d5e65d7743bb7a9f48cf320503474c229640bd862d5c23d1b15b81295a4ec735",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "紅蓮の戦士団 フレムベル",
+        "titleId": "IDS_SCENARIOGATE0059_TITLE1001",
+        "path": "Scenarios/Gates/Gate059/Bg_Sr00590001_titile",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate059/Bg_Sr00590001_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "焼けるような熱さと、\n立ち込める蒸気に覆われた地。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT1001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "景色が揺らぐ蒸気の道の先には\n陽気な炎が浮かんでいた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT1002"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 0.6,
+        "skip": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_FC_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.8,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.3,
+        "cycle": 0.3,
+        "target": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ぅ……うぉわーーーッ！\n急に出てきて何だオマエー！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT1003"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_FC_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『こ、このあたりじゃ見ないやつだな……。\n道に迷ったのか？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT1004"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_FC_03",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『んー……そっかー……。\n多分そうなんだよな……。\nここまで来るヤツなんて滅多にいないしな。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT1005"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_5"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_FC_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『よし！　じゃあ、道案内がてら\nボクら「フレムベル」戦士団のことでも話してやろっか！\n付いてきなよ！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT1006"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate059/Bg_Sr00590001_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "zoom": 1.1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 2,
+        "skip": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ここは、\n炎を操る“紅蓮術”に長けた戦士団\n「フレムベル」の拠点。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT1007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "侵略者「ワーム」との戦いでは、\n戦闘に大きく貢献している軍団である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT1008"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_FC_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『まずはボクらのリーダー、\n戦士長「ウルキサス」！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT1009"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『っていっても、ボクらが勝手に\nリーダーって呼んでるだけなんだけど。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT1010"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 4,
+        "path": "Scenarios/Gates/Gate059/Bg_Sr00590001_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 40,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『だってさー、やっぱり炎を操るのもうまいし、\nなんといってもあの人の炎が\n一番“熱い”からさ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT1011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『自分で言うのもアレなんだけど、\nボクらはワリと個人主義、\n好き勝手やるタチではあるんだよね。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT1012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『そんなんでもまあ、\nまとめ役はいたほうがいいかなって。\nウルキサスがうまいことやってくれてるよ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT1013"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate059/Bg_Sr00590001_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『で、その副官みたいなポジションにいるのが\n「デスガンナー」と「デビル」。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT1014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『デビルは戦士長の座を狙ってる、\nなーんてハナシもあったなー。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT1015"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『あとは竜っぽいのとかケモノっぽいのとか。\nボクみたいに人の形の炎みたいなのとか\n……いろいろ！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT1016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『姿形は違うし種族もバラバラだけど、\nまあそれなりにうまくやってる。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT1017"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate056/Bg_Sr00560435_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 2,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 50,
+        "path": "",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 3,
+        "tryFullSize": false,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Fre",
+        "path": "Scenarios/Gates/Gate059/Pre_Spine590001_03",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_FC_04",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Fre",
+        "tmlabel": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『しっかし、あの「ワーム」ってやつら！\nアイツら弱っちいくせに\n数だけはやたら多くてヤになるね。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT1018"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Fre",
+        "tmlabel": "label_3"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『さすがのボクらでも手を焼くよ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT1019"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Fre",
+        "tmlabel": "label_4"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_FC_05",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『あれ？　「フレムベル」が\n手を焼くってのもヘンな話だな。\nアハハハハ！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT1020"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Fre",
+        "tmlabel": "label_5"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『あーあ、ワームなんてのが出てこなければ、\nボクたちが大陸を制覇してたんだろうになー。\nいやーざんねんざんねん。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT1021"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Fre",
+        "tmlabel": "label_6"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『だってそうでしょ？\nぶっちゃけた話、\nボクらフレムベルが最強だと思わない？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT1022"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Fre",
+        "tmlabel": "label_7"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_FC_06",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『オマエはどう思う？\nねえ？　ねえ!?』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0059_TXT1023"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "fade": 2
+      }
+    }
+  ]
+}

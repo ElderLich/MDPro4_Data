@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00360287",
+  "sourceBundle": "d378b765",
+  "sourceSha256": "40f613043a0ceb0a53f4b17763319e5bf61a83a1b2cf56106d5e689d9e5ae5cf",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "無敵の騎甲虫隊",
+        "titleId": "IDS_SCENARIOGATE0036_TITLE1001",
+        "path": "Scenarios/Gates/Gate036/titlle_Sr00360287",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_18",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate036/Bg_Sr00360287_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この世界には、\n軍隊のように統率の取れた行動で\n自らの生活圏を拡大していく昆虫騎士たちがいた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT1001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "まるで騎士が馬に乗るように仲間の昆虫を駆り、\n戦場を駆け巡る。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT1002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "強大な戦力と独特な戦術を駆使する彼らは\n「騎甲虫（ビートルーパー）」と呼ばれた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT1003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "騎甲虫（ビートルーパー）は戦いの時、\n敵に対して優位となるために「戦術機動」を実行する。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT1004"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate036/Bg_Sr00360287_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 16628,
+        "pos": 5,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 16631,
+        "pos": 6,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その先陣を務めるのは\n「騎甲虫スカウト・バギー」と\n「騎甲虫アームド・ホーン」だ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT1005"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 8,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "遠距離からは、空中の\n「騎甲虫スカウト・バギー」が。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT1006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、防御力と突進力を武器とした\n「騎甲虫アームド・ホーン」が\n地上を制圧していく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT1007"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 16628
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 16632,
+        "pos": 6,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": "",
+        "dstmrk": 16632
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "目標に接近してからは、主戦力となる巨大甲虫\n「大騎甲虫インヴィンシブル・アトラス」が\n強大なパワーで一網打尽にする。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT1008"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "乱戦においても隙はない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT1009"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate036/Bg_Sr00360287_01a",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0,
+        "label": "MUSI1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "いざとなれば\n甲虫に搭乗していた歩兵部隊も\n戦闘に参加する。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT1010"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate036/Bg_Sr00360287_01b",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0,
+        "label": "MUSI2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "傷ついた者がいれば後方支援部隊の\n「騎甲虫ライト・フラッパー」が\n駆けつけ、治療薬と包帯による手当てで仲間を癒す。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT1011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "攻撃力に絶対の自信があったとしても、\n強大な相手と対峙する可能性を\n常に考慮した万全の戦術機動。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT1012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それこそが騎甲虫（ビートルーパー）の\n強さの根底にあると言えるだろう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0036_TXT1013"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_18",
+        "fade": 2
+      }
+    }
+  ]
+}

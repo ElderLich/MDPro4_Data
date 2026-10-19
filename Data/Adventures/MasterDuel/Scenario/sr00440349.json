@@ -1,0 +1,579 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00440349",
+  "sourceBundle": "fe72dc81",
+  "sourceSha256": "2eb391936e2b7ab14e69cbe0f953a6f43b044ca7c23d5a304ccda1b50f5e0d9b",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440349_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_04",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "アウラムたちの前で\n竜に姿を変えた「星遺物」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それを目の当たりにしても\nニンギルスは畏れない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "イヴの復活。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0044_TXT2003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それだけを望んでここまで来た\n彼の歩みは止まらない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "イヴの亡骸を抱えて\n機械人形の元へ向かう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "機械人形に移植された“鍵”を発現させれば、\n竜化した星遺物の力ですら制御できよう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "“鍵”を使い、星櫃（せいひつ）が持つ\n生と死を司る権能で、\nイヴの魂の復活を試みるニンギルス。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、ついに。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2008"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_GARATEA",
+        "vol": -2000,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": -1,
+        "ignoreSkip": true
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ついに、妹を想い続けた\n兄の悲願が達成されようとしていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "機械人形が、\nゆっくりとイヴの肉体を\n受け入れていく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "さあ、またあの日と変わらぬ\n笑顔を見せてくれ――。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ニンギルスがイヴに語りかける。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "やがてイヴと機械人形は一体化し、\n魂を蘇らせた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2013"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_04",
+        "fade": 4
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_LIGHT",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 2,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440349_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ところが。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "機械人形に回帰した魂は、\n彼が待ち望んでいたモノではなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2015"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_31",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼女が魅せた表情は\nかつてのイヴが見せた柔らかなものではなく、",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "口角を釣り上げてわらう邪悪な笑み――",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "イヴの魂と同化したままの\nリースのものであった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "蘇ったリースは機械人形の主導権を奪い、\n“鍵”の力を行使――",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2019"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "――イヴの魂を消滅させる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2020"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440349_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、“鍵”の力で竜となった\n星遺物を呼び寄せ吸収。\nその体積を増大させていく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2021"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "イヴの亡骸と五体の竜を取り込み\n怪物と化したリースは、\n「夢幻転星イドリース」へと変貌を遂げた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2022"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_LAUGHTER",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "さらに、イドリースは“鍵”と星遺物の力を用い、\n山と見紛うほどの巨躯を持った機怪蟲（クローラー）――\n「機怪神エクスクローラー」を創り出した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2023"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440349_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "機怪神（デウス）から伸びる脊椎状の器官が、\n地核に封印された“大いなる闇”に\n通じているのに気づいたアウラムたち。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2024"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それを阻止しようとする彼らの前に、\n禍々しい漆黒に染まった竜が立ちふさがる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2025"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_DRAGON",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "",
+        "path": "Scenarios/Gates/Gate044/Bg_Sr00440349_03_ryu",
+        "pos": 0,
+        "duration": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは死の力に呑まれ、\nイドリースの尖兵へと堕ちた\nかつてのイムドゥーク――",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2026"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「星遺物の守護竜メロダーク」であった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0044_TXT2027"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_31",
+        "fade": 2
+      }
+    }
+  ]
+}

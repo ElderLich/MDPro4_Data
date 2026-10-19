@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00420336",
+  "sourceBundle": "aecca277",
+  "sourceSha256": "524eab187869081a6a3bd4e17347eec5583109b28aa39136901d3df6a1d914a2",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate042/Bg_Sr00420336_00",
+        "oscale": 0,
+        "color": "#BBC5C8FF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「ジェネクス」の目的は\n未だ不明だ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT2001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、ジェネクスが独自に\n「ワーム」との戦いを始めたのは\n事実である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT2002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「A・O・J（アーリー・オブ・ジャスティス）」の\n技術者は、ジェネクスの行動を\nこう分析した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT2003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ジェネクスは元々、\nこの星の環境改善を\n意図した行動を取っていた。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT2004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『外来生物であるワームは、\nこの星の環境を破壊し汚染するものとして\nジェネクスに認識されたのではないか。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT2005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『だからこそ、ジェネクスは\nそれを排除すべく\n行動を起こしたのだろう。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT2006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ジェネクスの力をA・O・Jの戦力として\n取り入れられないかと、\n技術者たちの注目が集まった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT2007"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "frm": "",
+        "dst": "#85939FFF"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Jene",
+        "path": "Scenarios/Gates/Gate042/Pre_Sr00420333_Jene",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "根気強く調査は進められ、\nついに「ジェネクス・コントローラー」を介して\n意思疎通を図る手段が確立される。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT2008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それにより、自然の力を利用して\nエネルギーを生み出し、\n外敵を排除する能力も次第に解明されていった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT2009"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Jene",
+        "duration": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "こうして研究は飛躍的に進み、\n彼らはA・O・Jの戦力の一つとして\n数えられるようになった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT2010"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate042/Bg_Sr00420336_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "後にジェネクスは技術者たちの手にかかり、\n強大な力を持つ兵器として\n運用されていくこととなる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT2011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ワームに反撃するための一大作戦に向け\n着々と準備は整いつつあった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0042_TXT2012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "機械生命たちが、\n望むと望まらずにかかわらず――。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0042_TXT2013"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "fade": 2
+      }
+    }
+  ]
+}

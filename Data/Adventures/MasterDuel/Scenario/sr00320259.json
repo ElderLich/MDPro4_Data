@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00320259",
+  "sourceBundle": "74ee42ef",
+  "sourceSha256": "933ae8b311956306d1a96d177807ebb824976d45d34f8e108a36034ad83e5ca0",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate032/Bg_Sr00320256_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_22",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "label": "Mob",
+        "path": "Scenarios/Gates/Gate032/Pre_Sr00320255_mob",
+        "pos": 0,
+        "duration": 0.5
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_WHISTLE",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 1,
+        "skip": false
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Mob",
+        "tmlabel": "jump2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『お、リュース号が\n無事に帰ってきたみてーだ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT3001"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Mob",
+        "duration": 0.5
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『キャプテンも上機嫌みてえだし、\n成果は上々ってところか。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT3002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『こっちも準備は万端だ！\n留守番組総出で宴の準備も整ってるぜ！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT3003"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate032/Bg_Sr00320259_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_CROWD_LOOP",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Mob",
+        "tmlabel": "jump",
+        "duration": 15,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『航海が成功しての宴！\nコレが一番の楽しみよ！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT3004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『宴の席じゃ航海に出た団員も\n留守番してた団員も関係ねえ。\n団員全員で楽しい時間を過ごすんだ！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT3005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『お、キャプテンが見習いを呼んでるな。\nあのコもようやく一人前か～。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT3006"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_CROWD_LOOP",
+        "fade": 3
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『え？　何のことかって？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT3007"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate032/Bg_Sr00320259_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_KIRAKIRA_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『オイラたち海造賊（プランドロール）は\n一人前と認められたら、\nキャプテンから望遠鏡をもらうんだ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT3008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『あれは、オイラたちにとっちゃ\n命と同じくらい大切なモンだ。\n単に航海に使う道具って以上のイミがある。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT3009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『キャプテンから\n団の仲間として認めてもらった、\nっつー証だからな。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT3010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『あのコもきっと、\n海造賊（プランドロール）の一員として\nもっともっと活躍していくだろうな。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT3011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『オマエもあの望遠鏡をもらえるよう、\nこれからガンバレ！』　",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT3012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『超ガンバレよ!!』",
+        "autominsec": 3,
+        "textId": "IDS_SCENARIOGATE0032_TXT3013"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.3,
+        "frm": "",
+        "dst": "#6F7E8CFF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "（オイラもまだ貰っていないけどな…）",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT3014"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_22",
+        "fade": 2
+      }
+    }
+  ]
+}

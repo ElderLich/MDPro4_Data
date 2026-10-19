@@ -1,0 +1,1675 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00710009",
+  "sourceBundle": "d62c5a02",
+  "sourceSha256": "7d4ec32e3a4b62f2f8bc605eff00d91e27b631b2931ca157c9b8f9588c1dfd29",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710009_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": true
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_40",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "zoom": 1.5,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "敵国の閃刀姫との激闘。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0071_TXT3001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "あの日から、レイは悩み続けていた。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "自分と似た、同年代の少女との出会い。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "驚きや困惑とともに、ほんの少しの嬉しさもあった。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "もう一度会いたい。話してみたい。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0071_TXT3005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "相手は敵国の兵士なのに、自然とそう思ったのだ。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "しかし、全力で向かってくるであろう彼女に\n気を抜いたら命はない。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3007"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_CHECK",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "ならば、\n答えは闘いの中で見つけるしかない――。",
+        "autominsec": 1.5,
+        "textId": "IDS_SCENARIOGATE0071_TXT3008"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.1,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710009_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_CUTIN_3",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "その日の闘いで、\nレイの前に再び黒の閃刀姫が現れた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT3009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "先の戦いを分析し、対抗策をもって臨むレイ。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "わずかな差で戦局は傾いていく。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "何とかこじ開けた一瞬の隙に、レイの剣撃が走る。",
+        "autominsec": 3,
+        "textId": "IDS_SCENARIOGATE0071_TXT3012"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_ATTACK_2",
+        "vol": -1
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_ATTACK_3",
+        "vol": -2000,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": 0.5,
+        "ignoreSkip": false
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_CUTIN_4",
+        "vol": -2000,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": 1,
+        "ignoreSkip": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "BgWaitLabeledTimeline",
+      "option": {},
+      "args": {
+        "skip": false
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710009_04_b",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_FLY_1",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "地面に墜落する黒の閃刀姫。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "それを追って降下するレイ。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0071_TXT3014"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Kemuri",
+        "path": "Scenarios/Gates/Gate071/Pre_Sr00710009_04_05",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710009_05",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_23",
+        "vol": -2000,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": 0.5,
+        "ignoreSkip": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4"
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 2,
+        "skip": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "黒の閃刀姫が地面で体勢を立て直した時、\n目の前には青い装甲に換装したレイの姿があった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT3015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "レイから仕掛けてくる様子はない。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3016"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Kemuri",
+        "duration": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.5,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710009_06",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": true
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "それでも黒の閃刀姫は、刀を構えて応戦の意思を示す。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3017"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "ふと、異変に気づく。",
+        "autominsec": 0,
+        "textId": "",
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_NOISE_1",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "ふと、異変に気づく。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3018"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_5"
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_CHECK",
+        "vol": -2000,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": 0.5,
+        "ignoreSkip": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "通信が……妨害されている――!?",
+        "autominsec": 3,
+        "textId": "IDS_SCENARIOGATE0071_TXT3019"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.5,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710009_07",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "拠点防衛型刀衛モード\n「閃刀姫（せんとうき）－シズク」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT3020"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "Xシリーズにおいて\n鉄壁の防御・電子戦能力を誇る兵装だ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT3021"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "これは二人だけで話したいと考えた\nレイの策であった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT3022"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "とはいえ、戦闘中に座標をロストしたとあれば、\nすでに敵の回収部隊が向けられていてもおかしくない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT3023"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "残された時間は\n多く見積もっても60秒足らず――",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT3024"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710009_08",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "『私はレイ。あなたは？』",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3025"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "レイの呼びかけに、黒の閃刀姫が\n絞り出すように口を開く。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT3026"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710009_06",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": true
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "『……ロゼ』",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3027"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "本来なら無用な会話に\nロゼが応じたのも、時間稼ぎのためだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT3028"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710009_05",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "答えながらレイの隙をうかがっていたものの、\n相手の構えに油断はない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT3029"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "それに加え、負傷した今の身では\n退却するのも困難だろう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT3030"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "通信が回復するまで耐えるしかない。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3031"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "あるいは、刺し違えてでも……。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3032"
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_NOISE_3",
+        "vol": 0.7,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": -1,
+        "ignoreSkip": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "skip": true,
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "あと30秒――。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0071_TXT3033"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710009_11",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "レイはあくまで闘いの姿勢を崩さない、\nロゼを見やる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT3034"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "落下の衝撃で砕けたのだろうか。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3035"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "割れたバイザーからは、ロゼの顔が覗けた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT3036"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "痛みを感じているだろうにもかかわらず、\n表情に変化はない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT3037"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "まるで機械のような、人形のような表情――。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3038"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "しかし、その赤い瞳の奥には深い感情が見えた。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3039"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_DRONE",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "叫んでいるような、泣いているような――。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3040"
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_NOISE_3",
+        "vol": 0.7,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": -1,
+        "ignoreSkip": false
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Doom",
+        "path": "Scenarios/Gates/Gate071/Pre_Sr00710009_11",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "あと15秒――。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0071_TXT3041"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Doom",
+        "duration": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710009_12",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_MOVE_3",
+        "vol": 0.7,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": -1,
+        "ignoreSkip": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "レイは闘いをやめた。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3042"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "自分は彼女にとどめを刺せない。\nそして、この子にも人を殺めて欲しくはない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT3043"
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_NOISE_3",
+        "vol": 0.7,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": -1,
+        "ignoreSkip": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "あと8秒――。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3044"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710009_13",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "『あなたも、本当は闘いたくないよね？』",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3045"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "まともな返答を期待したわけではない。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3046"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "ただ、今感じたことを口にしただけ。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3047"
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_NOISE_3",
+        "vol": 0.7,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": -1,
+        "ignoreSkip": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "あと2秒――。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3048"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "レイは静かにほほ笑むと、背を向けて去っていった。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3049"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710009_06",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": true
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_NOISE_4",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "ゼロ――。",
+        "autominsec": 3,
+        "textId": "IDS_SCENARIOGATE0071_TXT3050"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710009_05",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_NOISE_2",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "直後、ロゼの通信は回復した。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3051"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "あと十数秒で回収部隊が、到着するとの連絡が入る。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT3052"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710009_16",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_ROBOT",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 2,
+        "skip": true
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "墜落したドローンを回収するように、\n機械的に収容されるロゼ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT3053"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "動かなくなった身体を支えながら、ロゼは考えていた。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3054"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710009_17",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "何故、自分にとどめを刺さなかったのか。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0071_TXT3055"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "何故、あそこで微笑んだのだろうか。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0071_TXT3056"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "胸の奥から湧き出してくるモノに、ロゼは困惑する。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0071_TXT3057"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "ただ、それは不快ではなかった。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0071_TXT3058"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "あたたかい。そう感じた。",
+        "autominsec": 3,
+        "textId": "IDS_SCENARIOGATE0071_TXT3059"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "初めて触れるやさしさに、\n彼女の心が解けつつあった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT3060"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_CUTIN_4",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710002_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 2,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "時を待たずして、レイの国では新たな軍事行動\n「閃略（せんりゃく）」が決定される。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT3061"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "戦力的に有利な今こそ、軍事帝国の本拠地に\n攻め込む方針となったのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT3062"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate071/Bg_Sr00710009_21",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": true
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_WINDOW",
+        "vol": 0.7,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": 0.8,
+        "ignoreSkip": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "この戦争を早く終わらせる。\nこれ以上、ロゼと闘わなくても済むように。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT3063"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "レイは新たな決意を胸に、すでに発進準備を終えていた\n「閃刀機構（せんとうきこう）－ハーキュリーベース」へと\n乗り込む。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0071_TXT3064"
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_GO",
+        "vol": 0.8,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": -1,
+        "ignoreSkip": false
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 3,
+        "text": "発進の合図とともに、勢いよく空へ駆けていった。",
+        "autominsec": 1,
+        "textId": "IDS_SCENARIOGATE0071_TXT3065"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_CUTIN_5",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1.5,
+        "zoom": 1.5,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1.5,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_40",
+        "fade": 3
+      }
+    }
+  ]
+}

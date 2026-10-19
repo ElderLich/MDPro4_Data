@@ -1,0 +1,572 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00320255",
+  "sourceBundle": "7d580ec4",
+  "sourceSha256": "56cfebd5a6d47cc17bbf6b60601cc164a10a22ee52a4f4c6c331acc7580341fe",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "おれら陽気な海造賊",
+        "titleId": "IDS_SCENARIOGATE0032_TITLE1001",
+        "path": "Scenarios/Gates/Gate032/tittle_Sr00320255_00",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_22",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate032/Bg_Sr00320255_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.12576687335968018,0.12576687335968018,0.0,0.19512194395065309],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ここは港町に大きく居を構えた\n『海造賊（プランドロール）』の拠点。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT1001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その入口には、海造賊（プランドロール）に憧れて\nやってくる新たな入団希望者を出迎えるため、\n一人のトロールが待っていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT1002"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "frm": "",
+        "dst": "#C5D2D6FF"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "label": "Mob",
+        "path": "Scenarios/Gates/Gate032/Pre_Sr00320255_mob",
+        "pos": 0,
+        "duration": 1
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Mob",
+        "tmlabel": "jump"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_POYON",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『いよぉ、よく来た兄弟！\n今日からお前も海造賊の一員だ！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT1003"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Mob",
+        "tmlabel": "jump"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『まだ団について知らねえことも多いだろうから、\nオイラが特別に教えてやるぜ！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT1004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『オイラたち海造賊（プランドロール）は\nキャプテン黒髭さんの下に集まった“海賊団”だ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT1005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『海賊団なんて悪虐非道の\n荒くれ集団みてえに思うかもしれねーが、\nオイラたちは違う。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT1006"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Mob",
+        "tmlabel": "waiwai"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『お得意の造船技術でこしらえた船で、\nいつでも陽気に海を巡る。\n財宝を求めて西へ東へ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT1007"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Mob",
+        "tmlabel": "big"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『トラブルがありゃ団員が一丸になってキバるし、\n嬉しいことも仲間全員で分かち合う。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT1008"
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Mob",
+        "tmlabel": "jump"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『時にスジの通らねえ悪事を働く輩には、\n海造賊（プランドロール）の誇りで立ち向かう。\nそれがオイラたちの流儀ってワケだ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT1009"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Mob",
+        "duration": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate032/Bg_Sr00320255_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『オイラたちのキャプテンはお腹も広いが\nそれ以上に懐が深ェ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT1010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『団員のちょっとしたワガママにも\n親身になって応えてくれるし、\nあの黒翼って目つきの悪ィ鳥も懐いてる。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT1011"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate032/Bg_Sr00320255_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『黒翼はキャプテンの指示があれば、\n船の航路の案内や辺りの見回りもしてくれる。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT1012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ああ見えて大切な団員の一人なんだぜ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT1013"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.5,
+        "frm": "",
+        "dst": "#879AA1FF"
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "label": "Mob",
+        "path": "Scenarios/Gates/Gate032/Pre_Sr00320255_mob",
+        "pos": 0,
+        "duration": 0.5
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Mob",
+        "tmlabel": "jump"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_POYON",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『お次は団の中でも有名な三人を紹介すっかな！』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT1014"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Mob",
+        "duration": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate032/Bg_Sr00320255_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『まずは、超ベテラン機関士の白髭さん。\n船の操舵術にかけては団の中でも一番だ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT1015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ただ、たまーに……\nホントたまになんだけどな？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT1016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『目的地と全然違う方向に\n進めちゃってることがあってな……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT1017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『それでも期間内にちゃんと目的地に着くんだよ……。\nそこらへんマジでナゾなんだわ……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT1018"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate032/Bg_Sr00320255_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『続いては、航海士の赤髭さんだ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT1019"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『団の中じゃ若い方だが、\nオイラたちをリードして引っ張ってくれてる。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT1020"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ちょいと時間にルーズなとこもあっけど、\nそれもひっくるめて皆に慕われてる\n若頭みたいな感じかな。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT1021"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate032/Bg_Sr00320255_05",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "zoom": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『最後は海技士の青髭さんで、\n団きっての技術屋だ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT1022"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『いっつも船の設計をしてっけど、\n聞いたハナシじゃそれ以外にもいろいろ作れるらしい。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT1023"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『何か作ってほしいモンがあるってんなら、\nこの人に頼めば間違いねえハズだぜ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0032_TXT1024"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_22",
+        "fade": 2
+      }
+    }
+  ]
+}

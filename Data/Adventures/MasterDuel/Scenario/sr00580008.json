@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00580008",
+  "sourceBundle": "e1f3a9ee",
+  "sourceSha256": "4d33671ddb6f69430272f4922c69283603e7c9b7980518cd699837c6c9035f5b",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate054/Bg_Sr00540424_02",
+        "oscale": 0,
+        "color": "#A69292FF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "「ワーム」が世界から一掃されて\n喜びに沸く原住部族だったが、\nそれも束の間であった。",
+        "textId": "IDS_SCENARIOGATE0058_C0008_TXT_001",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_CUTIN_3",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "ワームとの決戦を傍観していた「魔轟神（まごうしん）」が\n「魔轟神獣（まごうしんじゅう）」を引き連れ、\nいよいよ本格的に侵略行動を開始したのだ。",
+        "textId": "IDS_SCENARIOGATE0058_C0008_TXT_002",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "改めて魔轟神と事を構えるにあたって、\n「A・O・J（アーリー・オブ・ジャスティス）」の兵器は\nすでに力不足となっていた。",
+        "textId": "IDS_SCENARIOGATE0058_C0008_TXT_003",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "そもそも先の決戦でそのほとんどが失われており、\n長きに渡るワームとの戦いで、\n資金にも資源にも余裕はない。",
+        "textId": "IDS_SCENARIOGATE0058_C0008_TXT_004",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "その状況が鑑みられ、新たな兵器の設計は\n大きな方向転換・修正を余儀なくされる。",
+        "textId": "IDS_SCENARIOGATE0058_C0008_TXT_005",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "path": "Scenarios/Gates/Gate058/Bg_Sr00580008_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 25,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "bg_keep_fadeout": false
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "かつてのような巨大兵器ではなく、\n次世代は取り回しを重視して小型化が図られた。",
+        "textId": "IDS_SCENARIOGATE0058_C0008_TXT_006",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Pre",
+        "path": "Scenarios/Gates/Gate058/Pre_Sr00580008_00",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Pre",
+        "tmlabel": "label_1"
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "しかし、小型化したからといって出力が落ちては意味がない。\n小型化した機体にかつての巨大兵器と同等の火力。",
+        "textId": "IDS_SCENARIOGATE0058_C0008_TXT_007",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Pre",
+        "tmlabel": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "そのコンセプトを実現させるのが「ジェネクス」及び\n「レアル・ジェネクス」の存在であった。",
+        "textId": "IDS_SCENARIOGATE0058_C0008_TXT_008",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "A・O・Jの作り出した機体に動力炉として\nレアル融合炉と一体化したレアル・ジェネクスを。\nさらに制御中枢コアとして、改修した「ジェネクス」を搭載。",
+        "textId": "IDS_SCENARIOGATE0058_C0008_TXT_009",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "かねてより構想されていた「ジェネクスの軍事転用計画」が\n実行に移され、専門部署も設立された。",
+        "textId": "IDS_SCENARIOGATE0058_C0008_TXT_010",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Pre",
+        "tmlabel": "label_5"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 7957,
+        "pos": 5,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "この計画の始動と同時に、\nかつて魔轟神の企てでA・O・Jを離脱した\n「霞の谷（ミスト・バレー）」へも協力が打診される。",
+        "textId": "IDS_SCENARIOGATE0058_C0008_TXT_011",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 8406,
+        "pos": 6,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "「氷結界（ひょうけっかい）」からの熱心な説得により、\n霞の谷はそれを了承。\n再び技術者が派遣された。",
+        "textId": "IDS_SCENARIOGATE0058_C0008_TXT_012",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Pre",
+        "tmlabel": "label_3"
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "こうして四つの部族が改めて手を組んだ計画は成功し\n「A（アーリー）・ジェネクス」が誕生した。",
+        "textId": "IDS_SCENARIOGATE0058_C0008_TXT_013",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "PrefabPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "Pre",
+        "tmlabel": "label_4"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 8553,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 8712,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 8710,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 0,
+        "pos": 1,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 8709,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "プロトタイプとなるA・ジェネクスを元に、\n各部族の特徴が色濃く反映された機体も製造されていった。",
+        "textId": "IDS_SCENARIOGATE0058_C0008_TXT_014",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "また、部族間で技術を提供しあい、\n共同開発も進められていく。",
+        "textId": "IDS_SCENARIOGATE0058_C0008_TXT_015",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 8729,
+        "pos": 5,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 8574,
+        "pos": 6,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "それによって完成した「A・ジェネクス・トライアーム」と\n「A・ジェネクス・トライフォース」は戦線に投入された。",
+        "textId": "IDS_SCENARIOGATE0058_C0008_TXT_016",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "魔轟神との戦いにおいて\n他のA・ジェネクスと共に各地で戦果を挙げていく。",
+        "textId": "IDS_SCENARIOGATE0058_C0008_TXT_017",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "args": {
+        "text": "地上から脅威が取り除かれるその日まで、\n彼らの戦いは続く――。",
+        "textId": "IDS_SCENARIOGATE0058_C0008_TXT_018",
+        "type": 0,
+        "pos": 0,
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_25",
+        "fade": 2
+      }
+    }
+  ]
+}

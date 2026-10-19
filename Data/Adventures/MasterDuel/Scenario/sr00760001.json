@@ -1,0 +1,443 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00760001",
+  "sourceBundle": "6ad70e20",
+  "sourceSha256": "ad9433e50db3451b5bf5f239fffe17e2d05e6f90d35bb9d3ea73b588fe3ba3c1",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate076/Bg_Sr00760001_titile",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false,
+        "t": "燃え上がる大海",
+        "titleId": "IDS_SCENARIOGATE0076_TITLE1001",
+        "scale": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate076/Bg_Sr00760001_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その時代・場所の海に支配者は存在していなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT1001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ただあったのは、\n狭い地域を自分の縄張りだと主張する\n魚人の一族だった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT1002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "魚人の群れは時おり集団間での抗争が起こる程度で、\n規模が小さいため大海を支配するには至っていなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT1003"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 10218,
+        "pos": 0,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そこに現れたのがあの海竜――「海皇龍 ポセイドラ」である。\t",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT1004"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.5,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "CardFadeOut",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "mrk": 10218
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate076/Bg_Sr00760001_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Awa",
+        "path": "Scenarios/Gates/Gate035/Buble",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgPlaySmoothLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1",
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "max": 10
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_BUBBLE",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "生命の混じり合う、生存競争の場であった海中で、\nそれはまだ小さな生命のひとつでしかなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT1005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「真海皇トライドン」。\nその海竜が持っていたのは、旺盛な食欲である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT1006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "最初は魚や貝、甲殻類などを喰らって成長し、\n徐々に捕食者としての力を付けていった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT1007"
+      }
+    },
+    {
+      "command": "BgPlaySmoothLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2",
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[0.98590087890625,0.8317756652832031,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "max": 4
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "他者を喰らって成長していく中で、\n自身の体躯の倍以上もある\n「ロスト・ブルー・ブレイカー」の捕食に成功。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT1008"
+      }
+    },
+    {
+      "command": "BgPlaySmoothLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3",
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "max": 4
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それを機に曖昧だった意識は晴れ、自我を獲得。\nポセイドラの姿に成長した海竜は、\nふと、この大海の中で自分は強者側に属すると気付く。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT1009"
+      }
+    },
+    {
+      "command": "BgPlaySmoothLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4",
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[0.3440464437007904,0.9749196171760559,0.14552240073680879,0.14552240073680879,0.3333333432674408,0.15483857691287995],\\\"m\\\":0}\",\"{\\\"p\\\":[0.98309326171875,0.501556396484375,-2.062718391418457,-2.062718391418457,0.08280152082443237,0.0],\\\"m\\\":0}\"]}",
+        "max": 4
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『もっと強くなるためにはどうすればいいか。\nもっと喰らえばいいのだ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT1010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "単なる食欲だけではなく「強くなる」という\n方向性を得た海竜の成長は早かった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT1011"
+      }
+    },
+    {
+      "command": "BgPlaySmoothLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_5",
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[0.6036121249198914,0.9824692010879517,0.23714791238307954,0.23714791238307954,0.3333333432674408,0.25277262926101687],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,0.6666679382324219,-1.840577483177185,-1.840577483177185,0.14944562315940858,0.0],\\\"m\\\":0}\"]}",
+        "max": 4
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ポセイドラは同族で小競り合いをしていた\n魚人の集団を次々と撃破していき、\nそれを支配下に置いていく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT1012"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate076/Bg_Sr00760001_03",
+        "oscale": 0,
+        "color": "#ADBDCFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_3S_CUTIN_4",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Awa",
+        "path": "Scenarios/Gates/Gate035/Buble",
+        "pos": 0,
+        "duration": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それらを兵隊として「海皇軍」を組織。\n海を己がものとすべく、\n周辺地域へと侵攻を開始する。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT1013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "快進撃は続き、\nすでに一大勢力となっていた海皇軍は\n瞬く間に周辺地域を支配するに至った。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT1014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "食欲と同様にポセイドラの\n領土的野心は尽きることない。\n海洋のみならず、ついに陸地へも侵攻を開始する。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT1015"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Awa",
+        "duration": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate076/Bg_Sr00760001_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "こうして勢力を拡大した海皇軍の次の目的。\nそれは聖なる炎によって護られる孤島であった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT1016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "海の暴君「海皇」と炎の神獣「炎王」。\n相容れぬ戦いが始まろうとしていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT1017"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "fade": 2
+      }
+    }
+  ]
+}

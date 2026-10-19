@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00470378",
+  "sourceBundle": "e5f8c504",
+  "sourceSha256": "0c4f1f3900cae5179f8534e8b219a9f52123560b674ba9526e6b79d33240a520",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "地中界の邪竜伝説",
+        "titleId": "IDS_SCENARIOGATE0047_TITLE1001",
+        "path": "Scenarios/Gates/Gate047/Bg_Sr00470378_titile",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate047/Bg_Sr00470378_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 60,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "\"地中界シャンバラ。\"",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT1001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "地中世界において、\n多様な知的種族の拠り所となる都である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT1002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "青い空や輝く太陽こそないが、\n自然の恵みはある。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT1003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その恵みは無尽蔵に与えられるものではなく、\nこの地に生きる者たちにとって\nかけがえのないものだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT1004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "たとえば、\nこの大空洞の岩盤に繁殖した\n無数の苔。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT1005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "これらは一定の周期で光を放ち、\n闇を照らす。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT1006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは昼と夜ともいえる生命のサイクルを生み出し、\n動植物に生きる力を与える太陽のような\n恵みとなっている。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT1007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この世界が\nどのようにして始まったのかを\n知る者はいない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT1008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "自然の恵みと、生き残るために様々な種族が\n手を取り合ってきた結果が、\nこの「都」を中心とした今を作り上げているのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT1009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "多くの命が生きるこの地中世界において、\n古より“厄災”として\n畏れられている存在がいた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT1010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "地中における生態系の頂点に君臨する\n“生ける伝説”。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT1011"
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_04",
+        "vol": -2000,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": -1,
+        "ignoreSkip": true
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "",
+        "path": "Scenarios/Gates/Gate047/Pre_Sr00470378_Doragon8",
+        "pos": 0,
+        "duration": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それが「サブテラーマリス」と呼ばれる\n八頭の邪竜だ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT1012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その“厄災”から、いかに身を隠し、\nいかに生き延びるか。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT1013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは、\n生きるための食物を得ることよりも\n優先されることであった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT1014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この“厄災”の存在がある以上、\n真の意味で“安住の地を得る”のは\n困難な道のりである。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0047_TXT1015"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "fade": 2
+      }
+    }
+  ]
+}

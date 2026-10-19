@@ -1,0 +1,708 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00700506",
+  "sourceBundle": "7d38acc8",
+  "sourceSha256": "541a3c6d5c331515c332df0f5a0786c340defdee159a49753cb39bb720dfd836",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "不死なるガイコツ",
+        "titleId": "IDS_SCENARIOGATE0070_TITLE1001",
+        "path": "Scenarios/Gates/Gate070/bg_Sr00700506_titile",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_36",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate070/bg_Sr00700506_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_8"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "frmcolor": "",
+        "dstcolor": "#000000BA",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ここは多くの命が眠る墓地。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "静寂が似合うこの場所で、\n奇妙な会話が繰り広げられていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1002"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#473D5B00",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_BONE_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『……え？　アタシですか？\nアタシは「ワイト」ですけど……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1003"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『……話？　話ってアタシの？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1004"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "label_3"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『アタシはなんの変哲もない、\n一介のワイトですけども……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1005"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『それでもいいなら、まあ……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1006"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_5"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『で、わざわざアタシが\n起こされたのは何か理由が……？』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1007"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate070/bg_Sr00700506_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『いえいえ、ホラ、ここは墓場でしょ？\nそこらへんにアタシと同じように\n土の中で寝てるんじゃないですかね。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『多分、声をかければ\nワラワラ出てくると思いますよ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ええ、アタシらはそんなに\n珍しいモンでもないんですって。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1010"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate070/bg_Sr00700506_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ああ、とはいえアタシが眠ってから\n結構時間が経ってるみたいですね。\nいくつかはお迎えがきたやつもいるかも……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『たまーにあるんですよ。\nある日、キラキラ光る天使さまがやってきましてね。\nこう、脇を抱えてお空に連れてってくれるんですよ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『天に何があるかは知りませんがね、\nきっと明るくて暖かい、\nいい場所なんでしょうなあ……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1013"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate070/bg_Sr00700506_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『そういえば結構大きな戦争にも\n参加したことがありましたね。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『ホラ、アタシらは数だけはやたらいますから。\n集まればいっぱしの軍勢には見えるんですよ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『まあ、特に何をしたってこともないんですけど。\nアタシらはとりわけ力が強いってワケでも\n身体が頑丈ってワケでもないですし……。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1016"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate070/bg_Sr00700506_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『吹っ飛ばされたり、\n爆散したりしましたねえ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『へ？　\nそんなことされて死ななかったのかって？\n元々死んでますから（笑）。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『どんだけバラバラになっても、\n風が吹いて時間が経てばホラ元通り、\nってなもんですよ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1019"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate070/bg_Sr00700506_05",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『あとは……アンデットなら一度くらいは\n「ゾンビ・マスター」さんに呼び出されたい、\nなんてことも思いますよ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1020"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『知ってます？　ゾンビ・マスターさん。\nあの方はアンデット界では\n大人気の超売れっ子ですからね。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1021"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『アタシみたいな弱小が\nおこがましいとは思いますが……。\nま、アタシのささやかな夢ってもんです。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1022"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『噂ではゾンビ・マスターさんに憧れるあまり、\nマスターになろうとする\nワイトもいるとかいないとか。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1023"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『アタシなんかはワイト歴も長いですから、\n身の丈に合った生活を心がけてますけどね。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1024"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate070/bg_Sr00700506_06",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『中には結構、やる気に満ちた\nホネのあるやつもいるんですよ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1025"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『もし、アナタがそんなワイトに出会ったらですね、\nできれば仲良くしてやってください。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1026"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『アタシらはこんなナリですけど、\n割と気さくなのも多いですから。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1027"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate070/bg_Sr00700506_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_BONE_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『さてさて、\n結構長々と話してしまいましたね。\nこんなところでいいですか。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1028"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_4"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『……いえいえ、アタシも久々にお話しできて\n楽しかったですよ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1029"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_5"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『今回はこれで休ませてもらいますかね。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1030"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_6"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『また会うことがあれば、\nその時はよろしくお願いしますよ。\nそれじゃ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0070_TXT1031"
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_7"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 3,
+        "frm": "",
+        "dst": "#232323FF"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_36",
+        "fade": 2
+      }
+    }
+  ]
+}

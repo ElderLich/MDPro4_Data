@@ -1,0 +1,52 @@
+{
+  "sourceBundle": "e15171eb",
+  "sourceSha256": "c709ebfc895346c17266e8c06f9cea11b70e02ca1109e7ed67c02726702408cd",
+  "mma": {
+    "tp": "Pager",
+    "title": {
+      "useId": false,
+      "tid": "",
+      "ja_JP": "クエスト ヘルプ",
+      "en_US": "",
+      "fr_FR": "",
+      "it_IT": "",
+      "de_DE": "",
+      "es_ES": "",
+      "pt_BR": "",
+      "ko_KR": ""
+    },
+    "contents": [
+      {
+        "tp": "HalfImageTextPage",
+        "caption": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_PENDULUMEX_H",
+          "ja_JP": "ペンデュラム召喚とは？\r",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "text": {
+          "useId": true,
+          "tid": "IDS_HELP_STRATEGY_PENDULUMEX_B",
+          "ja_JP": "ペンデュラムモンスターを使って、複数のモンスターを同時に特殊召喚することができる方法です。\r\nペンデュラムモンスターには、ペンデュラム召喚で重要になる「ペンデュラムスケール」という数値があるのが特徴で、中には、魔法カードとして扱われている際に使用できる「ペンデュラム効果」を持っているモンスターもいます。\r",
+          "en_US": "",
+          "fr_FR": "",
+          "it_IT": "",
+          "de_DE": "",
+          "es_ES": "",
+          "pt_BR": "",
+          "ko_KR": ""
+        },
+        "buttons": [],
+        "resourcePath": "Help/Strategy/HelpStrategyPendulumEX"
+      }
+    ],
+    "isLoop": false,
+    "startPage": 0
+  }
+}

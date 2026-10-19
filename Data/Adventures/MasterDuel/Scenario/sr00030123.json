@@ -1,0 +1,870 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00030123",
+  "sourceBundle": "62c8d871",
+  "sourceSha256": "bb3855cf7602668fc195aaf2b9533f5e3b7be6cf65f56a05c441ee5004fb63bc",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "params": [
+        0,
+        0,
+        "Scenarios/Gates/Gate002/Texcture/Universal/Bg_Sr00020026_01",
+        0,
+        "#FFFFFFFF",
+        8
+      ],
+      "args": {
+        "duration": 0,
+        "wait": 0,
+        "path": "Scenarios/Gates/Gate003/Bg_Sr00030009_02",
+        "oscale": 0.05,
+        "color": "#FFFFFF00",
+        "pos": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_05",
+        "vol": -1
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 13088,
+        "pos": 1,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 13086,
+        "pos": 4,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 13418,
+        "pos": 2,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "SE_SOLO_DEGITAL_CARD_01_b",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 13089,
+        "pos": 3,
+        "mrk2": 0,
+        "pos2": 2,
+        "mrk3": 0,
+        "pos3": 3,
+        "mrk4": 0,
+        "pos4": 4,
+        "se1": "",
+        "se2": "",
+        "se3": "",
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "星鎧を目の前にして、\nアウラムたちは機怪蟲の群れに行く手を阻まれてしまう。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "アウラムたちの戦いは続いていた。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3001",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_BAKUHATSU_01",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.2,
+        "cycle": 0.2,
+        "target": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "倒しても倒しても仲間の残骸を踏み越えて新たな一群が現れ、\n一行は苦戦を強いられる。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "突如、何の前触れもなく\n施設内部で爆発が巻き起こる。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3002",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "アウラムは瞬時に、\n星杯が起動した時のような感覚をもったが、\n今回の衝撃はそれを遥かに超えるものであった。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3003",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "戦場にいた全員が戦っていた手を止め、\nそれに気を取られた次の瞬間。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3004",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "frm": "",
+        "dst": "#817970FF"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_05",
+        "fade": 4
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それは唐突に姿を現した。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3005",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate003/Bg_Sr00030123_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_06",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.6348627805709839,0.6348627805709839,0.0,0.06686930358409882],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.32481351494789126,0.32481351494789126,0.0653495192527771,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_13",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "がれきの上に立つ少女の姿は、\n頭の先からつま先までイヴであることに間違いない。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3006",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかしその表情、\n妖しく光る瞳、\n全身から発せられる邪悪な気配。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3007",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "終わりの見えない戦いに誰もが消耗し、肩で息をしていた。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それらが、かつてのイヴとは異質な存在であることを、\nはっきりと物語っている。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3008",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "前に進むこともできず、\nかといって撤退するのも今となっては不可能に近い",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "イヴはこんな笑いかたをすることは決してなかった。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3009",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "前に進むこともできず、\nかといって撤退するのも今となっては不可能に近い",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "困惑するアウラムたちに、彼女は告げる。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3010",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "前に進むこともできず、\nかといって撤退するのも今となっては不可能に近い",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "私はリース。\nこの身体は既に私のモノ。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3011",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "力尽きるまで戦うしかないのかと思ったその時。\nリースが今にも倒れそうなアウラムたちに向かって叫ぶ。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "あの優しかったイヴはもうどこにもいない――。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3012",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "機怪蟲の上位体、\nエクスクローラーを倒せば\n機怪蟲たちの動きを止められるはず――。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "鈴を転がすような、けれども毒を含んだ声だった。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3013",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "機怪蟲の上位体、\nエクスクローラーを倒せば\n機怪蟲たちの動きを止められるはず――。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "戸惑いと怒りのこもった眼で\nにらみつけるアウラムたち。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3014",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate003/Bg_Sr00030123_02",
+        "oscale": 0.05,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.5,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 15,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[0.99847412109375,0.9976425170898438,0.15143510699272157,0.15143510699272157,0.06239911541342735,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_ATTACK_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ShakeStart",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "shakex": true,
+        "shakey": true,
+        "wave": 0.05,
+        "cycle": 0.05,
+        "target": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "機怪蟲の上位体、\nエクスクローラーを倒せば\n機怪蟲たちの動きを止められるはず――。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それを軽く受け流すと、\n「夢幻崩界イヴリース（デストロイメアイヴリース）」は\n力の波動を放つ。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3015",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "リースは戦いの最中で、\nエクスクローラーが機怪蟲の司令塔であることを見抜いたのだ。\r\nその洞察をアウラムたちは信じ、\n包囲の隙を突いてエクスクローラーに肉迫する。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "波動はアウラムたちに宿っていた星杯の力を\n強制的に解除。\nその上、その命すら奪おうとしていた。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3016",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "だが、その間に立ちはだかりアウラムたちを救ったのは、\nほんの先刻まで死闘を繰り広げていた\n「星痕の機界騎士（せいこんのジャックナイツ）」だった。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3017",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "リースは戦いの最中で、\nエクスクローラーが機怪蟲の司令塔であることを見抜いたのだ。\r\nその洞察をアウラムたちは信じ、\n包囲の隙を突いてエクスクローラーに肉迫する。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "身をていして庇うも、イヴリースの力によって\n「星痕の機界騎士（せいこんのジャックナイツ）」は\n合体を解除させられてしまう。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3018",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "エクスクローラーの抵抗は激しいものだったが、\n最後の力を振り絞ってそれを打ち倒す。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "七騎に分離し、\n損傷を受ける機界騎士（ジャックナイツ）たち。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3019",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_07",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ShakeEnd",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "target": 0
+      }
+    },
+    {
+      "command": "BgPlayLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "司令塔が崩れ落ちるのと同時に、\n周囲一帯のアウラムたちを囲んでいた機怪蟲も動きを止めたのであった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そこへイヴリースが、慣れた手つきで、\n一騎、また一騎と、機界騎士（ジャックナイツ）の\n動力源たるコアを抜き出していく。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3020",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "司令塔が崩れ落ちるのと同時に、\n周囲一帯のアウラムたちを囲んでいた機怪蟲も動きを止めたのであった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "このまま、イヴの力をもったイヴリースに\nコアとともに、封印していた祭器の杖まで奪われるのは\n極めて危険と判断。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3021",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "司令塔が崩れ落ちるのと同時に、\n周囲一帯のアウラムたちを囲んでいた機怪蟲も動きを止めたのであった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「蒼穹の機界騎士（そうきゅうのジャックナイツ）」は、\nそれを防ぐべく、現在の杖の正統継承者であるイヴから\n別の者に継承させようと試みる。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3022",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "司令塔が崩れ落ちるのと同時に、\n周囲一帯のアウラムたちを囲んでいた機怪蟲も動きを止めたのであった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "杖の継承者として選んだのは、\n戦いを通じて目覚ましい成長を見せたアウラムだった。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3023",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_13",
+        "fade": 4
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate003/Bg_Sr00030123_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.9227434992790222,0.9227434992790222,0.0,0.05623100325465202],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "司令塔が崩れ落ちるのと同時に、\n周囲一帯のアウラムたちを囲んでいた機怪蟲も動きを止めたのであった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "イヴリースの力によって吹き荒れた衝撃は、\nアウラムを崖の淵まで吹き飛ばしていた。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3024",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_12",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "司令塔が崩れ落ちるのと同時に、\n周囲一帯のアウラムたちを囲んでいた機怪蟲も動きを止めたのであった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そこに救いの手を伸ばした\n「蒼穹の機界騎士（そうきゅうのジャックナイツ）」。\n無言のままアウラムとの視線が交差する。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3025",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "司令塔が崩れ落ちるのと同時に、\n周囲一帯のアウラムたちを囲んでいた機怪蟲も動きを止めたのであった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "何かを伝えようとする彼の意思を感じたアウラムが\n心を開くと、眩い光が生じた。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3026",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_08",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 0,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFFFF",
+        "target": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate003/Bg_Sr00030123_05",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#FFFFFF00",
+        "target": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "司令塔が崩れ落ちるのと同時に、\n周囲一帯のアウラムたちを囲んでいた機怪蟲も動きを止めたのであった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "次の瞬間、アウラムは\n星杯の力とは異なる鎧を身に着け、一対の双剣を手に、\n崖の上に立っていたのであった。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3027",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "params": [
+        0,
+        0,
+        "司令塔が崩れ落ちるのと同時に、\n周囲一帯のアウラムたちを囲んでいた機怪蟲も動きを止めたのであった。",
+        false
+      ],
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "祭器の杖の継承者\n「機界騎士アヴラム」として。",
+        "textId": "IDS_SCENARIOGATE0003_TXT3028",
+        "autominsec": 0
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_12",
+        "fade": 2
+      }
+    }
+  ]
+}

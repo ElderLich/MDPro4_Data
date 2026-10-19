@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00390312",
+  "sourceBundle": "f1420545",
+  "sourceSha256": "e9de00dbb78cff541edbaf6dd9df4c5a329821f9cb1c05ec50cb3befcba31a04",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate039/Bg_Sr00390312_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_16",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "シエンの父である将軍の死は、\n程なく国内外に知られるところとなり、\n民たちに大きな動揺を与えた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT2001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "天下を狙う諸国にしてみても、\nこの国を攻め落とす願ってもない好機だった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT2002"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate039/Bg_Sr00390312_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.17966710031032563,0.17966710031032563,0.17073172330856324,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "他国の武将がいつ仕掛けてくるとも分からない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT2003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この混乱をどう鎮めるか、\nこの先どのように戦っていくべきか――。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT2004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "シエンは考えを巡らせる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT2005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この時、シエンの父の腹心であり、\nシエン自身の後見役を任されていた「紫炎の参謀」は\nためらうことなく進言した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT2006"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate039/Bg_Sr00390312_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『今こそ、貴方様が次なる将軍として立つ時です。\n全ての国を統べる者はここにありと、\n天下取りに名乗りを上げるのです。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT2007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『また、戦に勝つだけでなく、\n天下に誇れる広大な国を興しましょう。\nそのためには、盤石の体制を築き上げることが肝要。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT2008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『それを成し遂げた時こそ、\n真の天下人と言えましょうぞ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT2009"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate039/Bg_Sr00390312_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 3
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "pos": 2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "シエンは、参謀の言葉に今一度覚悟を決める。\nそして先の敗北を糧に、様々な施策を行った。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT2010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "国力の充実と同時に軍備の拡充を行い、\n他国への侵攻と領土の拡大も進めていった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT2011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "他国に易々と攻め入られない体制を\n早々に作り上げ、国は安定した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT2012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その一方で、シエンは戦いでも勝利を積み重ねていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT2013"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate039/Bg_Sr00390312_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そしていつしか、戦場に紫の狼煙（のろし）が上がると、\n他国の兵はそれに恐怖するほどになったという。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0039_TXT2014"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_16",
+        "fade": 2
+      }
+    }
+  ]
+}

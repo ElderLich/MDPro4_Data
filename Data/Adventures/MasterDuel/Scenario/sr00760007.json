@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00760007",
+  "sourceBundle": "83b4ab15",
+  "sourceSha256": "d47e57b3ca23d396eff142e719008fffdb3ef36926a785a1ffb84cd74b59b452",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate076/Bg_Sr00760007_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlaySmoothLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_1",
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "max": 4
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「海皇龍 ポセイドラ」率いる海皇軍と\n「炎王」の戦いが始まった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT3001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "潮騒をかき消すほどの咆哮が大海に響き渡る。\nその大音声を合図に、\n魚人の大群が一斉に炎王の孤島へと押し寄せた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT3002"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_S_DRAGON",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgPlaySmoothLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_2",
+        "curve": "{\"k\":[\"{\\\"p\\\":[-0.008335113525390625,0.0447998046875,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[0.4880853593349457,0.9592909216880798,0.1660802662372589,0.1660802662372589,0.14285212755203248,0.3333333432674408],\\\"m\\\":0}\",\"{\\\"p\\\":[1.013169288635254,0.6805441379547119,-2.275040864944458,-2.275040864944458,0.15924061834812165,0.0],\\\"m\\\":0}\"]}",
+        "max": 6
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "四方八方から島を攻められる海皇軍に対し、\n全周を警戒しなければならない炎王たちは\n苦戦を強いられる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT3003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それに加えて島を取り囲むのは海、\nつまりはポセイドラの領域である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT3004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ポセイドラは狡猾にも、島の北に現れたかと思えば\n不意に姿を消し、今度はまるで違う場所から\n現れるといった形で、神出鬼没の動きを見せる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT3005"
+      }
+    },
+    {
+      "command": "BgPlaySmoothLabeledTimeline",
+      "option": {},
+      "args": {
+        "label": "label_3",
+        "curve": "{\"k\":[\"{\\\"p\\\":[-0.002184648998081684,0.898658037185669,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[0.31201231479644778,0.9987619519233704,0.011097528040409089,0.011097528040409089,0.03864043951034546,0.06988579034805298],\\\"m\\\":0}\",\"{\\\"p\\\":[0.8071040511131287,0.9908266663551331,-0.09662467986345291,-0.09662467986345291,0.09499097615480423,0.3333333432674408],\\\"m\\\":0}\",\"{\\\"p\\\":[1.002570390701294,0.8273288011550903,-0.01377886813133955,-0.01377886813133955,0.3418383300304413,0.0],\\\"m\\\":0}\"]}",
+        "max": 4
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_14",
+        "vol": -1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "炎王にとっては海皇軍最大の武力たるポセイドラが\nどこから現れるのか常に用心しなければならず、\n神経をすり減らす戦いが続く。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT3006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "長い戦いの果て、\nついに炎王の防衛網に穴が開いてしまった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT3007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その地点を目指して\n海皇軍が殺到する。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT3008"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "このまま上陸を許せば、\n島は彼らに蹂躙されてしまうだろう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT3009"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate076/Bg_Sr00760007_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_10",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この窮地に\n「炎王神獣 ガルドニクス」は\n決死の攻撃に出る。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT3010"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ガルドニクスは自らを極限まで燃え上がらせ、\n上陸を試みる魚人の大群もろとも\nポセイドラを焼き払った。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT3011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この攻撃で深手を負ったポセイドラは、\n残った魚人と共に深い海の底へと\n退却していった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT3012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ひとまず戦いは終わり、\n炎王たちは海皇軍を撃退した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT3013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかし、ガルドニクスによる全身全霊の攻撃でも\nポセイドラを滅ぼすまでには至らなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT3014"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frm": "",
+        "dst": "#606060FF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、捨て身の攻撃を敢行したガルドニクスも\n力尽きようとしていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT3015"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate076/Bg_Sr00760007_02",
+        "oscale": 0,
+        "color": "#A69797FF",
+        "pos": 1,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_04",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "このままでは身体の維持すら難しい。\nそう悟ったガルドニクスは、\n島の中央にある火口へと自ら身を投じる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT3016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "灼熱に呑まれ、その身を消滅させたかと思われた瞬間。\n火口から飛び出してきたのは炎王神獣の幼鳥――\n「真炎王 ポニクス」であった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT3017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "全身から太陽と見紛うほどの炎を発し、\n雄々しく羽ばたいていた炎王神獣の身から一転、\nいわばポニクスは雛鳥だ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT3018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "転生を果たしたばかりで、\nかつての姿にまでになるのは時間がかかる。\n海皇軍はまた進撃してくるだろう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT3019"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ポセイドラが傷を癒し、\n再侵攻してくるまでにどこまで力を取り戻せるか。\n時間との勝負であった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT3020"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate076/Bg_Sr00760001_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8,
+        "tryFullSize": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "一方のポセイドラも、\n受けた傷は深かった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT3021"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "焼けただれた皮膚、はがれた鱗が再生し、\n軍を再編して攻め込んだところで\n炎王を倒すのは難しいだろう。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT3022"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "何か、新たな戦力を獲得しなければ――。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT3023"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "海皇は傷を治すべく、\n普段よりも旺盛な食欲を見せながら\n考えを巡らせるのであった。\t",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0076_TXT3024"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_02",
+        "fade": -1
+      }
+    }
+  ]
+}

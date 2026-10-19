@@ -1,0 +1,791 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00520407",
+  "sourceBundle": "3cf50402",
+  "sourceSha256": "f85f4d55d0d4bbedee254c51e0707fab83f960e689ef613ea698b0fe2c949ee3",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "呪われし黄金郷",
+        "titleId": "IDS_SCENARIOGATE0052_TITLE1001",
+        "path": "Scenarios/Gates/Gate052/Bg_Sr00520407_titile",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_35",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 0
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate052/Bg_Sr00520407_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 40,
+        "zoom": 1.4,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "SoundPlayDetail",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_SEA",
+        "vol": 0.4,
+        "fade": -1,
+        "pan": -2000,
+        "pitch": -2000,
+        "delay": -1,
+        "ignoreSkip": false
+      }
+    },
+    {
+      "command": "Text",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "type": 0,
+        "text": "大いなる英知の魔石。",
+        "autominsec": 2,
+        "textId": "IDS_SCENARIOGATE0052_TXT1001"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "type": 0,
+        "text": "\"賢者の石\"とも呼ばれるそれは、\n錬金術師にとっての悲願。\n究極の到達点である。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "type": 0,
+        "text": "とある時代、とある場所。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1003"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}",
+        "type": 0,
+        "text": "各国で名を馳せた錬金術師たちは\nある孤島にこもって\n賢者の石の研究を始めた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らは古い文献の解読を進め、\nその製法を解析した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "材料は水銀、硫黄、塩、\nそして――動物の死体。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "材料は次第に、\n死体から生きたままの動物へ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1007"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "牛馬に豚、鶏といった家畜をはじめ、\n種類を問わずあらゆる野生動物も\n生け贄に捧げられた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1008"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_SEA",
+        "fade": 2
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate052/Bg_Sr00520407_02",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その結果、\nついに賢者の石の核となる\n物質の生成に成功する。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "ようやくその第一歩を踏み出したのだと、\n彼らは歓喜した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1010"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 1,
+        "frm": "",
+        "dst": "#959595FF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "しかしその喜びも束の間、\n研究はそこで頓挫する。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "錬金術師たちは当惑した。\n『なぜ、なにも進展しないのか。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1012"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "『材料もそろっている。\n呪文の発音も正確に再現され、\n儀式も間違いなく執り行われているはずだ。』",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それから何日も儀式は続き\n生け贄も捧げられたが、\n石は何の変化も見せない。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1014"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate052/Bg_Sr00520407_01",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "zoom": 1.3,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,1.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,1.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 25,
+        "zoom": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そんなある日のことだ。\n研究を続ける孤島の浜に、\n人間の死体が打ちあがる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1015"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "あの日から沈黙したままの賢者の石。\nそこに流れ着いた人間の死体。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1016"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らは何が足りていないのか\n薄々感づいてはいた。しかし、\nその可能性については意識の底に沈めていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1017"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それをしてしまったら、\n己は外道に落ちると\n忌避していたのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1018"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "賢者の石の錬成に\n人間を使うということを……。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1019"
+      }
+    },
+    {
+      "command": "BgFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0.3,
+        "frm": "",
+        "dst": "#6A6A6AFF"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "だが、彼らは\n欲望に逆らえなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1020"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate052/Bg_Sr00520407_03",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 1
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 30,
+        "pos": 0,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "死体を祭壇に捧げた直後である。\n賢者の石は小さく脈を打つまでに変化した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1021"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "錬金術師たちは\n目覚ましい成果に驚喜する。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1022"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "実はこの時、彼らが\n死体だと思って捧げた人間には、\nまだ息があったのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1023"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この瞬間から\n賢者の石だったものは、\n違うものに変性し始めた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1024"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その後も奴隷や犯罪者といった人間を\n生け贄にし、ついに黒きエルドリクシルと\n呼ばれるものを生み出すことに成功する。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1025"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "エルドリクシルが求める生贄は留まるところを知らず、\n次第に身分も問われなくなっていった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1026"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "奴隷から、平民、貴族までも。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1027"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#D6D6D6FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_ATTACK_02",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate052/Bg_Sr00520407_04",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#D7D7D700",
+        "target": 1
+      }
+    },
+    {
+      "command": "Wait",
+      "option": {},
+      "args": {
+        "sec": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "連日人間が捧げられ、\n今度は眩いばかりの白い輝きを発し始めた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1028"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 10,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "白く輝く石に、\n完全に精神を支配された錬金術師たち。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1029"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "もはや何の抵抗もなく、\nエルドリクシルが望むままに\n生きた人間を捧げていく。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1030"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_EFFECT_05",
+        "vol": -1
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0.1,
+        "frmcolor": "",
+        "dstcolor": "#A42323FF",
+        "target": 0
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate052/Bg_Sr00520407_06",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 3,
+        "frmcolor": "",
+        "dstcolor": "#A4232300",
+        "target": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "人間の精気を取り込み続け、\n血のような紅に染まった石は\nついに覚醒。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1031"
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 20,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,2.0,2.0,0.0,0.0],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "エルドリクシルから解放された力は、これまで取り込んだ\n人間の生への渇望、財への渇望、力への渇望を\n呪いとしてまき散らす。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1032"
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 2,
+        "path": "Scenarios/Gates/Gate052/Bg_Sr00520407_07",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして新たな生け贄を呼び寄せるために\n周囲を丸ごと\"黄金\"へと変化させていった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1033"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 2
+      },
+      "args": {
+        "duration": 1,
+        "frmcolor": "",
+        "dstcolor": "#232323FF",
+        "target": 1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate052/Bg_Sr00520407_08",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "BgZoom",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 40,
+        "zoom": 1.2,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.00406646728515625,0.0,0.1078028753399849,0.1078028753399849,0.0,0.0571415089070797],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "ScreenFade",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 5,
+        "frmcolor": "",
+        "dstcolor": "#23232300",
+        "target": 1
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "程なくして、船乗りの間に\n「黄金の島」の噂が流れはじめる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1034"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "その噂は近隣諸国へと伝わり、\n島には一攫千金を求める者が\n押し寄せるようになった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1035"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "それがエルドリクシルの作り上げた\n誘蛾灯だとも知らずに――。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0052_TXT1036"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_35",
+        "fade": 2
+      }
+    }
+  ]
+}

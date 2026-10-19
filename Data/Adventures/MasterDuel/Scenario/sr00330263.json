@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 1,
+  "nativeScenario": true,
+  "id": "sr00330263",
+  "sourceBundle": "8276d182",
+  "sourceSha256": "0b510ee75193ad2df8efe7cdae8ac0a44d4ae43bbf01ce0502bfc8305d691324",
+  "resourceIndex": "../Resources/ExpandedIndex.json",
+  "commands": [
+    {
+      "command": "Title",
+      "option": {},
+      "args": {
+        "t": "天上の武神",
+        "titleId": "IDS_SCENARIOGATE0033_TITLE1001",
+        "path": "Scenarios/Gates/Gate033/Bg_Sr00330263_title",
+        "scale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 8
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_16",
+        "vol": -1
+      }
+    },
+    {
+      "command": "BgSet",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 0,
+        "path": "Scenarios/Gates/Gate033/Bg_Sr00330263_00",
+        "oscale": 0,
+        "color": "#FFFFFFFF",
+        "pos": 0
+      }
+    },
+    {
+      "command": "BgMove",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "duration": 80,
+        "pos": 1,
+        "curve": "{\"k\":[\"{\\\"p\\\":[0.0,0.0,0.4401840567588806,0.4401840567588806,0.0,0.19512194395065309],\\\"m\\\":0}\",\"{\\\"p\\\":[1.0,1.0,0.0,0.0,0.0,0.0],\\\"m\\\":0}\"]}"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "善悪を問わず、\n多くの神々が暮らす\n天上世界・高天原(タカマガハラ）。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT1001"
+      }
+    },
+    {
+      "command": "SoundPlay",
+      "option": {},
+      "args": {
+        "label": "SE_SOLO_HIKARI_03",
+        "vol": -1
+      }
+    },
+    {
+      "command": "PrefabCreate",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "label": "Hirume",
+        "path": "Scenarios/Gates/Gate033/Pre_Sr00330263_hitrume",
+        "pos": 0,
+        "duration": 2
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "この世界は象徴たる姫神・ヒルメを中心とする\n神々によって治められていた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT1002"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼女は三種の武神器――",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT1003"
+      }
+    },
+    {
+      "command": "PrefabDestroy",
+      "option": {},
+      "args": {
+        "label": "Hirume",
+        "duration": 1
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 10620,
+        "pos": 1,
+        "se1": "SE_SOLO_WAFU_CARD_01",
+        "mrk2": 10754,
+        "pos2": 2,
+        "se2": "SE_SOLO_WAFU_CARD_01",
+        "mrk3": 10913,
+        "pos3": 3,
+        "se3": "SE_SOLO_WAFU_CARD_01",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "「武神器－ムラクモ」「武神器－ヤタ」\n「武神器－ヤサカニ」をまとって\n真なる力を発揮し、最高神・アマテラスとなる。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT1004"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "強大な力を持つ彼女は、\n天上世界だけではなく\n人間たちの住む地上をも統治していた。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT1005"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼女は世界を守護するにあたり、\n出過ぎた介入はしなかった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT1006"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "太陽のごとき慈愛で天上と地上の世界を見守り、\n大きな災いが訪れた時のみ神の力を振るった。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT1007"
+      }
+    },
+    {
+      "command": "CardFadeOutAll",
+      "option": {
+        "async": 1
+      },
+      "args": {}
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "そして、ヒルメは特に信頼の厚い三人の武神帝に\n自らの武神器を貸し与え、\n神々の目が届きにくい地上を守護する役目を託した。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT1008"
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 10660,
+        "pos": 5,
+        "se1": "SE_SOLO_WAFU_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "一人は、\n二振りの神剣・ムラクモとハバキリを手に、\n姫神を守る役目を担う「武神帝－スサノヲ」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT1009"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "武術に長け、\n三人の中でも最も猛々しい武神帝だ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT1010"
+      }
+    },
+    {
+      "command": "CardFadeOut",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 10660
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 10784,
+        "pos": 6,
+        "se1": "SE_SOLO_WAFU_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "一人は、\nあらゆる攻撃を受け止める無敵の盾・ヤタを持つ\n「武神帝－カグツチ」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT1011"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "知略に長け、\n彼らが戦いに赴く際の策を立てる役割を担う。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT1012"
+      }
+    },
+    {
+      "command": "CardFadeOut",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 10784
+      }
+    },
+    {
+      "command": "CardFadeIn",
+      "option": {
+        "async": 1
+      },
+      "args": {
+        "mrk": 10940,
+        "pos": 5,
+        "se1": "SE_SOLO_WAFU_CARD_01",
+        "mrk2": 0,
+        "pos2": 2,
+        "se2": "",
+        "mrk3": 0,
+        "pos3": 3,
+        "se3": "",
+        "mrk4": 0,
+        "pos4": 4,
+        "se4": ""
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "最後の一人は呪術に長ける\n「武神帝－ツクヨミ」。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT1013"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "力を吸収する外套・ヤサカニをまとい、\n探索や仲間の回復のほか、\n天と地すべての異変を監視する役目を持つ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT1014"
+      }
+    },
+    {
+      "command": "Text",
+      "option": {},
+      "args": {
+        "type": 0,
+        "pos": 0,
+        "text": "彼らはヒルメの名代として世界の異変に目を光らせ、\nそれを守護するために持てる力を振るうのだ。",
+        "autominsec": 0,
+        "textId": "IDS_SCENARIOGATE0033_TXT1015"
+      }
+    },
+    {
+      "command": "SoundStop",
+      "option": {},
+      "args": {
+        "label": "BGM_SOLO_16",
+        "fade": 2
+      }
+    }
+  ]
+}
