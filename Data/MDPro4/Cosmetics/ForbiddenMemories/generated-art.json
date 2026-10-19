@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 2,
+  "tool": "Connected Unity Editor / Universal Render Pipeline bounded geometry capture",
+  "representation": "Catalog renders of the implemented ForbiddenMemoriesField meshes and materials. The limestone surface bitmap is generated art; these catalog PNGs are Unity renders.",
+  "promotedAtUtc": "2026-09-24T06:32:21.007660+00:00",
+  "unityVersion": "6000.4.4f1",
+  "previews": [
+    {
+      "id": 1099001,
+      "path": "field.png",
+      "sha256": "34b11620448eeb87da58f1e262a55b7712538c91a04999f01a2c52d66bb9f039",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "representation": "Actual runtime mesh/material render",
+      "depicts": "Both golden checkerboard field halves with the original stepped waist and corner ramps.",
+      "capture": {
+        "name": "field",
+        "path": "Library/Codex_QA/AdventureArena20260923/arena/previews-20260924-074832072/field.png",
+        "rendererCount": 7,
+        "vertices": 25180,
+        "size": [
+          91.2959,
+          8.8,
+          66.89844
+        ],
+        "orthographicSize": 65.62466,
+        "source": "Live rendered owned meshes and materials; no AI replacement artwork."
+      },
+      "review": "Visually inspected by the root and independent implementation agent; no subsequent user approval is claimed."
+    },
+    {
+      "id": 1109001,
+      "path": "grave.png",
+      "sha256": "6cad187710c6958056ddb5dddca5a38cdef1bb60b8223319438f8381aa6848d7",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "representation": "Actual runtime mesh/material render",
+      "depicts": "The turquoise masonry grave well and separate violet banishment seal on one side.",
+      "capture": {
+        "name": "grave",
+        "path": "Library/Codex_QA/AdventureArena20260923/arena/previews-20260924-074832072/grave.png",
+        "rendererCount": 11,
+        "vertices": 13804,
+        "size": [
+          7.66796875,
+          2.78000021,
+          12.0605469
+        ],
+        "orthographicSize": 7.79632568,
+        "source": "Live rendered owned meshes and materials; no AI replacement artwork."
+      },
+      "review": "Visually inspected by the root and independent implementation agent; no subsequent user approval is claimed."
+    },
+    {
+      "id": 1119001,
+      "path": "stand.png",
+      "sha256": "7ae54075b9e022461856731fc53e73c927e7769f076b3eb0b2206113d37b8595",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGB",
+      "representation": "Actual runtime mesh/material render",
+      "depicts": "The low circular engraved mate medallion; no mate character is included.",
+      "capture": {
+        "name": "stand",
+        "path": "Library/Codex_QA/AdventureArena20260923/arena/previews-20260924-074832072/stand.png",
+        "rendererCount": 4,
+        "vertices": 3060,
+        "size": [
+          10.7998047,
+          0.940700054,
+          10.7998047
+        ],
+        "orthographicSize": 8.786557,
+        "source": "Live rendered owned meshes and materials; no AI replacement artwork."
+      },
+      "review": "Visually inspected by the root and independent implementation agent; no subsequent user approval is claimed."
+    }
+  ],
+  "capture": {
+    "directory": "Library/Codex_QA/AdventureArena20260923/arena/previews-20260924-074832072",
+    "method": "Temporary renderer clones borrow immutable live meshes/materials; an owned camera and RenderTexture use URP SingleCameraRequest; all transient resources retire immediately.",
+    "receipt": {
+      "path": "Library/Codex_QA/AdventureArena20260923/arena/previews-20260924-074832072/receipt.json",
+      "sha256": "3d7d9178c69490a9b6dd213af3e29f8b4082b3d9b256246740f972f49decab0f",
+      "bytes": 2053
+    },
+    "lifecycleReceipt": {
+      "path": "Library/Codex_QA/AdventureArena20260923/arena/lifecycle-20260924-074901046.json",
+      "sha256": "48d198d28315498dda110fa1472dc61329c651eda54b23f8688930bf6caea132",
+      "bytes": 22249
+    },
+    "visualReceipt": {
+      "path": "Tools/Adventures/forbidden-memories-arena-20260924.md"
+    },
+    "liveFrame": {
+      "path": "Library/Codex_QA/AdventureArena20260923/arena/final-guide-live.png",
+      "sha256": "eb4d351487bc673ae63b48f7e56d90c4092ee8507cccb2432eb282b396cb35d8",
+      "bytes": 4578636
+    },
+    "completeArenaFrame": {
+      "path": "Library/Codex_QA/AdventureArena20260923/arena/previews-20260924-074832072/complete-arena.png",
+      "sha256": "a44a860c14d6383fbf512cd1790ad594cc39620ba52b4fc5b322b0297fa2692f",
+      "bytes": 305828
+    }
+  },
+  "implementationAtPromotion": {
+    "hashBasis": "Source bytes at promotion, not a reconstructed capture-time checkout. A post-capture temporary-card sampling exclusion does not alter rendered geometry/materials.",
+    "files": [
+      {
+        "path": "Assets/Scripts/MDPro3/Adventure/ForbiddenMemoriesField.cs",
+        "sha256": "6ae8b862cf380caad7902235bd23065f32052988f4887b865d9cce0b9cf36ff2",
+        "bytes": 66215
+      },
+      {
+        "path": "Assets/Resources/Adventures/ForbiddenMemoriesStone.shader",
+        "sha256": "8068a687099b11a16f069e26f908fa3c8dc7456730a87f2e2cfea8b6af4661e6",
+        "bytes": 8836
+      },
+      {
+        "path": "Assets/Resources/Adventures/ForbiddenMemoriesFlame.shader",
+        "sha256": "e0aef46f98cfd29b38e7bf20c2b95c1d17582fdd243489cf7d215f15bfaab592",
+        "bytes": 3420
+      },
+      {
+        "path": "Assets/Resources/Adventures/ForbiddenMemoriesGuide.shader",
+        "sha256": "aa3131c1767f6503bd713274a6dbe245684e7a18747541d75bb97cc453415e1b",
+        "bytes": 7594
+      },
+      {
+        "path": "Assets/Resources/Adventures/ForbiddenMemoriesSurface.png",
+        "sha256": "c54a8b976754d39d138bbc70a415e3a696777301910cafc6db3c17f4cc4970fb",
+        "bytes": 3219620
+      },
+      {
+        "path": "Assets/Resources/Adventures/ForbiddenMemoriesSurface.png.meta",
+        "sha256": "f3dd8d6a94020dc6c20cd2f1267f7309e6f203a3d3f616daee0145defada00d6",
+        "bytes": 3009
+      },
+      {
+        "path": "Tools/Adventures/forbidden-memories-surface-provenance.json",
+        "sha256": "3cfeb54d671303bc1b8888b0ee4acbc4a447fe4283a27a7a1e15d19b93c60c56",
+        "bytes": 1452
+      }
+    ],
+    "originalBoardEvidence": {
+      "path": "Library/Codex_QA/AdventureArena20260923/original-field/original-board-receipt.json",
+      "sha256": "6cb20628e9a5a4022c35d1b7503a00bc5fe559f4de0ad7ef2a5be3bb6cafb91f",
+      "bytes": 2385
+    }
+  },
+  "supersededIllustrations": {
+    "reason": "The old illustrations did not exactly depict the implemented 3D field, distinct banishment accessory, or low mate base.",
+    "originalMetadata": {
+      "schemaVersion": 1,
+      "tool": "built-in image_gen.imagegen",
+      "representation": "Generated 2D catalog illustrations, not screenshots of runtime 3D meshes.",
+      "created": "2026-09-23",
+      "previews": [
+        {
+          "id": 1099001,
+          "path": "field.png",
+          "prompt": "Use case: stylized-concept. Asset type: square catalog preview illustration for a selectable Forbidden Memories themed duel field. Reference is the original low-poly board; keep its recognizable rectangular SPLIT stepped Egyptian game-table silhouette. Create a premium clean 3/4 isometric product-style illustration of a modern version: two opposing golden limestone checkerboard halves, dark recessed central seam, low engraved central Eye of Horus motif across the middle, several downward widening sandstone steps forming the perimeter plinth, deep emerald green glazed side friezes with gold feather and eye ornament, finely beveled gold borders, subtle stone grain and restrained metallic highlights. Same simple table mass as reference; no towers or pillars, no characters, no cards, no text or logo. Fully isolated against a dark navy studio background, centered object with clear margins, readable as a compact item icon. High quality painted 3D-style raster preview, not an actual screenshot or a 3D model file. Warm gold key light with cool edge separation; authentic modern Egyptian collectible aesthetic.",
+          "reference": "User supplied original Forbidden Memories board screenshot, codex-clipboard-d794f342-0c0f-4e64-b743-d3aa2b86c10d.png",
+          "sha256": "a7c7701a0f0c7feac7287a87a24dccbc806f2391cb609a7ce0f43010c9cb0eea",
+          "width": 1254,
+          "height": 1254,
+          "mode": "RGB",
+          "acceptedAs": "Illustrative catalog preview, pending root Unity geometry acceptance"
+        },
+        {
+          "id": 1109001,
+          "path": "grave.png",
+          "prompt": "Use case: stylized-concept. Asset type: square catalog preview illustration of a Forbidden Memories themed GRAVEYARD accessory for a duel field. One compact ancient Egyptian circular stone well, 3/4isometric product view: low twelve-sided golden sandstone plinth tapering upward, a thick pale gold engraved circular rim with a deep emerald green faience band, dark recessed circular interior with a restrained luminous turquoise-blue seal, a small matching brass brazier just behind the well bearing a beautiful small blue flame. Match the same golden stepped Egyptian board and mate pedestal material family: weathered golden limestone, aged gold bevel trim, green glazed inlay, fine subtle engraved feather/eye detail. No cards, no bones, no people, no skulls, no tomb scenery, no tall columns, no letters or logos. Centered standalone object with ample clean margins on a plain deep navy studio background, warm gold key light and cool blue flame accent. Premium readable compact game item illustration. Illustrative 2D raster preview, not a Unity screenshot or actual 3D mesh.",
+          "sha256": "25877250a10291ea38232c66a190f7a57ced260c1b6155fe7d0e642315cc3e87",
+          "width": 1254,
+          "height": 1254,
+          "mode": "RGB",
+          "acceptedAs": "Illustrative catalog preview, pending root Unity geometry acceptance"
+        },
+        {
+          "id": 1119001,
+          "path": "stand.png",
+          "prompt": "Use case: stylized-concept. Asset type: square catalog preview illustration of a Forbidden Memories themed MATE BASE accessory. One small empty ancient Egyptian pedestal, viewed in polished3/4isometric product perspective. Three downward-widening square golden sandstone steps, a circular pale gold flat platform on top with a thick engraved gold rim, thin deep emerald green glazed circular inlay, tiny gold radial tick marks and an Eye of Horus ornament. This is the matching mate base for the split stepped gold-and-green Forbidden Memories board, same material palette. No creature on it, no cards, no spikes or tall columns. Precisely beveled stone edges, fine warm sandstone grain, gold metal details, cool subtle edge light. Centered isolated object with ample space against plain deep navy studio background. Premium readable item-icon illustration, no words, no labels, no watermark. This is an illustrative raster preview, not a Unity screenshot or a 3D model file. Keep silhouette simple, broad and sturdy.",
+          "sha256": "0b0818655b27411bc22e386d9f6d0e6db9a3ae429a2cf14969636bbb0cc9660d",
+          "width": 1254,
+          "height": 1254,
+          "mode": "RGB",
+          "acceptedAs": "Illustrative catalog preview, pending root Unity geometry acceptance"
+        }
+      ]
+    },
+    "backupDirectory": "Library/Codex_QA/AdventureArena20260923/arena/catalog-promotion-20260924T063221007660Z/before",
+    "backups": [
+      {
+        "path": "Library/Codex_QA/AdventureArena20260923/arena/catalog-promotion-20260924T063221007660Z/before/generated-art.json",
+        "sha256": "52ecd96c996a5a33492e88ee1ef72159d9aedbfa3c34bdff8d5cd29b0b2ba34f",
+        "bytes": 4562
+      },
+      {
+        "path": "Library/Codex_QA/AdventureArena20260923/arena/catalog-promotion-20260924T063221007660Z/before/field.png",
+        "sha256": "a7c7701a0f0c7feac7287a87a24dccbc806f2391cb609a7ce0f43010c9cb0eea",
+        "bytes": 2070025
+      },
+      {
+        "path": "Library/Codex_QA/AdventureArena20260923/arena/catalog-promotion-20260924T063221007660Z/before/grave.png",
+        "sha256": "25877250a10291ea38232c66a190f7a57ced260c1b6155fe7d0e642315cc3e87",
+        "bytes": 2211632
+      },
+      {
+        "path": "Library/Codex_QA/AdventureArena20260923/arena/catalog-promotion-20260924T063221007660Z/before/stand.png",
+        "sha256": "0b0818655b27411bc22e386d9f6d0e6db9a3ae429a2cf14969636bbb0cc9660d",
+        "bytes": 2104454
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+# Preserve original native card resource bytes across checkouts.
+* -text
+*.bytes -diff
+*.txt -diff
