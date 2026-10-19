@@ -33,4 +33,5 @@ Debug.PreAddCounter(m12,0x1F,3)
 Debug.PreAddCounter(m14,0x1F,3)
 
 Debug.ReloadFieldEnd()
+Debug.ShowHint("Win this turn.")
 aux.BeginPuzzle()

@@ -56,10 +56,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\01 Warriors of Darkness.lua",
       "destination": "Puzzles/[WCS2006]01_Warriors of Darkness.lua",
       "sourceSha256": "c04d2f589f2ea8fc2bd582dafe1e7a4d54c8d487cdf943618beb38ff717cd9d7",
-      "sha256": "c04d2f589f2ea8fc2bd582dafe1e7a4d54c8d487cdf943618beb38ff717cd9d7",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 873,
+      "sha256": "f2218d67ea6d2fa3d10a2bf9cead304267ae695420cc3d88f332c75210c8ae64",
+      "retainedOriginal": "Originals/[WCS2006]01_Warriors of Darkness.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 906,
       "originalScan": {
         "cardReferences": 10,
         "uniqueCards": 9,
@@ -87,7 +94,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -106,10 +114,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\02 Close-Up Conjuring.lua",
       "destination": "Puzzles/[WCS2006]02_Close-Up Conjuring.lua",
       "sourceSha256": "24ccceada322fee0eacf62c8c543181f130af7685797d93fe198b90cd0e3081a",
-      "sha256": "24ccceada322fee0eacf62c8c543181f130af7685797d93fe198b90cd0e3081a",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 1035,
+      "sha256": "d29303d88c3e49bb7877909b628e028b3352c3cf196ce65599c892b2a18e1a8a",
+      "retainedOriginal": "Originals/[WCS2006]02_Close-Up Conjuring.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1068,
       "originalScan": {
         "cardReferences": 13,
         "uniqueCards": 12,
@@ -137,7 +152,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -156,10 +172,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\03 Ancient Mechanism.lua",
       "destination": "Puzzles/[WCS2006]03_Ancient Mechanism.lua",
       "sourceSha256": "5633b828101613008e38003cef5d42d31a2c15471bed0541d8c94407bf0fbe02",
-      "sha256": "5633b828101613008e38003cef5d42d31a2c15471bed0541d8c94407bf0fbe02",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 743,
+      "sha256": "f856152a879dd71b7bba69a52b104e2788b0910e84cdb8995cf97e2142ea80c8",
+      "retainedOriginal": "Originals/[WCS2006]03_Ancient Mechanism.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 776,
       "originalScan": {
         "cardReferences": 8,
         "uniqueCards": 8,
@@ -187,7 +210,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -206,10 +230,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\04 Open Fire.lua",
       "destination": "Puzzles/[WCS2006]04_Open Fire.lua",
       "sourceSha256": "51b412d046fccb82e7c7ad426af1d61b177ea19cda94c1e6d58de0245a709f8f",
-      "sha256": "51b412d046fccb82e7c7ad426af1d61b177ea19cda94c1e6d58de0245a709f8f",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 571,
+      "sha256": "db434d6da101e5d2d7a769ba5aa419b331878d68c200b0f1d12fe706f3431c9b",
+      "retainedOriginal": "Originals/[WCS2006]04_Open Fire.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 604,
       "originalScan": {
         "cardReferences": 5,
         "uniqueCards": 5,
@@ -237,7 +268,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -256,10 +288,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\05 Defeat The Three Phantoms.lua",
       "destination": "Puzzles/[WCS2006]05_Defeat The Three Phantoms.lua",
       "sourceSha256": "3099f2caf99412237cb78ae9b53da4e854c69c9fa3758b1867d416adf233fcd9",
-      "sha256": "3099f2caf99412237cb78ae9b53da4e854c69c9fa3758b1867d416adf233fcd9",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 1289,
+      "sha256": "a35c873f4c43c481f1da8346858a4868e30e82a4096156a6fb1bee700ed46d18",
+      "retainedOriginal": "Originals/[WCS2006]05_Defeat The Three Phantoms.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\r\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1323,
       "originalScan": {
         "cardReferences": 16,
         "uniqueCards": 16,
@@ -287,7 +326,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -300,10 +340,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\06 Achilles Heel.lua",
       "destination": "Puzzles/[WCS2006]06_Achilles Heel.lua",
       "sourceSha256": "51463c3b47910568b37d9127ee46095eb4222e7a4ee0e5cf32e6f04ff9b24850",
-      "sha256": "51463c3b47910568b37d9127ee46095eb4222e7a4ee0e5cf32e6f04ff9b24850",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 1206,
+      "sha256": "c127e32addd20ad258ce22d484b097e53b08b3cc622213c6e1533d1237fadb9a",
+      "retainedOriginal": "Originals/[WCS2006]06_Achilles Heel.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1239,
       "originalScan": {
         "cardReferences": 16,
         "uniqueCards": 16,
@@ -331,7 +378,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -402,10 +450,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\08 Eternal Flame.lua",
       "destination": "Puzzles/[WCS2006]08_Eternal Flame.lua",
       "sourceSha256": "8ed132dfad5b1eb964d14c1bd8394273ca0c2caeed18d6241094ada8ca30dc02",
-      "sha256": "8ed132dfad5b1eb964d14c1bd8394273ca0c2caeed18d6241094ada8ca30dc02",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 746,
+      "sha256": "12099f4ff9962e1e1c28ccf3d7dd97c72706170286d7b4dfb51a41965e32f056",
+      "retainedOriginal": "Originals/[WCS2006]08_Eternal Flame.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 779,
       "originalScan": {
         "cardReferences": 8,
         "uniqueCards": 8,
@@ -433,7 +488,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -452,10 +508,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\09 Frog Family.lua",
       "destination": "Puzzles/[WCS2006]09_Frog Family.lua",
       "sourceSha256": "dbfdbbec9feb9b0ae60abff21fd693d53a567a4db9a122fe8986c9a504f65f99",
-      "sha256": "dbfdbbec9feb9b0ae60abff21fd693d53a567a4db9a122fe8986c9a504f65f99",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 1135,
+      "sha256": "d409ee23d3d5fc5dd7ad290f9c2af7cf5befe83bb38e97334cb24b9c8a2335df",
+      "retainedOriginal": "Originals/[WCS2006]09_Frog Family.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1168,
       "originalScan": {
         "cardReferences": 15,
         "uniqueCards": 10,
@@ -483,7 +546,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -502,10 +566,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\10 Equip Power.lua",
       "destination": "Puzzles/[WCS2006]10_Equip Power.lua",
       "sourceSha256": "787a9fc7d9b40bce712aeda10dc4d19decdc0ee77f07bb6dd07259be7cf35c4a",
-      "sha256": "787a9fc7d9b40bce712aeda10dc4d19decdc0ee77f07bb6dd07259be7cf35c4a",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 892,
+      "sha256": "936cddb92f664d2f051ccdf66eb09451fdd016884329ea545bc59b6c68c60b7e",
+      "retainedOriginal": "Originals/[WCS2006]10_Equip Power.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 925,
       "originalScan": {
         "cardReferences": 8,
         "uniqueCards": 8,
@@ -535,7 +606,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -554,10 +626,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\11 Eliminate FGD.lua",
       "destination": "Puzzles/[WCS2006]11_Eliminate F.G.D..lua",
       "sourceSha256": "ee25753c26b9740e96b2fb68e9e9f261abf7de90f035eba7f756f9c6836aca24",
-      "sha256": "ee25753c26b9740e96b2fb68e9e9f261abf7de90f035eba7f756f9c6836aca24",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 1603,
+      "sha256": "82e5df478a3e1d33558c6db566d7eae66747d92163665b5b2673d55c8e218c26",
+      "retainedOriginal": "Originals/[WCS2006]11_Eliminate F.G.D..lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1636,
       "originalScan": {
         "cardReferences": 23,
         "uniqueCards": 14,
@@ -585,7 +664,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -604,10 +684,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\12 Anteater Hunter.lua",
       "destination": "Puzzles/[WCS2006]12_Anteater Hunter.lua",
       "sourceSha256": "8da85ae73f37ae3249837d6a5a451da2bd70de29fb30840c247eb3bbe58c0af7",
-      "sha256": "8da85ae73f37ae3249837d6a5a451da2bd70de29fb30840c247eb3bbe58c0af7",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 986,
+      "sha256": "e52e23e883f484f6518a08606b44776a1e48b5f219d2a2a92d62e7d083e3e23c",
+      "retainedOriginal": "Originals/[WCS2006]12_Anteater Hunter.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1019,
       "originalScan": {
         "cardReferences": 12,
         "uniqueCards": 10,
@@ -635,7 +722,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -654,10 +742,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\13 The Elemental Hero.lua",
       "destination": "Puzzles/[WCS2006]13_The Elemental Hero.lua",
       "sourceSha256": "4809d84aeb38647ec1e968ad5fc8c7d32477e4528652d80c901d497fe8c40e08",
-      "sha256": "4809d84aeb38647ec1e968ad5fc8c7d32477e4528652d80c901d497fe8c40e08",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 1037,
+      "sha256": "b961d446270b8cb10d876ec955840562261a40bc48aae53707ab669587192f2d",
+      "retainedOriginal": "Originals/[WCS2006]13_The Elemental Hero.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1070,
       "originalScan": {
         "cardReferences": 13,
         "uniqueCards": 12,
@@ -685,7 +780,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -704,10 +800,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\14 Fight to the Death.lua",
       "destination": "Puzzles/[WCS2006]14_Fight to the Death.lua",
       "sourceSha256": "1199e08aa152e482b4adfc4fb4bcd7c79676198b7394ab8fefae51a7a82b16aa",
-      "sha256": "1199e08aa152e482b4adfc4fb4bcd7c79676198b7394ab8fefae51a7a82b16aa",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 1142,
+      "sha256": "aad95ae78760ccdfea587317e1a7867c12b56f49cc8ed7b17dbd9ecede697393",
+      "retainedOriginal": "Originals/[WCS2006]14_Fight to the Death.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\r\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1176,
       "originalScan": {
         "cardReferences": 13,
         "uniqueCards": 13,
@@ -737,7 +840,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -750,10 +854,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\15 Towards Tomorrow.lua",
       "destination": "Puzzles/[WCS2006]15_Towards Tomorrow.lua",
       "sourceSha256": "6302c1c10c2816d77d05ab3027197e7c8424141897a270698edfaab95ea55c99",
-      "sha256": "6302c1c10c2816d77d05ab3027197e7c8424141897a270698edfaab95ea55c99",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 1375,
+      "sha256": "c6726b1b60018e7ce39ad4aab49a935eb5b8e6c3ad49af7496acd0fc0a70821f",
+      "retainedOriginal": "Originals/[WCS2006]15_Towards Tomorrow.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1408,
       "originalScan": {
         "cardReferences": 18,
         "uniqueCards": 18,
@@ -781,7 +892,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -800,10 +912,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\16 Roll Out.lua",
       "destination": "Puzzles/[WCS2006]16_Roll Out.lua",
       "sourceSha256": "51a85529d576332b5c1c4f7fa25ded03bb3e7dbeb81966f36accc1c02b5bd2ba",
-      "sha256": "51a85529d576332b5c1c4f7fa25ded03bb3e7dbeb81966f36accc1c02b5bd2ba",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 611,
+      "sha256": "f677664f4053ab8930df0ae9adf5dcefb6cbcf6cc38985a05d784c935977a09e",
+      "retainedOriginal": "Originals/[WCS2006]16_Roll Out.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\r\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 645,
       "originalScan": {
         "cardReferences": 6,
         "uniqueCards": 6,
@@ -829,7 +948,8 @@
           "AddCard",
           "ReloadFieldBegin",
           "ReloadFieldEnd",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -842,10 +962,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\17 To Catch a Sheep.lua",
       "destination": "Puzzles/[WCS2006]17_To Catch a Sheep.lua",
       "sourceSha256": "adec8e03cd36d1ff15f3b6debf7af2f1519498007d13351dc6604e92dd09be6f",
-      "sha256": "adec8e03cd36d1ff15f3b6debf7af2f1519498007d13351dc6604e92dd09be6f",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 1127,
+      "sha256": "f77d161f9a649488bc8c267e0a94c8c7f5cf3be7334359511d7febd21bd7860d",
+      "retainedOriginal": "Originals/[WCS2006]17_To Catch a Sheep.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1160,
       "originalScan": {
         "cardReferences": 14,
         "uniqueCards": 11,
@@ -873,7 +1000,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -892,10 +1020,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\18 Wall of Zoa.lua",
       "destination": "Puzzles/[WCS2006]18_Wall of Zoa.lua",
       "sourceSha256": "105bffdda148272748d11d007728a67518d925b7bc0d6aa2ce618abd3116d033",
-      "sha256": "105bffdda148272748d11d007728a67518d925b7bc0d6aa2ce618abd3116d033",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 1050,
+      "sha256": "25aaf0759a4de0291bf7bab1d8ddf47701edca5e0f47b0123bffc7d8b10d52d8",
+      "retainedOriginal": "Originals/[WCS2006]18_Wall of Zoa.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1083,
       "originalScan": {
         "cardReferences": 13,
         "uniqueCards": 9,
@@ -923,7 +1058,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -942,10 +1078,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\19 vwxyz.lua",
       "destination": "Puzzles/[WCS2006]19_vwxyz.lua",
       "sourceSha256": "cd50071ebfa97ef72ed84dabc29a23e4b53a5be39474bfdca92c07a228801072",
-      "sha256": "cd50071ebfa97ef72ed84dabc29a23e4b53a5be39474bfdca92c07a228801072",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 1099,
+      "sha256": "15e36a417de687212df7a7478da814ee7efa283a96a6bd3d0a0b06670f6f1a16",
+      "retainedOriginal": "Originals/[WCS2006]19_vwxyz.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1132,
       "originalScan": {
         "cardReferences": 14,
         "uniqueCards": 13,
@@ -973,7 +1116,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -992,10 +1136,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\20 Beginning of the End.lua",
       "destination": "Puzzles/[WCS2006]20_Beginning of the End.lua",
       "sourceSha256": "762b7015873a0cd8ae7695c7400fb23b5554c36bd42b16bde107509b0b4b1129",
-      "sha256": "762b7015873a0cd8ae7695c7400fb23b5554c36bd42b16bde107509b0b4b1129",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 987,
+      "sha256": "5f4dabff26e4bde5b1d0743546f4a7027ffb1f341ba0e0ad61f128b3cc2bda0d",
+      "retainedOriginal": "Originals/[WCS2006]20_Beginning of the End.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1020,
       "originalScan": {
         "cardReferences": 12,
         "uniqueCards": 12,
@@ -1023,7 +1174,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -1042,10 +1194,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\21 Wriggle Out of That.lua",
       "destination": "Puzzles/[WCS2006]21_Wriggle Out of That.lua",
       "sourceSha256": "0c8968d9eaf5629504847cd95113f9681a4f6db06cecb3fb3f324eb6162588e0",
-      "sha256": "0c8968d9eaf5629504847cd95113f9681a4f6db06cecb3fb3f324eb6162588e0",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 993,
+      "sha256": "1ec52a734e7d4517d07e31f5eb5f9c1e1f2e2814b1beb561c009a29232653664",
+      "retainedOriginal": "Originals/[WCS2006]21_Wriggle Out of That.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1026,
       "originalScan": {
         "cardReferences": 12,
         "uniqueCards": 12,
@@ -1073,7 +1232,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -1092,10 +1252,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\22 Commence Counterattack.lua",
       "destination": "Puzzles/[WCS2006]22_Commence Counterattack.lua",
       "sourceSha256": "a40f3a06cc44e58c19f166e14ab11c8c559d39fe68f1a80debf294fe2d42395b",
-      "sha256": "a40f3a06cc44e58c19f166e14ab11c8c559d39fe68f1a80debf294fe2d42395b",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 1339,
+      "sha256": "fc29598f3fa5261f383b7a15cf423b3a81b9f5f3796b421229e2ee7393d34587",
+      "retainedOriginal": "Originals/[WCS2006]22_Commence Counterattack.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1372,
       "originalScan": {
         "cardReferences": 17,
         "uniqueCards": 17,
@@ -1125,7 +1292,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -1144,10 +1312,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\23 Break the Seal.lua",
       "destination": "Puzzles/[WCS2006]23_Break the Seal.lua",
       "sourceSha256": "5ba38d8d87eb1d85b458b57854ec78423b3ae6321e39953997ff5d60ec5de501",
-      "sha256": "5ba38d8d87eb1d85b458b57854ec78423b3ae6321e39953997ff5d60ec5de501",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 973,
+      "sha256": "00bd1f99ae85fc376d954b1084735a5aebdb3d8944012a4b3da853be292e47b4",
+      "retainedOriginal": "Originals/[WCS2006]23_Break the Seal.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1006,
       "originalScan": {
         "cardReferences": 12,
         "uniqueCards": 12,
@@ -1175,7 +1350,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -1194,10 +1370,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\24 Dragon Killer.lua",
       "destination": "Puzzles/[WCS2006]24_Dragon Killer.lua",
       "sourceSha256": "a45e63be5df21b17476a56dd2754b6dd5c88087346934630ec7cc5ad407bff5d",
-      "sha256": "a45e63be5df21b17476a56dd2754b6dd5c88087346934630ec7cc5ad407bff5d",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 1881,
+      "sha256": "474344572fff7efd2008c490af46eda665567ab3618af7a8461b897e5ee3d1c9",
+      "retainedOriginal": "Originals/[WCS2006]24_Dragon Killer.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\r\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1915,
       "originalScan": {
         "cardReferences": 22,
         "uniqueCards": 18,
@@ -1227,7 +1410,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -1246,10 +1430,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\25 Battleship Down.lua",
       "destination": "Puzzles/[WCS2006]25_Battleship Down.lua",
       "sourceSha256": "f28b243ff0162cf9ff4f71916b0b24c5e4f5af99e5a4821f1f73ce61fdc01e52",
-      "sha256": "f28b243ff0162cf9ff4f71916b0b24c5e4f5af99e5a4821f1f73ce61fdc01e52",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 1484,
+      "sha256": "037a816cb648dc10093fe42f3f58488cd586e213444587bfe12965aeb158e0d6",
+      "retainedOriginal": "Originals/[WCS2006]25_Battleship Down.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1517,
       "originalScan": {
         "cardReferences": 18,
         "uniqueCards": 16,
@@ -1279,7 +1470,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -1298,10 +1490,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\26 Indomitable Spirit.lua",
       "destination": "Puzzles/[WCS2006]26_Indomitable Spirit.lua",
       "sourceSha256": "23fe0200d1231a09914d2ef3dbff045f426f72830ed6f5b3b24d9363007dba9b",
-      "sha256": "23fe0200d1231a09914d2ef3dbff045f426f72830ed6f5b3b24d9363007dba9b",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 817,
+      "sha256": "918ed848b39fe9a05971af9f2f13fc83fbd4e5f16c9595375211beaf2f6e178a",
+      "retainedOriginal": "Originals/[WCS2006]26_Indomitable Spirit.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 850,
       "originalScan": {
         "cardReferences": 9,
         "uniqueCards": 9,
@@ -1329,7 +1528,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -1348,10 +1548,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\27 A Hero's Welcome.lua",
       "destination": "Puzzles/[WCS2006]27_A Hero's Welcome.lua",
       "sourceSha256": "c4f68e4006c5fdc71a917f74ae18520be351a5aabffde40d5bf58332197eb9ef",
-      "sha256": "c4f68e4006c5fdc71a917f74ae18520be351a5aabffde40d5bf58332197eb9ef",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 795,
+      "sha256": "346a1ec34039078e33c4b02860586c1f07e0aca61a0746a154034d2dd62a75a0",
+      "retainedOriginal": "Originals/[WCS2006]27_A Hero's Welcome.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 828,
       "originalScan": {
         "cardReferences": 9,
         "uniqueCards": 9,
@@ -1379,7 +1586,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -1398,10 +1606,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\28 Summit Showdown.lua",
       "destination": "Puzzles/[WCS2006]28_Summit Showdown.lua",
       "sourceSha256": "7a8435165e82e2a45b47710d8c1bb77e29493c5dab44724af90ffbe3e58d2b08",
-      "sha256": "7a8435165e82e2a45b47710d8c1bb77e29493c5dab44724af90ffbe3e58d2b08",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 1590,
+      "sha256": "4925f8a6077244a4caa22561277482290c78e9114c6256f2b1ec3a18a9e7e79c",
+      "retainedOriginal": "Originals/[WCS2006]28_Summit Showdown.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1623,
       "originalScan": {
         "cardReferences": 22,
         "uniqueCards": 16,
@@ -1431,7 +1646,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -1450,10 +1666,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\29 A Hero's Farewell.lua",
       "destination": "Puzzles/[WCS2006]29_A Hero's Farewell.lua",
       "sourceSha256": "db64c564d838c3a408d61036a83be895e073b876f8c70d9bab95cf7db45971f4",
-      "sha256": "db64c564d838c3a408d61036a83be895e073b876f8c70d9bab95cf7db45971f4",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 1324,
+      "sha256": "c5cde83c480cbd69871822ccd4031bc0275c3b8e2b84b490a2aafb7314895b3f",
+      "retainedOriginal": "Originals/[WCS2006]29_A Hero's Farewell.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1357,
       "originalScan": {
         "cardReferences": 18,
         "uniqueCards": 18,
@@ -1481,7 +1704,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -1500,10 +1724,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\30 Trio of Sheep.lua",
       "destination": "Puzzles/[WCS2006]30_Trio of Sheep.lua",
       "sourceSha256": "7e1d222357734c592c51a729eae54b374fbe1411821475661eaaf53a7cb77415",
-      "sha256": "7e1d222357734c592c51a729eae54b374fbe1411821475661eaaf53a7cb77415",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 1130,
+      "sha256": "a6af18cbda84a2b96f4da463111063b364dfaf3122e8a958c4627fbf89ba41dd",
+      "retainedOriginal": "Originals/[WCS2006]30_Trio of Sheep.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1163,
       "originalScan": {
         "cardReferences": 14,
         "uniqueCards": 12,
@@ -1531,7 +1762,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -1550,10 +1782,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\31 Splendorous Dance.lua",
       "destination": "Puzzles/[WCS2006]31_Splendorous Dance.lua",
       "sourceSha256": "3e146cc12e39e6aebbbf01d9a230fa73c5ae367cdac51b5b87d18339235d9f86",
-      "sha256": "3e146cc12e39e6aebbbf01d9a230fa73c5ae367cdac51b5b87d18339235d9f86",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 1051,
+      "sha256": "c5915b0d589a7f77f66b9047096111263bc0ec9c899c268ea8dc8970e087d438",
+      "retainedOriginal": "Originals/[WCS2006]31_Splendorous Dance.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1084,
       "originalScan": {
         "cardReferences": 13,
         "uniqueCards": 12,
@@ -1581,7 +1820,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -1600,10 +1840,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\32 Revenge of Shien.lua",
       "destination": "Puzzles/[WCS2006]32_Revenge of Shien.lua",
       "sourceSha256": "b9accbff0db2d4b0148efddd39e2cdb419ec25221abc3930bb5e9f48b3e2cb96",
-      "sha256": "b9accbff0db2d4b0148efddd39e2cdb419ec25221abc3930bb5e9f48b3e2cb96",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 1668,
+      "sha256": "ac8eebfa233c736fa61d6868d6986f35e1698579937343374d721f00f03a5715",
+      "retainedOriginal": "Originals/[WCS2006]32_Revenge of Shien.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\r\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1702,
       "originalScan": {
         "cardReferences": 23,
         "uniqueCards": 20,
@@ -1629,7 +1876,8 @@
           "AddCard",
           "ReloadFieldBegin",
           "ReloadFieldEnd",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -1642,10 +1890,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\33 Match Point.lua",
       "destination": "Puzzles/[WCS2006]33_Match Point.lua",
       "sourceSha256": "941d11c25fe5bcc72a520a7f15ae1573df6221186b32c42265104a3fa61b3bb5",
-      "sha256": "941d11c25fe5bcc72a520a7f15ae1573df6221186b32c42265104a3fa61b3bb5",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 1565,
+      "sha256": "b3522757817e09382c743125b2437005e6998cdb3acf0bf9d6e931e740555619",
+      "retainedOriginal": "Originals/[WCS2006]33_Match Point.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1598,
       "originalScan": {
         "cardReferences": 22,
         "uniqueCards": 22,
@@ -1673,7 +1928,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -1692,10 +1948,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\34 Riddle Challenge.lua",
       "destination": "Puzzles/[WCS2006]34_Riddle Challenge.lua",
       "sourceSha256": "8fe6b9ffacbf6c25ff03c0a3816b7e581832a8aefdf947332a04627bd910a4b2",
-      "sha256": "8fe6b9ffacbf6c25ff03c0a3816b7e581832a8aefdf947332a04627bd910a4b2",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 1287,
+      "sha256": "8a84222e6b3fe2e5b8d061128580ac9b32e96f45f4a7e36007bbc6fac44a2a4b",
+      "retainedOriginal": "Originals/[WCS2006]34_Riddle Challenge.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 1320,
       "originalScan": {
         "cardReferences": 17,
         "uniqueCards": 17,
@@ -1723,7 +1986,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],
@@ -1742,10 +2006,17 @@
       "source": "D:\\Programs\\GitHub\\MDPro4-Starter-Pack\\Puzzle\\WCS2006\\35 Interdimensional Invitation.lua",
       "destination": "Puzzles/[WCS2006]35_Interdimensional Invitation.lua",
       "sourceSha256": "1b7cac5ae1f1833727f6eff8e38e69d34bf641937166e7a8fe2833675f64076a",
-      "sha256": "1b7cac5ae1f1833727f6eff8e38e69d34bf641937166e7a8fe2833675f64076a",
-      "retainedOriginal": null,
-      "corrections": [],
-      "size": 2549,
+      "sha256": "379dc425411565cb19545c6b07067bdfbcb31b8e645940b1b0ba5c2ce6da58b7",
+      "retainedOriginal": "Originals/[WCS2006]35_Interdimensional Invitation.lua",
+      "corrections": [
+        {
+          "from": "aux.BeginPuzzle()",
+          "to": "Debug.ShowHint(\"Win this turn.\")\r\naux.BeginPuzzle()",
+          "occurrences": 1,
+          "reason": "Display the collection's existing one-turn victory objective; the source omits its in-duel hint."
+        }
+      ],
+      "size": 2583,
       "originalScan": {
         "cardReferences": 37,
         "uniqueCards": 27,
@@ -1773,7 +2044,8 @@
           "ReloadFieldBegin",
           "ReloadFieldEnd",
           "SetAIName",
-          "SetPlayerInfo"
+          "SetPlayerInfo",
+          "ShowHint"
         ],
         "unreviewedDebugMethods": [],
         "undefinedConstants": [],

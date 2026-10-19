@@ -21,4 +21,5 @@ Debug.PreEquip(s02, m02)
 Debug.PreEquip(s03, m03)
 
 Debug.ReloadFieldEnd()
+Debug.ShowHint("Win this turn.")
 aux.BeginPuzzle()

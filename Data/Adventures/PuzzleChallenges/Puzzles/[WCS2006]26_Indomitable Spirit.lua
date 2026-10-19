@@ -20,4 +20,5 @@ Debug.AddCard(41356845,0,0,LOCATION_SZONE,3,POS_FACEDOWN)
 Debug.AddCard(04206964,1,1,LOCATION_SZONE,2,POS_FACEDOWN)
 
 Debug.ReloadFieldEnd()
+Debug.ShowHint("Win this turn.")
 aux.BeginPuzzle()
