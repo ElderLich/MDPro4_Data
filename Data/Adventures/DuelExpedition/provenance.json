@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "333096bc475ec7d01205e948308681b4a86b167d",
+  "rules": "Current ocgcore rules, 8000 LP, one duel per encounter, no banlist; normal main/extra/copy limits. Historical AI decks are not asserted legal under a current competitive banlist.",
+  "opponents": [
+    {
+      "executor": "MokeyMokey",
+      "deck": "Data/WindBot/Decks/AI_MokeyMokey.ydk",
+      "sha256": "443449bd5e249a62d906dea06f4ed0ba5690eea30722963fa04737ff383ebb28",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/MokeyMokeyExecutor.cs",
+      "sourceSha256": "f3768b13fa28fa0cf8b558790dc8f7f34427b4771b8de88b59805a910af2a27f",
+      "sideCardsOmitted": 0
+    },
+    {
+      "executor": "MokeyMokeyKing",
+      "deck": "Data/WindBot/Decks/AI_MokeyMokeyKing.ydk",
+      "sha256": "879e153a18c9380eabe70ef715780e6f0ab1ccbd082df6265f6897037317a08b",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/MokeyMokeyKingExecutor.cs",
+      "sourceSha256": "2bd3999ba3a023a8a8b63a0c63c93a36c1731c6400e4d274d37d9b997f4e0f13",
+      "sideCardsOmitted": 0
+    },
+    {
+      "executor": "OldSchool",
+      "deck": "Data/WindBot/Decks/AI_OldSchool.ydk",
+      "sha256": "1b1f411fcfc7d187c7478855ee7c8e462dc03d33065b2fabb706756b22e84469",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/OldSchoolExecutor.cs",
+      "sourceSha256": "d3f2baff435e3cc340b294915d771a4d870576cf51abbda4af3c06842e9eb913",
+      "sideCardsOmitted": 0
+    },
+    {
+      "executor": "Frog",
+      "deck": "Data/WindBot/Decks/AI_Frog.ydk",
+      "sha256": "52c8246e943a0a747982786798b92a9de1162e1986560fc6d61e71840132c3b1",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/FrogExecutor.cs",
+      "sourceSha256": "ed99bbd1c40ce14e7bde70c5fca9a75b1370e2e9441082172469bb432bff7f71",
+      "sideCardsOmitted": 0
+    },
+    {
+      "executor": "Horus",
+      "deck": "Data/WindBot/Decks/AI_Horus.ydk",
+      "sha256": "565f679b8e69929726fe28e312ace88d83b3f799def4acbcc7ced75ca03bb329",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/HorusExecutor.cs",
+      "sourceSha256": "dd690c2341e8ecf483fc8b6d4e2802c927f146e0413c2a62492d06d71de1d313",
+      "sideCardsOmitted": 0
+    },
+    {
+      "executor": "Monarch506",
+      "deck": "Data/WindBot/Decks/AI_Monarch506.ydk",
+      "sha256": "73fd3be3de176046e442226565afc89f2d594cf8e02eb34757fee08ac9b67547",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/Monarch506Executor.cs",
+      "sourceSha256": "54c90afaf7e8b75a650ef6f1f946fea3346030b8b2a221fd5cf93d527c7ec64a",
+      "sideCardsOmitted": 0
+    },
+    {
+      "executor": "Blue-Eyes",
+      "deck": "Data/WindBot/Decks/AI_BlueEyes.ydk",
+      "sha256": "7cf4d0f550150ef24583f91744e49a160e9ac121cf10765593f9cd307335c1a1",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/BlueEyesExecutor.cs",
+      "sourceSha256": "6c35049ae9ea81ef7a6040ba1fa73221661548bc8ac044f7d45d27c1ed32f0b8",
+      "sideCardsOmitted": 0
+    }
+  ],
+  "starters": "Authored for this Expedition. Each starts with 40 Main Deck cards and summonable Extra Deck options. Card IDs resolve through the installed English database.",
+  "rewards": "Three coherent themed bundles per starter plus four universal support bundles. Each starter has seven eligible bundles. Claimed bundles are retired within a run, leaving three choices for the fifth reward. Cards join only the run collection; the active deck remains player-edited. Fusion, Synchro and Xyz packages include materials or use starter cards.",
+  "balance": "Source registration, card availability and dependency checks only. Opponent progression and reward balance require real player playthroughs; no cross-platform gameplay acceptance is implied.",
+  "summonDependencies": [
+    {
+      "starter": "dragons",
+      "extra": 40908371,
+      "requiredMain": [
+        79814787,
+        89631139
+      ]
+    },
+    {
+      "starter": "heroes",
+      "extra": 35809262,
+      "requiredMain": [
+        21844576,
+        58932615,
+        24094653
+      ]
+    },
+    {
+      "starter": "heroes",
+      "extra": 61204971,
+      "requiredMain": [
+        20721928,
+        84327329,
+        24094653
+      ]
+    },
+    {
+      "starter": "heroes",
+      "extra": 10526791,
+      "requiredMain": [
+        86188410,
+        59793705,
+        24094653
+      ]
+    },
+    {
+      "starter": "gadgets",
+      "extra": 28912357,
+      "requiredMain": [
+        55010259,
+        41172955
+      ]
+    },
+    {
+      "starter": "gadgets",
+      "extra": 84013237,
+      "requiredMain": [
+        55010259,
+        86445415
+      ]
+    },
+    {
+      "starter": "gadgets",
+      "extra": 49121795,
+      "requiredMain": [
+        29021114,
+        13839120
+      ]
+    },
+    {
+      "starter": "dragons",
+      "reward": "dragon-consistency",
+      "extra": 59822133,
+      "requiredMain": [
+        8240199,
+        89631139
+      ]
+    },
+    {
+      "starter": "dragons",
+      "reward": "dragon-power",
+      "extra": 59822133,
+      "requiredMain": [
+        71039903,
+        38517737
+      ]
+    },
+    {
+      "starter": "heroes",
+      "reward": "hero-light",
+      "extra": 22061412,
+      "requiredMain": [
+        69884162,
+        86188410,
+        24094653
+      ]
+    },
+    {
+      "starter": "heroes",
+      "reward": "hero-elements",
+      "extra": 40854197,
+      "requiredMain": [
+        37195861,
+        86188410,
+        24094653
+      ]
+    },
+    {
+      "starter": "heroes",
+      "reward": "hero-elements",
+      "extra": 1945387,
+      "requiredMain": [
+        98266377,
+        86188410,
+        24094653
+      ]
+    },
+    {
+      "starter": "gadgets",
+      "reward": "gadget-rankup",
+      "extra": 56832966,
+      "requiredMain": [
+        55010259,
+        41172955
+      ],
+      "requiredExtra": [
+        84013237,
+        56840427
+      ]
+    }
+  ],
+  "artwork": "The game UI owns the shared Resources/Adventures/Expedition/Sanctuary texture. This package does not declare or own a loose artwork file."
+}
