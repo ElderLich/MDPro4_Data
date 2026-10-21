@@ -1,6 +1,6 @@
 # Combo Sheet examples
 
-`Examples/` contains three offline teaching sheets in the same bounded schema as
+`Examples/` contains two offline teaching sheets in the same bounded schema as
 community submissions. They are available without an account. Copy an example
 to a local draft to edit it; opening or copying never publishes it.
 
@@ -15,13 +15,6 @@ to a local draft to edit it; opening or copying never publishes it.
   [Wahaby's Chaos Ritual sheet](https://www.masterduelmeta.com/spreadsheet/6a2352210d46d336afd56f52).
   This is the four-tab sheet visible in the supplied screenshot, located through
   the linked Master Duel Meta spreadsheet catalog.
-- **Enneacraft - a practical flip-control course** is an original MDPro4 guide,
-  informed by the linked Enneacraft article and checked against installed card
-  text and Lua. Its **17 guides and 78 steps** cover two exact openings, all ten
-  monster responses, the four archetype Spells, four flip-control tech cards,
-  counter arithmetic, recovery and conditional chain timing. Every guide and
-  step has an authored diagram. It is not a transcript or a claim to reproduce
-  the article's decklists. See its [content and native-core receipt](../../Tools/Online/enneacraft-course-20261021.md).
 
 The two adapted spreadsheet examples contain **24 guides/variants and 339 instructional steps**,
 independently written from the observed procedures. Chimera's source has no
@@ -37,11 +30,11 @@ entries explain branch decisions, restrictions or matching-type references and
 retain their complete instructions and inspectable card lists. No steps or
 variants were removed.
 
-Including the original Enneacraft course, the library now has **41 guides and
-417 steps**, with **408 step diagrams**. Its field-state lessons explicitly
-label pre-existing face-down monsters, Pendulum Zones, GY resources and opposing
-requirements instead of presenting every diagram as an opening hand. An unknown
-draw is a generic annotated card, never a guaranteed reward from a random draw.
+The original **Enneacraft - a practical flip-control course** was moved to the
+author's local **My combo sheets** library at their request. Its 17 guides and
+78 steps are no longer bundled in Examples. A Tools-only content fixture and
+[native-core receipt](../../Tools/Online/enneacraft-course-20261021.md) retain the
+validation history; the author can choose when to publish their local sheet.
 
 These diagrams use authored card occurrences, connectors, actions and locations.
 A card can appear twice to show, for example, Phara being discarded by an effect
