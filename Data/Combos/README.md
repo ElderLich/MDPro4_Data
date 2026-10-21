@@ -1,6 +1,6 @@
 # Combo Sheet examples
 
-`Examples/` contains two offline teaching sheets in the same bounded schema as
+`Examples/` contains three offline teaching sheets in the same bounded schema as
 community submissions. They are available without an account. Copy an example
 to a local draft to edit it; opening or copying never publishes it.
 
@@ -15,8 +15,15 @@ to a local draft to edit it; opening or copying never publishes it.
   [Wahaby's Chaos Ritual sheet](https://www.masterduelmeta.com/spreadsheet/6a2352210d46d336afd56f52).
   This is the four-tab sheet visible in the supplied screenshot, located through
   the linked Master Duel Meta spreadsheet catalog.
+- **Enneacraft - a practical flip-control course** is an original MDPro4 guide,
+  informed by the linked Enneacraft article and checked against installed card
+  text and Lua. Its **17 guides and 78 steps** cover two exact openings, all ten
+  monster responses, the four archetype Spells, four flip-control tech cards,
+  counter arithmetic, recovery and conditional chain timing. Every guide and
+  step has an authored diagram. It is not a transcript or a claim to reproduce
+  the article's decklists. See its [content and native-core receipt](../../Tools/Online/enneacraft-course-20261021.md).
 
-Together the examples contain **24 guides/variants and 339 instructional steps**,
+The two adapted spreadsheet examples contain **24 guides/variants and 339 instructional steps**,
 independently written from the observed procedures. Chimera's source has no
 structured nested branches; its inline alternatives become explicit variants.
 Chaos branches remain conditional steps within their owning guide, including
@@ -29,6 +36,12 @@ diagrams**: all 196 Chimera steps and 134 Chaos steps. The remaining nine Chaos
 entries explain branch decisions, restrictions or matching-type references and
 retain their complete instructions and inspectable card lists. No steps or
 variants were removed.
+
+Including the original Enneacraft course, the library now has **41 guides and
+417 steps**, with **408 step diagrams**. Its field-state lessons explicitly
+label pre-existing face-down monsters, Pendulum Zones, GY resources and opposing
+requirements instead of presenting every diagram as an opening hand. An unknown
+draw is a generic annotated card, never a guaranteed reward from a random draw.
 
 These diagrams use authored card occurrences, connectors, actions and locations.
 A card can appear twice to show, for example, Phara being discarded by an effect
@@ -60,5 +73,7 @@ not a missing installed card. Notes retain relevant costs, timing, linked zones
 and restrictions, and correct source ambiguities in material counts and card
 locations. Schema/card/script checks and production example loading do not prove
 native duel execution. These guides still need human duel validation against the
-selected rules/banlist and interruption timing. Future revisions must preserve
+selected rules/banlist and interruption timing. The Enneacraft receipt records
+the smaller set of exact native-core scenarios that have now passed; it does not
+claim exhaustive execution of every guide or interruption. Future revisions must preserve
 the distinction between conditional follow-up and an established board.
