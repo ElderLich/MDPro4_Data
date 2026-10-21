@@ -58,10 +58,90 @@
       "source": "Assets/Scripts/Windbot/Game/AI/Decks/BlueEyesExecutor.cs",
       "sourceSha256": "6c35049ae9ea81ef7a6040ba1fa73221661548bc8ac044f7d45d27c1ed32f0b8",
       "sideCardsOmitted": 0
+    },
+    {
+      "executor": "Burn",
+      "deck": "Data/WindBot/Decks/AI_Burn.ydk",
+      "sha256": "367d89b754805f5cf0621cd58f8302229255836472c8f82aebf4b7c829c05749",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/BurnExecutor.cs",
+      "sourceSha256": "acb3c7a8c6ad8f2a64ebbd6f6a4c81a91ca7dce7ba28ebe34655b844fc180251",
+      "sideCardsOmitted": 0
+    },
+    {
+      "executor": "HeroBeat1103",
+      "deck": "Data/WindBot/Decks/AI_HeroBeat1103.ydk",
+      "sha256": "6ef6687292e9d213bf8cc99fcbeb377cef8201db05a991e74f036d5e0655d4e4",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/HeroBeat1103Executor.cs",
+      "sourceSha256": "a80f7d4e8c6417815723c430e45daf8b0d40ebe96690271b2ad03b4d0b2867e3",
+      "sideCardsOmitted": 0
+    },
+    {
+      "executor": "Chaos408",
+      "deck": "Data/WindBot/Decks/AI_Chaos408.ydk",
+      "sha256": "0f2d7a9179f7122f9e26deb6e18f89fa0fc3353fbee7a2fda23df0efa6f20685",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/Chaos408Executor.cs",
+      "sourceSha256": "69fe33726925480d87344fed5aaee66edeb2e519aefa0c975ebdabfa2554fcbf",
+      "sideCardsOmitted": 0
+    },
+    {
+      "executor": "DarkMagician",
+      "deck": "Data/WindBot/Decks/AI_DarkMagician.ydk",
+      "sha256": "5d017dc72cdb121b9994dff7b2a9cfa19f845113d30ba2b9f48a88b3be2ccbbf",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/DarkMagicianExecutor.cs",
+      "sourceSha256": "0557010c502a0b7b7769179f251e734dcc9353a0919f199d42e561af4cad02fd",
+      "sideCardsOmitted": 0
+    },
+    {
+      "executor": "Qliphort",
+      "deck": "Data/WindBot/Decks/AI_Qliphort.ydk",
+      "sha256": "912d96e425abda8da15431bf92d1050f3d6b7dcaef01c50f83d011b45894b29e",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/QliphortExecutor.cs",
+      "sourceSha256": "5fbfed23120634a2023cf9ecc4aefb6dabb63774bda983c4b9e61d3d09a6add3",
+      "sideCardsOmitted": 0
+    },
+    {
+      "executor": "Lightsworn",
+      "deck": "Data/WindBot/Decks/AI_Lightsworn.ydk",
+      "sha256": "611cfbc6ae779e0efba518644c9f7210e5a319a09068c2fa8fb88a6466b31792",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LightswornExecutor.cs",
+      "sourceSha256": "189d781c60f430d5ab60e50dd06e8bc7a65b56fe4c3c873ba9ce630f0d0fe8fa",
+      "sideCardsOmitted": 0
+    },
+    {
+      "executor": "BlueEyesMaxDragon",
+      "deck": "Data/WindBot/Decks/AI_BlueEyesMaxDragon.ydk",
+      "sha256": "f328338d9079e85b0416f3eec512ce4d9efd6c925d9efac187af65242af325d6",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/BlueEyesMaxDragonExecutor.cs",
+      "sourceSha256": "33fd7478f05ea33aa1f24a0fcfe57d14cf0ea6d5c58dd13a022a5d2199b46f23",
+      "sideCardsOmitted": 14
+    },
+    {
+      "executor": "Dragunity",
+      "deck": "Data/WindBot/Decks/AI_Dragunity.ydk",
+      "sha256": "e2fa5d51ddbb049d64623171a7cdf950b91e7237a42e2b2e713924c10941a064",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/DragunityExecutor.cs",
+      "sourceSha256": "127b13676990bd97720a23a8461debcf1170b7f508fa1483846d78a73d562749",
+      "sideCardsOmitted": 0
+    },
+    {
+      "executor": "TheCrimsonKing",
+      "deck": "Data/WindBot/Decks/AI_TheCrimsonKing.ydk",
+      "sha256": "4c30891c58abab2ffa227f86cf6700718b64b0dc03e182f8d2c5e6c80a851d5a",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/TheCrimsonKingExecutor.cs",
+      "sourceSha256": "402d7eea76e17f1af0162cb15375191ff9c08d05dd216eea685a7166191c9d7c",
+      "sideCardsOmitted": 0
+    },
+    {
+      "executor": "Rank8",
+      "deck": "Data/WindBot/Decks/AI_Rank8.ydk",
+      "sha256": "e87c456bf6dd6ac86b3398f15e6eaa09b41bf89971a0b75a5a3135a6d58d8770",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/Rank8Executor.cs",
+      "sourceSha256": "a92ec4a462df3444e08cfd22a932780f76d2427fc44ba650481df6f60e7f2189",
+      "sideCardsOmitted": 0
     }
   ],
   "starters": "Authored for this Expedition. Each starts with 40 Main Deck cards and summonable Extra Deck options. Card IDs resolve through the installed English database.",
-  "rewards": "Three coherent themed bundles per starter plus four universal support bundles. Each starter has seven eligible bundles. Claimed bundles are retired within a run, leaving three choices for the fifth reward. Cards join only the run collection; the active deck remains player-edited. Fusion, Synchro and Xyz packages include materials or use starter cards.",
+  "rewards": "Two selected reward paths per starter. Each path offers five exclusive packages, one shared starter package and four universal support packages (ten eligible bundles, five picks). Every offer retains a path option and support option while available. The five other-path packages cannot appear. Ownership remains clipped to three canonical copies; earned cards never automatically change the equipped deck.",
   "balance": "Source registration, card availability and dependency checks only. Opponent progression and reward balance require real player playthroughs; no cross-platform gameplay acceptance is implied.",
   "summonDependencies": [
     {
@@ -183,7 +263,228 @@
         84013237,
         56840427
       ]
+    },
+    {
+      "starter": "dragons",
+      "reward": "dragon-tuners",
+      "extra": 59822133,
+      "requiredMain": [
+        8240199,
+        89631139
+      ]
+    },
+    {
+      "starter": "dragons",
+      "reward": "dragon-ultimate-fusion",
+      "extra": 11443677,
+      "requiredMain": [
+        71143015,
+        89631139,
+        11091375
+      ]
+    },
+    {
+      "starter": "dragons",
+      "reward": "dragon-twin-fusion",
+      "extra": 2129638,
+      "requiredMain": [
+        89631139,
+        89631139
+      ]
+    },
+    {
+      "starter": "dragons",
+      "reward": "dragon-mirror-fusion",
+      "extra": 99267150,
+      "requiredMain": [
+        71490127,
+        89631139,
+        89631139,
+        89631139,
+        11091375,
+        11091375
+      ]
+    },
+    {
+      "starter": "dragons",
+      "reward": "dragon-fusion-forge",
+      "extra": 23995346,
+      "requiredMain": [
+        24094653,
+        89631139,
+        89631139,
+        89631139
+      ]
+    },
+    {
+      "starter": "dragons",
+      "reward": "dragon-neo-fusion",
+      "extra": 56532353,
+      "requiredMain": [
+        71143015,
+        89631139,
+        89631139,
+        89631139
+      ]
+    },
+    {
+      "starter": "heroes",
+      "reward": "hero-fusion-craft",
+      "extra": 16304628,
+      "requiredMain": [
+        24094653,
+        86188410,
+        84327329
+      ]
+    },
+    {
+      "starter": "heroes",
+      "reward": "hero-fusion-legacy",
+      "extra": 36841733,
+      "requiredMain": [
+        24094653,
+        20721928,
+        21844576
+      ]
+    },
+    {
+      "starter": "heroes",
+      "reward": "hero-fusion-storm",
+      "extra": 3642509,
+      "requiredMain": [
+        24094653,
+        21844576,
+        86188410
+      ]
+    },
+    {
+      "starter": "heroes",
+      "reward": "hero-fusion-storm",
+      "extra": 40854197,
+      "requiredMain": [
+        24094653,
+        79979666,
+        86188410
+      ]
+    },
+    {
+      "starter": "heroes",
+      "reward": "hero-masked-dark",
+      "extra": 58481572,
+      "requiredMain": [
+        21143940,
+        50720316
+      ]
+    },
+    {
+      "starter": "heroes",
+      "reward": "hero-masked-water",
+      "extra": 29095552,
+      "requiredMain": [
+        21143940,
+        79979666
+      ]
+    },
+    {
+      "starter": "heroes",
+      "reward": "hero-masked-water",
+      "extra": 10920352,
+      "requiredMain": [
+        21143940,
+        79979666
+      ]
+    },
+    {
+      "starter": "heroes",
+      "reward": "hero-masked-earth",
+      "extra": 62624486,
+      "requiredMain": [
+        21143940,
+        86188410
+      ]
+    },
+    {
+      "starter": "heroes",
+      "reward": "hero-masked-wind",
+      "extra": 22093873,
+      "requiredMain": [
+        21143940,
+        21844576
+      ]
+    },
+    {
+      "starter": "heroes",
+      "reward": "hero-masked-wind",
+      "extra": 89870349,
+      "requiredMain": [
+        21143940,
+        40044918
+      ]
+    },
+    {
+      "starter": "heroes",
+      "reward": "hero-masked-light",
+      "extra": 50608164,
+      "requiredMain": [
+        21143940,
+        20721928
+      ]
+    },
+    {
+      "starter": "gadgets",
+      "reward": "gadget-rank-toolbox",
+      "extra": 48739166,
+      "requiredMain": [
+        55010259,
+        41172955
+      ]
+    },
+    {
+      "starter": "gadgets",
+      "reward": "gadget-rank-toolbox",
+      "extra": 51735257,
+      "requiredMain": [
+        55010259,
+        41172955
+      ]
+    },
+    {
+      "starter": "gadgets",
+      "reward": "gadget-rank-pressure",
+      "extra": 95169481,
+      "requiredMain": [
+        55010259,
+        41172955
+      ]
+    },
+    {
+      "starter": "gadgets",
+      "reward": "gadget-rank-wall",
+      "extra": 90590303,
+      "requiredMain": [
+        55010259,
+        41172955
+      ]
+    },
+    {
+      "starter": "gadgets",
+      "reward": "gadget-rank-engine",
+      "extra": 28912357,
+      "requiredMain": [
+        55010259,
+        41172955
+      ]
+    },
+    {
+      "starter": "gadgets",
+      "reward": "gadget-rank-engine",
+      "extra": 49121795,
+      "requiredMain": [
+        55010259,
+        41172955
+      ]
     }
   ],
-  "artwork": "The game UI owns the shared Resources/Adventures/Expedition/Sanctuary texture. This package does not declare or own a loose artwork file."
+  "artwork": "The game UI owns the shared Resources/Adventures/Expedition/Sanctuary texture. This package does not declare or own a loose artwork file.",
+  "replayability": "Three difficulty tiers: Standard (3 lives), Veteran (2), Expert (1), each with three registered opponent candidates per stage. Run creation samples two ordinary opponents and one of three tier-eligible bosses, permanently snapshotted in the run. Six distinct bosses across the catalog. Mastery is a compact completion record inside the atomic run save; no permanent power bonuses."
 }
