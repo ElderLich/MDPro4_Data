@@ -23,6 +23,21 @@ Chaos branches remain conditional steps within their owning guide, including
 three empty source alternatives represented by the base continuation. Follow the
 branch whose prerequisites apply rather than combining every displayed endpoint.
 
+Every guide now has an explicit starting-hand/requirement diagram and an
+**Endboard and follow-up** diagram. The two sheets also include **330 step
+diagrams**: all 196 Chimera steps and 134 Chaos steps. The remaining nine Chaos
+entries explain branch decisions, restrictions or matching-type references and
+retain their complete instructions and inspectable card lists. No steps or
+variants were removed.
+
+These diagrams use authored card occurrences, connectors, actions and locations.
+A card can appear twice to show, for example, Phara being discarded by an effect
+and then summoned from the GY. Named groups separate independent requirements:
+the protected Mind Shuffle opening is **(White Dragon OR Ecclesia) + (Griffoh OR
+Black Chaos)**. End diagrams distinguish established field cards, hand/GY
+resources, alternative routes and conditional later summons. An arrow describes
+the annotated sequence; it does not make the guide an executable replay.
+
 Source links remain in documentation; each sheet keeps author credit and omits
 `sourceUrl`. No website artwork, HTML, comments, account information or vote totals
 are imported. The prose remains authored English content, like a user's

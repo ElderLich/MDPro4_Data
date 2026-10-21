@@ -94,6 +94,36 @@
                 33599853,
                 97462632,
                 98684220
+              ],
+              "flow": [
+                {
+                  "card": 24461358,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Main Phase alternative"
+                },
+                {
+                  "card": 33599853,
+                  "join": "arrow",
+                  "action": "none",
+                  "zone": "deck",
+                  "caption": "Reveal a Deck or hand copy"
+                },
+                {
+                  "card": 97462632,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search one"
+                },
+                {
+                  "card": 98684220,
+                  "join": "or",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Alternative search"
+                }
               ]
             },
             {
@@ -103,6 +133,29 @@
               "cards": [
                 97462632,
                 24749710
+              ],
+              "flow": [
+                {
+                  "card": 97462632,
+                  "join": "none",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard as cost"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "set",
+                  "zone": "field",
+                  "caption": "From Deck; usable this turn"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Activate Trap"
+                }
               ]
             },
             {
@@ -113,6 +166,22 @@
                 98684220,
                 24749710,
                 59438930
+              ],
+              "flow": [
+                {
+                  "card": 98684220,
+                  "join": "none",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Alternative starter cost"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Place face-up; not activation"
+                }
               ]
             },
             {
@@ -124,6 +193,43 @@
                 24088928,
                 33599853,
                 44001993
+              ],
+              "flow": [
+                {
+                  "card": 24749710,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Search and discard"
+                },
+                {
+                  "card": 24088928,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search"
+                },
+                {
+                  "card": 24088928,
+                  "join": "arrow",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard by effect"
+                },
+                {
+                  "card": 33599853,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Next Chain: send as cost"
+                },
+                {
+                  "card": 44001993,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search Ritual Monster"
+                }
               ]
             },
             {
@@ -136,6 +242,50 @@
                 97462632,
                 98684220,
                 44001993
+              ],
+              "flow": [
+                {
+                  "card": 33599853,
+                  "join": "none",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Recover from GY"
+                },
+                {
+                  "card": 24088928,
+                  "join": "plus",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Recover with Ritual"
+                },
+                {
+                  "card": 33599853,
+                  "join": "arrow",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Activate"
+                },
+                {
+                  "card": 97462632,
+                  "join": "arrow",
+                  "action": "banish",
+                  "zone": "banished",
+                  "caption": "GY requirement"
+                },
+                {
+                  "card": 98684220,
+                  "join": "or",
+                  "action": "banish",
+                  "zone": "banished",
+                  "caption": "Alternative GY requirement"
+                },
+                {
+                  "card": 44001993,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Ritual Summon"
+                }
               ]
             },
             {
@@ -146,6 +296,22 @@
                 44001993,
                 24088928,
                 33599853
+              ],
+              "flow": [
+                {
+                  "card": 44001993,
+                  "join": "none",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Short line: keep on field"
+                },
+                {
+                  "card": 24088928,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "hand",
+                  "caption": "Keep for next-turn discard"
+                }
               ]
             },
             {
@@ -157,6 +323,43 @@
                 59400890,
                 7084129,
                 41350417
+              ],
+              "flow": [
+                {
+                  "card": 44001993,
+                  "join": "none",
+                  "action": "banish",
+                  "zone": "banished",
+                  "caption": "Package A: banish body"
+                },
+                {
+                  "card": 59400890,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Summon from hand"
+                },
+                {
+                  "card": 7084129,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search"
+                },
+                {
+                  "card": 7084129,
+                  "join": "arrow",
+                  "action": "normal-summon",
+                  "zone": "field",
+                  "caption": "Normal Summon"
+                },
+                {
+                  "card": 41350417,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search Curtain"
+                }
               ]
             },
             {
@@ -172,6 +375,57 @@
                 22283204,
                 24088928,
                 44001993
+              ],
+              "flow": [
+                {
+                  "card": 59400890,
+                  "join": "none",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Link material"
+                },
+                {
+                  "card": 7084129,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Or another Effect Monster"
+                },
+                {
+                  "card": 65741786,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Link Summon"
+                },
+                {
+                  "card": 41350417,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Activate Curtain"
+                },
+                {
+                  "card": 46986414,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "From Deck"
+                },
+                {
+                  "card": 22283204,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search Gaze; then set"
+                },
+                {
+                  "card": 24088928,
+                  "join": "none",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Hand; recycle 3 others"
+                }
               ]
             },
             {
@@ -187,6 +441,57 @@
                 22283204,
                 59400890,
                 37818794
+              ],
+              "flow": [
+                {
+                  "card": 65741786,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Opponent Main Phase"
+                },
+                {
+                  "card": 24088928,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Link material"
+                },
+                {
+                  "card": 29301450,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Link Summon"
+                },
+                {
+                  "card": 33599853,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Archfiend trigger cost"
+                },
+                {
+                  "card": 70405001,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "New-turn search"
+                },
+                {
+                  "card": 22283204,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Target GY DMOD"
+                },
+                {
+                  "card": 37818794,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Fusion; keep a discard"
+                }
               ]
             },
             {
@@ -202,6 +507,78 @@
                 24088928,
                 29301450,
                 37818794
+              ],
+              "flow": [
+                {
+                  "card": 44001993,
+                  "join": "none",
+                  "action": "banish",
+                  "zone": "banished",
+                  "caption": "Package B alternative"
+                },
+                {
+                  "card": 59400890,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Special Summon"
+                },
+                {
+                  "card": 41350417,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search then activate"
+                },
+                {
+                  "card": 46986414,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "From Deck"
+                },
+                {
+                  "card": 22283204,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Add Gaze"
+                },
+                {
+                  "card": 24088928,
+                  "join": "none",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Recycle 3 others"
+                },
+                {
+                  "card": 59400890,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Link material"
+                },
+                {
+                  "card": 29301450,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Link Summon"
+                },
+                {
+                  "card": 22283204,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Target GY DMOD"
+                },
+                {
+                  "card": 37818794,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Fusion Summon"
+                }
               ]
             },
             {
@@ -224,6 +601,50 @@
                 24088928,
                 33599853,
                 70405001
+              ],
+              "flow": [
+                {
+                  "card": 24749710,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Opponent turn: choose search"
+                },
+                {
+                  "card": 97462632,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Response route"
+                },
+                {
+                  "card": 50073633,
+                  "join": "or",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Draw route"
+                },
+                {
+                  "card": 24088928,
+                  "join": "none",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard kept hand copy"
+                },
+                {
+                  "card": 33599853,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "New-turn trigger cost"
+                },
+                {
+                  "card": 70405001,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search"
+                }
               ]
             },
             {
@@ -234,6 +655,29 @@
                 97462632,
                 2372506,
                 75983808
+              ],
+              "flow": [
+                {
+                  "card": 97462632,
+                  "join": "none",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "If searched"
+                },
+                {
+                  "card": 2372506,
+                  "join": "arrow",
+                  "action": "set",
+                  "zone": "field",
+                  "caption": "Choose one response"
+                },
+                {
+                  "card": 75983808,
+                  "join": "or",
+                  "action": "set",
+                  "zone": "field",
+                  "caption": "Alternative response"
+                }
               ]
             },
             {
@@ -245,6 +689,29 @@
                 44001993,
                 70405001,
                 46986414
+              ],
+              "flow": [
+                {
+                  "card": 24749710,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Later opposing activation"
+                },
+                {
+                  "card": 44001993,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Return Level 8 as cost"
+                },
+                {
+                  "card": 70405001,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "From hand; targeting banish"
+                }
               ]
             },
             {
@@ -256,7 +723,146 @@
                 24749710,
                 44001993,
                 70405001
+              ],
+              "flow": [
+                {
+                  "card": 50073633,
+                  "join": "none",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Alternative Shuffle exchange"
+                },
+                {
+                  "card": 0,
+                  "join": "arrow",
+                  "action": "draw",
+                  "zone": "hand",
+                  "caption": "Reveal qualifying hand; draw 3"
+                },
+                {
+                  "card": 0,
+                  "join": "arrow",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard 2; ED restriction"
+                }
               ]
+            }
+          ],
+          "startFlow": [
+            {
+              "card": 97462632,
+              "join": "none",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Draw Phase route",
+              "group": "Choose one opener"
+            },
+            {
+              "card": 24461358,
+              "join": "or",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Main Phase search route",
+              "group": "Choose one opener"
+            },
+            {
+              "card": 98684220,
+              "join": "or",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Place face-up route",
+              "group": "Choose one opener"
+            }
+          ],
+          "endFlow": [
+            {
+              "card": 44001993,
+              "join": "none",
+              "action": "none",
+              "zone": "field",
+              "caption": "Backrow protection; targeting still applies",
+              "group": "Short-line field"
+            },
+            {
+              "card": 24749710,
+              "join": "plus",
+              "action": "none",
+              "zone": "field",
+              "caption": "Search and exchange use separate Chains",
+              "group": "Short-line field"
+            },
+            {
+              "card": 70405001,
+              "join": "none",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Search, then exchange with the field Ritual",
+              "group": "Opponent-turn Ritual option"
+            },
+            {
+              "card": 2372506,
+              "join": "none",
+              "action": "set",
+              "zone": "field",
+              "caption": "Needs eligible body and 3 free zones",
+              "group": "If Griffoh searched: choose one response"
+            },
+            {
+              "card": 75983808,
+              "join": "or",
+              "action": "set",
+              "zone": "field",
+              "caption": "Needs opposing targeting activation",
+              "group": "If Griffoh searched: choose one response"
+            },
+            {
+              "card": 46986414,
+              "join": "none",
+              "action": "none",
+              "zone": "field",
+              "caption": "Level 7 exchange body",
+              "group": "Optional package A: initial field"
+            },
+            {
+              "card": 65741786,
+              "join": "plus",
+              "action": "none",
+              "zone": "field",
+              "caption": "Link with Archfiend on opponent turn",
+              "group": "Optional package A: initial field"
+            },
+            {
+              "card": 29301450,
+              "join": "none",
+              "action": "special-summon",
+              "zone": "field",
+              "caption": "Consumes I:P and Archfiend",
+              "group": "Package A: later Link replacement"
+            },
+            {
+              "card": 29301450,
+              "join": "or",
+              "action": "none",
+              "zone": "field",
+              "caption": "Consumes DMOD and Archfiend",
+              "group": "Optional package B: later field"
+            },
+            {
+              "card": 37818794,
+              "join": "plus",
+              "action": "none",
+              "zone": "field",
+              "caption": "Gaze route; needs a discard",
+              "group": "Optional package B: later field"
+            },
+            {
+              "card": 50073633,
+              "join": "none",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Replaces Griffoh search; conditional draw route",
+              "group": "Alternative Mind Shuffle search"
             }
           ]
         }
@@ -337,6 +943,29 @@
               "cards": [
                 73819701,
                 87746184
+              ],
+              "flow": [
+                {
+                  "card": 73819701,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "hand",
+                  "caption": "Activate hand effect"
+                },
+                {
+                  "card": 87746184,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Send from Extra Deck"
+                },
+                {
+                  "card": 73819701,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Level 8 Fusion/Synchro lock"
+                }
               ]
             },
             {
@@ -347,6 +976,29 @@
                 55273560,
                 73819701,
                 87746184
+              ],
+              "flow": [
+                {
+                  "card": 55273560,
+                  "join": "none",
+                  "action": "normal-summon",
+                  "zone": "field",
+                  "caption": "Alternative Normal Summon"
+                },
+                {
+                  "card": 55273560,
+                  "join": "arrow",
+                  "action": "tribute",
+                  "zone": "graveyard",
+                  "caption": "Tribute"
+                },
+                {
+                  "card": 73819701,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "From hand or Deck; no Albion send"
+                }
               ]
             },
             {
@@ -357,6 +1009,36 @@
                 29948294,
                 73819701,
                 87746184
+              ],
+              "flow": [
+                {
+                  "card": 29948294,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Reveal matching monster"
+                },
+                {
+                  "card": 0,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Matching Level 8 / 2500 Fusion"
+                },
+                {
+                  "card": 0,
+                  "join": "arrow",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard revealed hand monster"
+                },
+                {
+                  "card": 73819701,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search"
+                }
               ]
             },
             {
@@ -388,6 +1070,43 @@
                 55273560,
                 67809530,
                 99398682
+              ],
+              "flow": [
+                {
+                  "card": 73819701,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Summon effect"
+                },
+                {
+                  "card": 55273560,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Level 4 Tuner"
+                },
+                {
+                  "card": 73819701,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Level 4 material"
+                },
+                {
+                  "card": 67809530,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Synchro Summon"
+                },
+                {
+                  "card": 99398682,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search Crimson Call"
+                }
               ]
             },
             {
@@ -399,6 +1118,43 @@
                 67809530,
                 97462632,
                 24749710
+              ],
+              "flow": [
+                {
+                  "card": 99398682,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Crimson King on field"
+                },
+                {
+                  "card": 97462632,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search"
+                },
+                {
+                  "card": 97462632,
+                  "join": "arrow",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "set",
+                  "zone": "field",
+                  "caption": "From Deck"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Usable this turn"
+                }
               ]
             },
             {
@@ -410,6 +1166,43 @@
                 24088928,
                 33599853,
                 44001993
+              ],
+              "flow": [
+                {
+                  "card": 24749710,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Search and discard"
+                },
+                {
+                  "card": 24088928,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search"
+                },
+                {
+                  "card": 24088928,
+                  "join": "arrow",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard by effect"
+                },
+                {
+                  "card": 33599853,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Next Chain cost"
+                },
+                {
+                  "card": 44001993,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Once-per-turn trigger"
+                }
               ]
             },
             {
@@ -419,6 +1212,29 @@
               "cards": [
                 33599853,
                 24088928
+              ],
+              "flow": [
+                {
+                  "card": 33599853,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "graveyard",
+                  "caption": "GY recovery effect"
+                },
+                {
+                  "card": 33599853,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Return to hand"
+                },
+                {
+                  "card": 24088928,
+                  "join": "plus",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Return to hand"
+                }
               ]
             },
             {
@@ -430,6 +1246,36 @@
                 97462632,
                 67809530,
                 44001993
+              ],
+              "flow": [
+                {
+                  "card": 33599853,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Ritual Spell"
+                },
+                {
+                  "card": 97462632,
+                  "join": "arrow",
+                  "action": "banish",
+                  "zone": "banished",
+                  "caption": "Preserve Crimson King"
+                },
+                {
+                  "card": 67809530,
+                  "join": "or",
+                  "action": "tribute",
+                  "zone": "graveyard",
+                  "caption": "Alternative field requirement"
+                },
+                {
+                  "card": 44001993,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Ritual Summon"
+                }
               ]
             },
             {
@@ -440,6 +1286,29 @@
                 87746184,
                 30271097,
                 55273560
+              ],
+              "flow": [
+                {
+                  "card": 87746184,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "graveyard",
+                  "caption": "If sent this turn"
+                },
+                {
+                  "card": 30271097,
+                  "join": "arrow",
+                  "action": "set",
+                  "zone": "field",
+                  "caption": "Set from Deck"
+                },
+                {
+                  "card": 55273560,
+                  "join": "none",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "If Fusion sent this turn"
+                }
               ]
             },
             {
@@ -453,6 +1322,50 @@
                 24088928,
                 33599853,
                 70405001
+              ],
+              "flow": [
+                {
+                  "card": 24749710,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Opponent turn: one search"
+                },
+                {
+                  "card": 97462632,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Response route"
+                },
+                {
+                  "card": 50073633,
+                  "join": "or",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Draw route"
+                },
+                {
+                  "card": 24088928,
+                  "join": "none",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard kept copy"
+                },
+                {
+                  "card": 33599853,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "New-turn trigger cost"
+                },
+                {
+                  "card": 70405001,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search"
+                }
               ]
             },
             {
@@ -463,6 +1376,29 @@
                 97462632,
                 2372506,
                 75983808
+              ],
+              "flow": [
+                {
+                  "card": 97462632,
+                  "join": "none",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "If searched"
+                },
+                {
+                  "card": 2372506,
+                  "join": "arrow",
+                  "action": "set",
+                  "zone": "field",
+                  "caption": "Choose one"
+                },
+                {
+                  "card": 75983808,
+                  "join": "or",
+                  "action": "set",
+                  "zone": "field",
+                  "caption": "Alternative response"
+                }
               ]
             },
             {
@@ -472,6 +1408,29 @@
               "cards": [
                 50073633,
                 24749710
+              ],
+              "flow": [
+                {
+                  "card": 50073633,
+                  "join": "none",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Later Shuffle exchange"
+                },
+                {
+                  "card": 0,
+                  "join": "arrow",
+                  "action": "draw",
+                  "zone": "hand",
+                  "caption": "Qualifying hand: draw 3"
+                },
+                {
+                  "card": 0,
+                  "join": "arrow",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard 2; ED restriction"
+                }
               ]
             },
             {
@@ -484,7 +1443,138 @@
                 70405001,
                 30271097,
                 67809530
+              ],
+              "flow": [
+                {
+                  "card": 24749710,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Later opposing activation"
+                },
+                {
+                  "card": 44001993,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Return as cost"
+                },
+                {
+                  "card": 70405001,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Targeting summon banish"
+                }
               ]
+            }
+          ],
+          "startFlow": [
+            {
+              "card": 73819701,
+              "join": "none",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Primary opener",
+              "group": "One-card opening: choose one"
+            },
+            {
+              "card": 55273560,
+              "join": "or",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Normal Summon alternative",
+              "group": "One-card opening: choose one"
+            },
+            {
+              "card": 29948294,
+              "join": "or",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Two-card route",
+              "group": "Alternative High Spirits opening"
+            },
+            {
+              "card": 0,
+              "join": "plus",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Matching-Type reveal and discard",
+              "group": "Alternative High Spirits opening"
+            },
+            {
+              "card": 24088928,
+              "join": "none",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Fiend; needs a matching Extra Deck target",
+              "group": "Example matching discard for High Spirits"
+            }
+          ],
+          "endFlow": [
+            {
+              "card": 44001993,
+              "join": "none",
+              "action": "none",
+              "zone": "field",
+              "caption": "Ritual Summoned",
+              "group": "Field after your turn"
+            },
+            {
+              "card": 67809530,
+              "join": "plus",
+              "action": "none",
+              "zone": "field",
+              "caption": "Only retained if Griffoh paid Ritual",
+              "group": "Field after your turn"
+            },
+            {
+              "card": 24749710,
+              "join": "plus",
+              "action": "none",
+              "zone": "field",
+              "caption": "Search and exchange use separate Chains",
+              "group": "Field after your turn"
+            },
+            {
+              "card": 30271097,
+              "join": "none",
+              "action": "set",
+              "zone": "field",
+              "caption": "Only if Albion was sent this turn",
+              "group": "Conditional Albion set"
+            },
+            {
+              "card": 70405001,
+              "join": "none",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Search, then replace Level 7+ field body",
+              "group": "Opponent-turn Ritual exchange"
+            },
+            {
+              "card": 2372506,
+              "join": "none",
+              "action": "set",
+              "zone": "field",
+              "caption": "Conditional response",
+              "group": "Griffoh response: choose one"
+            },
+            {
+              "card": 75983808,
+              "join": "or",
+              "action": "set",
+              "zone": "field",
+              "caption": "Alternative response",
+              "group": "Griffoh response: choose one"
+            },
+            {
+              "card": 50073633,
+              "join": "none",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Replaces Griffoh search; draw route",
+              "group": "Alternative search branch"
             }
           ]
         },
@@ -565,6 +1655,29 @@
                 73819701,
                 87746184,
                 55273560
+              ],
+              "flow": [
+                {
+                  "card": 87746184,
+                  "join": "none",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "White Dragon sends from Extra Deck"
+                },
+                {
+                  "card": 73819701,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "From hand"
+                },
+                {
+                  "card": 55273560,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Summoned by White Dragon"
+                }
               ]
             },
             {
@@ -575,6 +1688,29 @@
                 55273560,
                 73819701,
                 78397661
+              ],
+              "flow": [
+                {
+                  "card": 55273560,
+                  "join": "none",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Level 4 Tuner"
+                },
+                {
+                  "card": 73819701,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Level 4 non-Tuner"
+                },
+                {
+                  "card": 78397661,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Synchro Summon"
+                }
               ]
             },
             {
@@ -586,6 +1722,36 @@
                 95515789,
                 0,
                 24915933
+              ],
+              "flow": [
+                {
+                  "card": 78397661,
+                  "join": "none",
+                  "action": "banish",
+                  "zone": "banished",
+                  "caption": "Until End Phase"
+                },
+                {
+                  "card": 95515789,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Summon Cartesia"
+                },
+                {
+                  "card": 0,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "hand",
+                  "caption": "LIGHT or DARK material"
+                },
+                {
+                  "card": 24915933,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Fusion Summon"
+                }
               ]
             },
             {
@@ -597,6 +1763,36 @@
                 24088928,
                 33599853,
                 44001993
+              ],
+              "flow": [
+                {
+                  "card": 24915933,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Send effect"
+                },
+                {
+                  "card": 24088928,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "From Deck"
+                },
+                {
+                  "card": 33599853,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Archfiend trigger cost"
+                },
+                {
+                  "card": 44001993,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search"
+                }
               ]
             },
             {
@@ -617,6 +1813,36 @@
                 24088928,
                 24915933,
                 44001993
+              ],
+              "flow": [
+                {
+                  "card": 33599853,
+                  "join": "none",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "GY recovery"
+                },
+                {
+                  "card": 24088928,
+                  "join": "plus",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "GY recovery"
+                },
+                {
+                  "card": 24915933,
+                  "join": "arrow",
+                  "action": "tribute",
+                  "zone": "graveyard",
+                  "caption": "Ritual requirement"
+                },
+                {
+                  "card": 44001993,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Ritual Summon"
+                }
               ]
             },
             {
@@ -629,6 +1855,43 @@
                 55273560,
                 95515789,
                 78397661
+              ],
+              "flow": [
+                {
+                  "card": 87746184,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "graveyard",
+                  "caption": "End Phase trigger"
+                },
+                {
+                  "card": 30271097,
+                  "join": "arrow",
+                  "action": "set",
+                  "zone": "field",
+                  "caption": "Set"
+                },
+                {
+                  "card": 55273560,
+                  "join": "plus",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Recovery condition satisfied"
+                },
+                {
+                  "card": 95515789,
+                  "join": "plus",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Optional Cartesia recovery"
+                },
+                {
+                  "card": 78397661,
+                  "join": "plus",
+                  "action": "return",
+                  "zone": "field",
+                  "caption": "Return from banishment"
+                }
               ]
             },
             {
@@ -640,6 +1903,36 @@
                 24088928,
                 24915933,
                 44001993
+              ],
+              "flow": [
+                {
+                  "card": 33599853,
+                  "join": "none",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "GY recovery"
+                },
+                {
+                  "card": 24088928,
+                  "join": "plus",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "GY recovery"
+                },
+                {
+                  "card": 24915933,
+                  "join": "arrow",
+                  "action": "tribute",
+                  "zone": "graveyard",
+                  "caption": "Ritual requirement"
+                },
+                {
+                  "card": 44001993,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Leave Ritual Spell in GY"
+                }
               ]
             },
             {
@@ -652,6 +1945,43 @@
                 14965712,
                 22283204,
                 41350417
+              ],
+              "flow": [
+                {
+                  "card": 44001993,
+                  "join": "none",
+                  "action": "banish",
+                  "zone": "banished",
+                  "caption": "Banish field body"
+                },
+                {
+                  "card": 59400890,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Special Summon"
+                },
+                {
+                  "card": 14965712,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Choose one search"
+                },
+                {
+                  "card": 22283204,
+                  "join": "or",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Alternative: Gaze"
+                },
+                {
+                  "card": 41350417,
+                  "join": "or",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Alternative: Curtain"
+                }
               ]
             },
             {
@@ -663,6 +1993,43 @@
                 44001993,
                 24915933,
                 33599853
+              ],
+              "flow": [
+                {
+                  "card": 24088928,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "hand",
+                  "caption": "Hand summon effect"
+                },
+                {
+                  "card": 44001993,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "deck",
+                  "caption": "Banishment resource"
+                },
+                {
+                  "card": 24915933,
+                  "join": "plus",
+                  "action": "return",
+                  "zone": "extra",
+                  "caption": "GY resource"
+                },
+                {
+                  "card": 33599853,
+                  "join": "plus",
+                  "action": "return",
+                  "zone": "deck",
+                  "caption": "GY resource"
+                },
+                {
+                  "card": 24088928,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Special Summon"
+                }
               ]
             },
             {
@@ -675,6 +2042,29 @@
                 37818794,
                 14965712,
                 24749710
+              ],
+              "flow": [
+                {
+                  "card": 22283204,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Only if Gaze was searched"
+                },
+                {
+                  "card": 59400890,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "deck",
+                  "caption": "Shuffle material"
+                },
+                {
+                  "card": 37818794,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Fusion Summon"
+                }
               ]
             },
             {
@@ -688,6 +2078,43 @@
                 59400890,
                 37818794,
                 24749710
+              ],
+              "flow": [
+                {
+                  "card": 41350417,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Only if Curtain was searched"
+                },
+                {
+                  "card": 46986414,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "From Deck"
+                },
+                {
+                  "card": 22283204,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search Gaze"
+                },
+                {
+                  "card": 59400890,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "deck",
+                  "caption": "Gaze material"
+                },
+                {
+                  "card": 37818794,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Fusion Summon"
+                }
               ]
             },
             {
@@ -700,6 +2127,43 @@
                 55273560,
                 95515789,
                 78397661
+              ],
+              "flow": [
+                {
+                  "card": 87746184,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "graveyard",
+                  "caption": "End Phase trigger"
+                },
+                {
+                  "card": 30271097,
+                  "join": "arrow",
+                  "action": "set",
+                  "zone": "field",
+                  "caption": "Set"
+                },
+                {
+                  "card": 55273560,
+                  "join": "plus",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Return to hand"
+                },
+                {
+                  "card": 95515789,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "graveyard",
+                  "caption": "Leave Cartesia for next turn"
+                },
+                {
+                  "card": 78397661,
+                  "join": "plus",
+                  "action": "return",
+                  "zone": "field",
+                  "caption": "Return from banishment"
+                }
               ]
             },
             {
@@ -710,6 +2174,43 @@
                 14965712,
                 97462632,
                 24749710
+              ],
+              "flow": [
+                {
+                  "card": 14965712,
+                  "join": "none",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "First qualifying hand window"
+                },
+                {
+                  "card": 97462632,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Later qualifying field window"
+                },
+                {
+                  "card": 97462632,
+                  "join": "arrow",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "set",
+                  "zone": "field",
+                  "caption": "From Deck"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Usable this turn"
+                }
               ]
             },
             {
@@ -721,6 +2222,36 @@
                 95515789,
                 24088928,
                 24915933
+              ],
+              "flow": [
+                {
+                  "card": 78397661,
+                  "join": "none",
+                  "action": "banish",
+                  "zone": "banished",
+                  "caption": "Opponent Main Phase"
+                },
+                {
+                  "card": 95515789,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Revive Cartesia"
+                },
+                {
+                  "card": 24088928,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Fusion material"
+                },
+                {
+                  "card": 24915933,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Fusion Summon"
+                }
               ]
             },
             {
@@ -735,6 +2266,50 @@
                 97940434,
                 33599853,
                 44001993
+              ],
+              "flow": [
+                {
+                  "card": 24088928,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "graveyard",
+                  "caption": "CL1; send Ritual as cost"
+                },
+                {
+                  "card": 24915933,
+                  "join": "plus",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "CL2"
+                },
+                {
+                  "card": 70088809,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Choose a legal Level 7+ target"
+                },
+                {
+                  "card": 27204311,
+                  "join": "or",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Alternative Nibiru"
+                },
+                {
+                  "card": 97940434,
+                  "join": "or",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Alternative Chaos Hunter"
+                },
+                {
+                  "card": 44001993,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Resolve Archfiend"
+                }
               ]
             },
             {
@@ -746,6 +2321,29 @@
                 70405001,
                 55273560,
                 30271097
+              ],
+              "flow": [
+                {
+                  "card": 24749710,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Search and discard"
+                },
+                {
+                  "card": 70405001,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search"
+                },
+                {
+                  "card": 55273560,
+                  "join": "arrow",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard by effect"
+                }
               ]
             },
             {
@@ -756,6 +2354,29 @@
                 30271097,
                 70088809,
                 27204311
+              ],
+              "flow": [
+                {
+                  "card": 30271097,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Revival mode; Ecclesia condition"
+                },
+                {
+                  "card": 70088809,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Revive chosen target"
+                },
+                {
+                  "card": 27204311,
+                  "join": "or",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Alternative legal target"
+                }
               ]
             },
             {
@@ -768,6 +2389,36 @@
                 27204311,
                 44001993,
                 70405001
+              ],
+              "flow": [
+                {
+                  "card": 24749710,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Later opposing activation"
+                },
+                {
+                  "card": 70088809,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Return revived Level 7+ as cost"
+                },
+                {
+                  "card": 44001993,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Choose one Ritual"
+                },
+                {
+                  "card": 70405001,
+                  "join": "or",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Alternative Ritual"
+                }
               ]
             },
             {
@@ -780,6 +2431,36 @@
                 30271097,
                 44146295,
                 76666602
+              ],
+              "flow": [
+                {
+                  "card": 68468459,
+                  "join": "none",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Alternative revival; keep discard"
+                },
+                {
+                  "card": 0,
+                  "join": "arrow",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Albaz Fusion cost"
+                },
+                {
+                  "card": 44146295,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "With correct opposing material"
+                },
+                {
+                  "card": 76666602,
+                  "join": "or",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Alternative full recipe"
+                }
               ]
             },
             {
@@ -790,6 +2471,29 @@
                 24915933,
                 53971455,
                 73355772
+              ],
+              "flow": [
+                {
+                  "card": 24915933,
+                  "join": "none",
+                  "action": "banish",
+                  "zone": "banished",
+                  "caption": "Qualifying opponent summon"
+                },
+                {
+                  "card": 53971455,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Choose Despia from Extra Deck"
+                },
+                {
+                  "card": 73355772,
+                  "join": "or",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Or Dogmatika from Deck; no set"
+                }
               ]
             },
             {
@@ -799,6 +2503,22 @@
               "cards": [
                 73355772,
                 82956214
+              ],
+              "flow": [
+                {
+                  "card": 73355772,
+                  "join": "none",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "From hand during Main Phase"
+                },
+                {
+                  "card": 82956214,
+                  "join": "arrow",
+                  "action": "set",
+                  "zone": "field",
+                  "caption": "Set; activation conditions apply"
+                }
               ]
             },
             {
@@ -812,6 +2532,146 @@
                 72444406,
                 93125329
               ]
+            }
+          ],
+          "startFlow": [
+            {
+              "card": 73819701,
+              "join": "none",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Branded starter",
+              "group": "Both opening cards"
+            },
+            {
+              "card": 0,
+              "join": "plus",
+              "action": "none",
+              "zone": "hand",
+              "caption": "LIGHT or DARK monster for Cartesia",
+              "group": "Both opening cards"
+            }
+          ],
+          "endFlow": [
+            {
+              "card": 44001993,
+              "join": "none",
+              "action": "none",
+              "zone": "field",
+              "caption": "Retained in Droll branch",
+              "group": "Droll stop: initial field"
+            },
+            {
+              "card": 78397661,
+              "join": "plus",
+              "action": "none",
+              "zone": "field",
+              "caption": "Returns in End Phase",
+              "group": "Droll stop: initial field"
+            },
+            {
+              "card": 30271097,
+              "join": "plus",
+              "action": "set",
+              "zone": "field",
+              "caption": "Albion set; choose one mode",
+              "group": "Droll stop: initial field"
+            },
+            {
+              "card": 24749710,
+              "join": "or",
+              "action": "none",
+              "zone": "field",
+              "caption": "Kuriboh bridge or independent starter",
+              "group": "No-Droll branch: later Chaos resources"
+            },
+            {
+              "card": 70405001,
+              "join": "plus",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Next-turn search and exchange",
+              "group": "No-Droll branch: later Chaos resources"
+            },
+            {
+              "card": 70088809,
+              "join": "plus",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Revive then return; own lock remains",
+              "group": "No-Droll branch: later Chaos resources"
+            },
+            {
+              "card": 37818794,
+              "join": "none",
+              "action": "none",
+              "zone": "field",
+              "caption": "Gaze/Curtain replaces Kuriboh search",
+              "group": "Alternative DMOD search"
+            },
+            {
+              "card": 24915933,
+              "join": "none",
+              "action": "special-summon",
+              "zone": "field",
+              "caption": "Remake with Cartesia and Archfiend",
+              "group": "Opponent-turn Branded alternatives"
+            },
+            {
+              "card": 68468459,
+              "join": "or",
+              "action": "special-summon",
+              "zone": "field",
+              "caption": "Alternative response; needs a discard",
+              "group": "Opponent-turn Branded alternatives"
+            },
+            {
+              "card": 44146295,
+              "join": "none",
+              "action": "special-summon",
+              "zone": "field",
+              "caption": "Requires appropriate opposing material",
+              "group": "Original Albaz Fusion: choose legal recipe"
+            },
+            {
+              "card": 76666602,
+              "join": "or",
+              "action": "special-summon",
+              "zone": "field",
+              "caption": "Alternative full three-material recipe",
+              "group": "Original Albaz Fusion: choose legal recipe"
+            },
+            {
+              "card": 53971455,
+              "join": "none",
+              "action": "special-summon",
+              "zone": "field",
+              "caption": "Despia from Extra Deck",
+              "group": "Conditional Granguignol response"
+            },
+            {
+              "card": 73355772,
+              "join": "or",
+              "action": "special-summon",
+              "zone": "field",
+              "caption": "Dogmatika from Deck; no Trap set",
+              "group": "Conditional Granguignol response"
+            },
+            {
+              "card": 73355772,
+              "join": "none",
+              "action": "special-summon",
+              "zone": "field",
+              "caption": "From hand; needs Extra Deck monster present",
+              "group": "Separate Fleurdelis hand route"
+            },
+            {
+              "card": 82956214,
+              "join": "arrow",
+              "action": "set",
+              "zone": "field",
+              "caption": "Same-turn activation has ATK condition",
+              "group": "Separate Fleurdelis hand route"
             }
           ]
         },
@@ -881,6 +2741,50 @@
                 24088928,
                 33599853,
                 44001993
+              ],
+              "flow": [
+                {
+                  "card": 97462632,
+                  "join": "none",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Draw Phase; Griffoh branch"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "set",
+                  "zone": "field",
+                  "caption": "Set and activate"
+                },
+                {
+                  "card": 24088928,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search"
+                },
+                {
+                  "card": 24088928,
+                  "join": "arrow",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard by effect"
+                },
+                {
+                  "card": 33599853,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Next Chain cost"
+                },
+                {
+                  "card": 44001993,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search"
+                }
               ]
             },
             {
@@ -893,6 +2797,50 @@
                 55273560,
                 74405783,
                 82344137
+              ],
+              "flow": [
+                {
+                  "card": 87746184,
+                  "join": "none",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "White Dragon hand effect"
+                },
+                {
+                  "card": 73819701,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Special Summon"
+                },
+                {
+                  "card": 55273560,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "White Dragon summons"
+                },
+                {
+                  "card": 73819701,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Synchro material"
+                },
+                {
+                  "card": 74405783,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Synchro Summon"
+                },
+                {
+                  "card": 82344137,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search"
+                }
               ]
             },
             {
@@ -905,6 +2853,50 @@
                 74405783,
                 29948294,
                 87746184
+              ],
+              "flow": [
+                {
+                  "card": 55273560,
+                  "join": "none",
+                  "action": "normal-summon",
+                  "zone": "field",
+                  "caption": "Alternative Normal Summon"
+                },
+                {
+                  "card": 55273560,
+                  "join": "arrow",
+                  "action": "tribute",
+                  "zone": "graveyard",
+                  "caption": "Tribute"
+                },
+                {
+                  "card": 73819701,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "From Deck"
+                },
+                {
+                  "card": 55273560,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Revive"
+                },
+                {
+                  "card": 73819701,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Material"
+                },
+                {
+                  "card": 74405783,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Synchro Summon; no Albion send"
+                }
               ]
             },
             {
@@ -916,6 +2908,43 @@
                 24749710,
                 33599853,
                 24088928
+              ],
+              "flow": [
+                {
+                  "card": 74405783,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Negate and destroy Shuffle"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Destroyed"
+                },
+                {
+                  "card": 33599853,
+                  "join": "arrow",
+                  "action": "activate",
+                  "zone": "graveyard",
+                  "caption": "GY recovery"
+                },
+                {
+                  "card": 33599853,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Return"
+                },
+                {
+                  "card": 24749710,
+                  "join": "plus",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Recover Trap instead of Archfiend"
+                }
               ]
             },
             {
@@ -928,6 +2957,50 @@
                 74405783,
                 33599853,
                 44001993
+              ],
+              "flow": [
+                {
+                  "card": 82344137,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "hand",
+                  "caption": "Reveal with Mind Shuffle"
+                },
+                {
+                  "card": 24749710,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "hand",
+                  "caption": "Revealed name"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "set",
+                  "zone": "field",
+                  "caption": "Wait until next turn"
+                },
+                {
+                  "card": 33599853,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Ritual Spell"
+                },
+                {
+                  "card": 74405783,
+                  "join": "arrow",
+                  "action": "tribute",
+                  "zone": "graveyard",
+                  "caption": "Ritual requirement"
+                },
+                {
+                  "card": 44001993,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Ritual Summon"
+                }
               ]
             },
             {
@@ -940,6 +3013,43 @@
                 73819701,
                 55273560,
                 74405783
+              ],
+              "flow": [
+                {
+                  "card": 98684220,
+                  "join": "none",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Alternative branch"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Place face-up; wait to search"
+                },
+                {
+                  "card": 73819701,
+                  "join": "none",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Branded body"
+                },
+                {
+                  "card": 55273560,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Level 4 Tuner"
+                },
+                {
+                  "card": 74405783,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Synchro Summon"
+                }
               ]
             },
             {
@@ -953,6 +3063,43 @@
                 24088928,
                 94145021,
                 59438930
+              ],
+              "flow": [
+                {
+                  "card": 74405783,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "CL1 Phara search"
+                },
+                {
+                  "card": 24749710,
+                  "join": "plus",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "CL2 search and discard"
+                },
+                {
+                  "card": 24088928,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Resolve CL2 search"
+                },
+                {
+                  "card": 24088928,
+                  "join": "arrow",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Resolve CL2 discard"
+                },
+                {
+                  "card": 82344137,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Resolve CL1 search"
+                }
               ]
             },
             {
@@ -964,6 +3111,29 @@
                 33599853,
                 44001993,
                 94145021
+              ],
+              "flow": [
+                {
+                  "card": 24088928,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "graveyard",
+                  "caption": "Next Chain"
+                },
+                {
+                  "card": 33599853,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Cost; remains if Droll resolves"
+                },
+                {
+                  "card": 44001993,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Only if search is allowed"
+                }
               ]
             },
             {
@@ -975,6 +3145,50 @@
                 24749710,
                 33599853,
                 82344137
+              ],
+              "flow": [
+                {
+                  "card": 74405783,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Negate and destroy Shuffle"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Destroyed"
+                },
+                {
+                  "card": 33599853,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "GY recovery"
+                },
+                {
+                  "card": 24749710,
+                  "join": "plus",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Recover Trap"
+                },
+                {
+                  "card": 82344137,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "hand",
+                  "caption": "Reveal with Shuffle"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "set",
+                  "zone": "field",
+                  "caption": "Protected; usable next turn"
+                }
               ]
             },
             {
@@ -987,6 +3201,29 @@
                 33599853,
                 44001993,
                 70405001
+              ],
+              "flow": [
+                {
+                  "card": 33599853,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Only if Ritual search succeeded"
+                },
+                {
+                  "card": 74405783,
+                  "join": "arrow",
+                  "action": "tribute",
+                  "zone": "graveyard",
+                  "caption": "Ritual requirement"
+                },
+                {
+                  "card": 44001993,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Optional Ritual Summon"
+                }
               ]
             },
             {
@@ -998,6 +3235,29 @@
                 30271097,
                 55273560,
                 24749710
+              ],
+              "flow": [
+                {
+                  "card": 87746184,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "graveyard",
+                  "caption": "Only if sent this turn"
+                },
+                {
+                  "card": 30271097,
+                  "join": "arrow",
+                  "action": "set",
+                  "zone": "field",
+                  "caption": "Conditional End Phase set"
+                },
+                {
+                  "card": 24749710,
+                  "join": "none",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Reset Trap; waits for next turn"
+                }
               ]
             },
             {
@@ -1008,6 +3268,36 @@
                 24749710,
                 70405001,
                 82344137
+              ],
+              "flow": [
+                {
+                  "card": 24749710,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Opponent turn; protected name"
+                },
+                {
+                  "card": 70405001,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search"
+                },
+                {
+                  "card": 82344137,
+                  "join": "arrow",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard by effect"
+                },
+                {
+                  "card": 82344137,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "GY trigger; then take control"
+                }
               ]
             },
             {
@@ -1019,6 +3309,36 @@
                 82344137,
                 70405001,
                 44001993
+              ],
+              "flow": [
+                {
+                  "card": 24749710,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Later opposing activation"
+                },
+                {
+                  "card": 82344137,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Return as cost"
+                },
+                {
+                  "card": 70405001,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Targeting summon banish"
+                },
+                {
+                  "card": 44001993,
+                  "join": "or",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Alternative if already in hand"
+                }
               ]
             },
             {
@@ -1031,6 +3351,57 @@
                 68468459,
                 73819701,
                 55273560
+              ],
+              "flow": [
+                {
+                  "card": 30271097,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Destruction mode"
+                },
+                {
+                  "card": 51409648,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Send from Extra Deck"
+                },
+                {
+                  "card": 51409648,
+                  "join": "arrow",
+                  "action": "banish",
+                  "zone": "banished",
+                  "caption": "Opponent turn GY effect"
+                },
+                {
+                  "card": 73819701,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Revive Albaz-name body"
+                },
+                {
+                  "card": 55273560,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Summon by White Dragon"
+                },
+                {
+                  "card": 55273560,
+                  "join": "arrow",
+                  "action": "tribute",
+                  "zone": "graveyard",
+                  "caption": "Main Phase"
+                },
+                {
+                  "card": 68468459,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Original Albaz; keep discard"
+                }
               ]
             },
             {
@@ -1043,6 +3414,50 @@
                 68468459,
                 44146295,
                 76666602
+              ],
+              "flow": [
+                {
+                  "card": 30271097,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Alternative revival mode"
+                },
+                {
+                  "card": 55273560,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Revive"
+                },
+                {
+                  "card": 55273560,
+                  "join": "arrow",
+                  "action": "tribute",
+                  "zone": "graveyard",
+                  "caption": "Main Phase"
+                },
+                {
+                  "card": 68468459,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Keep discard"
+                },
+                {
+                  "card": 44146295,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Appropriate opposing material"
+                },
+                {
+                  "card": 76666602,
+                  "join": "or",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Alternative full recipe"
+                }
               ]
             },
             {
@@ -1054,6 +3469,114 @@
                 24749710,
                 102380
               ]
+            }
+          ],
+          "startFlow": [
+            {
+              "card": 73819701,
+              "join": "none",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Preserves Normal Summon; sends Albion",
+              "group": "Branded starter: choose one"
+            },
+            {
+              "card": 55273560,
+              "join": "or",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Uses Normal Summon; no Albion send",
+              "group": "Branded starter: choose one"
+            },
+            {
+              "card": 97462632,
+              "join": "plus",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Draw Phase Ritual search",
+              "group": "Chaos starter: choose one"
+            },
+            {
+              "card": 98684220,
+              "join": "or",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Alternative protected-reset route",
+              "group": "Chaos starter: choose one"
+            }
+          ],
+          "endFlow": [
+            {
+              "card": 24749710,
+              "join": "none",
+              "action": "set",
+              "zone": "field",
+              "caption": "Revealed name; usable next turn",
+              "group": "After the protected reset"
+            },
+            {
+              "card": 44001993,
+              "join": "none",
+              "action": "none",
+              "zone": "field",
+              "caption": "If Ritual search and summon succeeded",
+              "group": "Initial body depends on the Ritual search"
+            },
+            {
+              "card": 74405783,
+              "join": "or",
+              "action": "none",
+              "zone": "field",
+              "caption": "Retained if Droll prevented the Ritual search",
+              "group": "Initial body depends on the Ritual search"
+            },
+            {
+              "card": 70405001,
+              "join": "none",
+              "action": "none",
+              "zone": "field",
+              "caption": "After later exchange; targeting banish",
+              "group": "Opponent-turn exchange resources"
+            },
+            {
+              "card": 82344137,
+              "join": "plus",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Returned after GY summon and control-taking",
+              "group": "Opponent-turn exchange resources"
+            },
+            {
+              "card": 30271097,
+              "join": "none",
+              "action": "set",
+              "zone": "field",
+              "caption": "Choose destruction OR revival that turn",
+              "group": "Conditional Albion set"
+            },
+            {
+              "card": 51409648,
+              "join": "none",
+              "action": "none",
+              "zone": "graveyard",
+              "caption": "Sent for destruction; opponent-turn Albaz access",
+              "group": "Destruction-mode follow-up"
+            },
+            {
+              "card": 44146295,
+              "join": "none",
+              "action": "special-summon",
+              "zone": "field",
+              "caption": "Requires discard and legal opposing material",
+              "group": "Later original-Albaz Fusion: choose one"
+            },
+            {
+              "card": 76666602,
+              "join": "or",
+              "action": "special-summon",
+              "zone": "field",
+              "caption": "Alternative full recipe",
+              "group": "Later original-Albaz Fusion: choose one"
             }
           ]
         }
@@ -1132,6 +3655,43 @@
                 41350417,
                 46986414,
                 22283204
+              ],
+              "flow": [
+                {
+                  "card": 7084129,
+                  "join": "none",
+                  "action": "normal-summon",
+                  "zone": "field",
+                  "caption": "Normal Summon"
+                },
+                {
+                  "card": 41350417,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search Curtain"
+                },
+                {
+                  "card": 41350417,
+                  "join": "arrow",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Activate"
+                },
+                {
+                  "card": 46986414,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "From hand or Deck"
+                },
+                {
+                  "card": 22283204,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search Gaze"
+                }
               ]
             },
             {
@@ -1142,6 +3702,29 @@
                 46986414,
                 59400890,
                 97631303
+              ],
+              "flow": [
+                {
+                  "card": 46986414,
+                  "join": "none",
+                  "action": "banish",
+                  "zone": "banished",
+                  "caption": "Banish field body"
+                },
+                {
+                  "card": 59400890,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "After a Spell activation"
+                },
+                {
+                  "card": 97631303,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search Souls"
+                }
               ]
             },
             {
@@ -1155,6 +3738,43 @@
                 22283204,
                 37818794,
                 27204311
+              ],
+              "flow": [
+                {
+                  "card": 7084129,
+                  "join": "none",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Link material"
+                },
+                {
+                  "card": 59400890,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Link material"
+                },
+                {
+                  "card": 50277355,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Cross-Sheep"
+                },
+                {
+                  "card": 22283204,
+                  "join": "arrow",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Target GY DMOD"
+                },
+                {
+                  "card": 37818794,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Linked zone; fifth summon"
+                }
               ]
             },
             {
@@ -1165,6 +3785,22 @@
                 50277355,
                 7084129,
                 37818794
+              ],
+              "flow": [
+                {
+                  "card": 50277355,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Fusion in linked zone"
+                },
+                {
+                  "card": 7084129,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Revive outside linked zones"
+                }
               ]
             },
             {
@@ -1176,6 +3812,36 @@
                 98684220,
                 94259633,
                 50277355
+              ],
+              "flow": [
+                {
+                  "card": 97631303,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "hand",
+                  "caption": "Souls hand effect"
+                },
+                {
+                  "card": 98684220,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "From Deck"
+                },
+                {
+                  "card": 97631303,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Special Summon Souls"
+                },
+                {
+                  "card": 94259633,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Anima in Cross-Sheep linked zone"
+                }
               ]
             },
             {
@@ -1188,6 +3854,50 @@
                 58036229,
                 94259633,
                 5043010
+              ],
+              "flow": [
+                {
+                  "card": 50277355,
+                  "join": "none",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Link-2 material"
+                },
+                {
+                  "card": 7084129,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "One material"
+                },
+                {
+                  "card": 58036229,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Link-3"
+                },
+                {
+                  "card": 58036229,
+                  "join": "arrow",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Count as three"
+                },
+                {
+                  "card": 94259633,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Count as one"
+                },
+                {
+                  "card": 5043010,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Link-4"
+                }
               ]
             },
             {
@@ -1199,6 +3909,36 @@
                 5043010,
                 50277355,
                 94259633
+              ],
+              "flow": [
+                {
+                  "card": 58036229,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "graveyard",
+                  "caption": "Firewall present"
+                },
+                {
+                  "card": 50277355,
+                  "join": "arrow",
+                  "action": "banish",
+                  "zone": "banished",
+                  "caption": "Link-2 cost"
+                },
+                {
+                  "card": 94259633,
+                  "join": "plus",
+                  "action": "banish",
+                  "zone": "banished",
+                  "caption": "Link-1 cost"
+                },
+                {
+                  "card": 58036229,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Co-link with Firewall"
+                }
               ]
             },
             {
@@ -1209,6 +3949,36 @@
                 5043010,
                 98684220,
                 24749710
+              ],
+              "flow": [
+                {
+                  "card": 5043010,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Co-linked recovery"
+                },
+                {
+                  "card": 98684220,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Return from GY"
+                },
+                {
+                  "card": 98684220,
+                  "join": "arrow",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Place face-up"
+                }
               ]
             },
             {
@@ -1220,6 +3990,57 @@
                 24088928,
                 33599853,
                 44001993
+              ],
+              "flow": [
+                {
+                  "card": 24749710,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Search and discard"
+                },
+                {
+                  "card": 24088928,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search"
+                },
+                {
+                  "card": 24088928,
+                  "join": "arrow",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard"
+                },
+                {
+                  "card": 33599853,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Next Chain cost"
+                },
+                {
+                  "card": 44001993,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search"
+                },
+                {
+                  "card": 33599853,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "GY recovery"
+                },
+                {
+                  "card": 24088928,
+                  "join": "plus",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Recover with Ritual"
+                }
               ]
             },
             {
@@ -1231,6 +4052,43 @@
                 98684220,
                 44001993,
                 41350417
+              ],
+              "flow": [
+                {
+                  "card": 33599853,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Ritual Spell"
+                },
+                {
+                  "card": 98684220,
+                  "join": "arrow",
+                  "action": "banish",
+                  "zone": "banished",
+                  "caption": "GY requirement"
+                },
+                {
+                  "card": 44001993,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Ritual Summon"
+                },
+                {
+                  "card": 41350417,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Recover Curtain"
+                },
+                {
+                  "card": 41350417,
+                  "join": "arrow",
+                  "action": "set",
+                  "zone": "field",
+                  "caption": "Set for opponent turn"
+                }
               ]
             },
             {
@@ -1245,6 +4103,50 @@
                 24749710,
                 24088928,
                 4993187
+              ],
+              "flow": [
+                {
+                  "card": 5043010,
+                  "join": "none",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Legal stopping point"
+                },
+                {
+                  "card": 58036229,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Co-linked; no Fancy Ball yet"
+                },
+                {
+                  "card": 37818794,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Negate needs discard"
+                },
+                {
+                  "card": 44001993,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Ritual protection"
+                },
+                {
+                  "card": 24749710,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Face-up"
+                },
+                {
+                  "card": 24088928,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "hand",
+                  "caption": "Keep for discard"
+                }
               ]
             },
             {
@@ -1256,6 +4158,36 @@
                 58036229,
                 4993187,
                 24088928
+              ],
+              "flow": [
+                {
+                  "card": 5043010,
+                  "join": "none",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Count as one"
+                },
+                {
+                  "card": 58036229,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Count as one"
+                },
+                {
+                  "card": 0,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Additional Effect Monster"
+                },
+                {
+                  "card": 4993187,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Conditional Link-3"
+                }
               ]
             },
             {
@@ -1267,6 +4199,36 @@
                 24088928,
                 33599853,
                 70405001
+              ],
+              "flow": [
+                {
+                  "card": 37818794,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Opponent turn negate"
+                },
+                {
+                  "card": 24088928,
+                  "join": "arrow",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Only if retained in hand"
+                },
+                {
+                  "card": 33599853,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Next Chain cost"
+                },
+                {
+                  "card": 70405001,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Fresh-turn trigger"
+                }
               ]
             },
             {
@@ -1276,6 +4238,22 @@
               "cards": [
                 41350417,
                 82344137
+              ],
+              "flow": [
+                {
+                  "card": 41350417,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Set last turn"
+                },
+                {
+                  "card": 82344137,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "From hand or Deck; effects disabled"
+                }
               ]
             },
             {
@@ -1286,6 +4264,29 @@
                 24749710,
                 82344137,
                 70405001
+              ],
+              "flow": [
+                {
+                  "card": 24749710,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Opposing activation"
+                },
+                {
+                  "card": 82344137,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Return as cost"
+                },
+                {
+                  "card": 70405001,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "From hand; banish trigger"
+                }
               ]
             },
             {
@@ -1297,6 +4298,36 @@
                 50073633,
                 82344137,
                 70405001
+              ],
+              "flow": [
+                {
+                  "card": 24749710,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Separate Chain; unused search"
+                },
+                {
+                  "card": 50073633,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search"
+                },
+                {
+                  "card": 82344137,
+                  "join": "arrow",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard by effect"
+                },
+                {
+                  "card": 82344137,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "GY revival; control-taking trigger"
+                }
               ]
             },
             {
@@ -1308,6 +4339,29 @@
                 50073633,
                 44001993,
                 70405001
+              ],
+              "flow": [
+                {
+                  "card": 50073633,
+                  "join": "none",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Later Shuffle exchange"
+                },
+                {
+                  "card": 0,
+                  "join": "arrow",
+                  "action": "draw",
+                  "zone": "hand",
+                  "caption": "Qualifying revealed hand: draw 3"
+                },
+                {
+                  "card": 0,
+                  "join": "arrow",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard 2; ED restriction"
+                }
               ]
             },
             {
@@ -1318,6 +4372,29 @@
                 4993187,
                 37818794,
                 27519978
+              ],
+              "flow": [
+                {
+                  "card": 4993187,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Conditional opponent Main Phase"
+                },
+                {
+                  "card": 37818794,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "After first negate"
+                },
+                {
+                  "card": 27519978,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Link-4; Fancy counts as three"
+                }
               ]
             },
             {
@@ -1328,6 +4405,29 @@
                 27519978,
                 4993187,
                 37818794
+              ],
+              "flow": [
+                {
+                  "card": 27519978,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Revive DARK different Types"
+                },
+                {
+                  "card": 4993187,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Revive; material-use restriction"
+                },
+                {
+                  "card": 37818794,
+                  "join": "plus",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Revive; negate needs discard"
+                }
               ]
             },
             {
@@ -1338,6 +4438,29 @@
                 7084129,
                 27519978,
                 37818794
+              ],
+              "flow": [
+                {
+                  "card": 7084129,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "graveyard",
+                  "caption": "After own Spell/Trap activation"
+                },
+                {
+                  "card": 27519978,
+                  "join": "arrow",
+                  "action": "tribute",
+                  "zone": "graveyard",
+                  "caption": "Optional Spellcaster cost"
+                },
+                {
+                  "card": 7084129,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Recover for later discard"
+                }
               ]
             },
             {
@@ -1351,7 +4474,146 @@
                 41350417,
                 97462632,
                 94145021
+              ],
+              "flow": [
+                {
+                  "card": 12266229,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "hand",
+                  "caption": "Only if independently accessible"
+                },
+                {
+                  "card": 97631303,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Legal search required"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "deck",
+                  "caption": "Put opened Trap on top"
+                }
               ]
+            }
+          ],
+          "startFlow": [
+            {
+              "card": 7084129,
+              "join": "none",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Normal Summon available",
+              "group": "Opening starter"
+            },
+            {
+              "card": 0,
+              "join": "plus",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Keep spare hand cards for later discard costs",
+              "group": "Interaction resources"
+            }
+          ],
+          "endFlow": [
+            {
+              "card": 5043010,
+              "join": "none",
+              "action": "none",
+              "zone": "field",
+              "caption": "Recovery used",
+              "group": "Legal one-card stopping field"
+            },
+            {
+              "card": 58036229,
+              "join": "plus",
+              "action": "none",
+              "zone": "field",
+              "caption": "Co-linked; banished when it leaves",
+              "group": "Legal one-card stopping field"
+            },
+            {
+              "card": 37818794,
+              "join": "plus",
+              "action": "none",
+              "zone": "field",
+              "caption": "Keep a discard",
+              "group": "Legal one-card stopping field"
+            },
+            {
+              "card": 44001993,
+              "join": "plus",
+              "action": "none",
+              "zone": "field",
+              "caption": "Ritual protection",
+              "group": "Legal one-card stopping field"
+            },
+            {
+              "card": 24749710,
+              "join": "plus",
+              "action": "none",
+              "zone": "field",
+              "caption": "Separate Chains for its effects",
+              "group": "Legal one-card stopping field"
+            },
+            {
+              "card": 24088928,
+              "join": "none",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Retained discard; consumed if extra Link material",
+              "group": "Resources at the legal stop"
+            },
+            {
+              "card": 7084129,
+              "join": "plus",
+              "action": "none",
+              "zone": "graveyard",
+              "caption": "Optional later recovery needs a Tribute",
+              "group": "Resources at the legal stop"
+            },
+            {
+              "card": 4993187,
+              "join": "none",
+              "action": "special-summon",
+              "zone": "field",
+              "caption": "Requires third Effect Monster or legal Link-2 pair",
+              "group": "Optional extra-material extension"
+            },
+            {
+              "card": 27519978,
+              "join": "none",
+              "action": "special-summon",
+              "zone": "field",
+              "caption": "Consumes Fancy Ball and Dragoon, then revives them",
+              "group": "Later conditional Link and revival"
+            },
+            {
+              "card": 70405001,
+              "join": "none",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Archfiend discard or another legal search",
+              "group": "Opponent-turn exchanges"
+            },
+            {
+              "card": 82344137,
+              "join": "plus",
+              "action": "none",
+              "zone": "hand",
+              "caption": "After Curtain body is returned",
+              "group": "Opponent-turn exchanges"
+            },
+            {
+              "card": 50073633,
+              "join": "plus",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Separate unused Shuffle search required",
+              "group": "Opponent-turn exchanges"
             }
           ]
         }
@@ -1434,6 +4696,15 @@
               "kind": "summon",
               "cards": [
                 14965712
+              ],
+              "flow": [
+                {
+                  "card": 14965712,
+                  "join": "none",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "First qualifying opponent window"
+                }
               ]
             },
             {
@@ -1443,6 +4714,22 @@
               "cards": [
                 14965712,
                 97462632
+              ],
+              "flow": [
+                {
+                  "card": 14965712,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Later qualifying field window"
+                },
+                {
+                  "card": 97462632,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Deck copy in Main Monster Zone"
+                }
               ]
             },
             {
@@ -1452,6 +4739,22 @@
               "cards": [
                 97462632,
                 2372506
+              ],
+              "flow": [
+                {
+                  "card": 97462632,
+                  "join": "none",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Separate hand copy"
+                },
+                {
+                  "card": 2372506,
+                  "join": "arrow",
+                  "action": "set",
+                  "zone": "field",
+                  "caption": "From Deck; usable this turn"
+                }
               ]
             },
             {
@@ -1462,6 +4765,43 @@
                 2372506,
                 97462632,
                 0
+              ],
+              "flow": [
+                {
+                  "card": 2372506,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Qualifying opposing activation"
+                },
+                {
+                  "card": 0,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Deck Spell/Trap A as Hats monster"
+                },
+                {
+                  "card": 0,
+                  "join": "plus",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Different Deck Spell/Trap B"
+                },
+                {
+                  "card": 0,
+                  "join": "plus",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Different Deck Spell/Trap C"
+                },
+                {
+                  "card": 97462632,
+                  "join": "plus",
+                  "action": "set",
+                  "zone": "field",
+                  "caption": "Set and shuffle positions"
+                }
               ]
             },
             {
@@ -1471,6 +4811,22 @@
               "cards": [
                 2372506,
                 0
+              ],
+              "flow": [
+                {
+                  "card": 0,
+                  "join": "none",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Opponent chooses one facedown body"
+                },
+                {
+                  "card": 0,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Destroyed; track actual survivors"
+                }
               ]
             },
             {
@@ -1482,6 +4838,36 @@
                 98684220,
                 24461358,
                 24749710
+              ],
+              "flow": [
+                {
+                  "card": 97462632,
+                  "join": "none",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Your turn; fresh accessible copy"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "set",
+                  "zone": "field",
+                  "caption": "Set from Deck"
+                },
+                {
+                  "card": 98684220,
+                  "join": "none",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Alternative starter"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Place face-up instead"
+                }
               ]
             },
             {
@@ -1493,6 +4879,43 @@
                 24088928,
                 33599853,
                 44001993
+              ],
+              "flow": [
+                {
+                  "card": 24749710,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Default search and discard"
+                },
+                {
+                  "card": 24088928,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search"
+                },
+                {
+                  "card": 24088928,
+                  "join": "arrow",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard"
+                },
+                {
+                  "card": 33599853,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Next Chain cost"
+                },
+                {
+                  "card": 44001993,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search Ritual Monster"
+                }
               ]
             },
             {
@@ -1505,6 +4928,36 @@
                 98684220,
                 44001993,
                 0
+              ],
+              "flow": [
+                {
+                  "card": 33599853,
+                  "join": "none",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Recover if in GY"
+                },
+                {
+                  "card": 33599853,
+                  "join": "arrow",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Activate"
+                },
+                {
+                  "card": 0,
+                  "join": "arrow",
+                  "action": "tribute",
+                  "zone": "graveyard",
+                  "caption": "Surviving facedown Level 8 Hats"
+                },
+                {
+                  "card": 44001993,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Ritual Summon"
+                }
               ]
             },
             {
@@ -1514,6 +4967,22 @@
               "cards": [
                 44001993,
                 0
+              ],
+              "flow": [
+                {
+                  "card": 44001993,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Summon recovery"
+                },
+                {
+                  "card": 0,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Recover tributed card only if Spell"
+                }
               ]
             },
             {
@@ -1523,6 +4992,29 @@
               "cards": [
                 24749710,
                 0
+              ],
+              "flow": [
+                {
+                  "card": 0,
+                  "join": "none",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Your turn: legally flip Level 8 Hats"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Later opposing activation"
+                },
+                {
+                  "card": 0,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Return face-up body as cost"
+                }
               ]
             },
             {
@@ -1533,6 +5025,22 @@
                 68462976,
                 82732705,
                 24749710
+              ],
+              "flow": [
+                {
+                  "card": 68462976,
+                  "join": "none",
+                  "action": "none",
+                  "zone": "hand",
+                  "caption": "Example recovered Spell"
+                },
+                {
+                  "card": 82732705,
+                  "join": "or",
+                  "action": "none",
+                  "zone": "hand",
+                  "caption": "Alternative recovered Trap"
+                }
               ]
             },
             {
@@ -1542,6 +5050,29 @@
               "cards": [
                 18738846,
                 0
+              ],
+              "flow": [
+                {
+                  "card": 0,
+                  "join": "none",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Surviving Hats card A"
+                },
+                {
+                  "card": 0,
+                  "join": "plus",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Optional surviving Hats card B"
+                },
+                {
+                  "card": 18738846,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Urania summon procedure"
+                }
               ]
             },
             {
@@ -1553,6 +5084,29 @@
                 24224830,
                 44001993,
                 18738846
+              ],
+              "flow": [
+                {
+                  "card": 24461358,
+                  "join": "none",
+                  "action": "none",
+                  "zone": "hand",
+                  "caption": "Example first recovered card"
+                },
+                {
+                  "card": 24224830,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "hand",
+                  "caption": "Example second recovered card"
+                },
+                {
+                  "card": 0,
+                  "join": "none",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Third survivor required for Ritual"
+                }
               ]
             },
             {
@@ -1564,6 +5118,36 @@
                 22283204,
                 41350417,
                 0
+              ],
+              "flow": [
+                {
+                  "card": 0,
+                  "join": "none",
+                  "action": "banish",
+                  "zone": "banished",
+                  "caption": "Surviving DARK Spellcaster Hats"
+                },
+                {
+                  "card": 59400890,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Spell activated earlier this turn"
+                },
+                {
+                  "card": 22283204,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Choose one search"
+                },
+                {
+                  "card": 41350417,
+                  "join": "or",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Alternative search"
+                }
               ]
             },
             {
@@ -1576,6 +5160,29 @@
                 37818794,
                 41350417,
                 46986414
+              ],
+              "flow": [
+                {
+                  "card": 22283204,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Gaze branch"
+                },
+                {
+                  "card": 59400890,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "deck",
+                  "caption": "Shuffle field or GY material"
+                },
+                {
+                  "card": 37818794,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Fusion Summon"
+                }
               ]
             },
             {
@@ -1586,6 +5193,29 @@
                 75983808,
                 70405001,
                 44001993
+              ],
+              "flow": [
+                {
+                  "card": 75983808,
+                  "join": "none",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Destroyed by opponent card"
+                },
+                {
+                  "card": 70405001,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Choose from hand or Deck"
+                },
+                {
+                  "card": 44001993,
+                  "join": "or",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Alternative Ritual"
+                }
               ]
             },
             {
@@ -1596,6 +5226,36 @@
                 75983808,
                 70405001,
                 44001993
+              ],
+              "flow": [
+                {
+                  "card": 75983808,
+                  "join": "none",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Your turn: flip; attack stronger body"
+                },
+                {
+                  "card": 75983808,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Destroyed by opponent in battle"
+                },
+                {
+                  "card": 70405001,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Trigger; choose one"
+                },
+                {
+                  "card": 44001993,
+                  "join": "or",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Alternative summon"
+                }
               ]
             },
             {
@@ -1606,6 +5266,29 @@
                 24224830,
                 24749710,
                 0
+              ],
+              "flow": [
+                {
+                  "card": 24224830,
+                  "join": "none",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Your turn: legally flipped Hats body"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Respond to opponent hand trap"
+                },
+                {
+                  "card": 24224830,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Return as cost before resolution"
+                }
               ]
             },
             {
@@ -1618,6 +5301,22 @@
                 94145021,
                 14558127,
                 59438930
+              ],
+              "flow": [
+                {
+                  "card": 24224830,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "hand",
+                  "caption": "Your turn; later Chain Link"
+                },
+                {
+                  "card": 94145021,
+                  "join": "arrow",
+                  "action": "banish",
+                  "zone": "banished",
+                  "caption": "Example legal GY target"
+                }
               ]
             },
             {
@@ -1629,6 +5328,22 @@
                 24224830,
                 24749710,
                 82344137
+              ],
+              "flow": [
+                {
+                  "card": 44001993,
+                  "join": "none",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "If this is Shuffle summon"
+                },
+                {
+                  "card": 24224830,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Next Chain recovery if in GY"
+                }
               ]
             },
             {
@@ -1639,6 +5354,82 @@
                 2372506,
                 94145021
               ]
+            }
+          ],
+          "startFlow": [
+            {
+              "card": 97462632,
+              "join": "none",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Hand copy sets Hats",
+              "group": "Both opening cards"
+            },
+            {
+              "card": 14965712,
+              "join": "plus",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Summons another Griffoh from Deck",
+              "group": "Both opening cards"
+            }
+          ],
+          "endFlow": [
+            {
+              "card": 0,
+              "join": "none",
+              "action": "none",
+              "zone": "field",
+              "caption": "Only surviving Hats bodies; opponent chooses destruction",
+              "group": "After Hats resolves"
+            },
+            {
+              "card": 44001993,
+              "join": "none",
+              "action": "special-summon",
+              "zone": "field",
+              "caption": "Tribute a surviving Level 8 Hats body",
+              "group": "Your-turn Ritual conversion"
+            },
+            {
+              "card": 24749710,
+              "join": "none",
+              "action": "none",
+              "zone": "field",
+              "caption": "Requires separate starter",
+              "group": "Independent later Mind Shuffle setup"
+            },
+            {
+              "card": 70405001,
+              "join": "plus",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Conditional exchange target",
+              "group": "Independent later Mind Shuffle setup"
+            },
+            {
+              "card": 18738846,
+              "join": "or",
+              "action": "special-summon",
+              "zone": "field",
+              "caption": "Returns one or two surviving Hats cards",
+              "group": "Alternative survivor conversion"
+            },
+            {
+              "card": 59400890,
+              "join": "or",
+              "action": "special-summon",
+              "zone": "field",
+              "caption": "Banish surviving Hats after Spell activation",
+              "group": "Alternative Dark Magician conversion"
+            },
+            {
+              "card": 37818794,
+              "join": "arrow",
+              "action": "special-summon",
+              "zone": "field",
+              "caption": "Optional Gaze continuation",
+              "group": "Alternative Dark Magician conversion"
             }
           ]
         },
@@ -1708,6 +5499,29 @@
               "cards": [
                 70088809,
                 0
+              ],
+              "flow": [
+                {
+                  "card": 70088809,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "hand",
+                  "caption": "Qualifying opposing field effect"
+                },
+                {
+                  "card": 0,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "extra",
+                  "caption": "Reveal 5 Synchros for all thresholds"
+                },
+                {
+                  "card": 70088809,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Special Summon"
+                }
               ]
             },
             {
@@ -1720,6 +5534,36 @@
                 72444406,
                 53971455,
                 98506199
+              ],
+              "flow": [
+                {
+                  "card": 93125329,
+                  "join": "none",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Choose Malong: return a card"
+                },
+                {
+                  "card": 72444406,
+                  "join": "or",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Packbit: placement needs discard"
+                },
+                {
+                  "card": 53971455,
+                  "join": "or",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Lulu: End Phase Ecclesia"
+                },
+                {
+                  "card": 98506199,
+                  "join": "or",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Pegasus: later destruction response"
+                }
               ]
             },
             {
@@ -1730,6 +5574,22 @@
                 14965712,
                 97462632,
                 46986414
+              ],
+              "flow": [
+                {
+                  "card": 14965712,
+                  "join": "none",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Alternative; first hand window"
+                },
+                {
+                  "card": 97462632,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Later qualifying field window"
+                }
               ]
             },
             {
@@ -1740,6 +5600,43 @@
                 97462632,
                 24749710,
                 24088928
+              ],
+              "flow": [
+                {
+                  "card": 97462632,
+                  "join": "none",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "set",
+                  "zone": "field",
+                  "caption": "From Deck"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Usable this turn"
+                },
+                {
+                  "card": 24088928,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search"
+                },
+                {
+                  "card": 24088928,
+                  "join": "arrow",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard by effect"
+                }
               ]
             },
             {
@@ -1750,6 +5647,29 @@
                 24088928,
                 33599853,
                 70405001
+              ],
+              "flow": [
+                {
+                  "card": 24088928,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "graveyard",
+                  "caption": "GY trigger"
+                },
+                {
+                  "card": 33599853,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Send as cost"
+                },
+                {
+                  "card": 70405001,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Default Chaos search"
+                }
               ]
             },
             {
@@ -1761,6 +5681,29 @@
                 70088809,
                 70405001,
                 0
+              ],
+              "flow": [
+                {
+                  "card": 24749710,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Later opposing activation"
+                },
+                {
+                  "card": 70088809,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Return Level 7+ as cost"
+                },
+                {
+                  "card": 70405001,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "From hand; targeting banish"
+                }
               ]
             },
             {
@@ -1781,6 +5724,22 @@
               "cards": [
                 53971455,
                 55273560
+              ],
+              "flow": [
+                {
+                  "card": 53971455,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "graveyard",
+                  "caption": "End Phase; if sent this turn"
+                },
+                {
+                  "card": 55273560,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "From hand or Deck"
+                }
               ]
             },
             {
@@ -1794,6 +5753,50 @@
                 67809530,
                 99398682,
                 97462632
+              ],
+              "flow": [
+                {
+                  "card": 55273560,
+                  "join": "none",
+                  "action": "tribute",
+                  "zone": "graveyard",
+                  "caption": "Next Main Phase"
+                },
+                {
+                  "card": 73819701,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "From Deck"
+                },
+                {
+                  "card": 55273560,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "White Dragon revives"
+                },
+                {
+                  "card": 73819701,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Level 4 non-Tuner"
+                },
+                {
+                  "card": 78397661,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Choose Synchro"
+                },
+                {
+                  "card": 67809530,
+                  "join": "or",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Alternative Synchro"
+                }
               ]
             },
             {
@@ -1815,6 +5818,29 @@
                 49721684,
                 13332685,
                 70405001
+              ],
+              "flow": [
+                {
+                  "card": 24088928,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "graveyard",
+                  "caption": "Alternative search branch"
+                },
+                {
+                  "card": 49721684,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Mitsurugi Mirror cost"
+                },
+                {
+                  "card": 13332685,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Replaces Ritual/BLS search"
+                }
               ]
             },
             {
@@ -1824,6 +5850,15 @@
               "cards": [
                 13332685,
                 49721684
+              ],
+              "flow": [
+                {
+                  "card": 13332685,
+                  "join": "none",
+                  "action": "none",
+                  "zone": "hand",
+                  "caption": "Next-turn starter; package required"
+                }
               ]
             },
             {
@@ -1834,7 +5869,130 @@
                 33599853,
                 97462632,
                 24749710
+              ],
+              "flow": [
+                {
+                  "card": 33599853,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "graveyard",
+                  "caption": "Your turn; default branch only"
+                },
+                {
+                  "card": 33599853,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Recover"
+                },
+                {
+                  "card": 97462632,
+                  "join": "plus",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Recover eligible Chaos card"
+                }
               ]
+            }
+          ],
+          "startFlow": [
+            {
+              "card": 70088809,
+              "join": "none",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Illustrated choice; actual summon window",
+              "group": "Independently summonable Level 7+ body"
+            },
+            {
+              "card": 0,
+              "join": "or",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Another valid Level 7+ hand effect",
+              "group": "Independently summonable Level 7+ body"
+            },
+            {
+              "card": 97462632,
+              "join": "plus",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Direct starter",
+              "group": "Mind Shuffle access: choose one"
+            },
+            {
+              "card": 14965712,
+              "join": "or",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Needs separate windows to obtain Griffoh",
+              "group": "Mind Shuffle access: choose one"
+            }
+          ],
+          "endFlow": [
+            {
+              "card": 70405001,
+              "join": "none",
+              "action": "none",
+              "zone": "field",
+              "caption": "After targeting summon banish",
+              "group": "Default exchange field"
+            },
+            {
+              "card": 24749710,
+              "join": "plus",
+              "action": "none",
+              "zone": "field",
+              "caption": "Face-up",
+              "group": "Default exchange field"
+            },
+            {
+              "card": 70088809,
+              "join": "none",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Named once-per-turn effect already used",
+              "group": "Returned body: one actual choice"
+            },
+            {
+              "card": 0,
+              "join": "or",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Other returned Level 7+ body; own timing applies",
+              "group": "Returned body: one actual choice"
+            },
+            {
+              "card": 24088928,
+              "join": "none",
+              "action": "none",
+              "zone": "graveyard",
+              "caption": "Search trigger used",
+              "group": "Default-route next-turn resources"
+            },
+            {
+              "card": 33599853,
+              "join": "plus",
+              "action": "none",
+              "zone": "graveyard",
+              "caption": "Recover on your turn",
+              "group": "Default-route next-turn resources"
+            },
+            {
+              "card": 55273560,
+              "join": "none",
+              "action": "special-summon",
+              "zone": "field",
+              "caption": "Conditional End Phase summon",
+              "group": "Lulu send branch"
+            },
+            {
+              "card": 13332685,
+              "join": "or",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Replaces default BLS search; next-turn starter",
+              "group": "Alternative Mitsurugi search"
             }
           ]
         },
@@ -1890,6 +6048,15 @@
               "kind": "summon",
               "cards": [
                 14965712
+              ],
+              "flow": [
+                {
+                  "card": 14965712,
+                  "join": "none",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Qualifying opponent hand window"
+                }
               ]
             },
             {
@@ -1899,6 +6066,22 @@
               "cards": [
                 14965712,
                 46986414
+              ],
+              "flow": [
+                {
+                  "card": 14965712,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Later qualifying field window"
+                },
+                {
+                  "card": 46986414,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "From Deck or GY; Level 7 body"
+                }
               ]
             },
             {
@@ -1908,6 +6091,22 @@
               "cards": [
                 14965712,
                 46986414
+              ],
+              "flow": [
+                {
+                  "card": 14965712,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Alternative field-effect use"
+                },
+                {
+                  "card": 14965712,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Another copy; needs a later window"
+                }
               ]
             },
             {
@@ -1917,6 +6116,29 @@
               "cards": [
                 97462632,
                 24749710
+              ],
+              "flow": [
+                {
+                  "card": 97462632,
+                  "join": "none",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "set",
+                  "zone": "field",
+                  "caption": "From Deck"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Usable this turn"
+                }
               ]
             },
             {
@@ -1929,6 +6151,50 @@
                 33599853,
                 70405001,
                 44001993
+              ],
+              "flow": [
+                {
+                  "card": 24749710,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Branch A"
+                },
+                {
+                  "card": 24088928,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search"
+                },
+                {
+                  "card": 24088928,
+                  "join": "arrow",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard"
+                },
+                {
+                  "card": 33599853,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Trigger cost"
+                },
+                {
+                  "card": 70405001,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Choose Ritual"
+                },
+                {
+                  "card": 44001993,
+                  "join": "or",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Alternative Ritual"
+                }
               ]
             },
             {
@@ -1941,6 +6207,29 @@
                 0,
                 91800273,
                 24224830
+              ],
+              "flow": [
+                {
+                  "card": 24749710,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Branch B; direct search"
+                },
+                {
+                  "card": 70405001,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search"
+                },
+                {
+                  "card": 0,
+                  "join": "arrow",
+                  "action": "discard",
+                  "zone": "none",
+                  "caption": "Spare card; destination under current rules"
+                }
               ]
             },
             {
@@ -1951,6 +6240,29 @@
                 24749710,
                 46986414,
                 70405001
+              ],
+              "flow": [
+                {
+                  "card": 24749710,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Later opposing activation"
+                },
+                {
+                  "card": 46986414,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Return as cost"
+                },
+                {
+                  "card": 70405001,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "From hand; targeting banish"
+                }
               ]
             },
             {
@@ -1963,6 +6275,43 @@
                 24088928,
                 33599853,
                 44001993
+              ],
+              "flow": [
+                {
+                  "card": 24749710,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Branch C"
+                },
+                {
+                  "card": 70405001,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search"
+                },
+                {
+                  "card": 24088928,
+                  "join": "arrow",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard opened copy"
+                },
+                {
+                  "card": 33599853,
+                  "join": "arrow",
+                  "action": "send",
+                  "zone": "graveyard",
+                  "caption": "Trigger cost"
+                },
+                {
+                  "card": 44001993,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Second Ritual from Archfiend"
+                }
               ]
             },
             {
@@ -1974,6 +6323,36 @@
                 46986414,
                 70405001,
                 44001993
+              ],
+              "flow": [
+                {
+                  "card": 24749710,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Branches A/C; opposing activation"
+                },
+                {
+                  "card": 46986414,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Return as cost"
+                },
+                {
+                  "card": 70405001,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Choose held Ritual"
+                },
+                {
+                  "card": 44001993,
+                  "join": "or",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Alternative held Ritual"
+                }
               ]
             },
             {
@@ -1984,6 +6363,36 @@
                 24749710,
                 70405001,
                 44001993
+              ],
+              "flow": [
+                {
+                  "card": 70405001,
+                  "join": "none",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Example current field Ritual"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Later opposing activation"
+                },
+                {
+                  "card": 70405001,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Return as cost"
+                },
+                {
+                  "card": 44001993,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Different name; must be in hand"
+                }
               ]
             },
             {
@@ -1997,6 +6406,29 @@
                 14965712,
                 94259633,
                 29301450
+              ],
+              "flow": [
+                {
+                  "card": 33599853,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "graveyard",
+                  "caption": "Your turn; if GY branch resolved"
+                },
+                {
+                  "card": 33599853,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Recover"
+                },
+                {
+                  "card": 97462632,
+                  "join": "plus",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Recover eligible Chaos card"
+                }
               ]
             },
             {
@@ -2008,7 +6440,122 @@
                 27204311,
                 97940434,
                 24749710
+              ],
+              "flow": [
+                {
+                  "card": 70088809,
+                  "join": "none",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Alternative legal Level 7+ body"
+                },
+                {
+                  "card": 27204311,
+                  "join": "or",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Nibiru; actual summon window"
+                },
+                {
+                  "card": 97940434,
+                  "join": "or",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Chaos Hunter; actual summon cost"
+                }
               ]
+            }
+          ],
+          "startFlow": [
+            {
+              "card": 14965712,
+              "join": "none",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Summons Dark Magician at a later window",
+              "group": "Level 7+ body setup: choose one"
+            },
+            {
+              "card": 0,
+              "join": "or",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Independent legal Level 7+ body route",
+              "group": "Level 7+ body setup: choose one"
+            },
+            {
+              "card": 97462632,
+              "join": "plus",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Deck copy of Mind Shuffle required",
+              "group": "Mind Shuffle starter"
+            },
+            {
+              "card": 0,
+              "join": "none",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Additional spare discard for direct Ritual search",
+              "group": "Optional branch B cost"
+            }
+          ],
+          "endFlow": [
+            {
+              "card": 14965712,
+              "join": "none",
+              "action": "none",
+              "zone": "field",
+              "caption": "Surviving copy; extra bodies need later windows",
+              "group": "Common field resources"
+            },
+            {
+              "card": 24749710,
+              "join": "plus",
+              "action": "none",
+              "zone": "field",
+              "caption": "Search and exchange use separate Chains",
+              "group": "Common field resources"
+            },
+            {
+              "card": 70405001,
+              "join": "none",
+              "action": "none",
+              "zone": "field",
+              "caption": "Targeting banish",
+              "group": "Ritual exchange: choose one held target"
+            },
+            {
+              "card": 44001993,
+              "join": "or",
+              "action": "none",
+              "zone": "field",
+              "caption": "Alternative protection and Spell recovery",
+              "group": "Ritual exchange: choose one held target"
+            },
+            {
+              "card": 46986414,
+              "join": "none",
+              "action": "none",
+              "zone": "hand",
+              "caption": "After paying return cost",
+              "group": "Returned Dark Magician"
+            },
+            {
+              "card": 33599853,
+              "join": "none",
+              "action": "none",
+              "zone": "graveyard",
+              "caption": "Next-turn recovery",
+              "group": "Only branches A/C: GY resources"
+            },
+            {
+              "card": 24088928,
+              "join": "plus",
+              "action": "none",
+              "zone": "graveyard",
+              "caption": "Not supplied by direct branch B",
+              "group": "Only branches A/C: GY resources"
             }
           ]
         },
@@ -2057,6 +6604,22 @@
               "cards": [
                 14965712,
                 97462632
+              ],
+              "flow": [
+                {
+                  "card": 14965712,
+                  "join": "none",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Alternative; first opponent window"
+                },
+                {
+                  "card": 97462632,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Later field window: add, not summon"
+                }
               ]
             },
             {
@@ -2066,6 +6629,29 @@
               "cards": [
                 97462632,
                 24749710
+              ],
+              "flow": [
+                {
+                  "card": 97462632,
+                  "join": "none",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "set",
+                  "zone": "field",
+                  "caption": "From Deck"
+                },
+                {
+                  "card": 24749710,
+                  "join": "arrow",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Usable this turn"
+                }
               ]
             },
             {
@@ -2076,6 +6662,29 @@
                 24749710,
                 70405001,
                 82344137
+              ],
+              "flow": [
+                {
+                  "card": 24749710,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Search and discard"
+                },
+                {
+                  "card": 70405001,
+                  "join": "arrow",
+                  "action": "search",
+                  "zone": "hand",
+                  "caption": "Search"
+                },
+                {
+                  "card": 82344137,
+                  "join": "arrow",
+                  "action": "discard",
+                  "zone": "graveyard",
+                  "caption": "Discard by effect, not cost"
+                }
               ]
             },
             {
@@ -2084,6 +6693,29 @@
               "kind": "chain",
               "cards": [
                 82344137
+              ],
+              "flow": [
+                {
+                  "card": 82344137,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "graveyard",
+                  "caption": "After Trap resolves"
+                },
+                {
+                  "card": 82344137,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "GY summon"
+                },
+                {
+                  "card": 0,
+                  "join": "arrow",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Take opponent highest-ATK monster"
+                }
               ]
             },
             {
@@ -2094,6 +6726,29 @@
                 24749710,
                 82344137,
                 70405001
+              ],
+              "flow": [
+                {
+                  "card": 24749710,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Later opposing activation"
+                },
+                {
+                  "card": 82344137,
+                  "join": "arrow",
+                  "action": "return",
+                  "zone": "hand",
+                  "caption": "Return as cost"
+                },
+                {
+                  "card": 70405001,
+                  "join": "arrow",
+                  "action": "special-summon",
+                  "zone": "field",
+                  "caption": "Summon from hand"
+                }
               ]
             },
             {
@@ -2104,6 +6759,29 @@
                 70405001,
                 82344137,
                 24749710
+              ],
+              "flow": [
+                {
+                  "card": 70405001,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "field",
+                  "caption": "Targeting banish trigger"
+                },
+                {
+                  "card": 82344137,
+                  "join": "none",
+                  "action": "none",
+                  "zone": "hand",
+                  "caption": "Retained hand resource"
+                },
+                {
+                  "card": 24749710,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "field",
+                  "caption": "Remains face-up"
+                }
               ]
             },
             {
@@ -2113,6 +6791,22 @@
               "cards": [
                 82344137,
                 24749710
+              ],
+              "flow": [
+                {
+                  "card": 82344137,
+                  "join": "none",
+                  "action": "activate",
+                  "zone": "hand",
+                  "caption": "Next turn: reveal from hand"
+                },
+                {
+                  "card": 0,
+                  "join": "plus",
+                  "action": "none",
+                  "zone": "hand",
+                  "caption": "Actual hand Spell/Trap required"
+                }
               ]
             },
             {
@@ -2127,6 +6821,66 @@
                 35480699,
                 24749710
               ]
+            }
+          ],
+          "startFlow": [
+            {
+              "card": 97462632,
+              "join": "none",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Direct starter",
+              "group": "Mind Shuffle access: choose one"
+            },
+            {
+              "card": 14965712,
+              "join": "or",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Requires separate summon and search windows",
+              "group": "Mind Shuffle access: choose one"
+            },
+            {
+              "card": 82344137,
+              "join": "plus",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Discarded by Mind Shuffle, not as cost",
+              "group": "Required effect discard"
+            }
+          ],
+          "endFlow": [
+            {
+              "card": 24749710,
+              "join": "none",
+              "action": "none",
+              "zone": "field",
+              "caption": "Face-up",
+              "group": "After the later exchange"
+            },
+            {
+              "card": 70405001,
+              "join": "plus",
+              "action": "none",
+              "zone": "field",
+              "caption": "Targeting summon banish",
+              "group": "After the later exchange"
+            },
+            {
+              "card": 82344137,
+              "join": "plus",
+              "action": "none",
+              "zone": "hand",
+              "caption": "Returned as cost; reveal needs a hand Spell/Trap",
+              "group": "After the later exchange"
+            },
+            {
+              "card": 0,
+              "join": "none",
+              "action": "none",
+              "zone": "field",
+              "caption": "Any stolen monster still legally controlled",
+              "group": "Conditional additional field resource"
             }
           ]
         }
