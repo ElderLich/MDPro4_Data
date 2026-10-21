@@ -1,0 +1,2136 @@
+{
+  "schemaVersion": 1,
+  "id": "a5fb0972-5a83-460f-81ef-a6364580c3fb",
+  "title": "Chaos Ritual — complete routes and branches",
+  "description": "All nine guides and their alternatives from Wahaby's Chaos Ritual sheet, rewritten as in-game teaching procedures. The four original tabs are preserved. Card names follow the installed database. Conditional branches identify their required cards, zones, turns and costs; later-turn options are not simultaneous end boards. Corrections address source omissions and incompatible material/search assumptions. These are card-text-reviewed guides, not a claim of native-core execution acceptance or guaranteed wins.",
+  "author": "Wahaby · instructions adapted by MDPro4",
+  "accent": "violet",
+  "tags": [
+    "archetype:cf",
+    "archetype:10cf",
+    "archetype:15d",
+    "archetype:10a2",
+    "ritual"
+  ],
+  "tabs": [
+    {
+      "id": "pure",
+      "title": "Pure Chaos",
+      "combos": [
+        {
+          "id": "pure-griffoh",
+          "title": "Griffoh and the optional Dark Magician packages",
+          "description": "Choose Griffoh, Ragged Records of Rites, or Black Chaos as the opener. The short Ritual line and two Dark Magician extensions are alternatives. The end-board list includes opponent-turn follow-up, not simultaneous starting resources. Extra packages expose more interruption points. Keep a Mind Shuffle in the Deck for Griffoh; Black Chaos can also place one from the GY, but neither uses one in hand.",
+          "startingCards": [
+            97462632,
+            24461358,
+            98684220
+          ],
+          "endCards": [
+            44001993,
+            24749710,
+            70405001,
+            2372506,
+            75983808,
+            46986414,
+            65741786,
+            37818794,
+            29301450,
+            50073633
+          ],
+          "requiredCards": [
+            24749710,
+            24088928,
+            33599853,
+            44001993,
+            70405001,
+            97462632,
+            2372506,
+            75983808,
+            59400890,
+            7084129,
+            41350417,
+            22283204,
+            65741786,
+            29301450,
+            37818794,
+            50073633
+          ],
+          "playsAround": [
+            94145021,
+            70088809,
+            27204311,
+            33854624,
+            97268402,
+            59438930,
+            52038441,
+            10045474,
+            43904702,
+            92248362
+          ],
+          "cardNotes": {
+            "start:97462632": "Alternative opener. Its Draw Phase sequence avoids Droll's activation window.",
+            "start:24461358": "Alternative Main Phase starter; reveals the Ritual Spell and searches a monster.",
+            "start:98684220": "Alternative opener. Places Mind Shuffle from Deck/GY; does not set one from hand.",
+            "end:44001993": "Field in the short line; optional extension banishes/recycles it. Protects your Spells/Traps from opposing destruction and banishment.",
+            "end:24749710": "Face-up. Search once per turn; exchange only on opposing activations, in a separate Chain from its search.",
+            "end:70405001": "Hand or field on the opponent's turn. Non-targeting activated-effect resistance, battle protection and a targeting summon banish.",
+            "end:2372506": "Alternative Griffoh set; requires three Deck Spells/Traps with different names and enough Main Monster Zones.",
+            "end:75983808": "Alternative Griffoh set. Targeting response; destruction trigger requires an opponent's card.",
+            "end:46986414": "Optional Curtain package; Level 7 body for Mind Shuffle.",
+            "end:65741786": "Package A only. Link with Archfiend on the opponent's turn.",
+            "end:29301450": "Optional package. Its summon and temporary-banish effects have their own conditions.",
+            "end:37818794": "Optional Gaze package; requires a discard to negate. Gaze schedules banishment next End Phase.",
+            "end:50073633": "Alternative hand search, then conditional draw three/discard two. Not an additional Griffoh search.",
+            "required:24749710": "Keep a Deck copy for Griffoh. A copy already in hand can be set normally but lacks Griffoh's same-turn permission."
+          },
+          "steps": [
+            {
+              "title": "Choose one opener",
+              "text": "With Records, reveal Light and Darkness Ritual in your hand or Deck and search Griffoh or Black Chaos. This Spell route begins in the Main Phase, so it does not inherit the Draw Phase protection from Droll. With a natural Griffoh, begin during the Draw Phase.",
+              "kind": "action",
+              "cards": [
+                24461358,
+                33599853,
+                97462632,
+                98684220
+              ]
+            },
+            {
+              "title": "Griffoh route: activate the set Trap",
+              "text": "Discard Griffoh to set Mind Shuffle from the Deck, then activate the Trap. The effect of Griffoh permits this activation on the same turn. Resolve its search/discard effect with the Trap activation where possible.",
+              "kind": "effect",
+              "cards": [
+                97462632,
+                24749710
+              ]
+            },
+            {
+              "title": "Black Chaos alternative",
+              "text": "If Black Chaos is the starter, discard it to place Mind Shuffle face-up from the Deck or GY instead. Placing a Trap face-up is not activating it; an effect used afterward can be answered by Ghost Ogre. Continue with the same Archfiend setup.",
+              "kind": "note",
+              "cards": [
+                98684220,
+                24749710,
+                59438930
+              ]
+            },
+            {
+              "title": "Create the Ritual resources",
+              "text": "Use Mind Shuffle to add Skull Archfiend of Chaos and discard that same card. In the next Chain, Archfiend sends Light and Darkness Ritual from hand or Deck as cost and adds Ritual Chaos from the Deck. Do the Griffoh route searches in the Draw Phase if avoiding Droll.",
+              "kind": "effect",
+              "cards": [
+                24749710,
+                24088928,
+                33599853,
+                44001993
+              ]
+            },
+            {
+              "title": "Recover and Ritual Summon",
+              "text": "During the Main Phase, recover the Ritual Spell and Archfiend with the Spell's GY effect. Activate the Ritual: banish Griffoh from the GY as the entire requirement, or banish the Level 8 Black Chaos used for the alternative opener. Summon Ritual Chaos.",
+              "kind": "summon",
+              "cards": [
+                33599853,
+                24088928,
+                97462632,
+                98684220,
+                44001993
+              ]
+            },
+            {
+              "title": "Choose the endpoint before recycling",
+              "text": "For the short line, keep Ritual Chaos on the field and Archfiend in hand. Its summon effect may recover a Spell. For either Dark Magician extension below, leave enough cards in the GY/face-up banishment for Archfiend's three-card shuffle; keeping the Ritual Spell in the GY is one option.",
+              "kind": "note",
+              "cards": [
+                44001993,
+                24088928,
+                33599853
+              ]
+            },
+            {
+              "title": "Optional package A: Rod or another Normal Summon",
+              "text": "Only if playing this package: banish the Ritual Chaos you control to Special Summon DMOD. A Spell was activated earlier. Search Rod, Normal Summon it, then search Curtain. If using another Normal Summon as Link material, search Curtain directly instead.",
+              "kind": "summon",
+              "cards": [
+                44001993,
+                59400890,
+                7084129,
+                41350417
+              ]
+            },
+            {
+              "title": "Package A: I:P, Dark Magician and Archfiend",
+              "text": "Link DMOD and Rod/the other Effect Monster into I:P. Activate Curtain to summon Dark Magician and add Gaze; set Gaze. Special Summon Archfiend from your hand by returning three other eligible cards, including the banished Ritual Chaos, to the Deck. Keep DMOD in the GY for Gaze.",
+              "kind": "summon",
+              "cards": [
+                59400890,
+                7084129,
+                65741786,
+                41350417,
+                46986414,
+                22283204,
+                24088928,
+                44001993
+              ]
+            },
+            {
+              "title": "Package A on the opponent's turn",
+              "text": "Use I:P and Archfiend to Link Summon S:P during the opponent's Main Phase. Archfiend now has a fresh once-per-turn trigger: send another Ritual Spell and search BLS. Set Gaze can turn the DMOD in your GY into Dragoon. Retain a discard for Dragoon.",
+              "kind": "effect",
+              "cards": [
+                65741786,
+                24088928,
+                29301450,
+                33599853,
+                70405001,
+                22283204,
+                59400890,
+                37818794
+              ]
+            },
+            {
+              "title": "Optional package B: Curtain without Rod",
+              "text": "As an alternative to package A, banish Ritual Chaos for DMOD, search and activate Curtain, summon Dark Magician and add Gaze. Summon Archfiend from hand by recycling three eligible cards. Link Archfiend and DMOD into S:P, then use Gaze on DMOD in the GY for Dragoon.",
+              "kind": "summon",
+              "cards": [
+                44001993,
+                59400890,
+                41350417,
+                46986414,
+                22283204,
+                24088928,
+                29301450,
+                37818794
+              ]
+            },
+            {
+              "title": "Keep Archfiend's location and once-per-turn use straight",
+              "text": "Both extensions move the recovered Archfiend out of your hand. Do not also discard it in the following short-line step. In package B its send-to-GY search was already used this turn, so the Link material does not grant another search. Use another discard/Chaos card if extending with Mind Shuffle.",
+              "kind": "note",
+              "cards": [
+                24088928,
+                24749710
+              ]
+            },
+            {
+              "title": "Short-line follow-up: choose one search",
+              "text": "On the opponent's turn, use Mind Shuffle to search Griffoh for another response, or Celtic Mystic for its draw-and-discard route. Discard the Archfiend kept in hand. Its trigger sends another Ritual Spell and searches BLS. This search replaces, rather than adds to, another Mind Shuffle search that turn.",
+              "kind": "effect",
+              "cards": [
+                24749710,
+                97462632,
+                50073633,
+                24088928,
+                33599853,
+                70405001
+              ]
+            },
+            {
+              "title": "Set Hats or Box when Griffoh was chosen",
+              "text": "Discard the searched Griffoh to set Chaos Magical Hats or Chaos Mystic Box from the Deck. Hats needs an eligible monster in a Main Monster Zone plus three free Main Monster Zones. Box responds when another card you control is targeted.",
+              "kind": "effect",
+              "cards": [
+                97462632,
+                2372506,
+                75983808
+              ]
+            },
+            {
+              "title": "Use the Ritual exchange at a later response window",
+              "text": "When the opponent activates a card or effect, Mind Shuffle can return your Level 7+ monster as cost and summon a differently named Chaos monster from hand. BLS can then target and banish a card. Do not use both Mind Shuffle effects in one Chain.",
+              "kind": "effect",
+              "cards": [
+                24749710,
+                44001993,
+                70405001,
+                46986414
+              ]
+            },
+            {
+              "title": "Celtic alternative and protection limits",
+              "text": "If Celtic was chosen, summon it through a legal Mind Shuffle exchange; reveal a hand containing a card that mentions the Ritual Spell, draw three and discard two. Its Extra Deck restriction applies. The Ritual monsters resist non-targeting activated opponent effects, not every effect; the listed hand traps remain matchup considerations.",
+              "kind": "note",
+              "cards": [
+                50073633,
+                24749710,
+                44001993,
+                70405001
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "branded",
+      "title": "Branded Chaos (Best Variant)",
+      "combos": [
+        {
+          "id": "branded-white",
+          "title": "White Dragon, Ecclesia and High Spirits: the Crimson King route",
+          "description": "White Dragon alone starts the primary route. Incredible Ecclesia is a Normal Summon alternative; High Spirits requires a matching monster in hand and appropriate Extra Deck material. These openings have different End Phase resources. Later searches are vulnerable to Droll; opponent-turn Griffoh and Celtic choices are mutually exclusive.",
+          "startingCards": [
+            73819701,
+            55273560,
+            29948294,
+            24088928,
+            0
+          ],
+          "endCards": [
+            44001993,
+            67809530,
+            24749710,
+            70405001,
+            30271097,
+            2372506,
+            50073633,
+            75983808
+          ],
+          "requiredCards": [
+            73819701,
+            55273560,
+            67809530,
+            99398682,
+            87746184,
+            97462632,
+            24749710,
+            33599853,
+            24088928,
+            44001993,
+            70405001,
+            30271097,
+            2372506,
+            75983808,
+            50073633,
+            29948294,
+            72272462,
+            24915933,
+            51409648,
+            87758525
+          ],
+          "playsAround": [
+            27204311
+          ],
+          "cardNotes": {
+            "start:0": "High Spirits needs one matching-Type monster to reveal/discard; not needed for White Dragon alone.",
+            "start:73819701": "Primary one-card opener.",
+            "start:55273560": "Alternative opener; usually uses the Normal Summon and does not send Albion by itself.",
+            "start:29948294": "Alternative plus matching monster and Fusion target.",
+            "start:24088928": "Example High Spirits discard; its send-to-GY trigger remains once per turn.",
+            "end:67809530": "Field only if Griffoh paid the Ritual requirement. Optional Red Dragon Archfiend tag needs that separate package.",
+            "end:44001993": "Field after Ritual Summon. Protection is conditional, not blanket immunity.",
+            "end:24749710": "Face-up; opponent-turn search and exchange are separate Chains.",
+            "end:70405001": "Opponent-turn search and possible field summon.",
+            "end:30271097": "Set by Albion only if Albion was sent this turn.",
+            "end:2372506": "Alternative to Box; searched via next-turn Griffoh.",
+            "end:75983808": "Alternative response set by Griffoh.",
+            "end:50073633": "Alternative to Griffoh's search, with draw/discard and Extra Deck limitations.",
+            "required:24749710": "Must remain in the Deck for Griffoh's set.",
+            "required:33599853": "At least one copy in hand or Deck for Archfiend, plus a listed Ritual Monster in Deck to search."
+          },
+          "steps": [
+            {
+              "title": "Primary opener: White Dragon",
+              "text": "Send Albion from your Extra Deck to the GY to Special Summon White Dragon from hand. Its hand effect restricts further Extra Deck summons this turn to Level 8 Fusion or Synchro Monsters.",
+              "kind": "summon",
+              "cards": [
+                73819701,
+                87746184
+              ]
+            },
+            {
+              "title": "Alternative opener: Incredible Ecclesia",
+              "text": "If starting with Ecclesia instead, Normal Summon it, or use its hand summon condition when the opponent controls more monsters. Tribute it to summon White Dragon from hand or Deck. This bypasses White Dragon's hand-summon effect: it does not send Albion or create Albion's End Phase set by itself.",
+              "kind": "note",
+              "cards": [
+                55273560,
+                73819701,
+                87746184
+              ]
+            },
+            {
+              "title": "Alternative opener: High Spirits",
+              "text": "Activate High Spirits by revealing an appropriate monster, send a matching-Type Level 8 Fusion with 2500 ATK or DEF, then discard the revealed card and search White Dragon. Continue with White Dragon's hand effect, sending Albion. High Spirits plus its reveal/discard is a two-card opening.",
+              "kind": "effect",
+              "cards": [
+                29948294,
+                73819701,
+                87746184
+              ]
+            },
+            {
+              "title": "High Spirits matching examples",
+              "text": "Fiend: Archfiend or Kuriboh with Despian Quaeritis. Spellcaster: Dark Magician with Granguignol. Winged Beast: Fuwalos with Rindbrumm. Dragon: Magnamhut or Harmonia with Albion. Warrior: BLS or Celtic Mystic with Favorite HERO Shining Flare Wingman. The source shortens the last name; the Level 6 Flame Wingman is not a valid target.",
+              "kind": "note",
+              "cards": [
+                24088928,
+                14965712,
+                72272462,
+                46986414,
+                24915933,
+                42141493,
+                51409648,
+                33854624,
+                70088809,
+                87746184,
+                70405001,
+                50073633,
+                87758525
+              ]
+            },
+            {
+              "title": "Synchro Summon The Crimson King",
+              "text": "White Dragon's summon effect Special Summons Incredible Ecclesia from hand, Deck or GY. Use the Level 4 Tuner and White Dragon to Synchro Summon The Crimson King; search Crimson Call.",
+              "kind": "summon",
+              "cards": [
+                73819701,
+                55273560,
+                67809530,
+                99398682
+              ]
+            },
+            {
+              "title": "Search Griffoh and activate Mind Shuffle",
+              "text": "With The Crimson King present, Crimson Call searches Griffoh. Discard Griffoh to set Mind Shuffle, then activate it this turn using Griffoh's permission.",
+              "kind": "effect",
+              "cards": [
+                99398682,
+                67809530,
+                97462632,
+                24749710
+              ]
+            },
+            {
+              "title": "Search and discard Archfiend",
+              "text": "Mind Shuffle adds Archfiend and discards it. Archfiend sends Light and Darkness Ritual and searches Ritual Chaos. If High Spirits already discarded Archfiend and used this trigger earlier, keep those earlier Ritual resources; do not use the same named trigger twice this turn.",
+              "kind": "effect",
+              "cards": [
+                24749710,
+                24088928,
+                33599853,
+                44001993
+              ]
+            },
+            {
+              "title": "Recover the Ritual Spell and Archfiend",
+              "text": "Use the Ritual Spell's GY effect to return itself and Archfiend to hand.",
+              "kind": "effect",
+              "cards": [
+                33599853,
+                24088928
+              ]
+            },
+            {
+              "title": "Ritual Summon with either material route",
+              "text": "Activate the Ritual Spell. Banish Griffoh from the GY as the entire Tribute requirement to preserve The Crimson King, or Tribute The Crimson King itself. Summon Ritual Chaos and use its summon effect to recover the Ritual Spell if desired.",
+              "kind": "summon",
+              "cards": [
+                33599853,
+                97462632,
+                67809530,
+                44001993
+              ]
+            },
+            {
+              "title": "Resolve the available End Phase effects",
+              "text": "If Albion was sent to the GY this turn, use it to set The Fallen & The Virtuous from the Deck. If a Fusion Monster was sent to your GY, return Incredible Ecclesia to hand. The bare Ecclesia opener provides neither condition automatically.",
+              "kind": "effect",
+              "cards": [
+                87746184,
+                30271097,
+                55273560
+              ]
+            },
+            {
+              "title": "Opponent turn: choose Griffoh or Celtic",
+              "text": "Use Mind Shuffle once: add Griffoh for Hats/Box, or Celtic Mystic for a draw route. In either case discard Archfiend, then send another Ritual Spell and search BLS with its new-turn trigger. The source's Celtic branch replaces its Griffoh search.",
+              "kind": "effect",
+              "cards": [
+                24749710,
+                97462632,
+                50073633,
+                24088928,
+                33599853,
+                70405001
+              ]
+            },
+            {
+              "title": "If Griffoh was searched",
+              "text": "Discard it to set Hats or Box from the Deck, usable that turn. Hats needs an eligible Main Monster Zone monster and three free zones; Box needs an opposing targeting activation.",
+              "kind": "effect",
+              "cards": [
+                97462632,
+                2372506,
+                75983808
+              ]
+            },
+            {
+              "title": "If Celtic was searched",
+              "text": "Use a later Mind Shuffle exchange to summon Celtic from hand. Its draw effect needs a revealed hand containing a card that mentions Light and Darkness Ritual; draw three and discard two. Respect the resulting Extra Deck summon limit.",
+              "kind": "note",
+              "cards": [
+                50073633,
+                24749710
+              ]
+            },
+            {
+              "title": "The later exchange and Branded response",
+              "text": "On an opposing activation, return Ritual Chaos or another Level 7+ body for BLS and its targeting banish. The Fallen & The Virtuous can either send an Albaz Fusion to destroy a face-up card or revive from either GY while an Ecclesia is on your field/in your GY. It cannot use both modes that turn.",
+              "kind": "effect",
+              "cards": [
+                24749710,
+                44001993,
+                70405001,
+                30271097,
+                67809530
+              ]
+            }
+          ]
+        },
+        {
+          "id": "branded-ecclesia",
+          "title": "Ecclesia: Droll stop, Kuriboh bridge, or Dragoon alternatives",
+          "description": "Start with White Dragon and a LIGHT/DARK monster for Cartesia. The opening makes Ecclesia and the Dark Dragon before using its effect. Choose the Droll stop or the no-Droll continuation; then choose exactly one DMOD search: Kuriboh, Gaze, or Curtain. The Gaze/Curtain choices replace Kuriboh and need an independent Mind Shuffle starter for later Chaos exchanges. An already opened Mind Shuffle can be set for next turn and is useful here.",
+          "startingCards": [
+            73819701,
+            0
+          ],
+          "endCards": [
+            44001993,
+            78397661,
+            68468459,
+            76666602,
+            44146295,
+            30271097,
+            37818794,
+            70088809,
+            70405001,
+            24915933,
+            53971455,
+            73355772,
+            82956214,
+            24749710
+          ],
+          "requiredCards": [
+            87746184,
+            55273560,
+            78397661,
+            95515789,
+            24915933,
+            24088928,
+            33599853,
+            44001993,
+            59400890,
+            14965712,
+            97462632,
+            24749710,
+            70405001,
+            30271097,
+            70088809,
+            27204311,
+            22283204,
+            41350417,
+            46986414,
+            73355772,
+            82956214
+          ],
+          "playsAround": [
+            94145021
+          ],
+          "cardNotes": {
+            "start:0": "One additional LIGHT or DARK monster in hand for Cartesia's Fusion material.",
+            "end:44001993": "Field in the Droll stop; recycled in the no-Droll extension, then searched again next turn.",
+            "end:78397661": "Returns in the End Phase after its temporary banishment. Supplies Cartesia or Albaz.",
+            "end:68468459": "Conditional summon from Ecclesia/Branded response; keep a discard for its Fusion effect.",
+            "end:76666602": "Alternative Albaz Fusion; its shuffle affects GYs/banishment, not arbitrary field cards.",
+            "end:44146295": "Alternative Fusion requiring a valid recipe. Not simultaneous with every other listed endpoint.",
+            "end:30271097": "Set by Albion; choose destruction OR revival once that turn.",
+            "end:37818794": "Optional DMOD Gaze/Curtain search instead of Kuriboh; needs a discard for its negate.",
+            "end:70088809": "Sent to GY, revived, then returned to hand on the opponent's turn. Its lock affects later Fusion effects.",
+            "end:70405001": "Searched with Mind Shuffle on the opponent's turn, then may be summoned.",
+            "end:24915933": "Recycled, then Fusion Summoned next turn. Secondary response accesses Despia/Dogmatika.",
+            "end:53971455": "Conditional Granguignol response; boosts current monsters and may negate when a card leaves the Extra Deck.",
+            "end:73355772": "Optional hand route for Punishment; a direct Deck summon does not set it.",
+            "end:82956214": "Conditional same-turn activation from Fleurdelis; own ATK requirement and Extra Deck lock remain.",
+            "end:24749710": "Default Kuriboh-to-Griffoh bridge, or an independent copy/starter. Not produced by Gaze alone.",
+            "required:73355772": "Optional package; distinguish its hand-summon trigger from a Deck summon."
+          },
+          "steps": [
+            {
+              "title": "Summon White Dragon and Incredible Ecclesia",
+              "text": "Use White Dragon's hand effect, sending Albion from the Extra Deck to the GY. Special Summon White Dragon; its summon effect brings out Incredible Ecclesia. Remember the Level 8 Fusion/Synchro restriction.",
+              "kind": "summon",
+              "cards": [
+                73819701,
+                87746184,
+                55273560
+              ]
+            },
+            {
+              "title": "Actually Synchro Summon the Ecclesia boss",
+              "text": "Use Incredible Ecclesia as the Level 4 Tuner and White Dragon as the non-Tuner to Synchro Summon Ecclesia and the Dark Dragon. The source's icon sequence omits this explicit summon; its effect is unavailable until it is on the field.",
+              "kind": "summon",
+              "cards": [
+                55273560,
+                73819701,
+                78397661
+              ]
+            },
+            {
+              "title": "Cartesia makes Granguignol",
+              "text": "Banish Ecclesia and the Dark Dragon with its Main Phase Quick Effect until the End Phase to summon Cartesia from Deck/GY. Use Cartesia with the LIGHT/DARK monster in your hand to Fusion Summon Granguignol.",
+              "kind": "summon",
+              "cards": [
+                78397661,
+                95515789,
+                0,
+                24915933
+              ]
+            },
+            {
+              "title": "Send Archfiend and obtain the Ritual",
+              "text": "Granguignol sends Skull Archfiend of Chaos from Deck to GY. Archfiend's trigger sends Light and Darkness Ritual and adds Ritual Chaos. This is the first required Main Deck-to-hand search in the main route.",
+              "kind": "effect",
+              "cards": [
+                24915933,
+                24088928,
+                33599853,
+                44001993
+              ]
+            },
+            {
+              "title": "Branch decision: Droll or continued searching",
+              "text": "If Droll resolves after Ritual Chaos is added, follow the next two Droll steps and stop the no-Droll search package. If Droll does not resolve, skip those two steps and follow the no-Droll continuation instead.",
+              "kind": "note",
+              "cards": [
+                94145021,
+                44001993
+              ]
+            },
+            {
+              "title": "Droll branch: recover only from the GY",
+              "text": "The Ritual Spell returns itself and Archfiend from the GY; Droll does not prevent this recovery. Tribute Granguignol to Ritual Summon Ritual Chaos. Recover the Ritual Spell with the summon effect if desired. Do not try a DMOD Deck search under Droll.",
+              "kind": "summon",
+              "cards": [
+                33599853,
+                24088928,
+                24915933,
+                44001993
+              ]
+            },
+            {
+              "title": "Droll branch: End Phase and next-turn options",
+              "text": "Albion sets The Fallen & The Virtuous. Incredible Ecclesia and Cartesia may recover themselves because a Fusion Monster was sent to your GY this turn. The temporarily banished Ecclesia Synchro returns. On the next turn, use its Albaz/Cartesia access or the set Spell; Mind Shuffle is available only if independently supplied.",
+              "kind": "effect",
+              "cards": [
+                87746184,
+                30271097,
+                55273560,
+                95515789,
+                78397661
+              ]
+            },
+            {
+              "title": "No-Droll branch: Ritual Summon and preserve the GY Spell",
+              "text": "Recover the Ritual Spell and Archfiend; Tribute Granguignol to Ritual Summon Ritual Chaos. Do not recover the Ritual Spell with Ritual Chaos: it is needed among the three cards for Archfiend's later self-summon.",
+              "kind": "summon",
+              "cards": [
+                33599853,
+                24088928,
+                24915933,
+                44001993
+              ]
+            },
+            {
+              "title": "No-Droll branch: one DMOD search",
+              "text": "Banish Ritual Chaos to Special Summon DMOD. Choose ONE search: Kuriboh for the default next-turn Griffoh bridge; Gaze for direct Dragoon; or Curtain for Dark Magician plus Gaze. These are alternative resolutions of the same summon search, not additional searches after taking Kuriboh.",
+              "kind": "effect",
+              "cards": [
+                44001993,
+                59400890,
+                14965712,
+                22283204,
+                41350417
+              ]
+            },
+            {
+              "title": "No-Droll branch: summon Archfiend from hand",
+              "text": "Archfiend is in your hand after the Ritual Spell recovered it. Activate its hand effect, returning the banished Ritual Chaos, Granguignol in the GY and the Ritual Spell in the GY to the Deck, then summon Archfiend. The source says GY here; hand is the correct location for this sequence.",
+              "kind": "summon",
+              "cards": [
+                24088928,
+                44001993,
+                24915933,
+                33599853
+              ]
+            },
+            {
+              "title": "Gaze alternative: Dragoon",
+              "text": "Only if Gaze was the chosen DMOD search: activate it targeting the DMOD on the field to Fusion Summon Dragoon, or set it for the opponent's turn. Gaze shuffles that material away. You did not also search Kuriboh; supply Mind Shuffle/Griffoh separately if attempting the later Chaos follow-up.",
+              "kind": "note",
+              "cards": [
+                22283204,
+                59400890,
+                37818794,
+                14965712,
+                24749710
+              ]
+            },
+            {
+              "title": "Curtain alternative: keep a Level 7 body",
+              "text": "Only if Curtain was the chosen search: activate it, summon Dark Magician and add Gaze. Use Gaze on DMOD now or set it. Dark Magician remains as a Level 7 return cost for Mind Shuffle, reducing the need for the Harmonia revival plan; Mind Shuffle still needs independent access.",
+              "kind": "note",
+              "cards": [
+                41350417,
+                46986414,
+                22283204,
+                59400890,
+                37818794,
+                24749710
+              ]
+            },
+            {
+              "title": "No-Droll branch: End Phase",
+              "text": "Albion sets The Fallen & The Virtuous. Return Incredible Ecclesia to hand, but leave Cartesia in the GY for the next turn. Ecclesia and the Dark Dragon returns from temporary banishment.",
+              "kind": "effect",
+              "cards": [
+                87746184,
+                30271097,
+                55273560,
+                95515789,
+                78397661
+              ]
+            },
+            {
+              "title": "Default Kuriboh bridge on the opponent's turn",
+              "text": "If Kuriboh was searched, summon it when an opponent's monster effect or attack provides its hand-effect window. On a later opposing on-field monster effect or qualifying attack window, use Kuriboh to add Griffoh from Deck/GY. Discard Griffoh to set and activate Mind Shuffle. This supplies the Trap omitted between the source's no-Droll setup and its final steps.",
+              "kind": "effect",
+              "cards": [
+                14965712,
+                97462632,
+                24749710
+              ]
+            },
+            {
+              "title": "Opponent Main Phase: remake Granguignol",
+              "text": "Ecclesia and the Dark Dragon temporarily banishes itself to revive Cartesia. Fuse Cartesia and the Archfiend on your field into the recycled Granguignol. This is a new turn, so their once-per-turn effects are available again.",
+              "kind": "summon",
+              "cards": [
+                78397661,
+                95515789,
+                24088928,
+                24915933
+              ]
+            },
+            {
+              "title": "Order the simultaneous Fusion triggers",
+              "text": "A useful order is Archfiend CL1 and Granguignol CL2. Granguignol sends Harmonia, Nibiru, Chaos Hunter, or another Level 7+ LIGHT/DARK monster. Archfiend sends a Ritual Spell as cost and adds Ritual Chaos. Choose the sent monster for the matchup and the later revival.",
+              "kind": "chain",
+              "cards": [
+                24088928,
+                24915933,
+                70088809,
+                27204311,
+                97940434,
+                33599853,
+                44001993
+              ]
+            },
+            {
+              "title": "Put an Ecclesia in the GY and obtain BLS",
+              "text": "With Mind Shuffle established, add BLS and discard Incredible Ecclesia. The Synchro Ecclesia is temporarily banished, so this discard supplies the Ecclesia in the GY needed by The Fallen & The Virtuous's revival mode.",
+              "kind": "effect",
+              "cards": [
+                24749710,
+                70405001,
+                55273560,
+                30271097
+              ]
+            },
+            {
+              "title": "Revive the chosen Level 7+ monster",
+              "text": "Activate The Fallen & The Virtuous's revival mode, targeting the LIGHT/DARK monster sent by Granguignol. Harmonia is the illustrated choice; Nibiru or another legal target works when its later hand effect fits the situation.",
+              "kind": "effect",
+              "cards": [
+                30271097,
+                70088809,
+                27204311
+              ]
+            },
+            {
+              "title": "Recover that monster to hand while summoning a Ritual",
+              "text": "At an opposing activation, Mind Shuffle returns the revived Level 7+ monster to hand as cost and summons Ritual Chaos or BLS from hand. BLS provides its targeting banish. The returned monster can use its own hand effect only when that effect's conditions are met; Nibiru still needs five summons.",
+              "kind": "effect",
+              "cards": [
+                24749710,
+                70088809,
+                27204311,
+                44001993,
+                70405001
+              ]
+            },
+            {
+              "title": "Albaz response alternative",
+              "text": "Instead of reviving a hand trap, the Ecclesia Synchro or The Fallen & The Virtuous can supply Fallen of Albaz. Keep a discard for Albaz's summon effect and use only the opposing field plus Albaz as material. Mirrorjade requires the appropriate Extra Deck monster; the Devourer requires its full three-material recipe.",
+              "kind": "note",
+              "cards": [
+                68468459,
+                78397661,
+                30271097,
+                44146295,
+                76666602
+              ]
+            },
+            {
+              "title": "Granguignol's other effect: choose Despia or Dogmatika",
+              "text": "If an opponent's activated monster effect Special Summons, Granguignol can banish itself from field/GY to summon a Despia from the Extra Deck or a Dogmatika from the Deck. Lulu can provide the later Extra Deck-departure negate. Summoning Fleurdelis directly from Deck does NOT trigger its hand-summon Trap set.",
+              "kind": "note",
+              "cards": [
+                24915933,
+                53971455,
+                73355772
+              ]
+            },
+            {
+              "title": "Optional Fleurdelis and Punishment route",
+              "text": "To get Punishment, have Fleurdelis in hand and summon it during a Main Phase while an Extra Deck-summoned monster is present. Its hand-summon trigger sets Punishment. That Trap is usable immediately only while the opponent controls a Fusion/Synchro/Xyz/Link with at least 2500 ATK. Punishment's own Extra Deck restriction still applies.",
+              "kind": "note",
+              "cards": [
+                73355772,
+                82956214
+              ]
+            },
+            {
+              "title": "Respect locks and target limits",
+              "text": "Harmonia prevents activation of non-Synchro Extra Deck-summoned monster effects through the end of your next turn. Do not claim Granguignol/Fusion effects while that lock applies. Punishment also needs an Extra Deck send whose ATK meets its target; choose N'tss, Packbit or Malong only when legal.",
+              "kind": "note",
+              "cards": [
+                70088809,
+                82956214,
+                80532587,
+                72444406,
+                93125329
+              ]
+            }
+          ]
+        },
+        {
+          "id": "branded-protected-shuffle",
+          "title": "Phara protects Mind Shuffle: Griffoh and Black Chaos routes",
+          "description": "Choose a Branded body starter (White Dragon or Incredible Ecclesia) plus Griffoh or Black Chaos. Phara's reveal makes activations/effects with the revealed Spell/Trap name unanswerable until the end of the next turn; “Spell Speed 4” is informal shorthand, not a separate game rule. The Black Chaos branch preserves a follow-up under Droll even when the Ritual search fails.",
+          "startingCards": [
+            73819701,
+            55273560,
+            97462632,
+            98684220
+          ],
+          "endCards": [
+            44001993,
+            70405001,
+            82344137,
+            24749710,
+            30271097,
+            51409648,
+            44146295,
+            76666602
+          ],
+          "requiredCards": [
+            87746184,
+            55273560,
+            74405783,
+            82344137,
+            24749710,
+            24088928,
+            33599853,
+            44001993,
+            70405001,
+            30271097,
+            97462632,
+            98684220,
+            51409648,
+            68468459
+          ],
+          "playsAround": [
+            94145021,
+            59438930,
+            102380
+          ],
+          "cardNotes": {
+            "start:73819701": "Choose this OR Incredible Ecclesia as the Branded starter.",
+            "start:55273560": "Alternative body starter; uses the Normal Summon and supplies no Albion set by itself.",
+            "start:97462632": "Choose this OR Black Chaos as the Chaos starter. Draw Phase opening is the Droll-aware route.",
+            "start:98684220": "Alternative Chaos starter; wait to chain Mind Shuffle to Champions' search.",
+            "end:24749710": "Reset from hand, then usable next turn. Phara prevents responses to this name until the end of the next turn.",
+            "end:82344137": "Hand after the exchange; earlier revived by Mind Shuffle's discard and stole a highest-ATK monster.",
+            "end:44001993": "Field only if the Ritual search succeeded and the optional summon was taken; otherwise a later hand option.",
+            "end:70405001": "Searched and summoned on the opponent's turn for its targeting banish.",
+            "end:30271097": "Conditional Albion set. Choose destruction or revival, not both.",
+            "end:51409648": "GY after the destruction mode; can supply an Albaz body on the opponent's turn.",
+            "end:44146295": "Conditional original-Albaz Fusion with suitable opposing material.",
+            "end:76666602": "Alternative Fusion with its full material recipe; shuffle effect concerns GYs/banishment."
+          },
+          "steps": [
+            {
+              "title": "Griffoh branch: prepare the Ritual in the Draw Phase",
+              "text": "If Griffoh is your Chaos starter, discard it to set Mind Shuffle and activate the Trap. Search/discard Archfiend; its next-Chain trigger sends Light and Darkness Ritual and adds Ritual Chaos. Doing these searches during the Draw Phase avoids Droll's usual trigger. If opening Black Chaos instead, skip to its alternative steps below.",
+              "kind": "effect",
+              "cards": [
+                97462632,
+                24749710,
+                24088928,
+                33599853,
+                44001993
+              ]
+            },
+            {
+              "title": "Griffoh branch: build The Three Champions",
+              "text": "In the Main Phase, White Dragon sends Albion from the Extra Deck and summons itself, then summons Incredible Ecclesia. Synchro Summon The Three Champions of Swordsoul with both Level 4 monsters. Its summon effect searches Phara.",
+              "kind": "summon",
+              "cards": [
+                73819701,
+                87746184,
+                55273560,
+                74405783,
+                82344137
+              ]
+            },
+            {
+              "title": "Ecclesia starter alternative",
+              "text": "If your Branded starter is Incredible Ecclesia, Normal Summon it and Tribute it for White Dragon from Deck, then revive Ecclesia with White Dragon and make The Three Champions. This does not send Albion, so do not assume an Albion End Phase set unless another card sent it. High Spirits is also access to White Dragon if you supply its matching reveal/discard.",
+              "kind": "note",
+              "cards": [
+                55273560,
+                73819701,
+                74405783,
+                29948294,
+                87746184
+              ]
+            },
+            {
+              "title": "Griffoh branch: deliberately recycle Mind Shuffle",
+              "text": "Use The Three Champions to target Mind Shuffle, negate it and destroy it; Incredible Ecclesia/Albaz is in your GY to enable destruction. The Ritual Spell's GY effect now recovers itself and Mind Shuffle, rather than Archfiend.",
+              "kind": "effect",
+              "cards": [
+                74405783,
+                24749710,
+                33599853,
+                24088928
+              ]
+            },
+            {
+              "title": "Griffoh branch: reveal, set and Ritual Summon",
+              "text": "Reveal Phara and Mind Shuffle in hand with Phara's effect. Set Mind Shuffle again. The original Griffoh permission does not carry across its trip through the GY, so this reset Trap waits for the next turn. Tribute The Three Champions with the recovered Ritual Spell to summon Ritual Chaos; optionally recover a Spell.",
+              "kind": "effect",
+              "cards": [
+                82344137,
+                24749710,
+                74405783,
+                33599853,
+                44001993
+              ]
+            },
+            {
+              "title": "Black Chaos branch: place the Trap but wait to search",
+              "text": "As an alternative to the Griffoh steps, discard Black Chaos to place Mind Shuffle face-up from Deck/GY. Do not activate its search yet. Summon White Dragon and Incredible Ecclesia as above and Synchro Summon The Three Champions.",
+              "kind": "effect",
+              "cards": [
+                98684220,
+                24749710,
+                73819701,
+                55273560,
+                74405783
+              ]
+            },
+            {
+              "title": "Black Chaos branch: pair the searches in one Chain",
+              "text": "Activate The Three Champions' Phara search as CL1 and Mind Shuffle as CL2. Mind Shuffle adds/discards Archfiend, then Champions adds Phara. Droll cannot interrupt between those Chain Links. This is still an exposed face-up Trap effect, so it is not an automatic answer to Ghost Ogre.",
+              "kind": "chain",
+              "cards": [
+                74405783,
+                82344137,
+                24749710,
+                24088928,
+                94145021,
+                59438930
+              ]
+            },
+            {
+              "title": "Black Chaos branch: preserve the Ritual Spell if Droll resolves",
+              "text": "In the next Chain, activate Archfiend and send Light and Darkness Ritual as cost. If the opponent chains Droll and it resolves first, the Ritual Monster cannot be added, but the Spell remains in the GY. Do not continue as though you obtained a Ritual Monster.",
+              "kind": "chain",
+              "cards": [
+                24088928,
+                33599853,
+                44001993,
+                94145021
+              ]
+            },
+            {
+              "title": "Black Chaos branch: make the protected reset",
+              "text": "Use The Three Champions to negate/destroy Mind Shuffle. Recover the Trap and Ritual Spell with the Spell's GY effect. Reveal Phara plus Mind Shuffle to apply Phara's protection, then set the Trap for the next turn.",
+              "kind": "effect",
+              "cards": [
+                74405783,
+                24749710,
+                33599853,
+                82344137
+              ]
+            },
+            {
+              "title": "Black Chaos branch: optional Ritual if its search succeeded",
+              "text": "If Archfiend did successfully add Ritual Chaos and you still control The Three Champions, Tribute it with the recovered Ritual Spell to summon Ritual Chaos. If Droll prevented that search, retain the Synchro and the protected Trap instead; the next-turn search will supply BLS.",
+              "kind": "note",
+              "cards": [
+                24088928,
+                74405783,
+                33599853,
+                44001993,
+                70405001
+              ]
+            },
+            {
+              "title": "End Phase for either branch",
+              "text": "If Albion was sent this turn, use it to set The Fallen & The Virtuous. Recover Incredible Ecclesia only if its Fusion-in-GY condition is satisfied and the desired next-turn revival still has a target. Mind Shuffle is now set from hand and becomes usable on the opponent's turn.",
+              "kind": "effect",
+              "cards": [
+                87746184,
+                30271097,
+                55273560,
+                24749710
+              ]
+            },
+            {
+              "title": "Opponent turn: discard Phara by the Trap effect",
+              "text": "Activate the protected Mind Shuffle and search BLS, then discard Phara as part of that effect. Phara's GY trigger Special Summons itself; its separate summon trigger can take the opponent's highest-ATK monster. These monster triggers are not themselves protected by the revealed Spell/Trap name.",
+              "kind": "effect",
+              "cards": [
+                24749710,
+                70405001,
+                82344137
+              ]
+            },
+            {
+              "title": "Return Phara and summon the Ritual",
+              "text": "On a later opposing activation, Mind Shuffle returns Phara to hand as cost and summons BLS; BLS may target and banish an opposing card. If Ritual Chaos is already in hand it is another legal differently named option. Do not use both Trap effects in one Chain.",
+              "kind": "effect",
+              "cards": [
+                24749710,
+                82344137,
+                70405001,
+                44001993
+              ]
+            },
+            {
+              "title": "Branded response: destruction and Rindbrumm",
+              "text": "If using The Fallen & The Virtuous's destruction mode, send Rindbrumm from the Extra Deck and destroy a face-up card. On the opponent's turn Rindbrumm can banish itself to revive an Albaz in your GY. White Dragon counts as Albaz but does not have the original Albaz Fusion effect; summon Incredible Ecclesia and Tribute it for original Albaz if that is your route.",
+              "kind": "note",
+              "cards": [
+                30271097,
+                51409648,
+                68468459,
+                73819701,
+                55273560
+              ]
+            },
+            {
+              "title": "Branded response: revival alternative",
+              "text": "The Fallen & The Virtuous can instead revive Incredible Ecclesia while an Ecclesia is on your field/in your GY. In the Main Phase, Tribute it for original Albaz. Keep a discard and appropriate opponent materials for Mirrorjade or the Devourer. These are alternatives to the Spell's destruction mode, not both modes on one turn.",
+              "kind": "note",
+              "cards": [
+                30271097,
+                55273560,
+                68468459,
+                44146295,
+                76666602
+              ]
+            },
+            {
+              "title": "Protection is specific",
+              "text": "Phara's reveal lasts until the end of the next turn and restricts both players' responses to that named card. It does not stop an opponent from acting before Mind Shuffle activates, does not protect unrelated monster triggers and does not itself prevent tribute-based removal such as Lava Golem.",
+              "kind": "note",
+              "cards": [
+                82344137,
+                24749710,
+                102380
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dm",
+      "title": "DM Chaos",
+      "combos": [
+        {
+          "id": "dm-rod",
+          "title": "Magician's Rod: Dragoon and Chaos, with a conditional Fancy Ball finish",
+          "description": "The one-card opening establishes Dragoon and the Chaos engine. The source's last Link Summon needs correction: Firewall Dragon plus Protectcode Talker cannot alone make Link-3 W:P Fancy Ball. Stop on the legal board, or supply the third Effect Monster/appropriate Link-2 described below. The opponent-turn Fancy Ball/Quartet and Celtic sequence depends on the resulting hand and material choices.",
+          "startingCards": [
+            7084129
+          ],
+          "endCards": [
+            44001993,
+            24749710,
+            37818794,
+            5043010,
+            58036229,
+            4993187,
+            27519978,
+            50073633,
+            70405001,
+            82344137,
+            7084129,
+            24088928
+          ],
+          "requiredCards": [
+            41350417,
+            46986414,
+            22283204,
+            59400890,
+            97631303,
+            50277355,
+            94259633,
+            58036229,
+            5043010,
+            98684220,
+            24749710,
+            24088928,
+            33599853,
+            44001993,
+            70405001,
+            82344137,
+            4993187,
+            27519978
+          ],
+          "playsAround": [
+            27204311
+          ],
+          "cardNotes": {
+            "start:7084129": "Normal Summon opener. Keep extra hand cards available for interaction costs.",
+            "end:44001993": "Field; protects your Spells/Traps and may recover a Spell. Its own resistance does not cover targeting effects.",
+            "end:24749710": "Face-up. Phara/Celtic/BLS sequences require separate Chains and legal hand resources.",
+            "end:37818794": "Field. Needs a discard; its second negate requires the conditional Quartet revival.",
+            "end:5043010": "Legal stopping point with Protectcode; already used the recovery effect.",
+            "end:58036229": "Field, co-linked with Firewall; banished when it leaves.",
+            "end:4993187": "Conditional extra-material extension, not reachable from Firewall plus Protectcode alone.",
+            "end:27519978": "Conditional opponent-turn Link summon; revives Dragoon and Fancy Ball with material-use restrictions.",
+            "end:50073633": "Conditional opponent-turn hand search; draw three/discard two, with its Extra Deck restriction.",
+            "end:70405001": "Searched by next-turn Archfiend discard, or another legal search. Not automatically in hand after consuming Archfiend.",
+            "end:82344137": "Curtain field body, then hand, then GY revival through Mind Shuffle's discard.",
+            "end:7084129": "GY after the opening; optional later Tribute recovery for a discard.",
+            "end:24088928": "Hand at the legal stop; consumed if used as the optional third Link material."
+          },
+          "steps": [
+            {
+              "title": "Rod finds the Dark Magician Spell",
+              "text": "Normal Summon Magician's Rod and search Dark Magical Curtain. Activate Curtain to Special Summon Dark Magician from hand/Deck and add The Gaze of Timaeus. Curtain also offers the opponent its summon option.",
+              "kind": "effect",
+              "cards": [
+                7084129,
+                41350417,
+                46986414,
+                22283204
+              ]
+            },
+            {
+              "title": "Summon DMOD and search Souls",
+              "text": "Since a Spell has been activated, banish your Level 7 DARK Spellcaster Dark Magician to Special Summon DMOD. Its summon effect adds Magicians' Souls.",
+              "kind": "summon",
+              "cards": [
+                46986414,
+                59400890,
+                97631303
+              ]
+            },
+            {
+              "title": "Cross-Sheep and the fifth summon",
+              "text": "Link Rod and DMOD into Cross-Sheep. Activate Gaze targeting DMOD in the GY, where its name is Dark Magician, and Fusion Summon Dragoon to a Cross-Sheep linked zone. This is your fifth summon; Dragoon can respond to Nibiru if you have a discard.",
+              "kind": "summon",
+              "cards": [
+                7084129,
+                59400890,
+                50277355,
+                22283204,
+                37818794,
+                27204311
+              ]
+            },
+            {
+              "title": "Revive Rod in the correct zone",
+              "text": "Resolve Cross-Sheep's trigger to revive Rod. Put Rod outside Cross-Sheep's linked zones, leaving a linked zone available for the following Link-1 placement.",
+              "kind": "effect",
+              "cards": [
+                50277355,
+                7084129,
+                37818794
+              ]
+            },
+            {
+              "title": "Souls sends the Chaos bridge",
+              "text": "Use Souls from hand, sending the Level 8 non-Ritual Black Chaos from Deck to GY, and Special Summon Souls. Link Souls into Relinquished Anima in an available Cross-Sheep linked zone.",
+              "kind": "summon",
+              "cards": [
+                97631303,
+                98684220,
+                94259633,
+                50277355
+              ]
+            },
+            {
+              "title": "Build Firewall",
+              "text": "Link Cross-Sheep plus Rod into Protectcode Talker. Then Link Protectcode, counted as three, plus Anima, counted as one, into Firewall Dragon. Plan zones so a revived Protectcode can be co-linked with Firewall.",
+              "kind": "summon",
+              "cards": [
+                50277355,
+                7084129,
+                58036229,
+                94259633,
+                5043010
+              ]
+            },
+            {
+              "title": "Revive a co-linked Protectcode",
+              "text": "While Firewall is present, activate Protectcode in the GY. Banish Cross-Sheep (Link 2) and Anima (Link 1) to total exactly three, then summon Protectcode into a zone that co-links it with Firewall. Protectcode will be banished when it leaves the field.",
+              "kind": "effect",
+              "cards": [
+                58036229,
+                5043010,
+                50277355,
+                94259633
+              ]
+            },
+            {
+              "title": "Retrieve Black Chaos and place Mind Shuffle",
+              "text": "With at least one co-linked monster, Firewall can target Black Chaos in the GY and return it to hand. Discard Black Chaos to place Mind Shuffle from Deck/GY face-up. This is placement, not the activation of a Trap Card.",
+              "kind": "effect",
+              "cards": [
+                5043010,
+                98684220,
+                24749710
+              ]
+            },
+            {
+              "title": "Build the Ritual hand",
+              "text": "Mind Shuffle searches Archfiend and discards it. Archfiend sends Light and Darkness Ritual and searches Ritual Chaos. The Ritual Spell's GY effect then returns itself and Archfiend to hand.",
+              "kind": "effect",
+              "cards": [
+                24749710,
+                24088928,
+                33599853,
+                44001993
+              ]
+            },
+            {
+              "title": "Ritual Summon and recover Curtain",
+              "text": "Activate the Ritual Spell, banishing the Level 8 Black Chaos in the GY to summon Ritual Chaos. Its summon effect recovers Dark Magical Curtain from the GY. Set Curtain for the opponent's turn.",
+              "kind": "summon",
+              "cards": [
+                33599853,
+                98684220,
+                44001993,
+                41350417
+              ]
+            },
+            {
+              "title": "Legal one-card stopping point",
+              "text": "Keep Firewall, revived Protectcode, Dragoon, Ritual Chaos and Mind Shuffle. Keep Archfiend in hand as the intended Dragoon discard. Firewall (Link 4) and Protectcode (Link 3) cannot total Link 3 together: each can count only as its rating or one. Do not make the source's two-material Fancy Ball summon.",
+              "kind": "note",
+              "cards": [
+                5043010,
+                58036229,
+                37818794,
+                44001993,
+                24749710,
+                24088928,
+                4993187
+              ]
+            },
+            {
+              "title": "Optional Fancy Ball extension with an extra body",
+              "text": "If you can supply another Effect Monster, use Firewall, Protectcode and that monster, each counted as one, to Link Summon Fancy Ball. Alternatively use a legal Link-2 plus an Effect Monster. If Archfiend supplies the extra body, summon it from hand by recycling three eligible cards, then use it as material; it is no longer in hand for Dragoon.",
+              "kind": "note",
+              "cards": [
+                5043010,
+                58036229,
+                4993187,
+                24088928
+              ]
+            },
+            {
+              "title": "Opponent turn: Dragoon's Archfiend discard",
+              "text": "If Archfiend was retained in hand, discard it for Dragoon's negate. In the following Chain, its fresh-turn GY trigger sends another Ritual Spell and searches BLS. If Archfiend was used in the optional Link extension, obtain BLS another way instead of pretending the discarded copy is still in hand.",
+              "kind": "effect",
+              "cards": [
+                37818794,
+                24088928,
+                33599853,
+                70405001
+              ]
+            },
+            {
+              "title": "Summon Phara from the set Curtain",
+              "text": "On the opponent's turn, activate the Curtain set last turn to summon Phara from Deck/hand. Curtain prevents that summoned instance's effects this turn, and Phara's control-taking effect requires a GY summon anyway. It is initially a Level 8 return cost.",
+              "kind": "effect",
+              "cards": [
+                41350417,
+                82344137
+              ]
+            },
+            {
+              "title": "Return Phara for BLS",
+              "text": "On an opposing activation, Mind Shuffle returns Phara to hand as cost and summons BLS already obtained from Archfiend. BLS may target and banish a card. If BLS is not in hand, first obtain an eligible summon target through a separate search/discard opportunity.",
+              "kind": "effect",
+              "cards": [
+                24749710,
+                82344137,
+                70405001
+              ]
+            },
+            {
+              "title": "Celtic search and Phara's GY revival",
+              "text": "In a separate Chain, use Mind Shuffle's once-per-turn search to add Celtic Mystic and discard Phara by that Trap effect. Phara can now revive from the GY, and its separate trigger can take a highest-ATK opposing monster. This search is available only if you did not already spend it obtaining BLS.",
+              "kind": "effect",
+              "cards": [
+                24749710,
+                50073633,
+                82344137,
+                70405001
+              ]
+            },
+            {
+              "title": "Use Celtic only with the proper hand",
+              "text": "A later Mind Shuffle exchange can summon Celtic. For its draw effect reveal a hand containing a card that mentions the Ritual Spell, then draw three and discard two. Its Extra Deck limit applies to subsequent optional Link plays. Celtic's Tribute effect is an ignition effect for your Main Phase; do not use it during the opponent's turn.",
+              "kind": "note",
+              "cards": [
+                24749710,
+                50073633,
+                44001993,
+                70405001
+              ]
+            },
+            {
+              "title": "Conditional Fancy Ball to Quartet",
+              "text": "Only if the corrected Fancy Ball extension was completed: after Dragoon's first negate, use Fancy Ball's opponent-Main-Phase Link effect. Count Fancy Ball as three and Dragoon as one to make Charmer Quartet in Bloom. Fancy Ball summoned last turn cannot use its negate yet; it needs a Special Summon this turn.",
+              "kind": "summon",
+              "cards": [
+                4993187,
+                37818794,
+                27519978
+              ]
+            },
+            {
+              "title": "Quartet restores the two responses",
+              "text": "Quartet can target Fancy Ball and Dragoon in the GY: both are DARK with different Types. Revive them. Their new field instances let Dragoon use its per-copy negate again and let Fancy Ball meet its summoned-this-turn condition. Quartet and the revived monsters cannot be used as Fusion/Synchro/Xyz/Link material through the end of the next turn.",
+              "kind": "effect",
+              "cards": [
+                27519978,
+                4993187,
+                37818794
+              ]
+            },
+            {
+              "title": "Rod can supply a later discard",
+              "text": "During the opponent's turn, after you activate a Spell/Trap Card or effect, Rod in the GY can Tribute a Spellcaster you control, such as Quartet, to return itself to hand. This is optional and removes that field body; it may supply the discard for Dragoon's later negate.",
+              "kind": "effect",
+              "cards": [
+                7084129,
+                27519978,
+                37818794
+              ]
+            },
+            {
+              "title": "Opened Mind Shuffle and interruption planning",
+              "text": "If Mind Shuffle was drawn, a separately accessible Illusion of Chaos can search its permitted Dark Magician monster and put Mind Shuffle on top of the Deck. Its required search must still be legal. Do not replace the mandatory Souls search in this one-card route without another extender. The natural Curtain/Griffoh Draw Phase openings are separate ways to improve Droll timing.",
+              "kind": "note",
+              "cards": [
+                24749710,
+                12266229,
+                97631303,
+                41350417,
+                97462632,
+                94145021
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turn-zero",
+      "title": "Turn 0 combos",
+      "combos": [
+        {
+          "id": "turn0-chaos-hats",
+          "title": "Chaos Magical Hats: opening and all five conversion branches",
+          "description": "Turn-zero setup needs Griffoh plus Kuriboh - Multiply!, another Griffoh in the Deck, Hats in the Deck and enough Main Monster Zones. After resolution, only surviving Hats monsters can be converted. The opponent chooses the face-down monster destroyed by the replaced effect; it is not random. The five conversion branches are alternatives using the surviving resources, not five simultaneous uses of the same cards.",
+          "startingCards": [
+            97462632,
+            14965712
+          ],
+          "endCards": [
+            0,
+            44001993,
+            70405001,
+            24749710,
+            18738846,
+            59400890,
+            37818794
+          ],
+          "requiredCards": [
+            97462632,
+            14965712,
+            2372506,
+            24749710,
+            33599853,
+            24088928,
+            44001993,
+            70405001,
+            98684220,
+            24461358,
+            18738846,
+            75983808,
+            24224830,
+            59400890,
+            22283204,
+            41350417
+          ],
+          "playsAround": [
+            94145021,
+            14558127,
+            59438930,
+            97268402,
+            23434538,
+            42141493,
+            84192580,
+            87126721,
+            73642296,
+            92248362,
+            91025875,
+            1498449,
+            91800273,
+            24508238,
+            67750322,
+            97462632,
+            34267821
+          ],
+          "cardNotes": {
+            "start:97462632": "Hand copy sets Hats. Another copy is summoned by Kuriboh to satisfy Hats.",
+            "start:14965712": "Needs its hand summon window and a later qualifying field-effect/attack window.",
+            "end:0": "Surviving differently named Spells/Traps from Hats, treated as face-down Level 8 DARK Spellcaster Normal Monsters on the field.",
+            "end:44001993": "Optional later Ritual summon using a surviving Hats body; can recover a Spell, not a Trap.",
+            "end:70405001": "Optional Mind Shuffle/Box summon, not an automatic Hats endpoint.",
+            "end:24749710": "Independent later setup; recovers only a face-up Level 7+ Hats body as its cost.",
+            "end:18738846": "Optional hand extender returning one or two surviving Hats bodies.",
+            "end:59400890": "Optional alternative summon from a Hats body after a Spell activation that turn.",
+            "end:37818794": "Conditional continuation of the DMOD/Gaze branch.",
+            "required:2372506": "Must be in Deck for Griffoh's set; choose three different Spell/Trap names and leave three free zones."
+          },
+          "steps": [
+            {
+              "title": "First window: summon Kuriboh",
+              "text": "When the opponent activates a monster effect or declares an attack, use Kuriboh's hand effect to summon it. Do not assume the newly summoned copy can also respond to that already-resolving event with its field effect.",
+              "kind": "summon",
+              "cards": [
+                14965712
+              ]
+            },
+            {
+              "title": "Later window: summon the Deck Griffoh",
+              "text": "When the opponent next activates an on-field monster effect, or during a qualifying opponent attack's damage calculation, Kuriboh can Special Summon a 300 ATK/200 DEF monster from Deck/GY. Choose Griffoh and put it in a Main Monster Zone.",
+              "kind": "effect",
+              "cards": [
+                14965712,
+                97462632
+              ]
+            },
+            {
+              "title": "The hand Griffoh sets Hats",
+              "text": "Discard the Griffoh still in your hand to set Chaos Magical Hats from the Deck, with same-turn activation permission. The Griffoh on the field is the eligible Chaos monster for Hats; it is a different copy.",
+              "kind": "effect",
+              "cards": [
+                97462632,
+                2372506
+              ]
+            },
+            {
+              "title": "Resolve Hats at a legal activation",
+              "text": "When the opponent activates a monster effect or a Normal Spell/Trap Card, activate Hats. Choose three differently named Spells/Traps in the Deck and the Griffoh in your Main Monster Zone. Summon the three as face-down Level 8 DARK Spellcaster Normal Monsters, set Griffoh if needed and shuffle those positions.",
+              "kind": "effect",
+              "cards": [
+                2372506,
+                97462632,
+                0
+              ]
+            },
+            {
+              "title": "Account for the destruction and surviving cards",
+              "text": "The opponent's effect now destroys one face-down Defense Position monster you control, chosen by that opponent. Keep track of what survives. You have only three free Main Monster Zones before the Hats summons when Kuriboh and Griffoh occupy the other two. No branch below creates an extra survivor.",
+              "kind": "note",
+              "cards": [
+                2372506,
+                0
+              ]
+            },
+            {
+              "title": "On your turn: obtain Mind Shuffle",
+              "text": "Use a fresh Griffoh effect to set Mind Shuffle, Black Chaos to place it face-up, or Records to search the appropriate starter. The original hand Griffoh can be recovered only through an actual recovery effect; it is not automatically back in hand.",
+              "kind": "effect",
+              "cards": [
+                97462632,
+                98684220,
+                24461358,
+                24749710
+              ]
+            },
+            {
+              "title": "Choose the Ritual search route",
+              "text": "With Mind Shuffle, either search/discard Archfiend to send the Ritual Spell and add Ritual Chaos, or add Ritual Chaos directly if the Ritual Spell is already available and you have another discard. These are alternative uses of Mind Shuffle's once-per-turn search.",
+              "kind": "effect",
+              "cards": [
+                24749710,
+                24088928,
+                33599853,
+                44001993
+              ]
+            },
+            {
+              "title": "Recover and Tribute one Hats monster",
+              "text": "If the Ritual Spell is in the GY, recover it plus an eligible Chaos card, such as Griffoh or Black Chaos. Activate the Ritual Spell, Tributing a surviving face-down Hats monster as the full Level 8 requirement. Summon Ritual Chaos.",
+              "kind": "summon",
+              "cards": [
+                33599853,
+                97462632,
+                98684220,
+                44001993,
+                0
+              ]
+            },
+            {
+              "title": "Recover the selected Spell",
+              "text": "The Tributed card is back to its original Spell/Trap identity in the GY. Ritual Chaos's summon effect can recover it only if it is a Spell. A Trap sent this way is not a legal target for that recovery.",
+              "kind": "effect",
+              "cards": [
+                44001993,
+                0
+              ]
+            },
+            {
+              "title": "Branch A: Mind Shuffle recovers a Hats card",
+              "text": "On your turn, legally Flip Summon a surviving Hats monster. It is now face-up Level 8. When the opponent activates a card/effect, return it to hand as Mind Shuffle's cost and summon a differently named eligible monster from hand. A face-down Hats monster cannot pay this face-up Level requirement.",
+              "kind": "effect",
+              "cards": [
+                24749710,
+                0
+              ]
+            },
+            {
+              "title": "Branch A: card choices and timing",
+              "text": "The returned card resumes its original identity in hand, even if Mind Shuffle is later negated. This can retrieve a chosen Spell or Trap, such as Secret Village of the Spellcasters or Skill Drain. Ordinary activation/set timing still applies to the recovered card.",
+              "kind": "note",
+              "cards": [
+                68462976,
+                82732705,
+                24749710
+              ]
+            },
+            {
+              "title": "Branch B: Urania returns two surviving monsters",
+              "text": "If Astrazma Urania is in hand on your turn, its summon procedure can return one or two monsters you control, including face-down Hats monsters, to hand. With two surviving chosen cards, return both and summon Urania. Its optional negate requires revealing monsters with different Levels; returned Spells/Traps do not satisfy that reveal.",
+              "kind": "summon",
+              "cards": [
+                18738846,
+                0
+              ]
+            },
+            {
+              "title": "Branch B: combine the recovered starters",
+              "text": "For example, recover Records and Called by the Grave. Records supplies a Chaos starter and Called can answer a suitable hand trap on your turn. If a third chosen Hats monster also survived, Tribute that last Spell for Ritual Chaos and recover it. Three-card recovery is conditional on all three chosen cards surviving the opponent's destruction choice.",
+              "kind": "note",
+              "cards": [
+                24461358,
+                24224830,
+                44001993,
+                18738846
+              ]
+            },
+            {
+              "title": "Branch C: DMOD converts a Hats monster",
+              "text": "During a turn in which a Spell Card/effect has been activated, a surviving Level 8 DARK Spellcaster Hats monster can be banished as DMOD's alternative summon material, even if face-down. Search one permitted Dark Magician card: Gaze, Curtain, or another valid card from the installed pool.",
+              "kind": "summon",
+              "cards": [
+                59400890,
+                22283204,
+                41350417,
+                0
+              ]
+            },
+            {
+              "title": "Branch C: follow the chosen Dark Magician Spell",
+              "text": "Gaze can turn a Dark Magician-named DMOD on the field/GY into Dragoon. Curtain can instead summon Dark Magician and search Gaze. Respect DMOD's summon/search occurrence, Gaze's once-per-turn activation and any existing Extra Deck restrictions.",
+              "kind": "note",
+              "cards": [
+                59400890,
+                22283204,
+                37818794,
+                41350417,
+                46986414
+              ]
+            },
+            {
+              "title": "Branch D: Box destroyed by the opponent",
+              "text": "If a Chaos Mystic Box chosen by Hats is destroyed by the opponent's card, its GY trigger can summon BLS or Ritual Chaos from your hand/Deck. The source's statement that any destruction works is too broad: self-destruction by your own effect does not meet the installed text.",
+              "kind": "effect",
+              "cards": [
+                75983808,
+                70405001,
+                44001993
+              ]
+            },
+            {
+              "title": "Branch D: battle route on a later turn",
+              "text": "If Box survives, legally Flip Summon it and attack an opposing monster that can destroy the zero-ATK Hats monster by battle. That is destruction by an opponent's card, allowing Box's Ritual summon trigger in the Damage Step. BLS's summon banish or Ritual Chaos's Spell recovery can follow when legal; Ritual Chaos's own face-down banish is a later Main Phase action.",
+              "kind": "effect",
+              "cards": [
+                75983808,
+                70405001,
+                44001993
+              ]
+            },
+            {
+              "title": "Branch E: retrieve Called by the Grave as cost",
+              "text": "On YOUR turn, after legally flipping a Called by the Grave Hats monster face-up, wait for an opposing hand-trap activation. Mind Shuffle can return that Level 8 monster to hand as cost while preparing its eligible hand summon. The recovered Called is in hand immediately, before resolution.",
+              "kind": "effect",
+              "cards": [
+                24224830,
+                24749710,
+                0
+              ]
+            },
+            {
+              "title": "Branch E: chain the recovered Quick-Play",
+              "text": "If normal Chain priority and the opponent's responses allow it, activate Called from hand later in that same Chain targeting the hand trap now in the GY. This hand activation is available on your own turn, not the opponent's turn. Mind Shuffle then resolves its summon if still valid.",
+              "kind": "chain",
+              "cards": [
+                24224830,
+                24749710,
+                94145021,
+                14558127,
+                59438930
+              ]
+            },
+            {
+              "title": "Branch E: recover Called again when appropriate",
+              "text": "If the summoned monster is Ritual Chaos, its next-Chain summon effect may recover Called from your GY for a later activation. Mind Shuffle's two effects cannot share one Chain. Phara protection, if active on Mind Shuffle, would also prevent chaining your own Called directly to that protected activation.",
+              "kind": "note",
+              "cards": [
+                44001993,
+                24224830,
+                24749710,
+                82344137
+              ]
+            },
+            {
+              "title": "Resource and matchup limits",
+              "text": "Hats can turn Deck cards into field resources and later hand cards without a direct Deck-to-hand add. That helps with Droll, but it does not guarantee a win or defeat every hand trap listed below. Account for removed survivors, GY denial, unused discard costs, the opponent's choices and each card's restrictions.",
+              "kind": "note",
+              "cards": [
+                2372506,
+                94145021
+              ]
+            }
+          ]
+        },
+        {
+          "id": "turn0-handtrap-recycle",
+          "title": "Recycle a Level 7+ hand trap, or prepare Ecclesia/Mitsurugi",
+          "description": "Establish a Level 7+ monster using a real hand-effect window, then return it with Mind Shuffle while summoning a Ritual. Harmonia is the illustrated choice. Other monsters must satisfy their own summon conditions. The Lulu and Mitsurugi continuations are optional branches; the Mitsurugi search replaces the Chaos Ritual search unless you already have a Ritual monster in hand.",
+          "startingCards": [
+            0,
+            70088809,
+            97462632,
+            14965712
+          ],
+          "endCards": [
+            70405001,
+            24749710,
+            70088809,
+            24088928,
+            33599853,
+            55273560,
+            13332685,
+            0
+          ],
+          "requiredCards": [
+            97462632,
+            24749710,
+            24088928,
+            33599853,
+            70405001,
+            70088809,
+            93125329,
+            72444406,
+            53971455,
+            98506199,
+            55273560,
+            73819701,
+            78397661,
+            67809530,
+            99398682,
+            49721684,
+            13332685
+          ],
+          "playsAround": [
+            24299458,
+            10045474,
+            48130397
+          ],
+          "cardNotes": {
+            "start:0": "Any independently summonable Level 7+ hand trap/body, e.g. Harmonia or Nibiru when their conditions are satisfied.",
+            "start:70088809": "Illustrated Level 7+ body. Needs the Synchro Extra Deck package for its send/destruction thresholds.",
+            "start:97462632": "Hand starter for Mind Shuffle; alternatively obtain it through Kuriboh.",
+            "start:14965712": "Alternative access to Griffoh or Dark Magician through separate qualifying windows; Kuriboh itself is Level 1.",
+            "end:70405001": "Field after the default exchange; targeting summon banish.",
+            "end:24749710": "Face-up; its search/discard and exchange cannot be used in the same Chain.",
+            "end:70088809": "Returned to hand; its named once-per-turn effect cannot be reused immediately.",
+            "end:24088928": "GY after searching; next-turn recycle/search resource.",
+            "end:33599853": "GY in the default branch, recoverable on your turn.",
+            "end:55273560": "Conditional End Phase summon only when Lulu was sent this turn.",
+            "end:13332685": "Hand only in the alternative Mitsurugi search; replaces the default BLS search.",
+            "end:0": "The alternative Level 7+ monster you returned to hand, with its own timing and once-per-turn rules."
+          },
+          "steps": [
+            {
+              "title": "Put a Level 7+ monster on the field",
+              "text": "Use a suitable hand effect when its conditions are met. For Harmonia, respond to an opposing on-field monster's effect and reveal Harmonia plus up to five Synchro Monsters. Revealing six total permits its summon, an Extra Deck send and destruction of an opposing monster.",
+              "kind": "effect",
+              "cards": [
+                70088809,
+                0
+              ]
+            },
+            {
+              "title": "Choose the Synchro sent by Harmonia",
+              "text": "Malong can return an opposing card to hand. Packbit can place a field/GY monster in a Spell/Trap Zone with its required discard. Lulu prepares an End Phase Ecclesia summon. Wind Pegasus stays in the GY for a later response to an opponent destroying one of your cards. These are alternative sends.",
+              "kind": "note",
+              "cards": [
+                70088809,
+                93125329,
+                72444406,
+                53971455,
+                98506199
+              ]
+            },
+            {
+              "title": "Obtain Griffoh if using the Kuriboh alternative",
+              "text": "With Kuriboh instead of a natural Griffoh, use its hand summon window, then a later on-field opposing monster-effect/qualifying attack window to add Griffoh from Deck/GY. Kuriboh itself is Level 1; it is not the Level 7+ return cost. Its field effect can supply Dark Magician as that body on another eligible window.",
+              "kind": "note",
+              "cards": [
+                14965712,
+                97462632,
+                46986414
+              ]
+            },
+            {
+              "title": "Set and activate Mind Shuffle",
+              "text": "Discard Griffoh to set Mind Shuffle from the Deck. Griffoh permits its same-turn activation. Search Archfiend and discard it as part of the Trap effect.",
+              "kind": "effect",
+              "cards": [
+                97462632,
+                24749710,
+                24088928
+              ]
+            },
+            {
+              "title": "Default Chaos search",
+              "text": "Use Archfiend's send-to-GY trigger to send Light and Darkness Ritual from hand/Deck and add BLS from Deck. The Spell and Archfiend remain in the GY as next-turn resources.",
+              "kind": "effect",
+              "cards": [
+                24088928,
+                33599853,
+                70405001
+              ]
+            },
+            {
+              "title": "Return the Level 7+ monster",
+              "text": "When the opponent next activates a card/effect, use Mind Shuffle to return Harmonia or the other eligible Level 7+ body as cost, then summon BLS from hand. Its summon effect can target and banish an opposing card. The return is already paid even if the Trap effect is later negated.",
+              "kind": "effect",
+              "cards": [
+                24749710,
+                70088809,
+                70405001,
+                0
+              ]
+            },
+            {
+              "title": "Do not reuse a named once-per-turn hand effect",
+              "text": "The returned Harmonia is a resource for a later turn; its named once-per-turn hand effect cannot be used again this turn. Nibiru and other choices also retain their own once-per-turn limits. Opposing Droplet/Impermanence interactions depend on the actual Chain and costs, not a universal protection rule.",
+              "kind": "note",
+              "cards": [
+                70088809,
+                27204311,
+                24299458,
+                10045474
+              ]
+            },
+            {
+              "title": "Lulu branch: End Phase Ecclesia",
+              "text": "If Harmonia sent Lulu to the GY this turn, its End Phase effect summons Incredible Ecclesia from hand or Deck. Preserve this field body for your next Main Phase.",
+              "kind": "effect",
+              "cards": [
+                53971455,
+                55273560
+              ]
+            },
+            {
+              "title": "Lulu branch: next-turn Synchro choice",
+              "text": "During your next Main Phase, Tribute Ecclesia to summon White Dragon, then use White Dragon to revive Ecclesia. Synchro Summon either Ecclesia and the Dark Dragon or The Crimson King. The former supplies an Albaz body; the latter searches Crimson Call for Griffoh from Deck/GY.",
+              "kind": "summon",
+              "cards": [
+                55273560,
+                73819701,
+                78397661,
+                67809530,
+                99398682,
+                97462632
+              ]
+            },
+            {
+              "title": "Lulu branch: keep Harmonia's lock active",
+              "text": "Harmonia's restriction lasts until the end of your next turn. Synchro effects remain usable; effects of your non-Synchro monsters Special Summoned from the Extra Deck cannot be activated. Summoning an Albaz Fusion does not make its effect usable during that lock.",
+              "kind": "note",
+              "cards": [
+                70088809,
+                78397661,
+                67809530
+              ]
+            },
+            {
+              "title": "Mitsurugi branch: replace the Ritual search",
+              "text": "At Archfiend's search step, you may instead send Mitsurugi Mirror and add Ame no Habakiri no Mitsurugi because Mirror names it. This replaces the Light and Darkness Ritual/BLS search. If BLS was not already in hand, do not also perform the default BLS exchange from this search.",
+              "kind": "note",
+              "cards": [
+                24088928,
+                49721684,
+                13332685,
+                70405001
+              ]
+            },
+            {
+              "title": "Mitsurugi branch: next-turn starter",
+              "text": "Keep Habakiri in hand for your turn. Its reveal effect can summon a Mitsurugi monster from Deck, then requires a Tribute and is once per Duel. Have that package and a legal Tribute available. It is a separate next-turn engine, not an immediate extra Chaos interruption.",
+              "kind": "note",
+              "cards": [
+                13332685,
+                49721684
+              ]
+            },
+            {
+              "title": "Recover the Chaos resources next turn",
+              "text": "If you took the default Chaos route, the Ritual Spell's GY effect can recover itself and Griffoh or another eligible card during your turn. Re-establishing Mind Shuffle still needs a copy in Deck/GY for the chosen starter; an unavailable Deck copy is not replaced by one stuck in hand.",
+              "kind": "effect",
+              "cards": [
+                33599853,
+                97462632,
+                24749710
+              ]
+            }
+          ]
+        },
+        {
+          "id": "turn0-kuriboh",
+          "title": "Kuriboh and Griffoh: three search/discard choices",
+          "description": "Start with Kuriboh plus Griffoh. A separately established Level 7+ hand trap can replace Kuriboh's Dark Magician body. Choose one of three Mind Shuffle search/discard lines: default Archfiend, direct Ritual plus a spare discard to avoid GY reliance, or an Archfiend already in hand. The opponent must supply the required activation/attack windows.",
+          "startingCards": [
+            14965712,
+            97462632,
+            0
+          ],
+          "endCards": [
+            14965712,
+            24749710,
+            70405001,
+            44001993,
+            33599853,
+            24088928,
+            46986414
+          ],
+          "requiredCards": [
+            14965712,
+            97462632,
+            46986414,
+            24749710,
+            24088928,
+            33599853,
+            70405001,
+            44001993
+          ],
+          "playsAround": [
+            27204311,
+            91800273,
+            24224830
+          ],
+          "cardNotes": {
+            "start:0": "Optional independently summoned Level 7+ hand-trap/body replacing the Dark Magician setup, or spare discard for branch B.",
+            "start:14965712": "Hand. Needs a later opposing field-effect/attack window after being summoned.",
+            "start:97462632": "Hand; Mind Shuffle must be in the Deck.",
+            "end:14965712": "One or more surviving field bodies, depending on opponent windows and Deck copies.",
+            "end:24749710": "Face-up; repeated exchanges still need legal costs, hand targets and separate opposing activations.",
+            "end:70405001": "One possible field Ritual; targets and banishes on summon once per turn.",
+            "end:44001993": "Alternative field Ritual, or additional hand target in branch C.",
+            "end:33599853": "GY only when the Archfiend branch resolved; next-turn recovery resource.",
+            "end:24088928": "GY in branches A/C; not automatically present in the direct branch.",
+            "end:46986414": "Hand after paying Mind Shuffle's return cost."
+          },
+          "steps": [
+            {
+              "title": "Summon Kuriboh from hand",
+              "text": "Respond to an opposing monster effect or declared attack with Kuriboh's hand effect and Special Summon it. This hand effect is named once per turn.",
+              "kind": "summon",
+              "cards": [
+                14965712
+              ]
+            },
+            {
+              "title": "Use a later field-effect window to get Dark Magician",
+              "text": "When an opposing monster activates an effect on the field, or during a qualifying opponent attack's damage calculation, Kuriboh can Special Summon Dark Magician from Deck/GY. This supplies the Level 7 body for Mind Shuffle.",
+              "kind": "effect",
+              "cards": [
+                14965712,
+                46986414
+              ]
+            },
+            {
+              "title": "Optional extra Kuriboh bodies",
+              "text": "Instead of immediately summoning Dark Magician, a field copy can summon another Kuriboh. Each copy has its own once-per-turn field effect, but newly summoned copies need another eligible event. You may build multiple bodies before a later copy summons Dark Magician; do not use the same trigger window repeatedly after it resolves.",
+              "kind": "note",
+              "cards": [
+                14965712,
+                46986414
+              ]
+            },
+            {
+              "title": "Set Mind Shuffle with Griffoh",
+              "text": "Discard Griffoh to set Mind Shuffle from the Deck, then activate the Trap with the granted same-turn permission. Before choosing its search, choose exactly one discard branch below.",
+              "kind": "effect",
+              "cards": [
+                97462632,
+                24749710
+              ]
+            },
+            {
+              "title": "Branch A: search and discard Archfiend",
+              "text": "If Archfiend is not in hand and the GY route is available, search it with Mind Shuffle and discard it. Its trigger sends the Ritual Spell and adds BLS or Ritual Chaos. The Ritual Spell and Archfiend now prepare follow-up in the GY.",
+              "kind": "effect",
+              "cards": [
+                24749710,
+                24088928,
+                33599853,
+                70405001,
+                44001993
+              ]
+            },
+            {
+              "title": "Branch B: direct Ritual search with another discard",
+              "text": "As an alternative to branch A, if you have a spare card, Mind Shuffle can search BLS directly and discard that spare. This avoids depending on Archfiend's GY trigger and Ritual send under Dimension Shifter or a threatened Called by the Grave. It does not stop those cards from disrupting other parts of the setup.",
+              "kind": "note",
+              "cards": [
+                24749710,
+                70405001,
+                0,
+                91800273,
+                24224830
+              ]
+            },
+            {
+              "title": "Branch B: exchange without a GY search",
+              "text": "When the opponent activates a card/effect, return Dark Magician from your field to hand as Mind Shuffle's cost and summon the directly searched BLS. Its summon effect can target and banish an opposing card. This direct route does not also put the Ritual Spell/Archfiend into the GY automatically.",
+              "kind": "effect",
+              "cards": [
+                24749710,
+                46986414,
+                70405001
+              ]
+            },
+            {
+              "title": "Branch C: Archfiend already in hand",
+              "text": "Instead of A or B, search BLS with Mind Shuffle and discard the Archfiend already in hand. Its trigger sends the Ritual Spell and searches Ritual Chaos, leaving both Ritual monsters in hand. This is one Mind Shuffle search plus a separate Archfiend trigger.",
+              "kind": "effect",
+              "cards": [
+                24749710,
+                70405001,
+                24088928,
+                33599853,
+                44001993
+              ]
+            },
+            {
+              "title": "Branches A/C: choose the Ritual for the exchange",
+              "text": "On an opposing activation, return Dark Magician to hand as cost and summon a Ritual you actually have: BLS for its targeting banish, or Ritual Chaos for Spell recovery and backrow protection. The latter resists only non-targeting activated opponent effects, not all forms of interaction.",
+              "kind": "effect",
+              "cards": [
+                24749710,
+                46986414,
+                70405001,
+                44001993
+              ]
+            },
+            {
+              "title": "Further exchanges need later activations",
+              "text": "Mind Shuffle can exchange a Level 7+ field monster for a differently named eligible hand monster on later opposing activations. It cannot use both of its effects in one Chain. Each Ritual monster's named summon-trigger effect is still once per turn, even if the monster returns and is summoned again.",
+              "kind": "note",
+              "cards": [
+                24749710,
+                70405001,
+                44001993
+              ]
+            },
+            {
+              "title": "Your turn: follow-up and spare Link bodies",
+              "text": "If the GY route resolved, recover the Ritual Spell plus Griffoh or another eligible Chaos card. Archfiend can also recycle three eligible cards from GYs/face-up banishment for its self-summon. Surviving Kuriboh bodies can be legal Link material, but a specific Link endpoint still needs its actual recipe and available zones.",
+              "kind": "note",
+              "cards": [
+                33599853,
+                97462632,
+                24088928,
+                14965712,
+                94259633,
+                29301450
+              ]
+            },
+            {
+              "title": "Alternative Level 7+ body",
+              "text": "Harmonia, Nibiru, Chaos Hunter or another effect can supply the Level 7+ field monster instead of Dark Magician, but only after meeting that card's real summon window and costs. Return that body in the same exchange. Do not count a Level 1 Kuriboh itself as the cost.",
+              "kind": "note",
+              "cards": [
+                70088809,
+                27204311,
+                97940434,
+                24749710
+              ]
+            }
+          ]
+        },
+        {
+          "id": "turn0-phara",
+          "title": "Griffoh or Kuriboh plus Phara: steal, return and banish",
+          "description": "Start with Phara plus either Griffoh or Kuriboh - Multiply!. Kuriboh access needs multiple opposing windows before it can add Griffoh. Mind Shuffle must be available in the Deck and BLS in hand/Deck. The control-taking effect requires an opponent's monster and a GY summon; this is not an unconditional answer to every listed interaction.",
+          "startingCards": [
+            97462632,
+            14965712,
+            82344137
+          ],
+          "endCards": [
+            24749710,
+            70405001,
+            82344137
+          ],
+          "requiredCards": [
+            82344137,
+            70405001,
+            97462632,
+            14965712,
+            24749710
+          ],
+          "playsAround": [
+            24299458,
+            98829635,
+            10045474,
+            48130397,
+            35480699
+          ],
+          "cardNotes": {
+            "start:97462632": "Choose Griffoh OR Kuriboh, together with Phara.",
+            "start:14965712": "Alternative starter; needs separate summon and field-effect windows to add Griffoh.",
+            "start:82344137": "Hand. Must be discarded by Mind Shuffle's effect, not as a cost.",
+            "end:24749710": "Face-up after the sequence; supplies next-turn search resources.",
+            "end:70405001": "Field; targeting summon banish and conditional activated-effect resistance.",
+            "end:82344137": "Hand after the exchange; its reveal option needs an actual Spell/Trap in hand.",
+            "required:70405001": "In Deck to search, or already in hand with another legal Mind Shuffle search available."
+          },
+          "steps": [
+            {
+              "title": "Kuriboh alternative: reach Griffoh",
+              "text": "If starting with Kuriboh instead of Griffoh, summon it from hand at an opposing monster-effect/attack window. On a later opposing on-field monster effect or qualifying attack window, use its field effect to ADD Griffoh from Deck/GY to hand. Do not summon Griffoh if you need its discard effect here.",
+              "kind": "note",
+              "cards": [
+                14965712,
+                97462632
+              ]
+            },
+            {
+              "title": "Set an immediately usable Mind Shuffle",
+              "text": "On the opponent's turn, discard the Griffoh in hand to set Mind Shuffle from Deck. Activate the Trap using Griffoh's permission.",
+              "kind": "effect",
+              "cards": [
+                97462632,
+                24749710
+              ]
+            },
+            {
+              "title": "Search a Ritual and discard Phara by effect",
+              "text": "Mind Shuffle adds BLS from the Deck, then discards Phara from hand as part of its resolving effect. If BLS is already in hand, search another eligible Chaos monster and retain BLS. Do not describe the Phara discard as an activation cost.",
+              "kind": "effect",
+              "cards": [
+                24749710,
+                70405001,
+                82344137
+              ]
+            },
+            {
+              "title": "Resolve Phara in separate Chains",
+              "text": "After the Trap resolves, Phara's GY trigger can Special Summon it because a Spell/Trap effect sent it there. Its subsequent GY-summon trigger can take control of an opponent's monster with the highest ATK, choosing among ties.",
+              "kind": "chain",
+              "cards": [
+                82344137
+              ]
+            },
+            {
+              "title": "Return Phara when the opponent acts again",
+              "text": "On a later opposing card/effect activation, use Mind Shuffle to return Phara to hand as cost and Special Summon BLS from hand. Mind Shuffle's two effects cannot be activated in the same Chain.",
+              "kind": "effect",
+              "cards": [
+                24749710,
+                82344137,
+                70405001
+              ]
+            },
+            {
+              "title": "Resolve BLS and retain next-turn resources",
+              "text": "BLS may target and banish an opposing card when summoned. Phara is in hand again, and Mind Shuffle remains face-up. Keep any stolen monster that remains legally under your control; the source's three-card endpoint does not list that variable card.",
+              "kind": "effect",
+              "cards": [
+                70405001,
+                82344137,
+                24749710
+              ]
+            },
+            {
+              "title": "Next turn: Phara's reveal option",
+              "text": "On your turn, Phara in hand can reveal itself and a Spell/Trap in your hand to prevent responses to that name until the end of the next turn. It cannot reveal the Mind Shuffle that is still face-up on the field. Phara's revival/control effects remain once per turn.",
+              "kind": "note",
+              "cards": [
+                82344137,
+                24749710
+              ]
+            },
+            {
+              "title": "Interaction limits",
+              "text": "Returning Phara as cost can avoid a pending field-targeted effect when a legal Chain window exists. It does not retroactively undo an effect that already resolved. Forbidden Droplet may prohibit Trap responses depending on what was sent as cost; Super Polymerization cannot be chained to at all. Evaluate those cases rather than promising every listed card is defeated.",
+              "kind": "note",
+              "cards": [
+                24299458,
+                98829635,
+                10045474,
+                48130397,
+                35480699,
+                24749710
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

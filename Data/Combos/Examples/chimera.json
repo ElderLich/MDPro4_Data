@@ -1,0 +1,2751 @@
+{
+  "schemaVersion": 1,
+  "id": "864d7e71-b205-4d82-96a9-109ac84db661",
+  "title": "Chimera — starter routes",
+  "description": "All ten source combos across Mirror, Apprentice and Gazelle, expanded into explicit variants for alternative openings, draw-effect responses and the Azamina/S:P branch. Instructions are independently written from the procedural sequences and checked against installed card text. Notes correct resource-count and GY/banished-zone ambiguities. These teaching routes are not executable replays or guaranteed boards through every interruption.",
+  "author": "MDPro4 examples · source: Drident",
+  "accent": "cyan",
+  "tags": [
+    "Chimera",
+    "Hecahands",
+    "Fusion"
+  ],
+  "tabs": [
+    {
+      "id": "mirror",
+      "title": "Mirror",
+      "combos": [
+        {
+          "id": "mirror-heca",
+          "title": "Mirror + a discard: Hecahands finish",
+          "description": "Start with Mirror Swordknight and one expendable card. This route uses your Normal Summon. Keep the Hecahands package in the Deck/Extra Deck. Big-Winged Berfomet restricts later Extra Deck summons to Fusion Monsters. Chimera's hand reduction resolves in the End Phase.",
+          "startingCards": [
+            28954097
+          ],
+          "endCards": [
+            1769875,
+            28954097,
+            67021206,
+            63136489,
+            29792472
+          ],
+          "requiredCards": [
+            55461744,
+            23076639,
+            63136489,
+            1769875,
+            58143852,
+            18321034,
+            67021206,
+            29792472
+          ],
+          "playsAround": [
+            92248362
+          ],
+          "cardNotes": {
+            "start:28954097": "Plus one expendable card. Coatl can search Mirror before this line; keep the separate discard available.",
+            "end:1769875": "Field; hand reduction during your End Phase.",
+            "end:28954097": "Field; can banish itself from field or GY to negate an on-field monster effect while the required Chimera name is present.",
+            "end:63136489": "Set; Main Phase Fusion option.",
+            "end:29792472": "Set; requires the appropriate Hecahands board.",
+            "around:92248362": "The early effects use field/GY locations. This is a route consideration, not immunity to every timing."
+          },
+          "steps": [
+            {
+              "title": "Open the Chimera engine",
+              "text": "Normal Summon Mirror. Tribute it to Special Summon Big-Winged Berfomet from the Deck.",
+              "kind": "summon",
+              "cards": [
+                28954097,
+                55461744
+              ]
+            },
+            {
+              "title": "Collect the Fusion pieces",
+              "text": "Use Big-Winged Berfomet to add Gazelle and Chimera Fusion.",
+              "kind": "effect",
+              "cards": [
+                55461744,
+                23076639,
+                63136489
+              ]
+            },
+            {
+              "title": "Make the first Fusion",
+              "text": "Activate Chimera Fusion using Big-Winged Berfomet and Gazelle to Fusion Summon Chimera the King of Phantom Beasts.",
+              "kind": "summon",
+              "cards": [
+                63136489,
+                55461744,
+                23076639,
+                1769875
+              ]
+            },
+            {
+              "title": "Resolve the material triggers",
+              "text": "A possible order is Gazelle CL1, Big-Winged Berfomet CL2 targeting Mirror, and Chimera CL3. Revive Mirror; add Nightmare Apprentice with Gazelle. Chimera schedules its End Phase hand reduction.",
+              "kind": "chain",
+              "cards": [
+                23076639,
+                55461744,
+                1769875,
+                28954097,
+                58143852
+              ]
+            },
+            {
+              "title": "Recover the Quick-Play Spell",
+              "text": "Return Chimera Fusion from the GY to your hand while the required Chimera name is present.",
+              "kind": "effect",
+              "cards": [
+                63136489
+              ]
+            },
+            {
+              "title": "Bridge to Hecahands",
+              "text": "Discard the spare card to Special Summon Nightmare Apprentice. Its search adds Hecahands Mankibuel.",
+              "kind": "effect",
+              "cards": [
+                58143852,
+                18321034
+              ]
+            },
+            {
+              "title": "Summon Jauzah",
+              "text": "Reveal Mankibuel in hand and use it with Apprentice on the field to Fusion Summon Hecahands Jauzah.",
+              "kind": "summon",
+              "cards": [
+                18321034,
+                58143852,
+                67021206
+              ]
+            },
+            {
+              "title": "Prepare the response",
+              "text": "Use Jauzah to add Yad'al-Hecahands. Set it and Chimera Fusion. Keep Mirror available for the opponent's turn.",
+              "kind": "action",
+              "cards": [
+                67021206,
+                29792472,
+                63136489,
+                28954097
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mirror-short",
+          "title": "Mirror: compact line into Maxx \"C\"",
+          "description": "A response after the opponent chains Maxx \"C\" to Mirror. This line gives two draws and schedules one End Phase hand reduction; it does not claim that Maxx \"C\" draws only once.",
+          "startingCards": [
+            28954097
+          ],
+          "endCards": [
+            1769875,
+            63136489,
+            23076639,
+            28954097,
+            92565383
+          ],
+          "requiredCards": [
+            55461744,
+            23076639,
+            63136489,
+            1769875,
+            92565383
+          ],
+          "playsAround": [
+            23434538,
+            42141493,
+            92248362
+          ],
+          "cardNotes": {
+            "end:28954097": "GY; a monster-effect negate only while the required Chimera name is present.",
+            "end:92565383": "GY; response to an effect targeting your cards.",
+            "end:23076639": "Hand; next-turn Fusion material.",
+            "end:63136489": "Set."
+          },
+          "steps": [
+            {
+              "title": "Commit Mirror",
+              "text": "Normal Summon Mirror and activate its tribute effect. If Maxx \"C\" is chained, it resolves before Mirror summons Big-Winged Berfomet.",
+              "kind": "chain",
+              "cards": [
+                28954097,
+                23434538,
+                55461744
+              ]
+            },
+            {
+              "title": "Collect the Fusion pair",
+              "text": "Resolve Big-Winged Berfomet to add Gazelle and Chimera Fusion. Accept its Fusion-only Extra Deck restriction.",
+              "kind": "effect",
+              "cards": [
+                55461744,
+                23076639,
+                63136489
+              ]
+            },
+            {
+              "title": "Establish the Chimera name",
+              "text": "Fusion Summon Chimera the King of Phantom Beasts using Gazelle and Big-Winged Berfomet.",
+              "kind": "summon",
+              "cards": [
+                63136489,
+                23076639,
+                55461744,
+                1769875
+              ]
+            },
+            {
+              "title": "Take the low-summon branch",
+              "text": "Activate Gazelle to search Cornfield Coatl and Chimera to schedule its End Phase hand reduction. Do not activate Big-Winged Berfomet to revive Mirror in the Maxx \"C\" branch.",
+              "kind": "chain",
+              "cards": [
+                23076639,
+                1769875,
+                92565383
+              ]
+            },
+            {
+              "title": "Prepare the next Fusion",
+              "text": "Discard Coatl to search another Gazelle. Mirror and Coatl now remain in the GY, with their conditions supported by Chimera.",
+              "kind": "effect",
+              "cards": [
+                92565383,
+                23076639,
+                28954097
+              ]
+            },
+            {
+              "title": "Recover and set the Spell",
+              "text": "Recover Chimera Fusion using its GY effect, then set it. The opponent drew for two Special Summons if Maxx \"C\" resolved before Berfomet; Chimera removes one random hand card in the End Phase if its effect resolved.",
+              "kind": "note",
+              "cards": [
+                63136489,
+                1769875,
+                23434538
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mirror-fuwalos",
+          "title": "Mirror: Fuwalos revival variant",
+          "description": "If the draw effect is Mulcharmy Fuwalos rather than Maxx \"C\", reviving Mirror from the GY does not trigger another Fuwalos draw. Keep the first two summons and the End Phase hand reduction distinct.",
+          "startingCards": [
+            28954097
+          ],
+          "endCards": [
+            1769875,
+            63136489,
+            23076639,
+            28954097,
+            92565383
+          ],
+          "requiredCards": [
+            55461744,
+            23076639,
+            63136489,
+            1769875,
+            92565383
+          ],
+          "playsAround": [
+            42141493
+          ],
+          "cardNotes": {
+            "end:28954097": "Field; can banish itself from field or GY to negate an on-field monster effect while the required Chimera name is present.",
+            "end:92565383": "GY; response to an effect targeting your cards.",
+            "end:23076639": "Hand; next-turn Fusion material.",
+            "end:63136489": "Set."
+          },
+          "steps": [
+            {
+              "title": "Respond to Fuwalos",
+              "text": "Normal Summon Mirror. After Fuwalos resolves, tribute Mirror to summon Big-Winged Berfomet from the Deck.",
+              "kind": "summon",
+              "cards": [
+                28954097,
+                42141493,
+                55461744
+              ]
+            },
+            {
+              "title": "Collect the Fusion pair",
+              "text": "Resolve Big-Winged Berfomet to add Gazelle and Chimera Fusion. Accept its Fusion-only Extra Deck restriction.",
+              "kind": "effect",
+              "cards": [
+                55461744,
+                23076639,
+                63136489
+              ]
+            },
+            {
+              "title": "Establish the Chimera name",
+              "text": "Fusion Summon Chimera the King of Phantom Beasts using Gazelle and Big-Winged Berfomet.",
+              "kind": "summon",
+              "cards": [
+                63136489,
+                23076639,
+                55461744,
+                1769875
+              ]
+            },
+            {
+              "title": "Include the GY revival",
+              "text": "Use Gazelle to add Coatl, Big-Winged Berfomet to revive Mirror, and Chimera to schedule its hand reduction. The GY summon is outside Fuwalos's Deck/Extra Deck draw condition.",
+              "kind": "chain",
+              "cards": [
+                23076639,
+                55461744,
+                28954097,
+                1769875,
+                92565383
+              ]
+            },
+            {
+              "title": "Keep the second protection",
+              "text": "Discard Coatl to add Gazelle. Mirror remains on the field and Coatl remains in the GY.",
+              "kind": "effect",
+              "cards": [
+                92565383,
+                23076639,
+                28954097
+              ]
+            },
+            {
+              "title": "Set the follow-up",
+              "text": "Recover and set Chimera Fusion. Two Deck/Extra Deck summons triggered Fuwalos; the GY revival did not. Resolve Chimera's scheduled hand reduction in the End Phase.",
+              "kind": "note",
+              "cards": [
+                63136489,
+                1769875,
+                42141493
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mirror-fiendsmith",
+          "title": "Mirror + material + discard: Fiendsmith",
+          "description": "Requires Mirror, an additional Illusion/Fiend material, and a separate discard. Complete all Link and Xyz summons before resolving Big-Winged Berfomet's search. The final Princess draw is an unknown card.",
+          "startingCards": [
+            28954097
+          ],
+          "endCards": [
+            1769875,
+            28954097,
+            4731783,
+            79559912,
+            63136489,
+            92565383
+          ],
+          "requiredCards": [
+            23076639,
+            63136489,
+            69601012,
+            58143852,
+            45659520,
+            13650422,
+            2463794,
+            28803166,
+            60764609,
+            93860227,
+            92565383,
+            55461744,
+            79559912,
+            49867899,
+            46640168,
+            4731783,
+            1769875
+          ],
+          "playsAround": [
+            92248362
+          ],
+          "cardNotes": {
+            "end:1769875": "Field; schedules one End Phase hand reduction.",
+            "end:28954097": "Field; can banish itself from field or GY to negate an on-field monster effect while the required Chimera name is present.",
+            "end:92565383": "GY; conditional targeting protection.",
+            "end:63136489": "Set; the copy recovered before the second Fusion.",
+            "end:4731783": "Returns during the End Phase; its next effect still requires a discard.",
+            "end:79559912": "Field, initially with two Xyz Materials."
+          },
+          "steps": [
+            {
+              "title": "Start with Gazelle instead",
+              "text": "Normal Summon Mirror and tribute it to summon Gazelle from the Deck. Gazelle searches Chimera Fusion; Big-Winged Berfomet is deliberately delayed until after the Link/Xyz portion.",
+              "kind": "summon",
+              "cards": [
+                28954097,
+                23076639,
+                63136489
+              ]
+            },
+            {
+              "title": "Use the extra material",
+              "text": "Fuse Gazelle with the opening Illusion or Fiend from hand into Berfomet the Mythical King of Phantom Beasts.",
+              "kind": "summon",
+              "cards": [
+                63136489,
+                23076639,
+                69601012
+              ]
+            },
+            {
+              "title": "Split the material triggers",
+              "text": "Use Gazelle's Fusion-material trigger to add Nightmare Apprentice and Fusion Berfomet's summon trigger to send Sinister Necrom.",
+              "kind": "chain",
+              "cards": [
+                23076639,
+                69601012,
+                58143852,
+                45659520
+              ]
+            },
+            {
+              "title": "Bank the spare Spell",
+              "text": "Recover Chimera Fusion from the GY while Fusion Berfomet supplies the required Chimera name. Keep this copy for the final set.",
+              "kind": "effect",
+              "cards": [
+                63136489,
+                69601012
+              ]
+            },
+            {
+              "title": "Reach the Fiendsmith engine",
+              "text": "Banish Sinister Necrom from the GY to summon Adusted Gold. Link Gold into Requiem; tribute Requiem to summon Lacrima the Crimson Tears. Use Tears to send Engraver from the Deck to the GY.",
+              "kind": "summon",
+              "cards": [
+                45659520,
+                13650422,
+                2463794,
+                28803166,
+                60764609
+              ]
+            },
+            {
+              "title": "Make the equipped-material summon",
+              "text": "Equip Requiem from the GY to Lacrima the Crimson Tears. Send Tears and its Fiend Equip Card to the GY for Necroquip Princess's own Special Summon procedure.",
+              "kind": "summon",
+              "cards": [
+                2463794,
+                28803166,
+                93860227
+              ]
+            },
+            {
+              "title": "Deploy Apprentice",
+              "text": "Discard the spare opening card to Special Summon Nightmare Apprentice, then search Cornfield Coatl.",
+              "kind": "summon",
+              "cards": [
+                58143852,
+                92565383
+              ]
+            },
+            {
+              "title": "Draw before overlaying Princess",
+              "text": "Discard Coatl to search Big-Winged Berfomet. Because a monster was sent from hand to the GY as an activation cost while Necroquip Princess is still present, use Princess to draw one card. The draw is an unknown card, not a generated Upstart Goblin.",
+              "kind": "effect",
+              "cards": [
+                92565383,
+                55461744,
+                93860227
+              ]
+            },
+            {
+              "title": "Overlay the Level 6 Fiends",
+              "text": "Use Fusion Berfomet and Necroquip Princess as the two Level 6 Fiend materials for D/D/D Wave High King Caesar.",
+              "kind": "summon",
+              "cards": [
+                69601012,
+                93860227,
+                79559912
+              ]
+            },
+            {
+              "title": "Recover Engraver",
+              "text": "Use Engraver in the GY, shuffling Adusted Gold into the Deck as the other LIGHT Fiend, then Special Summon Engraver.",
+              "kind": "summon",
+              "cards": [
+                60764609,
+                13650422
+              ]
+            },
+            {
+              "title": "Make Sequence",
+              "text": "Link Apprentice and Engraver into Fiendsmith's Sequence.",
+              "kind": "summon",
+              "cards": [
+                58143852,
+                60764609,
+                49867899
+              ]
+            },
+            {
+              "title": "Fuse from the GY",
+              "text": "Use Sequence to shuffle Lacrima the Crimson Tears and Requiem from the GY into their respective decks, Fusion Summoning Fiendsmith's Lacrima. Its Fusion trigger revives Engraver.",
+              "kind": "summon",
+              "cards": [
+                49867899,
+                28803166,
+                2463794,
+                46640168,
+                60764609
+              ]
+            },
+            {
+              "title": "Build the Link-4",
+              "text": "Link Sequence, Fusion Lacrima and Engraver into A Bao A Qu, counting Sequence as Link-2. Fusion Lacrima can then shuffle Sequence from the GY into the Extra Deck to inflict 1200 damage.",
+              "kind": "summon",
+              "cards": [
+                49867899,
+                46640168,
+                60764609,
+                4731783
+              ]
+            },
+            {
+              "title": "Revive the discarded searcher",
+              "text": "Use A Bao A Qu: discard Big-Winged Berfomet, temporarily banish A Bao, then revive that Berfomet. Search a second Gazelle and another Chimera Fusion. Its Fusion-only Extra Deck lock begins now.",
+              "kind": "effect",
+              "cards": [
+                4731783,
+                55461744,
+                23076639,
+                63136489
+              ]
+            },
+            {
+              "title": "Make the final Chimera",
+              "text": "Use the newly searched Chimera Fusion to fuse Big-Winged Berfomet and Gazelle into Chimera the King of Phantom Beasts. Gazelle's material search was already used earlier this turn.",
+              "kind": "summon",
+              "cards": [
+                63136489,
+                55461744,
+                23076639,
+                1769875
+              ]
+            },
+            {
+              "title": "Restore Mirror",
+              "text": "Use Big-Winged Berfomet's material trigger to revive Mirror, and Chimera's Fusion trigger to schedule its End Phase hand reduction.",
+              "kind": "chain",
+              "cards": [
+                55461744,
+                1769875,
+                28954097
+              ]
+            },
+            {
+              "title": "Keep the unused copy",
+              "text": "Set the Chimera Fusion recovered earlier. Its once-per-turn GY recovery was already used; do not recover another copy again this turn.",
+              "kind": "action",
+              "cards": [
+                63136489
+              ]
+            },
+            {
+              "title": "Resolve the End Phase",
+              "text": "Return A Bao A Qu from its temporary banishment and resolve Chimera's scheduled random hand reduction. Maintain free Monster Zones for the returning Link Monster.",
+              "kind": "note",
+              "cards": [
+                4731783,
+                1769875
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apprentice",
+      "title": "Apprentice",
+      "combos": [
+        {
+          "id": "apprentice-fiendsmith",
+          "title": "Apprentice + discard: Fiendsmith",
+          "description": "The opening Coatl search goes to Gazelle. This uses a different Link/Fusion sequence from the Hecahands route and ends without Caesar. An interrupted search has its own fallback variant below.",
+          "startingCards": [
+            58143852
+          ],
+          "endCards": [
+            1769875,
+            28954097,
+            4731783,
+            63136489,
+            92565383
+          ],
+          "requiredCards": [
+            92565383,
+            23076639,
+            63136489,
+            69601012,
+            45659520,
+            28954097,
+            13650422,
+            2463794,
+            28803166,
+            60764609,
+            49867899,
+            46640168,
+            4731783,
+            55461744,
+            1769875
+          ],
+          "playsAround": [],
+          "cardNotes": {
+            "end:1769875": "Field; schedules one End Phase hand reduction.",
+            "end:28954097": "Field; can banish itself from field or GY to negate an on-field monster effect while the required Chimera name is present.",
+            "end:92565383": "GY; conditional targeting protection.",
+            "end:63136489": "Set; the copy recovered before the second Fusion.",
+            "end:4731783": "Returns during the End Phase; its next effect still requires a discard."
+          },
+          "steps": [
+            {
+              "title": "Deploy and search",
+              "text": "Discard one spare card to Special Summon Nightmare Apprentice and search Coatl.",
+              "kind": "summon",
+              "cards": [
+                58143852,
+                92565383
+              ]
+            },
+            {
+              "title": "Choose Gazelle",
+              "text": "Discard Coatl to add Gazelle.",
+              "kind": "effect",
+              "cards": [
+                92565383,
+                23076639
+              ]
+            },
+            {
+              "title": "Spend the Normal Summon",
+              "text": "Normal Summon Gazelle and search Chimera Fusion.",
+              "kind": "summon",
+              "cards": [
+                23076639,
+                63136489
+              ]
+            },
+            {
+              "title": "Convert the two bodies",
+              "text": "Fuse Gazelle and Apprentice into Fusion Berfomet.",
+              "kind": "summon",
+              "cards": [
+                63136489,
+                23076639,
+                58143852,
+                69601012
+              ]
+            },
+            {
+              "title": "Load the next two engines",
+              "text": "Use Fusion Berfomet to send Sinister Necrom and Gazelle to add Mirror.",
+              "kind": "chain",
+              "cards": [
+                69601012,
+                23076639,
+                45659520,
+                28954097
+              ]
+            },
+            {
+              "title": "Reserve the Spell",
+              "text": "Recover Chimera Fusion for the eventual set.",
+              "kind": "effect",
+              "cards": [
+                63136489
+              ]
+            },
+            {
+              "title": "Reach the Fiendsmith engine",
+              "text": "Banish Sinister Necrom from the GY to summon Adusted Gold. Link Gold into Requiem; tribute Requiem to summon Lacrima the Crimson Tears. Use Tears to send Engraver from the Deck to the GY.",
+              "kind": "summon",
+              "cards": [
+                45659520,
+                13650422,
+                2463794,
+                28803166,
+                60764609
+              ]
+            },
+            {
+              "title": "Make Sequence without Caesar",
+              "text": "Link Lacrima the Crimson Tears and Fusion Berfomet into Sequence. This particular one-starter line does not produce Caesar.",
+              "kind": "summon",
+              "cards": [
+                28803166,
+                69601012,
+                49867899
+              ]
+            },
+            {
+              "title": "Recycle LIGHT Fiends",
+              "text": "Sequence shuffles Adusted Gold and Requiem from the GY to Fusion Summon Fiendsmith's Lacrima; its Fusion trigger revives Engraver.",
+              "kind": "summon",
+              "cards": [
+                49867899,
+                13650422,
+                2463794,
+                46640168,
+                60764609
+              ]
+            },
+            {
+              "title": "Build the Link-4",
+              "text": "Link Sequence, Fusion Lacrima and Engraver into A Bao A Qu, counting Sequence as Link-2. Fusion Lacrima can then shuffle Sequence from the GY into the Extra Deck to inflict 1200 damage.",
+              "kind": "summon",
+              "cards": [
+                49867899,
+                46640168,
+                60764609,
+                4731783
+              ]
+            },
+            {
+              "title": "Recover Mirror and search",
+              "text": "Discard Mirror for A Bao A Qu, temporarily banish A Bao and revive Mirror. Tribute Mirror for Big-Winged Berfomet, then add Gazelle and another Chimera Fusion. The Fusion-only restriction starts after those Link Summons.",
+              "kind": "effect",
+              "cards": [
+                4731783,
+                28954097,
+                55461744,
+                23076639,
+                63136489
+              ]
+            },
+            {
+              "title": "Make the final Chimera",
+              "text": "Use the newly searched Chimera Fusion to fuse Big-Winged Berfomet and Gazelle into Chimera the King of Phantom Beasts. Gazelle's material search was already used earlier this turn.",
+              "kind": "summon",
+              "cards": [
+                63136489,
+                55461744,
+                23076639,
+                1769875
+              ]
+            },
+            {
+              "title": "Restore the route monster",
+              "text": "Resolve Big-Winged Berfomet to revive Mirror and Chimera to schedule the End Phase hand reduction.",
+              "kind": "chain",
+              "cards": [
+                55461744,
+                28954097,
+                1769875
+              ]
+            },
+            {
+              "title": "Keep the unused copy",
+              "text": "Set the Chimera Fusion recovered earlier. Its once-per-turn GY recovery was already used; do not recover another copy again this turn.",
+              "kind": "action",
+              "cards": [
+                63136489
+              ]
+            },
+            {
+              "title": "Resolve the End Phase",
+              "text": "Return A Bao A Qu from its temporary banishment and resolve Chimera's scheduled random hand reduction. Maintain free Monster Zones for the returning Link Monster.",
+              "kind": "note",
+              "cards": [
+                4731783,
+                1769875
+              ]
+            }
+          ]
+        },
+        {
+          "id": "apprentice-interrupted",
+          "title": "Apprentice interrupted: Moon into Caesar",
+          "description": "Use this alternate route only while Apprentice remains on the field after its search was negated or Droll resolved. You need another Effect Monster in hand that can be Normal Summoned without tribute, and an unused Normal Summon. This fallback ends at Caesar; it does not promise the full Chimera board.",
+          "startingCards": [
+            58143852
+          ],
+          "endCards": [
+            79559912
+          ],
+          "requiredCards": [
+            71818935,
+            2463794,
+            28803166,
+            60764609,
+            49867899,
+            46640168,
+            79559912
+          ],
+          "playsAround": [
+            94145021
+          ],
+          "cardNotes": {
+            "start:58143852": "Also requires one tribute-free Normal Summonable Effect Monster; Apprentice must still be on the field.",
+            "end:79559912": "Reduced fallback board, initially two materials.",
+            "around:94145021": "After Droll resolves, skip all forbidden searches. The full Chimera/Hecahands/A Bao finish is not promised; use only resources already accessible."
+          },
+          "steps": [
+            {
+              "title": "Supply the second body",
+              "text": "Normal Summon your additional Effect Monster. Use it and Apprentice to Link Summon Moon of the Closed Heaven.",
+              "kind": "summon",
+              "cards": [
+                58143852,
+                71818935
+              ]
+            },
+            {
+              "title": "Use the LIGHT Fiend link",
+              "text": "Link Moon into Requiem. Tribute Requiem to summon Lacrima the Crimson Tears and send Engraver with Tears. These effects do not add a card from the Deck to hand.",
+              "kind": "summon",
+              "cards": [
+                71818935,
+                2463794,
+                28803166,
+                60764609
+              ]
+            },
+            {
+              "title": "Revive Engraver without a search",
+              "text": "Shuffle Moon from the GY into the Extra Deck for Engraver's GY effect and summon Engraver.",
+              "kind": "summon",
+              "cards": [
+                71818935,
+                60764609
+              ]
+            },
+            {
+              "title": "Build the Fusion link",
+              "text": "Link Tears and Engraver into Sequence.",
+              "kind": "summon",
+              "cards": [
+                28803166,
+                60764609,
+                49867899
+              ]
+            },
+            {
+              "title": "Fuse the LIGHT materials",
+              "text": "Sequence shuffles Tears and Requiem from the GY to Fusion Summon Fiendsmith's Lacrima. Use its Fusion trigger to Special Summon Engraver, rather than adding it to hand.",
+              "kind": "summon",
+              "cards": [
+                49867899,
+                28803166,
+                2463794,
+                46640168,
+                60764609
+              ]
+            },
+            {
+              "title": "Overlay the two Level 6 monsters",
+              "text": "Xyz Summon Caesar using Fusion Lacrima and Engraver. Sequence may remain on the field. Respect any additional effect that caused the original interruption.",
+              "kind": "summon",
+              "cards": [
+                46640168,
+                60764609,
+                79559912,
+                49867899
+              ]
+            }
+          ]
+        },
+        {
+          "id": "apprentice-heca",
+          "title": "Apprentice + a discard: Coatl setup",
+          "description": "Apprentice reaches Mirror while also placing Cornfield Coatl in the GY. Use this route when Apprentice is the available starter. One extra card is required as the opening discard. Resolve all remaining Extra Deck summons as Fusions after Big-Winged Berfomet's search.",
+          "startingCards": [
+            58143852
+          ],
+          "endCards": [
+            1769875,
+            28954097,
+            67021206,
+            63136489,
+            29792472,
+            92565383
+          ],
+          "requiredCards": [
+            92565383,
+            28954097,
+            55461744,
+            23076639,
+            63136489,
+            1769875,
+            18321034,
+            67021206,
+            29792472
+          ],
+          "playsAround": [],
+          "cardNotes": {
+            "start:58143852": "Plus one discard.",
+            "end:92565383": "GY; targeting-response option with the required Chimera name.",
+            "end:29792472": "Set.",
+            "end:63136489": "Set."
+          },
+          "steps": [
+            {
+              "title": "Summon and search",
+              "text": "Discard the spare card to Special Summon Nightmare Apprentice; add Cornfield Coatl.",
+              "kind": "effect",
+              "cards": [
+                58143852,
+                92565383
+              ]
+            },
+            {
+              "title": "Find Mirror",
+              "text": "Discard Coatl to add Mirror Swordknight. Coatl stays in the GY for its later protection effect.",
+              "kind": "effect",
+              "cards": [
+                92565383,
+                28954097
+              ]
+            },
+            {
+              "title": "Use the Normal Summon",
+              "text": "Normal Summon Mirror, tribute it for Big-Winged Berfomet, then add Gazelle and Chimera Fusion.",
+              "kind": "summon",
+              "cards": [
+                28954097,
+                55461744,
+                23076639,
+                63136489
+              ]
+            },
+            {
+              "title": "Fusion Summon Chimera",
+              "text": "Fuse Big-Winged Berfomet and Gazelle into Chimera the King of Phantom Beasts.",
+              "kind": "summon",
+              "cards": [
+                63136489,
+                55461744,
+                23076639,
+                1769875
+              ]
+            },
+            {
+              "title": "Recover a body and search the extender",
+              "text": "Use Gazelle CL1, Berfomet CL2 targeting Mirror, and Chimera CL3. Add Mankibuel with Gazelle and revive Mirror.",
+              "kind": "chain",
+              "cards": [
+                23076639,
+                55461744,
+                1769875,
+                18321034,
+                28954097
+              ]
+            },
+            {
+              "title": "Recover Chimera Fusion",
+              "text": "Return Chimera Fusion from the GY to the hand.",
+              "kind": "effect",
+              "cards": [
+                63136489
+              ]
+            },
+            {
+              "title": "Finish the Hecahands package",
+              "text": "Mankibuel fuses itself from hand with Apprentice into Jauzah. Search Yad'al-Hecahands, then set it and Chimera Fusion.",
+              "kind": "summon",
+              "cards": [
+                18321034,
+                58143852,
+                67021206,
+                29792472,
+                63136489
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gazelle",
+      "title": "Gazelle",
+      "combos": [
+        {
+          "id": "gazelle-short",
+          "title": "Gazelle + material: compact Maxx \"C\" line",
+          "description": "Requires Gazelle and an additional Illusion or Fiend in hand. Search Chimera Fusion, make one Fusion Summon, and keep the later interaction in the GY. This is not a guarantee against every interruption.",
+          "startingCards": [
+            23076639
+          ],
+          "endCards": [
+            69601012,
+            63136489,
+            23076639,
+            28954097,
+            92565383
+          ],
+          "requiredCards": [
+            63136489,
+            69601012,
+            92565383,
+            28954097
+          ],
+          "playsAround": [
+            23434538,
+            27204311
+          ],
+          "cardNotes": {
+            "start:23076639": "Also need an Illusion/Fiend, or Chimera Fusion to search that material.",
+            "end:23076639": "Hand.",
+            "end:28954097": "GY.",
+            "end:92565383": "GY.",
+            "end:63136489": "Set.",
+            "around:27204311": "This short uninterrupted line stays below five summons; account for any earlier summons this turn."
+          },
+          "steps": [
+            {
+              "title": "Search the missing Spell",
+              "text": "Normal Summon Gazelle and search Chimera Fusion. Keep the extra opening Illusion or Fiend as Fusion Material.",
+              "kind": "effect",
+              "cards": [
+                23076639,
+                63136489
+              ]
+            },
+            {
+              "title": "Choose the compact Fusion",
+              "text": "Fuse Gazelle with the Illusion/Fiend into Berfomet the Mythical King of Phantom Beasts. This line stops adding Special Summons here.",
+              "kind": "summon",
+              "cards": [
+                63136489,
+                23076639,
+                69601012
+              ]
+            },
+            {
+              "title": "Prepare both GY responses",
+              "text": "Activate Fusion Berfomet CL1 and Gazelle CL2. Gazelle adds Coatl; Berfomet sends Mirror to the GY.",
+              "kind": "chain",
+              "cards": [
+                69601012,
+                23076639,
+                92565383,
+                28954097
+              ]
+            },
+            {
+              "title": "Recover the next Fusion",
+              "text": "Return Chimera Fusion to hand. Discard Coatl to search another Gazelle for the next Fusion.",
+              "kind": "effect",
+              "cards": [
+                63136489,
+                92565383,
+                23076639
+              ]
+            },
+            {
+              "title": "Pass with resources",
+              "text": "Set Chimera Fusion. Leave Mirror and Coatl in the GY and Gazelle in hand; use their effects only when their conditions are met.",
+              "kind": "note",
+              "cards": [
+                63136489,
+                28954097,
+                92565383,
+                23076639
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gazelle-short-fusion",
+          "title": "Gazelle + Chimera Fusion: compact variant",
+          "description": "If Chimera Fusion is already in hand, Gazelle searches a Level 5 Fiend instead. Sinister Necrom is the listed material; stop after Fusion Berfomet rather than continuing its GY engine.",
+          "startingCards": [
+            23076639,
+            63136489
+          ],
+          "endCards": [
+            69601012,
+            63136489,
+            23076639,
+            28954097,
+            92565383
+          ],
+          "requiredCards": [
+            45659520,
+            69601012,
+            92565383,
+            28954097
+          ],
+          "playsAround": [
+            23434538,
+            27204311
+          ],
+          "cardNotes": {
+            "start:23076639": "Chimera Fusion is the other opening card; Gazelle searches the Fiend material.",
+            "end:23076639": "Hand.",
+            "end:28954097": "GY.",
+            "end:92565383": "GY.",
+            "end:63136489": "Set.",
+            "around:27204311": "This short uninterrupted line stays below five summons; account for any earlier summons this turn."
+          },
+          "steps": [
+            {
+              "title": "Search the missing material",
+              "text": "Normal Summon Gazelle and add Sinister Necrom. The opening Chimera Fusion will fuse Gazelle with that Fiend.",
+              "kind": "effect",
+              "cards": [
+                23076639,
+                45659520,
+                63136489
+              ]
+            },
+            {
+              "title": "Choose the compact Fusion",
+              "text": "Fuse Gazelle with Sinister Necrom into Berfomet the Mythical King of Phantom Beasts. This compact line stops adding Special Summons here; leave Necrom unused in the GY.",
+              "kind": "summon",
+              "cards": [
+                63136489,
+                23076639,
+                45659520,
+                69601012
+              ]
+            },
+            {
+              "title": "Prepare both GY responses",
+              "text": "Activate Fusion Berfomet CL1 and Gazelle CL2. Gazelle adds Coatl; Berfomet sends Mirror to the GY.",
+              "kind": "chain",
+              "cards": [
+                69601012,
+                23076639,
+                92565383,
+                28954097
+              ]
+            },
+            {
+              "title": "Recover the next Fusion",
+              "text": "Return Chimera Fusion to hand. Discard Coatl to search another Gazelle for the next Fusion.",
+              "kind": "effect",
+              "cards": [
+                63136489,
+                92565383,
+                23076639
+              ]
+            },
+            {
+              "title": "Pass with resources",
+              "text": "Set Chimera Fusion. Leave Mirror and Coatl in the GY and Gazelle in hand; use their effects only when their conditions are met.",
+              "kind": "note",
+              "cards": [
+                63136489,
+                28954097,
+                92565383,
+                23076639
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gazelle-fiendsmith",
+          "title": "Gazelle + material + discard: Fiendsmith",
+          "description": "Requires Gazelle, a separate Illusion/Fiend material and another card to discard. Nibiru and Droll can change or stop this route depending on timing. The interruption tags indicate discussed matchups, not an unconditional complete board through those cards.",
+          "startingCards": [
+            23076639
+          ],
+          "endCards": [
+            1769875,
+            28954097,
+            79559912,
+            4731783,
+            63136489,
+            92565383
+          ],
+          "requiredCards": [
+            63136489,
+            69601012,
+            58143852,
+            45659520,
+            13650422,
+            2463794,
+            28803166,
+            60764609,
+            93860227,
+            79559912,
+            92565383,
+            28954097,
+            49867899,
+            46640168,
+            4731783,
+            55461744,
+            1769875
+          ],
+          "playsAround": [
+            27204311,
+            94145021,
+            92248362
+          ],
+          "cardNotes": {
+            "end:1769875": "Field; schedules one End Phase hand reduction.",
+            "end:28954097": "Field; can banish itself from field or GY to negate an on-field monster effect while the required Chimera name is present.",
+            "end:92565383": "GY; conditional targeting protection.",
+            "end:63136489": "Set; the copy recovered before the second Fusion.",
+            "end:4731783": "Returns during the End Phase; its next effect still requires a discard.",
+            "end:79559912": "Field, initially with two Xyz Materials.",
+            "around:27204311": "An early tribute can remove Caesar or its materials. Continuation depends on the remaining hand and timing; do not assume the full ending survives.",
+            "around:94145021": "After Droll resolves, skip all forbidden searches. The full Chimera/Hecahands/A Bao finish is not promised; use only resources already accessible."
+          },
+          "steps": [
+            {
+              "title": "Open with the Beast",
+              "text": "Normal Summon Gazelle and search Chimera Fusion.",
+              "kind": "summon",
+              "cards": [
+                23076639,
+                63136489
+              ]
+            },
+            {
+              "title": "Use the additional material",
+              "text": "Fuse Gazelle and the opening Illusion or Fiend into Fusion Berfomet.",
+              "kind": "summon",
+              "cards": [
+                63136489,
+                23076639,
+                69601012
+              ]
+            },
+            {
+              "title": "Search and send",
+              "text": "Resolve Gazelle's material trigger to add Apprentice and Fusion Berfomet's trigger to send Sinister Necrom.",
+              "kind": "chain",
+              "cards": [
+                23076639,
+                69601012,
+                58143852,
+                45659520
+              ]
+            },
+            {
+              "title": "Save one Fusion copy",
+              "text": "Recover Chimera Fusion; reserve it for the final set.",
+              "kind": "effect",
+              "cards": [
+                63136489
+              ]
+            },
+            {
+              "title": "Reach the Fiendsmith engine",
+              "text": "Banish Sinister Necrom from the GY to summon Adusted Gold. Link Gold into Requiem; tribute Requiem to summon Lacrima the Crimson Tears. Use Tears to send Engraver from the Deck to the GY.",
+              "kind": "summon",
+              "cards": [
+                45659520,
+                13650422,
+                2463794,
+                28803166,
+                60764609
+              ]
+            },
+            {
+              "title": "Make the equipped-material summon",
+              "text": "Equip Requiem from the GY to Lacrima the Crimson Tears. Send Tears and its Fiend Equip Card to the GY for Necroquip Princess's own Special Summon procedure.",
+              "kind": "summon",
+              "cards": [
+                2463794,
+                28803166,
+                93860227
+              ]
+            },
+            {
+              "title": "Overlay the Level 6 Fiends",
+              "text": "Use Fusion Berfomet and Necroquip Princess as the two Level 6 Fiend materials for D/D/D Wave High King Caesar.",
+              "kind": "summon",
+              "cards": [
+                69601012,
+                93860227,
+                79559912
+              ]
+            },
+            {
+              "title": "Deploy the Illusion extender",
+              "text": "Discard the spare opening card to Special Summon Apprentice and add Coatl.",
+              "kind": "summon",
+              "cards": [
+                58143852,
+                92565383
+              ]
+            },
+            {
+              "title": "Find Mirror",
+              "text": "Discard Coatl to search Mirror. Princess is already an Xyz Material, so this line does not receive its draw effect.",
+              "kind": "effect",
+              "cards": [
+                92565383,
+                28954097,
+                93860227
+              ]
+            },
+            {
+              "title": "Recover Engraver",
+              "text": "Use Engraver in the GY, shuffling Adusted Gold into the Deck as the other LIGHT Fiend, then Special Summon Engraver.",
+              "kind": "summon",
+              "cards": [
+                60764609,
+                13650422
+              ]
+            },
+            {
+              "title": "Make Sequence",
+              "text": "Link Apprentice and Engraver into Sequence.",
+              "kind": "summon",
+              "cards": [
+                58143852,
+                60764609,
+                49867899
+              ]
+            },
+            {
+              "title": "Fuse from the GY",
+              "text": "Use Sequence to shuffle Lacrima the Crimson Tears and Requiem from the GY into their respective decks, Fusion Summoning Fiendsmith's Lacrima. Its Fusion trigger revives Engraver.",
+              "kind": "summon",
+              "cards": [
+                49867899,
+                28803166,
+                2463794,
+                46640168,
+                60764609
+              ]
+            },
+            {
+              "title": "Build the Link-4",
+              "text": "Link Sequence, Fusion Lacrima and Engraver into A Bao A Qu, counting Sequence as Link-2. Fusion Lacrima can then shuffle Sequence from the GY into the Extra Deck to inflict 1200 damage.",
+              "kind": "summon",
+              "cards": [
+                49867899,
+                46640168,
+                60764609,
+                4731783
+              ]
+            },
+            {
+              "title": "Revive the discarded Mirror",
+              "text": "Use A Bao A Qu, discarding Mirror and temporarily banishing A Bao, to Special Summon Mirror from the GY.",
+              "kind": "effect",
+              "cards": [
+                4731783,
+                28954097
+              ]
+            },
+            {
+              "title": "Start the Fusion-only finish",
+              "text": "Tribute Mirror for Big-Winged Berfomet. Add another Gazelle and Chimera Fusion; no more Link or Xyz Summons are allowed after this search resolves.",
+              "kind": "effect",
+              "cards": [
+                28954097,
+                55461744,
+                23076639,
+                63136489
+              ]
+            },
+            {
+              "title": "Make the final Chimera",
+              "text": "Use the newly searched Chimera Fusion to fuse Big-Winged Berfomet and Gazelle into Chimera the King of Phantom Beasts. Gazelle's material search was already used earlier this turn.",
+              "kind": "summon",
+              "cards": [
+                63136489,
+                55461744,
+                23076639,
+                1769875
+              ]
+            },
+            {
+              "title": "Restore Mirror and schedule the hand effect",
+              "text": "Resolve Big-Winged Berfomet's material trigger on Mirror and Chimera's Fusion trigger.",
+              "kind": "chain",
+              "cards": [
+                55461744,
+                28954097,
+                1769875
+              ]
+            },
+            {
+              "title": "Keep the unused copy",
+              "text": "Set the Chimera Fusion recovered earlier. Its once-per-turn GY recovery was already used; do not recover another copy again this turn.",
+              "kind": "action",
+              "cards": [
+                63136489
+              ]
+            },
+            {
+              "title": "Resolve the End Phase",
+              "text": "Return A Bao A Qu from its temporary banishment and resolve Chimera's scheduled random hand reduction. Maintain free Monster Zones for the returning Link Monster.",
+              "kind": "note",
+              "cards": [
+                4731783,
+                1769875
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gazelle-mirror",
+          "title": "Gazelle + Mirror + discard: combined finish",
+          "description": "Requires the two named starters and a separate discard. Hecahands supplies both the Counter Trap and a later discard while the Fiendsmith engine builds Caesar and A Bao. Nibiru and Droll can change or stop this route depending on timing. The interruption tags indicate discussed matchups, not an unconditional complete board through those cards.",
+          "startingCards": [
+            23076639,
+            28954097
+          ],
+          "endCards": [
+            1769875,
+            67021206,
+            79559912,
+            4731783,
+            63136489,
+            29792472,
+            28954097
+          ],
+          "requiredCards": [
+            63136489,
+            69601012,
+            58143852,
+            45659520,
+            13650422,
+            2463794,
+            28803166,
+            60764609,
+            93860227,
+            79559912,
+            18321034,
+            67021206,
+            29792472,
+            49867899,
+            46640168,
+            4731783,
+            55461744,
+            1769875
+          ],
+          "playsAround": [
+            27204311,
+            94145021,
+            92248362
+          ],
+          "cardNotes": {
+            "end:1769875": "Field; schedules one End Phase hand reduction.",
+            "end:28954097": "GY; this line revives Jauzah instead of Mirror.",
+            "end:63136489": "Set; the copy recovered before the second Fusion.",
+            "end:4731783": "Returns during the End Phase; its next effect still requires a discard.",
+            "end:79559912": "Field, initially with two Xyz Materials.",
+            "end:67021206": "Field; revived after being used as Link Material.",
+            "end:29792472": "Set; requires a Hecahands Fusion Monster on your field.",
+            "around:27204311": "An early tribute can remove Caesar or its materials. Continuation depends on the remaining hand and timing; do not assume the full ending survives.",
+            "around:94145021": "After Droll resolves, skip all forbidden searches. The full Chimera/Hecahands/A Bao finish is not promised; use only resources already accessible.",
+            "start:23076639": "Keep the other named opening card and a separate discard. Coatl may search Gazelle or Mirror; pay any starter-search costs first."
+          },
+          "steps": [
+            {
+              "title": "Open with the Beast",
+              "text": "Normal Summon Gazelle and search Chimera Fusion.",
+              "kind": "summon",
+              "cards": [
+                23076639,
+                63136489
+              ]
+            },
+            {
+              "title": "Use Mirror as material",
+              "text": "Fuse Gazelle and the opening Mirror into Fusion Berfomet. Do not use Mirror's tribute effect yet.",
+              "kind": "summon",
+              "cards": [
+                63136489,
+                23076639,
+                28954097,
+                69601012
+              ]
+            },
+            {
+              "title": "Search and send",
+              "text": "Resolve Gazelle's material trigger to add Apprentice and Fusion Berfomet's trigger to send Sinister Necrom.",
+              "kind": "chain",
+              "cards": [
+                23076639,
+                69601012,
+                58143852,
+                45659520
+              ]
+            },
+            {
+              "title": "Save one Fusion copy",
+              "text": "Recover Chimera Fusion; reserve it for the final set.",
+              "kind": "effect",
+              "cards": [
+                63136489
+              ]
+            },
+            {
+              "title": "Reach the Fiendsmith engine",
+              "text": "Banish Sinister Necrom from the GY to summon Adusted Gold. Link Gold into Requiem; tribute Requiem to summon Lacrima the Crimson Tears. Use Tears to send Engraver from the Deck to the GY.",
+              "kind": "summon",
+              "cards": [
+                45659520,
+                13650422,
+                2463794,
+                28803166,
+                60764609
+              ]
+            },
+            {
+              "title": "Make the equipped-material summon",
+              "text": "Equip Requiem from the GY to Lacrima the Crimson Tears. Send Tears and its Fiend Equip Card to the GY for Necroquip Princess's own Special Summon procedure.",
+              "kind": "summon",
+              "cards": [
+                2463794,
+                28803166,
+                93860227
+              ]
+            },
+            {
+              "title": "Overlay the Level 6 Fiends",
+              "text": "Use Fusion Berfomet and Necroquip Princess as the two Level 6 Fiend materials for D/D/D Wave High King Caesar.",
+              "kind": "summon",
+              "cards": [
+                69601012,
+                93860227,
+                79559912
+              ]
+            },
+            {
+              "title": "Search Hecahands instead",
+              "text": "Discard the spare card to Special Summon Apprentice and add Mankibuel. Mirror is already in the GY as the opening Fusion Material.",
+              "kind": "summon",
+              "cards": [
+                58143852,
+                18321034,
+                28954097
+              ]
+            },
+            {
+              "title": "Establish Jauzah",
+              "text": "Use Mankibuel in hand with Apprentice on the field to Fusion Summon Jauzah.",
+              "kind": "summon",
+              "cards": [
+                18321034,
+                58143852,
+                67021206
+              ]
+            },
+            {
+              "title": "Get the Counter Trap",
+              "text": "Activate Jauzah to add Yad'al-Hecahands. Keep it until the final Jauzah revival.",
+              "kind": "effect",
+              "cards": [
+                67021206,
+                29792472
+              ]
+            },
+            {
+              "title": "Recover Engraver",
+              "text": "Use Engraver in the GY, shuffling Adusted Gold into the Deck as the other LIGHT Fiend, then Special Summon Engraver.",
+              "kind": "summon",
+              "cards": [
+                60764609,
+                13650422
+              ]
+            },
+            {
+              "title": "Recycle the Hecahands material",
+              "text": "Link Jauzah and Engraver into Sequence. Because an Illusion Fusion was sent to the GY while Mankibuel was in the GY, recover Mankibuel with its trigger.",
+              "kind": "summon",
+              "cards": [
+                67021206,
+                60764609,
+                49867899,
+                18321034
+              ]
+            },
+            {
+              "title": "Fuse from the GY",
+              "text": "Use Sequence to shuffle Lacrima the Crimson Tears and Requiem from the GY into their respective decks, Fusion Summoning Fiendsmith's Lacrima. Its Fusion trigger revives Engraver.",
+              "kind": "summon",
+              "cards": [
+                49867899,
+                28803166,
+                2463794,
+                46640168,
+                60764609
+              ]
+            },
+            {
+              "title": "Build the Link-4",
+              "text": "Link Sequence, Fusion Lacrima and Engraver into A Bao A Qu, counting Sequence as Link-2. Fusion Lacrima can then shuffle Sequence from the GY into the Extra Deck to inflict 1200 damage.",
+              "kind": "summon",
+              "cards": [
+                49867899,
+                46640168,
+                60764609,
+                4731783
+              ]
+            },
+            {
+              "title": "Use Mankibuel as the next discard",
+              "text": "Discard the recovered Mankibuel for A Bao A Qu, temporarily banish A Bao, and revive Mirror from the GY.",
+              "kind": "effect",
+              "cards": [
+                4731783,
+                18321034,
+                28954097
+              ]
+            },
+            {
+              "title": "Start the Fusion-only finish",
+              "text": "Tribute Mirror for Big-Winged Berfomet. Add another Gazelle and Chimera Fusion; no more Link or Xyz Summons are allowed after this search resolves.",
+              "kind": "effect",
+              "cards": [
+                28954097,
+                55461744,
+                23076639,
+                63136489
+              ]
+            },
+            {
+              "title": "Make the final Chimera",
+              "text": "Use the newly searched Chimera Fusion to fuse Big-Winged Berfomet and Gazelle into Chimera the King of Phantom Beasts. Gazelle's material search was already used earlier this turn.",
+              "kind": "summon",
+              "cards": [
+                63136489,
+                55461744,
+                23076639,
+                1769875
+              ]
+            },
+            {
+              "title": "Restore the Counter Trap requirement",
+              "text": "Use Big-Winged Berfomet's material trigger to Special Summon Jauzah from the GY. Chimera schedules the End Phase hand reduction. Mirror stays in the GY for its conditional monster negate.",
+              "kind": "chain",
+              "cards": [
+                55461744,
+                67021206,
+                1769875,
+                28954097
+              ]
+            },
+            {
+              "title": "Set both responses",
+              "text": "Set the previously recovered Chimera Fusion and Yad'al-Hecahands. Keep Jauzah on the field for the Counter Trap's condition.",
+              "kind": "action",
+              "cards": [
+                63136489,
+                29792472,
+                67021206
+              ]
+            },
+            {
+              "title": "Resolve the End Phase",
+              "text": "Return A Bao A Qu from its temporary banishment and resolve Chimera's scheduled random hand reduction. Maintain free Monster Zones for the returning Link Monster.",
+              "kind": "note",
+              "cards": [
+                4731783,
+                1769875
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gazelle-fusion-combined",
+          "title": "Gazelle + Chimera Fusion + discard",
+          "description": "The alternate opening supplies Chimera Fusion. Gazelle searches the other half of the Fusion pair. A separate card is needed for Apprentice's discard. Nibiru and Droll can change or stop this route depending on timing. The interruption tags indicate discussed matchups, not an unconditional complete board through those cards.",
+          "startingCards": [
+            23076639,
+            63136489
+          ],
+          "endCards": [
+            1769875,
+            67021206,
+            79559912,
+            4731783,
+            63136489,
+            29792472,
+            28954097
+          ],
+          "requiredCards": [
+            45659520,
+            69601012,
+            58143852,
+            28954097,
+            13650422,
+            2463794,
+            28803166,
+            60764609,
+            93860227,
+            79559912,
+            18321034,
+            67021206,
+            29792472,
+            49867899,
+            46640168,
+            4731783,
+            55461744,
+            1769875
+          ],
+          "playsAround": [
+            27204311,
+            94145021,
+            92248362
+          ],
+          "cardNotes": {
+            "end:1769875": "Field; schedules one End Phase hand reduction.",
+            "end:28954097": "GY; this line revives Jauzah instead of Mirror.",
+            "end:63136489": "Set; the copy recovered before the second Fusion.",
+            "end:4731783": "Returns during the End Phase; its next effect still requires a discard.",
+            "end:79559912": "Field, initially with two Xyz Materials.",
+            "end:67021206": "Field; revived after being used as Link Material.",
+            "end:29792472": "Set; requires a Hecahands Fusion Monster on your field.",
+            "around:27204311": "An early tribute can remove Caesar or its materials. Continuation depends on the remaining hand and timing; do not assume the full ending survives.",
+            "around:94145021": "After Droll resolves, skip all forbidden searches. The full Chimera/Hecahands/A Bao finish is not promised; use only resources already accessible.",
+            "start:23076639": "Keep the other named opening card and a separate discard. Coatl may search Gazelle or Mirror; pay any starter-search costs first."
+          },
+          "steps": [
+            {
+              "title": "Complete the opening pair",
+              "text": "Normal Summon Gazelle and search Sinister Necrom, since Chimera Fusion is already in hand.",
+              "kind": "effect",
+              "cards": [
+                23076639,
+                63136489,
+                45659520
+              ]
+            },
+            {
+              "title": "Place Necrom in the GY",
+              "text": "Fuse Gazelle with Sinister Necrom into Fusion Berfomet.",
+              "kind": "summon",
+              "cards": [
+                63136489,
+                23076639,
+                45659520,
+                69601012
+              ]
+            },
+            {
+              "title": "Load Mirror instead",
+              "text": "Use Gazelle to add Apprentice and Fusion Berfomet to send Mirror. Sinister Necrom is already in the GY from the Fusion Summon.",
+              "kind": "chain",
+              "cards": [
+                23076639,
+                69601012,
+                58143852,
+                28954097,
+                45659520
+              ]
+            },
+            {
+              "title": "Save one Fusion copy",
+              "text": "Recover Chimera Fusion; reserve it for the final set.",
+              "kind": "effect",
+              "cards": [
+                63136489
+              ]
+            },
+            {
+              "title": "Reach the Fiendsmith engine",
+              "text": "Banish Sinister Necrom from the GY to summon Adusted Gold. Link Gold into Requiem; tribute Requiem to summon Lacrima the Crimson Tears. Use Tears to send Engraver from the Deck to the GY.",
+              "kind": "summon",
+              "cards": [
+                45659520,
+                13650422,
+                2463794,
+                28803166,
+                60764609
+              ]
+            },
+            {
+              "title": "Make the equipped-material summon",
+              "text": "Equip Requiem from the GY to Lacrima the Crimson Tears. Send Tears and its Fiend Equip Card to the GY for Necroquip Princess's own Special Summon procedure.",
+              "kind": "summon",
+              "cards": [
+                2463794,
+                28803166,
+                93860227
+              ]
+            },
+            {
+              "title": "Overlay the Level 6 Fiends",
+              "text": "Use Fusion Berfomet and Necroquip Princess as the two Level 6 Fiend materials for D/D/D Wave High King Caesar.",
+              "kind": "summon",
+              "cards": [
+                69601012,
+                93860227,
+                79559912
+              ]
+            },
+            {
+              "title": "Search Hecahands instead",
+              "text": "Discard the spare card to Special Summon Apprentice and add Mankibuel. Mirror is already in the GY as the opening Fusion Material.",
+              "kind": "summon",
+              "cards": [
+                58143852,
+                18321034,
+                28954097
+              ]
+            },
+            {
+              "title": "Establish Jauzah",
+              "text": "Use Mankibuel in hand with Apprentice on the field to Fusion Summon Jauzah.",
+              "kind": "summon",
+              "cards": [
+                18321034,
+                58143852,
+                67021206
+              ]
+            },
+            {
+              "title": "Get the Counter Trap",
+              "text": "Activate Jauzah to add Yad'al-Hecahands. Keep it until the final Jauzah revival.",
+              "kind": "effect",
+              "cards": [
+                67021206,
+                29792472
+              ]
+            },
+            {
+              "title": "Recover Engraver",
+              "text": "Use Engraver in the GY, shuffling Adusted Gold into the Deck as the other LIGHT Fiend, then Special Summon Engraver.",
+              "kind": "summon",
+              "cards": [
+                60764609,
+                13650422
+              ]
+            },
+            {
+              "title": "Recycle the Hecahands material",
+              "text": "Link Jauzah and Engraver into Sequence. Because an Illusion Fusion was sent to the GY while Mankibuel was in the GY, recover Mankibuel with its trigger.",
+              "kind": "summon",
+              "cards": [
+                67021206,
+                60764609,
+                49867899,
+                18321034
+              ]
+            },
+            {
+              "title": "Fuse from the GY",
+              "text": "Use Sequence to shuffle Lacrima the Crimson Tears and Requiem from the GY into their respective decks, Fusion Summoning Fiendsmith's Lacrima. Its Fusion trigger revives Engraver.",
+              "kind": "summon",
+              "cards": [
+                49867899,
+                28803166,
+                2463794,
+                46640168,
+                60764609
+              ]
+            },
+            {
+              "title": "Build the Link-4",
+              "text": "Link Sequence, Fusion Lacrima and Engraver into A Bao A Qu, counting Sequence as Link-2. Fusion Lacrima can then shuffle Sequence from the GY into the Extra Deck to inflict 1200 damage.",
+              "kind": "summon",
+              "cards": [
+                49867899,
+                46640168,
+                60764609,
+                4731783
+              ]
+            },
+            {
+              "title": "Use Mankibuel as the next discard",
+              "text": "Discard the recovered Mankibuel for A Bao A Qu, temporarily banish A Bao, and revive Mirror from the GY.",
+              "kind": "effect",
+              "cards": [
+                4731783,
+                18321034,
+                28954097
+              ]
+            },
+            {
+              "title": "Start the Fusion-only finish",
+              "text": "Tribute Mirror for Big-Winged Berfomet. Add another Gazelle and Chimera Fusion; no more Link or Xyz Summons are allowed after this search resolves.",
+              "kind": "effect",
+              "cards": [
+                28954097,
+                55461744,
+                23076639,
+                63136489
+              ]
+            },
+            {
+              "title": "Make the final Chimera",
+              "text": "Use the newly searched Chimera Fusion to fuse Big-Winged Berfomet and Gazelle into Chimera the King of Phantom Beasts. Gazelle's material search was already used earlier this turn.",
+              "kind": "summon",
+              "cards": [
+                63136489,
+                55461744,
+                23076639,
+                1769875
+              ]
+            },
+            {
+              "title": "Restore the Counter Trap requirement",
+              "text": "Use Big-Winged Berfomet's material trigger to Special Summon Jauzah from the GY. Chimera schedules the End Phase hand reduction. Mirror stays in the GY for its conditional monster negate.",
+              "kind": "chain",
+              "cards": [
+                55461744,
+                67021206,
+                1769875,
+                28954097
+              ]
+            },
+            {
+              "title": "Set both responses",
+              "text": "Set the previously recovered Chimera Fusion and Yad'al-Hecahands. Keep Jauzah on the field for the Counter Trap's condition.",
+              "kind": "action",
+              "cards": [
+                63136489,
+                29792472,
+                67021206
+              ]
+            },
+            {
+              "title": "Resolve the End Phase",
+              "text": "Return A Bao A Qu from its temporary banishment and resolve Chimera's scheduled random hand reduction. Maintain free Monster Zones for the returning Link Monster.",
+              "kind": "note",
+              "cards": [
+                4731783,
+                1769875
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gazelle-necrom-combined",
+          "title": "Gazelle + Sinister Necrom + discard",
+          "description": "The alternate opening supplies Evil HERO Sinister Necrom. Gazelle searches the other half of the Fusion pair. A separate card is needed for Apprentice's discard. Nibiru and Droll can change or stop this route depending on timing. The interruption tags indicate discussed matchups, not an unconditional complete board through those cards.",
+          "startingCards": [
+            23076639,
+            45659520
+          ],
+          "endCards": [
+            1769875,
+            67021206,
+            79559912,
+            4731783,
+            63136489,
+            29792472,
+            28954097
+          ],
+          "requiredCards": [
+            63136489,
+            69601012,
+            58143852,
+            28954097,
+            13650422,
+            2463794,
+            28803166,
+            60764609,
+            93860227,
+            79559912,
+            18321034,
+            67021206,
+            29792472,
+            49867899,
+            46640168,
+            4731783,
+            55461744,
+            1769875
+          ],
+          "playsAround": [
+            27204311,
+            94145021,
+            92248362
+          ],
+          "cardNotes": {
+            "end:1769875": "Field; schedules one End Phase hand reduction.",
+            "end:28954097": "GY; this line revives Jauzah instead of Mirror.",
+            "end:63136489": "Set; the copy recovered before the second Fusion.",
+            "end:4731783": "Returns during the End Phase; its next effect still requires a discard.",
+            "end:79559912": "Field, initially with two Xyz Materials.",
+            "end:67021206": "Field; revived after being used as Link Material.",
+            "end:29792472": "Set; requires a Hecahands Fusion Monster on your field.",
+            "around:27204311": "An early tribute can remove Caesar or its materials. Continuation depends on the remaining hand and timing; do not assume the full ending survives.",
+            "around:94145021": "After Droll resolves, skip all forbidden searches. The full Chimera/Hecahands/A Bao finish is not promised; use only resources already accessible.",
+            "start:23076639": "Keep the other named opening card and a separate discard. Coatl may search Gazelle or Mirror; pay any starter-search costs first."
+          },
+          "steps": [
+            {
+              "title": "Complete the opening pair",
+              "text": "Normal Summon Gazelle and search Chimera Fusion, since Sinister Necrom is already in hand.",
+              "kind": "effect",
+              "cards": [
+                23076639,
+                63136489,
+                45659520
+              ]
+            },
+            {
+              "title": "Place Necrom in the GY",
+              "text": "Fuse Gazelle with Sinister Necrom into Fusion Berfomet.",
+              "kind": "summon",
+              "cards": [
+                63136489,
+                23076639,
+                45659520,
+                69601012
+              ]
+            },
+            {
+              "title": "Load Mirror instead",
+              "text": "Use Gazelle to add Apprentice and Fusion Berfomet to send Mirror. Sinister Necrom is already in the GY from the Fusion Summon.",
+              "kind": "chain",
+              "cards": [
+                23076639,
+                69601012,
+                58143852,
+                28954097,
+                45659520
+              ]
+            },
+            {
+              "title": "Save one Fusion copy",
+              "text": "Recover Chimera Fusion; reserve it for the final set.",
+              "kind": "effect",
+              "cards": [
+                63136489
+              ]
+            },
+            {
+              "title": "Reach the Fiendsmith engine",
+              "text": "Banish Sinister Necrom from the GY to summon Adusted Gold. Link Gold into Requiem; tribute Requiem to summon Lacrima the Crimson Tears. Use Tears to send Engraver from the Deck to the GY.",
+              "kind": "summon",
+              "cards": [
+                45659520,
+                13650422,
+                2463794,
+                28803166,
+                60764609
+              ]
+            },
+            {
+              "title": "Make the equipped-material summon",
+              "text": "Equip Requiem from the GY to Lacrima the Crimson Tears. Send Tears and its Fiend Equip Card to the GY for Necroquip Princess's own Special Summon procedure.",
+              "kind": "summon",
+              "cards": [
+                2463794,
+                28803166,
+                93860227
+              ]
+            },
+            {
+              "title": "Overlay the Level 6 Fiends",
+              "text": "Use Fusion Berfomet and Necroquip Princess as the two Level 6 Fiend materials for D/D/D Wave High King Caesar.",
+              "kind": "summon",
+              "cards": [
+                69601012,
+                93860227,
+                79559912
+              ]
+            },
+            {
+              "title": "Search Hecahands instead",
+              "text": "Discard the spare card to Special Summon Apprentice and add Mankibuel. Mirror is already in the GY as the opening Fusion Material.",
+              "kind": "summon",
+              "cards": [
+                58143852,
+                18321034,
+                28954097
+              ]
+            },
+            {
+              "title": "Establish Jauzah",
+              "text": "Use Mankibuel in hand with Apprentice on the field to Fusion Summon Jauzah.",
+              "kind": "summon",
+              "cards": [
+                18321034,
+                58143852,
+                67021206
+              ]
+            },
+            {
+              "title": "Get the Counter Trap",
+              "text": "Activate Jauzah to add Yad'al-Hecahands. Keep it until the final Jauzah revival.",
+              "kind": "effect",
+              "cards": [
+                67021206,
+                29792472
+              ]
+            },
+            {
+              "title": "Recover Engraver",
+              "text": "Use Engraver in the GY, shuffling Adusted Gold into the Deck as the other LIGHT Fiend, then Special Summon Engraver.",
+              "kind": "summon",
+              "cards": [
+                60764609,
+                13650422
+              ]
+            },
+            {
+              "title": "Recycle the Hecahands material",
+              "text": "Link Jauzah and Engraver into Sequence. Because an Illusion Fusion was sent to the GY while Mankibuel was in the GY, recover Mankibuel with its trigger.",
+              "kind": "summon",
+              "cards": [
+                67021206,
+                60764609,
+                49867899,
+                18321034
+              ]
+            },
+            {
+              "title": "Fuse from the GY",
+              "text": "Use Sequence to shuffle Lacrima the Crimson Tears and Requiem from the GY into their respective decks, Fusion Summoning Fiendsmith's Lacrima. Its Fusion trigger revives Engraver.",
+              "kind": "summon",
+              "cards": [
+                49867899,
+                28803166,
+                2463794,
+                46640168,
+                60764609
+              ]
+            },
+            {
+              "title": "Build the Link-4",
+              "text": "Link Sequence, Fusion Lacrima and Engraver into A Bao A Qu, counting Sequence as Link-2. Fusion Lacrima can then shuffle Sequence from the GY into the Extra Deck to inflict 1200 damage.",
+              "kind": "summon",
+              "cards": [
+                49867899,
+                46640168,
+                60764609,
+                4731783
+              ]
+            },
+            {
+              "title": "Use Mankibuel as the next discard",
+              "text": "Discard the recovered Mankibuel for A Bao A Qu, temporarily banish A Bao, and revive Mirror from the GY.",
+              "kind": "effect",
+              "cards": [
+                4731783,
+                18321034,
+                28954097
+              ]
+            },
+            {
+              "title": "Start the Fusion-only finish",
+              "text": "Tribute Mirror for Big-Winged Berfomet. Add another Gazelle and Chimera Fusion; no more Link or Xyz Summons are allowed after this search resolves.",
+              "kind": "effect",
+              "cards": [
+                28954097,
+                55461744,
+                23076639,
+                63136489
+              ]
+            },
+            {
+              "title": "Make the final Chimera",
+              "text": "Use the newly searched Chimera Fusion to fuse Big-Winged Berfomet and Gazelle into Chimera the King of Phantom Beasts. Gazelle's material search was already used earlier this turn.",
+              "kind": "summon",
+              "cards": [
+                63136489,
+                55461744,
+                23076639,
+                1769875
+              ]
+            },
+            {
+              "title": "Restore the Counter Trap requirement",
+              "text": "Use Big-Winged Berfomet's material trigger to Special Summon Jauzah from the GY. Chimera schedules the End Phase hand reduction. Mirror stays in the GY for its conditional monster negate.",
+              "kind": "chain",
+              "cards": [
+                55461744,
+                67021206,
+                1769875,
+                28954097
+              ]
+            },
+            {
+              "title": "Set both responses",
+              "text": "Set the previously recovered Chimera Fusion and Yad'al-Hecahands. Keep Jauzah on the field for the Counter Trap's condition.",
+              "kind": "action",
+              "cards": [
+                63136489,
+                29792472,
+                67021206
+              ]
+            },
+            {
+              "title": "Resolve the End Phase",
+              "text": "Return A Bao A Qu from its temporary banishment and resolve Chimera's scheduled random hand reduction. Maintain free Monster Zones for the returning Link Monster.",
+              "kind": "note",
+              "cards": [
+                4731783,
+                1769875
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gazelle-azamina",
+          "title": "Gazelle + Coatl: Azamina bridge",
+          "description": "Expanded from the source's compressed four-step route. It requires a discard for A Bao and another send resource for optional Diabellstar. The source's nine-card end display mixes field, GY and future summons; the annotations identify each. The base Link-4 consumes Caesar.",
+          "startingCards": [
+            23076639,
+            92565383
+          ],
+          "endCards": [
+            1769875,
+            46396218,
+            46174776,
+            4731783,
+            63136489,
+            28954097,
+            92565383,
+            69601012,
+            22850702,
+            11321089
+          ],
+          "requiredCards": [
+            28954097,
+            63136489,
+            69601012,
+            38648860,
+            45659520,
+            13650422,
+            2463794,
+            28803166,
+            60764609,
+            49867899,
+            46640168,
+            79559912,
+            46174776,
+            22850702,
+            66328392,
+            94845588,
+            73391962,
+            80845034,
+            4731783,
+            72270339,
+            46396218,
+            55461744,
+            1769875,
+            11321089
+          ],
+          "playsAround": [
+            27204311,
+            92248362
+          ],
+          "cardNotes": {
+            "start:23076639": "Also Coatl, one available discard for A Bao and a separate send-to-GY resource if using Diabellstar.",
+            "end:11321089": "Later Fusion option, not a monster already on the field. Needs three differently named materials from hand and field.",
+            "end:22850702": "GY in the base route. Berfomet cannot revive it from the GY.",
+            "end:69601012": "GY; its opponent-turn effect targets a banished eligible monster.",
+            "end:28954097": "GY.",
+            "end:92565383": "GY if you used the corrected Coatl opener.",
+            "end:4731783": "Returns in the End Phase.",
+            "end:46174776": "Field after Big-Winged Berfomet revives it.",
+            "end:46396218": "Field.",
+            "end:1769875": "Field; scheduled End Phase hand reduction.",
+            "end:63136489": "Set for later use.",
+            "around:27204311": "An early tribute can remove Caesar or its materials. Continuation depends on the remaining hand and timing; do not assume the full ending survives."
+          },
+          "steps": [
+            {
+              "title": "Correct the opening hand",
+              "text": "Start with Gazelle and Coatl. Discard Coatl to add Mirror. Starting with Gazelle and Mirror directly also reaches the engine, but does not place Coatl in the GY for its protection.",
+              "kind": "effect",
+              "cards": [
+                23076639,
+                92565383,
+                28954097
+              ]
+            },
+            {
+              "title": "Load the Azamina bridge",
+              "text": "Normal Summon Gazelle to search Chimera Fusion, then fuse Gazelle and Mirror into Fusion Berfomet. Gazelle's material trigger adds Elzette and Berfomet sends Sinister Necrom.",
+              "kind": "summon",
+              "cards": [
+                23076639,
+                63136489,
+                28954097,
+                69601012,
+                38648860,
+                45659520
+              ]
+            },
+            {
+              "title": "Reach the Fiendsmith engine",
+              "text": "Banish Sinister Necrom from the GY to summon Adusted Gold. Link Gold into Requiem; tribute Requiem to summon Lacrima the Crimson Tears. Use Tears to send Engraver from the Deck to the GY.",
+              "kind": "summon",
+              "cards": [
+                45659520,
+                13650422,
+                2463794,
+                28803166,
+                60764609
+              ]
+            },
+            {
+              "title": "Recover Engraver",
+              "text": "Use Engraver in the GY, shuffling Adusted Gold into the Deck as the other LIGHT Fiend, then Special Summon Engraver.",
+              "kind": "summon",
+              "cards": [
+                60764609,
+                13650422
+              ]
+            },
+            {
+              "title": "Build the Fiendsmith Fusion",
+              "text": "Link Tears and Engraver into Sequence. Sequence shuffles Tears and Requiem from the GY to Fusion Summon Fiendsmith's Lacrima, whose trigger revives Engraver. Adusted Gold was already returned to the Deck for Engraver's earlier revival.",
+              "kind": "summon",
+              "cards": [
+                28803166,
+                60764609,
+                49867899,
+                2463794,
+                46640168
+              ]
+            },
+            {
+              "title": "Make Caesar for now",
+              "text": "Overlay Fusion Lacrima and Engraver for Caesar. Sequence and Fusion Berfomet remain on the field. Caesar will be consumed for A Bao in the base route unless extra material is supplied.",
+              "kind": "summon",
+              "cards": [
+                46640168,
+                60764609,
+                79559912,
+                49867899,
+                69601012
+              ]
+            },
+            {
+              "title": "Summon Elzette and fuse",
+              "text": "Reveal Elzette to Special Summon itself. Use its Fusion effect with Fusion Berfomet to summon Moa Regina.",
+              "kind": "summon",
+              "cards": [
+                38648860,
+                69601012,
+                46174776
+              ]
+            },
+            {
+              "title": "Make Chaos Angel",
+              "text": "Moa Regina revives Elzette. Synchro Summon Chaos Angel using Level 8 Moa and Level 2 Elzette, treating a LIGHT/DARK monster as a Tuner under Angel's procedure. Elzette searches Deception of the Sinful Spoils.",
+              "kind": "summon",
+              "cards": [
+                46174776,
+                38648860,
+                22850702,
+                66328392
+              ]
+            },
+            {
+              "title": "Trade Angel for Hallowed",
+              "text": "Activate Deception and tribute Chaos Angel to search The Hallowed Azamina. Activate Hallowed, send the face-up Deception to the GY, and summon Mu Rcielago.",
+              "kind": "summon",
+              "cards": [
+                66328392,
+                22850702,
+                94845588,
+                73391962
+              ]
+            },
+            {
+              "title": "Search the Quick-Play resource",
+              "text": "Use Mu Rcielago's Fusion trigger to add WANTED. Keep it available for the next Hallowed activation.",
+              "kind": "effect",
+              "cards": [
+                73391962,
+                80845034
+              ]
+            },
+            {
+              "title": "Account for the Link materials",
+              "text": "At this point the base route has Sequence, Caesar and Mu Rcielago. Use all three for A Bao A Qu, counting Sequence as Link-2. This consumes Caesar: the base route cannot retain the Caesar icon shown in the source endboard without another body.",
+              "kind": "summon",
+              "cards": [
+                49867899,
+                79559912,
+                73391962,
+                4731783
+              ]
+            },
+            {
+              "title": "Recover Hallowed",
+              "text": "Use Hallowed's GY effect, shuffling Mu Rcielago from the GY into the Extra Deck, to recover Hallowed.",
+              "kind": "effect",
+              "cards": [
+                94845588,
+                73391962
+              ]
+            },
+            {
+              "title": "Chain WANTED to Hallowed",
+              "text": "Activate Hallowed revealing Ilia Silvia, then chain WANTED. WANTED adds Diabellstar; while the chain is still resolving its Spell Card remains available in the Spell & Trap Zone. Send it for Hallowed's resolution to summon Silvia.",
+              "kind": "chain",
+              "cards": [
+                94845588,
+                80845034,
+                72270339,
+                46396218
+              ]
+            },
+            {
+              "title": "Revive Mirror before the Fusion lock",
+              "text": "Discard an available card for A Bao, temporarily banish it, and revive Mirror. Tribute Mirror for Big-Winged Berfomet; search Gazelle and another Chimera Fusion. All Link/Synchro/Xyz work must already be complete.",
+              "kind": "effect",
+              "cards": [
+                4731783,
+                28954097,
+                55461744,
+                23076639,
+                63136489
+              ]
+            },
+            {
+              "title": "Make the final Chimera",
+              "text": "Use the newly searched Chimera Fusion to fuse Big-Winged Berfomet and Gazelle into Chimera the King of Phantom Beasts. Gazelle's material search was already used earlier this turn.",
+              "kind": "summon",
+              "cards": [
+                63136489,
+                55461744,
+                23076639,
+                1769875
+              ]
+            },
+            {
+              "title": "Restore Moa Regina",
+              "text": "Use Big-Winged Berfomet's material trigger to revive Moa Regina. Chimera's Fusion trigger schedules the hand reduction. Mirror, Coatl and Fusion Berfomet remain available in the GY.",
+              "kind": "chain",
+              "cards": [
+                55461744,
+                46174776,
+                1769875,
+                28954097,
+                92565383,
+                69601012
+              ]
+            },
+            {
+              "title": "Recover the unused Fusion resource",
+              "text": "Use Chimera Fusion's GY effect once this turn to recover one copy, then set it. You need additional suitable hand and field material if you plan Guardian Chimera later.",
+              "kind": "effect",
+              "cards": [
+                63136489,
+                11321089
+              ]
+            },
+            {
+              "title": "Use the remaining Sinful Spoils resources",
+              "text": "Banish WANTED from the GY to put Deception on the bottom of the Deck and draw one card. If Diabellstar is still available, pay its separate send-to-GY cost to summon it and set Deception from the Deck. Moa can respond to the relevant Sinful Spoils activation when legal.",
+              "kind": "effect",
+              "cards": [
+                80845034,
+                66328392,
+                72270339,
+                46174776
+              ]
+            },
+            {
+              "title": "Resolve the End Phase",
+              "text": "Return A Bao A Qu from its temporary banishment and resolve Chimera's scheduled random hand reduction. Maintain free Monster Zones for the returning Link Monster.",
+              "kind": "note",
+              "cards": [
+                4731783,
+                1769875
+              ]
+            },
+            {
+              "title": "Distinguish later responses",
+              "text": "Guardian Chimera is an opponent-turn Fusion option requiring three differently named materials with at least one from hand and one from field. Fusion Berfomet can revive a banished Chaos Angel, not an Angel merely in the GY. In this base route Angel was tributed to the GY; A Bao may instead revive it on a later turn with a new discard.",
+              "kind": "note",
+              "cards": [
+                11321089,
+                63136489,
+                69601012,
+                22850702,
+                4731783
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gazelle-azamina-sp",
+          "title": "Azamina: optional S:P / banished Angel branch",
+          "description": "Conditional variant mentioned inline by the source. Beyond the base opening and discard, you need an additional Special Summonable Effect Monster whose summoning restrictions permit the remaining sequence. This makes the Link-4 material count legal; the source does not supply that extra body. Caesar is still consumed. All Extra Deck links occur before Big-Winged Berfomet's search.",
+          "startingCards": [
+            23076639,
+            92565383
+          ],
+          "endCards": [
+            1769875,
+            46396218,
+            46174776,
+            4731783,
+            63136489,
+            28954097,
+            92565383,
+            69601012,
+            22850702,
+            11321089
+          ],
+          "requiredCards": [
+            28954097,
+            63136489,
+            69601012,
+            38648860,
+            45659520,
+            13650422,
+            2463794,
+            28803166,
+            60764609,
+            49867899,
+            46640168,
+            79559912,
+            46174776,
+            22850702,
+            66328392,
+            94845588,
+            73391962,
+            80845034,
+            29301450,
+            4731783,
+            72270339,
+            46396218,
+            55461744,
+            1769875,
+            11321089
+          ],
+          "playsAround": [
+            27204311,
+            92248362
+          ],
+          "cardNotes": {
+            "start:23076639": "Also Coatl, one available discard for A Bao and a separate send-to-GY resource if using Diabellstar.",
+            "end:11321089": "Later Fusion option, not a monster already on the field. Needs three differently named materials from hand and field.",
+            "end:22850702": "Banished by S:P; a later Fusion Berfomet revival target. Not already on the field.",
+            "end:69601012": "GY; its opponent-turn effect targets a banished eligible monster.",
+            "end:28954097": "GY.",
+            "end:92565383": "GY if you used the corrected Coatl opener.",
+            "end:4731783": "Returns in the End Phase.",
+            "end:46174776": "Field after Big-Winged Berfomet revives it.",
+            "end:46396218": "Field.",
+            "end:1769875": "Field; scheduled End Phase hand reduction.",
+            "end:63136489": "Set for later use.",
+            "around:27204311": "An early tribute can remove Caesar or its materials. Continuation depends on the remaining hand and timing; do not assume the full ending survives."
+          },
+          "steps": [
+            {
+              "title": "Correct the opening hand",
+              "text": "Start with Gazelle and Coatl. Discard Coatl to add Mirror. Starting with Gazelle and Mirror directly also reaches the engine, but does not place Coatl in the GY for its protection.",
+              "kind": "effect",
+              "cards": [
+                23076639,
+                92565383,
+                28954097
+              ]
+            },
+            {
+              "title": "Load the Azamina bridge",
+              "text": "Normal Summon Gazelle to search Chimera Fusion, then fuse Gazelle and Mirror into Fusion Berfomet. Gazelle's material trigger adds Elzette and Berfomet sends Sinister Necrom.",
+              "kind": "summon",
+              "cards": [
+                23076639,
+                63136489,
+                28954097,
+                69601012,
+                38648860,
+                45659520
+              ]
+            },
+            {
+              "title": "Reach the Fiendsmith engine",
+              "text": "Banish Sinister Necrom from the GY to summon Adusted Gold. Link Gold into Requiem; tribute Requiem to summon Lacrima the Crimson Tears. Use Tears to send Engraver from the Deck to the GY.",
+              "kind": "summon",
+              "cards": [
+                45659520,
+                13650422,
+                2463794,
+                28803166,
+                60764609
+              ]
+            },
+            {
+              "title": "Recover Engraver",
+              "text": "Use Engraver in the GY, shuffling Adusted Gold into the Deck as the other LIGHT Fiend, then Special Summon Engraver.",
+              "kind": "summon",
+              "cards": [
+                60764609,
+                13650422
+              ]
+            },
+            {
+              "title": "Build the Fiendsmith Fusion",
+              "text": "Link Tears and Engraver into Sequence. Sequence shuffles Tears and Requiem from the GY to Fusion Summon Fiendsmith's Lacrima, whose trigger revives Engraver. Adusted Gold was already returned to the Deck for Engraver's earlier revival.",
+              "kind": "summon",
+              "cards": [
+                28803166,
+                60764609,
+                49867899,
+                2463794,
+                46640168
+              ]
+            },
+            {
+              "title": "Make Caesar for now",
+              "text": "Overlay Fusion Lacrima and Engraver for Caesar. Sequence and Fusion Berfomet remain on the field. Caesar will be consumed for A Bao in the base route unless extra material is supplied.",
+              "kind": "summon",
+              "cards": [
+                46640168,
+                60764609,
+                79559912,
+                49867899,
+                69601012
+              ]
+            },
+            {
+              "title": "Summon Elzette and fuse",
+              "text": "Reveal Elzette to Special Summon itself. Use its Fusion effect with Fusion Berfomet to summon Moa Regina.",
+              "kind": "summon",
+              "cards": [
+                38648860,
+                69601012,
+                46174776
+              ]
+            },
+            {
+              "title": "Make Chaos Angel",
+              "text": "Moa Regina revives Elzette. Synchro Summon Chaos Angel using Level 8 Moa and Level 2 Elzette, treating a LIGHT/DARK monster as a Tuner under Angel's procedure. Elzette searches Deception of the Sinful Spoils.",
+              "kind": "summon",
+              "cards": [
+                46174776,
+                38648860,
+                22850702,
+                66328392
+              ]
+            },
+            {
+              "title": "Trade Angel for Hallowed",
+              "text": "Activate Deception and tribute Chaos Angel to search The Hallowed Azamina. Activate Hallowed, send the face-up Deception to the GY, and summon Mu Rcielago.",
+              "kind": "summon",
+              "cards": [
+                66328392,
+                22850702,
+                94845588,
+                73391962
+              ]
+            },
+            {
+              "title": "Search the Quick-Play resource",
+              "text": "Use Mu Rcielago's Fusion trigger to add WANTED. Keep it available for the next Hallowed activation.",
+              "kind": "effect",
+              "cards": [
+                73391962,
+                80845034
+              ]
+            },
+            {
+              "title": "Put Chaos Angel in the correct location",
+              "text": "Link Sequence and Mu Rcielago into S:P Little Knight, using each as one material. Use S:P's on-summon effect to banish Chaos Angel from your GY. This is what enables Fusion Berfomet's later banished-monster revival.",
+              "kind": "summon",
+              "cards": [
+                49867899,
+                73391962,
+                29301450,
+                22850702
+              ]
+            },
+            {
+              "title": "Supply the missing Link value",
+              "text": "Special Summon your additional Effect Monster without imposing a conflicting lock. Link S:P (counted as Link-2), Caesar (one) and that monster (one) into A Bao. Caesar supplies A Bao's required Fiend material. Without this extra body, stop: S:P plus Caesar supplies only three Link value.",
+              "kind": "summon",
+              "cards": [
+                29301450,
+                79559912,
+                4731783
+              ]
+            },
+            {
+              "title": "Recover Hallowed",
+              "text": "Use Hallowed's GY effect, shuffling Mu Rcielago from the GY into the Extra Deck, to recover Hallowed.",
+              "kind": "effect",
+              "cards": [
+                94845588,
+                73391962
+              ]
+            },
+            {
+              "title": "Chain WANTED to Hallowed",
+              "text": "Activate Hallowed revealing Ilia Silvia, then chain WANTED. WANTED adds Diabellstar; while the chain is still resolving its Spell Card remains available in the Spell & Trap Zone. Send it for Hallowed's resolution to summon Silvia.",
+              "kind": "chain",
+              "cards": [
+                94845588,
+                80845034,
+                72270339,
+                46396218
+              ]
+            },
+            {
+              "title": "Revive Mirror before the Fusion lock",
+              "text": "Discard an available card for A Bao, temporarily banish it, and revive Mirror. Tribute Mirror for Big-Winged Berfomet; search Gazelle and another Chimera Fusion. All Link/Synchro/Xyz work must already be complete.",
+              "kind": "effect",
+              "cards": [
+                4731783,
+                28954097,
+                55461744,
+                23076639,
+                63136489
+              ]
+            },
+            {
+              "title": "Make the final Chimera",
+              "text": "Use the newly searched Chimera Fusion to fuse Big-Winged Berfomet and Gazelle into Chimera the King of Phantom Beasts. Gazelle's material search was already used earlier this turn.",
+              "kind": "summon",
+              "cards": [
+                63136489,
+                55461744,
+                23076639,
+                1769875
+              ]
+            },
+            {
+              "title": "Restore Moa Regina",
+              "text": "Use Big-Winged Berfomet's material trigger to revive Moa Regina. Chimera's Fusion trigger schedules the hand reduction. Mirror, Coatl and Fusion Berfomet remain available in the GY.",
+              "kind": "chain",
+              "cards": [
+                55461744,
+                46174776,
+                1769875,
+                28954097,
+                92565383,
+                69601012
+              ]
+            },
+            {
+              "title": "Recover the unused Fusion resource",
+              "text": "Use Chimera Fusion's GY effect once this turn to recover one copy, then set it. You need additional suitable hand and field material if you plan Guardian Chimera later.",
+              "kind": "effect",
+              "cards": [
+                63136489,
+                11321089
+              ]
+            },
+            {
+              "title": "Use the remaining Sinful Spoils resources",
+              "text": "Banish WANTED from the GY to put Deception on the bottom of the Deck and draw one card. If Diabellstar is still available, pay its separate send-to-GY cost to summon it and set Deception from the Deck. Moa can respond to the relevant Sinful Spoils activation when legal.",
+              "kind": "effect",
+              "cards": [
+                80845034,
+                66328392,
+                72270339,
+                46174776
+              ]
+            },
+            {
+              "title": "Resolve the End Phase",
+              "text": "Return A Bao A Qu from its temporary banishment and resolve Chimera's scheduled random hand reduction. Maintain free Monster Zones for the returning Link Monster.",
+              "kind": "note",
+              "cards": [
+                4731783,
+                1769875
+              ]
+            },
+            {
+              "title": "Use the banished Angel follow-up",
+              "text": "On the opponent's turn, Fusion Berfomet can banish itself from the GY to Special Summon the properly Synchro Summoned Chaos Angel that S:P banished. Angel may then target and banish a field card. Guardian Chimera remains a separate conditional Fusion using three distinct hand/field materials.",
+              "kind": "note",
+              "cards": [
+                69601012,
+                22850702,
+                11321089,
+                63136489
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
