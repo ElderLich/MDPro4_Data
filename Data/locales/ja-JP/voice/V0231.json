@@ -186,11 +186,6 @@
   },
   "labelver": 1,
   "BeforeDuel": {
-    "sub": 1,
-    "pat": [
-      4
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_01_00_00_0": {
         "fullName": "V0231_01_00_00_0",
@@ -201,6 +196,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -213,6 +210,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       },
@@ -225,6 +224,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 2
       },
@@ -237,26 +238,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 3
       }
     }
   },
   "BeforeDuelSp": {
-    "sub": 10,
-    "pat": [
-      202,
-      4,
-      201,
-      5,
-      203,
-      5,
-      204,
-      5,
-      206,
-      5
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_01_00_04_0": {
         "fullName": "V0231_01_00_04_0",
@@ -269,6 +258,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 4
       },
@@ -281,22 +272,21 @@
           201,
           203,
           204,
-          206
+          206,
+          223,
+          224
         ],
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 5
       }
     }
   },
   "DuelStart": {
-    "sub": 1,
-    "pat": [
-      1
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_02_00_00_0": {
         "fullName": "V0231_02_00_00_0",
@@ -307,121 +297,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       }
     }
   },
   "TurnStart": {
-    "sub": 3,
-    "pat": [
-      2,
-      2,
-      2
-    ],
-    "rawKvp": {
-      "0": {
-        "fullName": "V0231_03_00_00_0",
-        "shortName": "V0231_03_00_00",
-        "voiceIdx": "0",
-        "cards": null,
-        "duelists": null,
-        "skills": null,
-        "situations": [
-          0
-        ],
-        "engineparams": null,
-        "subCategoryIndex": 0,
-        "patternIndex": 0
-      },
-      "1": {
-        "fullName": "V0231_03_00_01_0",
-        "shortName": "V0231_03_00_01",
-        "voiceIdx": "0",
-        "cards": null,
-        "duelists": null,
-        "skills": null,
-        "situations": [
-          0
-        ],
-        "engineparams": null,
-        "subCategoryIndex": 0,
-        "patternIndex": 1
-      },
-      "2": {
-        "fullName": "V0231_03_00_02_0",
-        "shortName": "V0231_03_00_02",
-        "voiceIdx": "0",
-        "cards": null,
-        "duelists": null,
-        "skills": null,
-        "situations": [
-          1
-        ],
-        "engineparams": null,
-        "subCategoryIndex": 0,
-        "patternIndex": 2
-      },
-      "3": {
-        "fullName": "V0231_03_00_03_0",
-        "shortName": "V0231_03_00_03",
-        "voiceIdx": "0",
-        "cards": null,
-        "duelists": null,
-        "skills": null,
-        "situations": [
-          1
-        ],
-        "engineparams": null,
-        "subCategoryIndex": 0,
-        "patternIndex": 3
-      },
-      "4": {
-        "fullName": "V0231_03_00_04_0",
-        "shortName": "V0231_03_00_04",
-        "voiceIdx": "0",
-        "cards": null,
-        "duelists": null,
-        "skills": null,
-        "situations": [
-          2
-        ],
-        "engineparams": null,
-        "subCategoryIndex": 0,
-        "patternIndex": 4
-      },
-      "5": {
-        "fullName": "V0231_03_00_05_0",
-        "shortName": "V0231_03_00_05",
-        "voiceIdx": "0",
-        "cards": null,
-        "duelists": null,
-        "skills": null,
-        "situations": [
-          2
-        ],
-        "engineparams": null,
-        "subCategoryIndex": 0,
-        "patternIndex": 5
-      }
-    }
-  },
-  "TurnStart.01": {
-    "sub": 12,
-    "pat": [
-      0,
-      0,
-      0,
-      1,
-      1,
-      2,
-      1,
-      3,
-      2,
-      4,
-      2,
-      5
-    ],
     "rawKvp": {
       "V0231_03_00_00_0": {
         "fullName": "V0231_03_00_00_0",
@@ -434,6 +317,8 @@
           0
         ],
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -448,6 +333,8 @@
           0
         ],
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       },
@@ -462,6 +349,8 @@
           1
         ],
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 2
       },
@@ -476,6 +365,8 @@
           1
         ],
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 3
       },
@@ -490,6 +381,8 @@
           2
         ],
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 4
       },
@@ -504,22 +397,18 @@
           2
         ],
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 5
       }
     }
   },
-  "Draw": {
-    "sub": 3,
-    "pat": [
-      1,
-      1,
-      1
-    ],
+  "TurnStart.01": {
     "rawKvp": {
-      "0": {
-        "fullName": "V0231_04_00_00_0",
-        "shortName": "V0231_04_00_00",
+      "V0231_03_00_00_0": {
+        "fullName": "V0231_03_00_00_0",
+        "shortName": "V0231_03_00_00",
         "voiceIdx": "0",
         "cards": null,
         "duelists": null,
@@ -528,12 +417,30 @@
           0
         ],
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
-      "1": {
-        "fullName": "V0231_04_00_01_0",
-        "shortName": "V0231_04_00_01",
+      "V0231_03_00_01_0": {
+        "fullName": "V0231_03_00_01_0",
+        "shortName": "V0231_03_00_01",
+        "voiceIdx": "0",
+        "cards": null,
+        "duelists": null,
+        "skills": null,
+        "situations": [
+          0
+        ],
+        "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
+        "subCategoryIndex": 0,
+        "patternIndex": 1
+      },
+      "V0231_03_00_02_0": {
+        "fullName": "V0231_03_00_02_0",
+        "shortName": "V0231_03_00_02",
         "voiceIdx": "0",
         "cards": null,
         "duelists": null,
@@ -542,12 +449,30 @@
           1
         ],
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
-        "patternIndex": 1
+        "patternIndex": 2
       },
-      "2": {
-        "fullName": "V0231_04_00_02_0",
-        "shortName": "V0231_04_00_02",
+      "V0231_03_00_03_0": {
+        "fullName": "V0231_03_00_03_0",
+        "shortName": "V0231_03_00_03",
+        "voiceIdx": "0",
+        "cards": null,
+        "duelists": null,
+        "skills": null,
+        "situations": [
+          1
+        ],
+        "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
+        "subCategoryIndex": 0,
+        "patternIndex": 3
+      },
+      "V0231_03_00_04_0": {
+        "fullName": "V0231_03_00_04_0",
+        "shortName": "V0231_03_00_04",
         "voiceIdx": "0",
         "cards": null,
         "duelists": null,
@@ -556,21 +481,30 @@
           2
         ],
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
-        "patternIndex": 2
+        "patternIndex": 4
+      },
+      "V0231_03_00_05_0": {
+        "fullName": "V0231_03_00_05_0",
+        "shortName": "V0231_03_00_05",
+        "voiceIdx": "0",
+        "cards": null,
+        "duelists": null,
+        "skills": null,
+        "situations": [
+          2
+        ],
+        "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
+        "subCategoryIndex": 0,
+        "patternIndex": 5
       }
     }
   },
-  "Draw.01": {
-    "sub": 6,
-    "pat": [
-      0,
-      0,
-      1,
-      1,
-      2,
-      2
-    ],
+  "Draw": {
     "rawKvp": {
       "V0231_04_00_00_0": {
         "fullName": "V0231_04_00_00_0",
@@ -583,6 +517,8 @@
           0
         ],
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -597,6 +533,8 @@
           1
         ],
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       },
@@ -611,17 +549,66 @@
           2
         ],
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
+        "subCategoryIndex": 0,
+        "patternIndex": 2
+      }
+    }
+  },
+  "Draw.01": {
+    "rawKvp": {
+      "V0231_04_00_00_0": {
+        "fullName": "V0231_04_00_00_0",
+        "shortName": "V0231_04_00_00",
+        "voiceIdx": "0",
+        "cards": null,
+        "duelists": null,
+        "skills": null,
+        "situations": [
+          0
+        ],
+        "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
+        "subCategoryIndex": 0,
+        "patternIndex": 0
+      },
+      "V0231_04_00_01_0": {
+        "fullName": "V0231_04_00_01_0",
+        "shortName": "V0231_04_00_01",
+        "voiceIdx": "0",
+        "cards": null,
+        "duelists": null,
+        "skills": null,
+        "situations": [
+          1
+        ],
+        "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
+        "subCategoryIndex": 0,
+        "patternIndex": 1
+      },
+      "V0231_04_00_02_0": {
+        "fullName": "V0231_04_00_02_0",
+        "shortName": "V0231_04_00_02",
+        "voiceIdx": "0",
+        "cards": null,
+        "duelists": null,
+        "skills": null,
+        "situations": [
+          2
+        ],
+        "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 2
       }
     }
   },
   "DestinyDraw": {
-    "sub": 1,
-    "pat": [
-      1
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_05_00_00_0": {
         "fullName": "V0231_05_00_00_0",
@@ -632,17 +619,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       }
     }
   },
   "BeforeCardEffect": {
-    "sub": 1,
-    "pat": [
-      4
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_06_01_00_0": {
         "fullName": "V0231_06_01_00_0",
@@ -653,6 +637,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 1,
         "patternIndex": 0
       },
@@ -665,6 +651,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 1,
         "patternIndex": 1
       },
@@ -677,6 +665,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 1,
         "patternIndex": 2
       },
@@ -689,30 +679,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 1,
         "patternIndex": 3
       }
     }
   },
   "CardEffect": {
-    "sub": 14,
-    "pat": [
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      2,
-      1,
-      1,
-      1,
-      1
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_07_00_00_0": {
         "fullName": "V0231_07_00_00_0",
@@ -723,6 +697,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -735,6 +711,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 1,
         "patternIndex": 0
       },
@@ -747,6 +725,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 2,
         "patternIndex": 0
       },
@@ -759,6 +739,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 3,
         "patternIndex": 0
       },
@@ -771,6 +753,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 4,
         "patternIndex": 0
       },
@@ -783,6 +767,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 5,
         "patternIndex": 0
       },
@@ -795,6 +781,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 6,
         "patternIndex": 0
       },
@@ -807,6 +795,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 7,
         "patternIndex": 0
       },
@@ -819,6 +809,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 8,
         "patternIndex": 0
       },
@@ -831,6 +823,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 9,
         "patternIndex": 0
       },
@@ -843,6 +837,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 9,
         "patternIndex": 1
       },
@@ -855,6 +851,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 10,
         "patternIndex": 0
       },
@@ -867,6 +865,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 11,
         "patternIndex": 0
       },
@@ -879,6 +879,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 12,
         "patternIndex": 0
       },
@@ -891,85 +893,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 13,
         "patternIndex": 0
       }
     }
   },
   "MainMagicTrap": {
-    "sub": 46,
-    "pat": [
-      8341,
-      0,
-      8341,
-      1,
-      8341,
-      2,
-      8487,
-      3,
-      8486,
-      4,
-      8600,
-      5,
-      8481,
-      6,
-      8502,
-      7,
-      8359,
-      8,
-      8501,
-      9,
-      8500,
-      10,
-      8679,
-      11,
-      8505,
-      12,
-      8506,
-      13,
-      8530,
-      14,
-      3641,
-      15,
-      3793,
-      16,
-      3499,
-      17,
-      5401,
-      18,
-      5401,
-      19,
-      14508,
-      20,
-      14509,
-      21,
-      14520,
-      22
-    ],
-    "engineparams": [
-      [
-        1,
-        2
-      ],
-      0,
-      [
-        4
-      ],
-      1,
-      [
-        260
-      ],
-      2,
-      [
-        1,
-        2
-      ],
-      18,
-      [
-        4
-      ],
-      19
-    ],
     "rawKvp": {
       "V0231_08_00_00_0": {
         "fullName": "V0231_08_00_00_0",
@@ -985,6 +916,8 @@
           1,
           2
         ],
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -1001,6 +934,8 @@
         "engineparams": [
           4
         ],
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       },
@@ -1017,6 +952,8 @@
         "engineparams": [
           260
         ],
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 2
       },
@@ -1031,6 +968,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 3
       },
@@ -1045,6 +984,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 4
       },
@@ -1059,6 +1000,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 5
       },
@@ -1073,6 +1016,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 6
       },
@@ -1087,6 +1032,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 7
       },
@@ -1101,6 +1048,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 8
       },
@@ -1115,6 +1064,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 9
       },
@@ -1129,6 +1080,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 10
       },
@@ -1143,6 +1096,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 11
       },
@@ -1157,6 +1112,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 12
       },
@@ -1171,6 +1128,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 13
       },
@@ -1185,6 +1144,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 14
       },
@@ -1199,6 +1160,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 15
       },
@@ -1213,6 +1176,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 16
       },
@@ -1227,6 +1192,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 17
       },
@@ -1244,6 +1211,8 @@
           1,
           2
         ],
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 18
       },
@@ -1260,6 +1229,8 @@
         "engineparams": [
           4
         ],
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 19
       },
@@ -1274,6 +1245,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 20
       },
@@ -1288,6 +1261,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 21
       },
@@ -1302,38 +1277,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 22
       }
     }
   },
   "MainMonsterEffect": {
-    "sub": 22,
-    "pat": [
-      8448,
-      0,
-      8447,
-      1,
-      8444,
-      2,
-      8445,
-      3,
-      8446,
-      4,
-      8302,
-      5,
-      8301,
-      6,
-      8171,
-      7,
-      8449,
-      8,
-      14470,
-      9,
-      14486,
-      10
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_09_00_00_0": {
         "fullName": "V0231_09_00_00_0",
@@ -1346,6 +1297,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -1360,6 +1313,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       },
@@ -1374,6 +1329,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 2
       },
@@ -1388,6 +1345,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 3
       },
@@ -1402,6 +1361,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 4
       },
@@ -1416,6 +1377,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 5
       },
@@ -1430,6 +1393,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 6
       },
@@ -1444,6 +1409,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 7
       },
@@ -1458,6 +1425,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 8
       },
@@ -1472,6 +1441,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 9
       },
@@ -1486,17 +1457,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 10
       }
     }
   },
   "BeforeSummon": {
-    "sub": 1,
-    "pat": [
-      4
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_10_00_00_0": {
         "fullName": "V0231_10_00_00_0",
@@ -1507,6 +1475,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -1519,6 +1489,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       },
@@ -1531,6 +1503,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 2
       },
@@ -1543,27 +1517,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 3
       }
     }
   },
   "Summon": {
-    "sub": 11,
-    "pat": [
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_11_00_00_0": {
         "fullName": "V0231_11_00_00_0",
@@ -1574,6 +1535,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -1586,6 +1549,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 1,
         "patternIndex": 0
       },
@@ -1598,6 +1563,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 2,
         "patternIndex": 0
       },
@@ -1610,6 +1577,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 3,
         "patternIndex": 0
       },
@@ -1622,6 +1591,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 4,
         "patternIndex": 0
       },
@@ -1634,6 +1605,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 5,
         "patternIndex": 0
       },
@@ -1646,6 +1619,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 6,
         "patternIndex": 0
       },
@@ -1658,6 +1633,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 7,
         "patternIndex": 0
       },
@@ -1670,6 +1647,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 8,
         "patternIndex": 0
       },
@@ -1682,6 +1661,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 9,
         "patternIndex": 0
       },
@@ -1694,40 +1675,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 10,
         "patternIndex": 0
       }
     }
   },
   "MainMonsterSummon": {
-    "sub": 24,
-    "pat": [
-      8448,
-      0,
-      8447,
-      1,
-      8444,
-      2,
-      8445,
-      3,
-      8446,
-      4,
-      8302,
-      5,
-      8301,
-      6,
-      8171,
-      7,
-      8760,
-      8,
-      8449,
-      9,
-      14470,
-      10,
-      14486,
-      11
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_13_00_00_0": {
         "fullName": "V0231_13_00_00_0",
@@ -1740,6 +1695,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -1754,6 +1711,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       },
@@ -1768,6 +1727,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 2
       },
@@ -1782,6 +1743,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 3
       },
@@ -1796,6 +1759,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 4
       },
@@ -1810,6 +1775,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 5
       },
@@ -1824,6 +1791,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 6
       },
@@ -1838,6 +1807,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 7
       },
@@ -1852,6 +1823,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 8
       },
@@ -1866,6 +1839,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 9
       },
@@ -1880,6 +1855,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 10
       },
@@ -1894,18 +1871,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 11
       }
     }
   },
   "BeforeMainSummon": {
-    "sub": 2,
-    "pat": [
-      14486,
-      0
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_37_00_00_0": {
         "fullName": "V0231_37_00_00_0",
@@ -1918,17 +1891,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       }
     }
   },
   "BattleStart": {
-    "sub": 1,
-    "pat": [
-      2
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_14_00_00_0": {
         "fullName": "V0231_14_00_00_0",
@@ -1939,6 +1909,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -1951,17 +1923,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       }
     }
   },
   "BeforeAttackNormal": {
-    "sub": 1,
-    "pat": [
-      3
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_15_00_00_0": {
         "fullName": "V0231_15_00_00_0",
@@ -1972,6 +1941,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -1984,6 +1955,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       },
@@ -1996,17 +1969,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 2
       }
     }
   },
   "Attack": {
-    "sub": 1,
-    "pat": [
-      3
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_17_00_00_0": {
         "fullName": "V0231_17_00_00_0",
@@ -2017,6 +1987,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -2029,6 +2001,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       },
@@ -2041,17 +2015,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 2
       }
     }
   },
   "BeforeAttackFinish": {
-    "sub": 1,
-    "pat": [
-      2
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_16_00_00_0": {
         "fullName": "V0231_16_00_00_0",
@@ -2062,6 +2033,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -2074,17 +2047,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       }
     }
   },
   "DirectAttack": {
-    "sub": 1,
-    "pat": [
-      2
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_18_00_00_0": {
         "fullName": "V0231_18_00_00_0",
@@ -2095,6 +2065,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -2107,40 +2079,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       }
     }
   },
   "MainMonsterAttack": {
-    "sub": 24,
-    "pat": [
-      8448,
-      0,
-      8447,
-      1,
-      8444,
-      2,
-      8445,
-      3,
-      8446,
-      4,
-      8302,
-      5,
-      8301,
-      6,
-      8171,
-      7,
-      8760,
-      8,
-      8449,
-      9,
-      14470,
-      10,
-      14486,
-      11
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_19_00_00_0": {
         "fullName": "V0231_19_00_00_0",
@@ -2153,6 +2099,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -2167,6 +2115,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       },
@@ -2181,6 +2131,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 2
       },
@@ -2195,6 +2147,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 3
       },
@@ -2209,6 +2163,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 4
       },
@@ -2223,6 +2179,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 5
       },
@@ -2237,6 +2195,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 6
       },
@@ -2251,6 +2211,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 7
       },
@@ -2265,6 +2227,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 8
       },
@@ -2279,6 +2243,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 9
       },
@@ -2293,6 +2259,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 10
       },
@@ -2307,18 +2275,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 11
       }
     }
   },
   "CardSet": {
-    "sub": 2,
-    "pat": [
-      2,
-      2
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_20_00_00_0": {
         "fullName": "V0231_20_00_00_0",
@@ -2329,6 +2293,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -2341,6 +2307,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       },
@@ -2353,6 +2321,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 1,
         "patternIndex": 0
       },
@@ -2365,121 +2335,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 1,
         "patternIndex": 1
       }
     }
   },
   "TurnEnd": {
-    "sub": 3,
-    "pat": [
-      1,
-      1,
-      1
-    ],
-    "rawKvp": {
-      "0": {
-        "fullName": "V0231_21_00_00_0",
-        "shortName": "V0231_21_00_00",
-        "voiceIdx": "0",
-        "cards": null,
-        "duelists": null,
-        "skills": null,
-        "situations": [
-          0
-        ],
-        "engineparams": null,
-        "subCategoryIndex": 0,
-        "patternIndex": 0
-      },
-      "1": {
-        "fullName": "V0231_21_00_01_0",
-        "shortName": "V0231_21_00_01",
-        "voiceIdx": "0",
-        "cards": null,
-        "duelists": null,
-        "skills": null,
-        "situations": [
-          0
-        ],
-        "engineparams": null,
-        "subCategoryIndex": 0,
-        "patternIndex": 1
-      },
-      "2": {
-        "fullName": "V0231_21_00_02_0",
-        "shortName": "V0231_21_00_02",
-        "voiceIdx": "0",
-        "cards": null,
-        "duelists": null,
-        "skills": null,
-        "situations": [
-          1
-        ],
-        "engineparams": null,
-        "subCategoryIndex": 0,
-        "patternIndex": 2
-      },
-      "3": {
-        "fullName": "V0231_21_00_03_0",
-        "shortName": "V0231_21_00_03",
-        "voiceIdx": "0",
-        "cards": null,
-        "duelists": null,
-        "skills": null,
-        "situations": [
-          1
-        ],
-        "engineparams": null,
-        "subCategoryIndex": 0,
-        "patternIndex": 3
-      },
-      "4": {
-        "fullName": "V0231_21_00_04_0",
-        "shortName": "V0231_21_00_04",
-        "voiceIdx": "0",
-        "cards": null,
-        "duelists": null,
-        "skills": null,
-        "situations": [
-          2
-        ],
-        "engineparams": null,
-        "subCategoryIndex": 0,
-        "patternIndex": 4
-      },
-      "5": {
-        "fullName": "V0231_21_00_05_0",
-        "shortName": "V0231_21_00_05",
-        "voiceIdx": "0",
-        "cards": null,
-        "duelists": null,
-        "skills": null,
-        "situations": [
-          2
-        ],
-        "engineparams": null,
-        "subCategoryIndex": 0,
-        "patternIndex": 5
-      }
-    }
-  },
-  "TurnEnd.01": {
-    "sub": 12,
-    "pat": [
-      0,
-      0,
-      0,
-      1,
-      1,
-      2,
-      1,
-      3,
-      2,
-      4,
-      2,
-      5
-    ],
     "rawKvp": {
       "V0231_21_00_00_0": {
         "fullName": "V0231_21_00_00_0",
@@ -2492,6 +2355,8 @@
           0
         ],
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -2506,6 +2371,8 @@
           0
         ],
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       },
@@ -2520,6 +2387,8 @@
           1
         ],
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 2
       },
@@ -2534,6 +2403,8 @@
           1
         ],
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 3
       },
@@ -2548,6 +2419,8 @@
           2
         ],
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 4
       },
@@ -2562,17 +2435,114 @@
           2
         ],
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
+        "subCategoryIndex": 0,
+        "patternIndex": 5
+      }
+    }
+  },
+  "TurnEnd.01": {
+    "rawKvp": {
+      "V0231_21_00_00_0": {
+        "fullName": "V0231_21_00_00_0",
+        "shortName": "V0231_21_00_00",
+        "voiceIdx": "0",
+        "cards": null,
+        "duelists": null,
+        "skills": null,
+        "situations": [
+          0
+        ],
+        "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
+        "subCategoryIndex": 0,
+        "patternIndex": 0
+      },
+      "V0231_21_00_01_0": {
+        "fullName": "V0231_21_00_01_0",
+        "shortName": "V0231_21_00_01",
+        "voiceIdx": "0",
+        "cards": null,
+        "duelists": null,
+        "skills": null,
+        "situations": [
+          0
+        ],
+        "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
+        "subCategoryIndex": 0,
+        "patternIndex": 1
+      },
+      "V0231_21_00_02_0": {
+        "fullName": "V0231_21_00_02_0",
+        "shortName": "V0231_21_00_02",
+        "voiceIdx": "0",
+        "cards": null,
+        "duelists": null,
+        "skills": null,
+        "situations": [
+          1
+        ],
+        "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
+        "subCategoryIndex": 0,
+        "patternIndex": 2
+      },
+      "V0231_21_00_03_0": {
+        "fullName": "V0231_21_00_03_0",
+        "shortName": "V0231_21_00_03",
+        "voiceIdx": "0",
+        "cards": null,
+        "duelists": null,
+        "skills": null,
+        "situations": [
+          1
+        ],
+        "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
+        "subCategoryIndex": 0,
+        "patternIndex": 3
+      },
+      "V0231_21_00_04_0": {
+        "fullName": "V0231_21_00_04_0",
+        "shortName": "V0231_21_00_04",
+        "voiceIdx": "0",
+        "cards": null,
+        "duelists": null,
+        "skills": null,
+        "situations": [
+          2
+        ],
+        "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
+        "subCategoryIndex": 0,
+        "patternIndex": 4
+      },
+      "V0231_21_00_05_0": {
+        "fullName": "V0231_21_00_05_0",
+        "shortName": "V0231_21_00_05",
+        "voiceIdx": "0",
+        "cards": null,
+        "duelists": null,
+        "skills": null,
+        "situations": [
+          2
+        ],
+        "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 5
       }
     }
   },
   "Win": {
-    "sub": 1,
-    "pat": [
-      4
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_28_00_00_0": {
         "fullName": "V0231_28_00_00_0",
@@ -2583,6 +2553,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -2595,6 +2567,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       },
@@ -2607,6 +2581,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 2
       },
@@ -2619,18 +2595,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 3
       }
     }
   },
   "WinSp": {
-    "sub": 2,
-    "pat": [
-      202,
-      4
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_28_00_04_0": {
         "fullName": "V0231_28_00_04_0",
@@ -2643,17 +2615,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 4
       }
     }
   },
   "Lose": {
-    "sub": 1,
-    "pat": [
-      4
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_29_00_00_0": {
         "fullName": "V0231_29_00_00_0",
@@ -2664,6 +2633,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -2676,6 +2647,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       },
@@ -2688,6 +2661,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 2
       },
@@ -2700,18 +2675,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 3
       }
     }
   },
   "LoseSp": {
-    "sub": 2,
-    "pat": [
-      202,
-      4
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_29_00_04_0": {
         "fullName": "V0231_29_00_04_0",
@@ -2724,17 +2695,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 4
       }
     }
   },
   "Taunt": {
-    "sub": 1,
-    "pat": [
-      3
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_30_00_00_0": {
         "fullName": "V0231_30_00_00_0",
@@ -2745,6 +2713,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -2757,6 +2727,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       },
@@ -2769,17 +2741,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 2
       }
     }
   },
   "Surprise": {
-    "sub": 1,
-    "pat": [
-      2
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_31_00_00_0": {
         "fullName": "V0231_31_00_00_0",
@@ -2790,6 +2759,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -2802,17 +2773,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       }
     }
   },
   "Skill": {
-    "sub": 1,
-    "pat": [
-      3
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_33_00_00_0": {
         "fullName": "V0231_33_00_00_0",
@@ -2823,6 +2791,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -2835,6 +2805,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       },
@@ -2847,17 +2819,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 2
       }
     }
   },
   "Chat": {
-    "sub": 1,
-    "pat": [
-      10
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_34_00_00_0": {
         "fullName": "V0231_34_00_00_0",
@@ -2868,6 +2837,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -2880,6 +2851,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       },
@@ -2892,6 +2865,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 2
       },
@@ -2904,6 +2879,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 3
       },
@@ -2916,6 +2893,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 4
       },
@@ -2928,6 +2907,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 5
       },
@@ -2940,6 +2921,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 6
       },
@@ -2952,6 +2935,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 7
       },
@@ -2964,6 +2949,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 8
       },
@@ -2976,17 +2963,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 9
       }
     }
   },
   "Title": {
-    "sub": 1,
-    "pat": [
-      2
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_32_00_00_0": {
         "fullName": "V0231_32_00_00_0",
@@ -2997,6 +2981,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -3009,17 +2995,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       }
     }
   },
   "CharaChange": {
-    "sub": 1,
-    "pat": [
-      2
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_35_00_00_0": {
         "fullName": "V0231_35_00_00_0",
@@ -3030,6 +3013,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -3042,17 +3027,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       }
     }
   },
   "SwitchToPartner": {
-    "sub": 1,
-    "pat": [
-      3
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_36_00_00_0": {
         "fullName": "V0231_36_00_00_0",
@@ -3065,6 +3047,8 @@
           0
         ],
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -3079,6 +3063,8 @@
           1
         ],
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       },
@@ -3093,17 +3079,14 @@
           2
         ],
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 2
       }
     }
   },
   "Damage": {
-    "sub": 1,
-    "pat": [
-      3
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_22_00_00_0": {
         "fullName": "V0231_22_00_00_0",
@@ -3114,6 +3097,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -3126,6 +3111,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       },
@@ -3138,17 +3125,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 2
       }
     }
   },
   "AfterDamage": {
-    "sub": 1,
-    "pat": [
-      3
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_26_00_00_0": {
         "fullName": "V0231_26_00_00_0",
@@ -3159,6 +3143,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -3171,6 +3157,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       },
@@ -3183,17 +3171,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 2
       }
     }
   },
   "BigDamage": {
-    "sub": 1,
-    "pat": [
-      3
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_25_00_00_0": {
         "fullName": "V0231_25_00_00_0",
@@ -3204,6 +3189,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -3216,6 +3203,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       },
@@ -3228,17 +3217,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 2
       }
     }
   },
   "AfterBigDamage": {
-    "sub": 1,
-    "pat": [
-      3
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_27_00_00_0": {
         "fullName": "V0231_27_00_00_0",
@@ -3249,6 +3235,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       },
@@ -3261,6 +3249,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 1
       },
@@ -3273,17 +3263,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 2
       }
     }
   },
   "CostDamage": {
-    "sub": 1,
-    "pat": [
-      1
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_24_00_00_0": {
         "fullName": "V0231_24_00_00_0",
@@ -3294,17 +3281,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       }
     }
   },
   "FinishDamage": {
-    "sub": 1,
-    "pat": [
-      1
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_23_00_00_0": {
         "fullName": "V0231_23_00_00_0",
@@ -3315,17 +3299,14 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       }
     }
   },
   "RidingDuelStart": {
-    "sub": 1,
-    "pat": [
-      1
-    ],
-    "engineparams": [],
     "rawKvp": {
       "V0231_38_00_00_0": {
         "fullName": "V0231_38_00_00_0",
@@ -3336,6 +3317,8 @@
         "skills": null,
         "situations": null,
         "engineparams": null,
+        "groupingKeys": null,
+        "homeTypes": null,
         "subCategoryIndex": 0,
         "patternIndex": 0
       }
