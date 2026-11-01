@@ -486,5 +486,451 @@
     }
   ],
   "artwork": "The game UI owns the shared Resources/Adventures/Expedition/Sanctuary texture. This package does not declare or own a loose artwork file.",
-  "replayability": "Three difficulty tiers: Standard (3 lives), Veteran (2), Expert (1), each with three registered opponent candidates per stage. Run creation samples two ordinary opponents and one of three tier-eligible bosses, permanently snapshotted in the run. Six distinct bosses across the catalog. Mastery is a compact completion record inside the atomic run save; no permanent power bonuses."
+  "replayability": "Three difficulty tiers: Standard (3 lives), Veteran (2), Expert (1), each with three registered opponent candidates per stage. Run creation samples two ordinary opponents and one of three tier-eligible bosses, permanently snapshotted in the run. Six distinct bosses across the catalog. Mastery is a compact completion record inside the atomic run save; no permanent power bonuses.",
+  "authoredSourceCommit": "c3c3cfb76df69a9dd052a02c430af9d06104b33e",
+  "authoredSourcePath": "Data/Adventures/DuelExpedition/expedition.json",
+  "authoredDeckPolicy": "Revision 3 retains curated historical deck lists from the incoming catalog. Their executor is a supported behavior provider, not a claim that these lists equal its registered default deck. deckSha256 hashes compact UTF-8 JSON with main then extra arrays. Existing saved runs retain their content snapshots.",
+  "authoredOpponents": [
+    {
+      "title": "Blaze of Destruction",
+      "executor": "Burn",
+      "deckSha256": "33ecff0e3c24117fc651f35a6e2f7da665d510b5183975ecb0ef40b9acafc9f4",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/BurnExecutor.cs",
+      "sourceSha256": "acb3c7a8c6ad8f2a64ebbd6f6a4c81a91ca7dce7ba28ebe34655b844fc180251"
+    },
+    {
+      "title": "Codebreaker",
+      "executor": "Lucky",
+      "deckSha256": "dd38f2b21a98b03a46081e2711ac5e3b3c4b93161fe27705e9d36c7b82b499c2",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Cyber Dragon Revolution",
+      "executor": "Lucky",
+      "deckSha256": "5c62a4df0c1515776873f492d0f0f1feadd9b8ae0608f840974d040d84d4317d",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Cyberse Link",
+      "executor": "Lucky",
+      "deckSha256": "8c48c70c22df825f0716c614dc7869c7eb84798fdd8ea44961bf4b7005e4595b",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Dark Legion",
+      "executor": "Lucky",
+      "deckSha256": "ceac5316284c1a6288a04cb6e2cec2d5e307b3bc8dfc4e58e50d6f0a50fd0aa7",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Dawn of the Xyz",
+      "executor": "Lucky",
+      "deckSha256": "68bc540d88a4a81300ce2251e339be9c19471915991d4d32f84ca97ce4c8203a",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Dinosaur's Rage",
+      "executor": "Lucky",
+      "deckSha256": "5e68785ad62ce698bdf3e73755f6f1710be7ef2b3e3893e0a7775931cd6e25fd",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Dinosmasher's Fury",
+      "executor": "Lucky",
+      "deckSha256": "03038927114a580fb993c1e6378b28b3118cfaf7447622fee81f6634be745f59",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Dragon's Roar",
+      "executor": "Lucky",
+      "deckSha256": "c94296810ad0036dcafacc60880db1e5bdbdce72e81509eb77f801d21dbe44d1",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Dragons Collide",
+      "executor": "Chaos408",
+      "deckSha256": "f0598f4c0bae47e0992c43ca07a547582306bb295195ce683ef7c6fea985811b",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/Chaos408Executor.cs",
+      "sourceSha256": "69fe33726925480d87344fed5aaee66edeb2e519aefa0c975ebdabfa2554fcbf"
+    },
+    {
+      "title": "Dragunity Legion",
+      "executor": "Dragunity",
+      "deckSha256": "1e1ddd2f2af92d0cdbbcd81c309af47751bc5a82ac02865235471c53a2d15137",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/DragunityExecutor.cs",
+      "sourceSha256": "127b13676990bd97720a23a8461debcf1170b7f508fa1483846d78a73d562749"
+    },
+    {
+      "title": "Emperor of Darkness",
+      "executor": "Monarch506",
+      "deckSha256": "c4e072807c4a60d7d500437bca5f1120fd6fd687b00801441236073137666826",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/Monarch506Executor.cs",
+      "sourceSha256": "54c90afaf7e8b75a650ef6f1f946fea3346030b8b2a221fd5cf93d527c7ec64a"
+    },
+    {
+      "title": "Freezing Chains",
+      "executor": "Lucky",
+      "deckSha256": "e3dd72e52902bd7403831ec2393da2d5a34a18456c2e19fafc924acaece37346",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Fury from the Deep",
+      "executor": "Lucky",
+      "deckSha256": "b1d445d7c7cbbacb5e869353af6bcfaab81c680355464263c09aff0ba24eb4b5",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Gates of the Underworld",
+      "executor": "Lucky",
+      "deckSha256": "775bbfd8f5a601f567050f95db4f2bbcbd076a6f0abada7ed20aced21dbaa21d",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Geargia Rampage",
+      "executor": "Lucky",
+      "deckSha256": "014160acb14f049cd8d56fbb2164b81535a16dc80a9087ac5a186aa98dc9b07d",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "HERO Strike",
+      "executor": "HeroBeat1103",
+      "deckSha256": "19c3f645c053b9c81d95f0e0da7e8b893f61fa685d94521701ea2a5a96bba1f6",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/HeroBeat1103Executor.cs",
+      "sourceSha256": "a80f7d4e8c6417815723c430e45daf8b0d40ebe96690271b2ad03b4d0b2867e3"
+    },
+    {
+      "title": "Invincible Fortress",
+      "executor": "Lucky",
+      "deckSha256": "f48c1f23fcab2d95f92c926eca659409446e7f678bdc7d709c4c4330e38371a2",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Kaiba Reloaded",
+      "executor": "Blue-Eyes",
+      "deckSha256": "fced01ec29341a3a3ae6f0006562fd8229dcd9fc18509efdc35453da8420237f",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/BlueEyesExecutor.cs",
+      "sourceSha256": "6c35049ae9ea81ef7a6040ba1fa73221661548bc8ac044f7d45d27c1ed32f0b8"
+    },
+    {
+      "title": "Lair of Darkness",
+      "executor": "Lucky",
+      "deckSha256": "e9dee3114a2bbd37784d7aede39c3135ad8d3dfa0f762db56acca6ec5e5c6614",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Link Strike",
+      "executor": "Lucky",
+      "deckSha256": "c351a52fe3d6cd396060b81960e7efd8de42fb6609a0def4da0bdf6bf52c96a6",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Lord of the Storm",
+      "executor": "Lucky",
+      "deckSha256": "963af7cff95197ffffdc49851b9699faa1776e687b67c55c5ac81b019bf03ce6",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Lost Sanctuary",
+      "executor": "Lucky",
+      "deckSha256": "33b7c41ae25157fe5b3196c4d7b8e10c1ba12cd66518b84d20b4c75af2a72bb5",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Machina Mayhem",
+      "executor": "Lucky",
+      "deckSha256": "e4f2314beee12a2bfa86087a9d44ab2cca53dce723362d65a891d003c5d09058",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Machine Re-Volt",
+      "executor": "Lucky",
+      "deckSha256": "47fd267bcde0e5de4f339277ce5293b10bfe27ddfc56749d89958a632ed2b248",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Machine Reactor",
+      "executor": "Lucky",
+      "deckSha256": "6ceb0089cdb60db18772d652a5bc68f6d7f6a74085954eee0002b1dbbc93860e",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Master of Pendulum",
+      "executor": "Lucky",
+      "deckSha256": "93318f1e0b574f856f23beabe1031fb0c87e5853ac505aae0eddc605afceee9d",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Mechanized Madness",
+      "executor": "Lucky",
+      "deckSha256": "ba14bfef3b432dfc4840fc7a6c1e6bfd8d47423dbdd3a2356dac9fa405bf9188",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Onslaught of the Fire Kings",
+      "executor": "Lucky",
+      "deckSha256": "a0bddd4e23e5ff680b19c648bf59ecc4e26477257cb5c31132f12bd55b6717d4",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Order of the Spellcasters",
+      "executor": "Lucky",
+      "deckSha256": "eb97cb57a433ef4fca0a89a0aac67332bed203963b179718d280e038b57c95b0",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Pendulum Domination",
+      "executor": "Lucky",
+      "deckSha256": "193ca7c12d5f38198c931bc36a8aa6e6b3599fcaa985dd9d3f093fc49770ef92",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Powercode Link",
+      "executor": "Lucky",
+      "deckSha256": "f856c2776fe77c7f1ff89af82a612a758ef99e871f1bca8fe8c75d40a4f71127",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Realm of Light",
+      "executor": "Lightsworn",
+      "deckSha256": "00b4658d8aaa44d13c4ad62414c6a9e46ae3284c036c354fa322e9a529973530",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LightswornExecutor.cs",
+      "sourceSha256": "189d781c60f430d5ab60e50dd06e8bc7a65b56fe4c3c873ba9ce630f0d0fe8fa"
+    },
+    {
+      "title": "Realm of the Sea Emperor",
+      "executor": "Lucky",
+      "deckSha256": "8176fc0aeccd7a366a536df150c00544fe50f2f6d92ed76bce708f2ada884063",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Rise of the Dragon Lords",
+      "executor": "Lucky",
+      "deckSha256": "2155352e9b883246c222b0416647ccd763543e1184d86f3c85daf3017316be29",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Rise of the True Dragons",
+      "executor": "Lucky",
+      "deckSha256": "78701928f6d4844ad5a71da5f8fb2212afcac335440e835e67881bd65bf9a5d9",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Rokket Revolt",
+      "executor": "Lucky",
+      "deckSha256": "9563d89cc3ab977b913e565faef31056d349592d8b9d4a6c172cf753c9774123",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Saber Force",
+      "executor": "Lucky",
+      "deckSha256": "91b66d5150397261b70dbcbecbd4e1689c74b54af2dd1b4a5800fa5fad22a3bd",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Sacred Beasts",
+      "executor": "Lucky",
+      "deckSha256": "841741a31d6fe75c20f91cb0e93c58a3e74a80f39643a1804a9a877d972cce1c",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Saga of Blue-Eyes White Dragon",
+      "executor": "Blue-Eyes",
+      "deckSha256": "bb9e3ef1ea1b97664886bab39ef0662c6f73bdc419e2eb5b3b6e21ea1612533c",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/BlueEyesExecutor.cs",
+      "sourceSha256": "6c35049ae9ea81ef7a6040ba1fa73221661548bc8ac044f7d45d27c1ed32f0b8"
+    },
+    {
+      "title": "Samurai Warlords",
+      "executor": "Lucky",
+      "deckSha256": "c43c03094e8ac4c207446e22a8221b863e72f2d5ac41538eb3f8f48e883204ae",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Seto Kaiba",
+      "executor": "Blue-Eyes",
+      "deckSha256": "a81db556e18c46cab923f3915015aabfd2c888a9b11ec84927fe40a95a978b6f",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/BlueEyesExecutor.cs",
+      "sourceSha256": "6c35049ae9ea81ef7a6040ba1fa73221661548bc8ac044f7d45d27c1ed32f0b8"
+    },
+    {
+      "title": "Shaddoll Showdown",
+      "executor": "Lucky",
+      "deckSha256": "f12484e67de5dfd4433f5a3f48bd297bfae2fbf97ee7ba9264e324fc18364baf",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Soulburner",
+      "executor": "Lucky",
+      "deckSha256": "30300be936eb716a84fdee3de122badd888221d559c0ecb09a8467d1a5f235ad",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Space-Time Showdown",
+      "executor": "Lucky",
+      "deckSha256": "9724ed43c47aac3bf5435e5ca4d07973356376b3cf3f052e909d8b4cf7046b0e",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Spellcaster's Command",
+      "executor": "Lucky",
+      "deckSha256": "048ca6b16246fa18bb6b9e2510af2e11168f96b64bb0ae235c1c0241338c42f1",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Spellcaster's Judgment",
+      "executor": "Lucky",
+      "deckSha256": "f711ceb6799b08d90d31d02d7c21fb0a06dbcec06bb98547ca794edfa490ce76",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Spirit Charmers",
+      "executor": "Lucky",
+      "deckSha256": "f637448ef671401c1542ced63650c2facfae3a4b310c834f75b56cabef2d529d",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Synchron Extreme",
+      "executor": "Lucky",
+      "deckSha256": "f3ada355a6e35cc2e3730aa8a8be2373df1680a51dc9904bc2de8dd4cd84a7bc",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "The Dark Emperor",
+      "executor": "Monarch506",
+      "deckSha256": "a02fab3911ae4de64705636258fe71e558a0404c8878584c017787e2c759d489",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/Monarch506Executor.cs",
+      "sourceSha256": "54c90afaf7e8b75a650ef6f1f946fea3346030b8b2a221fd5cf93d527c7ec64a"
+    },
+    {
+      "title": "V for Victory",
+      "executor": "Lucky",
+      "deckSha256": "455b18485685ee269f0e83cce968825a38d53f926db8f430eb54270c77a85e34",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Warrior's Triumph",
+      "executor": "Lucky",
+      "deckSha256": "ec3dafe41915f0fddd63e8160d3270d20afa7296adb9a952860634fa3eaf144c",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Warriors' Strike",
+      "executor": "Lucky",
+      "deckSha256": "78cfa4d85d4b4aaabf3f37f5be9032185e97fbb2b598325f7548ba9d102f45a9",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Wave of Light",
+      "executor": "Lucky",
+      "deckSha256": "18ae3183bb655232ed3de4d61ca669556e72e34cec496d5da4a32778a9f8e8da",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Xyz Symphony",
+      "executor": "Lucky",
+      "deckSha256": "6c2f9c8d16f9d1c3cf0f0f421ebabc8ccefc72b58f482b70a1622848c5809452",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Yu-Gi-Oh! 5D's",
+      "executor": "Lucky",
+      "deckSha256": "21a8ad2cb2493fdf2b74af08cc88edfed8200b3e70fe4ebd043dc45de6f1563a",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Yu-Gi-Oh! 5D's 2009",
+      "executor": "Lucky",
+      "deckSha256": "2f338f62935d22783db8d0c67e8c8b6e921f1307e355918dfd9817e069482c37",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Yugi Muto",
+      "executor": "DarkMagician",
+      "deckSha256": "68f0fbe86035a14f825d452593de0f34485bb9432def2eb7d47dc2683516fe2e",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/DarkMagicianExecutor.cs",
+      "sourceSha256": "0557010c502a0b7b7769179f251e734dcc9353a0919f199d42e561af4cad02fd"
+    },
+    {
+      "title": "Yugi Reloaded",
+      "executor": "DarkMagician",
+      "deckSha256": "cf9eacc00caae659a6d9148db5cdf744672c11a496389f63cd48f789a640c786",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/DarkMagicianExecutor.cs",
+      "sourceSha256": "0557010c502a0b7b7769179f251e734dcc9353a0919f199d42e561af4cad02fd"
+    },
+    {
+      "title": "Yuya",
+      "executor": "Lucky",
+      "deckSha256": "b15b8bf88c2ce9bdbde27c0b35bff480f0a47a92576d5bbe65132f1d63011e4e",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Zombie Horde",
+      "executor": "Lucky",
+      "deckSha256": "218db66bc2776513a471ec5d0f8474e6cdf124640a3f36f6bb2dcc0773b96ec8",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Zombie Madness",
+      "executor": "Lucky",
+      "deckSha256": "0586adf1179482277509fe35011ee62cbcde3f5f7f8a11fb61d5883ad52ec9a4",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    },
+    {
+      "title": "Zombie World",
+      "executor": "Lucky",
+      "deckSha256": "446bf29637adcf815e736077cc973dc42618f7e9a75d7d499c860d8625c6f82f",
+      "source": "Assets/Scripts/Windbot/Game/AI/Decks/LuckyExecutor.cs",
+      "sourceSha256": "ae4a489a4c9eb3d2f5c8c2749d4ef07004de319cb32056c7002d3975169be3f3"
+    }
+  ]
 }
